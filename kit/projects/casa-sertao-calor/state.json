@@ -1,0 +1,48 @@
+{
+  "id": "casa-sertao-calor",
+  "title": "Casa no Sertão: por que o quarto ainda esquenta à noite",
+  "mode": "production",
+  "stage": "scene-review-awaiting-validation",
+  "label": "Narração aprovada; cenas visuais 3D em revisão do criador.",
+  "decisions": {
+    "topic": "Casa no Sertão: por que o quarto ainda esquenta à noite",
+    "format": "vertical 9:16, duração definida depois da voz",
+    "story_world": "Semiárido brasileiro como direção criativa; cidade e tipologia ainda não fixadas",
+    "name": null,
+    "voice": null
+  },
+  "approvals": {
+    "narrative": true,
+    "resources": false,
+    "preview": false,
+    "scenes": false
+  },
+  "narration_candidates": {
+    "reference_faithful": "narrative-reference-faithful.md — mantém a ordem causal do Reel e cria outra redação e encenação",
+    "superseded": [
+      "narrative-A.md",
+      "narrative-B.md",
+      "narrative-C.md"
+    ]
+  },
+  "pending": [
+    "Revisar e aprovar ou pedir ajustes nas 13 cenas pela prévia 3D; a aprovação de cena não aprova assets individualmente.",
+    "Depois da revisão das cenas, concluir revisões individuais dos assets; a escolha de voz e os tempos finais continuam pendentes."
+  ],
+  "next_action": "Abrir a prévia visual vertical e decidir por cena; a aprovação do plano e dos assets permanece separada.",
+  "narrative_review": {
+    "status": "approved",
+    "channel": "chat",
+    "statement": "Aprovado",
+    "revision_sha256": "fb14657b981d0be1a94c4ad94fcededa29b5f6bee6f7ba222636ae8bfb408591",
+    "reviewed_at": "2026-11-08T04:24:24Z"
+  },
+  "lexical_audit": {
+    "file": "lexical-review.json",
+    "tokens": 292,
+    "contiguous_groups_1_to_3_words": 740,
+    "unmapped_tokens": 0,
+    "unmapped_groups": 0,
+    "catalog_literal_match": "“barreira” descartado: o match do catálogo é uma barreira física, não barreira radiante."
+  }
+}

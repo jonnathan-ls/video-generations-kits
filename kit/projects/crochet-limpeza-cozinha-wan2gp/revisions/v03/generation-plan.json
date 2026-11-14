@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "projectId": "crochet-limpeza-cozinha-wan2gp",
+  "status": "ai-only-modeling-before-generation",
+  "durationSeconds": 29.375,
+  "source": {
+    "url": "https://www.instagram.com/reel/Dck3Gz1SHr0/",
+    "localPath": "research/references/crochet-mini-kitchen/source.mp4",
+    "sha256": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+    "samplingFps": 10,
+    "sampledFrames": 294,
+    "usedFor": "ordem dos acontecimentos, ritmos e candidatos a cortes",
+    "passedToAnyModel": false,
+    "sourceAudioUsed": false
+  },
+  "productionMethod": {
+    "pipeline": "wan2gp-local-ai-video",
+    "visualGeneration": "local generative models only",
+    "threeJsScenesOrAssets": false,
+    "codeDrawnVisuals": false,
+    "editorialCodeAllowedFor": ["hard cuts", "timing", "audio synchronization", "delivery encoding"],
+    "referenceInputPolicy": "no source frames, source audio or source video enter any model queue"
+  },
+  "generationStrategy": {
+    "method": "AI-generated image anchors followed by local Wan2GP image-to-video per beat",
+    "imageModelCandidate": {
+      "name": "Qwen Image 2.1 Turbo 8 Steps",
+      "configuredIn": "kit/integrations/wan2gp/runtime/wgp_config.json",
+      "role": "generate and edit internal start/end frames with a consistent crochet kitchen design",
+      "weightsStatus": "not-present-in-vendor/wan2gp/ckpts-or-models.lock.json"
+    },
+    "videoModelCandidate": {
+      "modelType": "fun_inp_1.3B",
+      "workflow": "start-and-end-frame animation",
+      "role": "animate AI-generated keyframes and the action prompt for one beat",
+      "weightsStatus": "not-present-in-vendor/wan2gp/ckpts-or-models.lock.json"
+    },
+    "rejectedPreviousModel": {
+      "modelType": "t2v_nexus_1.3B",
+      "reason": "the prior 12-clip text-only run was rejected for crochet texture inconsistency and action/layout drift; do not repeat it unchanged"
+    },
+    "rejectedRevision02Method": {
+      "method": "Three.js kitchen guide plus Wan2GP GUV",
+      "reason": "the creator specified an AI-generated visual pipeline; the guide was never built or rendered"
+    },
+    "nativeSettings": "not-materialized: verify model metadata, licenses, dimensions, weights, VRAM fit and local hashes before pinning settings"
+  },
+  "editorialPlan": {
+    "beatsFile": "beats.json",
+    "styleBibleFile": "style-bible.json",
+    "soundDesignFile": "sound-design.json",
+    "shotCount": 12,
+    "cutPolicy": "retain the observed order and fast task changes; keep each generated shot to one dominant cleaning action and cut on visible state changes",
+    "audioPolicy": "create an original foley and music mix after the generated motion is accepted; align every cue to the actual visible contact, not the prompt timing"
+  },
+  "proofGate": {
+    "firstOnly": "01-pia-louca",
+    "durationSeconds": 3.65,
+    "expandOnlyIf": [
+      "all visible solid kitchen surfaces and props read clearly as crochet throughout the clip",
+      "stitch scale and yarn texture stay temporally stable in preparation, contact and result",
+      "the sponge remains in contact and soap, scrubbing, rinsing and rack placement occur in order",
+      "the AI-generated image anchor and motion preserve the intended kitchen identity without 3D or source-video guidance",
+      "no P0/P1 finding remains in the professional hook review"
+    ]
+  },
+  "runBoundary": {
+    "generationStarted": false,
+    "gpuUsedByRevision03": false,
+    "doctorOrCudaCalled": false,
+    "imageAnchorsGenerated": false,
+    "videoRendered": false,
+    "finalAssemblyRendered": false,
+    "localModelAudit": {
+      "checkpointDirectory": "vendor/wan2gp/ckpts",
+      "candidateWeightsPresent": false,
+      "onlyProjectModelsPresent": "rejected t2v_nexus_1.3B plus its shared Wan2.1 encoders and VAE",
+      "freeDiskGiBAtCheck": 6.5,
+      "downloadAttempted": false,
+      "consequence": "The 7B Qwen image model and Fun InP 1.3B are not available locally; a reproducible AI-only queue cannot run yet."
+    },
+    "nextGate": "resolve local checkpoint availability and storage, then pin an executable Wan2GP queue; stop before inference while the other chat uses the RTX"
+  },
+  "creatorReview": {
+    "decisionRequested": "none-at-this-stage",
+    "reason": "the creator already directed an AI-only local Wan2GP workflow; no approval of a 3D resource list or pre-generation plan is required",
+    "firstVisualReview": "the actual Wan2GP proof clip after GPU availability",
+    "resourceCatalogApproval": "not-applicable",
+    "generatedClipApproval": "pending-first-proof-clip"
+  }
+}

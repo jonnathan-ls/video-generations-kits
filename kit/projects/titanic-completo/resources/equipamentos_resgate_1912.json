@@ -1,0 +1,28 @@
+{
+  "id": "equipamentos_resgate_1912",
+  "label": "Objetos de resgate e ponte em detalhe",
+  "module": "period-rescue-props.js",
+  "kind": "object",
+  "variants": [
+    "lifebelt",
+    "blanket",
+    "whistle",
+    "lantern",
+    "wheel",
+    "bell",
+    "rope",
+    "newspaper",
+    "headphones",
+    "oar"
+  ],
+  "description": "Adereços reutilizáveis: colete, manta, apito, lanterna, roda de leme, sino, corda, jornal, fone e remo. Detalhes sem alegar pertencerem a testemunho específico.",
+  "category": "direcao de arte historica",
+  "aliases": [
+    "Objetos de resgate e ponte em detalhe"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:rescue-detail-props"
+  },
+  "baselineIds": []
+}

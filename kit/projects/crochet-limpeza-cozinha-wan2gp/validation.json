@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "status": "not-verified",
+  "checks": {
+    "referenceAndBeatModel": "pass-inherited: 294 frames sampled at 10 fps; 12 beats cover 29.375 s; the source is not model input",
+    "creatorCorrection": "pass: local Wan2GP AI visual pipeline; no Three.js guide or code-drawn scene",
+    "resourceCatalogApproval": "not-applicable: no 3D assets are planned",
+    "modelAndWeights": "not-verified: Qwen Image availability is not pinned; Fun InP 1.3B is not in the current model lock",
+    "gpuBoundary": "pass: no Wan2GP doctor, CUDA, image generation, video generation or render was started for revision 03",
+    "crochetTextureAndMotion": "not-verified: no revision 03 clip exists",
+    "soundAndMix": "not-verified: cues are proposed and must be aligned to actual generated movement",
+    "professionalVideoReview": "not-verified: no revision 03 audiovisual artifact exists"
+  },
+  "findings": [
+    {
+      "id": "v3-model-lock-incomplete",
+      "severity": "P1",
+      "observation": "The candidate image and video model weights are not pinned in the local model lock.",
+      "correction": "Verify native model metadata, local weights, licenses and settings before preparing an executable queue."
+    },
+    {
+      "id": "v3-proof-clip-pending",
+      "severity": "P1",
+      "observation": "The crochet texture, action, continuity, cuts and sound have not been inspected on a generated revision 03 clip.",
+      "correction": "After the GPU is free, generate the first beat through Wan2GP and complete professional motion and audio QA before expanding."
+    }
+  ],
+  "releaseDecision": "not-verified; no preview or video is ready to present",
+  "nextGate": "creative review and static model verification; then one Wan2GP proof clip when the GPU is free"
+}

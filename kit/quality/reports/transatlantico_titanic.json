@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "1eeac105c716073348f94c9aa7f6c5a1ccc004c7120b9b7e4da2c0e01d6b8b1e",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "titanic",
+      "meshes": 261,
+      "triangles": 9474,
+      "dimensions": [
+        33.84000015258789,
+        49.5,
+        269.1000061035156
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "titanic: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T03:51:32.546Z"
+}

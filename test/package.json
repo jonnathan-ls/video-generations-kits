@@ -1,0 +1,10 @@
+{
+  "name": "motion-storyboard-experiment",
+  "private": true,
+  "scripts": {
+    "test": "python3 scripts/verify.py"
+  },
+  "devDependencies": {
+    "playwright-core": "1.65.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "partida_transatlantico",
+  "label": "Partida do Titanic em 1912",
+  "kind": "scene",
+  "category": "historico_maritimo",
+  "description": "Contexto portuário ilustrativo para entrada cronológica, dia distinto da noite do resgate. Manter navio reconhecível, cais e água em contato, pessoas em escala. Evitar detalhes documentais específicos sem fonte. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "historical-liners.js",
+  "aliases": [
+    "parte da Inglaterra",
+    "Partida do Titanic em 1912"
+  ],
+  "variants": [
+    "titanic"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:partida-1912"
+  },
+  "baselineIds": []
+}

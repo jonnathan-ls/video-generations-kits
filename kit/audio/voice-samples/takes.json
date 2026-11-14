@@ -1,0 +1,31 @@
+{
+  "language": "pt-br",
+  "engine": "kokoro-onnx",
+  "approvedVoice": null,
+  "takes": [
+    {
+      "voice": "pf_dora",
+      "paragraph": 1,
+      "text": "O que parece uma parede simples pode esconder um caminho inteiro de água. Ao abrir um corte, acompanhamos cada conexão e entendemos a função de cada peça.",
+      "file": "pf_dora-p1.wav",
+      "sampleRate": 24000,
+      "duration": 9.008
+    },
+    {
+      "voice": "pm_alex",
+      "paragraph": 1,
+      "text": "O que parece uma parede simples pode esconder um caminho inteiro de água. Ao abrir um corte, acompanhamos cada conexão e entendemos a função de cada peça.",
+      "file": "pm_alex-p1.wav",
+      "sampleRate": 24000,
+      "duration": 9.304
+    },
+    {
+      "voice": "pm_santa",
+      "paragraph": 1,
+      "text": "O que parece uma parede simples pode esconder um caminho inteiro de água. Ao abrir um corte, acompanhamos cada conexão e entendemos a função de cada peça.",
+      "file": "pm_santa-p1.wav",
+      "sampleRate": 24000,
+      "duration": 9.342
+    }
+  ]
+}

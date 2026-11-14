@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "checkedAt": "2026-11-09T13:59:21.515Z",
+  "status": "not-verified",
+  "scope": "preflight estático da modelagem; não valida textura, motion, áudio renderizado nem qualidade de vídeo",
+  "errors": [],
+  "checks": [
+    {
+      "id": "source-hash-and-sampling",
+      "status": "pass",
+      "method": "hash do arquivo local e metadados comparados; 294 quadros a 10 fps; origem excluída da fila",
+      "evidence": "research/references/crochet-mini-kitchen/source.mp4"
+    },
+    {
+      "id": "12-beat-coverage-and-timing",
+      "status": "pass",
+      "method": "12 beats cobrem intervalos contíguos de 0 a 29,375 s",
+      "evidence": "beats.json"
+    },
+    {
+      "id": "visual-plan-and-action-states",
+      "status": "pass",
+      "method": "cada beat tem alvo, pergunta, evento, estados, câmera, som e sequência de ação; sem fala",
+      "evidence": "beats.json"
+    },
+    {
+      "id": "cut-candidate-bounds",
+      "status": "pass",
+      "method": "candidatos e inserts propostos ficam dentro do beat correspondente",
+      "evidence": "beats.json"
+    },
+    {
+      "id": "resource-backlog-before-build",
+      "status": "pass",
+      "method": "inventário sem narração segue o contrato do Studio: cada recurso criado tem item de backlog do mesmo ID e tipo; itens ignorados têm justificativa",
+      "evidence": "asset-plan.json; backlog.json"
+    },
+    {
+      "id": "sound-cues-linked-and-bounded",
+      "status": "pass",
+      "method": "cada cue tem beat e contato; todos ficam dentro da duração total",
+      "evidence": "sound-design.json"
+    },
+    {
+      "id": "wan2gp-method-pinned",
+      "status": "pass",
+      "method": "modo, denoise inicial, checkpoint e commit comparados aos locks locais; eficácia em crochê permanece não verificada",
+      "evidence": "generation-plan.json; kit/integrations/wan2gp/models.lock.json"
+    },
+    {
+      "id": "render-boundary-preserved",
+      "status": "pass",
+      "method": "nenhuma geração, doctor/CUDA, guia ou vídeo foi iniciada nesta revisão",
+      "evidence": "generation-plan.json"
+    }
+  ],
+  "sourceSha256": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+  "inputSha256": {
+    "generation-plan.json": "09da4d9ff2c898c36768431e75b8d4a7b989cb974d22e406389266c10e92cbbc",
+    "style-bible.json": "53c1fc2a8445bdf822c4ecce077e5e7167610f97e881f302aa5f65beae9a1516",
+    "beats.json": "86ac19f8af2a9e6ce18f15cbe76d0acf931fe73e37ff77762354806ec8ea9523",
+    "asset-plan.json": "cc0212b5245e3201811c8a08bacfed5752c6645dc22c968bdbd44420f5ba97ad",
+    "backlog.json": "2b6d7600775eab9c95444796cf6eea570b127b6a87ce8107225d14d53850b1d0",
+    "sound-design.json": "9e7b1bdea75f61445d5c983de8ce7580b954c26c6eba3a8ca83a1e831a519df4"
+  },
+  "gpuUsed": false,
+  "guideRendered": false,
+  "videoRendered": false,
+  "nativeWan2gpDryRun": "not-run; o dry-run do adaptador chama doctor/CUDA e foi deliberadamente evitado",
+  "nextGate": "creator validates revision 02 and the resource plan; then GPU availability and explicit authorization are checked before any guide or Wan2GP render"
+}

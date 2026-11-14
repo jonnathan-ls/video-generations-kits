@@ -1,0 +1,31 @@
+{
+  "preview": true,
+  "validation": {
+    "ok": false,
+    "errors": [
+      "Cena 1: explicação e ação visual são obrigatórias.",
+      "Qualidade técnica desatualizada: salao_bordo_1912",
+      "Aprovação humana pendente: salao_bordo_1912/padrao",
+      "Qualidade técnica desatualizada: luz_interiores_bordo",
+      "Aprovação humana pendente: luz_interiores_bordo/padrao",
+      "Cena 2: explicação e ação visual são obrigatórias.",
+      "Qualidade técnica desatualizada: alojamento_bordo_1912",
+      "Aprovação humana pendente: alojamento_bordo_1912/padrao",
+      "Cena 3: explicação e ação visual são obrigatórias.",
+      "Qualidade técnica desatualizada: radio_bordo_1912",
+      "Aprovação humana pendente: radio_bordo_1912/padrao",
+      "Cena 4: explicação e ação visual são obrigatórias.",
+      "Qualidade técnica desatualizada: corredor_bordo_1912",
+      "Aprovação humana pendente: corredor_bordo_1912/padrao",
+      "Cena 5: explicação e ação visual são obrigatórias.",
+      "Qualidade técnica desatualizada: maquinas_bordo_1912",
+      "Aprovação humana pendente: maquinas_bordo_1912/padrao",
+      "Cena 6: explicação e ação visual são obrigatórias.",
+      "Qualidade técnica desatualizada: cozinha_bordo_1912",
+      "Aprovação humana pendente: cozinha_bordo_1912/padrao",
+      "Resolver lacunas semânticas do plano de assets.",
+      "Plano semântico da narrativa não revisado."
+    ]
+  },
+  "revision": "0205936366f58baa"
+}

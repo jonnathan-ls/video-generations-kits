@@ -1,0 +1,1 @@
+[    1488ms] [WARNING] [.WebGL-0x158c00c0a600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0

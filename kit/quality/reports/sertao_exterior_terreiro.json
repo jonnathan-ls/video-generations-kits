@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "5c77c7faeb90afa06058efc5a944a2bedede581b5f3245c616ba0bda7160c8c9",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "terreiro-tarde",
+      "meshes": 58,
+      "triangles": 12805,
+      "dimensions": [
+        48,
+        7.93010995283319,
+        44
+      ]
+    },
+    {
+      "variant": "terreiro-noite",
+      "meshes": 58,
+      "triangles": 12805,
+      "dimensions": [
+        48,
+        7.93010995283319,
+        44
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "terreiro-tarde: recurso abaixo do chão; justificar contato no contrato.",
+    "terreiro-noite: recurso abaixo do chão; justificar contato no contrato."
+  ],
+  "baselines": [
+    {
+      "id": "casa_simples",
+      "variant": "verde",
+      "revision": "a842549d9351fbc2"
+    }
+  ],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:06.003Z"
+}

@@ -1,0 +1,7 @@
+{
+  "voice": "am_michael", "speed": 0.92,
+  "paragraphs": [
+    { "id": "p1", "text": "Wick had a problem he couldn't solve. He'd been circling it for days." },
+    { "id": "p2", "text": "Then, out of nowhere, an idea." }
+  ]
+}

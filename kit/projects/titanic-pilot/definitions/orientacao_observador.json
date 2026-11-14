@@ -1,0 +1,20 @@
+{
+  "id": "orientacao_observador",
+  "label": "Orientação do observador ao sinal",
+  "kind": "animation",
+  "category": "historico_maritimo",
+  "description": "Giro pequeno e preparação de postura em direção ao sinal; atuação ilustrativa, sem diálogo ou gesto atribuído como testemunho histórico.",
+  "module": "observer-orient.js",
+  "aliases": [
+    "viu",
+    "Orientação do observador ao sinal"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:reacao-observador"
+  },
+  "baselineIds": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "encaixe_coroamento",
+  "label": "Encaixe da peça de fecho",
+  "kind": "animation",
+  "category": "animacoes",
+  "module": "arco-coroamento-fit.js",
+  "description": "A peça de fecho desce até completar o coroamento do anel. Movimento ilustrativo e determinístico; não simula cálculo estrutural.",
+  "aliases": [
+    "encaixe da pedra de fecho",
+    "encaixe da peça de fecho",
+    "coroamento do arco"
+  ],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:coroamento-fit",
+    "projectId": "arco-alvenaria"
+  },
+  "variants": [],
+  "baselineIds": []
+}

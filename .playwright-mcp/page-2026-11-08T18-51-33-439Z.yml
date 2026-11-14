@@ -1,0 +1,109 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - link "Kit de vídeo, casa do Sertão" [ref=f8e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f8e4]: OC
+      - generic [ref=f8e5]:
+        - strong [ref=f8e6]: Obra em corte
+        - generic [ref=f8e7]: Revisão de cenas · 3D
+    - generic [ref=f8e8]: Aguardando sua revisão
+  - main [ref=f8e11]:
+    - region "Prévia das cenas" [ref=f8e12]:
+      - generic [ref=f8e13]:
+        - generic [ref=f8e14]:
+          - generic [ref=f8e15]: CENA 10 / 13
+          - generic [ref=f8e16]: ESTUDO DE CENA · SEM VOZ FINAL
+        - generic "Cena 3D vertical" [ref=f8e17]:
+          - generic "Casa em corte 3D animada" [ref=f8e18]
+          - generic:
+            - text: CALOR GUARDADO
+            - heading "A laje muda devagar" [level=1]
+          - generic [ref=f8e19]:
+            - generic [ref=f8e20]: corte seco para a casa à noite; aproximação breve antes do insert térmico.
+            - generic [ref=f8e21]: CORTE
+          - button "INSPECIONAR" [ref=f8e22] [cursor=pointer]
+        - generic [ref=f8e23]:
+          - button "Cena anterior" [ref=f8e24] [cursor=pointer]: ‹
+          - button "Reproduzir cena" [ref=f8e25] [cursor=pointer]: ▶
+          - button "Próxima cena" [ref=f8e26] [cursor=pointer]: ›
+          - generic [ref=f8e27]:
+            - generic [ref=f8e28]:
+              - generic [ref=f8e29]: 00:00 / 00:05
+              - generic [ref=f8e30]: tempo de revisão
+            - slider "Tempo da cena" [ref=f8e31] [cursor=pointer]: "0.45"
+          - button "Ouvir efeitos deste beat" [ref=f8e32] [cursor=pointer]: ♪ FX
+        - generic [ref=f8e33]:
+          - generic [ref=f8e34]: i
+          - generic [ref=f8e35]: Os cinco segundos são só para revisar o movimento. A duração final será definida depois da escolha da voz.
+        - navigation "Escolher cena pela prévia visual" [ref=f8e36]:
+          - 'button "Abrir cena 1: O teto ainda irradia" [ref=f8e37] [cursor=pointer]':
+            - generic [ref=f8e38]: "01"
+          - 'button "Abrir cena 2: Da telha à laje" [ref=f8e39] [cursor=pointer]':
+            - generic [ref=f8e40]: "02"
+          - 'button "Abrir cena 3: O ventilador não esfria a laje" [ref=f8e41] [cursor=pointer]':
+            - generic [ref=f8e42]: "03"
+          - 'button "Abrir cena 4: Telha clara, ático fechado" [ref=f8e43] [cursor=pointer]':
+            - generic [ref=f8e44]: "04"
+          - 'button "Abrir cena 5: Só a cumeeira não cria caminho" [ref=f8e45] [cursor=pointer]':
+            - generic [ref=f8e46]: "05"
+          - 'button "Abrir cena 6: Entrada baixa, saída alta" [ref=f8e47] [cursor=pointer]':
+            - generic [ref=f8e48]: "06"
+          - 'button "Abrir cena 7: Ventilar não interrompe radiação" [ref=f8e49] [cursor=pointer]':
+            - generic [ref=f8e50]: "07"
+          - 'button "Abrir cena 8: A face refletiva olha para o vão" [ref=f8e51] [cursor=pointer]':
+            - generic [ref=f8e52]: "08"
+          - 'button "Abrir cena 9: Camada contínua, sem atalho" [ref=f8e53] [cursor=pointer]':
+            - generic [ref=f8e54]: "09"
+          - 'button "Abrir cena 10: A laje muda devagar" [ref=f8e55] [cursor=pointer]':
+            - generic [ref=f8e56]: "10"
+          - 'button "Abrir cena 11: Abre quando lá fora está mais fresco" [ref=f8e57] [cursor=pointer]':
+            - generic [ref=f8e58]: "11"
+          - 'button "Abrir cena 12: Fecha quando o sol bate" [ref=f8e59] [cursor=pointer]':
+            - generic [ref=f8e60]: "12"
+          - 'button "Abrir cena 13: O ventilador sai do turno dobrado" [ref=f8e61] [cursor=pointer]':
+            - generic [ref=f8e62]: "13"
+    - complementary "Decisão da cena selecionada" [ref=f8e63]:
+      - generic [ref=f8e64]:
+        - generic [ref=f8e65]:
+          - generic [ref=f8e66]:
+            - text: CENA SELECIONADA
+            - heading "A laje muda devagar" [level=2] [ref=f8e120]
+          - generic [ref=f8e68]: PENDENTE
+        - generic [ref=f8e69]:
+          - text: FALA APROVADA
+          - paragraph [ref=f8e70]: E à noite? A laje guarda calor durante o dia e devolve aos poucos; com mais massa, essa mudança demora mais. Isso se chama inércia térmica.
+        - generic [ref=f8e71]:
+          - generic [ref=f8e72]: ◉
+          - generic [ref=f8e73]:
+            - text: O QUE VOCÊ ESTÁ VENDO
+            - paragraph [ref=f8e74]: Ao anoitecer, a casa volta a aparecer por fora; no corte, a laje ainda retém calor e o quarto escurece devagar.
+        - generic [ref=f8e75]:
+          - generic [ref=f8e76]: ↗
+          - generic [ref=f8e77]:
+            - text: ALVO DE ATENÇÃO
+            - paragraph [ref=f8e78]: fachada noturna, janela acesa e brilho residual na laje
+        - generic [ref=f8e79]:
+          - button "Aprovar esta cena" [ref=f8e80] [cursor=pointer]
+          - button "Pedir ajuste" [ref=f8e81] [cursor=pointer]
+        - paragraph [ref=f8e82]
+      - generic [ref=f8e83]:
+        - text: POR QUE ESTA CENA VEM AGORA
+        - paragraph [ref=f8e84]: a mesma laje agora é vista em volume e tempo; o calor que atravessou o dia permanece nela quando a luz muda
+        - generic [ref=f8e87]:
+          - generic [ref=f8e88]: Camada contínua, sem atalho
+          - generic [ref=f8e89]: →
+          - generic [ref=f8e90]: Abre quando lá fora está mais fresco
+      - generic [ref=f8e91]:
+        - generic [ref=f8e92]:
+          - generic [ref=f8e93]: ♫
+          - generic [ref=f8e94]:
+            - text: ENCONTRO DE FX COM A AÇÃO
+            - heading "Noite no terreiro · calor que ficou" [level=3] [ref=f8e121]
+        - paragraph [ref=f8e96]: ambiente passa de insetos de tarde a silêncio noturno; sem efeito de impacto para fenômeno gradual
+        - paragraph [ref=f8e111]: Efeitos sintetizados localmente. A revisão auditiva e a mixagem com a voz continuam pendentes.
+      - generic [ref=f8e112]:
+        - generic [ref=f8e113]: ✓
+        - paragraph [ref=f8e114]: A aprovação desta cena vale para a encenação visual. A revisão dos assets individuais e do plano de recursos continua separada.
+  - contentinfo [ref=f8e115]:
+    - generic [ref=f8e116]: Estudo original inspirado pela ordem causal aprovada; textos, design e encenação próprios.
+    - generic [ref=f8e117]: Render Three.js local · sem envio de dados

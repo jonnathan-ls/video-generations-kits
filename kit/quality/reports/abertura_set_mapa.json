@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "2a4b12b42df14f648c7da5de451f05bc025fd47ef379329e35adb75947167865",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "mapa",
+      "meshes": 16,
+      "triangles": 492,
+      "dimensions": [
+        16,
+        9,
+        16
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "mapa: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-14T21:14:04.721Z"
+}

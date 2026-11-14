@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Voltar ao Studio" [ref=e3] [cursor=pointer]:
+      - /url: /studio/index.html
+      - generic [aria-hidden] [ref=e4]: ◩
+      - generic [ref=e5]:
+        - strong [ref=e6]: Kit de vídeo
+        - generic [ref=e7]: Studio de produção
+    - generic [ref=e8]:
+      - generic [ref=e9]: Produção indisponível
+      - button "Atualizar" [ref=e12] [cursor=pointer]
+  - main [ref=e13]:
+    - navigation "Caminho" [ref=e14]:
+      - link "Studio" [ref=e15] [cursor=pointer]:
+        - /url: /studio/index.html
+      - generic [ref=e16]: /
+      - generic [ref=e17]: Acompanhamento
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: ACOMPANHAMENTO DA PRODUÇÃO
+        - heading "Titanic" [level=1] [ref=e21]
+        - paragraph [ref=e22]: Acompanhe os blocos, confira cada cena assim que a prévia isolada estiver disponível.
+      - generic [ref=e25]:
+        - generic [ref=e26]: ESTADO ATUAL
+        - strong [ref=e27]: Buscando estado real…
+    - region "Resumo da produção" [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: PROGRESSO GERAL
+          - generic [ref=e32]: Aguardando dados
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - strong [ref=e35]: —
+            - generic [ref=e36]: Sem contagem disponível
+          - progressbar "Progresso geral" [ref=e37]
+        - paragraph [ref=e38]: O painel só exibe o avanço informado pela produção.
+      - article [ref=e39]:
+        - generic [ref=e40]: ETAPA EM CURSO
+        - strong [ref=e41]: Aguardando estado da produção
+        - generic [ref=e42]: Ainda sem atualização
+      - article [ref=e43]:
+        - generic [ref=e44]: ESCOPO DA PRÉVIA
+        - strong [ref=e45]: Aguardando informação
+        - generic [ref=e46]: Renderização e revisão são estados diferentes.
+    - region [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: AGORA
+          - heading "Fila de produção" [level=2] [ref=e51]
+        - generic [ref=e52]: —
+      - generic [ref=e53]: Fila indisponível.
+    - region [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: MONTAGEM DO LONGA
+          - heading "Blocos e cenas" [level=2] [ref=e59]
+          - paragraph [ref=e60]: Blocos organizados em trechos de aproximadamente 3 minutos. Abra a prévia de uma cena para revisar seu trecho isolado.
+        - generic "Legenda de estado" [ref=e61]:
+          - generic [ref=e62]: Em produção
+          - generic [ref=e64]: Render gerado
+          - generic [ref=e66]: Na fila
+      - generic [ref=e68]: Nenhum progresso será presumido enquanto a API não responder.
+    - status [ref=e70]: Não foi possível carregar o estado da produção. A API respondeu 404.
+    - generic [ref=e71]:
+      - generic [ref=e72]: Atualização automática a cada 20 s
+      - generic [ref=e73]: Prévia isolada não significa revisão ou aprovação.

@@ -1,0 +1,711 @@
+{
+  "schemaVersion": 1,
+  "projectId": "brasil-camadas",
+  "title": "As camadas do Brasil",
+  "narrationFile": "narrative-v1.md",
+  "narrationSha256": "3513419f62129583ce0343e09500dd1f6a975bd42290f500b7a590390df97a72",
+  "status": "proposal-awaiting-validation",
+  "scope": "10 beats e 33 tomadas direcionais. Sem tempos, voz, assets ou cenas finais. A duração e os contatos serão fixados depois da escolha da voz.",
+  "beats": [
+    {
+      "id": "b01",
+      "sequence": 1,
+      "chapter": "Prólogo",
+      "title": "Um país de camadas",
+      "paragraphs": [
+        1,
+        2
+      ],
+      "function": "Abrir com um paradoxo verificável, criar a lacuna de curiosidade e prometer a explicação histórica.",
+      "referenceFunction": "A referência abre com uma afirmação superlativa sobre o país e, em seguida, mostra que a ascensão foi inesperada; o mapa ancora a promessa.",
+      "visualQuestion": "Como um país tão diverso se tornou também tão desigual?",
+      "attentionTarget": "A sequência de evidências: lâmpada, carimbo 55,5%, folha de pagamento, barra 70, camada/documento 1888, vazios da lei, queda da camada, mapa diverso × renda, pilha, camada 1500 e título.",
+      "visibleEvent": "Abertura em 14 cenas: a lâmpada acende; o carimbo 55,5% bate no papel; corta para a folha de pagamento e a barra de 70%; a mão tira a camada de 1888; o documento abre com três vazios; a camada cai; o mapa diverso é coberto pela renda; a pilha cresce; a mão tira 1888; a camada de 1500 acende; o título é carimbado.",
+      "stateBefore": "A pilha fechada, com o mapa atual no topo.",
+      "stateAfter": "A camada de 2022 está suspensa; o mapa de 1500 aparece embaixo; a pergunta fica no ar.",
+      "cameraReveal": "Cortes e inserções: lampada → macro do selo → topo da folha → macro da barra → travelling da camada → macro do documento → topo da lei → contra-plongée → órbita → pullback → mão → descida → macro do mosaico → pullback final.",
+      "pause": "Segurar o carimbo 55,5%, a barra de 70%, o ano 1888 e os três vazios da lei; cada número precisa de leitura própria.",
+      "soundIntent": "Clique de lâmpada, thud de carimbo, papel, metal, whoosh de camada, silêncio nos vazios da lei, rios/pássaros em 1500. A voz domina; nenhum whoosh genérico em todo corte.",
+      "concept": "Nenhum; o problema é a pergunta.",
+      "humor": "A luva/cartógrafa segura a pilha e reage à papelada; humor de gesto, sem fala e sem piada sobre escravidão, racismo ou violência.",
+      "factsToCheck": [
+        "Censo 2022 (IBGE)",
+        "diferença salarial por hora (IBGE 2023)",
+        "Lei Áurea (1888)"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "Mais da metade da população brasileira",
+          "attentionTarget": "A lâmpada acendendo e a pilha em silhueta.",
+          "visibleEvent": "A sala escura; a lâmpada acende; a pilha de mapas aparece; a poeira se move no feixe.",
+          "stateBefore": "Sala escura.",
+          "stateAfter": "Mesa iluminada; pilha visível.",
+          "cameraReveal": "Plano fechado na lâmpada → pequeno recuo para a mesa."
+        },
+        {
+          "textExcerpt": "se declara preta ou parda",
+          "attentionTarget": "O carimbo de latão e a tinta 55,5% no papel.",
+          "visibleEvent": "O carimbo desce, bate na camada de papel; a tinta se espalha e o número fica legível.",
+          "stateBefore": "Papel limpo.",
+          "stateAfter": "55,5% carimbado; fibra do papel em macro.",
+          "cameraReveal": "Macro do carimbo → contra-plano do papel."
+        },
+        {
+          "textExcerpt": "Mesmo assim, um trabalhador branco ganha",
+          "attentionTarget": "A folha de pagamento e a ficha “branco”.",
+          "visibleEvent": "Corte para a folha de pagamento; duas fichas; a mão coloca a ficha “branco” no topo.",
+          "stateBefore": "Duas fichas fora de ordem.",
+          "stateAfter": "Ficha “branco” no topo; “negro” na base.",
+          "cameraReveal": "Plano superior, corte seco; a câmera desce um pouco."
+        },
+        {
+          "textExcerpt": "quase 70% mais por hora",
+          "attentionTarget": "A barra de latão e a linha de tinta.",
+          "visibleEvent": "A barra cresce entre as fichas até 70%; a linha de tinta marca a diferença.",
+          "stateBefore": "Barra zero.",
+          "stateAfter": "Barra a 70%; diferença visível.",
+          "cameraReveal": "Macro da barra → lateral das fichas."
+        },
+        {
+          "textExcerpt": "O Brasil foi o último país independente",
+          "attentionTarget": "A camada de 1888 saindo da pilha.",
+          "visibleEvent": "A mão puxa a camada de 1888; a pilha se abre; o selo 1888 aparece na borda.",
+          "stateBefore": "Pilha fechada.",
+          "stateAfter": "Camada de 1888 deslocada; pilha aberta.",
+          "cameraReveal": "Plano médio; travelling curto com a camada."
+        },
+        {
+          "textExcerpt": "a abolir a escravidão, em 1888",
+          "attentionTarget": "O selo 1888 e o documento em macro.",
+          "visibleEvent": "Macro do documento; o carimbo cai; a tinta marca 1888; o mapa ao fundo fica desfocado.",
+          "stateBefore": "Documento em branco.",
+          "stateAfter": "Ano 1888 carimbado; foco raso.",
+          "cameraReveal": "Macro do documento; câmera parada."
+        },
+        {
+          "textExcerpt": "e a lei não trouxe indenização",
+          "attentionTarget": "Os três vazios do documento.",
+          "visibleEvent": "O documento abre; três áreas ficam vazias; a mão passa por elas; as bordas escurecem.",
+          "stateBefore": "Documento fechado.",
+          "stateAfter": "Três vazios visíveis; bordas queimadas.",
+          "cameraReveal": "Topo do documento; push-in em cada vazio."
+        },
+        {
+          "textExcerpt": "nem distribuição de terra, nem política de integração",
+          "attentionTarget": "O vazio de terra/integração e o papel queimado.",
+          "visibleEvent": "A mão vira a página; o segundo e o terceiro vazios ficam expostos; o papel queima devagar.",
+          "stateBefore": "Primeiro vazio exposto.",
+          "stateAfter": "Três ausências legíveis; fumaça fina.",
+          "cameraReveal": "Topo; travelling lateral entre os vazios."
+        },
+        {
+          "textExcerpt": "Como um dos países mais diversos do mundo",
+          "attentionTarget": "O mapa colorido e a camada escura de renda.",
+          "visibleEvent": "Corte para o mapa em muitas cores; a camada escura de renda desce e cobre parte do mapa; a câmera orbita.",
+          "stateBefore": "Mapa diverso.",
+          "stateAfter": "Mapa cortado pela renda.",
+          "cameraReveal": "Órbita em torno da pilha → corte para o mapa."
+        },
+        {
+          "textExcerpt": "se tornou também um dos mais desiguais?",
+          "attentionTarget": "A pilha que cresce e a pergunta.",
+          "visibleEvent": "A pilha cresce/titubeia; a câmera recua; um “?” de tinta aparece no papel.",
+          "stateBefore": "Pilha estável.",
+          "stateAfter": "Pilha alta; pergunta no ar.",
+          "cameraReveal": "Pullback; câmera baixa."
+        },
+        {
+          "textExcerpt": "A resposta não começa em 1888.",
+          "attentionTarget": "A respiração da cena e a mão na camada.",
+          "visibleEvent": "A câmera para; a poeira assenta; a mão toca a camada de 1888; a lâmpada pulsa.",
+          "stateBefore": "Pergunta no ar.",
+          "stateAfter": "Mão se prepara; poeira assenta.",
+          "cameraReveal": "Plano médio; câmera quase parada."
+        },
+        {
+          "textExcerpt": "Começa antes de 1500.",
+          "attentionTarget": "A fenda para a camada de 1500.",
+          "visibleEvent": "A mão puxa 1888 para fora; a pilha se abre; a câmera desce para a camada de baixo.",
+          "stateBefore": "Camada de 1888 no topo.",
+          "stateAfter": "Fenda aberta; 1500 visível.",
+          "cameraReveal": "Travelling descendente; foco na fenda."
+        },
+        {
+          "textExcerpt": "Começa antes de 1500.",
+          "attentionTarget": "O mosaico de 1500 e o selo 1500.",
+          "visibleEvent": "A camada de 1500 acende; mosaico de territórios, rios, roças e caminhos; o selo 1500 aparece.",
+          "stateBefore": "Camada apagada.",
+          "stateAfter": "Mosaico vivo; selo 1500.",
+          "cameraReveal": "Macro da camada; travelling lateral."
+        },
+        {
+          "textExcerpt": "As camadas do Brasil.",
+          "attentionTarget": "A pilha inteira e o título.",
+          "visibleEvent": "Volta ao plano geral; a pilha inteira; o título “As camadas do Brasil” é carimbado; a lâmpada permanece acesa.",
+          "stateBefore": "Mosaico de 1500.",
+          "stateAfter": "Pilha/título; pergunta final.",
+          "cameraReveal": "Pullback final; câmera parada."
+        }
+      ],
+      "sourceText": "Mais da metade da população brasileira se declara preta ou parda. Mesmo assim, um trabalhador branco ganha, em média, quase 70% mais por hora do que um trabalhador negro. O Brasil foi o último país independente das Américas a abolir a escravidão, em 1888 — e a lei não trouxe indenização para quem foi libertado, nem distribuição de terra, nem política de integração. Como um dos países mais diversos do mundo se tornou também um dos mais desiguais? A resposta não começa em 1888. Começa antes de 1500.\n\nAs camadas do Brasil."
+    },
+    {
+      "id": "b02",
+      "sequence": 2,
+      "chapter": "Capítulo 1",
+      "title": "O país que já existia",
+      "paragraphs": [
+        3,
+        4
+      ],
+      "function": "Estabelecer a diversidade como primeira camada e desmontar a ideia de terra vazia.",
+      "referenceFunction": "A referência volta ao mapa anterior à “descoberta” e mostra que o território era desconhecido ou ignorado pelos europeus.",
+      "visualQuestion": "Quem já vivia aqui antes de o Brasil existir?",
+      "attentionTarget": "O mosaico de territórios, línguas e caminhos; as aldeias, roças e rios.",
+      "visibleEvent": "A camada de 1500 se abre em um mosaico de povos; a câmera atravessa a Amazônia, o Cerrado e o litoral; os caminhos se conectam.",
+      "stateBefore": "O mapa de 1500 aparece como uma superfície escura, sem fronteiras.",
+      "stateAfter": "O mosaico se acende; os caminhos e as línguas ocupam o território; nenhuma fronteira colonial.",
+      "cameraReveal": "Do mapa inteiro para o detalhe de uma aldeia; depois, travelling pelos caminhos.",
+      "pause": "Deixar o mosaico legível antes de listar exemplos.",
+      "soundIntent": "Rios, pássaros, passos, fogo doméstico; sem música heroica.",
+      "concept": "Povos indígenas e território: mostrar a diversidade antes de nomear.",
+      "humor": "Uma pequena figura tenta carregar um mapa maior que ela; a cartógrafa ajuda.",
+      "factsToCheck": [
+        "população indígena antes de 1500 (estimativas variam)",
+        "línguas indígenas",
+        "Marajó",
+        "terra preta"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "Existiam muitos povos, com línguas, histórias e territórios próprios.",
+          "attentionTarget": "O mosaico de territórios e línguas.",
+          "visibleEvent": "As áreas acendem uma a uma; linhas de caminhos ligam regiões.",
+          "stateBefore": "Superfície escura e uniforme.",
+          "stateAfter": "Mosaico colorido, sem fronteira única.",
+          "cameraReveal": "Plano geral do mosaico → aproximação."
+        },
+        {
+          "textExcerpt": "Eles cultivavam mandioca, milho, abacaxi e cacau.",
+          "attentionTarget": "As mãos, as plantas e a roça.",
+          "visibleEvent": "Mãos plantam e colhem; a floresta manejada aparece em volta.",
+          "stateBefore": "O mosaico visto de longe.",
+          "stateAfter": "A roça e a aldeia em escala humana.",
+          "cameraReveal": "Mosaico → aldeia → mãos."
+        },
+        {
+          "textExcerpt": "Mas eram centenas de povos indígenas.",
+          "attentionTarget": "A extensão do mosaico para fora do quadro.",
+          "visibleEvent": "A câmera recua e revela que o mosaico continua muito além da tela.",
+          "stateBefore": "Uma aldeia em foco.",
+          "stateAfter": "Centenas de territorialidades; o quadro não dá conta.",
+          "cameraReveal": "Pullback contínuo; o mapa cresce."
+        }
+      ],
+      "sourceText": "O país que já existia.\n\nAntes de 1500, não existia um país chamado Brasil. Existiam muitos povos, com línguas, histórias e territórios próprios. Havia povos em toda parte: na Amazônia, no litoral, no Cerrado, no Pantanal e no Sul. Eles cultivavam mandioca, milho, abacaxi e cacau. Manejavam a floresta, navegavam rios e trocavam objetos e ideias por caminhos que atravessavam o continente. Havia sociedades grandes e complexas, como os povos de Marajó, e havia grupos que se deslocavam com as estações. As estimativas de população variam muito, mas falam de milhões de pessoas. Não era um vazio demográfico. Era um mundo cheio de gente, com conflitos e alianças, como qualquer outro. Os europeus chamariam todos de \"índios\", como se fossem um só povo. Mas eram centenas de povos indígenas. A diversidade brasileira não começou com a colonização. Ela já estava aqui."
+    },
+    {
+      "id": "b03",
+      "sequence": 3,
+      "chapter": "Capítulo 2",
+      "title": "A costa entra no mapa",
+      "paragraphs": [
+        5,
+        6
+      ],
+      "function": "Apresentar a chegada portuguesa e a lógica econômica e política da colonização.",
+      "referenceFunction": "A referência mostra a chegada europeia, a divisão do mapa e a disputa por território.",
+      "visualQuestion": "O que os portugueses queriam quando chegaram?",
+      "attentionTarget": "A linha de Tordesilhas, a feitoria, o pau-brasil e as capitanias.",
+      "visibleEvent": "A frota chega; a linha é desenhada; o pau-brasil é cortado e embarcado; a coroa divide a costa em faixas; o funcionário carimba.",
+      "stateBefore": "A costa aparece como uma borda do mosaico indígena.",
+      "stateAfter": "A costa ganha feitorias e faixas de capitania; o interior continua indígena; a linha de Tordesilhas corta o mapa.",
+      "cameraReveal": "Do mar para a costa; do mapa inteiro para a mesa do funcionário; close na linha.",
+      "pause": "Deixar a linha e as faixas legíveis.",
+      "soundIntent": "Mar, madeira, carimbo, pena; sem fanfarra.",
+      "concept": "Capitanias hereditárias: mostrar a divisão e a obrigação antes de nomear.",
+      "humor": "O funcionário mede a linha com uma régua; ela não acompanha a costa; ele carimba mesmo assim.",
+      "factsToCheck": [
+        "Tordesilhas (1494)",
+        "Cabral (1500)",
+        "navegadores anteriores",
+        "pau-brasil",
+        "capitanias (1534)"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "Em 1500, a expedição de Pedro Álvares Cabral chegou ao litoral da Bahia.",
+          "attentionTarget": "A frota e a costa habitada.",
+          "visibleEvent": "Os navios se aproximam; na praia, pessoas observam; nenhuma terra vazia.",
+          "stateBefore": "O mar aberto.",
+          "stateAfter": "A frota ancora; o contato começa.",
+          "cameraReveal": "Mar → navio → praia."
+        },
+        {
+          "textExcerpt": "Em 1494, Portugal e Espanha tinham dividido o mundo com uma linha no mapa",
+          "attentionTarget": "A linha e a régua do funcionário.",
+          "visibleEvent": "A linha é traçada sobre o mapa; o funcionário mede; a linha corta territórios.",
+          "stateBefore": "O mapa sem a linha.",
+          "stateAfter": "A linha divide o mapa; o carimbo cai.",
+          "cameraReveal": "Mesa → régua → linha → carimbo."
+        },
+        {
+          "textExcerpt": "Esse sistema ficou conhecido como capitanias hereditárias.",
+          "attentionTarget": "As faixas de terra e os donatários.",
+          "visibleEvent": "A costa é dividida em faixas; cada faixa recebe um selo; o interior permanece mosaico.",
+          "stateBefore": "A costa contínua.",
+          "stateAfter": "Faixas justapostas; obrigações e impostos.",
+          "cameraReveal": "Mapa → faixas → selo."
+        }
+      ],
+      "sourceText": "A costa entra no mapa.\n\nEm 1500, a expedição de Pedro Álvares Cabral chegou ao litoral da Bahia. Mas aquela costa não era um lugar vazio, e outros navegadores já tinham passado por ali. Encontraram uma rede de povos, trocas e conflitos. Em 1494, Portugal e Espanha tinham dividido o mundo com uma linha no mapa, e o pedaço que hoje é o Brasil caiu do lado português. O primeiro interesse de Portugal não foi povoar: foi tirar proveito. O pau-brasil, uma madeira que dava um corante vermelho, virou o primeiro produto de exportação. Depois, para garantir a posse da terra e enfrentar os franceses, a coroa dividiu a colônia em faixas de terra e entregou cada uma a um donatário. Quem recebia tinha que colonizar, defender e pagar impostos. Esse sistema ficou conhecido como capitanias hereditárias. Era uma tarefa e tanto. A colonização nasceu dessa lógica: explorar, ocupar e controlar. O Brasil não foi descoberto por acaso; foi incorporado a um projeto econômico e político."
+    },
+    {
+      "id": "b04",
+      "sequence": 4,
+      "chapter": "Capítulo 3",
+      "title": "A máquina do açúcar",
+      "paragraphs": [
+        7,
+        8
+      ],
+      "function": "Mostrar como o açúcar, a escravidão e a violência moldaram a economia e a sociedade, dando agência às pessoas escravizadas.",
+      "referenceFunction": "A referência usa a economia colonial e a escravidão como causas de conflito e ruptura.",
+      "visualQuestion": "Como o açúcar transformou terra e trabalho em uma sociedade desigual?",
+      "attentionTarget": "O engenho, a moenda, o navio, o livro de contas e o quilombo.",
+      "visibleEvent": "A cana é cortada e moída; o navio atravessa o Atlântico; o livro conta pessoas; o quilombo aparece como comunidade.",
+      "stateBefore": "A costa com capitanias; o interior indígena.",
+      "stateAfter": "A costa se enche de canaviais, engenhos e portos; as rotas do tráfico cruzam o Atlântico; quilombos aparecem no interior.",
+      "cameraReveal": "Do canavial à moenda; da moenda ao porto; do porto ao navio; do navio ao quilombo.",
+      "pause": "Segurar o livro de contas e o quilombo; não cobrir a ação com FX.",
+      "soundIntent": "Cana, moenda, água, madeira, tecido, vozes; silêncio quando a voz nomeia a violência.",
+      "concept": "Escravidão, tráfico transatlântico e quilombo: demonstrar a captura, o trabalho e a resistência; nomear depois.",
+      "humor": "Nenhum; a violência não vira piada.",
+      "factsToCheck": [
+        "4,8 milhões de africanos",
+        "maior destino das Américas",
+        "escravidão indígena e africana",
+        "Palmares e Zumbi (1695)"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "O engenho era uma pequena cidade",
+          "attentionTarget": "A moenda e o carro de cana.",
+          "visibleEvent": "A cana entra na moenda; o caldo escorre; o carro vai ao porto.",
+          "stateBefore": "O canavial em repouso.",
+          "stateAfter": "O engenho em produção; o açúcar segue para o porto.",
+          "cameraReveal": "Canavial → moenda → porto."
+        },
+        {
+          "textExcerpt": "O Brasil foi o maior destino do tráfico nas Américas",
+          "attentionTarget": "A rota do navio e o livro de contas.",
+          "visibleEvent": "O navio cruza o Atlântico; o livro registra pessoas; o número 4,8 milhões é carimbado.",
+          "stateBefore": "O porto com caixas de açúcar.",
+          "stateAfter": "A rota do tráfico liga África e Brasil; o livro se abre.",
+          "cameraReveal": "Porto → navio → livro."
+        },
+        {
+          "textExcerpt": "Elas fugiram, formaram comunidades chamadas quilombos",
+          "attentionTarget": "O quilombo, as roças e as famílias.",
+          "visibleEvent": "Pessoas constroem casas, plantam, cozinham, cantam; a comunidade se organiza.",
+          "stateBefore": "A rota do navio.",
+          "stateAfter": "O quilombo no interior; vida e resistência.",
+          "cameraReveal": "Navio → interior → quilombo."
+        },
+        {
+          "textExcerpt": "O açúcar enriqueceu poucos e escravizou muitos.",
+          "attentionTarget": "O contraste entre o açúcar e a senzala.",
+          "visibleEvent": "Pães de açúcar no porto; ao lado, a senzala e o trabalho; corte seco.",
+          "stateBefore": "O quilombo.",
+          "stateAfter": "O porto enriquecido e a senzala; a fratura no mesmo quadro.",
+          "cameraReveal": "Corte seco para o porto; depois, a senzala."
+        }
+      ],
+      "sourceText": "A máquina do açúcar.\n\nO produto que realmente transformou a colônia foi o açúcar. A cana exigia muita terra, água, trabalho e capital. O engenho era uma pequena cidade, com canavial, moenda, casa-grande, senzala, capela e porto. Para fazer o açúcar render, os portugueses primeiro escravizaram indígenas. Só que a escravidão indígena não foi suficiente para sustentar sozinha a lavoura: guerras, doenças e fugas reduziam a mão de obra. Ao mesmo tempo, o tráfico atlântico oferecia pessoas em escala, e milhões de africanos foram trazidos à força. O Brasil foi o maior destino do tráfico nas Américas: cerca de 4,8 milhões de pessoas desembarcaram aqui entre os séculos XVI e XIX. As duas formas de escravidão coexistiram, e a economia exportadora passou a depender delas. A colônia vendia açúcar, tabaco, algodão e ouro; comprava tecidos, ferramentas e produtos manufaturados. Os historiadores chamam esse arranjo de pacto colonial: a colônia existe para abastecer a metrópole. A escravidão não foi um detalhe dessa economia: foi a base dela. E as pessoas escravizadas não foram só vítimas passivas. Elas fugiram, formaram comunidades chamadas quilombos, organizaram revoltas, preservaram línguas e religiões, criaram famílias e redes de solidariedade. O Quilombo dos Palmares, no século XVII, foi o maior exemplo de resistência, mas não o único. Zumbi foi morto em 1695, e Palmares virou símbolo. A violência era cotidiana: captura, venda, separação de famílias, trabalho forçado e castigos. O açúcar enriqueceu poucos e escravizou muitos."
+    },
+    {
+      "id": "b05",
+      "sequence": 5,
+      "chapter": "Capítulo 4",
+      "title": "O mapa se estica",
+      "paragraphs": [
+        9,
+        10
+      ],
+      "function": "Explicar a expansão e a disputa do território com mapas, causas e consequências.",
+      "referenceFunction": "A referência usa mapas e guerras para mostrar a expansão e o redesenho das fronteiras.",
+      "visualQuestion": "Como o território cresceu para além da linha de Tordesilhas?",
+      "attentionTarget": "As rotas das bandeiras, o gado, as missões, o ouro, os tratados e a capital.",
+      "visibleEvent": "As rotas avançam para o interior; o ouro acende Minas; a capital se muda; as linhas dos tratados se sobrepõem; a Guerra Guaranítica.",
+      "stateBefore": "O território ainda dentro da linha de Tordesilhas; a capital em Salvador.",
+      "stateAfter": "O interior ocupado; o ouro em Minas; a capital no Rio; as fronteiras negociadas; os povos indígenas deslocados.",
+      "cameraReveal": "Mapa lateral → rotas → ouro → mesa dos tratados → linha que salta.",
+      "pause": "Deixar as linhas dos tratados e a capital legíveis.",
+      "soundIntent": "Passos, cavalos, gado, picareta, pena, carimbo; sem música de aventura.",
+      "concept": "Uti possidetis: mostrar a ocupação e a negociação antes de nomear.",
+      "humor": "O funcionário tenta fazer a linha do tratado coincidir com a costa; a linha não obedece; ele carimba.",
+      "factsToCheck": [
+        "bandeiras",
+        "ouro em Minas",
+        "capital para o Rio (1763)",
+        "Madri (1750)",
+        "Santo Ildefonso (1777)",
+        "Guerra Guaranítica",
+        "Inconfidência Mineira (1789)"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "Elas partiam de São Paulo, com participação indígena e mestiça",
+          "attentionTarget": "A rota da bandeira e o interior.",
+          "visibleEvent": "A expedição sai de São Paulo, entra no interior, encontra aldeias e quilombos.",
+          "stateBefore": "O mapa ainda costeiro.",
+          "stateAfter": "Rotas cortam o interior; a fronteira se move.",
+          "cameraReveal": "São Paulo → rota → interior."
+        },
+        {
+          "textExcerpt": "O ouro deslocou o centro econômico da colônia para Minas",
+          "attentionTarget": "O ouro, a fiscalização e a capital.",
+          "visibleEvent": "O ouro acende; a coroa instala impostos; a capital se muda para o Rio.",
+          "stateBefore": "A capital em Salvador.",
+          "stateAfter": "Minas no centro econômico; o Rio como capital.",
+          "cameraReveal": "Minas → impostos → Rio."
+        },
+        {
+          "textExcerpt": "A terra pertence a quem efetivamente ocupa.",
+          "attentionTarget": "A mesa dos tratados e a linha que salta.",
+          "visibleEvent": "Régua e carimbo sobre o mapa; a linha de Madri/Santo Ildefonso se sobrepõe; a Guerra Guaranítica.",
+          "stateBefore": "A ocupação de fato.",
+          "stateAfter": "A fronteira negociada; os guaranis resistem.",
+          "cameraReveal": "Mesa → linha → missões."
+        },
+        {
+          "textExcerpt": "O ouro também trouxe tensão política",
+          "attentionTarget": "A Inconfidência e a execução.",
+          "visibleEvent": "Elites conspiram; a sentença é lida; Tiradentes é executado.",
+          "stateBefore": "O ouro e os impostos.",
+          "stateAfter": "A conspiração reprimida; a crise colonial.",
+          "cameraReveal": "Sala → documento → praça."
+        }
+      ],
+      "sourceText": "O mapa se estica.\n\nEnquanto o açúcar enriquecia a costa, o interior era atravessado por expedições armadas, muitas vezes chamadas de bandeiras. Elas partiam de São Paulo, com participação indígena e mestiça, e combinavam busca de riqueza, captura de indígenas e combate a quilombos. O gado avançava pelo sertão; as missões jesuítas concentravam povos indígenas; e, no fim do século XVII, o ouro apareceu em Minas Gerais. O ouro deslocou o centro econômico da colônia para Minas, e a coroa criou impostos e fiscalização. Em 1763, a capital passou de Salvador para o Rio de Janeiro. A fronteira, porém, não foi desenhada no papel e depois ocupada. Ela foi ocupada primeiro e negociada depois. Portugal e Espanha assinaram tratados, como o de Madri, em 1750, e o de Santo Ildefonso, em 1777, tentando reconhecer a ocupação real. A terra pertence a quem efetivamente ocupa. Esse princípio ficou conhecido como uti possidetis. Só que a ocupação tinha gente do outro lado: os povos indígenas foram deslocados, escravizados e mortos. No sul, a tentativa de trocar territórios entre Portugal e Espanha provocou a Guerra Guaranítica, quando povos guaranis se recusaram a deixar suas terras. O ouro também trouxe tensão política. Em 1789, elites de Minas conspiraram contra os impostos e o domínio português. Foi a Inconfidência Mineira; Tiradentes foi executado em 1792. O mapa que se estica é também um mapa de violência."
+    },
+    {
+      "id": "b06",
+      "sequence": 6,
+      "chapter": "Capítulo 5",
+      "title": "A coroa muda de endereço",
+      "paragraphs": [
+        11,
+        12
+      ],
+      "function": "Mostrar a corte, a independência e o Império; o que mudou e o que continuou.",
+      "referenceFunction": "A referência mostra a independência, a nova Constituição e a formação do governo.",
+      "visualQuestion": "O que mudou quando a colônia virou a sede do império?",
+      "attentionTarget": "A frota, o paço, a Constituição, a coroa e as províncias em guerra.",
+      "visibleEvent": "A frota chega; o Rio cresce; a corte se instala; a independência é declarada; a guerra nas províncias; a Constituição é desenrolada; a coroa permanece.",
+      "stateBefore": "A colônia com a capital no Rio, subordinada a Lisboa.",
+      "stateAfter": "A sede do império no Rio; a independência; a monarquia; a Constituição de 1824; as revoltas regenciais.",
+      "cameraReveal": "Mar → porto → paço → mesa da Constituição → mapa das províncias.",
+      "pause": "Segurar a Constituição e o mapa das revoltas.",
+      "soundIntent": "Mar, carruagem, sinos, pena, papel, tambores distantes; sem fanfarra heroica.",
+      "concept": "Independência e voto censitário: mostrar a guerra e a restrição do voto antes de nomear.",
+      "humor": "A corte chega com baús e papelada; o funcionário tenta acomodar todos; a cartógrafa desvia.",
+      "factsToCheck": [
+        "1808",
+        "1815",
+        "1822",
+        "guerra da independência",
+        "1824",
+        "1831",
+        "1840"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "Em 1808, a corte portuguesa fugiu de Napoleão",
+          "attentionTarget": "A frota, o porto e a papelada.",
+          "visibleEvent": "A frota chega; baús e documentos desembarcam; o Rio se aperta.",
+          "stateBefore": "O porto colonial.",
+          "stateAfter": "A corte instalada; a cidade crescendo.",
+          "cameraReveal": "Mar → porto → paço."
+        },
+        {
+          "textExcerpt": "Sete anos depois, o príncipe Pedro declarou a independência.",
+          "attentionTarget": "A declaração e a guerra nas províncias.",
+          "visibleEvent": "O príncipe declara; o mapa acende batalhas em várias províncias.",
+          "stateBefore": "A corte no Rio.",
+          "stateAfter": "A independência; a guerra; o Império.",
+          "cameraReveal": "Paço → mapa → províncias."
+        },
+        {
+          "textExcerpt": "Só uma pequena parte da população votava",
+          "attentionTarget": "A Constituição e o voto restrito.",
+          "visibleEvent": "A Constituição é desenrolada; uma fila de eleitores é curta; a maioria fica de fora.",
+          "stateBefore": "A independência recém-declarada.",
+          "stateAfter": "O Império centralizado; o voto censitário.",
+          "cameraReveal": "Documento → fila → mapa."
+        },
+        {
+          "textExcerpt": "Depois de Pedro I abdicar, em 1831",
+          "attentionTarget": "As revoltas regenciais.",
+          "visibleEvent": "O mapa acende Cabanagem, Farroupilha, Balaiada e Malês; a repressão.",
+          "stateBefore": "O Império consolidado.",
+          "stateAfter": "As revoltas e a maioridade de Pedro II.",
+          "cameraReveal": "Mapa → revoltas → 1840."
+        }
+      ],
+      "sourceText": "A coroa muda de endereço.\n\nEm 1808, a corte portuguesa fugiu de Napoleão e chegou ao Brasil. Instalou-se no Rio de Janeiro. A colônia virou a sede do império. Os portos abriram, surgiram instituições, e a cidade cresceu às pressas para acomodar milhares de pessoas — e a papelada também. Em 1815, o Brasil foi elevado a Reino Unido de Portugal, Brasil e Algarves. Sete anos depois, o príncipe Pedro declarou a independência. Mas a independência não foi um só dia nem foi pacífica: houve guerra em várias províncias, e o novo país nasceu como uma monarquia, algo raro na América independente. A Constituição de 1824 organizou um Império centralizado. Só uma pequena parte da população votava, porque o direito dependia da renda. Era o voto censitário. A escravidão continuou. A elite que liderou a independência era, em grande parte, a mesma que lucrava com a ordem colonial. O país mudou de dono, mas não mudou de base. Depois de Pedro I abdicar, em 1831, a Regência foi sacudida por revoltas: Cabanagem, Farroupilha, Balaiada, Revolta dos Malês. Em 1840, Pedro II foi declarado maior de idade, e o Império se consolidou. A unidade foi mantida à custa de muita repressão."
+    },
+    {
+      "id": "b07",
+      "sequence": 7,
+      "chapter": "Capítulo 6",
+      "title": "A liberdade sem terra",
+      "paragraphs": [
+        13,
+        14
+      ],
+      "function": "Passar pela escravidão, pela abolição e pela República, mostrando a liberdade sem reparação.",
+      "referenceFunction": "A referência trata a escravidão, a Guerra Civil e a abolição como ruptura; aqui a ruptura não resolve a hierarquia.",
+      "visualQuestion": "O que mudou para quem foi libertado em 1888?",
+      "attentionTarget": "O trem do café, o documento da abolição, a família sem terra, a bandeira republicana e o livro de terras.",
+      "visibleEvent": "O trem atravessa o café; as leis são carimbadas; a Lei Áurea é assinada; a família sai sem terra; a bandeira troca; o livro de terras continua aberto.",
+      "stateBefore": "O Império escravista, com a terra concentrada.",
+      "stateAfter": "A República, com a escravidão abolida, mas a terra e o poder concentrados.",
+      "cameraReveal": "Trem → documento → família → bandeira → livro de terras.",
+      "pause": "Segurar a família e o livro de terras; não cobrir com legenda.",
+      "soundIntent": "Trem, papel, carimbo, sinos, silêncio na assinatura; sem música celebratória.",
+      "concept": "Abolição e emancipação sem reparação: mostrar a lei e a falta de terra/indenização antes de nomear.",
+      "humor": "Ironia seca: a bandeira muda, o livro de terras não.",
+      "factsToCheck": [
+        "1850",
+        "Guerra do Paraguai (1864–1870)",
+        "1871",
+        "1885",
+        "1888",
+        "1891",
+        "coronelismo",
+        "democracia racial"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "O café financiou ferrovias, atraiu imigrantes europeus",
+          "attentionTarget": "O trem, o café e a terra.",
+          "visibleEvent": "O trem cruza a fazenda; o café é colhido; a terra segue concentrada.",
+          "stateBefore": "A economia imperial.",
+          "stateAfter": "O café e as ferrovias; a mesma estrutura de terra.",
+          "cameraReveal": "Trem → fazenda → mapa."
+        },
+        {
+          "textExcerpt": "Em 13 de maio de 1888, a Lei Áurea declarou extinta a escravidão.",
+          "attentionTarget": "A assinatura e a família liberta.",
+          "visibleEvent": "A pena assina; o carimbo cai; a família sai sem terra; o livro de terras fica.",
+          "stateBefore": "As leis graduais.",
+          "stateAfter": "A liberdade sem terra; a hierarquia intacta.",
+          "cameraReveal": "Documento → família → livro."
+        },
+        {
+          "textExcerpt": "No ano seguinte, um golpe militar proclamou a República.",
+          "attentionTarget": "A bandeira e a Constituição de 1891.",
+          "visibleEvent": "A bandeira substitui a coroa; a Constituição é aberta; a fila de eleitores exclui analfabetos e mulheres.",
+          "stateBefore": "O Império.",
+          "stateAfter": "A República oligárquica; o voto restrito.",
+          "cameraReveal": "Bandeira → Constituição → fila."
+        },
+        {
+          "textExcerpt": "A República trocou a coroa pela bandeira, mas não mudou a estrutura da terra.",
+          "attentionTarget": "O livro de terras e o cartaz da democracia racial.",
+          "visibleEvent": "Os mesmos proprietários à mesa; o livro de terras aberto; o cartaz racha.",
+          "stateBefore": "A República recém-proclamada.",
+          "stateAfter": "A estrutura intacta; o mito racha.",
+          "cameraReveal": "Mesa → livro → cartaz."
+        }
+      ],
+      "sourceText": "A liberdade sem terra.\n\nO café financiou ferrovias, atraiu imigrantes europeus e, mais tarde, japoneses. Mas a terra continuou concentrada, e o trabalho continuou escravizado. Em 1850, uma lei endureceu a proibição do tráfico e praticamente o encerrou. A Guerra do Paraguai, entre 1864 e 1870, fortaleceu o Exército e expôs as contradições do Império. Em 1871, a Lei do Ventre Livre declarou livres os filhos de mulheres escravizadas; em 1885, a Lei dos Sexagenários libertou os mais velhos. Era um abolicionismo gradual, que empurrava a decisão para frente. Houve um movimento abolicionista forte, com jornais, associações e intelectuais negros. Em 13 de maio de 1888, a Lei Áurea declarou extinta a escravidão. A liberdade veio, mas não veio com indenização para quem foi libertado, nem com distribuição de terra, nem com política de integração. Muitas pessoas libertas continuaram trabalhando nas mesmas fazendas, em condições precárias. A igualdade não nasceu no mesmo dia. No ano seguinte, um golpe militar proclamou a República. A Constituição de 1891 manteve o voto restrito: analfabetos e mulheres ficaram de fora. O poder continuou nas mãos dos grandes proprietários, agora organizados em oligarquias. Esse poder local dos grandes proprietários ficou conhecido como coronelismo. A República trocou a coroa pela bandeira, mas não mudou a estrutura da terra. E a ideia de que o Brasil vivia uma \"democracia racial\" ajudou a esconder o racismo que continuava a existir."
+    },
+    {
+      "id": "b08",
+      "sequence": 8,
+      "chapter": "Capítulo 7",
+      "title": "O país acelera",
+      "paragraphs": [
+        15,
+        16
+      ],
+      "function": "Mostrar as transformações da República, a industrialização e a ditadura, ligando cada virada ao que veio antes.",
+      "referenceFunction": "A referência mostra a modernização e a ascensão a potência mundial; aqui a modernização convive com autoritarismo e desigualdade.",
+      "visualQuestion": "O que a modernização brasileira incluiu — e o que deixou de fora?",
+      "attentionTarget": "A fábrica, a cidade, Brasília, o jornal censurado, o AI-5 e a multidão das Diretas.",
+      "visibleEvent": "A fábrica acende; a cidade cresce; Brasília é construída; a camada escura da ditadura desce; o jornal é censurado; a multidão ocupa a rua.",
+      "stateBefore": "A República oligárquica, agrária.",
+      "stateAfter": "A indústria, a urbanização, a ditadura e a transição de 1985.",
+      "cameraReveal": "Fábrica → cidade → Brasília → camada escura → rua.",
+      "pause": "Segurar o AI-5 e a censura; não espetacularizar a violência.",
+      "soundIntent": "Máquinas, operários, concreto, rádio, censura (silêncio), multidão; sem música triunfal.",
+      "concept": "Industrialização e ditadura militar: mostrar os efeitos antes de nomear.",
+      "humor": "Brasília em construção: a poeira, a papelada, a distância; ironia burocrática.",
+      "factsToCheck": [
+        "1930",
+        "1937",
+        "1945",
+        "JK e Brasília (1960)",
+        "1964",
+        "AI-5 (1968)",
+        "1985"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "A República Velha era oligárquica",
+          "attentionTarget": "A política oligárquica e a fábrica.",
+          "visibleEvent": "O voto controlado; 1930; Vargas; a fábrica acende.",
+          "stateBefore": "A República Velha.",
+          "stateAfter": "A industrialização e o Estado Novo.",
+          "cameraReveal": "Mapa → fábrica → rádio."
+        },
+        {
+          "textExcerpt": "Juscelino Kubitschek prometeu avançar cinquenta anos em cinco",
+          "attentionTarget": "O canteiro de Brasília.",
+          "visibleEvent": "O canteiro; os candangos; a cidade nasce; a poeira; a papelada.",
+          "stateBefore": "A cidade colonial.",
+          "stateAfter": "Brasília inaugurada; a inflação e a desigualdade.",
+          "cameraReveal": "Canteiro → plano → cidade."
+        },
+        {
+          "textExcerpt": "Em 1964, um golpe civil-militar derrubou o governo.",
+          "attentionTarget": "O Congresso fechado e o AI-5.",
+          "visibleEvent": "Tanques; o Congresso fecha; o AI-5 é assinado; o jornal é censurado; a tortura é sugerida, não exibida.",
+          "stateBefore": "A democracia de 1945–1964.",
+          "stateAfter": "A ditadura; a censura; o “milagre”.",
+          "cameraReveal": "Rua → Congresso → jornal."
+        },
+        {
+          "textExcerpt": "Em 1984, milhões foram às ruas pedir eleições diretas",
+          "attentionTarget": "A multidão e a transição.",
+          "visibleEvent": "A multidão; a emenda rejeitada; Tancredo; Sarney; a abertura.",
+          "stateBefore": "A ditadura.",
+          "stateAfter": "A transição; a Constituinte.",
+          "cameraReveal": "Rua → Congresso → 1985."
+        }
+      ],
+      "sourceText": "O país acelera.\n\nA República Velha era oligárquica: o voto era controlado, e o poder, em grande parte, alternava entre as elites de São Paulo e Minas Gerais. Em 1930, uma revolução levou Getúlio Vargas ao poder. Vargas centralizou o Estado, criou leis trabalhistas e incentivou a indústria. Em 1937, instalou um regime autoritário, com censura e propaganda: o Estado Novo. Era a industrialização, puxada pelo Estado. Em 1945, a democracia voltou. Nos anos 1950, Juscelino Kubitschek prometeu avançar cinquenta anos em cinco e construiu Brasília, inaugurada em 1960. O país se urbanizou, a indústria cresceu, mas a inflação e a desigualdade também. Em 1964, um golpe civil-militar derrubou o governo. A ditadura fechou o Congresso e cassou mandatos. Em 1968, o Ato Institucional número 5, o AI-5, suspendeu direitos e abriu caminho para a censura, a tortura e os desaparecimentos. Ao mesmo tempo, o crescimento acelerou, mas concentrou renda. Foi o chamado \"milagre econômico\". A abertura foi lenta, a partir de 1974. Em 1984, milhões foram às ruas pedir eleições diretas; a emenda foi rejeitada, e a transição foi negociada. Em 1985, Tancredo Neves foi eleito indiretamente, morreu antes de assumir, e José Sarney tomou posse."
+    },
+    {
+      "id": "b09",
+      "sequence": 9,
+      "chapter": "Capítulo 8",
+      "title": "A Constituição vira camada",
+      "paragraphs": [
+        17,
+        18
+      ],
+      "function": "Explicar a redemocratização e a Constituição de 1988; o que mudou e o que continuou.",
+      "referenceFunction": "A referência termina na potência mundial; o pedido exige chegar à democracia e aos direitos.",
+      "visualQuestion": "O que muda quando direitos viram uma camada sobre o mapa?",
+      "attentionTarget": "A Constituição translúcida, os artigos que acendem, o posto de saúde, a escola, a comunidade quilombola e as áreas escuras.",
+      "visibleEvent": "A Constituição é colocada sobre o mapa; os direitos acendem; a luz passa de forma desigual; a cartógrafa ajusta a camada; algumas áreas ficam escuras.",
+      "stateBefore": "O mapa da ditadura, com direitos restritos.",
+      "stateAfter": "O mapa com a camada de direitos; acesso desigual; a luta continua.",
+      "cameraReveal": "Documento → camada → posto de saúde → escola → mapa com áreas desiguais.",
+      "pause": "Deixar os direitos legíveis; não cobrir com FX.",
+      "soundIntent": "Papel, caneta, respiração, ambiente de posto de saúde; sem hino.",
+      "concept": "Direitos sociais, SUS e Constituição Cidadã: mostrar o antes, a ação e o efeito; nomear.",
+      "humor": "A Constituição é pesada; a cartógrafa quase deixa cair; o funcionário tenta ajudar e atrapalha.",
+      "factsToCheck": [
+        "Constituinte (1987–1988)",
+        "SUS",
+        "direitos indígenas e quilombolas",
+        "implementação"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "o Congresso virou Assembleia Constituinte",
+          "attentionTarget": "A Constituinte e o documento.",
+          "visibleEvent": "O Congresso vira Constituinte; a Constituição é escrita; a mesa se enche de papel.",
+          "stateBefore": "A ditadura.",
+          "stateAfter": "O texto pronto; a promulgação.",
+          "cameraReveal": "Plenário → papel → promulgação."
+        },
+        {
+          "textExcerpt": "A Constituição transformou saúde, educação, assistência social e previdência em direitos.",
+          "attentionTarget": "Os artigos que acendem e os serviços.",
+          "visibleEvent": "Os direitos acendem; o posto de saúde, a escola e a comunidade quilombola aparecem.",
+          "stateBefore": "O mapa sem a camada.",
+          "stateAfter": "A camada de direitos; os serviços.",
+          "cameraReveal": "Documento → camada → serviços."
+        },
+        {
+          "textExcerpt": "Mas direito no papel não é direito na vida.",
+          "attentionTarget": "As áreas escuras do mapa.",
+          "visibleEvent": "A luz passa desigual; algumas áreas ficam escuras; a cartógrafa tenta ajustar.",
+          "stateBefore": "A camada iluminada.",
+          "stateAfter": "A camada com buracos; a luta continua.",
+          "cameraReveal": "Mapa → buracos → mão da cartógrafa."
+        }
+      ],
+      "sourceText": "A Constituição vira camada.\n\nDepois da ditadura, o Congresso virou Assembleia Constituinte e escreveu uma nova Constituição, promulgada em 1988. Ela ficou conhecida como Constituição Cidadã. Antes, o acesso à saúde e à educação dependia muito do emprego formal e da renda. A Constituição transformou saúde, educação, assistência social e previdência em direitos. Criou as bases do SUS, o Sistema Único de Saúde. Fortaleceu a escola pública, reconheceu direitos dos povos indígenas e das comunidades quilombolas e deu mais poder a estados e municípios. Mas direito no papel não é direito na vida. A implementação depende de dinheiro, de tribunais, de gestão e de disputa política. A desigualdade continuou, e a violência também. A Constituição não resolveu o país; ela criou um novo campo de luta. Esse processo de saída da ditadura e reconstrução da democracia ficou conhecido como redemocratização."
+    },
+    {
+      "id": "b10",
+      "sequence": 10,
+      "chapter": "Capítulo 9",
+      "title": "A camada que falta",
+      "paragraphs": [
+        19,
+        20
+      ],
+      "function": "Fechar no presente, retomar a pergunta e pagar o payoff sem solução definitiva.",
+      "referenceFunction": "A referência fecha na potência mundial e chama para o próximo vídeo; aqui o fecho devolve a pergunta ao espectador.",
+      "visualQuestion": "O que a pilha de camadas revela sobre o Brasil de hoje?",
+      "attentionTarget": "A pilha completa, os números do Censo, a folha em branco e a mão da cartógrafa.",
+      "visibleEvent": "A câmera sobe pela pilha; os números do presente aparecem; a cartógrafa coloca uma folha em branco; a câmera se afasta e revela a mesa.",
+      "stateBefore": "A pilha de camadas históricas, com a Constituição no topo.",
+      "stateAfter": "A pilha inteira e a folha em branco; a pergunta final.",
+      "cameraReveal": "Subida vertical pela pilha → mapa atual → folha → pullback.",
+      "pause": "Segurar a folha em branco e a pergunta final.",
+      "soundIntent": "Papel, lápis, respiração; silêncio final; sem CTA.",
+      "concept": "Desigualdade estrutural: mostrar a persistência e nomear.",
+      "humor": "Um sorriso pequeno da cartógrafa; nada mais.",
+      "factsToCheck": [
+        "Censo 2022",
+        "Gini (World Bank)",
+        "desigualdade racial",
+        "CTA aprovado pelo criador",
+        "sem AI slop"
+      ],
+      "shots": [
+        {
+          "textExcerpt": "No Censo de 2022, o Brasil tinha 203 milhões de habitantes.",
+          "attentionTarget": "Os números do presente sobre a pilha.",
+          "visibleEvent": "A câmera sobe; 203 milhões, 55,5%, 1,7 milhão, 391 etnias e 295 línguas viram carimbos.",
+          "stateBefore": "A camada de 1988.",
+          "stateAfter": "O presente; a pilha inteira.",
+          "cameraReveal": "Subida vertical → carimbos."
+        },
+        {
+          "textExcerpt": "A diversidade é real; a igualdade, não.",
+          "attentionTarget": "O mapa dividido entre diversidade e desigualdade.",
+          "visibleEvent": "O mapa acende em muitas cores; a camada de renda corta o mapa; as duas imagens se sobrepõem.",
+          "stateBefore": "Os números do presente.",
+          "stateAfter": "A diversidade e a desigualdade no mesmo quadro.",
+          "cameraReveal": "Mapa → camada de renda → sobreposição."
+        },
+        {
+          "textExcerpt": "E a próxima camada ainda está em branco.",
+          "attentionTarget": "A folha em branco e a mão.",
+          "visibleEvent": "A cartógrafa coloca a folha; a câmera se afasta; a mesa inteira; a pergunta final.",
+          "stateBefore": "A pilha completa.",
+          "stateAfter": "A folha em branco; o plano aberto.",
+          "cameraReveal": "Folha → mão → pullback → mesa."
+        },
+        {
+          "textExcerpt": "Se você quiser continuar abrindo esses mapas com a gente",
+          "attentionTarget": "A folha em branco e a mesa inteira; o carimbo final.",
+          "visibleEvent": "A cartógrafa coloca a folha; a câmera se afasta; o título do vídeo é carimbado; a luz permanece acesa.",
+          "stateBefore": "A pilha completa e a pergunta final.",
+          "stateAfter": "A folha em branco no centro; a mesa e a lâmpada; o convite final.",
+          "cameraReveal": "Folha → mão → pullback → mesa → título."
+        }
+      ],
+      "sourceText": "A camada que falta.\n\nNo Censo de 2022, o Brasil tinha 203 milhões de habitantes. Mais da metade se declarou preta ou parda. O mesmo censo registrou 1,7 milhão de indígenas, 391 etnias e 295 línguas. A desigualdade caiu em relação aos anos 1990, mas o país continua entre os mais desiguais do mundo. A renda continua marcada pela cor. A diversidade é real; a igualdade, não. Isso não é um acidente individual: é uma desigualdade estrutural, reproduzida pelas instituições. O Brasil não é um país que ficou pronto. É um país que continua sendo feito, camada por camada. A pergunta que abriu este vídeo não tem uma resposta definitiva. Ela tem uma história. E a próxima camada ainda está em branco. A pergunta é quem vai ter poder para escrevê-la.\n\nSe você quiser continuar abrindo esses mapas com a gente, se inscreve no canal e curte o vídeo. A próxima camada começa no próximo vídeo."
+    }
+  ]
+}

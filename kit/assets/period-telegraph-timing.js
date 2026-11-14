@@ -1,0 +1,1 @@
+export function keyDown(t){let cursor=.2;const phase=((t%4)+4)%4;for(const ch of '-.-. --.- -..'){if(ch===' '){cursor+=.1;continue;}const d=ch==='-'?.15:.05;if(phase>=cursor&&phase<cursor+d)return true;cursor+=d+.05;}return false;}

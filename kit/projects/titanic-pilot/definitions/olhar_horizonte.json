@@ -1,0 +1,20 @@
+{
+  "id": "olhar_horizonte",
+  "label": "Olhar até o sinal no horizonte",
+  "kind": "camera",
+  "category": "historico_maritimo",
+  "description": "Partir da ponte do Carpathia e revelar luz no horizonte. Manter eixo e escala, parar para leitura do sinal; evitar órbita contínua e reação facial inventada como evidência histórica. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "horizon-reveal.js",
+  "aliases": [
+    "viu",
+    "Olhar até o sinal no horizonte"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:ponte-observacao"
+  },
+  "baselineIds": []
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "7653d5952212fb6bc18d99375c244c4ca7d8bb2a4832a8b396958fa5b4ba4217",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "material-aluminio-manta",
+      "meshes": 18,
+      "triangles": 216,
+      "dimensions": [
+        5.559623765988528,
+        1.2409207394662438,
+        3.72
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.684Z"
+}

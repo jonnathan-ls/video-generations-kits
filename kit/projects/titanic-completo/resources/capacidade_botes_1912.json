@@ -1,0 +1,21 @@
+{
+  "id": "capacidade_botes_1912",
+  "label": "Capacidade dos botes — evidência visual",
+  "module": "period-capacity-evidence.js",
+  "kind": "object",
+  "category": "evidencia historica",
+  "description": "Miniatura de bote aberta com assentos legíveis, grupos de passageiros e assentos vazios em cores/materiais diferenciados. Relação qualitativa sem contagens fictícias; escala e proporção ilustrativas, sem representar lotação de bote particular.",
+  "variants": [
+    "seats",
+    "empty-spaces"
+  ],
+  "aliases": [
+    "Capacidade dos botes — evidência visual",
+    "Os botes não tinham lugar para todas."
+  ],
+  "baselineIds": [],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:capacity-evidence"
+  }
+}

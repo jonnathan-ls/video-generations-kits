@@ -1,0 +1,22 @@
+{
+  "id": "cimbra_arco",
+  "module": "cimbra-arco.js",
+  "kind": "object",
+  "label": "Cimbre de madeira para arco",
+  "category": "estruturas temporarias",
+  "description": "Cimbre ilustrativo de madeira com três costelas curvas segmentadas, escoras verticais, sapatas e travessas. Sustenta as cunhas até o anel se fechar; pode ser retirado separadamente. Não representa cálculo de capacidade.",
+  "aliases": [
+    "cimbre de madeira",
+    "cimbre para arco",
+    "escoramento de arco",
+    "forma de madeira"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "baselineIds": [],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:cimbra-arch",
+    "projectId": "arco-alvenaria"
+  }
+}

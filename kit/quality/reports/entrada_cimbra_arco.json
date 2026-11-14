@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "79fe7142afa78e235b6a08dc583112abdaeac87ac1cfe9b1100fa034de39f821",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "",
+      "meshes": 86,
+      "triangles": 1032,
+      "dimensions": [
+        5.860000023841858,
+        6.72864914894104,
+        0.7999999988079071
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    ": recurso abaixo do chão; justificar contato no contrato."
+  ],
+  "baselines": [
+    {
+      "id": "cimbra_arco",
+      "variant": "padrao",
+      "revision": "b8b04bda3274951d"
+    }
+  ],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-06T03:00:57.905Z"
+}

@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "project": "crochet-limpeza-cozinha-wan2gp",
+  "status": "generated-awaiting-visual-and-audio-review",
+  "gpuUsed": true,
+  "finalAssemblyRendered": false,
+  "source": {
+    "reference": "https://www.instagram.com/reel/Dck3Gz1SHr0/",
+    "sha256": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+    "samplingFps": 10,
+    "sampledFrames": 294,
+    "passedToModel": false
+  },
+  "model": {
+    "name": "t2v_nexus_1.3B",
+    "checkpoint": {
+      "file": "wan2.1_t2v_1.3b.nexus.B-SMOOTHED.build.1.safetensors",
+      "size": 3092110054,
+      "sha256": "f970b3bc30aac8a687aedb51e9675f0f0eff0d24cf4921317dde900ebec66236",
+      "sha256Verified": true
+    },
+    "upstream": {
+      "version": "19.21",
+      "commit": "f0b54e02aa32b539e7be5c65cf4ada67db69da26",
+      "architecture": "t2v_1.3B"
+    },
+    "resolution": "432x768",
+    "fps": 16,
+    "steps": 6,
+    "profile": "5",
+    "attention": "sdpa"
+  },
+  "nativeDryRuns": [
+    {
+      "status": "validated",
+      "settings": "kit/projects/crochet-limpeza-cozinha-wan2gp/generation/hook.json",
+      "inputSha256": "7c451cd1d6ef10612c3cfa32fe5797fa08b21c137dc1dcf1d567dbd963aa3ed1",
+      "output": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-hook-dryrun-v4",
+      "dryRun": true,
+      "humanApproved": false,
+      "exitCode": 0,
+      "startedAt": "2026-11-09T11:10:45.797Z",
+      "finishedAt": "2026-11-09T11:10:55.408Z"
+    },
+    {
+      "status": "validated",
+      "settings": "kit/projects/crochet-limpeza-cozinha-wan2gp/generation/rest.json",
+      "inputSha256": "aa35d20c666371a47e0304d7b93e6ead23841c6c7fbcc8d82228db8d12f8a38d",
+      "output": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-dryrun",
+      "dryRun": true,
+      "humanApproved": false,
+      "exitCode": 0,
+      "startedAt": "2026-11-09T11:15:23.869Z",
+      "finishedAt": "2026-11-09T11:15:33.361Z"
+    }
+  ],
+  "generationJobs": [
+    {
+      "status": "generated-awaiting-qa",
+      "settings": "kit/projects/crochet-limpeza-cozinha-wan2gp/generation/hook.json",
+      "inputSha256": "7c451cd1d6ef10612c3cfa32fe5797fa08b21c137dc1dcf1d567dbd963aa3ed1",
+      "output": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-hook-v4-output",
+      "dryRun": false,
+      "humanApproved": false,
+      "exitCode": 0,
+      "startedAt": "2026-11-09T11:11:01.782Z",
+      "finishedAt": "2026-11-09T11:12:45.154Z"
+    },
+    {
+      "status": "generated-awaiting-qa",
+      "settings": "kit/projects/crochet-limpeza-cozinha-wan2gp/generation/rest.json",
+      "inputSha256": "aa35d20c666371a47e0304d7b93e6ead23841c6c7fbcc8d82228db8d12f8a38d",
+      "output": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output",
+      "dryRun": false,
+      "humanApproved": false,
+      "exitCode": 0,
+      "startedAt": "2026-11-09T11:15:41.881Z",
+      "finishedAt": "2026-11-09T11:22:41.262Z"
+    }
+  ],
+  "outputCount": 12,
+  "totalClipDurationSeconds": 31.749024,
+  "outputs": [
+    {
+      "shotId": "01-pratos-pia",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-hook-v4-output/01-pratos-pia.mp4",
+      "sha256": "e23d6c187e1326ed8af2a34e1656ddb4da3ba9d4603cfb60971795c9fbc82c7e",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 61,
+      "durationSeconds": 3.8125,
+      "sizeBytes": 1426218
+    },
+    {
+      "shotId": "02-canecas",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/02-canecas.mp4",
+      "sha256": "7729b16c403a6345842acc224c480c660549f0fc76483c01717077e68d86c260",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 57,
+      "durationSeconds": 3.5625,
+      "sizeBytes": 1233553
+    },
+    {
+      "shotId": "03-cooktop",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/03-cooktop.mp4",
+      "sha256": "51c763f7baf462a6d4054ba7d820646de2f8b1aeceae27a02dd621e61f05cc12",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 65,
+      "durationSeconds": 4.0625,
+      "sizeBytes": 1613562
+    },
+    {
+      "shotId": "04-migalhas",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/04-migalhas.mp4",
+      "sha256": "ab195983c4c175c0bd7a0952bf3caa702aa82aadb8db9622a91197e86f06093a",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 53,
+      "durationSeconds": 3.3125,
+      "sizeBytes": 1316067
+    },
+    {
+      "shotId": "05-geladeira-limpa",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/05-geladeira-limpa.mp4",
+      "sha256": "1da48a84a1fb28728552592b55692525e016171816935d4572010afec9efbade",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 57,
+      "durationSeconds": 3.5625,
+      "sizeBytes": 1342676
+    },
+    {
+      "shotId": "06-geladeira-organiza",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/06-geladeira-organiza.mp4",
+      "sha256": "196bdca0906f686e60e37e6313b2617431aa49c9629482750ec18ae3a8c62a72",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 45,
+      "durationSeconds": 2.812012,
+      "sizeBytes": 1289050
+    },
+    {
+      "shotId": "07-despensa-potes",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/07-despensa-potes.mp4",
+      "sha256": "fa6489bf098dcb22dd78f5291a8ff2e657be2b57ef0bf589fce63c9c8122102c",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 41,
+      "durationSeconds": 2.5625,
+      "sizeBytes": 1321140
+    },
+    {
+      "shotId": "08-pano-dobrado",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/08-pano-dobrado.mp4",
+      "sha256": "5a38d2715465660d7c18f2b09357f44182505e57c87c9db7836aaf8b774f891c",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 29,
+      "durationSeconds": 1.8125,
+      "sizeBytes": 854845
+    },
+    {
+      "shotId": "09-pia-bancada",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/09-pia-bancada.mp4",
+      "sha256": "a1f2b38429072e7554f44c43b7720567969f2b879debe1315ecd636fc9582c8c",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 25,
+      "durationSeconds": 1.5625,
+      "sizeBytes": 541677
+    },
+    {
+      "shotId": "10-fogao-final",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/10-fogao-final.mp4",
+      "sha256": "3e164c9ed9795050748b1fb9df7b54a2fac1f877c397b375e2b0da9d65ba8351",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 29,
+      "durationSeconds": 1.8125,
+      "sizeBytes": 617820
+    },
+    {
+      "shotId": "11-toalha",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/11-toalha.mp4",
+      "sha256": "6ef659396670b75b429ffc33cac40a9b036c793e71a13d74fd392b4ba3597cce",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 21,
+      "durationSeconds": 1.312012,
+      "sizeBytes": 778515
+    },
+    {
+      "shotId": "12-revelacao-final",
+      "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-rest-output/12-revelacao-final.mp4",
+      "sha256": "54573a80ba31de793e85b3deee5881558b7ff524ce46e994c8348b5b7894f9b1",
+      "width": 432,
+      "height": 768,
+      "fps": "16/1",
+      "frames": 25,
+      "durationSeconds": 1.5625,
+      "sizeBytes": 553619
+    }
+  ],
+  "audioPreview": {
+    "file": "kit/projects/crochet-limpeza-cozinha-wan2gp/audio-build/build/mix.wav",
+    "sha256": "fc30c10102fcde6f0157c33391f2f92c273fbc92501785f7265f4d87a929aa77",
+    "durationSeconds": 29.375,
+    "eventCount": 13,
+    "humanListening": "pending",
+    "referenceAudioUsed": false,
+    "mp3File": "kit/projects/crochet-limpeza-cozinha-wan2gp/audio-preview.mp3",
+    "mp3Sha256": "21738a9b214d3d6b08a1d3a50f40b7cf121a5065b27aae5cdd32def6385cc5f9",
+    "measuredIntegratedLufs": -17.9,
+    "measuredTruePeakDbfs": -1.3,
+    "normalization": "draft preview only; final loudness pass not run"
+  },
+  "reproducibility": {
+    "inputsPinned": true,
+    "nativeSettingsHashes": [
+      "7c451cd1d6ef10612c3cfa32fe5797fa08b21c137dc1dcf1d567dbd963aa3ed1",
+      "aa35d20c666371a47e0304d7b93e6ead23841c6c7fbcc8d82228db8d12f8a38d"
+    ],
+    "seedsPerShot": [
+      684201,
+      684298,
+      684395,
+      684492,
+      684589,
+      684686,
+      684783,
+      684880,
+      684977,
+      685074,
+      685171,
+      685268
+    ],
+    "byteIdenticalOutputGuaranteed": false,
+    "note": "Prompts, seeds, checkpoint digest, upstream commit and native queue receipts are preserved; exact output bytes can vary with runtime/GPU stack."
+  },
+  "planSha256": "51d8229d353d7bf2b65b08ab0bab19a8bde1154b024a9a7e057cc81f5ce9d3cd",
+  "styleBibleSha256": "302049d373f2f7e64fd8f3daa2f669f1a4a96a87f9c137831a7791e10f6c3818",
+  "settingsSha256": "ec11857821a2372a93f327c5470f2a70459c4024b29440cfb9929827aaed809c",
+  "staticPreflight": "pass; errors=0",
+  "completedAt": "2026-11-09T11:22:41.262Z",
+  "integrityCheck": {
+    "status": "pass",
+    "checkedAt": "2026-11-09T11:36:55Z",
+    "planHashMatches": true,
+    "styleHashMatches": true,
+    "queueHashMatches": true,
+    "allClipHashesMatch": true,
+    "audioWavHashMatches": true,
+    "audioMp3HashMatches": true
+  },
+  "gpuStatusAfterGeneration": {
+    "sample": "13 MiB, 6144 MiB",
+    "computeProcesses": "none"
+  }
+}

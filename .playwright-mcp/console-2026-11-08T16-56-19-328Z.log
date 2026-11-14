@@ -1,0 +1,2 @@
+[     395ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead. @ http://127.0.0.1:4173/vendor/three/build/three.core.js:2014
+[    2612ms] [WARNING] [.WebGL-0x10400c1ea00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0

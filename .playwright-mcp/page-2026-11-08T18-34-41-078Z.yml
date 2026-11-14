@@ -1,0 +1,80 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - link "Kit de vídeo, casa do Sertão" [ref=f2e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f2e4]: OC
+      - generic [ref=f2e5]:
+        - strong [ref=f2e6]: Obra em corte
+        - generic [ref=f2e7]: Revisão de cenas · 3D
+    - generic [ref=f2e8]: Aguardando sua revisão
+  - main [ref=f2e11]:
+    - region "Prévia das cenas" [ref=f2e12]:
+      - generic [ref=f2e13]:
+        - generic [ref=f2e14]:
+          - generic [ref=f2e15]: CENA 01 / 13
+          - generic [ref=f2e16]: ESTUDO DE CENA · SEM VOZ FINAL
+        - generic "Cena 3D vertical" [ref=f2e17]:
+          - generic "Casa em corte 3D animada" [ref=f2e18]
+          - generic:
+            - text: O SINTOMA
+            - heading "O teto ainda irradia" [level=1]
+          - generic [ref=f2e19]:
+            - generic [ref=f2e20]: A cena parte do quarto, no escuro.
+            - generic [ref=f2e21]: FX LOCAL
+          - button "INSPECIONAR" [ref=f2e22] [cursor=pointer]
+        - generic [ref=f2e23]:
+          - button "Cena anterior" [ref=f2e24] [cursor=pointer]: ‹
+          - button "Reproduzir cena" [ref=f2e25] [cursor=pointer]: ▶
+          - button "Próxima cena" [ref=f2e26] [cursor=pointer]: ›
+          - generic [ref=f2e27]:
+            - generic [ref=f2e28]:
+              - generic [ref=f2e29]: 00:00 / 00:05
+              - generic [ref=f2e30]: tempo de revisão
+            - slider "Tempo da cena" [ref=f2e31] [cursor=pointer]: "0"
+          - button "Ouvir efeitos deste beat" [ref=f2e32] [cursor=pointer]: ♪ FX
+        - generic [ref=f2e33]:
+          - generic [ref=f2e34]: i
+          - generic [ref=f2e35]: Os cinco segundos são só para revisar o movimento. A duração final será definida depois da escolha da voz.
+        - navigation "Escolher cena pela prévia visual" [ref=f2e36]
+    - complementary "Decisão da cena selecionada" [ref=f2e37]:
+      - generic [ref=f2e38]:
+        - generic [ref=f2e39]:
+          - generic [ref=f2e40]:
+            - text: CENA SELECIONADA
+            - heading "O teto ainda irradia" [level=2] [ref=f2e41]
+          - generic [ref=f2e42]: PENDENTE
+        - generic [ref=f2e43]:
+          - text: FALA APROVADA
+          - paragraph
+        - generic [ref=f2e44]:
+          - generic [ref=f2e45]: ◉
+          - generic [ref=f2e46]:
+            - text: O QUE VOCÊ ESTÁ VENDO
+            - paragraph
+        - generic [ref=f2e47]:
+          - generic [ref=f2e48]: ↗
+          - generic [ref=f2e49]:
+            - text: ALVO DE ATENÇÃO
+            - paragraph
+        - generic [ref=f2e50]:
+          - button "Aprovar esta cena" [ref=f2e51] [cursor=pointer]
+          - button "Pedir ajuste" [ref=f2e52] [cursor=pointer]
+        - paragraph [ref=f2e53]
+      - generic [ref=f2e54]:
+        - text: POR QUE ESTA CENA VEM AGORA
+        - paragraph
+        - generic [ref=f2e56]: →
+      - generic [ref=f2e58]:
+        - generic [ref=f2e59]:
+          - generic [ref=f2e60]: ♫
+          - generic [ref=f2e61]:
+            - text: ENCONTRO DE FX COM A AÇÃO
+            - heading "Som local deste beat" [level=3] [ref=f2e62]
+        - paragraph
+        - paragraph [ref=f2e77]: Efeitos sintetizados localmente. A revisão auditiva e a mixagem com a voz continuam pendentes.
+      - generic [ref=f2e78]:
+        - generic [ref=f2e79]: ✓
+        - paragraph [ref=f2e80]: A aprovação desta cena vale para a encenação visual. A revisão dos assets individuais e do plano de recursos continua separada.
+  - contentinfo [ref=f2e81]:
+    - generic [ref=f2e82]: Estudo original inspirado pela ordem causal aprovada; textos, design e encenação próprios.
+    - generic [ref=f2e83]: Render Three.js local · sem envio de dados

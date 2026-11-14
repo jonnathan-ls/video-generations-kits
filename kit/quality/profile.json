@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "units": "meters",
+  "groundY": 0,
+  "facing": "+Z",
+  "maxTriangles": 150000,
+  "maxMeshes": 500,
+  "sampleTimes": [0, 0.25, 1, 2, 4, 6],
+  "requiredViews": ["perspective", "front", "side", "top", "section"],
+  "principles": ["Preservar proporção e contato físico", "Ação acompanha a explicação", "Movimento limitado ao mecanismo", "Materiais legíveis e consistentes com referências aprovadas", "Sem geometria substituta para recursos pendentes"],
+  "humanReview": ["silhueta", "material", "escala", "conexões", "movimento", "corte", "adequação narrativa"]
+}

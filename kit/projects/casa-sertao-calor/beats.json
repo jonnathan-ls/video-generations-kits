@@ -1,0 +1,2650 @@
+{
+  "schemaVersion": 1,
+  "projectId": "casa-sertao-calor",
+  "narrationHash": "fb14657b981d0be1",
+  "timingStatus": "preview-only; final timing waits for voice choice",
+  "scenes": [
+    {
+      "id": "cs-01-noite-teto",
+      "label": "O teto ainda irradia",
+      "beatId": "gancho-calor-noite",
+      "sourceText": "De noite, o quarto continua abafado. O sol já foi embora; então por que o calor ainda vem do teto?",
+      "visualPlan": {
+        "beatId": "gancho-calor-noite",
+        "attentionTarget": "a pessoa no quarto à noite e a faixa de calor junto à laje",
+        "visualQuestion": "Como o teto continua sendo a origem do calor se o sol já sumiu?",
+        "visibleEvent": "Noite azul; a laje mantém um brilho âmbar discreto que alcança o quarto. A pessoa olha para cima; um tilting reveal expõe a cobertura em corte.",
+        "stateBefore": "quarto abafado, céu noturno, ventilador sem efeito sobre a laje",
+        "stateAfter": "fonte do desconforto localizada no teto; pergunta aberta para investigação",
+        "cameraReveal": "Plano aberto do quarto → corte e push no rosto → recuo revela a casa → tilt para a cobertura.",
+        "soundIntent": "ambiente noturno quase silencioso; grave quente sutil ao revelar a faixa na laje; sem vento ainda",
+        "shots": [
+          {
+            "id": "abertura-quarto-noturno",
+            "start": 0,
+            "end": 0.62,
+            "context": "house",
+            "from": [
+              4.4,
+              3.6,
+              9.8
+            ],
+            "to": [
+              4.2,
+              3.4,
+              8.8
+            ],
+            "targetFrom": [
+              -0.1,
+              1.6,
+              0.1
+            ],
+            "targetTo": [
+              -0.25,
+              1.7,
+              0.1
+            ],
+            "zoomFrom": 0.82,
+            "zoomTo": 0.9,
+            "attentionTarget": "pessoa, cama e ventilador no mesmo espaço",
+            "event": "O plano aberto situa o quarto abafado; a laje continua emitindo calor acima da pessoa.",
+            "cameraReveal": "Plano médio aberto situa a cama e o ventilador; um corte rápido entra na reação.",
+            "soundCue": "O motor permanece discreto enquanto o quarto é apresentado.",
+            "easing": "snap"
+          },
+          {
+            "id": "rosto-na-cama",
+            "start": 0.62,
+            "end": 1.2,
+            "context": "house",
+            "from": [
+              1.05,
+              2.45,
+              4.25
+            ],
+            "to": [
+              0.58,
+              2.22,
+              3.55
+            ],
+            "targetFrom": [
+              -0.56,
+              1.67,
+              0.52
+            ],
+            "targetTo": [
+              -0.56,
+              1.78,
+              0.52
+            ],
+            "zoomFrom": 1.32,
+            "zoomTo": 1.68,
+            "attentionTarget": "rosto e olhar para o teto",
+            "event": "A pessoa sente o calor e acompanha a faixa âmbar acima dela.",
+            "cameraReveal": "Corte curto para o rosto; push-in acompanha o olhar que sobe até a laje.",
+            "soundCue": "Grave térmico discreto começa quando a faixa alcança o quarto.",
+            "easing": "snap"
+          },
+          {
+            "id": "pullout-casa-em-corte",
+            "start": 1.2,
+            "end": 3.25,
+            "context": "house",
+            "from": [
+              6.4,
+              4.9,
+              12.3
+            ],
+            "to": [
+              4.1,
+              3.65,
+              8.9
+            ],
+            "targetFrom": [
+              0,
+              2.05,
+              0
+            ],
+            "targetTo": [
+              0,
+              2.28,
+              0
+            ],
+            "zoomFrom": 0.84,
+            "zoomTo": 0.96,
+            "attentionTarget": "a distância entre cama, laje e telhado",
+            "event": "O recuo revela a casa inteira em corte e liga o sintoma ao teto.",
+            "cameraReveal": "Recuo seco abre a casa inteira e reposiciona a pergunta no telhado.",
+            "soundCue": "whoosh curto acompanha o recuo e termina antes da pergunta.",
+            "easing": "snap"
+          },
+          {
+            "id": "tilt-para-cobertura",
+            "start": 3.25,
+            "end": 5,
+            "context": "house",
+            "from": [
+              0.2,
+              8.2,
+              8.1
+            ],
+            "to": [
+              0.45,
+              6.4,
+              6.6
+            ],
+            "targetFrom": [
+              0,
+              3.65,
+              0
+            ],
+            "targetTo": [
+              0,
+              3.78,
+              0
+            ],
+            "zoomFrom": 1.12,
+            "zoomTo": 1.48,
+            "attentionTarget": "camadas de telha e laje",
+            "event": "A câmera conclui o caminho no teto, deixando a pergunta sem resposta pronta.",
+            "cameraReveal": "Corte alto desce sobre telhas, ático e laje; a pessoa sai do foco.",
+            "soundCue": "ambiente noturno sustenta a pausa; sem novo impacto.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "abertura-quarto-noturno",
+            "start": 0,
+            "end": 0.62,
+            "context": "house",
+            "attentionTarget": "pessoa, cama e ventilador no mesmo espaço",
+            "event": "O plano aberto situa o quarto abafado; a laje continua emitindo calor acima da pessoa.",
+            "cameraReveal": "Plano médio aberto situa a cama e o ventilador; um corte rápido entra na reação.",
+            "soundCue": "O motor permanece discreto enquanto o quarto é apresentado."
+          },
+          {
+            "id": "rosto-na-cama",
+            "start": 0.62,
+            "end": 1.2,
+            "context": "house",
+            "attentionTarget": "rosto e olhar para o teto",
+            "event": "A pessoa sente o calor e acompanha a faixa âmbar acima dela.",
+            "cameraReveal": "Corte curto para o rosto; push-in acompanha o olhar que sobe até a laje.",
+            "soundCue": "Grave térmico discreto começa quando a faixa alcança o quarto."
+          },
+          {
+            "id": "pullout-casa-em-corte",
+            "start": 1.2,
+            "end": 3.25,
+            "context": "house",
+            "attentionTarget": "a distância entre cama, laje e telhado",
+            "event": "O recuo revela a casa inteira em corte e liga o sintoma ao teto.",
+            "cameraReveal": "Recuo seco abre a casa inteira e reposiciona a pergunta no telhado.",
+            "soundCue": "whoosh curto acompanha o recuo e termina antes da pergunta."
+          },
+          {
+            "id": "tilt-para-cobertura",
+            "start": 3.25,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "camadas de telha e laje",
+            "event": "A câmera conclui o caminho no teto, deixando a pergunta sem resposta pronta.",
+            "cameraReveal": "Corte alto desce sobre telhas, ático e laje; a pessoa sai do foco.",
+            "soundCue": "ambiente noturno sustenta a pausa; sem novo impacto."
+          }
+        ],
+        "audioTitle": "Motor leve · quarto noturno",
+        "audioLabel": "AMBIENTE",
+        "soundEvents": [
+          {
+            "at": 0.82,
+            "file": "sertao_fan.wav",
+            "volume": 0.17,
+            "label": "MOTOR",
+            "sync": "o motor começa depois do primeiro olhar para o teto"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "respiração lenta e pausa do ventilador",
+        "travel": "inclinação do olhar da cama ao teto",
+        "contact": "brilho toca a face inferior da laje",
+        "reaction": "pessoa ergue o olhar",
+        "result": "a laje permanece quente no quadro",
+        "pause": "pergunta respira por um instante",
+        "exit": "match cut do teto noturno para o sol da tarde"
+      },
+      "return": null
+    },
+    {
+      "id": "cs-02-sol-telha-laje",
+      "label": "Da telha à laje",
+      "beatId": "retorno-tarde-radiacao",
+      "sourceText": "Volta pra tarde. O sol aquece as telhas e parte desse calor cruza o vão até a laje por radiação — como sentir o calor de um forno sem encostar nele.",
+      "visualPlan": {
+        "beatId": "retorno-tarde-radiacao",
+        "attentionTarget": "telha, vão de ar e superfície da laje em sequência causal",
+        "visualQuestion": "Como o calor cruza um vão sem contato?",
+        "visibleEvent": "O sol aquece telhas cerâmicas; ondas térmicas atravessam o vão sem tocar as peças e aquecem a laje. Uma brincadeira visual breve com a mão que recua de um forno quente reforça a analogia sem virar gag longa.",
+        "stateBefore": "noite e laje quente sem causa visível",
+        "stateAfter": "origem diurna e troca radiativa mostradas",
+        "cameraReveal": "match move do céu ao perfil da telha; dolly curto acompanha a energia pelo vão até a laje",
+        "soundIntent": "whoosh curto no retorno à tarde; estalo cerâmico leve no primeiro calor; sem foley de contato no vão",
+        "shots": [
+          {
+            "id": "telha-ao-sol-macro",
+            "start": 0,
+            "end": 1.05,
+            "context": "house",
+            "from": [
+              3.2,
+              5.2,
+              6.8
+            ],
+            "to": [
+              2.8,
+              4.7,
+              5.9
+            ],
+            "targetFrom": [
+              0.25,
+              4,
+              0
+            ],
+            "targetTo": [
+              0.25,
+              4,
+              0
+            ],
+            "zoomFrom": 1.18,
+            "zoomTo": 1.3,
+            "attentionTarget": "face externa da telha cerâmica",
+            "event": "O feixe do sol encontra a telha e começa a aquecê-la.",
+            "cameraReveal": "Macro lateral da cobertura, com entrada rápida pelo lado iluminado.",
+            "soundCue": "brilho curto no primeiro contato solar."
+          },
+          {
+            "id": "energia-no-vao",
+            "start": 1.05,
+            "end": 1.8,
+            "context": "house",
+            "from": [
+              4.6,
+              4.8,
+              6.3
+            ],
+            "to": [
+              3.5,
+              4.25,
+              5.2
+            ],
+            "targetFrom": [
+              0.15,
+              3.65,
+              0.8
+            ],
+            "targetTo": [
+              0.1,
+              3.5,
+              0.7
+            ],
+            "zoomFrom": 1.08,
+            "zoomTo": 1.2,
+            "attentionTarget": "vão de ar entre telha e laje",
+            "event": "Linhas de energia cruzam o vão sem tocar as peças intermediárias.",
+            "cameraReveal": "Corte para perfil mais baixo; dolly acompanha o pulso até a laje.",
+            "soundCue": "nenhum som de contato no vão."
+          },
+          {
+            "id": "forno-aproximacao-plano-aberto",
+            "start": 1.8,
+            "end": 2.7,
+            "context": "forno",
+            "from": [
+              2.4,
+              2.8,
+              8.4
+            ],
+            "to": [
+              2.1,
+              2.55,
+              7.8
+            ],
+            "targetFrom": [
+              -0.05,
+              1.14,
+              0.08
+            ],
+            "targetTo": [
+              -0.12,
+              1.1,
+              0.08
+            ],
+            "zoomFrom": 0.88,
+            "zoomTo": 0.94,
+            "attentionTarget": "pessoa que se aproxima do forno e a boca quente ao fundo",
+            "event": "A pessoa se aproxima, estende a mão sem tocar e segura a reação por um instante.",
+            "cameraReveal": "Insert em plano médio aberto para manter pessoa, mão e forno legíveis no mesmo eixo.",
+            "soundCue": "foley de tecido só no recuo, ainda sem pontuar a aproximação."
+          },
+          {
+            "id": "contato-mao-e-forno",
+            "start": 2.7,
+            "end": 3.02,
+            "context": "forno",
+            "from": [
+              2.8,
+              2.5,
+              6.2
+            ],
+            "to": [
+              2.2,
+              2.22,
+              5.05
+            ],
+            "targetFrom": [
+              -0.3,
+              1.32,
+              0.22
+            ],
+            "targetTo": [
+              -0.22,
+              1.37,
+              0.28
+            ],
+            "zoomFrom": 1.14,
+            "zoomTo": 1.48,
+            "attentionTarget": "mão que para antes da boca quente do forno",
+            "event": "A mão chega perto da boca acesa e para antes de tocar; o calor aparece no ar entre os dois.",
+            "cameraReveal": "Snap para a mão e o brilho da brasa; segure só o instante do quase-contato.",
+            "soundCue": "O foley espera o recuo; durante a aproximação, só o fogo sustenta a gag.",
+            "easing": "snap"
+          },
+          {
+            "id": "recuo-completo-e-olhar",
+            "start": 3.02,
+            "end": 3.75,
+            "context": "forno",
+            "from": [
+              3.8,
+              3.3,
+              6.4
+            ],
+            "to": [
+              6.3,
+              3.45,
+              9.6
+            ],
+            "targetFrom": [
+              0.1,
+              1.3,
+              0.1
+            ],
+            "targetTo": [
+              0.1,
+              1.32,
+              0.1
+            ],
+            "zoomFrom": 1.12,
+            "zoomTo": 0.8,
+            "attentionTarget": "pessoa recuando e abertura quente do forno",
+            "event": "No foley, a pessoa puxa o corpo e a mão para trás e olha para a câmera; o plano abre para revelar o forno inteiro.",
+            "cameraReveal": "Whip-pull abre o quintal, revela o forno inteiro e pega a reação de frente.",
+            "soundCue": "Foley pontua o recuo no corte; a brasa e o ar quente permanecem visíveis depois do som.",
+            "easing": "snap"
+          },
+          {
+            "id": "volta-a-laje",
+            "start": 3.75,
+            "end": 5,
+            "context": "house",
+            "from": [
+              5.4,
+              2.75,
+              8
+            ],
+            "to": [
+              3.7,
+              2.25,
+              5.8
+            ],
+            "targetFrom": [
+              0,
+              2,
+              0.2
+            ],
+            "targetTo": [
+              0,
+              2.15,
+              0.3
+            ],
+            "zoomFrom": 0.98,
+            "zoomTo": 1.2,
+            "attentionTarget": "superfície superior da laje",
+            "event": "O corte volta à casa e confirma onde a energia chega.",
+            "cameraReveal": "Match cut volta do quintal à faixa de calor que chega à laje.",
+            "soundCue": "corte seco de retorno, sem repetir o whoosh inicial.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "telha-ao-sol-macro",
+            "start": 0,
+            "end": 1.05,
+            "context": "house",
+            "attentionTarget": "face externa da telha cerâmica",
+            "event": "O feixe do sol encontra a telha e começa a aquecê-la.",
+            "cameraReveal": "Macro lateral da cobertura, com entrada rápida pelo lado iluminado.",
+            "soundCue": "brilho curto no primeiro contato solar."
+          },
+          {
+            "id": "energia-no-vao",
+            "start": 1.05,
+            "end": 1.8,
+            "context": "house",
+            "attentionTarget": "vão de ar entre telha e laje",
+            "event": "Linhas de energia cruzam o vão sem tocar as peças intermediárias.",
+            "cameraReveal": "Corte para perfil mais baixo; dolly acompanha o pulso até a laje.",
+            "soundCue": "nenhum som de contato no vão."
+          },
+          {
+            "id": "forno-aproximacao-plano-aberto",
+            "start": 1.8,
+            "end": 2.7,
+            "context": "forno",
+            "attentionTarget": "pessoa que se aproxima do forno e a boca quente ao fundo",
+            "event": "A pessoa se aproxima, estende a mão sem tocar e segura a reação por um instante.",
+            "cameraReveal": "Insert em plano médio aberto para manter pessoa, mão e forno legíveis no mesmo eixo.",
+            "soundCue": "foley de tecido só no recuo, ainda sem pontuar a aproximação."
+          },
+          {
+            "id": "contato-mao-e-forno",
+            "start": 2.7,
+            "end": 3.02,
+            "context": "forno",
+            "attentionTarget": "mão que para antes da boca quente do forno",
+            "event": "A mão chega perto da boca acesa e para antes de tocar; o calor aparece no ar entre os dois.",
+            "cameraReveal": "Corte para um plano de contato: a mão e a abertura do forno ficam juntos no quadro.",
+            "soundCue": "O foley espera o recuo; durante a aproximação, só o fogo sustenta a gag."
+          },
+          {
+            "id": "recuo-completo-e-olhar",
+            "start": 3.02,
+            "end": 3.75,
+            "context": "forno",
+            "attentionTarget": "pessoa recuando e abertura quente do forno",
+            "event": "No foley, a pessoa puxa o corpo e a mão para trás e olha para a câmera; o plano abre para revelar o forno inteiro.",
+            "cameraReveal": "Corte seco no foley e pull-out rápido que enquadra reação, mão e forno no mesmo plano.",
+            "soundCue": "Foley pontua o recuo no corte; a brasa e o ar quente permanecem visíveis depois do som."
+          },
+          {
+            "id": "volta-a-laje",
+            "start": 3.75,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "superfície superior da laje",
+            "event": "O corte volta à casa e confirma onde a energia chega.",
+            "cameraReveal": "Match de direção para o interior; push curto no contato com a laje.",
+            "soundCue": "corte seco de retorno, sem repetir o whoosh inicial."
+          }
+        ],
+        "audioTitle": "Do telhado ao insert do forno",
+        "audioLabel": "CORTE",
+        "soundEvents": [
+          {
+            "at": 0.08,
+            "file": "whoosh.wav",
+            "volume": 0.24,
+            "label": "SOL",
+            "sync": "corte do quarto noturno para o sol da tarde"
+          },
+          {
+            "at": 3.02,
+            "file": "sertao_foley.wav",
+            "volume": 0.3,
+            "label": "RECUO",
+            "sync": "o corte abre junto com o foley quando a pessoa puxa a mão do calor do forno"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "sol entra no enquadramento",
+        "travel": "faixas de energia cruzam o vão em pulsos espaçados",
+        "contact": "a luz térmica alcança a laje sem tocar a manta ou estrutura",
+        "reaction": "laje muda gradualmente de cor",
+        "result": "energia chega ao teto do quarto",
+        "pause": "analogia do forno é lida sem congelar a ação",
+        "exit": "câmera segue a transferência para dentro do quarto"
+      },
+      "return": {
+        "priorSceneId": "cs-01-noite-teto",
+        "function": "clue",
+        "visibleDelta": "a câmera revela a causa diurna do calor que antes só aparecia como sintoma noturno"
+      }
+    },
+    {
+      "id": "cs-03-laje-ventilador",
+      "label": "O ventilador não esfria a laje",
+      "beatId": "calor-no-quarto-ventilador",
+      "sourceText": "A laje esquenta e passa calor pro quarto. O ventilador refresca quem está na frente, mas a laje continua no turno da noite.",
+      "visualPlan": {
+        "beatId": "calor-no-quarto-ventilador",
+        "attentionTarget": "caminho da laje ao quarto e cone de vento sobre a pessoa",
+        "visualQuestion": "O ventilador resolve o calor que vem da construção?",
+        "visibleEvent": "O vento refresca a pessoa por um instante; no plano aberto, o calor ainda desce da laje e fica no quarto.",
+        "stateBefore": "laje aquecida e quarto começando a receber calor",
+        "stateAfter": "efeito local do ventilador contrastado com a fonte persistente",
+        "cameraReveal": "Close na pessoa suando → macro rápido da hélice → corte reverso no rosto com a reação ao vento → recuo até a laje ainda quente.",
+        "soundIntent": "Motor começa na hélice; whoosh curto cai quando a brisa encontra o rosto; o grave quente permanece na laje.",
+        "shots": [
+          {
+            "id": "calor-desce-no-quarto",
+            "start": 0,
+            "end": 1.2,
+            "context": "house",
+            "from": [
+              -2.25,
+              2.65,
+              5.5
+            ],
+            "to": [
+              -1.25,
+              2.35,
+              4.25
+            ],
+            "targetFrom": [
+              -0.56,
+              1.72,
+              0.14
+            ],
+            "targetTo": [
+              -0.55,
+              1.8,
+              0.14
+            ],
+            "zoomFrom": 1.25,
+            "zoomTo": 1.56,
+            "attentionTarget": "rosto da pessoa e caminho de calor da laje",
+            "event": "O calor desce ao quarto; a pessoa aperta a expressão e uma gota pequena reflete no rosto.",
+            "cameraReveal": "Close de três quartos no rosto; um reflexo de suor marca o calor enquanto a laje continua acesa no alto.",
+            "soundCue": "motor do ventilador começa baixo com a primeira reação.",
+            "easing": "snap"
+          },
+          {
+            "id": "vento-so-na-pessoa",
+            "start": 1.2,
+            "end": 2.1,
+            "context": "house",
+            "from": [
+              5.5,
+              3.45,
+              4.7
+            ],
+            "to": [
+              3.65,
+              2.72,
+              3.35
+            ],
+            "targetFrom": [
+              1.45,
+              1.6,
+              0.72
+            ],
+            "targetTo": [
+              1.48,
+              1.66,
+              0.75
+            ],
+            "zoomFrom": 1.32,
+            "zoomTo": 1.76,
+            "attentionTarget": "hélice e corrente local do ventilador",
+            "event": "O ar envolve a pessoa, mas não alcança a laje aquecida.",
+            "cameraReveal": "Corte macro na hélice; a aceleração do motor começa a empurrar a brisa para a cama.",
+            "soundCue": "motor sobe junto com a hélice no corte macro.",
+            "easing": "snap"
+          },
+          {
+            "id": "vento-bate-no-rosto",
+            "start": 2.1,
+            "end": 3.1,
+            "context": "house",
+            "from": [
+              2.7,
+              2.72,
+              6.25
+            ],
+            "to": [
+              1.35,
+              2.3,
+              4.9
+            ],
+            "targetFrom": [
+              -0.5,
+              1.72,
+              0.6
+            ],
+            "targetTo": [
+              -0.52,
+              1.78,
+              0.58
+            ],
+            "zoomFrom": 1.16,
+            "zoomTo": 1.48,
+            "easing": "snap",
+            "attentionTarget": "rosto da pessoa e corrente local do ventilador",
+            "event": "A brisa alcança o rosto e a gota reflete por um instante; a onda âmbar continua acima.",
+            "cameraReveal": "Corte reverso no rosto: a brisa toca a pessoa e a reação muda antes de voltar ao telhado.",
+            "soundCue": "whoosh curto coincide com a corrente chegando ao rosto, sem mascarar a voz."
+          },
+          {
+            "id": "a-fonte-continua",
+            "start": 3.1,
+            "end": 5,
+            "context": "house",
+            "from": [
+              -7.2,
+              4.25,
+              10.4
+            ],
+            "to": [
+              -4.55,
+              3.2,
+              8.05
+            ],
+            "targetFrom": [
+              0,
+              2.3,
+              0
+            ],
+            "targetTo": [
+              0.15,
+              2.46,
+              0
+            ],
+            "zoomFrom": 0.88,
+            "zoomTo": 0.78,
+            "attentionTarget": "brilho persistente na laje acima da cama",
+            "event": "A pessoa relaxa, mas o teto mantém o brilho quente.",
+            "cameraReveal": "Recuo pelo lado oposto enquadra pessoa, ventilador e laje quente no mesmo plano.",
+            "soundCue": "motor segue localizado; grave da laje permanece separado.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "calor-desce-no-quarto",
+            "start": 0,
+            "end": 1.2,
+            "context": "house",
+            "attentionTarget": "rosto da pessoa e caminho de calor da laje",
+            "event": "O calor desce ao quarto; a pessoa aperta a expressão e uma gota pequena reflete no rosto.",
+            "cameraReveal": "Close de três quartos no rosto; um reflexo de suor marca o calor enquanto a laje continua acesa no alto.",
+            "soundCue": "motor do ventilador começa baixo com a primeira reação."
+          },
+          {
+            "id": "vento-so-na-pessoa",
+            "start": 1.2,
+            "end": 2.1,
+            "context": "house",
+            "attentionTarget": "hélice e corrente local do ventilador",
+            "event": "O ar envolve a pessoa, mas não alcança a laje aquecida.",
+            "cameraReveal": "Corte macro na hélice; a aceleração do motor começa a empurrar a brisa para a cama.",
+            "soundCue": "motor sobe junto com a hélice no corte macro."
+          },
+          {
+            "id": "vento-bate-no-rosto",
+            "start": 2.1,
+            "end": 3.1,
+            "context": "house",
+            "attentionTarget": "rosto da pessoa e corrente local do ventilador",
+            "event": "A brisa alcança o rosto e a gota reflete por um instante; a onda âmbar continua acima.",
+            "cameraReveal": "Corte reverso no rosto: a brisa toca a pessoa e a reação muda antes de voltar ao telhado.",
+            "soundCue": "whoosh curto coincide com a corrente chegando ao rosto, sem mascarar a voz."
+          },
+          {
+            "id": "a-fonte-continua",
+            "start": 3.1,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "brilho persistente na laje acima da cama",
+            "event": "A pessoa relaxa, mas o teto mantém o brilho quente.",
+            "cameraReveal": "Recuo pelo lado oposto enquadra pessoa, ventilador e laje quente no mesmo plano.",
+            "soundCue": "motor segue localizado; grave da laje permanece separado."
+          }
+        ],
+        "audioTitle": "Ventilador local · laje ainda quente",
+        "audioLabel": "MOTOR",
+        "soundEvents": [
+          {
+            "at": 0.34,
+            "file": "sertao_fan.wav",
+            "volume": 0.16,
+            "label": "MOTOR",
+            "sync": "a hélice entra no detalhe"
+          },
+          {
+            "at": 1.58,
+            "file": "whoosh.wav",
+            "volume": 0.18,
+            "label": "AR",
+            "sync": "a corrente toca a pessoa"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "laje brilha e pessoa desperta com calor",
+        "travel": "corte para hélice, aceleração do rotor e corrente azul chega ao rosto",
+        "contact": "brisa toca rosto e ombros",
+        "reaction": "a gota desce, a expressão relaxa por um instante",
+        "result": "recuo mostra a laje ainda quente acima do ventilador",
+        "pause": "contraste entre alívio local e casa quente fica legível",
+        "exit": "tilt rápido do ventilador de volta à cobertura"
+      },
+      "return": {
+        "priorSceneId": "cs-02-sol-telha-laje",
+        "function": "state-change",
+        "visibleDelta": "a transferência que chegou à laje agora aparece como ganho de calor no quarto; o ventilador atua somente na pessoa"
+      }
+    },
+    {
+      "id": "cs-04-telha-clara-atico",
+      "label": "Telha clara, ático fechado",
+      "beatId": "cobertura-primeira-medida",
+      "sourceText": "Por isso, começa pela cobertura: telha clara reflete mais sol. Só que o ático fechado acumula ar quente.",
+      "visualPlan": {
+        "beatId": "cobertura-primeira-medida",
+        "attentionTarget": "a casa no terreiro e o trajeto do sol pela cobertura clara",
+        "visualQuestion": "A telha clara basta quando o ar quente não tem saída?",
+        "visibleEvent": "A casa reaparece no terreiro sob o sol; a telha clara devolve parte da luz, mas o ático fechado ainda segura o ar quente.",
+        "stateBefore": "o quarto ficou abafado; a fala retorna à tarde para localizar a cobertura",
+        "stateAfter": "parte da luz retorna, mas o ático continua sem saída para o ar quente",
+        "cameraReveal": "corte de contexto para a fachada no terreiro, push curto à cobertura e corte de volta ao ático",
+        "soundIntent": "brilho curto de luz e abafamento grave ao fechar o quadro no ático",
+        "shots": [
+          {
+            "id": "terreiro-e-cobertura",
+            "start": 0,
+            "end": 1.2,
+            "context": "exterior",
+            "from": [
+              8.6,
+              9,
+              24
+            ],
+            "to": [
+              4.2,
+              5.9,
+              18
+            ],
+            "targetFrom": [
+              0,
+              2.35,
+              0
+            ],
+            "targetTo": [
+              0,
+              2.4,
+              0
+            ],
+            "zoomFrom": 0.78,
+            "zoomTo": 0.9,
+            "easing": "snap",
+            "attentionTarget": "casa e telhado no contexto do terreiro",
+            "event": "O plano aberto localiza a casa do sertão e a câmera aproxima a cobertura sob o sol alto.",
+            "cameraReveal": "Crane rápido chega do terreiro à face da cobertura; o corte seguinte entra na telha.",
+            "soundCue": "whoosh curto marca a saída do corte da casa para o terreiro, sem impacto."
+          },
+          {
+            "id": "reflexo-na-telha-clara",
+            "start": 1.2,
+            "end": 2.85,
+            "context": "house",
+            "from": [
+              5.1,
+              4.4,
+              5.9
+            ],
+            "to": [
+              3.6,
+              4.1,
+              4.3
+            ],
+            "targetFrom": [
+              1.12,
+              3.93,
+              0.55
+            ],
+            "targetTo": [
+              1.18,
+              3.99,
+              0.2
+            ],
+            "zoomFrom": 1.12,
+            "zoomTo": 1.45,
+            "attentionTarget": "telha clara e reflexo solar",
+            "event": "Parte maior da luz retorna pela superfície clara.",
+            "cameraReveal": "Tracking rasante cruza a água cerâmica; a faixa clara corre pela telha e desaparece antes da cumeeira.",
+            "soundCue": "brilho leve marca a reflexão."
+          },
+          {
+            "id": "limite-do-atico-fechado",
+            "start": 2.85,
+            "end": 5,
+            "context": "house",
+            "from": [
+              5.4,
+              4.6,
+              6.8
+            ],
+            "to": [
+              4.2,
+              4,
+              5.9
+            ],
+            "targetFrom": [
+              0,
+              3.7,
+              0
+            ],
+            "targetTo": [
+              0,
+              3.55,
+              0
+            ],
+            "zoomFrom": 1.08,
+            "zoomTo": 1.2,
+            "attentionTarget": "bolsa quente presa sob a cobertura",
+            "event": "O ar aquecido permanece no ático sem saída.",
+            "cameraReveal": "Corte para o interior do corte técnico; leve descida para o bolsão.",
+            "soundCue": "grave abafado fecha a cena no limite."
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "terreiro-e-cobertura",
+            "start": 0,
+            "end": 1.2,
+            "context": "exterior",
+            "attentionTarget": "casa e telhado no contexto do terreiro",
+            "event": "O plano aberto localiza a casa do sertão e a câmera aproxima a cobertura sob o sol alto.",
+            "cameraReveal": "corte para plano aberto externo; push curto termina na linha da cobertura.",
+            "soundCue": "whoosh curto marca a saída do corte da casa para o terreiro, sem impacto."
+          },
+          {
+            "id": "reflexo-na-telha-clara",
+            "start": 1.2,
+            "end": 2.85,
+            "context": "house",
+            "attentionTarget": "telha clara e reflexo solar",
+            "event": "Parte maior da luz retorna pela superfície clara.",
+            "cameraReveal": "Push-in lateral para segurar o highlight na telha, não na lente.",
+            "soundCue": "brilho leve marca a reflexão."
+          },
+          {
+            "id": "limite-do-atico-fechado",
+            "start": 2.85,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "bolsa quente presa sob a cobertura",
+            "event": "O ar aquecido permanece no ático sem saída.",
+            "cameraReveal": "Corte para o interior do corte técnico; leve descida para o bolsão.",
+            "soundCue": "grave abafado fecha a cena no limite."
+          }
+        ],
+        "audioTitle": "Terreiro e cobertura · corte de contexto",
+        "audioLabel": "CORTE",
+        "soundEvents": [
+          {
+            "at": 0.02,
+            "file": "whoosh.wav",
+            "volume": 0.16,
+            "label": "FORA",
+            "sync": "corte do quarto para o terreiro e retomada da casa no contexto exterior"
+          },
+          {
+            "at": 1.32,
+            "file": "whoosh.wav",
+            "volume": 0.13,
+            "label": "REFLEXO",
+            "sync": "luz refletida sem impacto metálico"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "feixe solar aproxima-se da telha",
+        "travel": "parte da luz retorna; calor residual fica no ático",
+        "contact": "telhas assentam nos caibros",
+        "reaction": "ar quente sobe e se acumula",
+        "result": "telha clara ajuda, mas o ar não sai",
+        "pause": "hold breve na bolsa quente",
+        "exit": "câmera procura uma saída no alto"
+      },
+      "return": {
+        "priorSceneId": "cs-03-laje-ventilador",
+        "function": "orientation",
+        "visibleDelta": "retoma o mesmo telhado agora em tarde e apresenta a primeira medida de cobertura antes de revelar seu limite"
+      }
+    },
+    {
+      "id": "cs-05-cumeeira-sem-beiral",
+      "label": "Só a cumeeira não cria caminho",
+      "beatId": "falha-cumeeira",
+      "sourceText": "Abrir só a cumeeira quase não muda nada; sem entrada nos beirais, falta caminho pro ar atravessar o ático.",
+      "visualPlan": {
+        "beatId": "falha-cumeeira",
+        "attentionTarget": "saída alta aberta, beirais fechados e ar preso entre ambos",
+        "visualQuestion": "Uma saída funciona sem uma entrada de ar?",
+        "visibleEvent": "A cumeeira abre; um fio de ar tenta subir, perde força e o volume quente permanece porque os dois beirais estão vedados.",
+        "stateBefore": "ático fechado com bolsa quente",
+        "stateAfter": "falha espacial da abertura isolada demonstrada",
+        "cameraReveal": "perfil técnico limpo, câmera fixa para que ausência de entrada seja inequívoca",
+        "soundIntent": "whoosh que começa e morre na tentativa; silêncio curto para marcar a falha",
+        "shots": [
+          {
+            "id": "perfil-da-cumeeira",
+            "start": 0,
+            "end": 1.35,
+            "context": "house",
+            "from": [
+              11,
+              6,
+              1.2
+            ],
+            "to": [
+              8,
+              4.7,
+              0.6
+            ],
+            "targetFrom": [
+              0,
+              3.85,
+              0
+            ],
+            "targetTo": [
+              0,
+              3.85,
+              0
+            ],
+            "zoomFrom": 1.18,
+            "zoomTo": 1.5,
+            "attentionTarget": "saída no alto da cumeeira",
+            "event": "A abertura surge sozinha no alto da cobertura.",
+            "cameraReveal": "Perfil lateral extremo destaca a saída no alto sem mostrar entrada baixa.",
+            "soundCue": "whoosh começa baixo ao destravar a cumeeira.",
+            "easing": "snap"
+          },
+          {
+            "id": "fio-de-ar-perde-forca",
+            "start": 1.35,
+            "end": 2.95,
+            "context": "house",
+            "from": [
+              -5.2,
+              5.8,
+              5.6
+            ],
+            "to": [
+              -2.9,
+              4.45,
+              4.3
+            ],
+            "targetFrom": [
+              0,
+              3.85,
+              0.7
+            ],
+            "targetTo": [
+              0,
+              3.95,
+              0.65
+            ],
+            "zoomFrom": 1.08,
+            "zoomTo": 1.32,
+            "attentionTarget": "pequeno fluxo subindo e se desfazendo",
+            "event": "O fio de ar tenta sair, mas quase não desloca o bolsão quente.",
+            "cameraReveal": "Corte por dentro acompanha o fluxo curto até ele se desfazer.",
+            "soundCue": "o sopro morre no meio do movimento e abre uma pausa.",
+            "easing": "snap"
+          },
+          {
+            "id": "beirais-sem-entrada",
+            "start": 2.95,
+            "end": 5,
+            "context": "house",
+            "from": [
+              -7.8,
+              3.4,
+              2.1
+            ],
+            "to": [
+              -6.4,
+              3.2,
+              1.4
+            ],
+            "targetFrom": [
+              -1.65,
+              3.05,
+              0
+            ],
+            "targetTo": [
+              -1.65,
+              3.05,
+              0
+            ],
+            "zoomFrom": 1,
+            "zoomTo": 1.12,
+            "attentionTarget": "beiral fechado no lado oposto",
+            "event": "O corte lateral confirma que não há entrada baixa para repor o ar.",
+            "cameraReveal": "Corte para o outro extremo do telhado; hold no beiral bloqueado.",
+            "soundCue": "quase silêncio mantém legível a falha."
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "perfil-da-cumeeira",
+            "start": 0,
+            "end": 1.35,
+            "context": "house",
+            "attentionTarget": "saída no alto da cumeeira",
+            "event": "A abertura surge sozinha no alto da cobertura.",
+            "cameraReveal": "Perfil lateral comprimido que distingue topo e beirais.",
+            "soundCue": "whoosh começa baixo ao destravar a cumeeira."
+          },
+          {
+            "id": "fio-de-ar-perde-forca",
+            "start": 1.35,
+            "end": 2.95,
+            "context": "house",
+            "attentionTarget": "pequeno fluxo subindo e se desfazendo",
+            "event": "O fio de ar tenta sair, mas quase não desloca o bolsão quente.",
+            "cameraReveal": "Push no fluxo, interrompido antes de chegar à abertura.",
+            "soundCue": "o sopro morre no meio do movimento e abre uma pausa."
+          },
+          {
+            "id": "beirais-sem-entrada",
+            "start": 2.95,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "beiral fechado no lado oposto",
+            "event": "O corte lateral confirma que não há entrada baixa para repor o ar.",
+            "cameraReveal": "Corte para o outro extremo do telhado; hold no beiral bloqueado.",
+            "soundCue": "quase silêncio mantém legível a falha."
+          }
+        ],
+        "audioTitle": "O fluxo que perde força",
+        "audioLabel": "FALHA",
+        "soundEvents": [
+          {
+            "at": 1.48,
+            "file": "whoosh.wav",
+            "volume": 0.26,
+            "label": "SOPRO",
+            "sync": "fluxo começa e perde força na tentativa"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "cumeeira destrava",
+        "travel": "fio de ar sobe sem reposição e se desfaz",
+        "contact": "entrada não alcança os beirais fechados",
+        "reaction": "bolsa quente quase não se desloca",
+        "result": "sem caminho contínuo, pouco ar é extraído",
+        "pause": "segurar um beat no fracasso",
+        "exit": "aberturas dos beirais entram em foco"
+      },
+      "return": {
+        "priorSceneId": "cs-04-telha-clara-atico",
+        "function": "state-change",
+        "visibleDelta": "a cobertura antes fechada ganha apenas uma saída; o bolsão permanece por falta de entrada baixa"
+      }
+    },
+    {
+      "id": "cs-06-caminho-ventilacao",
+      "label": "Entrada baixa, saída alta",
+      "beatId": "solucao-atico-ventilado",
+      "sourceText": "Quando o ar entra por baixo e sai no alto, leva parte do calor junto. Isso se chama ático ventilado.",
+      "visualPlan": {
+        "beatId": "solucao-atico-ventilado",
+        "attentionTarget": "trajeto contínuo dos beirais à cumeeira",
+        "visualQuestion": "O que mudou quando entrada e saída viraram um caminho?",
+        "visibleEvent": "Ar azul entra pelos dois beirais, percorre o ático, conduz calor âmbar e sai pela cumeeira. Só depois da demonstração aparece o rótulo “ático ventilado”.",
+        "stateBefore": "cumeeira aberta sem entrada nos beirais",
+        "stateAfter": "parte do calor sai com fluxo de ar contínuo",
+        "cameraReveal": "tracking acompanha uma partícula de ar da entrada ao topo, sem atravessar paredes",
+        "soundIntent": "sopro suave começa no beiral, cresce no caminho e sai pela cumeeira; rótulo entra no fim",
+        "shots": [
+          {
+            "id": "entrada-baixa",
+            "start": 0,
+            "end": 1.35,
+            "context": "house",
+            "from": [
+              -3.8,
+              1.85,
+              6.6
+            ],
+            "to": [
+              -3.15,
+              2.25,
+              5.1
+            ],
+            "targetFrom": [
+              -2.26,
+              3.06,
+              0.38
+            ],
+            "targetTo": [
+              -2.05,
+              3.15,
+              0.24
+            ],
+            "zoomFrom": 1.24,
+            "zoomTo": 1.58,
+            "attentionTarget": "tela de entrada no beiral e começo do percurso",
+            "event": "A câmera sobe de baixo do beiral; o ar entra pela abertura baixa antes de seguir pelo ático.",
+            "cameraReveal": "Câmera rasteira entra pelo beiral e revela a entrada antes de subir.",
+            "soundCue": "Sopro curto coincide com a passagem pela tela do beiral.",
+            "easing": "snap"
+          },
+          {
+            "id": "tracking-pelo-atico",
+            "start": 1.35,
+            "end": 3.75,
+            "context": "house",
+            "from": [
+              4.7,
+              3.9,
+              6.6
+            ],
+            "to": [
+              1.8,
+              4.4,
+              4.6
+            ],
+            "targetFrom": [
+              -2.1,
+              3.45,
+              0.8
+            ],
+            "targetTo": [
+              0,
+              3.75,
+              0.8
+            ],
+            "zoomFrom": 1.05,
+            "zoomTo": 1.18,
+            "attentionTarget": "partícula de ar percorrendo o ático",
+            "event": "O fluxo atravessa o espaço livre e carrega parte do calor.",
+            "cameraReveal": "Tracking diagonal acompanha o ar da entrada em direção à cumeeira.",
+            "soundCue": "whoosh ganha corpo no trajeto, sem encobrir a fala."
+          },
+          {
+            "id": "saida-alta-e-rotulo",
+            "start": 3.75,
+            "end": 5,
+            "context": "house",
+            "from": [
+              0.3,
+              7.4,
+              8
+            ],
+            "to": [
+              1.4,
+              5.7,
+              6.2
+            ],
+            "targetFrom": [
+              0,
+              4.05,
+              0
+            ],
+            "targetTo": [
+              0,
+              3.8,
+              0
+            ],
+            "zoomFrom": 1.02,
+            "zoomTo": 1.3,
+            "attentionTarget": "saída no topo e volume ventilado",
+            "event": "O ar quente sai no alto; o rótulo entra depois da demonstração.",
+            "cameraReveal": "Tilt alto acompanha o ar até a cumeeira e repousa no volume ventilado.",
+            "soundCue": "sopro sai pela cumeeira e cai antes da pausa.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "entrada-baixa",
+            "start": 0,
+            "end": 1.35,
+            "context": "house",
+            "attentionTarget": "tela de entrada no beiral e começo do percurso",
+            "event": "A câmera sobe de baixo do beiral; o ar entra pela abertura baixa antes de seguir pelo ático.",
+            "cameraReveal": "Contra-plongée no beiral com snap-in; o primeiro plano agora começa por baixo da entrada.",
+            "soundCue": "Sopro curto coincide com a passagem pela tela do beiral."
+          },
+          {
+            "id": "tracking-pelo-atico",
+            "start": 1.35,
+            "end": 3.75,
+            "context": "house",
+            "attentionTarget": "partícula de ar percorrendo o ático",
+            "event": "O fluxo atravessa o espaço livre e carrega parte do calor.",
+            "cameraReveal": "Tracking diagonal acompanha o ar da entrada em direção à cumeeira.",
+            "soundCue": "whoosh ganha corpo no trajeto, sem encobrir a fala."
+          },
+          {
+            "id": "saida-alta-e-rotulo",
+            "start": 3.75,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "saída no topo e volume ventilado",
+            "event": "O ar quente sai no alto; o rótulo entra depois da demonstração.",
+            "cameraReveal": "Corte alto para a saída e pequeno pullout que fecha a rota.",
+            "soundCue": "sopro sai pela cumeeira e cai antes da pausa."
+          }
+        ],
+        "audioTitle": "Entrada baixa · saída alta",
+        "audioLabel": "FLUXO",
+        "soundEvents": [
+          {
+            "at": 0.32,
+            "file": "whoosh.wav",
+            "volume": 0.22,
+            "label": "ENTRADA",
+            "sync": "tela do beiral abre"
+          },
+          {
+            "at": 3.72,
+            "file": "whoosh.wav",
+            "volume": 0.23,
+            "label": "SAÍDA",
+            "sync": "ar quente deixa o ático pela cumeeira"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "beirais abrem com pequena reação da tela",
+        "travel": "fluxo sobe pelo volume livre, sem atravessar caibros",
+        "contact": "encontra o bolsão quente",
+        "reaction": "bolsa diminui parcialmente",
+        "result": "ar aquecido sai pela cumeeira",
+        "pause": "rótulo lido depois do efeito",
+        "exit": "faixas de vento saem para expor radiação"
+      },
+      "return": {
+        "priorSceneId": "cs-05-cumeeira-sem-beiral",
+        "function": "state-change",
+        "visibleDelta": "as entradas baixas abrem e agora o ar atravessa o volume inteiro com saída alta"
+      }
+    },
+    {
+      "id": "cs-07-radiacao-ainda-passa",
+      "label": "Ventilar não interrompe radiação",
+      "beatId": "limite-ventilacao",
+      "sourceText": "Mas o ar circulando não impede a telha de irradiar calor pra laje.",
+      "visualPlan": {
+        "beatId": "limite-ventilacao",
+        "attentionTarget": "fluxo azul no ático e radiação âmbar em direção à laje",
+        "visualQuestion": "A ventilação também bloqueia o calor irradiado?",
+        "visibleEvent": "O ar segue pelo ático enquanto linhas radiantes partem das telhas para a laje, em processo visual separado.",
+        "stateBefore": "ático ventilado levando parte do calor",
+        "stateAfter": "limite da ventilação isolado como radiação restante",
+        "cameraReveal": "plano de corte estável; as duas rotas aparecem em planos de profundidade distintos",
+        "soundIntent": "sopro permanece baixo; pulso quente discreto acompanha a rota radiativa",
+        "shots": [
+          {
+            "id": "duas-trocas-separadas",
+            "start": 0,
+            "end": 1.55,
+            "context": "house",
+            "from": [
+              0,
+              1.95,
+              7.8
+            ],
+            "to": [
+              1.1,
+              2.45,
+              6.1
+            ],
+            "targetFrom": [
+              0,
+              3.5,
+              0.35
+            ],
+            "targetTo": [
+              0,
+              3.7,
+              0.35
+            ],
+            "zoomFrom": 0.92,
+            "zoomTo": 1.08,
+            "attentionTarget": "fluxo azul e faixa âmbar em planos diferentes",
+            "event": "O ar continua circulando quando a radiação começa a descer.",
+            "cameraReveal": "Ângulo de baixo separa a corrente azul da onda térmica âmbar.",
+            "soundCue": "vento baixo continua da cena anterior.",
+            "easing": "snap"
+          },
+          {
+            "id": "macro-da-radiacao",
+            "start": 1.55,
+            "end": 3.2,
+            "context": "house",
+            "from": [
+              -3.2,
+              4.15,
+              5.8
+            ],
+            "to": [
+              -2.1,
+              3.75,
+              4.45
+            ],
+            "targetFrom": [
+              -0.2,
+              3.75,
+              1
+            ],
+            "targetTo": [
+              -0.2,
+              3.5,
+              1
+            ],
+            "zoomFrom": 1.28,
+            "zoomTo": 1.62,
+            "attentionTarget": "energia atravessando o vão de ar",
+            "event": "A telha irradia calor até a laje apesar do fluxo de ar.",
+            "cameraReveal": "Push macro acompanha a radiação cruzando o vão sem confundi-la com o ar.",
+            "soundCue": "pulso grave discreto encontra a chegada à laje.",
+            "easing": "snap"
+          },
+          {
+            "id": "limite-em-corte-aberto",
+            "start": 3.2,
+            "end": 5,
+            "context": "house",
+            "from": [
+              0.3,
+              7,
+              9.8
+            ],
+            "to": [
+              0.3,
+              5.4,
+              7.8
+            ],
+            "targetFrom": [
+              0,
+              3.55,
+              0
+            ],
+            "targetTo": [
+              0,
+              3.55,
+              0
+            ],
+            "zoomFrom": 0.88,
+            "zoomTo": 1.02,
+            "attentionTarget": "telha, vão, ar e laje",
+            "event": "A cena segura as duas trocas visíveis antes de apresentar a manta.",
+            "cameraReveal": "Recuo alto reúne telha, vão, laje e quarto numa leitura única.",
+            "soundCue": "vento permanece abaixo da faixa radiativa.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "duas-trocas-separadas",
+            "start": 0,
+            "end": 1.55,
+            "context": "house",
+            "attentionTarget": "fluxo azul e faixa âmbar em planos diferentes",
+            "event": "O ar continua circulando quando a radiação começa a descer.",
+            "cameraReveal": "Plano aberto de três quartos mantém as duas rotas separadas no espaço.",
+            "soundCue": "vento baixo continua da cena anterior."
+          },
+          {
+            "id": "macro-da-radiacao",
+            "start": 1.55,
+            "end": 3.2,
+            "context": "house",
+            "attentionTarget": "energia atravessando o vão de ar",
+            "event": "A telha irradia calor até a laje apesar do fluxo de ar.",
+            "cameraReveal": "Corte para macro oblíquo do vão; a câmera acompanha um pulso âmbar.",
+            "soundCue": "pulso grave discreto encontra a chegada à laje."
+          },
+          {
+            "id": "limite-em-corte-aberto",
+            "start": 3.2,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "telha, vão, ar e laje",
+            "event": "A cena segura as duas trocas visíveis antes de apresentar a manta.",
+            "cameraReveal": "Pull-out revela de novo a seção completa e deixa espaço para a próxima solução.",
+            "soundCue": "vento permanece abaixo da faixa radiativa."
+          }
+        ],
+        "audioTitle": "Ventilação e radiação em paralelo",
+        "audioLabel": "FLUXO",
+        "soundEvents": [
+          {
+            "at": 0.48,
+            "file": "whoosh.wav",
+            "volume": 0.14,
+            "label": "AR",
+            "sync": "fluxo contínuo fica abaixo da demonstração radiativa"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "fluxo de ar continua da cena anterior",
+        "travel": "radiação atravessa o vão em pulsos retos",
+        "contact": "onda alcança a laje",
+        "reaction": "ar sai, mas a superfície da laje ainda recebe calor",
+        "result": "duas trocas não são confundidas",
+        "pause": "hold curto com ambas visíveis",
+        "exit": "manta aparece no espaço entre telha e laje"
+      },
+      "return": {
+        "priorSceneId": "cs-06-caminho-ventilacao",
+        "function": "clue",
+        "visibleDelta": "a ventilação permanece ativa, mas uma segunda rota de calor cruza o vão e não é levada pelo ar"
+      }
+    },
+    {
+      "id": "cs-08-manta-radiante",
+      "label": "A face refletiva olha para o vão",
+      "beatId": "solucao-barreira-radiante",
+      "sourceText": "Então, põe uma manta refletiva de alumínio sob a telha, com a face voltada pro vão de ar. Ela reduz essa troca por radiação. Isso se chama barreira radiante.",
+      "visualPlan": {
+        "beatId": "solucao-barreira-radiante",
+        "attentionTarget": "face de alumínio voltada para o espaço de ar sob as telhas",
+        "visualQuestion": "Onde fica a manta para reduzir a troca radiativa?",
+        "visibleEvent": "A manta é desenrolada sob a telha, face brilhante voltada ao vão; as ondas radiantes reduzem após a instalação. O rótulo só surge depois da comparação.",
+        "stateBefore": "telha irradia para a laje apesar do ático ventilado",
+        "stateAfter": "transferência radiativa reduzida com ventilação preservada",
+        "cameraReveal": "push-in lateral revela separação física telha–vão–face da manta; volta ao corte contextual",
+        "soundIntent": "foley leve de alumínio ao assentar, em sincronismo com contato; rótulo sem impacto sonoro",
+        "shots": [
+          {
+            "id": "manta-chega-por-baixo",
+            "start": 0,
+            "end": 1.35,
+            "context": "house",
+            "from": [
+              4.8,
+              3.25,
+              7.8
+            ],
+            "to": [
+              3.15,
+              3.65,
+              5.2
+            ],
+            "targetFrom": [
+              0,
+              3.75,
+              0.55
+            ],
+            "targetTo": [
+              0,
+              3.72,
+              0.55
+            ],
+            "zoomFrom": 1.18,
+            "zoomTo": 1.5,
+            "attentionTarget": "face refletiva sob a telha",
+            "event": "A manta entra no plano com a face voltada ao vão de ar.",
+            "cameraReveal": "Câmera entra por baixo do beiral e encontra a face refletiva chegando ao vão.",
+            "soundCue": "foley da manta começa quando o material entra.",
+            "easing": "snap"
+          },
+          {
+            "id": "contato-e-reflexo",
+            "start": 1.35,
+            "end": 3.45,
+            "context": "house",
+            "from": [
+              -4.6,
+              4.1,
+              5.4
+            ],
+            "to": [
+              -2.7,
+              3.75,
+              3.8
+            ],
+            "targetFrom": [
+              -0.2,
+              3.62,
+              0.55
+            ],
+            "targetTo": [
+              -0.1,
+              3.62,
+              0.55
+            ],
+            "zoomFrom": 1.32,
+            "zoomTo": 1.7,
+            "attentionTarget": "manta assentada e reflexo retornando",
+            "event": "A face metálica reduz a rota radiativa e permanece separada da telha pelo vão.",
+            "cameraReveal": "Dolly curto no contato; a onda térmica rebate na superfície antes do rótulo.",
+            "soundCue": "foley pontual no assentamento; sem som de metal exagerado.",
+            "easing": "snap"
+          },
+          {
+            "id": "corte-de-cobertura",
+            "start": 3.45,
+            "end": 5,
+            "context": "house",
+            "from": [
+              0.3,
+              7,
+              10.2
+            ],
+            "to": [
+              0.3,
+              5.3,
+              7.8
+            ],
+            "targetFrom": [
+              0,
+              3.65,
+              0
+            ],
+            "targetTo": [
+              0,
+              3.65,
+              0
+            ],
+            "zoomFrom": 0.88,
+            "zoomTo": 1.02,
+            "attentionTarget": "sequência telha, vão, manta e laje",
+            "event": "A cobertura completa confirma a ordem das camadas.",
+            "cameraReveal": "Recuo alto mostra onde a manta fica em relação à telha e à laje.",
+            "soundCue": "ambiente segura a pausa antes da lã.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "manta-chega-por-baixo",
+            "start": 0,
+            "end": 1.35,
+            "context": "house",
+            "attentionTarget": "face refletiva sob a telha",
+            "event": "A manta entra no plano com a face voltada ao vão de ar.",
+            "cameraReveal": "Ângulo interno sob a telha, diferente do macro de radiação anterior.",
+            "soundCue": "foley da manta começa quando o material entra."
+          },
+          {
+            "id": "contato-e-reflexo",
+            "start": 1.35,
+            "end": 3.45,
+            "context": "house",
+            "attentionTarget": "manta assentada e reflexo retornando",
+            "event": "A face metálica reduz a rota radiativa e permanece separada da telha pelo vão.",
+            "cameraReveal": "Corte para o verso da manta; push rápido no contato, reflexo curto.",
+            "soundCue": "foley pontual no assentamento; sem som de metal exagerado."
+          },
+          {
+            "id": "corte-de-cobertura",
+            "start": 3.45,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "sequência telha, vão, manta e laje",
+            "event": "A cobertura completa confirma a ordem das camadas.",
+            "cameraReveal": "Pull-out e descida breve até a laje aquecida.",
+            "soundCue": "ambiente segura a pausa antes da lã."
+          }
+        ],
+        "audioTitle": "A manta assenta no vão",
+        "audioLabel": "CONTATO",
+        "soundEvents": [
+          {
+            "at": 1.9,
+            "file": "sertao_foil.wav",
+            "volume": 0.3,
+            "label": "MANTA",
+            "sync": "face refletiva assenta no suporte"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "manta entra enrolada pelo beiral",
+        "travel": "desenrola por baixo das telhas e acompanha a inclinação",
+        "contact": "face aluminizada aponta para o vão, sem encostar nas telhas",
+        "reaction": "parte das linhas de radiação retorna e perde intensidade",
+        "result": "menos energia alcança a laje; ventilação continua livre",
+        "pause": "rótulo entra após comparação",
+        "exit": "câmera desce à laje para verificar o calor residual"
+      },
+      "return": {
+        "priorSceneId": "cs-07-radiacao-ainda-passa",
+        "function": "state-change",
+        "visibleDelta": "a nova camada ocupa o vão e reduz a rota de radiação sem fechar o caminho do ar"
+      }
+    },
+    {
+      "id": "cs-09-la-rocha-fresta",
+      "label": "Camada contínua, sem atalho",
+      "beatId": "solucao-isolamento-termico",
+      "sourceText": "Como ainda pode passar um pouco de calor, cobre a laje com lã de rocha e mantém a camada contínua. Se sobra uma fresta, o calor acha um atalho. Isso é isolamento térmico.",
+      "visualPlan": {
+        "beatId": "solucao-isolamento-termico",
+        "attentionTarget": "continuidade da lã sobre a laje e fresta que abre uma passagem localizada",
+        "visualQuestion": "O que a continuidade da camada evita?",
+        "visibleEvent": "Mantendo o calor residual visível, uma camada fibrosa cobre a laje. Uma fresta abre e revela uma rota concentrada; a peça volta à posição contínua. Só então entra “isolamento térmico”.",
+        "stateBefore": "barreira radiante reduz a troca, mas ainda deixa calor residual chegar à laje",
+        "stateAfter": "camada contínua reduz a passagem; falha local demonstra atalho",
+        "cameraReveal": "close em corte raso na junta, seguido por volta ao perfil completo do telhado",
+        "soundIntent": "foley macio de fibra ao assentar; pequeno toque seco ao fechar a fresta",
+        "shots": [
+          {
+            "id": "fibra-em-macro",
+            "start": 0,
+            "end": 1.4,
+            "context": "house",
+            "from": [
+              -1.2,
+              7.7,
+              6
+            ],
+            "to": [
+              -0.5,
+              5.8,
+              4.8
+            ],
+            "targetFrom": [
+              -0.3,
+              2.86,
+              0.65
+            ],
+            "targetTo": [
+              -0.3,
+              2.82,
+              0.65
+            ],
+            "zoomFrom": 1.32,
+            "zoomTo": 1.66,
+            "attentionTarget": "textura e espessura da lã de rocha",
+            "event": "A fibra cobre a laje e ocupa o espaço sem comprimir a camada.",
+            "cameraReveal": "Quase de cima, o macro revela a textura e a espessura real da fibra.",
+            "soundCue": "foley leve acompanha a lã assentando.",
+            "easing": "snap"
+          },
+          {
+            "id": "fresta-revela-atalho",
+            "start": 1.4,
+            "end": 3.35,
+            "context": "house",
+            "from": [
+              4.7,
+              3.85,
+              6.1
+            ],
+            "to": [
+              3.05,
+              3.05,
+              4.3
+            ],
+            "targetFrom": [
+              0,
+              2.9,
+              0.62
+            ],
+            "targetTo": [
+              0.1,
+              2.65,
+              0.62
+            ],
+            "zoomFrom": 1.26,
+            "zoomTo": 1.64,
+            "attentionTarget": "fresta que interrompe a camada contínua",
+            "event": "Uma pequena falha deixa a faixa de calor passar pelo atalho.",
+            "cameraReveal": "Snap para a abertura; uma onda passa pelo vão sem atravessar a camada.",
+            "soundCue": "foley seco no contato/abertura da fresta, seguido por breve silêncio.",
+            "easing": "snap"
+          },
+          {
+            "id": "camada-continua",
+            "start": 3.35,
+            "end": 5,
+            "context": "house",
+            "from": [
+              -7.1,
+              3.8,
+              9.4
+            ],
+            "to": [
+              -5.1,
+              3.8,
+              7.2
+            ],
+            "targetFrom": [
+              0,
+              3,
+              0
+            ],
+            "targetTo": [
+              0,
+              3.05,
+              0
+            ],
+            "zoomFrom": 0.9,
+            "zoomTo": 1.04,
+            "attentionTarget": "lã cobrindo a laje sem interrupção",
+            "event": "A câmera confirma a camada contínua e prepara o tema do calor guardado.",
+            "cameraReveal": "Perfil amplo confirma a manta contínua antes de avançar para a noite.",
+            "soundCue": "som de contato encerra antes do novo beat.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "fibra-em-macro",
+            "start": 0,
+            "end": 1.4,
+            "context": "house",
+            "attentionTarget": "textura e espessura da lã de rocha",
+            "event": "A fibra cobre a laje e ocupa o espaço sem comprimir a camada.",
+            "cameraReveal": "Macro baixo pela superfície fibrosa, com luz lateral nas fibras.",
+            "soundCue": "foley leve acompanha a lã assentando."
+          },
+          {
+            "id": "fresta-revela-atalho",
+            "start": 1.4,
+            "end": 3.35,
+            "context": "house",
+            "attentionTarget": "fresta que interrompe a camada contínua",
+            "event": "Uma pequena falha deixa a faixa de calor passar pelo atalho.",
+            "cameraReveal": "Corte para o lado oposto e push no vão que se abre.",
+            "soundCue": "foley seco no contato/abertura da fresta, seguido por breve silêncio."
+          },
+          {
+            "id": "camada-continua",
+            "start": 3.35,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "lã cobrindo a laje sem interrupção",
+            "event": "A câmera confirma a camada contínua e prepara o tema do calor guardado.",
+            "cameraReveal": "Pull-out do detalhe para a seção do quarto.",
+            "soundCue": "som de contato encerra antes do novo beat."
+          }
+        ],
+        "audioTitle": "Fibra contínua · fresta como atalho",
+        "audioLabel": "CONTATO",
+        "soundEvents": [
+          {
+            "at": 0.72,
+            "file": "sertao_wool.wav",
+            "volume": 0.27,
+            "label": "LÃ",
+            "sync": "camada de fibra encosta e assenta"
+          },
+          {
+            "at": 2.66,
+            "file": "sertao_foley.wav",
+            "volume": 0.24,
+            "label": "FRESTA",
+            "sync": "a falha abre passagem para o calor"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "calor residual chega à laje",
+        "travel": "painel de lã se desenrola sobre toda a faixa",
+        "contact": "camada encosta na laje sem lacunas",
+        "reaction": "fresta abre por um instante e calor encontra um atalho",
+        "result": "camada fecha; fluxo difuso fica menor",
+        "pause": "rótulo lido depois de mostrar falha e correção",
+        "exit": "luz da tarde vira noite para revelar massa térmica"
+      },
+      "return": {
+        "priorSceneId": "cs-08-manta-radiante",
+        "function": "state-change",
+        "visibleDelta": "a manta de cobertura permanece; outra camada agora cobre a laje e uma fresta local prova por que continuidade importa"
+      }
+    },
+    {
+      "id": "cs-10-inercia-laje",
+      "label": "A laje muda devagar",
+      "beatId": "inercia-termica",
+      "sourceText": "E à noite? A laje guarda calor durante o dia e devolve aos poucos; com mais massa, essa mudança demora mais. Isso se chama inércia térmica.",
+      "visualPlan": {
+        "beatId": "inercia-termica",
+        "attentionTarget": "fachada noturna, janela acesa e brilho residual na laje",
+        "visualQuestion": "Por que o teto segue quente depois do pôr do sol?",
+        "visibleEvent": "Ao anoitecer, a casa volta a aparecer por fora; no corte, a laje ainda retém calor e o quarto escurece devagar.",
+        "stateBefore": "camada isolante contínua mostrada; a sequência retorna ao calor guardado ao longo do dia",
+        "stateAfter": "o céu e o quarto escurecem, mas a massa da laje continua liberando calor",
+        "cameraReveal": "plano externo noturno da casa, corte para a espessura da laje e recuo ao quarto escuro",
+        "soundIntent": "ambiente passa de insetos de tarde a silêncio noturno; sem efeito de impacto para fenômeno gradual",
+        "shots": [
+          {
+            "id": "casa-noite-por-fora",
+            "start": 0,
+            "end": 0.92,
+            "context": "exterior",
+            "from": [
+              8.1,
+              4.9,
+              18.3
+            ],
+            "to": [
+              6.6,
+              4.05,
+              15.2
+            ],
+            "targetFrom": [
+              0,
+              2.05,
+              0
+            ],
+            "targetTo": [
+              0,
+              2.05,
+              0
+            ],
+            "zoomFrom": 0.93,
+            "zoomTo": 1.01,
+            "easing": "snap",
+            "attentionTarget": "silhueta da casa e luz quente na janela",
+            "event": "O exterior escurece e uma janela fica acesa, preparando o retorno ao quarto abafado.",
+            "cameraReveal": "corte seco para a casa à noite; aproximação breve antes do insert térmico.",
+            "soundCue": "whoosh baixo acompanha o salto de contexto e termina antes do detalhe."
+          },
+          {
+            "id": "laje-ainda-quente-a-noite",
+            "start": 0.92,
+            "end": 1.8,
+            "context": "house",
+            "from": [
+              0.4,
+              6.5,
+              7.2
+            ],
+            "to": [
+              0.55,
+              4.7,
+              5.3
+            ],
+            "targetFrom": [
+              0,
+              2.35,
+              0.42
+            ],
+            "targetTo": [
+              0,
+              2.4,
+              0.42
+            ],
+            "zoomFrom": 1.2,
+            "zoomTo": 1.55,
+            "attentionTarget": "brilho residual da laje no escuro",
+            "event": "Mesmo depois que a luz externa cai, a laje ainda guarda calor.",
+            "cameraReveal": "Câmera baixa sobe pela laje e mostra o calor residual depois do pôr do sol.",
+            "soundCue": "grave noturno curto quando a temperatura muda de contexto.",
+            "easing": "snap"
+          },
+          {
+            "id": "massa-e-tempo",
+            "start": 1.8,
+            "end": 3.4,
+            "context": "house",
+            "from": [
+              -6.5,
+              3.2,
+              6.6
+            ],
+            "to": [
+              -4.3,
+              2.55,
+              4.5
+            ],
+            "targetFrom": [
+              0,
+              2.5,
+              0.55
+            ],
+            "targetTo": [
+              0,
+              2.5,
+              0.55
+            ],
+            "zoomFrom": 1.12,
+            "zoomTo": 1.46,
+            "attentionTarget": "espessura da laje e propagação lenta",
+            "event": "O calor aparece armazenado na massa e retorna aos poucos.",
+            "cameraReveal": "Perfil lateral acompanha a onda atrasada atravessando a massa da laje.",
+            "soundCue": "sem whoosh; sustentação grave decai lentamente.",
+            "easing": "snap"
+          },
+          {
+            "id": "casa-escurece",
+            "start": 3.4,
+            "end": 5,
+            "context": "house",
+            "from": [
+              8.2,
+              5.4,
+              11.5
+            ],
+            "to": [
+              6.2,
+              4.3,
+              8.5
+            ],
+            "targetFrom": [
+              0,
+              2.4,
+              0
+            ],
+            "targetTo": [
+              0,
+              2.3,
+              0
+            ],
+            "zoomFrom": 0.92,
+            "zoomTo": 0.78,
+            "attentionTarget": "laje, quarto e céu noturno",
+            "event": "O ambiente escurece enquanto o material conserva parte do calor.",
+            "cameraReveal": "Pull-out noturno devolve a casa inteira e deixa a pergunta inicial assentada.",
+            "soundCue": "ambiente noturno quase silencioso.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "casa-noite-por-fora",
+            "start": 0,
+            "end": 0.92,
+            "context": "exterior",
+            "attentionTarget": "silhueta da casa e luz quente na janela",
+            "event": "O exterior escurece e uma janela fica acesa, preparando o retorno ao quarto abafado.",
+            "cameraReveal": "corte seco para a casa à noite; aproximação breve antes do insert térmico.",
+            "soundCue": "whoosh baixo acompanha o salto de contexto e termina antes do detalhe."
+          },
+          {
+            "id": "laje-ainda-quente-a-noite",
+            "start": 0.92,
+            "end": 1.8,
+            "context": "house",
+            "attentionTarget": "brilho residual da laje no escuro",
+            "event": "Mesmo depois que a luz externa cai, a laje ainda guarda calor.",
+            "cameraReveal": "Close lateral na borda da laje; movimento desce um pouco para o quarto.",
+            "soundCue": "grave noturno curto quando a temperatura muda de contexto."
+          },
+          {
+            "id": "massa-e-tempo",
+            "start": 1.8,
+            "end": 3.4,
+            "context": "house",
+            "attentionTarget": "espessura da laje e propagação lenta",
+            "event": "O calor aparece armazenado na massa e retorna aos poucos.",
+            "cameraReveal": "Corte para o perfil contrário e dolly lento ao longo da laje.",
+            "soundCue": "sem whoosh; sustentação grave decai lentamente."
+          },
+          {
+            "id": "casa-escurece",
+            "start": 3.4,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "laje, quarto e céu noturno",
+            "event": "O ambiente escurece enquanto o material conserva parte do calor.",
+            "cameraReveal": "Pull-out alto mostra o tempo passando sem trocar a lógica espacial.",
+            "soundCue": "ambiente noturno quase silencioso."
+          }
+        ],
+        "audioTitle": "Noite no terreiro · calor que ficou",
+        "audioLabel": "CORTE",
+        "soundEvents": [
+          {
+            "at": 0.03,
+            "file": "whoosh.wav",
+            "volume": 0.14,
+            "label": "NOITE",
+            "sync": "corte contextual para a fachada escura antes de retornar à laje morna"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "luz de tarde varre a laje",
+        "travel": "calor entra, se distribui no volume e persiste depois do pôr do sol",
+        "contact": "superfície interna irradia lentamente para o quarto",
+        "reaction": "temperatura visual muda com atraso, não instantaneamente",
+        "result": "maior espessura responde ainda mais devagar",
+        "pause": "segurar a emissão residual antes do rótulo",
+        "exit": "câmera retorna ao quarto e às janelas"
+      },
+      "return": {
+        "priorSceneId": "cs-09-la-rocha-fresta",
+        "function": "clue",
+        "visibleDelta": "a mesma laje agora é vista em volume e tempo; o calor que atravessou o dia permanece nela quando a luz muda"
+      }
+    },
+    {
+      "id": "cs-11-ventilacao-cruzada-condicional",
+      "label": "Abre quando lá fora está mais fresco",
+      "beatId": "ventilacao-cruzada-e-humor",
+      "sourceText": "Quando lá fora fica mais fresco que dentro, abre janelas opostas e deixa o vento atravessar o quarto. Se lá fora ainda está mais quente, espera: bafo quente não precisa de convite.",
+      "visualPlan": {
+        "beatId": "ventilacao-cruzada-e-humor",
+        "attentionTarget": "duas janelas opostas, corrente pelo quarto e gesto leve de esperar",
+        "visualQuestion": "O vento externo ajuda agora ou traz mais calor?",
+        "visibleEvent": "Indicador relacional sem números mostra exterior mais fresco; janelas opostas abrem e a corrente atravessa. Em seguida a relação se inverte, a pessoa segura a folha da janela e faz um gesto seco de “agora não”, preservando a piada na fala.",
+        "stateBefore": "noite e fonte de calor da cobertura mitigada",
+        "stateAfter": "ventilação cruzada condicionada à diferença de temperatura exterior/interior",
+        "cameraReveal": "travelling lateral atravessa a planta, mostrando as duas aberturas no mesmo eixo",
+        "soundIntent": "brisa atravessa com um whoosh suave; pausa quase silenciosa no gesto de recusa do ar quente",
+        "shots": [
+          {
+            "id": "pessoa-na-janela",
+            "start": 0,
+            "end": 1.45,
+            "context": "house",
+            "from": [
+              0.2,
+              2.65,
+              6.2
+            ],
+            "to": [
+              -0.7,
+              2.2,
+              4.8
+            ],
+            "targetFrom": [
+              -2.05,
+              1.58,
+              0.45
+            ],
+            "targetTo": [
+              -2.1,
+              1.62,
+              0.45
+            ],
+            "zoomFrom": 1.28,
+            "zoomTo": 1.58,
+            "attentionTarget": "mão e janela de entrada",
+            "event": "A pessoa verifica o ar externo antes de abrir as duas janelas.",
+            "cameraReveal": "Close de três quartos mostra a mão chegando à janela e o vento entrando.",
+            "soundCue": "vento exterior aparece fraco antes da decisão.",
+            "easing": "snap"
+          },
+          {
+            "id": "vento-atravessa",
+            "start": 1.45,
+            "end": 3.35,
+            "context": "house",
+            "from": [
+              -6.6,
+              3.5,
+              7.2
+            ],
+            "to": [
+              -4.55,
+              2.55,
+              8.7
+            ],
+            "targetFrom": [
+              -0.7,
+              1.72,
+              0.1
+            ],
+            "targetTo": [
+              -0.7,
+              1.62,
+              0.1
+            ],
+            "zoomFrom": 0.88,
+            "zoomTo": 0.72,
+            "attentionTarget": "as duas janelas opostas e o trajeto inteiro pelo quarto",
+            "event": "O recuo diagonal libera a vista do corte e deixa a corrente atravessar as duas aberturas.",
+            "cameraReveal": "Recuo pela diagonal revela as duas aberturas e o percurso inteiro pelo quarto.",
+            "soundCue": "O sopro cresce no centro do quarto e termina antes da condição de calor externo.",
+            "easing": "snap"
+          },
+          {
+            "id": "bafo-quente-sem-convite",
+            "start": 3.35,
+            "end": 5,
+            "context": "house",
+            "from": [
+              3.8,
+              2.75,
+              6.8
+            ],
+            "to": [
+              2.55,
+              2.2,
+              5.15
+            ],
+            "targetFrom": [
+              -1.84,
+              1.5,
+              0.52
+            ],
+            "targetTo": [
+              -1.82,
+              1.48,
+              0.52
+            ],
+            "zoomFrom": 1.22,
+            "zoomTo": 1.58,
+            "attentionTarget": "rosto junto à janela e a veneziana fechando",
+            "event": "Quando o ar de fora não ajuda, a pessoa fecha a abertura e reage com um gesto de “hoje não”.",
+            "cameraReveal": "Corte no rosto: o vento de fora perde força e a pessoa recua da janela.",
+            "soundCue": "O vento cessa quando a veneziana termina de fechar; sem hit cômico exagerado.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "pessoa-na-janela",
+            "start": 0,
+            "end": 1.45,
+            "context": "house",
+            "attentionTarget": "mão e janela de entrada",
+            "event": "A pessoa verifica o ar externo antes de abrir as duas janelas.",
+            "cameraReveal": "Plano médio oblíquo acompanha o olhar para fora.",
+            "soundCue": "vento exterior aparece fraco antes da decisão."
+          },
+          {
+            "id": "vento-atravessa",
+            "start": 1.45,
+            "end": 3.35,
+            "context": "house",
+            "attentionTarget": "as duas janelas opostas e o trajeto inteiro pelo quarto",
+            "event": "O recuo diagonal libera a vista do corte e deixa a corrente atravessar as duas aberturas.",
+            "cameraReveal": "Pull-out em três quartos recoloca pessoa, janelas e ventilador no mesmo eixo do fluxo.",
+            "soundCue": "O sopro cresce no centro do quarto e termina antes da condição de calor externo."
+          },
+          {
+            "id": "bafo-quente-sem-convite",
+            "start": 3.35,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "rosto junto à janela e a veneziana fechando",
+            "event": "Quando o ar de fora não ajuda, a pessoa fecha a abertura e reage com um gesto de “hoje não”.",
+            "cameraReveal": "Push-in frontal no personagem; ele vira do vão para a câmera enquanto a veneziana fecha.",
+            "soundCue": "O vento cessa quando a veneziana termina de fechar; sem hit cômico exagerado."
+          }
+        ],
+        "audioTitle": "Vento quando o lado de fora ajuda",
+        "audioLabel": "BRISA",
+        "soundEvents": [
+          {
+            "at": 1.62,
+            "file": "whoosh.wav",
+            "volume": 0.25,
+            "label": "VENTO",
+            "sync": "a corrente percorre as duas aberturas"
+          },
+          {
+            "at": 3.54,
+            "file": "sertao_shutter.wav",
+            "volume": 0.26,
+            "label": "FECHO",
+            "sync": "a veneziana termina de fechar quando a pessoa decide esperar pelo ar mais fresco"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "pequeno indicador mostra exterior mais fresco",
+        "travel": "duas folhas abrem e a corrente cruza o cômodo",
+        "contact": "brisa move cortina, não objetos pesados",
+        "reaction": "pessoa relaxa; ao inverter condição, segura a janela com humor contido",
+        "result": "fluxo para quando exterior está mais quente",
+        "pause": "micro-pausa para piada sem interromper explicação",
+        "exit": "corte motivado pela incidência solar na janela"
+      },
+      "return": {
+        "priorSceneId": "cs-10-inercia-laje",
+        "function": "state-change",
+        "visibleDelta": "a laje e a cobertura continuam ao fundo; a ação agora acontece entre duas janelas e depende da condição do ar externo"
+      }
+    },
+    {
+      "id": "cs-12-veneziana-sombra",
+      "label": "Fecha quando o sol bate",
+      "beatId": "veneziana-sombra",
+      "sourceText": "De dia, fecha a veneziana quando o sol bate.",
+      "visualPlan": {
+        "beatId": "veneziana-sombra",
+        "attentionTarget": "raio direto na cama e lâminas da veneziana fechando",
+        "visualQuestion": "Como tirar o sol direto do quarto?",
+        "visibleEvent": "O feixe encontra a janela; a veneziana fecha no contato e a sombra se desloca da cama para a parede.",
+        "stateBefore": "janela aberta no período quente do dia",
+        "stateAfter": "incidência direta barrada antes de alcançar a cama",
+        "cameraReveal": "câmera no interior acompanha a linha de luz até a lâmina que intercepta o feixe",
+        "soundIntent": "clique curto do fecho exatamente no contato e no corte do feixe",
+        "shots": [
+          {
+            "id": "raio-na-veneziana",
+            "start": 0,
+            "end": 1.3,
+            "context": "house",
+            "from": [
+              -6.8,
+              2.8,
+              3.5
+            ],
+            "to": [
+              -5.2,
+              2.4,
+              2.7
+            ],
+            "targetFrom": [
+              -2.2,
+              1.8,
+              0.3
+            ],
+            "targetTo": [
+              -2.2,
+              1.8,
+              0.3
+            ],
+            "zoomFrom": 1.1,
+            "zoomTo": 1.2,
+            "attentionTarget": "feixe de sol no batente",
+            "event": "A luz direta entra e alcança a lâmina da veneziana.",
+            "cameraReveal": "Close pelo lado de fora da janela, enquadramento lateral.",
+            "soundCue": "ambiente diurno sem vento."
+          },
+          {
+            "id": "lâmina-fecha-no-contato",
+            "start": 1.3,
+            "end": 2.8,
+            "context": "house",
+            "from": [
+              3,
+              2.2,
+              5
+            ],
+            "to": [
+              2.25,
+              1.9,
+              4.1
+            ],
+            "targetFrom": [
+              -2.35,
+              1.7,
+              0.25
+            ],
+            "targetTo": [
+              -2.35,
+              1.7,
+              0.25
+            ],
+            "zoomFrom": 1.15,
+            "zoomTo": 1.35,
+            "attentionTarget": "mão, fecho e corte do raio",
+            "event": "A mão fecha a veneziana; a sombra ocupa o lugar do feixe sobre a cama.",
+            "cameraReveal": "Corte para o lado interno, push curto no instante do contato.",
+            "soundCue": "clique da veneziana no exato contato e corte da luz."
+          },
+          {
+            "id": "sombra-na-cama",
+            "start": 2.8,
+            "end": 5,
+            "context": "house",
+            "from": [
+              7.5,
+              3.15,
+              9.2
+            ],
+            "to": [
+              4.9,
+              2.2,
+              6.3
+            ],
+            "targetFrom": [
+              -0.65,
+              1.05,
+              0.25
+            ],
+            "targetTo": [
+              -0.65,
+              1.05,
+              0.25
+            ],
+            "zoomFrom": 1.04,
+            "zoomTo": 1.36,
+            "attentionTarget": "faixas de sombra no colchão",
+            "event": "A cama sai do sol direto; a figura termina o gesto.",
+            "cameraReveal": "A câmera desce até a cama e acompanha a sombra cobrindo o lençol.",
+            "soundCue": "clique termina, ambiente fica limpo.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "raio-na-veneziana",
+            "start": 0,
+            "end": 1.3,
+            "context": "house",
+            "attentionTarget": "feixe de sol no batente",
+            "event": "A luz direta entra e alcança a lâmina da veneziana.",
+            "cameraReveal": "Close pelo lado de fora da janela, enquadramento lateral.",
+            "soundCue": "ambiente diurno sem vento."
+          },
+          {
+            "id": "lâmina-fecha-no-contato",
+            "start": 1.3,
+            "end": 2.8,
+            "context": "house",
+            "attentionTarget": "mão, fecho e corte do raio",
+            "event": "A mão fecha a veneziana; a sombra ocupa o lugar do feixe sobre a cama.",
+            "cameraReveal": "Corte para o lado interno, push curto no instante do contato.",
+            "soundCue": "clique da veneziana no exato contato e corte da luz."
+          },
+          {
+            "id": "sombra-na-cama",
+            "start": 2.8,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "faixas de sombra no colchão",
+            "event": "A cama sai do sol direto; a figura termina o gesto.",
+            "cameraReveal": "Pan baixo acompanha a sombra da parede até a cama e fecha.",
+            "soundCue": "clique termina, ambiente fica limpo."
+          }
+        ],
+        "audioTitle": "Fecho da veneziana no contato",
+        "audioLabel": "CONTATO",
+        "soundEvents": [
+          {
+            "at": 1.86,
+            "file": "sertao_shutter.wav",
+            "volume": 0.3,
+            "label": "CLIQUE",
+            "sync": "lâminas fecham e o feixe desaparece"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "raio solar entra pela janela",
+        "travel": "feixe avança sobre piso em direção à cama",
+        "contact": "lâminas fecham quando a luz toca o batente",
+        "reaction": "sombra alcança cama e parede",
+        "result": "radiação direta deixa de incidir sobre o colchão",
+        "pause": "hold na sombra limpa",
+        "exit": "a pessoa volta para a cama"
+      },
+      "return": {
+        "priorSceneId": "cs-11-ventilacao-cruzada-condicional",
+        "function": "state-change",
+        "visibleDelta": "o quarto passa ao dia; o vento condicional dá lugar ao bloqueio físico da luz direta"
+      }
+    },
+    {
+      "id": "cs-13-payoff-cama",
+      "label": "O ventilador sai do turno dobrado",
+      "beatId": "payoff-ventilador-pessoa",
+      "sourceText": "Aí você volta pra cama e o ventilador sai do turno dobrado: refresca você, sem tentar esfriar a casa inteira.",
+      "visualPlan": {
+        "beatId": "payoff-ventilador-pessoa",
+        "attentionTarget": "mesma cama da abertura, agora com ventilação local e sem faixa quente descendo da laje",
+        "visualQuestion": "O quarto mudou o suficiente para o ventilador trabalhar só onde importa?",
+        "visibleEvent": "A pessoa retorna à cama; o ventilador inclina para o corpo e uma corrente curta envolve apenas a pessoa. A casa continua em temperatura relativa natural; o quadro repete a abertura com estado transformado.",
+        "stateBefore": "veneziana bloqueou sol direto; camadas e ventilação trataram fontes e caminhos distintos",
+        "stateAfter": "payoff visual: pessoa confortável e ventilador com alvo local",
+        "cameraReveal": "corta da pessoa para a hélice, volta no contato da brisa e fecha no pull-out da casa tratada",
+        "soundIntent": "motor estabiliza em volume baixo; vento localizado; deixa pausa para o humor de “turno dobrado”",
+        "shots": [
+          {
+            "id": "retorno-a-mesma-cama",
+            "start": 0,
+            "end": 1.35,
+            "context": "house",
+            "from": [
+              -3.1,
+              2.7,
+              5.6
+            ],
+            "to": [
+              -1.9,
+              2.18,
+              3.8
+            ],
+            "targetFrom": [
+              -0.56,
+              1.67,
+              0.48
+            ],
+            "targetTo": [
+              -0.55,
+              1.76,
+              0.5
+            ],
+            "zoomFrom": 1.24,
+            "zoomTo": 1.58,
+            "attentionTarget": "pessoa relaxada na cama",
+            "event": "O mesmo espaço da abertura reaparece com a pessoa confortável.",
+            "cameraReveal": "Callback de rosto do lado oposto: agora a pessoa está sentada e aliviada.",
+            "soundCue": "motor do ventilador estabiliza baixo quando a pessoa relaxa.",
+            "easing": "snap"
+          },
+          {
+            "id": "helice-mira-a-cama",
+            "start": 1.35,
+            "end": 1.72,
+            "context": "house",
+            "from": [
+              -1.1,
+              2.35,
+              2.65
+            ],
+            "to": [
+              -0.9,
+              2.25,
+              2.35
+            ],
+            "targetFrom": [
+              1.82,
+              1.32,
+              0.88
+            ],
+            "targetTo": [
+              1.82,
+              1.42,
+              0.88
+            ],
+            "zoomFrom": 0.65,
+            "zoomTo": 0.76,
+            "attentionTarget": "inclinação e hélice do ventilador",
+            "event": "A cabeça do ventilador baixa na direção da cama antes de a brisa alcançar a pessoa.",
+            "cameraReveal": "Insert oblíquo abre no aro e deixa a inclinação da cabeça legível durante o giro.",
+            "soundCue": "o motor já estabilizado ganha presença no corte para a hélice.",
+            "easing": "snap"
+          },
+          {
+            "id": "brisa-toca-o-rosto",
+            "start": 1.72,
+            "end": 2.38,
+            "context": "house",
+            "from": [
+              -0.05,
+              2.25,
+              4.2
+            ],
+            "to": [
+              -0.15,
+              2.15,
+              3.82
+            ],
+            "targetFrom": [
+              -0.56,
+              1.68,
+              0.48
+            ],
+            "targetTo": [
+              -0.56,
+              1.68,
+              0.48
+            ],
+            "zoomFrom": 1.2,
+            "zoomTo": 1.32,
+            "attentionTarget": "lateral do rosto quando a brisa chega",
+            "event": "A corrente alcança a bochecha; a pessoa solta o ombro e reage com alívio.",
+            "cameraReveal": "Reverse fechado segura o contato na lateral do rosto e entra um pouco antes da reação.",
+            "soundCue": "whoosh curto encontra o rosto em 2,04 s; o tecido responde logo depois.",
+            "easing": "snap"
+          },
+          {
+            "id": "vento-localizado-payoff",
+            "start": 2.38,
+            "end": 3.1,
+            "context": "house",
+            "from": [
+              4.4,
+              2.85,
+              7.8
+            ],
+            "to": [
+              3.55,
+              2.42,
+              6.4
+            ],
+            "targetFrom": [
+              0.62,
+              1.55,
+              0.6
+            ],
+            "targetTo": [
+              0.62,
+              1.65,
+              0.6
+            ],
+            "zoomFrom": 0.78,
+            "zoomTo": 0.9,
+            "attentionTarget": "corrente curta entre ventilador e pessoa",
+            "event": "O plano conjunto mostra que o ventilador refresca a pessoa sem tentar esfriar o quarto inteiro.",
+            "cameraReveal": "Corte para duas âncoras, rosto e hélice, com a corrente curta entre elas.",
+            "soundCue": "o motor segue baixo enquanto o vento localizado termina no tecido.",
+            "easing": "snap"
+          },
+          {
+            "id": "pullout-casa-resolvida",
+            "start": 3.1,
+            "end": 5,
+            "context": "house",
+            "from": [
+              5,
+              3.9,
+              9.8
+            ],
+            "to": [
+              9.3,
+              6.3,
+              15.6
+            ],
+            "targetFrom": [
+              0,
+              2.3,
+              0
+            ],
+            "targetTo": [
+              0,
+              2.35,
+              0
+            ],
+            "zoomFrom": 1.02,
+            "zoomTo": 0.76,
+            "attentionTarget": "casa e cobertura já tratadas",
+            "event": "O recuo final entrega a casa inteira e deixa o payoff assentar.",
+            "cameraReveal": "Pull-out acelerado sai do quarto e deixa a casa resolvida no quadro vertical.",
+            "soundCue": "FX caem, deixando só motor baixo antes do corte final.",
+            "easing": "snap"
+          }
+        ],
+        "motionCoverage": [
+          {
+            "id": "retorno-a-mesma-cama",
+            "start": 0,
+            "end": 1.35,
+            "context": "house",
+            "attentionTarget": "pessoa relaxada na cama",
+            "event": "O mesmo espaço da abertura reaparece com a pessoa confortável.",
+            "cameraReveal": "Callback de rosto do lado oposto: agora a pessoa está sentada e aliviada.",
+            "soundCue": "motor do ventilador estabiliza baixo quando a pessoa relaxa."
+          },
+          {
+            "id": "helice-mira-a-cama",
+            "start": 1.35,
+            "end": 1.72,
+            "context": "house",
+            "attentionTarget": "inclinação e hélice do ventilador",
+            "event": "A cabeça do ventilador baixa na direção da cama antes de a brisa alcançar a pessoa.",
+            "cameraReveal": "Corte de três quartos entra na hélice e acompanha o eixo apontando para baixo.",
+            "soundCue": "o motor já estabilizado ganha presença no corte para a hélice."
+          },
+          {
+            "id": "brisa-toca-o-rosto",
+            "start": 1.72,
+            "end": 2.38,
+            "context": "house",
+            "attentionTarget": "lateral do rosto quando a brisa chega",
+            "event": "A corrente alcança a bochecha; a pessoa solta o ombro e reage com alívio.",
+            "cameraReveal": "Reverse fechado segura o contato na lateral do rosto e entra um pouco antes da reação.",
+            "soundCue": "whoosh curto encontra o rosto em 2,04 s; o tecido responde logo depois."
+          },
+          {
+            "id": "vento-localizado-payoff",
+            "start": 2.38,
+            "end": 3.1,
+            "context": "house",
+            "attentionTarget": "corrente curta entre ventilador e pessoa",
+            "event": "O plano conjunto mostra que o ventilador refresca a pessoa sem tentar esfriar o quarto inteiro.",
+            "cameraReveal": "Corte para duas âncoras, rosto e hélice, com a corrente curta entre elas.",
+            "soundCue": "o motor segue baixo enquanto o vento localizado termina no tecido."
+          },
+          {
+            "id": "pullout-casa-resolvida",
+            "start": 3.1,
+            "end": 5,
+            "context": "house",
+            "attentionTarget": "casa e cobertura já tratadas",
+            "event": "O recuo final entrega a casa inteira e deixa o payoff assentar.",
+            "cameraReveal": "Pull-out acelerado sai do quarto e deixa a casa resolvida no quadro vertical.",
+            "soundCue": "FX caem, deixando só motor baixo antes do corte final."
+          }
+        ],
+        "audioTitle": "Motor estabiliza junto à cama",
+        "audioLabel": "PAYOFF",
+        "soundEvents": [
+          {
+            "at": 0.72,
+            "file": "sertao_fan.wav",
+            "volume": 0.15,
+            "label": "MOTOR",
+            "sync": "o ventilador volta a trabalhar perto da cama"
+          },
+          {
+            "at": 2.04,
+            "file": "whoosh.wav",
+            "volume": 0.16,
+            "label": "BRISA",
+            "sync": "brisa alcança só a pessoa"
+          }
+        ]
+      },
+      "motion": {
+        "prep": "porta e passos suaves aproximam a pessoa",
+        "travel": "pessoa senta e deita; ventilador muda o eixo para ela",
+        "contact": "corrente toca só a área da cama",
+        "reaction": "ombros relaxam; a laje permanece estável sem brilho exagerado",
+        "result": "ventilador refresca a pessoa e não tenta resfriar o volume inteiro",
+        "pause": "hold curto para payoff e piada",
+        "exit": "som cai e imagem fecha sem novo conceito"
+      },
+      "return": {
+        "priorSceneId": "cs-01-noite-teto",
+        "function": "payoff",
+        "visibleDelta": "mesmo enquadramento da cama e teto, mas a fonte de calor foi mitigada e o ventilador tem alvo local claro"
+      }
+    }
+  ]
+}

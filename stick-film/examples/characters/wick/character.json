@@ -1,0 +1,15 @@
+{
+  "name": "Wick",
+  "slug": "wick",
+  "style": "line",
+  "palette": { "ink": "#050403", "paper": "#f1ede1", "accent": "#d29e23" },
+  "body": {
+    "height": 420, "head": 0.152, "torso": 0.29, "thigh": 0.18, "shin": 0.18,
+    "upperArm": 0.165, "foreArm": 0.165, "line": 0.0205,
+    "hand": [0.031, 0.040], "foot": [0.060, 0.022]
+  },
+  "face": { "eyes": "dot", "brows": true, "mouth": "smile" },
+  "accessories": [{ "type": "scarf", "color": "accent" }],
+  "personality": "Quietly anxious, kind, overthinks, gets there in the end.",
+  "notes": "Measured from the Flow master sheet. No mouth except a small smile at emotional payoffs."
+}

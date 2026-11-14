@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "1eb7fc57f09ed201ed68336ebf8d7fd908889b44f7b516614e44c743e192a39b",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "",
+      "meshes": 261,
+      "triangles": 23895,
+      "dimensions": [
+        32,
+        8.51723001333978,
+        21.750000000000004
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    ": recurso abaixo do chão; justificar contato no contrato."
+  ],
+  "baselines": [
+    {
+      "id": "contexto_obra_arco",
+      "variant": "",
+      "revision": "484bde003507c81e"
+    },
+    {
+      "id": "casa_simples",
+      "variant": "verde",
+      "revision": "a842549d9351fbc2"
+    }
+  ],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-06T02:31:39.308Z"
+}

@@ -1,0 +1,65 @@
+- generic [active] [ref=f24e1]:
+  - banner [ref=f24e2]:
+    - link "Voltar ao Studio" [ref=f24e3] [cursor=pointer]:
+      - /url: /studio/index.html
+      - generic [aria-hidden] [ref=f24e4]: ◩
+      - generic [ref=f24e5]:
+        - strong [ref=f24e6]: Kit de vídeo
+        - generic [ref=f24e7]: Studio de produção
+    - generic [ref=f24e8]:
+      - generic [ref=f24e9]: Conectando à produção
+      - button "Atualizar" [disabled] [ref=f24e12] [cursor=pointer]
+  - main [ref=f24e13]:
+    - navigation "Caminho" [ref=f24e14]:
+      - link "Studio" [ref=f24e15] [cursor=pointer]:
+        - /url: /studio/index.html
+      - generic [ref=f24e16]: /
+      - generic [ref=f24e17]: Acompanhamento
+    - generic [ref=f24e18]:
+      - generic [ref=f24e19]:
+        - paragraph [ref=f24e20]: ACOMPANHAMENTO DA PRODUÇÃO
+        - heading "Titanic" [level=1] [ref=f24e21]
+        - paragraph [ref=f24e22]: Acompanhe cada bloco e abra a prévia 3D de uma cena no navegador antes de autorizar a captura do vídeo.
+      - generic [ref=f24e25]:
+        - generic [ref=f24e26]: ESTADO ATUAL
+        - strong [ref=f24e27]: Buscando estado real…
+    - region "Resumo da produção" [ref=f24e28]:
+      - article [ref=f24e29]:
+        - generic [ref=f24e30]:
+          - generic [ref=f24e31]: PROGRESSO GERAL
+          - generic [ref=f24e32]: Aguardando dados
+        - generic [ref=f24e33]:
+          - generic [ref=f24e34]:
+            - strong [ref=f24e35]: —
+            - generic [ref=f24e36]: Sem contagem disponível
+          - progressbar "Progresso geral" [ref=f24e37]
+        - paragraph [ref=f24e38]: O painel só exibe o avanço informado pela produção.
+      - article [ref=f24e39]:
+        - generic [ref=f24e40]: ETAPA EM CURSO
+        - strong [ref=f24e41]: Aguardando estado da produção
+        - generic [ref=f24e42]: Ainda sem atualização
+      - article [ref=f24e43]:
+        - generic [ref=f24e44]: ESCOPO DA PRÉVIA
+        - strong [ref=f24e45]: Aguardando informação
+        - generic [ref=f24e46]: Renderização e revisão são estados diferentes.
+    - region [ref=f24e47]:
+      - generic [ref=f24e48]:
+        - generic [ref=f24e49]:
+          - paragraph [ref=f24e50]: AGORA
+          - heading "Fila de produção" [level=2] [ref=f24e51]
+        - generic [ref=f24e52]: —
+      - generic [ref=f24e53]: Aguardando a fila real da produção.
+    - region [ref=f24e55]:
+      - generic [ref=f24e56]:
+        - generic [ref=f24e57]:
+          - paragraph [ref=f24e58]: MONTAGEM DO LONGA
+          - heading "Blocos e cenas" [level=2] [ref=f24e59]
+          - paragraph [ref=f24e60]: Blocos organizados em trechos de aproximadamente 3 minutos. Confira a prévia 3D navegável de cada cena, a fala, o acontecimento e o foco visual; a captura em vídeo só começa depois da sua autorização.
+        - generic "Legenda de estado" [ref=f24e61]:
+          - generic [ref=f24e62]: Em produção
+          - generic [ref=f24e64]: Render gerado
+          - generic [ref=f24e66]: Na fila
+      - generic [ref=f24e68]: Carregando blocos e cenas…
+    - generic [ref=f24e71]:
+      - generic [ref=f24e72]: Atualização automática a cada 20 s
+      - generic [ref=f24e73]: Prévia isolada não significa revisão ou aprovação.

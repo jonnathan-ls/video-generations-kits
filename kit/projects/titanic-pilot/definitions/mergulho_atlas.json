@@ -1,0 +1,20 @@
+{
+  "id": "mergulho_atlas",
+  "label": "Do atlas para o Atlântico",
+  "kind": "transition",
+  "category": "historico_maritimo",
+  "description": "Percurso original de cinco a seis segundos como estimativa: atlas ganha relevo, aproximação encontra Atlântico Norte em 1912, superfície transforma-se em mar. Uma direção principal, sem espera por marca; pausa para leitura do lugar. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "atlas-dive.js",
+  "aliases": [
+    "noite do Titanic",
+    "Do atlas para o Atlântico"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:atlas-para-mar"
+  },
+  "baselineIds": []
+}

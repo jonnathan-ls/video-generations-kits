@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "status": "planned-before-build",
+  "items": [
+    {"id": "miniature-kitchen-v2", "kind": "scene", "stage": "queued", "dependsOn": [], "specification": "uma cozinha em L, 1:12, layout fixo; pia à esquerda, cooktop à direita, geladeira e despensa no mesmo fundo"},
+    {"id": "crochet-cotton-surface-v2", "kind": "material", "stage": "queued", "dependsOn": ["miniature-kitchen-v2"], "specification": "pontos e laçadas repetíveis em relevo, com fibra legível em 432x768 e estabilidade temporal; sem superfícies lisas de madeira, metal, cerâmica ou plástico"},
+    {"id": "human-hands-v2", "kind": "character", "stage": "queued", "dependsOn": [], "specification": "um único par de mãos humanas sem joias ou esmalte chamativo; trajetórias e contatos sem duplicações"},
+    {"id": "crochet-kitchen-props-v2", "kind": "object", "stage": "queued", "dependsOn": ["crochet-cotton-surface-v2"], "specification": "louça, esponja, cooktop, vassoura, pá, lixeira, geladeira, prateleiras, potes, utensílios e panos com silhuetas e encaixes estáveis"},
+    {"id": "cleaning-action-guides-v2", "kind": "animation", "stage": "queued", "dependsOn": ["human-hands-v2", "crochet-kitchen-props-v2"], "specification": "12 beats com preparo, contato, reação e resultado; uma ação dominante por plano"},
+    {"id": "water-foam-crumbs-v2", "kind": "effect", "stage": "queued", "dependsOn": ["cleaning-action-guides-v2"], "specification": "água, espuma, gotas e migalhas aparecem apenas no contato visual correspondente e não cobrem os pontos"},
+    {"id": "macro-edit-language-v2", "kind": "camera", "stage": "queued", "dependsOn": ["miniature-kitchen-v2"], "specification": "macros e inserts vinculados a contato/estado; retornos preservam eixo e orientação; plano geral só no final"},
+    {"id": "window-light-v2", "kind": "lighting", "stage": "queued", "dependsOn": ["miniature-kitchen-v2"], "specification": "luz difusa de janela à esquerda, fixa em direção, cor e exposição"},
+    {"id": "direct-edit-v2", "kind": "transition", "stage": "queued", "dependsOn": ["macro-edit-language-v2"], "specification": "cortes secos nos limites mapeados; inserts candidatos precisam de conferência visual"},
+    {"id": "original-crochet-sound-v2", "kind": "sound", "stage": "queued", "dependsOn": ["cleaning-action-guides-v2"], "specification": "foley original preso aos contatos e música original; audição crítica pendente"}
+  ]
+}
+

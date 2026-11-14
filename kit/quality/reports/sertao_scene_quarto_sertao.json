@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "f55e051dd2100f900d6f20031d13b5fd4b74c96dbe22ac3a34d165e3be674374",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "scene-quarto-sertao",
+      "meshes": 70,
+      "triangles": 29020,
+      "dimensions": [
+        15.8,
+        4.709999847412109,
+        8
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "scene-quarto-sertao: recurso abaixo do chão; justificar contato no contrato."
+  ],
+  "baselines": [
+    {
+      "id": "casa_simples",
+      "variant": "verde",
+      "revision": "a842549d9351fbc2"
+    }
+  ],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.455Z"
+}

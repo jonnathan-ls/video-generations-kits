@@ -1,0 +1,15 @@
+{
+  "model_type": "t2v_nexus_1.3B",
+  "prompt": "Vertical 9:16 macro video of an original handmade amigurumi kitchen miniature. One shallow oval ivory crochet dish, soft and flexible like a small yarn basket, made entirely from thick matte cotton yarn. Large interlocking crochet loops and raised stitch rows cover its inside, rim and outside. It rests on a flat deep-indigo crochet mat whose full visible surface is made from the same chunky yarn. A small mustard-yellow crochet scrub pad, made from thick loops, is already touching the left half of the dish, held by one natural hand with a plain navy cuff. All visible solid surfaces are textile and visibly crocheted; the dish and pad are the only focal objects. Warm diffuse window light from upper left, locked close camera, enough depth of field to read the loop structure across the dish. The hand makes one small slow left-to-right scrub across the inner surface while keeping continuous contact, then holds. Same object shapes, same cotton-yarn loop size and same colors in every frame.",
+  "negative_prompt": "ceramic, porcelain, glass, metal sink, plastic basin, smooth plastic, wood, stone, glossy surface, hard plate, rigid rim, plain fabric, printed pattern, missing stitches, smooth patches, changing stitch size, texture crawl, flicker, morphing dish, morphing scrub pad, extra hands, extra fingers, fused fingers, floating pad, loss of contact, vertical dipping, repeated back-and-forth scrubbing, rinsing, water stream, soap bottle, dish rack, extra objects, camera movement, zoom, cut, exposure change, text, logo, watermark, subtitles",
+  "resolution": "432x768",
+  "video_length": 41,
+  "force_fps": "16",
+  "num_inference_steps": 8,
+  "guidance_scale": 1,
+  "flow_shift": 5,
+  "seed": 731826,
+  "repeat_generation": 1,
+  "image_mode": 0,
+  "output_filename": "v05-00-ancora-croche-ia-local"
+}

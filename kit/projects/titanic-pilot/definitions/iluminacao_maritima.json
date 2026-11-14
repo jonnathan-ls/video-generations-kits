@@ -1,0 +1,20 @@
+{
+  "id": "iluminacao_maritima",
+  "label": "Noite marítima legível",
+  "kind": "lighting",
+  "category": "historico_maritimo",
+  "description": "Separar horizonte, casco, pessoas e gelo com iluminação estilizada discreta. O sinal mantém contraste sem dominar toda a tela; não fingir que iluminação de cinema é registro documental. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "maritime-lighting.js",
+  "aliases": [
+    "madrugada",
+    "Noite marítima legível"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:luz-noite"
+  },
+  "baselineIds": []
+}

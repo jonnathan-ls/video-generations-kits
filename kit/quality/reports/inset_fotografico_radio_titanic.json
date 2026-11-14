@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "fb7850fb46b88fa4d7ef63bed702d9c0bf19d8944ffb50dd5476cf650d8a5301",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "titanic-marconi-wireless-room-1912",
+      "meshes": 4,
+      "triangles": 594,
+      "dimensions": [
+        5.699999809265137,
+        3.5399999618530273,
+        0.095
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "titanic-marconi-wireless-room-1912: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T06:05:53.825Z"
+}

@@ -1,0 +1,3498 @@
+{
+  "schemaVersion": 1,
+  "projectId": "titanic-completo",
+  "status": "construction-required",
+  "requirements": [
+    {
+      "id": "titanic-v2:gestos-contato",
+      "label": "gestos-contato",
+      "status": "unbuilt-or-unverified",
+      "type": "animation",
+      "sceneIds": [
+        "shot-001-hook",
+        "shot-004-hook",
+        "shot-006-radio",
+        "shot-010-lifeboat",
+        "shot-013-impact",
+        "shot-016-port",
+        "shot-018-voyage",
+        "shot-019-voyage",
+        "shot-022-dining",
+        "shot-023-cabin",
+        "shot-024-voyage",
+        "shot-025-radio",
+        "shot-028-voyage",
+        "shot-038-voyage",
+        "shot-041-icefield",
+        "shot-043-voyage",
+        "shot-044-radio",
+        "shot-047-voyage",
+        "shot-053-impact",
+        "shot-054-deck",
+        "shot-055-deck",
+        "shot-058-deck",
+        "shot-065-deck",
+        "shot-066-deck",
+        "shot-079-deck",
+        "shot-081-deck",
+        "shot-082-voyage",
+        "shot-084-deck",
+        "shot-094-lifeboat",
+        "shot-096-flooding",
+        "shot-097-deck",
+        "shot-098-deck",
+        "shot-100-deck",
+        "shot-101-deck",
+        "shot-102-deck",
+        "shot-105-deck",
+        "shot-106-lifeboat",
+        "shot-107-deck",
+        "shot-108-cabin",
+        "shot-110-lifeboat",
+        "shot-113-cabin",
+        "shot-114-deck",
+        "shot-122-radio",
+        "shot-123-deck",
+        "shot-129-deck",
+        "shot-134-radio",
+        "shot-135-cabin",
+        "shot-139-voyage",
+        "shot-161-radio",
+        "shot-174-lifeboat",
+        "shot-178-lifeboat",
+        "shot-182-deck",
+        "shot-184-cabin",
+        "shot-185-lifeboat",
+        "shot-186-lifeboat",
+        "shot-189-deck",
+        "shot-193-rescue",
+        "shot-194-deck",
+        "shot-196-deck",
+        "shot-198-deck",
+        "shot-205-lifeboat",
+        "shot-208-deck",
+        "shot-209-flooding",
+        "shot-213-flooding",
+        "shot-215-rescue",
+        "shot-217-deck",
+        "shot-220-lifeboat",
+        "shot-222-lifeboat",
+        "shot-224-rescue",
+        "shot-227-deck",
+        "shot-229-deck",
+        "shot-238-deck",
+        "shot-246-rescue",
+        "shot-247-deck",
+        "shot-248-deck",
+        "shot-249-deck",
+        "shot-250-lifeboat",
+        "shot-257-rescue",
+        "shot-258-deck",
+        "shot-280-radio",
+        "shot-290-deck",
+        "shot-293-voyage",
+        "shot-294-deck",
+        "shot-296-rescue",
+        "shot-298-impact"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-001-hook",
+          "visibleRequirement": "Retém a imagem sem revelar a origem"
+        },
+        {
+          "sceneId": "shot-004-hook",
+          "visibleRequirement": "Luz permanece sem revelar bote"
+        },
+        {
+          "sceneId": "shot-006-radio",
+          "visibleRequirement": "Dedo acompanha a indicação de socorro"
+        },
+        {
+          "sceneId": "shot-010-lifeboat",
+          "visibleRequirement": "Banco se afasta do alcance"
+        },
+        {
+          "sceneId": "shot-013-impact",
+          "visibleRequirement": "Mão encontra corrimão de resgate"
+        },
+        {
+          "sceneId": "shot-016-port",
+          "visibleRequirement": "Vão entre cais e costado aumenta"
+        },
+        {
+          "sceneId": "shot-018-voyage",
+          "visibleRequirement": "Outro passageiro alisa uma carta antes de avançar"
+        },
+        {
+          "sceneId": "shot-019-voyage",
+          "visibleRequirement": "Destino Nova York alinha nos dois"
+        },
+        {
+          "sceneId": "shot-022-dining",
+          "visibleRequirement": "Passageiro aproxima a mão"
+        },
+        {
+          "sceneId": "shot-023-cabin",
+          "visibleRequirement": "Grupo segue pela porta"
+        },
+        {
+          "sceneId": "shot-024-voyage",
+          "visibleRequirement": "Porta retorna e esconde o trabalho"
+        },
+        {
+          "sceneId": "shot-025-radio",
+          "visibleRequirement": "Pá transfere carvão à fornalha"
+        },
+        {
+          "sceneId": "shot-028-voyage",
+          "visibleRequirement": "Pessoa do outro lado se vira"
+        },
+        {
+          "sceneId": "shot-038-voyage",
+          "visibleRequirement": "Luz de leitura é apagada"
+        },
+        {
+          "sceneId": "shot-041-icefield",
+          "visibleRequirement": "Dedo para sobre GELO"
+        },
+        {
+          "sceneId": "shot-043-voyage",
+          "visibleRequirement": "Documento fica junto aos instrumentos"
+        },
+        {
+          "sceneId": "shot-044-radio",
+          "visibleRequirement": "Outro papel permanece à mesa"
+        },
+        {
+          "sceneId": "shot-047-voyage",
+          "visibleRequirement": "Quadro segura a relação"
+        },
+        {
+          "sceneId": "shot-053-impact",
+          "visibleRequirement": "Mão alcança aparelho de aviso"
+        },
+        {
+          "sceneId": "shot-054-deck",
+          "visibleRequirement": "Oficial vira para o comando"
+        },
+        {
+          "sceneId": "shot-055-deck",
+          "visibleRequirement": "Massa do navio responde com atraso"
+        },
+        {
+          "sceneId": "shot-058-deck",
+          "visibleRequirement": "Os ocupantes interrompem o gesto"
+        },
+        {
+          "sceneId": "shot-065-deck",
+          "visibleRequirement": "Mão mede visualmente o nível pela parede"
+        },
+        {
+          "sceneId": "shot-066-deck",
+          "visibleRequirement": "Olhares convergem ao desenho"
+        },
+        {
+          "sceneId": "shot-079-deck",
+          "visibleRequirement": "Tarefa muda de inspeção para evacuação"
+        },
+        {
+          "sceneId": "shot-081-deck",
+          "visibleRequirement": "Outro trabalhador cruza em sentido contrário"
+        },
+        {
+          "sceneId": "shot-082-voyage",
+          "visibleRequirement": "Pessoa olha para fora"
+        },
+        {
+          "sceneId": "shot-084-deck",
+          "visibleRequirement": "Mão finalmente alcança casaco"
+        },
+        {
+          "sceneId": "shot-094-lifeboat",
+          "visibleRequirement": "Ordem visual passa à preparação"
+        },
+        {
+          "sceneId": "shot-096-flooding",
+          "visibleRequirement": "Cabos começam a liberar o bote"
+        },
+        {
+          "sceneId": "shot-097-deck",
+          "visibleRequirement": "Passageiro transfere peso ao bote"
+        },
+        {
+          "sceneId": "shot-098-deck",
+          "visibleRequirement": "Distância entre tarefas fica clara"
+        },
+        {
+          "sceneId": "shot-100-deck",
+          "visibleRequirement": "Reorganiza a posição"
+        },
+        {
+          "sceneId": "shot-101-deck",
+          "visibleRequirement": "Ação fica momentaneamente suspensa"
+        },
+        {
+          "sceneId": "shot-102-deck",
+          "visibleRequirement": "Foco muda da luz familiar à água"
+        },
+        {
+          "sceneId": "shot-105-deck",
+          "visibleRequirement": "Pessoa olha a borda do bote"
+        },
+        {
+          "sceneId": "shot-106-lifeboat",
+          "visibleRequirement": "Grupo entra com apoio"
+        },
+        {
+          "sceneId": "shot-107-deck",
+          "visibleRequirement": "Montagem compara prática, não moraliza rostos"
+        },
+        {
+          "sceneId": "shot-108-cabin",
+          "visibleRequirement": "Outra permanece apoiada na borda"
+        },
+        {
+          "sceneId": "shot-110-lifeboat",
+          "visibleRequirement": "Distância aumenta"
+        },
+        {
+          "sceneId": "shot-113-cabin",
+          "visibleRequirement": "Uma porta ao fundo ainda se abre"
+        },
+        {
+          "sceneId": "shot-114-deck",
+          "visibleRequirement": "Mão de apoio permanece oferecida"
+        },
+        {
+          "sceneId": "shot-122-radio",
+          "visibleRequirement": "Papéis de socorro entram em uso"
+        },
+        {
+          "sceneId": "shot-123-deck",
+          "visibleRequirement": "Contato de chave retoma"
+        },
+        {
+          "sceneId": "shot-129-deck",
+          "visibleRequirement": "Documento segue com operador"
+        },
+        {
+          "sceneId": "shot-134-radio",
+          "visibleRequirement": "Mão ergue papel à chegada"
+        },
+        {
+          "sceneId": "shot-135-cabin",
+          "visibleRequirement": "Papel entra no quadro"
+        },
+        {
+          "sceneId": "shot-139-voyage",
+          "visibleRequirement": "Movimento é recebido no posto de máquinas"
+        },
+        {
+          "sceneId": "shot-161-radio",
+          "visibleRequirement": "Cadeira recua e luz de tarefa se reduz"
+        },
+        {
+          "sceneId": "shot-174-lifeboat",
+          "visibleRequirement": "Documentos desaparecem do quadro"
+        },
+        {
+          "sceneId": "shot-178-lifeboat",
+          "visibleRequirement": "Corte para orientação que ainda falta"
+        },
+        {
+          "sceneId": "shot-182-deck",
+          "visibleRequirement": "Saída finalmente entra no campo de visão"
+        },
+        {
+          "sceneId": "shot-184-cabin",
+          "visibleRequirement": "Grupo continua guiado ao nível superior"
+        },
+        {
+          "sceneId": "shot-185-lifeboat",
+          "visibleRequirement": "Pé assenta no bote"
+        },
+        {
+          "sceneId": "shot-186-lifeboat",
+          "visibleRequirement": "Olhares procuram outra estação"
+        },
+        {
+          "sceneId": "shot-189-deck",
+          "visibleRequirement": "Ele retorna ao posto"
+        },
+        {
+          "sceneId": "shot-193-rescue",
+          "visibleRequirement": "Ao fundo cabo segue trabalhando"
+        },
+        {
+          "sceneId": "shot-194-deck",
+          "visibleRequirement": "Figura alarga a base"
+        },
+        {
+          "sceneId": "shot-196-deck",
+          "visibleRequirement": "Fila procura apoio"
+        },
+        {
+          "sceneId": "shot-198-deck",
+          "visibleRequirement": "Movimento espera o bote alinhar"
+        },
+        {
+          "sceneId": "shot-205-lifeboat",
+          "visibleRequirement": "Oscilação limita observação"
+        },
+        {
+          "sceneId": "shot-208-deck",
+          "visibleRequirement": "Outro braço procura estabilidade"
+        },
+        {
+          "sceneId": "shot-209-flooding",
+          "visibleRequirement": "Tripulante redistribui peso"
+        },
+        {
+          "sceneId": "shot-213-flooding",
+          "visibleRequirement": "Outra fica preparada para busca"
+        },
+        {
+          "sceneId": "shot-215-rescue",
+          "visibleRequirement": "Pessoa recupera apoio"
+        },
+        {
+          "sceneId": "shot-217-deck",
+          "visibleRequirement": "Ilustração evita diagnóstico individual ou cronômetro falso"
+        },
+        {
+          "sceneId": "shot-220-lifeboat",
+          "visibleRequirement": "Remo repousa sem destino visível"
+        },
+        {
+          "sceneId": "shot-222-lifeboat",
+          "visibleRequirement": "Mãos são oferecidas ao grupo equilibrado"
+        },
+        {
+          "sceneId": "shot-224-rescue",
+          "visibleRequirement": "Peso assenta no banco"
+        },
+        {
+          "sceneId": "shot-227-deck",
+          "visibleRequirement": "Objeto fica estável entre os dedos"
+        },
+        {
+          "sceneId": "shot-229-deck",
+          "visibleRequirement": "Som permanece breve sem atribuir notas exatas"
+        },
+        {
+          "sceneId": "shot-238-deck",
+          "visibleRequirement": "Etiqueta INTERPRETAÇÃO DE ROSTRON mantém precisão"
+        },
+        {
+          "sceneId": "shot-246-rescue",
+          "visibleRequirement": "Tripulante recebe peso acima"
+        },
+        {
+          "sceneId": "shot-247-deck",
+          "visibleRequirement": "Braço de ajuda entra no quadro"
+        },
+        {
+          "sceneId": "shot-248-deck",
+          "visibleRequirement": "Sem afirmar embarque de casal específico em sequência factual exata"
+        },
+        {
+          "sceneId": "shot-249-deck",
+          "visibleRequirement": "Tripulante o recebe no alto"
+        },
+        {
+          "sceneId": "shot-250-lifeboat",
+          "visibleRequirement": "Cabo toma carga e eleva com estabilidade"
+        },
+        {
+          "sceneId": "shot-257-rescue",
+          "visibleRequirement": "Outro grupo passa sem resposta"
+        },
+        {
+          "sceneId": "shot-258-deck",
+          "visibleRequirement": "Olhar volta para a passagem"
+        },
+        {
+          "sceneId": "shot-280-radio",
+          "visibleRequirement": "Comando é executado em posto distinto"
+        },
+        {
+          "sceneId": "shot-290-deck",
+          "visibleRequirement": "Sinal não ofusca rosto ou legenda"
+        },
+        {
+          "sceneId": "shot-293-voyage",
+          "visibleRequirement": "Grupo parte fora do quadro"
+        },
+        {
+          "sceneId": "shot-294-deck",
+          "visibleRequirement": "Mão deixa o quadro com o objeto"
+        },
+        {
+          "sceneId": "shot-296-rescue",
+          "visibleRequirement": "Cobertor encerra a transferência"
+        },
+        {
+          "sceneId": "shot-298-impact",
+          "visibleRequirement": "Imagem termina em mãos que alcançaram terra firme do convés"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:reflexo-controlado",
+      "label": "reflexo-controlado",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-002-hook",
+        "shot-012-deck",
+        "shot-050-voyage",
+        "shot-235-radio"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-002-hook",
+          "visibleRequirement": "Um dedo se imobiliza junto ao reflexo"
+        },
+        {
+          "sceneId": "shot-012-deck",
+          "visibleRequirement": "Origem fica abaixo do enquadramento"
+        },
+        {
+          "sceneId": "shot-050-voyage",
+          "visibleRequirement": "Só a passagem do casco o rompe"
+        },
+        {
+          "sceneId": "shot-235-radio",
+          "visibleRequirement": "Fonte acústica cede lugar à referência espacial"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:face-atuacao",
+      "label": "face-atuacao",
+      "status": "unbuilt-or-unverified",
+      "type": "animation",
+      "sceneIds": [
+        "shot-003-hook"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-003-hook",
+          "visibleRequirement": "Respiração suspende antes do corte"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:nome-costado",
+      "label": "nome-costado",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-005-rescue",
+        "shot-292-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-005-rescue",
+          "visibleRequirement": "O costado passa e revela uma escada recolhida"
+        },
+        {
+          "sceneId": "shot-292-deck",
+          "visibleRequirement": "Acabamento novo recebe luz natural"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:foco-feixe",
+      "label": "foco-feixe",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-007-icefield"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-007-icefield",
+          "visibleRequirement": "Feixe de luz contorna seu volume"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:multidao-variada",
+      "label": "multidao-variada",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-008-deck",
+        "shot-018-voyage",
+        "shot-197-lifeboat"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-008-deck",
+          "visibleRequirement": "Contagem editorial aparece sem cobrir rostos"
+        },
+        {
+          "sceneId": "shot-018-voyage",
+          "visibleRequirement": "Outro passageiro alisa uma carta antes de avançar"
+        },
+        {
+          "sceneId": "shot-197-lifeboat",
+          "visibleRequirement": "Pausa expõe limite material"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:infografico-capacidade",
+      "label": "infografico-capacidade",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-008-deck",
+        "shot-009-lifeboat",
+        "shot-036-voyage",
+        "shot-086-deck",
+        "shot-087-deck",
+        "shot-088-deck",
+        "shot-089-deck",
+        "shot-116-deck",
+        "shot-255-deck",
+        "shot-256-deck",
+        "shot-270-lifeboat",
+        "shot-271-lifeboat",
+        "shot-277-documents",
+        "shot-284-deck"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-008-deck",
+          "visibleRequirement": "Contagem editorial aparece sem cobrir rostos"
+        },
+        {
+          "sceneId": "shot-009-lifeboat",
+          "visibleRequirement": "Últimos marcadores de pessoas ficam sem assento"
+        },
+        {
+          "sceneId": "shot-036-voyage",
+          "visibleRequirement": "Fileiras de lugares terminam antes das pessoas"
+        },
+        {
+          "sceneId": "shot-086-deck",
+          "visibleRequirement": "Contagem para no total"
+        },
+        {
+          "sceneId": "shot-087-deck",
+          "visibleRequirement": "Manter NOMINAL em tamanho legível"
+        },
+        {
+          "sceneId": "shot-088-deck",
+          "visibleRequirement": "CERCA DE 2200 ocupa o topo"
+        },
+        {
+          "sceneId": "shot-089-deck",
+          "visibleRequirement": "Câmera espera a desigualdade ser lida"
+        },
+        {
+          "sceneId": "shot-116-deck",
+          "visibleRequirement": "Imagem para na clareza da contagem"
+        },
+        {
+          "sceneId": "shot-255-deck",
+          "visibleRequirement": "Não usar corpos ou rostos como pontuação"
+        },
+        {
+          "sceneId": "shot-256-deck",
+          "visibleRequirement": "Diferença é visual, não número exato universal"
+        },
+        {
+          "sceneId": "shot-270-lifeboat",
+          "visibleRequirement": "Total nominal fica atribuído"
+        },
+        {
+          "sceneId": "shot-271-lifeboat",
+          "visibleRequirement": "Borda do bote se afasta da linha do convés"
+        },
+        {
+          "sceneId": "shot-277-documents",
+          "visibleRequirement": "Comparação não altera retroativamente Titanic"
+        },
+        {
+          "sceneId": "shot-284-deck",
+          "visibleRequirement": "Faixa restante de pessoas continua"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "capacidade_botes_1912:seats",
+        "capacidade_botes_1912:empty-spaces"
+      ]
+    },
+    {
+      "id": "titanic-v2:turco-cabos",
+      "label": "turco-cabos",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-010-lifeboat",
+        "shot-013-impact",
+        "shot-091-port",
+        "shot-094-lifeboat",
+        "shot-096-flooding",
+        "shot-098-deck",
+        "shot-100-deck",
+        "shot-104-deck",
+        "shot-109-lifeboat",
+        "shot-110-lifeboat",
+        "shot-115-lifeboat",
+        "shot-117-deck",
+        "shot-118-flooding",
+        "shot-119-flooding",
+        "shot-179-lifeboat",
+        "shot-186-lifeboat",
+        "shot-190-lifeboat",
+        "shot-197-lifeboat",
+        "shot-198-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-010-lifeboat",
+          "visibleRequirement": "Banco se afasta do alcance"
+        },
+        {
+          "sceneId": "shot-013-impact",
+          "visibleRequirement": "Mão encontra corrimão de resgate"
+        },
+        {
+          "sceneId": "shot-091-port",
+          "visibleRequirement": "Bote permanece com a partida ao fundo"
+        },
+        {
+          "sceneId": "shot-094-lifeboat",
+          "visibleRequirement": "Ordem visual passa à preparação"
+        },
+        {
+          "sceneId": "shot-096-flooding",
+          "visibleRequirement": "Cabos começam a liberar o bote"
+        },
+        {
+          "sceneId": "shot-098-deck",
+          "visibleRequirement": "Distância entre tarefas fica clara"
+        },
+        {
+          "sceneId": "shot-100-deck",
+          "visibleRequirement": "Reorganiza a posição"
+        },
+        {
+          "sceneId": "shot-104-deck",
+          "visibleRequirement": "Água escura permanece abaixo"
+        },
+        {
+          "sceneId": "shot-109-lifeboat",
+          "visibleRequirement": "Bote se afasta verticalmente"
+        },
+        {
+          "sceneId": "shot-110-lifeboat",
+          "visibleRequirement": "Distância aumenta"
+        },
+        {
+          "sceneId": "shot-115-lifeboat",
+          "visibleRequirement": "Uma possibilidade de acesso inferior é indicada em esquema separado"
+        },
+        {
+          "sceneId": "shot-117-deck",
+          "visibleRequirement": "O cenário muda com inclinação leve do piso"
+        },
+        {
+          "sceneId": "shot-118-flooding",
+          "visibleRequirement": "Olhares seguem para próxima estação"
+        },
+        {
+          "sceneId": "shot-119-flooding",
+          "visibleRequirement": "Banco anterior permanece longe"
+        },
+        {
+          "sceneId": "shot-179-lifeboat",
+          "visibleRequirement": "Oficial indica próximo acesso"
+        },
+        {
+          "sceneId": "shot-186-lifeboat",
+          "visibleRequirement": "Olhares procuram outra estação"
+        },
+        {
+          "sceneId": "shot-190-lifeboat",
+          "visibleRequirement": "Chave transmite"
+        },
+        {
+          "sceneId": "shot-197-lifeboat",
+          "visibleRequirement": "Pausa expõe limite material"
+        },
+        {
+          "sceneId": "shot-198-deck",
+          "visibleRequirement": "Movimento espera o bote alinhar"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:mapa-rota",
+      "label": "mapa-rota",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-011-deck",
+        "shot-033-radio",
+        "shot-040-voyage",
+        "shot-042-voyage",
+        "shot-046-voyage",
+        "shot-047-voyage",
+        "shot-048-voyage",
+        "shot-125-radio",
+        "shot-126-radio",
+        "shot-127-deck",
+        "shot-128-deck",
+        "shot-130-deck",
+        "shot-131-deck",
+        "shot-132-icefield",
+        "shot-133-rescue",
+        "shot-136-documents",
+        "shot-137-voyage",
+        "shot-138-voyage",
+        "shot-142-icefield",
+        "shot-144-deck",
+        "shot-149-voyage",
+        "shot-173-rescue",
+        "shot-242-deck",
+        "shot-259-port",
+        "shot-262-deck",
+        "shot-272-rescue",
+        "shot-285-deck"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-011-deck",
+          "visibleRequirement": "Um intervalo vazio ocupa o centro"
+        },
+        {
+          "sceneId": "shot-033-radio",
+          "visibleRequirement": "O aparelho permanece âncora no primeiro plano"
+        },
+        {
+          "sceneId": "shot-040-voyage",
+          "visibleRequirement": "Mão recolhe régua"
+        },
+        {
+          "sceneId": "shot-042-voyage",
+          "visibleRequirement": "Mensagens convergem sem trajetos exatos inventados"
+        },
+        {
+          "sceneId": "shot-046-voyage",
+          "visibleRequirement": "Lápis hesita fora da rota"
+        },
+        {
+          "sceneId": "shot-047-voyage",
+          "visibleRequirement": "Quadro segura a relação"
+        },
+        {
+          "sceneId": "shot-048-voyage",
+          "visibleRequirement": "Espaço entre aviso e mudança permanece visível"
+        },
+        {
+          "sceneId": "shot-125-radio",
+          "visibleRequirement": "Rota sai do papel"
+        },
+        {
+          "sceneId": "shot-126-radio",
+          "visibleRequirement": "Ponto distante acende no mapa"
+        },
+        {
+          "sceneId": "shot-127-deck",
+          "visibleRequirement": "Dois pontos ficam ligados"
+        },
+        {
+          "sceneId": "shot-128-deck",
+          "visibleRequirement": "O espaço entre eles permanece"
+        },
+        {
+          "sceneId": "shot-130-deck",
+          "visibleRequirement": "Relógio destaca a diferença"
+        },
+        {
+          "sceneId": "shot-131-deck",
+          "visibleRequirement": "Percurso não chega ao destino dentro do quadro"
+        },
+        {
+          "sceneId": "shot-132-icefield",
+          "visibleRequirement": "Dedo retorna ao ponto de chamada"
+        },
+        {
+          "sceneId": "shot-133-rescue",
+          "visibleRequirement": "Destino de auxílio ganha foco"
+        },
+        {
+          "sceneId": "shot-136-documents",
+          "visibleRequirement": "Roda inicia o giro"
+        },
+        {
+          "sceneId": "shot-137-voyage",
+          "visibleRequirement": "Legenda DEZENAS DE MILHAS fixa a escala aproximada"
+        },
+        {
+          "sceneId": "shot-138-voyage",
+          "visibleRequirement": "Destino permanece separado"
+        },
+        {
+          "sceneId": "shot-142-icefield",
+          "visibleRequirement": "Rota segura continua ao lado como comparação hipotética"
+        },
+        {
+          "sceneId": "shot-144-deck",
+          "visibleRequirement": "Decisão visual mantém ambos no quadro"
+        },
+        {
+          "sceneId": "shot-149-voyage",
+          "visibleRequirement": "Espaço de recepção permanece livre"
+        },
+        {
+          "sceneId": "shot-173-rescue",
+          "visibleRequirement": "Distâncias são qualitativas e atribuídas"
+        },
+        {
+          "sceneId": "shot-242-deck",
+          "visibleRequirement": "Janela mostra claridade inicial"
+        },
+        {
+          "sceneId": "shot-259-port",
+          "visibleRequirement": "Linha liga região do resgate à cidade"
+        },
+        {
+          "sceneId": "shot-262-deck",
+          "visibleRequirement": "Navio ainda está distante no percurso"
+        },
+        {
+          "sceneId": "shot-272-rescue",
+          "visibleRequirement": "Marca de resgate encerra ligação"
+        },
+        {
+          "sceneId": "shot-285-deck",
+          "visibleRequirement": "Tempo liga os dois sem torná-los simultâneos"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "mesa_navegacao_1912:route-chart"
+      ]
+    },
+    {
+      "id": "titanic-v2:tipografia-capitulos",
+      "label": "tipografia-capitulos",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-014-port",
+        "shot-052-impact",
+        "shot-085-deck",
+        "shot-121-radio",
+        "shot-152-radio",
+        "shot-176-lifeboat",
+        "shot-201-impact",
+        "shot-231-deck",
+        "shot-261-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-014-port",
+          "visibleRequirement": "Mão sai e o quadro respira"
+        },
+        {
+          "sceneId": "shot-052-impact",
+          "visibleRequirement": "Escurece antes do primeiro avistamento"
+        },
+        {
+          "sceneId": "shot-085-deck",
+          "visibleRequirement": "Pausa de leitura"
+        },
+        {
+          "sceneId": "shot-121-radio",
+          "visibleRequirement": "Pausa antes de recomeçar os cliques"
+        },
+        {
+          "sceneId": "shot-152-radio",
+          "visibleRequirement": "Pausa antes de abrir outro canal de socorro"
+        },
+        {
+          "sceneId": "shot-176-lifeboat",
+          "visibleRequirement": "Pausa antes do movimento humano"
+        },
+        {
+          "sceneId": "shot-201-impact",
+          "visibleRequirement": "Pausa situa mudança de capítulo, sem mostrar naufrágio completo antecipado"
+        },
+        {
+          "sceneId": "shot-231-deck",
+          "visibleRequirement": "Pausa de virada antes do depoimento"
+        },
+        {
+          "sceneId": "shot-261-deck",
+          "visibleRequirement": "Data editorial situa pós-naufrágio"
+        }
+      ],
+      "priority": "opening-0-36",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:tipografia-datada",
+      "label": "tipografia-datada",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-015-voyage"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-015-voyage",
+          "visibleRequirement": "O relevo do papel recebe luz rasante"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:amarra-porto",
+      "label": "amarra-porto",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-016-port"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-016-port",
+          "visibleRequirement": "Vão entre cais e costado aumenta"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:passarela-periodo",
+      "label": "passarela-periodo",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-017-voyage"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-017-voyage",
+          "visibleRequirement": "Uma mala atravessa o eixo e transfere o foco"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:grafica-bilhete",
+      "label": "grafica-bilhete",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-019-voyage",
+        "shot-291-voyage",
+        "shot-294-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-019-voyage",
+          "visibleRequirement": "Destino Nova York alinha nos dois"
+        },
+        {
+          "sceneId": "shot-291-voyage",
+          "visibleRequirement": "Data de abril é legível"
+        },
+        {
+          "sceneId": "shot-294-deck",
+          "visibleRequirement": "Mão deixa o quadro com o objeto"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:portas-articuladas",
+      "label": "portas-articuladas",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-020-voyage",
+        "shot-024-voyage",
+        "shot-028-voyage",
+        "shot-082-voyage",
+        "shot-084-deck",
+        "shot-113-cabin",
+        "shot-181-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-020-voyage",
+          "visibleRequirement": "Fluxos seguem em alturas distintas"
+        },
+        {
+          "sceneId": "shot-024-voyage",
+          "visibleRequirement": "Porta retorna e esconde o trabalho"
+        },
+        {
+          "sceneId": "shot-028-voyage",
+          "visibleRequirement": "Pessoa do outro lado se vira"
+        },
+        {
+          "sceneId": "shot-082-voyage",
+          "visibleRequirement": "Pessoa olha para fora"
+        },
+        {
+          "sceneId": "shot-084-deck",
+          "visibleRequirement": "Mão finalmente alcança casaco"
+        },
+        {
+          "sceneId": "shot-113-cabin",
+          "visibleRequirement": "Uma porta ao fundo ainda se abre"
+        },
+        {
+          "sceneId": "shot-181-deck",
+          "visibleRequirement": "Ponteiro só compara ordem, sem hora individual falsa"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:circulacao-conveses",
+      "label": "circulacao-conveses",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-021-voyage",
+        "shot-027-voyage",
+        "shot-030-lifeboat",
+        "shot-115-lifeboat",
+        "shot-177-lifeboat",
+        "shot-178-lifeboat",
+        "shot-180-cabin",
+        "shot-182-deck",
+        "shot-187-lifeboat"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-021-voyage",
+          "visibleRequirement": "Cada trajeto chega a acesso diferente"
+        },
+        {
+          "sceneId": "shot-027-voyage",
+          "visibleRequirement": "Um alcança o convés antes do outro"
+        },
+        {
+          "sceneId": "shot-030-lifeboat",
+          "visibleRequirement": "Distância permanece legível"
+        },
+        {
+          "sceneId": "shot-115-lifeboat",
+          "visibleRequirement": "Uma possibilidade de acesso inferior é indicada em esquema separado"
+        },
+        {
+          "sceneId": "shot-177-lifeboat",
+          "visibleRequirement": "Ações coexistem com alvos alternados"
+        },
+        {
+          "sceneId": "shot-178-lifeboat",
+          "visibleRequirement": "Corte para orientação que ainda falta"
+        },
+        {
+          "sceneId": "shot-180-cabin",
+          "visibleRequirement": "Trajeto sobe além do enquadramento inicial"
+        },
+        {
+          "sceneId": "shot-182-deck",
+          "visibleRequirement": "Saída finalmente entra no campo de visão"
+        },
+        {
+          "sceneId": "shot-187-lifeboat",
+          "visibleRequirement": "Percurso problemático ganha destaque"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:ferramentas-trabalho",
+      "label": "ferramentas-trabalho",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-025-radio",
+        "shot-095-deck",
+        "shot-140-engine",
+        "shot-189-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-025-radio",
+          "visibleRequirement": "Pá transfere carvão à fornalha"
+        },
+        {
+          "sceneId": "shot-095-deck",
+          "visibleRequirement": "Contato inicia a tarefa"
+        },
+        {
+          "sceneId": "shot-140-engine",
+          "visibleRequirement": "Portinhola fecha deixando luz pulsante"
+        },
+        {
+          "sceneId": "shot-189-deck",
+          "visibleRequirement": "Ele retorna ao posto"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:corte-multinivel",
+      "label": "corte-multinivel",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-026-voyage",
+        "shot-068-deck",
+        "shot-077-flooding",
+        "shot-083-flooding",
+        "shot-207-flooding"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-026-voyage",
+          "visibleRequirement": "Movimento das máquinas continua sob o piso"
+        },
+        {
+          "sceneId": "shot-068-deck",
+          "visibleRequirement": "Corte estrutural sobe da planta"
+        },
+        {
+          "sceneId": "shot-077-flooding",
+          "visibleRequirement": "Faixa seca se estreita"
+        },
+        {
+          "sceneId": "shot-083-flooding",
+          "visibleRequirement": "O teto separa o serviço de cima"
+        },
+        {
+          "sceneId": "shot-207-flooding",
+          "visibleRequirement": "Mar ocupa o espaço"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:split-causal",
+      "label": "split-causal",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-029-voyage",
+        "shot-061-deck",
+        "shot-157-deck",
+        "shot-240-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-029-voyage",
+          "visibleRequirement": "Linha temporal editorial marca defasagem sem cronômetro inventado"
+        },
+        {
+          "sceneId": "shot-061-deck",
+          "visibleRequirement": "Só o segundo quadro identifica a gravidade"
+        },
+        {
+          "sceneId": "shot-157-deck",
+          "visibleRequirement": "Sem linha de resposta"
+        },
+        {
+          "sceneId": "shot-240-deck",
+          "visibleRequirement": "Mapa mínimo liga posições sem fundi-las"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:casco-estrutural",
+      "label": "casco-estrutural",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-031-impact",
+        "shot-071-impact"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-031-impact",
+          "visibleRequirement": "Abertura ilustrativa do corte mostra estrutura interna"
+        },
+        {
+          "sceneId": "shot-071-impact",
+          "visibleRequirement": "Não desenhar fenda contínua"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:agua-compartimentos",
+      "label": "agua-compartimentos",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-032-flooding",
+        "shot-057-deck",
+        "shot-061-deck",
+        "shot-063-deck",
+        "shot-064-flooding",
+        "shot-070-flooding",
+        "shot-071-impact",
+        "shot-072-flooding",
+        "shot-073-flooding",
+        "shot-075-deck",
+        "shot-077-flooding",
+        "shot-083-flooding",
+        "shot-151-deck",
+        "shot-195-deck",
+        "shot-199-deck",
+        "shot-282-impact"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-032-flooding",
+          "visibleRequirement": "Setor vizinho permanece seco"
+        },
+        {
+          "sceneId": "shot-057-deck",
+          "visibleRequirement": "Água começa a ocupar o piso abaixo"
+        },
+        {
+          "sceneId": "shot-061-deck",
+          "visibleRequirement": "Só o segundo quadro identifica a gravidade"
+        },
+        {
+          "sceneId": "shot-063-deck",
+          "visibleRequirement": "Reflexo surge sob a sola"
+        },
+        {
+          "sceneId": "shot-064-flooding",
+          "visibleRequirement": "Marca úmida cresce na parede"
+        },
+        {
+          "sceneId": "shot-070-flooding",
+          "visibleRequirement": "Visão mantém as divisórias"
+        },
+        {
+          "sceneId": "shot-071-impact",
+          "visibleRequirement": "Não desenhar fenda contínua"
+        },
+        {
+          "sceneId": "shot-072-flooding",
+          "visibleRequirement": "Proa se abaixa em relação ao horizonte"
+        },
+        {
+          "sceneId": "shot-073-flooding",
+          "visibleRequirement": "Água derrama ao setor seguinte"
+        },
+        {
+          "sceneId": "shot-075-deck",
+          "visibleRequirement": "Limite fica atrás do volume inundado"
+        },
+        {
+          "sceneId": "shot-077-flooding",
+          "visibleRequirement": "Faixa seca se estreita"
+        },
+        {
+          "sceneId": "shot-083-flooding",
+          "visibleRequirement": "O teto separa o serviço de cima"
+        },
+        {
+          "sceneId": "shot-151-deck",
+          "visibleRequirement": "Pés abandonam o patamar"
+        },
+        {
+          "sceneId": "shot-195-deck",
+          "visibleRequirement": "Ângulo do degrau se acentua"
+        },
+        {
+          "sceneId": "shot-199-deck",
+          "visibleRequirement": "Apoio disponível diminui"
+        },
+        {
+          "sceneId": "shot-282-impact",
+          "visibleRequirement": "Água conecta o dano à perda de flutuação"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "corte_casco_1912:compartments",
+        "corte_casco_1912:flood-path"
+      ]
+    },
+    {
+      "id": "titanic-v2:portas-estanques",
+      "label": "portas-estanques",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-032-flooding"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-032-flooding",
+          "visibleRequirement": "Setor vizinho permanece seco"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:mesa-documental",
+      "label": "mesa-documental",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-034-voyage",
+        "shot-045-voyage",
+        "shot-069-voyage",
+        "shot-078-deck",
+        "shot-090-impact",
+        "shot-297-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-034-voyage",
+          "visibleRequirement": "Elementos ficam simultaneamente legíveis"
+        },
+        {
+          "sceneId": "shot-045-voyage",
+          "visibleRequirement": "Identificação HOJE evita confundir análise e cena histórica"
+        },
+        {
+          "sceneId": "shot-069-voyage",
+          "visibleRequirement": "Bilhete e planta ocupam o mesmo campo"
+        },
+        {
+          "sceneId": "shot-078-deck",
+          "visibleRequirement": "Mão permanece suspensa junto à planta"
+        },
+        {
+          "sceneId": "shot-090-impact",
+          "visibleRequirement": "Déficit já está presente na folha"
+        },
+        {
+          "sceneId": "shot-297-deck",
+          "visibleRequirement": "Luz estabiliza sobre os dois"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:prancha-ilustrativa",
+      "label": "prancha-ilustrativa",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-035-voyage",
+        "shot-066-deck",
+        "shot-067-deck",
+        "shot-068-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-035-voyage",
+          "visibleRequirement": "Camada editorial distingue desenho de futuro comentário"
+        },
+        {
+          "sceneId": "shot-066-deck",
+          "visibleRequirement": "Olhares convergem ao desenho"
+        },
+        {
+          "sceneId": "shot-067-deck",
+          "visibleRequirement": "Aponta a região dianteira na planta"
+        },
+        {
+          "sceneId": "shot-068-deck",
+          "visibleRequirement": "Corte estrutural sobe da planta"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:painel-causal",
+      "label": "painel-causal",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-036-voyage",
+        "shot-048-voyage",
+        "shot-074-deck",
+        "shot-075-deck",
+        "shot-111-deck",
+        "shot-142-icefield",
+        "shot-158-deck",
+        "shot-162-deck",
+        "shot-172-deck",
+        "shot-188-rescue",
+        "shot-269-deck",
+        "shot-281-impact",
+        "shot-285-deck",
+        "shot-286-rescue",
+        "shot-298-impact"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-036-voyage",
+          "visibleRequirement": "Fileiras de lugares terminam antes das pessoas"
+        },
+        {
+          "sceneId": "shot-048-voyage",
+          "visibleRequirement": "Espaço entre aviso e mudança permanece visível"
+        },
+        {
+          "sceneId": "shot-074-deck",
+          "visibleRequirement": "Comparação fica legível"
+        },
+        {
+          "sceneId": "shot-075-deck",
+          "visibleRequirement": "Limite fica atrás do volume inundado"
+        },
+        {
+          "sceneId": "shot-111-deck",
+          "visibleRequirement": "Marcador EXPLICAÇÕES distingue análise posterior"
+        },
+        {
+          "sceneId": "shot-142-icefield",
+          "visibleRequirement": "Rota segura continua ao lado como comparação hipotética"
+        },
+        {
+          "sceneId": "shot-158-deck",
+          "visibleRequirement": "Interrogação surge só no campo sem resposta"
+        },
+        {
+          "sceneId": "shot-162-deck",
+          "visibleRequirement": "Papel continua imóvel"
+        },
+        {
+          "sceneId": "shot-172-deck",
+          "visibleRequirement": "Campo OPERAÇÃO DE AJUDA NAQUELA NOITE permanece sem evento"
+        },
+        {
+          "sceneId": "shot-188-rescue",
+          "visibleRequirement": "Condições permanecem nomeadas"
+        },
+        {
+          "sceneId": "shot-269-deck",
+          "visibleRequirement": "Demais aguardam sem competir"
+        },
+        {
+          "sceneId": "shot-281-impact",
+          "visibleRequirement": "Nenhuma peça vira causa única"
+        },
+        {
+          "sceneId": "shot-285-deck",
+          "visibleRequirement": "Tempo liga os dois sem torná-los simultâneos"
+        },
+        {
+          "sceneId": "shot-286-rescue",
+          "visibleRequirement": "Cada tarefa fica assinalada por consequência"
+        },
+        {
+          "sceneId": "shot-298-impact",
+          "visibleRequirement": "Imagem termina em mãos que alcançaram terra firme do convés"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:relogio-periodo",
+      "label": "relogio-periodo",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-037-voyage",
+        "shot-130-deck",
+        "shot-138-voyage",
+        "shot-242-deck"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-037-voyage",
+          "visibleRequirement": "Passageiro atravessa sem pressa"
+        },
+        {
+          "sceneId": "shot-130-deck",
+          "visibleRequirement": "Relógio destaca a diferença"
+        },
+        {
+          "sceneId": "shot-138-voyage",
+          "visibleRequirement": "Destino permanece separado"
+        },
+        {
+          "sceneId": "shot-242-deck",
+          "visibleRequirement": "Janela mostra claridade inicial"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "mesa_navegacao_1912:chronometer"
+      ]
+    },
+    {
+      "id": "titanic-v2:luminaria-periodo",
+      "label": "luminaria-periodo",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-038-voyage",
+        "shot-080-cabin",
+        "shot-103-deck",
+        "shot-193-rescue"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-038-voyage",
+          "visibleRequirement": "Luz de leitura é apagada"
+        },
+        {
+          "sceneId": "shot-080-cabin",
+          "visibleRequirement": "Um passageiro passa sem reação dramática"
+        },
+        {
+          "sceneId": "shot-103-deck",
+          "visibleRequirement": "O ambiente parece estável"
+        },
+        {
+          "sceneId": "shot-193-rescue",
+          "visibleRequirement": "Ao fundo cabo segue trabalhando"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:lona-bote",
+      "label": "lona-bote",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-039-lifeboat",
+        "shot-096-flooding"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-039-lifeboat",
+          "visibleRequirement": "Lona permanece amarrada e intocada"
+        },
+        {
+          "sceneId": "shot-096-flooding",
+          "visibleRequirement": "Cabos começam a liberar o bote"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:instrumentos-navegacao",
+      "label": "instrumentos-navegacao",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-040-voyage",
+        "shot-046-voyage",
+        "shot-131-deck",
+        "shot-132-icefield",
+        "shot-137-voyage",
+        "shot-266-documents"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-040-voyage",
+          "visibleRequirement": "Mão recolhe régua"
+        },
+        {
+          "sceneId": "shot-046-voyage",
+          "visibleRequirement": "Lápis hesita fora da rota"
+        },
+        {
+          "sceneId": "shot-131-deck",
+          "visibleRequirement": "Percurso não chega ao destino dentro do quadro"
+        },
+        {
+          "sceneId": "shot-132-icefield",
+          "visibleRequirement": "Dedo retorna ao ponto de chamada"
+        },
+        {
+          "sceneId": "shot-137-voyage",
+          "visibleRequirement": "Legenda DEZENAS DE MILHAS fixa a escala aproximada"
+        },
+        {
+          "sceneId": "shot-266-documents",
+          "visibleRequirement": "Atribuições continuam visíveis"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:texto-aviso",
+      "label": "texto-aviso",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-041-icefield",
+        "shot-045-voyage"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-041-icefield",
+          "visibleRequirement": "Dedo para sobre GELO"
+        },
+        {
+          "sceneId": "shot-045-voyage",
+          "visibleRequirement": "Identificação HOJE evita confundir análise e cena histórica"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:circulacao-mensagens",
+      "label": "circulacao-mensagens",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-044-radio",
+        "shot-280-radio"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-044-radio",
+          "visibleRequirement": "Outro papel permanece à mesa"
+        },
+        {
+          "sceneId": "shot-280-radio",
+          "visibleRequirement": "Comando é executado em posto distinto"
+        }
+      ],
+      "priority": "block-01-0-180",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:exposicao-noturna",
+      "label": "exposicao-noturna",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-049-voyage",
+        "shot-051-icefield"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-049-voyage",
+          "visibleRequirement": "Horizonte escurece diante do observador"
+        },
+        {
+          "sceneId": "shot-051-icefield",
+          "visibleRequirement": "Borda irregular interrompe horizonte"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:posto-vigia",
+      "label": "posto-vigia",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-053-impact",
+        "shot-141-rescue",
+        "shot-143-engine"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-053-impact",
+          "visibleRequirement": "Mão alcança aparelho de aviso"
+        },
+        {
+          "sceneId": "shot-141-rescue",
+          "visibleRequirement": "Linha de rumo passa em intervalo entre massas"
+        },
+        {
+          "sceneId": "shot-143-engine",
+          "visibleRequirement": "Cadências se alternam"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:leme-instrumentos",
+      "label": "leme-instrumentos",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-055-deck",
+        "shot-136-documents",
+        "shot-144-deck"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-055-deck",
+          "visibleRequirement": "Massa do navio responde com atraso"
+        },
+        {
+          "sceneId": "shot-136-documents",
+          "visibleRequirement": "Roda inicia o giro"
+        },
+        {
+          "sceneId": "shot-144-deck",
+          "visibleRequirement": "Decisão visual mantém ambos no quadro"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "equipamentos_resgate_1912:wheel"
+      ]
+    },
+    {
+      "id": "titanic-v2:contato-colisao",
+      "label": "contato-colisao",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-056-icefield"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-056-icefield",
+          "visibleRequirement": "Água encobre o trecho atingido"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:relacao-temporal",
+      "label": "relacao-temporal",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-057-deck",
+        "shot-112-deck",
+        "shot-170-rescue",
+        "shot-181-deck",
+        "shot-200-impact",
+        "shot-202-impact",
+        "shot-214-deck",
+        "shot-218-deck",
+        "shot-219-flooding",
+        "shot-287-lifeboat"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-057-deck",
+          "visibleRequirement": "Água começa a ocupar o piso abaixo"
+        },
+        {
+          "sceneId": "shot-112-deck",
+          "visibleRequirement": "Distâncias entre grupos variam"
+        },
+        {
+          "sceneId": "shot-170-rescue",
+          "visibleRequirement": "Não desenhar certeza sobre vidas salvas"
+        },
+        {
+          "sceneId": "shot-181-deck",
+          "visibleRequirement": "Ponteiro só compara ordem, sem hora individual falsa"
+        },
+        {
+          "sceneId": "shot-200-impact",
+          "visibleRequirement": "Mão não consegue recolocar os acontecimentos, sem metáfora literal fantástica"
+        },
+        {
+          "sceneId": "shot-202-impact",
+          "visibleRequirement": "Duração aproximada fica legível"
+        },
+        {
+          "sceneId": "shot-214-deck",
+          "visibleRequirement": "Busca começa em horizonte já alterado"
+        },
+        {
+          "sceneId": "shot-218-deck",
+          "visibleRequirement": "Linha da história fica compacta"
+        },
+        {
+          "sceneId": "shot-219-flooding",
+          "visibleRequirement": "Nenhum número universal de sobrevivência é declarado"
+        },
+        {
+          "sceneId": "shot-287-lifeboat",
+          "visibleRequirement": "Linha encerra em pessoas acolhidas"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:liquido-xicara",
+      "label": "liquido-xicara",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-059-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-059-deck",
+          "visibleRequirement": "A alça toca o pires"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:maquinario-animado",
+      "label": "maquinario-animado",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-060-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-060-deck",
+          "visibleRequirement": "Um passo hesita pela mudança da vibração"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:escada-servico",
+      "label": "escada-servico",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-062-deck",
+        "shot-151-deck",
+        "shot-184-cabin"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-062-deck",
+          "visibleRequirement": "Luz de inspeção alcança nível inferior"
+        },
+        {
+          "sceneId": "shot-151-deck",
+          "visibleRequirement": "Pés abandonam o patamar"
+        },
+        {
+          "sceneId": "shot-184-cabin",
+          "visibleRequirement": "Grupo continua guiado ao nível superior"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:lanterna-periodo",
+      "label": "lanterna-periodo",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-062-deck",
+        "shot-065-deck",
+        "shot-216-deck"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-062-deck",
+          "visibleRequirement": "Luz de inspeção alcança nível inferior"
+        },
+        {
+          "sceneId": "shot-065-deck",
+          "visibleRequirement": "Mão mede visualmente o nível pela parede"
+        },
+        {
+          "sceneId": "shot-216-deck",
+          "visibleRequirement": "Não encenar morte individual"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "equipamentos_resgate_1912:lantern"
+      ]
+    },
+    {
+      "id": "titanic-v2:figura-andrews",
+      "label": "figura-andrews",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-067-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-067-deck",
+          "visibleRequirement": "Aponta a região dianteira na planta"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:casco-inclinavel",
+      "label": "casco-inclinavel",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-072-flooding",
+        "shot-073-flooding",
+        "shot-117-deck",
+        "shot-120-deck",
+        "shot-194-deck",
+        "shot-195-deck",
+        "shot-196-deck",
+        "shot-199-deck",
+        "shot-234-impact"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-072-flooding",
+          "visibleRequirement": "Proa se abaixa em relação ao horizonte"
+        },
+        {
+          "sceneId": "shot-073-flooding",
+          "visibleRequirement": "Água derrama ao setor seguinte"
+        },
+        {
+          "sceneId": "shot-117-deck",
+          "visibleRequirement": "O cenário muda com inclinação leve do piso"
+        },
+        {
+          "sceneId": "shot-120-deck",
+          "visibleRequirement": "Pessoa ajusta base dos pés"
+        },
+        {
+          "sceneId": "shot-194-deck",
+          "visibleRequirement": "Figura alarga a base"
+        },
+        {
+          "sceneId": "shot-195-deck",
+          "visibleRequirement": "Ângulo do degrau se acentua"
+        },
+        {
+          "sceneId": "shot-196-deck",
+          "visibleRequirement": "Fila procura apoio"
+        },
+        {
+          "sceneId": "shot-199-deck",
+          "visibleRequirement": "Apoio disponível diminui"
+        },
+        {
+          "sceneId": "shot-234-impact",
+          "visibleRequirement": "Nova passagem fica legível"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:bomba-hidraulica",
+      "label": "bomba-hidraulica",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-076-deck",
+        "shot-190-lifeboat"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-076-deck",
+          "visibleRequirement": "Nível ainda sobe"
+        },
+        {
+          "sceneId": "shot-190-lifeboat",
+          "visibleRequirement": "Chave transmite"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:tipografia-pergunta",
+      "label": "tipografia-pergunta",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-078-deck",
+        "shot-158-deck",
+        "shot-164-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-078-deck",
+          "visibleRequirement": "Mão permanece suspensa junto à planta"
+        },
+        {
+          "sceneId": "shot-158-deck",
+          "visibleRequirement": "Interrogação surge só no campo sem resposta"
+        },
+        {
+          "sceneId": "shot-164-deck",
+          "visibleRequirement": "Imagem segura sem responder em cena"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:comparacao-regulacao",
+      "label": "comparacao-regulacao",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-092-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-092-deck",
+          "visibleRequirement": "Selo REGRA DA ÉPOCA separa contexto"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:mesa-inquerito",
+      "label": "mesa-inquerito",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-093-deck",
+        "shot-099-lifeboat",
+        "shot-164-deck",
+        "shot-165-deck",
+        "shot-187-lifeboat",
+        "shot-204-deck",
+        "shot-265-deck",
+        "shot-266-documents",
+        "shot-268-documents",
+        "shot-276-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-093-deck",
+          "visibleRequirement": "Mão abre pasta de investigação"
+        },
+        {
+          "sceneId": "shot-099-lifeboat",
+          "visibleRequirement": "Não simular exercício que não houve"
+        },
+        {
+          "sceneId": "shot-164-deck",
+          "visibleRequirement": "Imagem segura sem responder em cena"
+        },
+        {
+          "sceneId": "shot-165-deck",
+          "visibleRequirement": "Documento permanece aberto"
+        },
+        {
+          "sceneId": "shot-187-lifeboat",
+          "visibleRequirement": "Percurso problemático ganha destaque"
+        },
+        {
+          "sceneId": "shot-204-deck",
+          "visibleRequirement": "Não animar uma versão como certeza"
+        },
+        {
+          "sceneId": "shot-265-deck",
+          "visibleRequirement": "Nenhum relato é apagado por conveniência"
+        },
+        {
+          "sceneId": "shot-266-documents",
+          "visibleRequirement": "Atribuições continuam visíveis"
+        },
+        {
+          "sceneId": "shot-268-documents",
+          "visibleRequirement": "Detalhe sem acordo conserva rótulo INCERTO"
+        },
+        {
+          "sceneId": "shot-276-deck",
+          "visibleRequirement": "Data posterior aparece"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:mulher-crianca",
+      "label": "mulher-crianca",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-106-lifeboat",
+        "shot-108-cabin",
+        "shot-179-lifeboat",
+        "shot-184-cabin"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-106-lifeboat",
+          "visibleRequirement": "Grupo entra com apoio"
+        },
+        {
+          "sceneId": "shot-108-cabin",
+          "visibleRequirement": "Outra permanece apoiada na borda"
+        },
+        {
+          "sceneId": "shot-179-lifeboat",
+          "visibleRequirement": "Oficial indica próximo acesso"
+        },
+        {
+          "sceneId": "shot-184-cabin",
+          "visibleRequirement": "Grupo continua guiado ao nível superior"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:estacoes-distintas",
+      "label": "estacoes-distintas",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-107-deck",
+        "shot-119-flooding",
+        "shot-177-lifeboat",
+        "shot-197-lifeboat",
+        "shot-211-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-107-deck",
+          "visibleRequirement": "Montagem compara prática, não moraliza rostos"
+        },
+        {
+          "sceneId": "shot-119-flooding",
+          "visibleRequirement": "Banco anterior permanece longe"
+        },
+        {
+          "sceneId": "shot-177-lifeboat",
+          "visibleRequirement": "Ações coexistem com alvos alternados"
+        },
+        {
+          "sceneId": "shot-197-lifeboat",
+          "visibleRequirement": "Pausa expõe limite material"
+        },
+        {
+          "sceneId": "shot-211-deck",
+          "visibleRequirement": "Decisões não são atribuídas a rostos não identificados"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:dois-operadores",
+      "label": "dois-operadores",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-122-radio"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-122-radio",
+          "visibleRequirement": "Papéis de socorro entram em uso"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:morse-verificado",
+      "label": "morse-verificado",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-124-deck",
+        "shot-155-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-124-deck",
+          "visibleRequirement": "SOS surge ao lado como outro sinal usado"
+        },
+        {
+          "sceneId": "shot-155-deck",
+          "visibleRequirement": "Distância permanece sem resposta explícita"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:tipografia-impacto",
+      "label": "tipografia-impacto",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-124-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-124-deck",
+          "visibleRequirement": "SOS surge ao lado como outro sinal usado"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:texto-socorro",
+      "label": "texto-socorro",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-125-radio",
+        "shot-233-flooding"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-125-radio",
+          "visibleRequirement": "Rota sai do papel"
+        },
+        {
+          "sceneId": "shot-233-flooding",
+          "visibleRequirement": "Papel fica à mão na ponte"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:receptores-distintos",
+      "label": "receptores-distintos",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-126-radio"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-126-radio",
+          "visibleRequirement": "Ponto distante acende no mapa"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:figura-cottam",
+      "label": "figura-cottam",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-134-radio"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-134-radio",
+          "visibleRequirement": "Mão ergue papel à chegada"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:cabine-capitao",
+      "label": "cabine-capitao",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-135-cabin"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-135-cabin",
+          "visibleRequirement": "Papel entra no quadro"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:telegrafo-maquinas",
+      "label": "telegrafo-maquinas",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-139-voyage"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-139-voyage",
+          "visibleRequirement": "Movimento é recebido no posto de máquinas"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "mesa_navegacao_1912:telegraph"
+      ]
+    },
+    {
+      "id": "titanic-v2:fornalha-fx",
+      "label": "fornalha-fx",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-140-engine",
+        "shot-143-engine"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-140-engine",
+          "visibleRequirement": "Portinhola fecha deixando luz pulsante"
+        },
+        {
+          "sceneId": "shot-143-engine",
+          "visibleRequirement": "Cadências se alternam"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:recepcao-resgate",
+      "label": "recepcao-resgate",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-145-rescue",
+        "shot-150-lifeboat",
+        "shot-252-deck",
+        "shot-254-deck",
+        "shot-260-rescue",
+        "shot-264-rescue"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-145-rescue",
+          "visibleRequirement": "Acesso fica pronto e ainda vazio"
+        },
+        {
+          "sceneId": "shot-150-lifeboat",
+          "visibleRequirement": "Mão verifica passagem livre"
+        },
+        {
+          "sceneId": "shot-252-deck",
+          "visibleRequirement": "Xícara quente é oferecida com cuidado"
+        },
+        {
+          "sceneId": "shot-254-deck",
+          "visibleRequirement": "Figura assenta na cadeira"
+        },
+        {
+          "sceneId": "shot-260-rescue",
+          "visibleRequirement": "Janela dá orientação de viagem"
+        },
+        {
+          "sceneId": "shot-264-rescue",
+          "visibleRequirement": "Dois lugares coexistem separados pelo mapa"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:posto-medico",
+      "label": "posto-medico",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-146-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-146-deck",
+          "visibleRequirement": "Equipe distribui materiais"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:cobertores-bebida",
+      "label": "cobertores-bebida",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-147-deck",
+        "shot-252-deck",
+        "shot-254-deck",
+        "shot-296-rescue"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-147-deck",
+          "visibleRequirement": "Mãos separam porções"
+        },
+        {
+          "sceneId": "shot-252-deck",
+          "visibleRequirement": "Xícara quente é oferecida com cuidado"
+        },
+        {
+          "sceneId": "shot-254-deck",
+          "visibleRequirement": "Figura assenta na cadeira"
+        },
+        {
+          "sceneId": "shot-296-rescue",
+          "visibleRequirement": "Cobertor encerra a transferência"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "equipamentos_resgate_1912:blanket",
+        "servico_bordo_1912:xicara"
+      ]
+    },
+    {
+      "id": "titanic-v2:resgate-escada-cesto",
+      "label": "resgate-escada-cesto",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-148-deck",
+        "shot-149-voyage",
+        "shot-150-lifeboat",
+        "shot-244-lifeboat",
+        "shot-246-rescue",
+        "shot-249-deck",
+        "shot-250-lifeboat",
+        "shot-251-voyage",
+        "shot-295-lifeboat",
+        "shot-296-rescue",
+        "shot-298-impact"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-148-deck",
+          "visibleRequirement": "Cesto fica disponível"
+        },
+        {
+          "sceneId": "shot-149-voyage",
+          "visibleRequirement": "Espaço de recepção permanece livre"
+        },
+        {
+          "sceneId": "shot-150-lifeboat",
+          "visibleRequirement": "Mão verifica passagem livre"
+        },
+        {
+          "sceneId": "shot-244-lifeboat",
+          "visibleRequirement": "04h10 APROX. aparece brevemente"
+        },
+        {
+          "sceneId": "shot-246-rescue",
+          "visibleRequirement": "Tripulante recebe peso acima"
+        },
+        {
+          "sceneId": "shot-249-deck",
+          "visibleRequirement": "Tripulante o recebe no alto"
+        },
+        {
+          "sceneId": "shot-250-lifeboat",
+          "visibleRequirement": "Cabo toma carga e eleva com estabilidade"
+        },
+        {
+          "sceneId": "shot-251-voyage",
+          "visibleRequirement": "Cesto passa da borda ao convés"
+        },
+        {
+          "sceneId": "shot-295-lifeboat",
+          "visibleRequirement": "Costado do Carpathia é destino legível"
+        },
+        {
+          "sceneId": "shot-296-rescue",
+          "visibleRequirement": "Cobertor encerra a transferência"
+        },
+        {
+          "sceneId": "shot-298-impact",
+          "visibleRequirement": "Imagem termina em mãos que alcançaram terra firme do convés"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:lampada-sinais",
+      "label": "lampada-sinais",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-152-radio",
+        "shot-153-radio",
+        "shot-155-deck",
+        "shot-241-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-152-radio",
+          "visibleRequirement": "Pausa antes de abrir outro canal de socorro"
+        },
+        {
+          "sceneId": "shot-153-radio",
+          "visibleRequirement": "Atenção passa do som à luz"
+        },
+        {
+          "sceneId": "shot-155-deck",
+          "visibleRequirement": "Distância permanece sem resposta explícita"
+        },
+        {
+          "sceneId": "shot-241-deck",
+          "visibleRequirement": "Proa continua a avançar no fundo"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:foguete-socorro",
+      "label": "foguete-socorro",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-154-signal",
+        "shot-163-radio"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-154-signal",
+          "visibleRequirement": "Clarão branco abre acima da escuridão"
+        },
+        {
+          "sceneId": "shot-163-radio",
+          "visibleRequirement": "Referência de gelo continua parada ao lado do casco"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:luz-horizonte",
+      "label": "luz-horizonte",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-156-signal",
+        "shot-157-deck",
+        "shot-230-signal",
+        "shot-236-deck",
+        "shot-243-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-156-signal",
+          "visibleRequirement": "Olhar procura continuidade do sinal"
+        },
+        {
+          "sceneId": "shot-157-deck",
+          "visibleRequirement": "Sem linha de resposta"
+        },
+        {
+          "sceneId": "shot-230-signal",
+          "visibleRequirement": "Câmera ainda guarda a fonte do sinal"
+        },
+        {
+          "sceneId": "shot-236-deck",
+          "visibleRequirement": "Luz continua numa altura baixa"
+        },
+        {
+          "sceneId": "shot-243-deck",
+          "visibleRequirement": "Pequeno bote surge baixo no quadro"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:mapa-californian",
+      "label": "mapa-californian",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-159-radio",
+        "shot-166-radio",
+        "shot-170-rescue",
+        "shot-173-rescue",
+        "shot-273-radio"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-159-radio",
+          "visibleRequirement": "Rótulo não identifica toda luz como sendo dele"
+        },
+        {
+          "sceneId": "shot-166-radio",
+          "visibleRequirement": "Mapa hipotético fica explicitamente rotulado CONCLUSÃO DO INQUÉRITO"
+        },
+        {
+          "sceneId": "shot-170-rescue",
+          "visibleRequirement": "Não desenhar certeza sobre vidas salvas"
+        },
+        {
+          "sceneId": "shot-173-rescue",
+          "visibleRequirement": "Distâncias são qualitativas e atribuídas"
+        },
+        {
+          "sceneId": "shot-273-radio",
+          "visibleRequirement": "Controvérsia posterior continua atribuída à margem"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:navio-californian",
+      "label": "navio-californian",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-160-icefield",
+        "shot-163-radio"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-160-icefield",
+          "visibleRequirement": "Água só oscila localmente"
+        },
+        {
+          "sceneId": "shot-163-radio",
+          "visibleRequirement": "Referência de gelo continua parada ao lado do casco"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:receptor-californian",
+      "label": "receptor-californian",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-161-radio",
+        "shot-162-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-161-radio",
+          "visibleRequirement": "Cadeira recua e luz de tarefa se reduz"
+        },
+        {
+          "sceneId": "shot-162-deck",
+          "visibleRequirement": "Papel continua imóvel"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:inquerito-1912",
+      "label": "inquerito-1912",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-166-radio",
+        "shot-169-signal"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-166-radio",
+          "visibleRequirement": "Mapa hipotético fica explicitamente rotulado CONCLUSÃO DO INQUÉRITO"
+        },
+        {
+          "sceneId": "shot-169-signal",
+          "visibleRequirement": "Desacordo de distância permanece separado"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:mapa-destrocos",
+      "label": "mapa-destrocos",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-167-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-167-deck",
+          "visibleRequirement": "Diferença exige rever distância"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:inquerito-1992",
+      "label": "inquerito-1992",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-168-documents",
+        "shot-169-signal"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-168-documents",
+          "visibleRequirement": "Folha de revisão é comparada à conclusão anterior"
+        },
+        {
+          "sceneId": "shot-169-signal",
+          "visibleRequirement": "Desacordo de distância permanece separado"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:painel-incerteza",
+      "label": "painel-incerteza",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-171-deck",
+        "shot-204-deck",
+        "shot-206-flooding",
+        "shot-212-deck",
+        "shot-267-deck",
+        "shot-268-documents",
+        "shot-273-radio",
+        "shot-274-deck",
+        "shot-275-deck",
+        "shot-289-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-171-deck",
+          "visibleRequirement": "Nenhum número de resgatados hipotéticos é preenchido"
+        },
+        {
+          "sceneId": "shot-204-deck",
+          "visibleRequirement": "Não animar uma versão como certeza"
+        },
+        {
+          "sceneId": "shot-206-flooding",
+          "visibleRequirement": "Ausência de casco vira o resultado importante"
+        },
+        {
+          "sceneId": "shot-212-deck",
+          "visibleRequirement": "Nenhum replay de remo serve a ambas versões"
+        },
+        {
+          "sceneId": "shot-267-deck",
+          "visibleRequirement": "Conclusão firme ocupa só o que é sustentado"
+        },
+        {
+          "sceneId": "shot-268-documents",
+          "visibleRequirement": "Detalhe sem acordo conserva rótulo INCERTO"
+        },
+        {
+          "sceneId": "shot-273-radio",
+          "visibleRequirement": "Controvérsia posterior continua atribuída à margem"
+        },
+        {
+          "sceneId": "shot-274-deck",
+          "visibleRequirement": "Fatos verificados ficam separados da hipótese"
+        },
+        {
+          "sceneId": "shot-275-deck",
+          "visibleRequirement": "Não inventar ações individuais de mortos"
+        },
+        {
+          "sceneId": "shot-289-deck",
+          "visibleRequirement": "Só a observação sustentada permanece"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:remo-animado",
+      "label": "remo-animado",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-175-deck",
+        "shot-211-deck",
+        "shot-214-deck",
+        "shot-222-lifeboat",
+        "shot-244-lifeboat"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-175-deck",
+          "visibleRequirement": "Distância aumenta com barco, não zoom"
+        },
+        {
+          "sceneId": "shot-211-deck",
+          "visibleRequirement": "Decisões não são atribuídas a rostos não identificados"
+        },
+        {
+          "sceneId": "shot-214-deck",
+          "visibleRequirement": "Busca começa em horizonte já alterado"
+        },
+        {
+          "sceneId": "shot-222-lifeboat",
+          "visibleRequirement": "Mãos são oferecidas ao grupo equilibrado"
+        },
+        {
+          "sceneId": "shot-244-lifeboat",
+          "visibleRequirement": "04h10 APROX. aparece brevemente"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "equipamentos_resgate_1912:oar"
+      ]
+    },
+    {
+      "id": "titanic-v2:grafico-sobrevivencia",
+      "label": "grafico-sobrevivencia",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-183-rescue",
+        "shot-188-rescue"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-183-rescue",
+          "visibleRequirement": "Legenda PROPORÇÕES distingue de contagem absoluta"
+        },
+        {
+          "sceneId": "shot-188-rescue",
+          "visibleRequirement": "Condições permanecem nomeadas"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:dinamo-luzes",
+      "label": "dinamo-luzes",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-190-lifeboat"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-190-lifeboat",
+          "visibleRequirement": "Chave transmite"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:lista-tripulacao",
+      "label": "lista-tripulacao",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-191-rescue",
+        "shot-192-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-191-rescue",
+          "visibleRequirement": "Quadro evita encenar morte individual sem evidência"
+        },
+        {
+          "sceneId": "shot-192-deck",
+          "visibleRequirement": "Sem biografias inventadas"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:naufragio-distante",
+      "label": "naufragio-distante",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-203-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-203-deck",
+          "visibleRequirement": "Borda do bote permanece como referência"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:apoios-flutuantes",
+      "label": "apoios-flutuantes",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-208-deck",
+        "shot-216-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-208-deck",
+          "visibleRequirement": "Outro braço procura estabilidade"
+        },
+        {
+          "sceneId": "shot-216-deck",
+          "visibleRequirement": "Não encenar morte individual"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:carga-estabilidade-bote",
+      "label": "carga-estabilidade-bote",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-209-flooding",
+        "shot-210-lifeboat",
+        "shot-221-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-209-flooding",
+          "visibleRequirement": "Tripulante redistribui peso"
+        },
+        {
+          "sceneId": "shot-210-lifeboat",
+          "visibleRequirement": "Pessoas deslocam peso ao centro"
+        },
+        {
+          "sceneId": "shot-221-deck",
+          "visibleRequirement": "Uma borda cede sob carga"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:busca-lowe",
+      "label": "busca-lowe",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-213-flooding"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-213-flooding",
+          "visibleRequirement": "Outra fica preparada para busca"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:bote-invertido",
+      "label": "bote-invertido",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-221-deck",
+        "shot-222-lifeboat"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-221-deck",
+          "visibleRequirement": "Uma borda cede sob carga"
+        },
+        {
+          "sceneId": "shot-222-lifeboat",
+          "visibleRequirement": "Mãos são oferecidas ao grupo equilibrado"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:figuras-lillian-cecil",
+      "label": "figuras-lillian-cecil",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-223-lifeboat",
+        "shot-224-rescue",
+        "shot-225-deck",
+        "shot-226-deck",
+        "shot-247-deck",
+        "shot-248-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-223-lifeboat",
+          "visibleRequirement": "Mão alcança a borda"
+        },
+        {
+          "sceneId": "shot-224-rescue",
+          "visibleRequirement": "Peso assenta no banco"
+        },
+        {
+          "sceneId": "shot-225-deck",
+          "visibleRequirement": "Mãos permanecem trêmulas sem excesso caricatural"
+        },
+        {
+          "sceneId": "shot-226-deck",
+          "visibleRequirement": "Mão acomoda a borda"
+        },
+        {
+          "sceneId": "shot-247-deck",
+          "visibleRequirement": "Braço de ajuda entra no quadro"
+        },
+        {
+          "sceneId": "shot-248-deck",
+          "visibleRequirement": "Sem afirmar embarque de casal específico em sequência factual exata"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:casaco-articulado",
+      "label": "casaco-articulado",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-226-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-226-deck",
+          "visibleRequirement": "Mão acomoda a borda"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:apito-museu",
+      "label": "apito-museu",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-227-deck",
+        "shot-228-deck",
+        "shot-229-deck"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-227-deck",
+          "visibleRequirement": "Objeto fica estável entre os dedos"
+        },
+        {
+          "sceneId": "shot-228-deck",
+          "visibleRequirement": "Reflexo de vitrine fica discreto"
+        },
+        {
+          "sceneId": "shot-229-deck",
+          "visibleRequirement": "Som permanece breve sem atribuir notas exatas"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "equipamentos_resgate_1912:whistle"
+      ]
+    },
+    {
+      "id": "titanic-v2:vitrine-documental",
+      "label": "vitrine-documental",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-228-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-228-deck",
+          "visibleRequirement": "Reflexo de vitrine fica discreto"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:depoimento-rostron",
+      "label": "depoimento-rostron",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-232-deck",
+        "shot-238-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-232-deck",
+          "visibleRequirement": "Navio ausente não é mostrado como se estivesse ali"
+        },
+        {
+          "sceneId": "shot-238-deck",
+          "visibleRequirement": "Etiqueta INTERPRETAÇÃO DE ROSTRON mantém precisão"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:figura-boxhall",
+      "label": "figura-boxhall",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-237-lifeboat",
+        "shot-239-lifeboat"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-237-lifeboat",
+          "visibleRequirement": "Origem finalmente aparece"
+        },
+        {
+          "sceneId": "shot-239-lifeboat",
+          "visibleRequirement": "Luz alcança rosto e casco próximo"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:sinalizador-manual",
+      "label": "sinalizador-manual",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-237-lifeboat",
+        "shot-239-lifeboat",
+        "shot-288-signal",
+        "shot-290-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-237-lifeboat",
+          "visibleRequirement": "Origem finalmente aparece"
+        },
+        {
+          "sceneId": "shot-239-lifeboat",
+          "visibleRequirement": "Luz alcança rosto e casco próximo"
+        },
+        {
+          "sceneId": "shot-288-signal",
+          "visibleRequirement": "Interrogação entra e sai"
+        },
+        {
+          "sceneId": "shot-290-deck",
+          "visibleRequirement": "Sinal não ofusca rosto ou legenda"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:frota-botes-variada",
+      "label": "frota-botes-variada",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-245-deck",
+        "shot-295-lifeboat"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-245-deck",
+          "visibleRequirement": "Câmera mantém distâncias e diferentes rumos"
+        },
+        {
+          "sceneId": "shot-295-lifeboat",
+          "visibleRequirement": "Costado do Carpathia é destino legível"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:registro-resgatados",
+      "label": "registro-resgatados",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-253-rescue",
+        "shot-257-rescue",
+        "shot-258-deck",
+        "shot-287-lifeboat"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-253-rescue",
+          "visibleRequirement": "Não simular contagem de cada indivíduo"
+        },
+        {
+          "sceneId": "shot-257-rescue",
+          "visibleRequirement": "Outro grupo passa sem resposta"
+        },
+        {
+          "sceneId": "shot-258-deck",
+          "visibleRequirement": "Olhar volta para a passagem"
+        },
+        {
+          "sceneId": "shot-287-lifeboat",
+          "visibleRequirement": "Linha encerra em pessoas acolhidas"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:redacao-jornal",
+      "label": "redacao-jornal",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-261-deck",
+        "shot-262-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-261-deck",
+          "visibleRequirement": "Data editorial situa pós-naufrágio"
+        },
+        {
+          "sceneId": "shot-262-deck",
+          "visibleRequirement": "Navio ainda está distante no percurso"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:manchetes-verificadas",
+      "label": "manchetes-verificadas",
+      "status": "partially-supported-needs-scene-choreography-and-review",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-263-deck"
+      ],
+      "reason": "Há componentes técnicos candidatos, mas ação, texto factual, arranjo e adequação visual exigem construção/revisão em cena. Existência do modelo não fecha o requisito.",
+      "acceptance": [
+        {
+          "sceneId": "shot-263-deck",
+          "visibleRequirement": "Nenhuma cena de reboque é mostrada como realidade"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal.",
+      "candidateComponents": [
+        "equipamentos_resgate_1912:newspaper"
+      ]
+    },
+    {
+      "id": "titanic-v2:posto-informacao",
+      "label": "posto-informacao",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-264-rescue"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-264-rescue",
+          "visibleRequirement": "Dois lugares coexistem separados pelo mapa"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:procedimento-evacuacao",
+      "label": "procedimento-evacuacao",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-278-deck",
+        "shot-283-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-278-deck",
+          "visibleRequirement": "Quadro registra RECOMENDAÇÕES sem inventar exercício filmado"
+        },
+        {
+          "sceneId": "shot-283-deck",
+          "visibleRequirement": "Ferramenta aguarda uso"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    },
+    {
+      "id": "titanic-v2:escala-radio",
+      "label": "escala-radio",
+      "status": "unbuilt-or-unverified",
+      "type": "scene-resource",
+      "sceneIds": [
+        "shot-279-deck"
+      ],
+      "reason": "Necessário para executar a ação autorada; não substituir por plano genérico de casco, convés ou quarto.",
+      "acceptance": [
+        {
+          "sceneId": "shot-279-deck",
+          "visibleRequirement": "Aparelho sozinho deixa de ser o único destaque"
+        }
+      ],
+      "priority": "later-blocks",
+      "scope": "Ilustração visual da afirmação já narrada, sem novo fato ou atribuição pessoal."
+    }
+  ],
+  "approvalPolicy": "Nenhuma aprovação de asset é criada por este backlog.",
+  "sourceSceneCount": 298,
+  "actualApprovedResourcesAdded": 0
+}

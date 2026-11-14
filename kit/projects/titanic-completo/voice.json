@@ -1,0 +1,1323 @@
+{
+  "voice": "pm_santa",
+  "speed": 0.85,
+  "sampleRate": 24000,
+  "duration": 1346.1666666666667,
+  "segments": [
+    {
+      "kind": "narration",
+      "chapter": 0,
+      "text": "Na madrugada em que o Titanic afundou, um capitão viu uma luz verde no meio do oceano e acreditou que ainda havia tempo.",
+      "index": 0,
+      "start": 0,
+      "end": 7.760958,
+      "source": "audio/take-000.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 0,
+      "text": "O navio dele se chamava Carpathia. Corria para atender a um pedido de socorro. Ao redor, havia gelo.",
+      "index": 1,
+      "start": 8.310958,
+      "end": 14.989125,
+      "source": "audio/take-001.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 0,
+      "text": "Mais de duas mil pessoas estavam no Titanic. Os botes não tinham lugar para todas. Mesmo assim, alguns partiram com lugares vazios.",
+      "index": 2,
+      "start": 15.539125,
+      "end": 24.661125,
+      "source": "audio/take-002.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 0,
+      "text": "Por que a ajuda não chegou antes? E de onde vinha aquela luz?",
+      "index": 3,
+      "start": 25.211125,
+      "end": 29.248208,
+      "source": "audio/take-003.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 0,
+      "text": "Esta é a história da noite do Titanic, do choque com o iceberg à chegada do resgate.",
+      "index": 4,
+      "start": 29.998208,
+      "end": 35.637958,
+      "source": "audio/take-004.wav"
+    },
+    {
+      "kind": "chapter",
+      "chapter": 1,
+      "text": "Antes de haver pressa",
+      "start": 36.187958333333334,
+      "end": 40.38795833333334
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "Abril de mil novecentos e doze. O Titanic parte da Inglaterra em sua primeira viagem para Nova York.",
+      "index": 6,
+      "start": 40.387958,
+      "end": 47.365,
+      "source": "audio/take-006.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "A bordo estão pessoas para quem aquela travessia significa coisas muito diferentes. Há passageiros acostumados a cruzar o Atlântico, famílias em viagem e emigrantes que vão começar outra vida.",
+      "index": 7,
+      "start": 47.915,
+      "end": 61.242167,
+      "source": "audio/take-007.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "O destino é o mesmo. A maneira de viajar não é.",
+      "index": 8,
+      "start": 61.792167,
+      "end": 65.195833,
+      "source": "audio/take-008.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "O navio é dividido em classes, com acomodações, espaços e caminhos diferentes. Para alguns, a travessia inclui salões e serviço de luxo. Para outros, o que importa é chegar à América com a família e a bagagem.",
+      "index": 9,
+      "start": 65.745833,
+      "end": 79.495042,
+      "source": "audio/take-009.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "Também há centenas de pessoas trabalhando para que todos possam viajar. Cozinheiros, camareiros, marinheiros, telegrafistas, homens nas máquinas e nas caldeiras. A viagem que um passageiro vê depende de um trabalho que, em grande parte, ele não vê.",
+      "index": 10,
+      "start": 80.045042,
+      "end": 96.0885,
+      "source": "audio/take-010.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "É importante guardar essa diferença. Quando o perigo aparece, ninguém recebe ao mesmo tempo a mesma informação, nem está à mesma distância dos botes.",
+      "index": 11,
+      "start": 96.6385,
+      "end": 106.5835,
+      "source": "audio/take-011.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "O Titanic é grande, moderno e foi construído para resistir a avarias. Tem divisões internas que podem limitar a entrada de água. Tem rádio para falar com estações em terra e outros navios.",
+      "index": 12,
+      "start": 107.1335,
+      "end": 120.227583,
+      "source": "audio/take-012.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "Essas proteções existem. Não são uma invenção posterior para tornar o desastre mais irônico.",
+      "index": 13,
+      "start": 120.777583,
+      "end": 127.010583,
+      "source": "audio/take-013.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "O problema será descobrir o que acontece quando elas não conseguem, juntas, proteger todo mundo.",
+      "index": 14,
+      "start": 127.560583,
+      "end": 133.887583,
+      "source": "audio/take-014.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "Durante a viagem, a vida a bordo segue. Refeições, turnos, mensagens, descanso. O navio inteiro não está pensando numa evacuação. Está atravessando o oceano.",
+      "index": 15,
+      "start": 134.437583,
+      "end": 144.994333,
+      "source": "audio/take-015.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "No domingo, catorze de abril, chegam avisos de gelo.",
+      "index": 16,
+      "start": 145.544333,
+      "end": 149.133375,
+      "source": "audio/take-016.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "São relatos de outras embarcações que passaram pela região. Alguns chegam ao comandante. Outros seguem caminhos diferentes entre a estação de rádio e os responsáveis pela navegação.",
+      "index": 17,
+      "start": 149.683375,
+      "end": 161.851917,
+      "source": "audio/take-017.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "Hoje, esses papéis parecem uma sequência de advertências sobre uma tragédia que já conhecemos. Para quem os recebeu, eram informações sobre uma rota ainda em andamento.",
+      "index": 18,
+      "start": 162.401917,
+      "end": 173.785833,
+      "source": "audio/take-018.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "Isso não tira a responsabilidade de avaliar o risco. Mostra onde a história precisa ser acompanhada: entre receber uma informação e mudar uma decisão por causa dela.",
+      "index": 19,
+      "start": 174.335833,
+      "end": 185.729083,
+      "source": "audio/take-019.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 1,
+      "text": "Ao anoitecer, o Titanic continua avançando. O mar está calmo. Há gelo adiante.",
+      "index": 20,
+      "start": 186.279083,
+      "end": 191.497833,
+      "source": "audio/take-020.wav"
+    },
+    {
+      "kind": "chapter",
+      "chapter": 2,
+      "text": "O choque que não pareceu o fim",
+      "start": 192.0478333333334,
+      "end": 196.64783333333338
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "Por volta das onze e quarenta da noite, os vigias avistam um iceberg à frente. O aviso chega à ponte. Há uma tentativa de desviar.",
+      "index": 22,
+      "start": 196.647833,
+      "end": 205.644417,
+      "source": "audio/take-022.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "O Titanic atinge o gelo.",
+      "index": 23,
+      "start": 206.194417,
+      "end": 208.265083,
+      "source": "audio/take-023.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "O acontecimento que vai dividir a história do navio dura muito menos do que o tempo necessário para compreender suas consequências.",
+      "index": 24,
+      "start": 208.815083,
+      "end": 217.755375,
+      "source": "audio/take-024.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "Para parte das pessoas a bordo, o primeiro sinal é uma vibração, um ruído ou a interrupção da marcha. Os relatos não descrevem uma experiência igual para todos.",
+      "index": 25,
+      "start": 218.305375,
+      "end": 228.9125,
+      "source": "audio/take-025.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "Nas partes mais baixas do navio, porém, começa a aparecer uma evidência que não depende de interpretação: a água está entrando.",
+      "index": 26,
+      "start": 229.4625,
+      "end": 237.840208,
+      "source": "audio/take-026.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "Homens inspecionam os danos. O comandante precisa saber o tamanho do problema. Entre os que avaliam a situação está Thomas Andrews, um dos responsáveis pelo projeto do Titanic, que fazia a viagem a bordo.",
+      "index": 27,
+      "start": 238.390208,
+      "end": 251.651833,
+      "source": "audio/take-027.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "Não se trata de esperar que a água pare depois de um único espaço inundado. A avaria alcançou vários setores da parte da frente.",
+      "index": 28,
+      "start": 252.201833,
+      "end": 260.530292,
+      "source": "audio/take-028.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "À medida que essa região recebe água, a proa afunda mais. A inclinação permite que a inundação avance para lugares que antes estavam protegidos.",
+      "index": 29,
+      "start": 261.080292,
+      "end": 270.61875,
+      "source": "audio/take-029.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "O navio foi preparado para resistir a certas combinações de danos. Aquela ultrapassa seus limites.",
+      "index": 30,
+      "start": 271.16875,
+      "end": 278.060625,
+      "source": "audio/take-030.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "As bombas trabalham, mas não conseguem compensar a entrada do mar. A questão passa a ser quanto tempo o casco ainda vai sustentar as pessoas a bordo.",
+      "index": 31,
+      "start": 278.610625,
+      "end": 288.554917,
+      "source": "audio/take-031.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "Essa mudança de pergunta é decisiva.",
+      "index": 32,
+      "start": 289.104917,
+      "end": 292.03125,
+      "source": "audio/take-032.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "Enquanto os responsáveis pela segurança percebem que o navio vai se perder, muitos passageiros ainda veem luzes acesas, corredores conhecidos e gente trabalhando. A superfície da viagem continua reconhecível.",
+      "index": 33,
+      "start": 292.58125,
+      "end": 306.681458,
+      "source": "audio/take-033.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 2,
+      "text": "A água sobe embaixo. Em cima, ainda é preciso convencer pessoas a abandonar o lugar que parece mais seguro.",
+      "index": 34,
+      "start": 307.231458,
+      "end": 314.615542,
+      "source": "audio/take-034.wav"
+    },
+    {
+      "kind": "chapter",
+      "chapter": 3,
+      "text": "Um lugar num barco",
+      "start": 315.16554166666685,
+      "end": 319.7655416666669
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "O Titanic leva vinte embarcações de salvamento. A capacidade nominal somada é de mil cento e setenta e oito pessoas.",
+      "index": 36,
+      "start": 319.765542,
+      "end": 328.472833,
+      "source": "audio/take-036.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Há cerca de duas mil e duzentas a bordo.",
+      "index": 37,
+      "start": 329.022833,
+      "end": 331.932333,
+      "source": "audio/take-037.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Mesmo que todos os lugares fossem ocupados, faltariam vagas para muita gente.",
+      "index": 38,
+      "start": 332.482333,
+      "end": 337.9405,
+      "source": "audio/take-038.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Essa falta não começou com o choque. Ela já estava no navio quando ele saiu do porto.",
+      "index": 39,
+      "start": 338.4905,
+      "end": 343.95025,
+      "source": "audio/take-039.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "As exigências da época não acompanhavam adequadamente o crescimento daqueles grandes transatlânticos. Depois da tragédia, a relação entre quantidade de pessoas e lugares disponíveis seria uma das questões centrais.",
+      "index": 40,
+      "start": 344.50025,
+      "end": 359.478208,
+      "source": "audio/take-040.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Mas, naquela madrugada, não havia como discutir uma regra e instalar novos botes. Era preciso usar os que existiam.",
+      "index": 41,
+      "start": 360.028208,
+      "end": 367.955125,
+      "source": "audio/take-041.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Cada embarcação precisava ser descoberta, preparada, levada para fora do costado e descida até a água. Pessoas precisavam chegar, entender a ordem e embarcar. Tripulantes precisavam saber onde trabalhar e quem iria conduzi-la.",
+      "index": 42,
+      "start": 368.505125,
+      "end": 383.819167,
+      "source": "audio/take-042.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "O inquérito registraria que não tinha havido treinamento adequado para aquela evacuação. Algumas tarefas começam devagar. Nem todos sabem com clareza o posto que devem ocupar.",
+      "index": 43,
+      "start": 384.369167,
+      "end": 396.16825,
+      "source": "audio/take-043.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Também existe uma dificuldade menos visível.",
+      "index": 44,
+      "start": 396.71825,
+      "end": 400.180583,
+      "source": "audio/take-044.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "De um lado, um navio imenso, iluminado, ainda relativamente estável. Do outro, uma embarcação pequena, suspensa acima de um oceano escuro.",
+      "index": 45,
+      "start": 400.730583,
+      "end": 409.987875,
+      "source": "audio/take-045.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Sair não parece automaticamente a escolha mais segura.",
+      "index": 46,
+      "start": 410.537875,
+      "end": 414.338875,
+      "source": "audio/take-046.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Os oficiais recebem a orientação de dar prioridade a mulheres e crianças, mas a maneira de colocá-la em prática não é idêntica em todos os pontos do convés. Há hesitação, diferenças de julgamento e separações entre familiares.",
+      "index": 47,
+      "start": 414.888875,
+      "end": 430.31425,
+      "source": "audio/take-047.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Alguns botes descem sem atingir sua lotação.",
+      "index": 48,
+      "start": 430.86425,
+      "end": 434.287417,
+      "source": "audio/take-048.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Depois, esses lugares vazios vão se tornar uma das imagens mais difíceis de aceitar. Mas uma explicação única não dá conta de todas as partidas.",
+      "index": 49,
+      "start": 434.837417,
+      "end": 445.486042,
+      "source": "audio/take-049.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Em momentos diferentes, pesam a dificuldade de reunir passageiros, a relutância de alguns em sair, o receio durante o lançamento e a intenção de completar o embarque de outra maneira.",
+      "index": 50,
+      "start": 446.036042,
+      "end": 458.455292,
+      "source": "audio/take-050.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "No papel, um lugar vazio é uma oportunidade evidente. Naquela noite, cada partida acontece com informação incompleta e sob condições que mudam.",
+      "index": 51,
+      "start": 459.005292,
+      "end": 469.157125,
+      "source": "audio/take-051.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "Enquanto um bote se afasta, as pessoas que ficaram precisam aguardar outro. A embarcação que já está na água leva consigo lugares que não estarão disponíveis no lançamento seguinte.",
+      "index": 52,
+      "start": 469.707125,
+      "end": 481.909,
+      "source": "audio/take-052.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 3,
+      "text": "E o Titanic continua baixando pela frente.",
+      "index": 53,
+      "start": 482.459,
+      "end": 485.722375,
+      "source": "audio/take-053.wav"
+    },
+    {
+      "kind": "chapter",
+      "chapter": 4,
+      "text": "Alguém ouviu",
+      "start": 486.27237500000024,
+      "end": 490.87237500000026
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Na estação de rádio, Jack Phillips e Harold Bride trabalham nos pedidos de socorro. O comandante manda chamar os navios ao alcance.",
+      "index": 55,
+      "start": 490.872375,
+      "end": 499.836042,
+      "source": "audio/take-055.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "O Titanic usa os sinais de emergência daquele tempo, entre eles CQD e SOS.",
+      "index": 56,
+      "start": 500.386042,
+      "end": 505.9995,
+      "source": "audio/take-056.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "A mensagem comunica o que aconteceu e informa onde os homens acreditam que o navio está. Outros operadores começam a responder.",
+      "index": 57,
+      "start": 506.5495,
+      "end": 515.398083,
+      "source": "audio/take-057.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Isso faz uma diferença enorme. O Titanic não está completamente isolado do mundo. Pessoas além do horizonte sabem que ele precisa de ajuda.",
+      "index": 58,
+      "start": 515.948083,
+      "end": 525.550333,
+      "source": "audio/take-058.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Só que saber não é chegar.",
+      "index": 59,
+      "start": 526.100333,
+      "end": 528.048917,
+      "source": "audio/take-059.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Algumas embarcações estão longe demais. Outras precisam calcular uma rota, avaliar o gelo ou descobrir de onde veio o chamado.",
+      "index": 60,
+      "start": 528.598917,
+      "end": 537.541292,
+      "source": "audio/take-060.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Uma das respostas vem do Carpathia, que seguia de Nova York para o Mediterrâneo. Seu operador, Harold Cottam, recebe o pedido e leva a informação ao capitão.",
+      "index": 61,
+      "start": 538.091292,
+      "end": 548.266208,
+      "source": "audio/take-061.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Rostron está em sua cabine. Segundo o depoimento que daria depois, assim que é informado, manda mudar de rumo.",
+      "index": 62,
+      "start": 548.816208,
+      "end": 556.051125,
+      "source": "audio/take-062.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "O lugar indicado pelo Titanic fica a dezenas de milhas. Ainda há horas de navegação entre os dois.",
+      "index": 63,
+      "start": 556.601125,
+      "end": 563.37275,
+      "source": "audio/take-063.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Rostron manda fazer a maior velocidade possível. Chama reforço para o trabalho nas caldeiras e aumenta a vigilância.",
+      "index": 64,
+      "start": 563.92275,
+      "end": 571.926417,
+      "source": "audio/take-064.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Os homens do Carpathia estão indo em direção ao mesmo perigo que atingiu o Titanic. Atravessar depressa demais sem enxergar o gelo poderia criar um segundo naufrágio.",
+      "index": 65,
+      "start": 572.476417,
+      "end": 583.873958,
+      "source": "audio/take-065.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Por isso, a corrida combina esforço nas máquinas e atenção redobrada à frente. O capitão tem que ganhar tempo sem perder o próprio navio.",
+      "index": 66,
+      "start": 584.423958,
+      "end": 593.376333,
+      "source": "audio/take-066.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Também começa a preparar a chegada de pessoas que ainda não consegue ver.",
+      "index": 67,
+      "start": 593.926333,
+      "end": 598.824583,
+      "source": "audio/take-067.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Médicos recebem instruções. São separados cobertores e bebidas quentes. A tripulação prepara acessos e meios de trazer para bordo alguém que não consiga subir sozinho.",
+      "index": 68,
+      "start": 599.374583,
+      "end": 610.855583,
+      "source": "audio/take-068.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Não é apenas uma viagem até um ponto no mapa. O Carpathia precisa chegar em condições de recolher feridos, crianças e gente exausta.",
+      "index": 69,
+      "start": 611.405583,
+      "end": 620.88125,
+      "source": "audio/take-069.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 4,
+      "text": "Tudo isso acontece enquanto, no Titanic, o tempo disponível diminui.",
+      "index": 70,
+      "start": 621.43125,
+      "end": 626.25725,
+      "source": "audio/take-070.wav"
+    },
+    {
+      "kind": "chapter",
+      "chapter": 5,
+      "text": "As luzes no horizonte",
+      "start": 626.8072499999996,
+      "end": 631.4072499999996
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "O rádio não é a única maneira de pedir ajuda. Foguetes são lançados do Titanic. Um oficial também tenta comunicar-se por sinais luminosos com uma embarcação avistada ao longe.",
+      "index": 72,
+      "start": 631.40725,
+      "end": 643.667292,
+      "source": "audio/take-072.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "Para quem está num navio afundando, uma luz no horizonte pode significar uma possibilidade de sair dali. Mas enxergar uma luz não diz quem a está vendo do outro lado, nem se o perigo foi compreendido.",
+      "index": 73,
+      "start": 644.217292,
+      "end": 657.509583,
+      "source": "audio/take-073.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "Naquela região está o Californian. Ele havia parado por causa do gelo. Seu único operador de rádio tinha encerrado o trabalho e ido descansar.",
+      "index": 74,
+      "start": 658.059583,
+      "end": 667.695333,
+      "source": "audio/take-074.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "O chamado que outros navios ouviram não foi recebido por ele durante o período decisivo.",
+      "index": 75,
+      "start": 668.245333,
+      "end": 674.2595,
+      "source": "audio/take-075.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "Homens de serviço veem foguetes, mas o Californian não parte em direção aos sinais naquela madrugada.",
+      "index": 76,
+      "start": 674.8095,
+      "end": 681.88975,
+      "source": "audio/take-076.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "O que poderiam ter feito? Essa pergunta não terminou quando o sol nasceu.",
+      "index": 77,
+      "start": 682.43975,
+      "end": 687.20075,
+      "source": "audio/take-077.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "O inquérito britânico de mil novecentos e doze concluiu que o Californian poderia ter alcançado o Titanic se tivesse tentado responder aos primeiros sinais.",
+      "index": 78,
+      "start": 687.75075,
+      "end": 698.312458,
+      "source": "audio/take-078.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "Décadas depois, a descoberta dos destroços e uma revisão das posições levariam a outra avaliação. Em mil novecentos e noventa e dois, a investigação britânica especializada voltou ao caso.",
+      "index": 79,
+      "start": 698.862458,
+      "end": 712.046875,
+      "source": "audio/take-079.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "A revisão manteve a crítica à falta de uma resposta adequada aos foguetes. Mas discutiu a distância entre os navios e considerou que uma tentativa de socorro poderia ter chegado somente depois do naufrágio.",
+      "index": 80,
+      "start": 712.596875,
+      "end": 726.998833,
+      "source": "audio/take-080.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "Não é possível transformar essa controvérsia na certeza de que um único comandante tinha o poder de salvar todo mundo.",
+      "index": 81,
+      "start": 727.548833,
+      "end": 735.326167,
+      "source": "audio/take-081.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "Também não é preciso resolver todos os detalhes para reconhecer o fato central: sinais de perigo foram vistos e não produziram naquela noite uma operação de ajuda.",
+      "index": 82,
+      "start": 735.876167,
+      "end": 746.913875,
+      "source": "audio/take-082.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "Enquanto o Carpathia se aproxima de longe, uma possibilidade mais próxima permanece sem se transformar em resgate.",
+      "index": 83,
+      "start": 747.463875,
+      "end": 755.403333,
+      "source": "audio/take-083.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 5,
+      "text": "Nos botes, ninguém pode enxergar essa discussão. As pessoas têm diante de si o navio de onde acabaram de sair.",
+      "index": 84,
+      "start": 755.953333,
+      "end": 763.864083,
+      "source": "audio/take-084.wav"
+    },
+    {
+      "kind": "chapter",
+      "chapter": 6,
+      "text": "Não houve uma única noite para todos",
+      "start": 764.4140833333323,
+      "end": 769.0140833333323
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "A evacuação acontece em lugares diferentes ao mesmo tempo. A condição de quem está perto de um bote pronto não é a de quem ainda precisa encontrar o caminho até o convés.",
+      "index": 86,
+      "start": 769.014083,
+      "end": 781.028417,
+      "source": "audio/take-086.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "Mulheres e crianças recebem prioridade, mas isso não significa que todas consigam um lugar. A localização da cabine, a hora em que alguém percebe o risco, a informação recebida e a possibilidade de se orientar fazem diferença.",
+      "index": 87,
+      "start": 781.578417,
+      "end": 797.108542,
+      "source": "audio/take-087.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "Na terceira classe, a proporção de sobreviventes será muito menor que nas outras.",
+      "index": 88,
+      "start": 797.658542,
+      "end": 802.97425,
+      "source": "audio/take-088.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "Para uma família longe do convés, perceber o perigo ainda não resolve como chegar até ele. Quem recebe uma orientação mais cedo pode encontrar um bote pronto. Quem chega depois encontra outro estágio da evacuação.",
+      "index": 89,
+      "start": 803.52425,
+      "end": 817.201792,
+      "source": "audio/take-089.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "O próprio inquérito de mil novecentos e doze discutiu as dificuldades de fazer passageiros chegarem aos lugares de embarque. As diferenças de sobrevivência mostram que as pessoas não enfrentaram o perigo nas mesmas condições.",
+      "index": 90,
+      "start": 817.751792,
+      "end": 833.518792,
+      "source": "audio/take-090.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "Também há quem continue trabalhando enquanto outros embarcam. Manter energia, operar bombas, preparar botes e transmitir mensagens são tarefas que ainda sustentam a evacuação.",
+      "index": 91,
+      "start": 834.068792,
+      "end": 845.909708,
+      "source": "audio/take-091.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "Muitas dessas pessoas não sobreviveram para contar o que aconteceu nos seus postos. Seus nomes aparecem entre os mortos, enquanto os sobreviventes descrevem um navio que ainda oferecia luz e condições para a saída.",
+      "index": 92,
+      "start": 846.459708,
+      "end": 860.83975,
+      "source": "audio/take-092.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "No convés, a transformação se torna visível. A inclinação aumenta. Fica mais difícil continuar tratando a saída como uma precaução.",
+      "index": 93,
+      "start": 861.38975,
+      "end": 870.69475,
+      "source": "audio/take-093.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "O que no começo exigia convencer passageiros a entrar num bote passa a exigir administrar uma procura urgente por lugares que já não existem em quantidade suficiente.",
+      "index": 94,
+      "start": 871.24475,
+      "end": 883.145417,
+      "source": "audio/take-094.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "Sair depressa demais pode ser perigoso. Esperar mais também é.",
+      "index": 95,
+      "start": 883.695417,
+      "end": 888.136417,
+      "source": "audio/take-095.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 6,
+      "text": "Não há uma decisão que devolva àquela multidão as horas anteriores ao choque.",
+      "index": 96,
+      "start": 888.686417,
+      "end": 893.526833,
+      "source": "audio/take-096.wav"
+    },
+    {
+      "kind": "chapter",
+      "chapter": 7,
+      "text": "Quando o navio desaparece",
+      "start": 894.0768333333318,
+      "end": 898.6768333333318
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "O Titanic permaneceu na superfície por cerca de duas horas e quarenta minutos depois da colisão.",
+      "index": 98,
+      "start": 898.676833,
+      "end": 905.649208,
+      "source": "audio/take-098.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Por volta das duas e vinte da manhã de quinze de abril, desaparece no Atlântico.",
+      "index": 99,
+      "start": 906.199208,
+      "end": 911.649625,
+      "source": "audio/take-099.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Durante muito tempo, relatos diferentes alimentariam discussões sobre seus instantes finais. A memória de uma pessoa num bote, à noite, não é uma câmera colocada acima do oceano.",
+      "index": 100,
+      "start": 912.199625,
+      "end": 924.026625,
+      "source": "audio/take-100.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Não precisamos determinar o movimento de cada pedaço do casco para compreender o que muda naquele momento.",
+      "index": 101,
+      "start": 924.576625,
+      "end": 931.865833,
+      "source": "audio/take-101.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "O lugar que mantinha milhares de pessoas fora da água deixa de existir.",
+      "index": 102,
+      "start": 932.415833,
+      "end": 937.087292,
+      "source": "audio/take-102.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Quem ainda está a bordo vai para o mar ou tenta encontrar algum apoio. Quem está nos botes passa a encarar outro problema: como ajudar pessoas na água sem perder a embarcação que já carrega sobreviventes.",
+      "index": 103,
+      "start": 937.637292,
+      "end": 950.75875,
+      "source": "audio/take-103.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Há medo de que uma aproximação desordenada faça o bote virar. Há pessoas tentando voltar e outras que hesitam. Não é uma decisão vivida da mesma forma por todas as tripulações.",
+      "index": 104,
+      "start": 951.30875,
+      "end": 963.216292,
+      "source": "audio/take-104.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "O quinto oficial Harold Lowe reúne embarcações e organiza uma tentativa de procurar sobreviventes na água.",
+      "index": 105,
+      "start": 963.766292,
+      "end": 971.449667,
+      "source": "audio/take-105.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Quando essa busca pode ser feita, já se passou tempo. Algumas pessoas são recolhidas. Muitas outras não chegam a receber ajuda.",
+      "index": 106,
+      "start": 971.999667,
+      "end": 980.469375,
+      "source": "audio/take-106.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "O mar está frio demais para permitir uma espera longa.",
+      "index": 107,
+      "start": 981.019375,
+      "end": 984.585708,
+      "source": "audio/take-107.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "O naufrágio aconteceu em poucas horas. Para quem está na água, a margem de tempo é muito menor. Para quem conseguiu permanecer num bote, a noite ainda não acabou.",
+      "index": 108,
+      "start": 985.135708,
+      "end": 995.897042,
+      "source": "audio/take-108.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Há homens equilibrados sobre uma embarcação virada. Eles saíram do Titanic, mas ainda precisam passar para um bote que possa levá-los até o resgate.",
+      "index": 109,
+      "start": 996.447042,
+      "end": 1006.349625,
+      "source": "audio/take-109.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Lillian Bentham, passageira da segunda classe, está no bote doze. Anos depois, contaria que ajudou a puxar para dentro homens que tinham sobrevivido sobre aquela embarcação virada. Um deles era o jovem Cecil Fitzpatrick.",
+      "index": 110,
+      "start": 1006.899625,
+      "end": 1020.917667,
+      "source": "audio/take-110.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Lillian o envolveu com seu casaco. Mais tarde, Cecil lhe deu um apito que tinha usado na esperança de chamar ajuda. O objeto acabou preservado num museu.",
+      "index": 111,
+      "start": 1021.467667,
+      "end": 1031.722875,
+      "source": "audio/take-111.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "Antes de se tornar uma lembrança daquela noite, tinha sido uma maneira de tentar ser encontrado.",
+      "index": 112,
+      "start": 1032.272875,
+      "end": 1038.915875,
+      "source": "audio/take-112.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 7,
+      "text": "É nesse intervalo que uma pequena luz verde aparece diante do Carpathia.",
+      "index": 113,
+      "start": 1039.465875,
+      "end": 1044.476917,
+      "source": "audio/take-113.wav"
+    },
+    {
+      "kind": "chapter",
+      "chapter": 8,
+      "text": "O sinal que mudou de significado",
+      "start": 1045.0269166666646,
+      "end": 1049.6269166666646
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "Rostron contou depois que interpretou aquele sinal como uma indicação de que o Titanic ainda estava na superfície.",
+      "index": 115,
+      "start": 1049.626917,
+      "end": 1057.1125,
+      "source": "audio/take-115.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "Ele tinha recebido notícias de que a água avançava pelo navio. Continuava se aproximando, desviando de icebergs.",
+      "index": 116,
+      "start": 1057.6625,
+      "end": 1065.474042,
+      "source": "audio/take-116.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "O sinal verde oferecia algo que uma mensagem de rádio não podia oferecer: um ponto visível na escuridão.",
+      "index": 117,
+      "start": 1066.024042,
+      "end": 1073.367458,
+      "source": "audio/take-117.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "Mas a luz não vinha da ponte do Titanic. Era um sinal lançado do bote número dois, onde estava o quarto oficial Joseph Boxhall.",
+      "index": 118,
+      "start": 1073.917458,
+      "end": 1082.646458,
+      "source": "audio/take-118.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "Para o homem que se aproximava, ela parecia anunciar um navio ainda esperando por ajuda. Para quem a produzia, era uma tentativa de fazer um bote ser encontrado.",
+      "index": 119,
+      "start": 1083.196458,
+      "end": 1093.927375,
+      "source": "audio/take-119.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "A mesma luz ligava pessoas que ainda não sabiam a situação umas das outras.",
+      "index": 120,
+      "start": 1094.477375,
+      "end": 1099.686375,
+      "source": "audio/take-120.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "Rostron responde com sinais e segue. Perto das quatro da manhã, chega à região indicada.",
+      "index": 121,
+      "start": 1100.236375,
+      "end": 1106.276042,
+      "source": "audio/take-121.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "O Titanic não está ali para recebê-lo.",
+      "index": 122,
+      "start": 1106.826042,
+      "end": 1109.578083,
+      "source": "audio/take-122.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "O primeiro bote é alcançado por volta das quatro e dez. Depois, com a luz do dia, outras embarcações aparecem espalhadas pelo mar.",
+      "index": 123,
+      "start": 1110.128083,
+      "end": 1119.488292,
+      "source": "audio/take-123.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "O resgate passa a acontecer pessoa por pessoa. Para Cecil, Lillian e tantos outros, ainda existe uma última passagem: sair da pequena embarcação e alcançar o navio que pode levá-los embora.",
+      "index": 124,
+      "start": 1120.038292,
+      "end": 1132.790042,
+      "source": "audio/take-124.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "É preciso aproximar os botes, ajudar quem consegue subir e içar quem não tem forças. As instruções dadas durante a travessia agora se tornam trabalho nas bordas do navio, nas enfermarias e nos espaços preparados para receber gente.",
+      "index": 125,
+      "start": 1133.340042,
+      "end": 1149.123208,
+      "source": "audio/take-125.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "O Carpathia recolhe cerca de setecentos sobreviventes ao longo da manhã.",
+      "index": 126,
+      "start": 1149.673208,
+      "end": 1154.741417,
+      "source": "audio/take-126.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "Esse número significa centenas de vidas salvas. Também torna visível o tamanho da ausência.",
+      "index": 127,
+      "start": 1155.291417,
+      "end": 1161.759083,
+      "source": "audio/take-127.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "Havia cerca de duas mil e duzentas pessoas no Titanic.",
+      "index": 128,
+      "start": 1162.309083,
+      "end": 1166.25475,
+      "source": "audio/take-128.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "Para alguém que procura um familiar entre os resgatados, saber que outros foram salvos não responde à pergunta sobre quem falta.",
+      "index": 129,
+      "start": 1166.80475,
+      "end": 1175.145333,
+      "source": "audio/take-129.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 8,
+      "text": "O navio que saiu de Nova York em direção à Europa muda novamente de destino. Leva os sobreviventes de volta a Nova York.",
+      "index": 130,
+      "start": 1175.695333,
+      "end": 1184.324458,
+      "source": "audio/take-130.wav"
+    },
+    {
+      "kind": "chapter",
+      "chapter": 9,
+      "text": "O que voltou do Titanic",
+      "start": 1184.8744583333303,
+      "end": 1189.4744583333302
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "As notícias atravessam o oceano antes das pessoas. Informações incompletas produzem relatos errados, inclusive de que o Titanic estaria sendo rebocado.",
+      "index": 132,
+      "start": 1189.474458,
+      "end": 1200.445417,
+      "source": "audio/take-132.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Enquanto parentes procuram confirmação em terra, o Carpathia transporta quem pode contar o que realmente aconteceu.",
+      "index": 133,
+      "start": 1200.995417,
+      "end": 1209.03475,
+      "source": "audio/take-133.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Os relatos não coincidem em tudo. Horários, distâncias, ordens e movimentos serão discutidos diante de investigadores.",
+      "index": 134,
+      "start": 1209.58475,
+      "end": 1218.011208,
+      "source": "audio/take-134.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Isso não torna a história impossível de conhecer. Exige cruzar testemunhos, distinguir lembrança de medição e reconhecer o que continua incerto.",
+      "index": 135,
+      "start": 1218.561208,
+      "end": 1228.418583,
+      "source": "audio/take-135.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Há perguntas que admitem respostas firmes. Não havia lugares nos botes para todos. Alguns partiram incompletos. O Carpathia respondeu ao socorro. O Californian não prestou a ajuda que os sinais exigiam naquela madrugada.",
+      "index": 136,
+      "start": 1228.968583,
+      "end": 1243.798125,
+      "source": "audio/take-136.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Há outras que não podem ser resolvidas com a mesma precisão: quantas pessoas uma conduta diferente teria salvado, ou a sequência exata dos últimos minutos de quem morreu.",
+      "index": 137,
+      "start": 1244.348125,
+      "end": 1255.932417,
+      "source": "audio/take-137.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Depois do desastre, os inquéritos recomendaram lugares de salvamento para todos, mais treinamento e uma organização melhor para emergências.",
+      "index": 138,
+      "start": 1256.482417,
+      "end": 1266.278083,
+      "source": "audio/take-138.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "As comunicações também passaram por mudanças. Ter um aparelho de rádio não bastava se não houvesse quem escutasse e uma maneira de transformar o chamado em ação.",
+      "index": 139,
+      "start": 1266.828083,
+      "end": 1277.690542,
+      "source": "audio/take-139.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "O Titanic não perdeu tantas vidas por uma única decisão tomada depois do choque. A madrugada reuniu uma avaria grave, preparação insuficiente, falta de lugares, informação desigual e ajuda separada por distância e tempo.",
+      "index": 140,
+      "start": 1278.240542,
+      "end": 1293.23225,
+      "source": "audio/take-140.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Os homens do Carpathia fizeram o que podiam com o tempo que tinham. Chegaram depois que o navio afundou, mas a tempo de salvar quem ainda esperava nos botes.",
+      "index": 141,
+      "start": 1293.78225,
+      "end": 1303.939625,
+      "source": "audio/take-141.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "E aquela luz verde?",
+      "index": 142,
+      "start": 1304.489625,
+      "end": 1306.263958,
+      "source": "audio/take-142.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Ela não provava que o Titanic ainda podia ser salvo. Mostrava que alguém continuava ali.",
+      "index": 143,
+      "start": 1307.013958,
+      "end": 1313.022917,
+      "source": "audio/take-143.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "No começo da viagem, o nome Titanic identificava um navio novo, cheio de pessoas a caminho de outra vida, de outra cidade ou de casa.",
+      "index": 144,
+      "start": 1313.572917,
+      "end": 1322.809125,
+      "source": "audio/take-144.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Naquela manhã, eram seus botes que apareciam ao redor de outro navio.",
+      "index": 145,
+      "start": 1323.359125,
+      "end": 1328.044167,
+      "source": "audio/take-145.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "O resgate que não conseguiu alcançar o Titanic encontrou parte das pessoas que ele levava.",
+      "index": 146,
+      "start": 1328.594167,
+      "end": 1334.803875,
+      "source": "audio/take-146.wav"
+    },
+    {
+      "kind": "narration",
+      "chapter": 9,
+      "text": "Esta foi a noite do Titanic, do choque com o iceberg até a chegada de quem respondeu ao pedido de ajuda.",
+      "index": 147,
+      "start": 1335.353875,
+      "end": 1342.611083,
+      "source": "audio/take-147.wav"
+    }
+  ],
+  "auditoryInspection": "not-verified"
+}

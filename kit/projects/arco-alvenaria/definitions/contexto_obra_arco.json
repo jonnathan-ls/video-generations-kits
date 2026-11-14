@@ -1,0 +1,20 @@
+{
+  "id": "contexto_obra_arco",
+  "module": "contexto-obra-arco.js",
+  "kind": "scene",
+  "label": "Contexto de obra com vão em arco",
+  "category": "cenas de construção",
+  "description": "Parede de alvenaria inacabada com espessura, retornos laterais e abertura arqueada livre. Serve de fundo coerente para montagem, transformações e retirada da cimbra; o piso e as peças estruturais continuam como recursos independentes.",
+  "aliases": [
+    "contexto de obra",
+    "parede com vão em arco",
+    "parede de alvenaria com abertura",
+    "ambiente de construção para arco"
+  ],
+  "variants": [],
+  "baselineIds": [],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:context-wall-scene",
+    "projectId": "arco-alvenaria"
+  }
+}

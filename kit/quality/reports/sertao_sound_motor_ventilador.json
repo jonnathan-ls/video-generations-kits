@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "0df4d4f374ad1219de7a71a2132e6b299927850550fd6cbe2928bef4e3073bc3",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "sound-motor-ventilador",
+      "meshes": 5,
+      "triangles": 60,
+      "dimensions": [
+        0.655,
+        0.48,
+        0.055
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.621Z"
+}

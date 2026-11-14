@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "3ec7e327ed11b9faef317334ae638bad5a9e86d673941ebb341133f1e623290d",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "night",
+      "meshes": 2,
+      "triangles": 44864,
+      "dimensions": [
+        4800,
+        2400,
+        4800
+      ]
+    },
+    {
+      "variant": "day",
+      "meshes": 2,
+      "triangles": 44864,
+      "dimensions": [
+        4800,
+        2400,
+        4800
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "night: recurso abaixo do chão; justificar contato no contrato.",
+    "day: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T20:43:19.061Z"
+}

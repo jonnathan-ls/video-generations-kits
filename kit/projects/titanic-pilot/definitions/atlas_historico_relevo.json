@@ -1,0 +1,20 @@
+{
+  "id": "atlas_historico_relevo",
+  "label": "Atlas histórico em relevo",
+  "kind": "object",
+  "category": "historico_maritimo",
+  "description": "Identidade original: atlas aberto, superfície cartográfica do Atlântico e relevo simplificado. Um percurso contínuo conduz ao lugar e ano do episódio; sem ampulheta, galeria dourada ou sequência de épocas da referência. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "atlas-relief.js",
+  "aliases": [
+    "história",
+    "Atlas histórico em relevo"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:atlas-historico"
+  },
+  "baselineIds": []
+}

@@ -1,0 +1,83 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - link "Rockstar, composições de cena" [ref=f3e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [aria-hidden] [ref=f3e4]: R
+      - generic [ref=f3e5]:
+        - strong [ref=f3e6]: ROCKSTAR
+        - generic [ref=f3e7]: HISTÓRIA · ESTUDO VISUAL
+    - generic [ref=f3e8]: QA DE PRÉVIA CONCLUÍDO · AGUARDA SUA REVISÃO
+  - main [ref=f3e11]:
+    - complementary "Cenas da narrativa" [ref=f3e12]:
+      - generic [ref=f3e13]:
+        - paragraph [ref=f3e14]: ALVO · 20–23 MIN
+        - heading "Storyboard visual" [level=1] [ref=f3e15]
+        - paragraph [ref=f3e16]: 143 tomadas cobrem as frases da narração; 13 capítulos entram nas cenas de abertura. Os 8 s servem só para inspecionar motion.
+      - navigation "Selecionar cena" [ref=f3e17]
+    - region "Prévia tridimensional da cena" [ref=f3e18]:
+      - generic [ref=f3e19]:
+        - generic [ref=f3e20]:
+          - generic [ref=f3e21]: "01"
+          - generic [ref=f3e22]: /
+          - generic [ref=f3e23]: "13"
+          - generic [ref=f3e24]: A escolha que inicia a cadeia
+        - button "Repor câmera" [ref=f3e26] [cursor=pointer]
+      - generic [ref=f3e29]:
+        - generic [ref=f3e30]:
+          - generic "Composição tridimensional original da cena" [ref=f3e31]
+          - generic: COMPOSIÇÃO 3D · LEGENDA PROVISÓRIA
+          - generic: A cidade surge como consequência do primeiro computador.
+        - generic "Controles de movimento" [ref=f3e32]:
+          - button "Reproduzir movimento" [ref=f3e33] [cursor=pointer]
+          - generic [ref=f3e36]: 00:00
+          - slider "Posição do movimento da cena" [ref=f3e37] [cursor=pointer]: "0"
+          - generic [ref=f3e38]: 00:08
+      - generic [ref=f3e39]:
+        - generic [ref=f3e40]:
+          - text: TAKE
+          - generic [ref=f3e42]: "001"
+        - generic [ref=f3e43]: TAKE 001 · P01
+    - complementary "Direção da cena selecionada" [ref=f3e44]:
+      - generic [ref=f3e45]:
+        - paragraph [ref=f3e46]:
+          - generic [ref=f3e47]: TAKE 001
+          - text: TOMADA
+          - generic [ref=f3e49]: "001"
+        - heading "Abertura da narrativa" [level=2] [ref=f3e50]
+        - paragraph [ref=f3e51]
+        - generic [ref=f3e52]:
+          - generic [ref=f3e53]:
+            - generic [ref=f3e54]: "01"
+            - heading "Alvo visual" [level=3] [ref=f3e55]
+          - paragraph
+        - generic [ref=f3e56]:
+          - generic [ref=f3e57]:
+            - generic [ref=f3e58]: "02"
+            - heading "Composição" [level=3] [ref=f3e59]
+          - paragraph
+        - generic [ref=f3e60]:
+          - generic [ref=f3e61]:
+            - generic [ref=f3e62]: "03"
+            - heading "Beat e contexto" [level=3] [ref=f3e63]
+          - paragraph
+        - generic [ref=f3e64]:
+          - generic [ref=f3e65]:
+            - generic [ref=f3e66]: "04"
+            - heading "Motion e pausa" [level=3] [ref=f3e67]
+          - paragraph
+          - generic [ref=f3e68]:
+            - generic [ref=f3e69]: Ⅱ
+            - paragraph
+        - group [ref=f3e70]:
+          - generic "Legenda da frase (texto aprovado; timing depende da voz) −" [ref=f3e71] [cursor=pointer]
+          - blockquote
+        - generic [ref=f3e72]:
+          - generic [aria-hidden] [ref=f3e73]: ◈
+          - generic [ref=f3e74]:
+            - strong [ref=f3e75]: RECURSOS EM ANÁLISE
+            - paragraph
+      - generic [ref=f3e76]:
+        - generic [aria-hidden] [ref=f3e77]: ↗
+        - paragraph [ref=f3e78]: Plano expandido em produção. As janelas de 8 s não definem a duração da edição; legenda palavra a palavra, SRT e permanência de capítulos serão alinhados após a escolha da voz. Lista e assets continuam pendentes de revisão.
+        - link "Revisar lista de recursos" [ref=f3e79] [cursor=pointer]:
+          - /url: /studio/index.html?project=historia-rockstar

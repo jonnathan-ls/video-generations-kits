@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "10dee0e9e80b0f719ead57a12c5c0adcee6ed403793442b6686c77d4ee43225b",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "mala",
+      "meshes": 8,
+      "triangles": 132,
+      "dimensions": [
+        0.6499999761581421,
+        0.5366506335139275,
+        0.25599999709427357
+      ]
+    },
+    {
+      "variant": "bilhete",
+      "meshes": 7,
+      "triangles": 84,
+      "dimensions": [
+        0.4000000059604645,
+        0.005999999967869371,
+        0.28999999165534973
+      ]
+    },
+    {
+      "variant": "carta",
+      "meshes": 7,
+      "triangles": 84,
+      "dimensions": [
+        0.4000000059604645,
+        0.005999999967869371,
+        0.28999999165534973
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "mala: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T03:51:32.948Z"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "status": "not-verified",
+  "scope": "Revisão textual da rota IA local; não há storyboard visual nem clip renderizado da revisão 03.",
+  "artifact": null,
+  "checks": {
+    "beatsAndReferenceOrder": {"status": "pass-inherited", "evidence": "revisions/v03/beats.json; revisions/v02/qa/plan-review.json"},
+    "threeJsOrCodeDrawnVisuals": {"status": "not-applicable", "evidence": "revisions/v03/generation-plan.json"},
+    "localModelAvailability": {"status": "not-verified", "evidence": "kit/integrations/wan2gp/models.lock.json; kit/integrations/wan2gp/runtime/wgp_config.json"},
+    "crochetTexture": {"status": "not-verified", "evidence": null},
+    "motionAndCuts": {"status": "not-verified", "evidence": null},
+    "audioListening": {"status": "not-verified", "evidence": "revisions/v03/sound-design.json"},
+    "gpuBoundary": {"status": "pass", "evidence": "revisions/v03/generation-plan.json"}
+  },
+  "findings": ["O modelo local e seus pesos ainda precisam ser fixados.", "A revisão de textura, movimento e áudio depende do primeiro clip gerado."],
+  "releaseDecision": "not-verified; a única revisão desta etapa é textual",
+  "nextGate": "revisar direção/prompt e confirmar a disponibilidade estática dos modelos; só gerar após a GPU ficar livre"
+}

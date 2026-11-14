@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "8fe707c7aa9e19dda19d62729ede1061240bb5e15816b077304c50eeca8cd17b",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "compartments",
+      "meshes": 88,
+      "triangles": 11000,
+      "dimensions": [
+        7.199999809265137,
+        1.5150000225007534,
+        2.000000001490116
+      ]
+    },
+    {
+      "variant": "flood-path",
+      "meshes": 88,
+      "triangles": 11000,
+      "dimensions": [
+        7.199999809265137,
+        1.5150000225007534,
+        2.000000001490116
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T18:58:32.615Z"
+}

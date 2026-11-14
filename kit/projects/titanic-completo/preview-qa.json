@@ -1,0 +1,134 @@
+{
+  "projectId": "titanic-completo",
+  "scope": "pre-render 3D scene preview; first review block; not final-video QA",
+  "artifact": {
+    "url": "/preview/titanic-completo/previs-bloco-01/index.html",
+    "project": "kit/projects/titanic-completo/production-v3/block-01-preview/project.json",
+    "storyboard": "kit/projects/titanic-completo/storyboard-v3-block-01.json",
+    "durationSeconds": 192.0478333333334,
+    "sceneCount": 52
+  },
+  "reviewedAt": "2026-11-08",
+  "status": "not-verified",
+  "humanDecision": {
+    "channel": "chat",
+    "status": "pending-review",
+    "evidence": "Nenhuma aprovação estética ou de assets foi registrada nesta revisão."
+  },
+  "coverage": {
+    "sceneEntries": "12 cenas críticas amostradas; versão tem 52 cenas",
+    "sceneMidpoints": "amostragem seletiva, não cobertura integral",
+    "revisionsAfterSampling": "últimas alterações de câmera/asset reamostradas nos pontos afetados",
+    "capturedMotion": "seek visual em pontos-chave; não equivale à reprodução contínua de todos os movimentos",
+    "captions": "progressive-word por alinhamento acústico; cortes de cena alinhados ao primeiro onset da frase; posição inferior ajustada",
+    "audio": "66 eventos FX ligados ao áudio local no player; tempos preservados dos cues e deslocados com os cortes; escuta crítica humana não verificada",
+    "finalVideo": "não capturado; prévia aguarda revisão do criador e o render final continua não autorizado"
+  },
+  "referencesConsulted": [
+    {
+      "path": "kit-video-3d/node_modules/three/examples/jsm/objects/Water.js",
+      "principle": "Fresnel/reflexos e leitura de água",
+      "adaptation": "oceano procedural local do kit, sem copiar a cena de demonstração"
+    },
+    {
+      "path": "kit-video-3d/node_modules/three/examples/jsm/objects/Sky.js",
+      "principle": "horizonte e atmosfera",
+      "adaptation": "céu determinístico do asset local de oceano, sem shader/import remoto"
+    },
+    {
+      "path": "node_modules/three/examples/jsm/animation/AnimationClipCreator.js",
+      "principle": "movimento parametrizado por tempo",
+      "adaptation": "amostragem absoluta e seek fora de ordem; sem relógio acumulado"
+    },
+    {
+      "path": "kit/assets/maritime-observation-bridge.js; kit/assets/period-navigation-evidence.js; kit/assets/period-board-actions.js",
+      "principle": "reutilizar assets do kit para convés, mapa, marcador e ação humana",
+      "adaptation": "novas composições no storyboard, sem aprovar novos assets"
+    }
+  ],
+  "findings": [
+    {
+      "id": "titanic-block01-late-table-repeat",
+      "severity": "P1",
+      "status": "resolved-in-preview",
+      "observation": "Os quatro beats finais repetiam mesa/carta com gesto ausente e pouca mudança de enquadramento.",
+      "correction": "A asa aberta preserva convés/água/lua; marcador animado, ação de mão e cortes motivados por documento, rota e plano aberto diferenciam shot-045–048.",
+      "evidence": [
+        ".playwright-mcp/titanic-block01-v13/46-hand.png",
+        ".playwright-mcp/titanic-block01-v13/47-hand.png",
+        ".playwright-mcp/titanic-block01-v13/48-wide.png"
+      ]
+    },
+    {
+      "id": "titanic-block01-caption-bottom",
+      "severity": "P1",
+      "status": "resolved-in-preview",
+      "observation": "A coordenada fixa cortava legendas de duas linhas e as deixava altas.",
+      "correction": "Legenda ancorada por bottom e conferida em t=55, 99.515, 150.7 e 159 s.",
+      "evidence": [
+        ".playwright-mcp/titanic-at-55s-v10.png",
+        ".playwright-mcp/titanic-caption-bottom-v10.png"
+      ]
+    },
+    {
+      "id": "titanic-block01-sound-cues-not-connected",
+      "severity": "P1",
+      "status": "resolved-in-preview",
+      "observation": "Os cues existiam no soundDesign, mas a prévia carregava zero FX.",
+      "correction": "Compilador conecta soundDesign.cues a audio.events; player carrega 66 efeitos locais. Escuta crítica permanece pendente.",
+      "evidence": [
+        "kit/tools/storyboard-compile.mjs",
+        "kit/projects/titanic-completo/production-v3/block-01-preview/project.json"
+      ]
+    },
+    {
+      "id": "titanic-block01-contextual-interiors",
+      "severity": "P1",
+      "status": "resolved-in-preview",
+      "observation": "Sala de máquinas aparecia sobre o mar e cortes de casco/objetos pareciam placas ou objetos sem ambiente.",
+      "correction": "Sala fechada, corredor estanque contínuo, paredes/teto e água contida no compartimento; cortes correspondem às frases.",
+      "evidence": [
+        ".playwright-mcp/final-engine-room-v21.png",
+        ".playwright-mcp/revised-passage-final.png",
+        ".playwright-mcp/revised-overflow-final-v20.png"
+      ]
+    },
+    {
+      "id": "titanic-block01-voice-cut-alignment",
+      "severity": "P1",
+      "status": "resolved-in-preview",
+      "observation": "Cortes antecediam algumas frases entre 0,2 e 0,5 s.",
+      "correction": "Cenas do trecho alinhadas ao primeiro onset de cada frase; cues próximos de cortes deslocados junto à cena.",
+      "evidence": [
+        "kit/projects/titanic-completo/storyboard-v3-block-01.json",
+        "kit/projects/titanic-completo/production-v3/source-project.json"
+      ]
+    },
+    {
+      "id": "titanic-block01-archive-and-ocean-emphasis",
+      "severity": "P1",
+      "status": "resolved-in-preview",
+      "observation": "Insert de arquivo curto/pequeno e tomadas de travessia ou noite sem contexto visual suficiente.",
+      "correction": "Filme de Belfast em quadro maior por 4,5 s sobre o 3D; exterior lateral com céu e mar; noite com lua/reflexo; iceberg destacado.",
+      "evidence": [
+        ".playwright-mcp/revised-film-insert.png",
+        ".playwright-mcp/revised-ocean-crossing.png",
+        ".playwright-mcp/revised-dusk.png",
+        ".playwright-mcp/revised-calm-sea-v19.png",
+        ".playwright-mcp/revised-iceberg-v19.png"
+      ]
+    },
+    {
+      "id": "titanic-block01-full-motion-audio",
+      "severity": "P1",
+      "status": "not-verified",
+      "observation": "Não houve reprodução contínua de todas as 52 cenas nem escuta crítica humana do bloco.",
+      "correction": "66 cues agora carregam no player e as amostras visuais principais foram repetidas; conferir o bloco em reprodução antes de considerar a qualidade de som aprovada.",
+      "evidence": [
+        "kit/projects/titanic-completo/production-v3/block-01-preview/project.json",
+        ".playwright-mcp/page-2026-11-08T12-19-02-449Z.yml"
+      ]
+    }
+  ],
+  "releaseRule": "Prévia navegável para inspeção; revisão do criador e escuta de áudio pendentes. Não declarar aprovação profissional, aprovação de assets ou captura final."
+}

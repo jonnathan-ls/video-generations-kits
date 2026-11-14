@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "2ac0d18b94fd94e6953d8a96b9b80a73bea85b6c2d39262087fd220d860f8773",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "seats",
+      "meshes": 13,
+      "triangles": 2252,
+      "dimensions": [
+        2.799999952316284,
+        1.7679999470710754,
+        9
+      ]
+    },
+    {
+      "variant": "empty-spaces",
+      "meshes": 157,
+      "triangles": 20732,
+      "dimensions": [
+        2.799999952316284,
+        2.1474754987598286,
+        9
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "seats: recurso abaixo do chão; justificar contato no contrato.",
+    "empty-spaces: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T18:58:32.571Z"
+}

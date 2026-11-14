@@ -1,0 +1,5 @@
+{
+  "id":"novo_objeto", "label":"Nome do objeto", "kind":"object", "category":"objetos",
+  "description":"O que representa e o que se move, com limites do modelo.",
+  "module":"novo-objeto.js", "aliases":["nome do objeto","sinonimo"], "variants":["padrao"]
+}

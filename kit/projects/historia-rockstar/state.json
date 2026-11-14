@@ -1,0 +1,126 @@
+{
+  "id": "historia-rockstar",
+  "title": "História da Rockstar Games",
+  "mode": "production",
+  "stage": "asset-plan-awaiting-validation",
+  "label": "Roteiro aprovado; 143 tomadas frase a frase e 13 capítulos passaram pelo QA visual da prévia. A lista de 31 recursos novos, 10 reutilizáveis e as aprovações individuais aguardam revisão.",
+  "decisions": {
+    "selectedNarrative": "A",
+    "name": null,
+    "voice": null
+  },
+  "narrativeDecision": {
+    "channel": "chat",
+    "evidence": "A opção A é a que mais prende e chama para uma narrativa boa.",
+    "scope": "Seleciona o fio condutor Jones/DMA. Não equivale à aprovação da redação revisada."
+  },
+  "approvals": {
+    "narrative": true,
+    "resources": false,
+    "preview": false,
+    "projectPlan": false
+  },
+  "reference": {
+    "videoId": "kLzkFrT_4iI",
+    "url": "https://www.youtube.com/watch?v=kLzkFrT_4iI",
+    "transcript": "research/transcripts/kLzkFrT_4iI.pt-BR-orig.vtt",
+    "transcriptCheck": "research/transcripts/kLzkFrT_4iI.whisper-small.pt-BR.md",
+    "analysis": "research/reports/historia-rockstar-reference.md",
+    "frames": "research/frames/kLzkFrT_4iI"
+  },
+  "narrativeOptions": [
+    "kit/projects/historia-rockstar/narrative-options/A-historia-rockstar.md",
+    "kit/projects/historia-rockstar/narrative-options/B-historia-rockstar.md",
+    "kit/projects/historia-rockstar/narrative-options/C-historia-rockstar.md"
+  ],
+  "workBoundary": "Pesquisa, narrativa e preparação/validação de assets. Sem renderização ou uso de recursos de render durante esta demanda.",
+  "next_action": "Validar a lista dos 41 recursos com as variações propostas; depois, inspecionar e aprovar ou pedir melhorias em cada recurso.",
+  "nextDecision": "Revisar e validar a lista dos 41 recursos na aplicação; essa confirmação libera as revisões individuais.",
+  "sceneCompositionPreview": {
+    "url": "http://127.0.0.1:4173/preview/historia-rockstar/",
+    "page": "kit/projects/historia-rockstar/preview/index.html",
+    "data": "kit/projects/historia-rockstar/preview/scenes.json",
+    "count": 143,
+    "status": "ready-for-creator-review",
+    "note": "143 tomadas frase a frase, 13 capítulos e legenda exata por sentença. QA desktop/motion das 143 tomadas concluído; o card do take 065 foi refinado e rechecado em seis pontos desktop/mobile, incluindo seek fora de ordem. As janelas de 8 s servem para inspeção de motion, não são durações finais. Voz, tempos e SRT pendentes."
+  },
+  "visualMediaResearch": {
+    "file": "research/reports/historia-rockstar-visual-media.md",
+    "status": "five-licensed-photo-candidates-integrated; no-licensed-video-confirmed; individual-review-pending",
+    "licensedCandidates": 5,
+    "licensedVideoCandidates": 0,
+    "scope": "Cinco fotografias distintas: Amiga 500 (takes 001 e 137 como retorno visual), Apple II (009), ZX81 kit (015), placa atual da DMA (030) e retrato público de David Jones, 2003 (065); 0 vídeos públicos com licença de reutilização confirmada."
+  },
+  "sceneCompositionPreflight": {
+    "file": "research/reports/historia-rockstar-composition-preflight.md",
+    "evidence": "research/frames/historia-rockstar-production-preview/",
+    "status": "ready-for-creator-review; all-scene QA complete",
+    "scope": "143 tomadas frase a frase em cinco checkpoints desktop, 715 capturas, 13 cartões de capítulo; seek fora de ordem em todas as cenas sem divergências; revisão mobile representativa em 390 × 844 px."
+  },
+  "previewQA": {
+    "file": "kit/projects/historia-rockstar/preview-qa.json",
+    "status": "ready-for-creator-review",
+    "reason": "QA visual e de motion da prévia concluído para as 143 tomadas; o card do take 065 também passou pelo ciclo de correção e inspeção desktop/mobile. Aprovação humana da prévia, da lista e de cada asset continuam decisões separadas.",
+    "nextAction": "A criadora pode revisar as cenas no link de prévia e então abrir a lista dos 41 recursos para validação."
+  },
+  "updatedAt": "2026-11-09",
+  "durationTarget": "20–23 min; A revisada: 2.328 palavras, cerca de 20,2–21,2 min a 110–115 palavras/min; confirmar depois da escolha da voz e leitura.",
+  "endingPerspective": "Atemporal; sem data de lançamento, status de disponibilidade ou contagem regressiva de GTA VI.",
+  "narrativeApproval": {
+    "channel": "chat",
+    "evidence": "validada",
+    "scope": "Aprovação da redação revisada integral da Opção A para uso como narração.",
+    "revision": "03e64ea507bce06e2437b99ae8cba410e273ab45e0f40945746aa57385fb0405",
+    "approvedAt": "2026-11-08"
+  },
+  "lexicalAnalysis": {
+    "file": "kit/projects/historia-rockstar/lexical.json",
+    "tokens": 2344,
+    "windows1to3": 6142,
+    "literalMatches": 10,
+    "contextualFalsePositives": 10
+  },
+  "semanticReview": {
+    "file": "kit/projects/historia-rockstar/asset-plan.json",
+    "sentences": 143,
+    "requirements": 28,
+    "reuseCandidates": 10,
+    "projectPlanValidated": false
+  },
+  "productionStoryboard": {
+    "file": "kit/projects/historia-rockstar/production-v1/storyboard-scenes.json",
+    "captions": "kit/projects/historia-rockstar/production-v1/captions-draft.json",
+    "status": "ready-for-creator-review; project-plan-validation-pending",
+    "shots": 143,
+    "chapterCards": 13,
+    "assets": {
+      "newRequirements": 31,
+      "reuseCandidates": 10,
+      "planValidation": "pending",
+      "individualApproval": "pending"
+    },
+    "captionsStatus": "Legenda exata por sentença na prévia; tokens por palavra preparados, alinhamento acústico e .srt pendentes da escolha/gravação da voz."
+  },
+  "assetProduction": {
+    "planResources": 41,
+    "newCandidates": 31,
+    "reusableCandidates": 10,
+    "selectedVariantProposals": 17,
+    "projectPlanValidated": false,
+    "customModuleQualityReports": {
+      "current": 30,
+      "total": 30
+    },
+    "soundCandidate": "Foley DSP local disponível; escuta e aprovação humanas pendentes.",
+    "reuseReviewSnapshot": {
+      "approved": 1,
+      "pending": 9
+    },
+    "individualHumanReviewsPending": true,
+    "publicMedia": {
+      "licensedPhotoCandidatesIntegrated": 5,
+      "licensedVideoCandidatesConfirmed": 0
+    },
+    "note": "As variações foram propostas para revisão. Nenhuma aprovação foi criada. A lista permanece vinculada à revisão humana do plano."
+  }
+}

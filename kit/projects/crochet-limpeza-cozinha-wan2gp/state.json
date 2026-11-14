@@ -1,0 +1,65 @@
+{
+  "id": "crochet-limpeza-cozinha-wan2gp",
+  "title": "Cozinha de crochê: dia de limpeza (Wan2GP)",
+  "mode": "wan2gp-local-ai-video",
+  "pipeline": "wan2gp-ai-video",
+  "stage": "revision-05-local-ai-anchor-and-i2v-proof",
+  "label": "Produção visual IA local Wan2GP: âncora gerada por IA local e clipe-prova Fun InP I2V; sem cenas em código e sem aprovação de assets 3D.",
+  "decisions": {
+    "narrative": "não aplicável: montagem de ações sem fala",
+    "voice": "sem narração",
+    "soundtrack": "original a produzir depois"
+  },
+  "approvals": {
+    "narrative": "not-applicable",
+    "resourcePlan": "cancelled-by-creator-direction",
+    "assets": "not-applicable-to-3d-catalog",
+    "preview": "not-created"
+  },
+  "referenceFrames": {
+    "fps": 10,
+    "count": 294,
+    "usedAsModelInput": false
+  },
+  "model": "Revisão 05: Nexus T2V local gera uma âncora simplificada; Fun InP 1.3B local anima uma ação usando essa âncora. Os dois checkpoints têm hash fixado em revisions/v05/generation-plan.json.",
+  "nextAction": "Gerar a âncora por IA local, selecionar um frame apropriado, animá-lo pelo Fun InP I2V e revisar o MP4 real. Expandir para os demais beats somente se trama, contato e movimento passarem no QA profissional.",
+  "humanApproved": false,
+  "planReview": {
+    "channel": "chat",
+    "fingerprint": "681e37705ec5000550d1864f210f90f99bf4f30c3e73ebac45705fb7fa982a5e",
+    "reviewedAt": "2026-11-09T10:53:23.657Z"
+  },
+  "revision02": {
+    "path": "revisions/v02",
+    "status": "superseded-by-creator-direction-before-render",
+    "planReview": "pending",
+    "guideBuilt": false,
+    "gpuUsed": false,
+    "rendered": false
+  },
+  "revision03": {
+    "path": "revisions/v03",
+    "status": "superseded-by-revision-04-proof",
+    "generationStarted": false,
+    "gpuUsed": false,
+    "rendered": false,
+    "resourceListApproval": "not-applicable"
+  },
+  "revision04": {
+    "path": "revisions/v04",
+    "status": "rejected-after-two-t2v-attempts",
+    "generationStarted": true,
+    "gpuUsed": true,
+    "finalAssemblyRendered": false,
+    "resourceListApproval": "not-applicable"
+  },
+  "revision05": {
+    "path": "revisions/v05",
+    "status": "anchor-iteration-04-in-progress; attempts-01-to-03-rejected",
+    "generationStarted": true,
+    "gpuUsed": true,
+    "finalAssemblyRendered": false,
+    "resourceListApproval": "not-applicable",
+    "humanApproved": false
+  }
+}

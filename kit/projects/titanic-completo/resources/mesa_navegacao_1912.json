@@ -1,0 +1,22 @@
+{
+  "id": "mesa_navegacao_1912",
+  "label": "Mesa de navegação e instrumentos de 1912",
+  "module": "period-navigation-evidence.js",
+  "kind": "object",
+  "category": "evidencia historica",
+  "description": "Carta esquemática em mesa de madeira com rota pontilhada para Nova York, régua de latão, compasso, telégrafo de máquina e cronômetro; peças físicas nomeadas e móveis, metais e papel texturizados. Rota ilustrativa, não cartas históricas copiadas.",
+  "variants": [
+    "route-chart",
+    "telegraph",
+    "chronometer"
+  ],
+  "aliases": [
+    "Mesa de navegação e instrumentos de 1912",
+    "O Titanic parte da Inglaterra em sua primeira viagem para Nova York."
+  ],
+  "baselineIds": [],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:navigation-evidence"
+  }
+}

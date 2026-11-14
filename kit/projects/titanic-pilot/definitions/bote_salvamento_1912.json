@@ -1,0 +1,21 @@
+{
+  "id": "bote_salvamento_1912",
+  "label": "Bote de salvamento de 1912",
+  "kind": "object",
+  "category": "historico_maritimo",
+  "description": "Casco aberto, bancos legíveis e lugares desocupados visíveis sem números inventados. Variante com passageiros sentados; superfície da água toca o casco. Revisar formato histórico e escala em relação aos passageiros. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "period-lifeboat.js",
+  "aliases": [
+    "botes",
+    "Bote de salvamento de 1912"
+  ],
+  "variants": [
+    "occupied",
+    "empty"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:bote-1912"
+  },
+  "baselineIds": []
+}

@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 1,
+  "id": "titanic-pilot",
+  "title": "Titanic — revisão interna R5",
+  "format": "landscape-longform",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 19.6,
+  "assetPlan": {
+    "reviewed": false,
+    "unresolved": [
+      "Recursos aguardam revisão visual em cena, conforme pedido do criador."
+    ]
+  },
+  "voice": {
+    "id": "pm_santa",
+    "approved": true,
+    "source": "audio/preview-voice.wav"
+  },
+  "audio": {
+    "voice": "../audio/qa-hook-voice.wav",
+    "events": [
+      {
+        "time": 0,
+        "duration": 19.6,
+        "volume": 0.18,
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "anchor": "Atlântico",
+        "cause": "Ambiente discreto, mar calmo; não pontuação de cortes."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "attention",
+      "start": 0,
+      "duration": 2.6,
+      "label": "Atenção no horizonte",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "5ead445c474ba5dc"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "d01723f7d26ee713",
+          "params": {
+            "keyPosition": [
+              4,
+              6,
+              6
+            ],
+            "fill": 0.55,
+            "key": 0.9
+          }
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "836097865cc720ee",
+          "instanceId": "observer",
+          "position": [
+            -0.5,
+            0,
+            1.38
+          ]
+        },
+        {
+          "id": "orientacao_observador",
+          "variant": "padrao",
+          "revision": "7570e3598c564d0a",
+          "target": "observer",
+          "params": {
+            "fromYaw": -0.25,
+            "turn": 0.5,
+            "start": 0.4,
+            "duration": 1.7
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1.3,
+          1.7,
+          3.2
+        ],
+        "to": [
+          1.23,
+          1.7,
+          3.12
+        ],
+        "target": [
+          -0.48,
+          1.37,
+          1.38
+        ]
+      },
+      "explanation": "Observador e parapeito estabelecem ponto de vista humano. Um sinal aparece no horizonte e orienta uma pequena mudança de postura. Atuação ilustrativa, sem atribuir gesto histórico documentado.",
+      "action": "Apresentar rosto e intenção do observador antes de revelar o que ele vê. Reconstrução visual ilustrativa."
+    },
+    {
+      "id": "discovery",
+      "start": 2.6,
+      "duration": 2.15,
+      "label": "A descoberta",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "5ead445c474ba5dc"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "d01723f7d26ee713"
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "836097865cc720ee",
+          "position": [
+            -0.5,
+            0,
+            0.2
+          ],
+          "rotation": 15
+        },
+        {
+          "id": "sinalizador_verde",
+          "variant": "padrao",
+          "revision": "8bef8a5df78a7f9f",
+          "position": [
+            12,
+            4,
+            55
+          ],
+          "scale": 1.5,
+          "timeOffset": 1
+        }
+      ],
+      "camera": {
+        "from": [
+          1.15,
+          1.9,
+          -1.4
+        ],
+        "to": [
+          1.2,
+          1.9,
+          -1.35
+        ],
+        "target": [
+          12,
+          4,
+          55
+        ]
+      },
+      "explanation": "Aproximar do eixo de observação sem mostrar emissor. Sinal luminoso tem surgimento e dissipação legíveis; não é uma luz de navegação piscante.",
+      "action": "Aproximar do eixo de observação sem mostrar emissor. Sinal luminoso tem surgimento e dissipação legíveis; não é uma luz de navegação piscante."
+    },
+    {
+      "id": "reaction",
+      "start": 4.75,
+      "duration": 3.661,
+      "label": "A esperança de chegar",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "5ead445c474ba5dc"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "d01723f7d26ee713",
+          "params": {
+            "keyPosition": [
+              4,
+              6,
+              6
+            ],
+            "fill": 0.55,
+            "key": 0.9
+          }
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "836097865cc720ee",
+          "instanceId": "observer",
+          "position": [
+            -0.5,
+            0,
+            1.38
+          ],
+          "timeOffset": 4.75
+        },
+        {
+          "id": "orientacao_observador",
+          "variant": "padrao",
+          "revision": "7570e3598c564d0a",
+          "target": "observer",
+          "params": {
+            "fromYaw": -0.25,
+            "turn": 0.5,
+            "start": 0.4,
+            "duration": 1.7
+          },
+          "timeOffset": 4.75
+        }
+      ],
+      "camera": {
+        "from": [
+          0.55,
+          1.72,
+          2.9
+        ],
+        "to": [
+          0.5,
+          1.72,
+          2.83
+        ],
+        "target": [
+          -0.47,
+          1.51,
+          1.38
+        ]
+      },
+      "explanation": "Observador e parapeito estabelecem ponto de vista humano. Um sinal aparece no horizonte e orienta uma pequena mudança de postura. Atuação ilustrativa, sem atribuir gesto histórico documentado.",
+      "action": "Voltar ao observador e à reação contida; o sinal muda a expectativa de quem tenta chegar."
+    },
+    {
+      "id": "carpathia-route",
+      "start": 8.411,
+      "duration": 3.189,
+      "label": "Carpathia: correr para o socorro",
+      "explanation": "O Carpathia avança numa rota com gelo. A mudança de posição é ilustrativa; sem velocidade histórica afirmada.",
+      "action": "O Carpathia avança numa rota com gelo. A mudança de posição é ilustrativa; sem velocidade histórica afirmada.",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "5ead445c474ba5dc"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "d01723f7d26ee713",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "navio_carpathia",
+          "variant": "carpathia",
+          "revision": "3ee534dcef87ff25",
+          "instanceId": "carpathia"
+        },
+        {
+          "id": "gelo_maritimo",
+          "variant": "field",
+          "revision": "32339d68dbefcce2"
+        },
+        {
+          "id": "aproximacao_resgate",
+          "variant": "padrao",
+          "revision": "e9f56d142561eaa4",
+          "target": "carpathia",
+          "params": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "delta": [
+              -10,
+              0,
+              18
+            ],
+            "duration": 7.328
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          120,
+          42,
+          140
+        ],
+        "to": [
+          112,
+          38,
+          133
+        ],
+        "target": [
+          0,
+          10,
+          0
+        ]
+      }
+    },
+    {
+      "id": "carpathia-ice",
+      "start": 11.6,
+      "duration": 4.139,
+      "label": "Gelo no caminho do resgate",
+      "explanation": "O Carpathia avança numa rota com gelo. A mudança de posição é ilustrativa; sem velocidade histórica afirmada.",
+      "action": "Proa e gelo no mesmo quadro tornam legível a dificuldade da aproximação. Trajetória ilustrativa, não reconstrução de uma manobra exata.",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "5ead445c474ba5dc"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "d01723f7d26ee713",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "navio_carpathia",
+          "variant": "carpathia",
+          "revision": "3ee534dcef87ff25",
+          "instanceId": "carpathia"
+        },
+        {
+          "id": "gelo_maritimo",
+          "variant": "field",
+          "revision": "32339d68dbefcce2"
+        },
+        {
+          "id": "aproximacao_resgate",
+          "variant": "padrao",
+          "revision": "e9f56d142561eaa4",
+          "target": "carpathia",
+          "params": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "delta": [
+              -10,
+              0,
+              18
+            ],
+            "duration": 7.328
+          },
+          "timeOffset": 3.189
+        },
+        {
+          "id": "gelo_maritimo",
+          "variant": "iceberg",
+          "revision": "32339d68dbefcce2",
+          "position": [
+            35,
+            0,
+            108
+          ],
+          "scale": 0.33
+        }
+      ],
+      "camera": {
+        "from": [
+          72,
+          10,
+          124
+        ],
+        "to": [
+          66,
+          9,
+          116
+        ],
+        "target": [
+          0,
+          8,
+          67
+        ]
+      }
+    },
+    {
+      "id": "titanic",
+      "start": 15.739,
+      "duration": 3.861,
+      "label": "Titanic: mais de duas mil pessoas",
+      "explanation": "Identificar claramente o Titanic e recuperar escala antes de aproximar do bote.",
+      "action": "Identificar claramente o Titanic e recuperar escala antes de aproximar do bote.",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "5ead445c474ba5dc"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "d01723f7d26ee713",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "9ce98446d4d46295"
+        },
+        {
+          "id": "gelo_maritimo",
+          "variant": "field",
+          "revision": "32339d68dbefcce2",
+          "position": [
+            120,
+            0,
+            180
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          185,
+          58,
+          190
+        ],
+        "to": [
+          177,
+          53,
+          180
+        ],
+        "target": [
+          0,
+          13,
+          0
+        ]
+      }
+    }
+  ],
+  "captions": [],
+  "qaSources": [
+    "decorate-preview.mjs"
+  ]
+}

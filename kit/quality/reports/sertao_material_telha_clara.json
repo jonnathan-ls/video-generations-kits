@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "d56c1cf3a9ac9864d337ff36c86890d529e426f75d06a0e1534d5c38513ba77a",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "material-telha-clara",
+      "meshes": 125,
+      "triangles": 42052,
+      "dimensions": [
+        5.491368510354528,
+        1.6499999976158142,
+        4.475000001192093
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.535Z"
+}

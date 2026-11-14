@@ -1,0 +1,109 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - link "Kit de vídeo, casa do Sertão" [ref=f4e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f4e4]: OC
+      - generic [ref=f4e5]:
+        - strong [ref=f4e6]: Obra em corte
+        - generic [ref=f4e7]: Revisão de cenas · 3D
+    - generic [ref=f4e8]: Aguardando sua revisão
+  - main [ref=f4e11]:
+    - region "Prévia das cenas" [ref=f4e12]:
+      - generic [ref=f4e13]:
+        - generic [ref=f4e14]:
+          - generic [ref=f4e15]: CENA 01 / 13
+          - generic [ref=f4e16]: ESTUDO DE CENA · SEM VOZ FINAL
+        - generic "Cena 3D vertical" [ref=f4e17]:
+          - generic "Casa em corte 3D animada" [ref=f4e18]
+          - generic:
+            - text: O SINTOMA
+            - heading "O teto ainda irradia" [level=1]
+          - generic [ref=f4e19]:
+            - generic [ref=f4e20]: Push-in curto no rosto; inclinação do olhar deixa a laje no alto do quadro.
+            - generic [ref=f4e21]: MOTOR · 0.8s
+          - button "INSPECIONAR" [ref=f4e22] [cursor=pointer]
+        - generic [ref=f4e23]:
+          - button "Cena anterior" [ref=f4e24] [cursor=pointer]: ‹
+          - button "Reproduzir cena" [ref=f4e25] [cursor=pointer]: ▶
+          - button "Próxima cena" [ref=f4e26] [cursor=pointer]: ›
+          - generic [ref=f4e27]:
+            - generic [ref=f4e28]:
+              - generic [ref=f4e29]: 00:00 / 00:05
+              - generic [ref=f4e30]: tempo de revisão
+            - slider "Tempo da cena" [ref=f4e31] [cursor=pointer]: "0"
+          - button "Ouvir efeitos deste beat" [ref=f4e32] [cursor=pointer]: ♪ FX
+        - generic [ref=f4e33]:
+          - generic [ref=f4e34]: i
+          - generic [ref=f4e35]: Os cinco segundos são só para revisar o movimento. A duração final será definida depois da escolha da voz.
+        - navigation "Escolher cena pela prévia visual" [ref=f4e36]:
+          - 'button "Abrir cena 1: O teto ainda irradia" [ref=f4e37] [cursor=pointer]':
+            - generic [ref=f4e38]: "01"
+          - 'button "Abrir cena 2: Da telha à laje" [ref=f4e39] [cursor=pointer]':
+            - generic [ref=f4e40]: "02"
+          - 'button "Abrir cena 3: O ventilador não esfria a laje" [ref=f4e41] [cursor=pointer]':
+            - generic [ref=f4e42]: "03"
+          - 'button "Abrir cena 4: Telha clara, ático fechado" [ref=f4e43] [cursor=pointer]':
+            - generic [ref=f4e44]: "04"
+          - 'button "Abrir cena 5: Só a cumeeira não cria caminho" [ref=f4e45] [cursor=pointer]':
+            - generic [ref=f4e46]: "05"
+          - 'button "Abrir cena 6: Entrada baixa, saída alta" [ref=f4e47] [cursor=pointer]':
+            - generic [ref=f4e48]: "06"
+          - 'button "Abrir cena 7: Ventilar não interrompe radiação" [ref=f4e49] [cursor=pointer]':
+            - generic [ref=f4e50]: "07"
+          - 'button "Abrir cena 8: A face refletiva olha para o vão" [ref=f4e51] [cursor=pointer]':
+            - generic [ref=f4e52]: "08"
+          - 'button "Abrir cena 9: Camada contínua, sem atalho" [ref=f4e53] [cursor=pointer]':
+            - generic [ref=f4e54]: "09"
+          - 'button "Abrir cena 10: A laje muda devagar" [ref=f4e55] [cursor=pointer]':
+            - generic [ref=f4e56]: "10"
+          - 'button "Abrir cena 11: Abre quando lá fora está mais fresco" [ref=f4e57] [cursor=pointer]':
+            - generic [ref=f4e58]: "11"
+          - 'button "Abrir cena 12: Fecha quando o sol bate" [ref=f4e59] [cursor=pointer]':
+            - generic [ref=f4e60]: "12"
+          - 'button "Abrir cena 13: O ventilador sai do turno dobrado" [ref=f4e61] [cursor=pointer]':
+            - generic [ref=f4e62]: "13"
+    - complementary "Decisão da cena selecionada" [ref=f4e63]:
+      - generic [ref=f4e64]:
+        - generic [ref=f4e65]:
+          - generic [ref=f4e66]:
+            - text: CENA SELECIONADA
+            - heading "O teto ainda irradia" [level=2] [ref=f4e67]
+          - generic [ref=f4e68]: PENDENTE
+        - generic [ref=f4e69]:
+          - text: FALA APROVADA
+          - paragraph [ref=f4e70]: De noite, o quarto continua abafado. O sol já foi embora; então por que o calor ainda vem do teto?
+        - generic [ref=f4e71]:
+          - generic [ref=f4e72]: ◉
+          - generic [ref=f4e73]:
+            - text: O QUE VOCÊ ESTÁ VENDO
+            - paragraph [ref=f4e74]: Noite azul; a laje mantém um brilho âmbar discreto que alcança o quarto. A pessoa olha para cima; um tilting reveal expõe a cobertura em corte.
+        - generic [ref=f4e75]:
+          - generic [ref=f4e76]: ↗
+          - generic [ref=f4e77]:
+            - text: ALVO DE ATENÇÃO
+            - paragraph [ref=f4e78]: faixa de calor junto à laje, acima da pessoa deitada
+        - generic [ref=f4e79]:
+          - button "Aprovar esta cena" [ref=f4e80] [cursor=pointer]
+          - button "Pedir ajuste" [ref=f4e81] [cursor=pointer]
+        - paragraph [ref=f4e82]
+      - generic [ref=f4e83]:
+        - text: POR QUE ESTA CENA VEM AGORA
+        - paragraph [ref=f4e84]: O quarto aparece primeiro como sintoma. Esta abertura planta a pergunta que a próxima cena começa a responder.
+        - generic [ref=f4e87]:
+          - generic [ref=f4e88]: A pergunta
+          - generic [ref=f4e89]: →
+          - generic [ref=f4e90]: Da telha à laje
+      - generic [ref=f4e91]:
+        - generic [ref=f4e92]:
+          - generic [ref=f4e93]: ♫
+          - generic [ref=f4e94]:
+            - text: ENCONTRO DE FX COM A AÇÃO
+            - heading "Motor leve · quarto noturno" [level=3] [ref=f4e95]
+        - paragraph [ref=f4e96]: ambiente noturno quase silencioso; grave quente sutil ao revelar a faixa na laje; sem vento ainda
+        - paragraph [ref=f4e111]: Efeitos sintetizados localmente. A revisão auditiva e a mixagem com a voz continuam pendentes.
+      - generic [ref=f4e112]:
+        - generic [ref=f4e113]: ✓
+        - paragraph [ref=f4e114]: A aprovação desta cena vale para a encenação visual. A revisão dos assets individuais e do plano de recursos continua separada.
+  - contentinfo [ref=f4e115]:
+    - generic [ref=f4e116]: Estudo original inspirado pela ordem causal aprovada; textos, design e encenação próprios.
+    - generic [ref=f4e117]: Render Three.js local · sem envio de dados

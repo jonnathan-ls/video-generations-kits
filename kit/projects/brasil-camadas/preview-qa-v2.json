@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "projectId": "brasil-camadas",
+  "artifactType": "multi-scene-animatic",
+  "scope": "Abertura v2: 36,9 s em 14 cenas, uma por frase/acontecimento. 5+ assets visuais por cena; sem teto. Prévia de direção; não é o vídeo final e não aprova assets.",
+  "status": "rejected",
+  "provisional": true,
+  "url": "http://127.0.0.1:4174/?v=2b",
+  "page": "kit/projects/brasil-camadas/preview/hyperframes-v2/index.html",
+  "project": "kit/projects/brasil-camadas/preview/project-v2.json",
+  "durationSeconds": 36.9,
+  "sceneCount": 14,
+  "averageSceneSeconds": 2.64,
+  "maxSceneSeconds": 4.0,
+  "minAssetsPerScene": 5,
+  "qualityPolicy": {
+    "minAssetsPerScene": 5,
+    "maxAssetsPerScene": null,
+    "maxSceneSeconds": 8
+  },
+  "checks": [
+    {
+      "domain": "playback",
+      "status": "pass",
+      "evidence": "Chrome headless via Puppeteer, 20 s de reprodução; console limpo",
+      "note": "O loop era do player de prévia: o relógio da voz pausava e voltava em transições de cena. O player agora usa a linha do tempo como relógio único; o JS foi reemitido com rev=20261114-v2b. Reprodução de 20 s avançou de 0 a ~13,8 s sem reset."
+    },
+    {
+      "domain": "coverage",
+      "status": "pass",
+      "evidence": "project-v2.json",
+      "note": "14 cenas contíguas de 1,4 a 4,0 s; 5 a 7 assets visuais por cena; soma 36,9 s; 6 unidades de fala + título cobertas."
+    },
+    {
+      "domain": "hyperframes-check",
+      "status": "pass",
+      "evidence": "preview/hyperframes-v2/check.json",
+      "note": "ok=true; nenhum erro de composição. Avisos: captura em software, legenda/UI, dead_stretch medido em DOM e arquivos de papel com silêncio inicial."
+    },
+    {
+      "domain": "scene-frames",
+      "status": "pass",
+      "evidence": "preview/hyperframes-v2/v2-snapshots/contact-sheet-1.jpg e contact-sheet-2.jpg",
+      "note": "14 quadros, um por cena, mostram lâmpada, carimbo, folha de pagamento, barra, camada 1888, documento, vazios, pilha, renda, pergunta, pausa, saída de 1888, mosaico 1500 e título."
+    },
+    {
+      "domain": "seek",
+      "status": "pass",
+      "evidence": "preview/hyperframes-v2/seek-v2/contact-sheet.jpg",
+      "note": "Capturas em 30, 3, 18, 0 e 35 s, fora de ordem, sem estado residual."
+    },
+    {
+      "domain": "phone",
+      "status": "pass-with-findings",
+      "evidence": "preview/hyperframes-v2/review-snapshots/review-phone.jpg",
+      "note": "A composição 16:9 mantém o mapa; a legenda a 54 px é legível no desktop e marginal em 390 px."
+    },
+    {
+      "domain": "audio",
+      "status": "not-verified",
+      "evidence": "voice-open.wav",
+      "note": "Voz pm_santa 0.9 é tomada de teste; não houve escuta humana. O arquivo de papel tem silêncio inicial e os efeitos precisam de ajuste."
+    }
+  ],
+  "findings": [
+    {
+      "id": "P1-01",
+      "severity": "P1",
+      "domain": "world-variety",
+      "observation": "Quase todas as cenas usavam o mesmo mundo da mesa/atlas; a variação era câmera, cartão e prop pequeno. Isso não cria cena nova.",
+      "consequence": "A sequência parece um plano único com cortes de câmera; a promessa de 14 cenas não se cumpre visualmente.",
+      "correction": "Substituída pela v3 com seis mundos: atlas, macro de papel, mesa de dados, mesa de documento, parede de mapa e diorama de 1500.",
+      "acceptance": "Máximo 2 cenas consecutivas no mesmo mundo; pelo menos 6 mundos na abertura."
+    },
+    {
+      "id": "P1-02",
+      "severity": "P1",
+      "domain": "flicker",
+      "observation": "As camadas translúcidas do atlas, as camadas dos cartões e o carimbo atravessando o cartão piscavam/recortavam.",
+      "consequence": "Assets piscando e contato falso no impacto.",
+      "correction": "Camadas do atlas opacas; cartões com separação vertical; carimbo para acima do cartão; uma única folha translúcida (renda).",
+      "acceptance": "Sequência de quadros próximos estável; nenhum z-fighting visível."
+    },
+    {
+      "id": "P1-00",
+      "severity": "P1",
+      "domain": "playback",
+      "observation": "A prévia reiniciava nos primeiros segundos por causa do relógio da voz e das transições de cena do player antigo.",
+      "consequence": "Não era possível assistir ao trecho completo.",
+      "correction": "Linha do tempo como relógio único; voz sincronizada a ela; transições de cena não pausam nem rebobinam; cache-bust ?v=2b e rev=20261114-v2b.",
+      "acceptance": "20 s de reprodução sem reset; timeline avança e o player não reentra no início.",
+      "status": "fixed"
+    },
+    {
+      "id": "P2-01",
+      "severity": "P2",
+      "domain": "art",
+      "observation": "A folha de pagamento e o documento da lei leem como tabuleiro/maquete, não como objetos de época finalizados.",
+      "correction": "Refinar escala, materiais e câmera; manter a função de comparação e de vazios."
+    },
+    {
+      "id": "P2-02",
+      "severity": "P2",
+      "domain": "composition",
+      "observation": "Os cartões de papel dominam alguns planos e cobrem parte da encenação.",
+      "correction": "Reduzir área/tempo dos cartões ou integrá-los como objeto da mesa, não como painel."
+    },
+    {
+      "id": "P2-03",
+      "severity": "P2",
+      "domain": "motion",
+      "observation": "O deslizamento da camada de 1888 é sutil no plano médio.",
+      "correction": "Aproximar a câmera da borda da camada e da mão; aumentar a leitura do gesto."
+    },
+    {
+      "id": "P2-04",
+      "severity": "P2",
+      "domain": "art",
+      "observation": "O mosaico de 1500 é uma maquete simples.",
+      "correction": "Adicionar rio, caminhos, aldeias e vegetação com mais leitura e detalhe."
+    },
+    {
+      "id": "P2-05",
+      "severity": "P2",
+      "domain": "audio",
+      "observation": "Voz, papel e mixagem são provisórios.",
+      "correction": "Escolher a voz definitiva e refazer foley/mixagem."
+    }
+  ],
+  "notVerified": [
+    "escuta crítica da voz/mixagem",
+    "alinhamento por palavra",
+    "render final em GPU",
+    "aprovação de assets",
+    "restante do vídeo"
+  ],
+  "nextAction": "Reprovada; substituída pela v3 em http://127.0.0.1:4175/."
+}

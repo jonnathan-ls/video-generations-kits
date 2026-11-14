@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "39e190c9b9980ca84c9e9b32e7388fb4c1e608673c978faa9eafcff9e8f83d47",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "coat",
+      "meshes": 7,
+      "triangles": 16824,
+      "dimensions": [
+        0.7984442710876465,
+        0.879440426826477,
+        0.6171653866767883
+      ]
+    },
+    {
+      "variant": "blanket",
+      "meshes": 6,
+      "triangles": 15552,
+      "dimensions": [
+        0.7990367710590363,
+        0.9649890661239624,
+        0.619813084602356
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T13:31:16.021Z"
+}

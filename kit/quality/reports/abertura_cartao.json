@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "6b991475bf6c38980d079100296db469dc4ea552da9be588d4563d8d195f4cbb",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "55",
+      "meshes": 7,
+      "triangles": 2100,
+      "dimensions": [
+        1.0550000001490116,
+        0.035000000130385164,
+        1.4350000001490115
+      ]
+    },
+    {
+      "variant": "70",
+      "meshes": 7,
+      "triangles": 2100,
+      "dimensions": [
+        1.0550000001490116,
+        0.035000000130385164,
+        1.4350000001490115
+      ]
+    },
+    {
+      "variant": "1888",
+      "meshes": 7,
+      "triangles": 2100,
+      "dimensions": [
+        1.0550000001490116,
+        0.035000000130385164,
+        1.4350000001490115
+      ]
+    },
+    {
+      "variant": "1500",
+      "meshes": 7,
+      "triangles": 2100,
+      "dimensions": [
+        1.0550000001490116,
+        0.035000000130385164,
+        1.4350000001490115
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-14T20:55:28.352Z"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "brasil-30s",
+  "title": "As camadas do Brasil — 30 s",
+  "mode": "production",
+  "stage": "delivered-for-creator-review",
+  "label": "Vídeo de 30 s gerado, com 16 cenas, narração em português, trilha original, 20 efeitos, legendas embutidas e .srt.",
+  "decisions": {
+    "topic": "evolução histórica do Brasil, de 1500 ao presente",
+    "format": "1920×1080, 16:9, 30 fps, 30,0 s",
+    "language": "português brasileiro",
+    "narrativeMode": "síntese cronológica com gancho, virada causal e CTA",
+    "visualConcept": "atlas de camadas: mapas, documentos de época, papéis e tipografia sobre a mesa de um cartógrafo",
+    "pipeline": "HyperFrames (HTML/CSS/SVG/GSAP), sem geração de vídeo por IA",
+    "voice": "Kokoro pm_santa, 1.15×, voz sintetizada",
+    "music": "trilha original sintetizada em D menor, 6 seções",
+    "cta": "“Se inscreve e curte pra abrir mais mapas.” — no fecho, depois do payoff"
+  },
+  "approvals": {
+    "narrative": false,
+    "preview": false,
+    "finalVideo": false,
+    "deliveryRequested": true
+  },
+  "artifacts": {
+    "video": "render/brasil-30s.mp4",
+    "poster": "render/brasil-30s-poster.jpg",
+    "srt": "render/brasil-30s.srt",
+    "composition": "hyperframes/index.html",
+    "audioMix": "audio/mix.wav",
+    "qa": "qa/report.json",
+    "credits": "CREDITS.md",
+    "beats": "beats.json"
+  },
+  "metrics": {
+    "durationSeconds": 30.0,
+    "frames": 900,
+    "scenes": 16,
+    "averageSceneSeconds": 1.875,
+    "maxSceneSeconds": 3.3,
+    "minAssetsPerScene": 6,
+    "captionCues": 11,
+    "audioIntegratedLufs": -14.6,
+    "audioTruePeakDbfs": -1.4
+  },
+  "qualityPolicy": {
+    "minAssetsPerScene": 5,
+    "maxAssetsPerScene": null,
+    "maxSceneSeconds": 8,
+    "note": "16 cenas em 30 s; nenhuma cena acima de 3,3 s; mínimo de 6 recursos por cena."
+  },
+  "nextDecision": "Aprovar o vídeo para publicação ou pedir ajustes de cena, voz, ritmo ou mixagem.",
+  "executionMode": "autonomous-until-delivery",
+  "notes": [
+    "A geração foi solicitada diretamente no chat; não houve aprovação humana de narrativa, prévia ou vídeo final.",
+    "A voz é sintetizada (Kokoro pm_santa) e não passou por escuta humana.",
+    "Todas as imagens de arquivo usadas estão em domínio público; a malha do IBGE e o contorno Natural Earth são dados públicos."
+  ]
+}

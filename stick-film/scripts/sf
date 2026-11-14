@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+# One entry point for the stick-film skill. Workspace: $STICKFILM_HOME (default ~/StickFilms) with characters/ and films/.
+#
+#   sf setup [--install]                 check (or install) node/python deps, Chrome, ffmpeg, the Kokoro voice
+#   sf styles [out.png]                  the four art styles drawn by the engine, for the user to pick from
+#   sf new-character <slug> [--style line|silhouette|sketch|flat] [--name Name]
+#   sf variants <out.png> <img>...       A/B/C/D picker sheet for Flow variants
+#   sf import-kit <slug> master=<file> ...  copy the picked stills into characters/<slug>/kit
+#   sf measure <slug>                    estimate proportions + colors from kit/01-master into character.json
+#   sf rigtest <slug>                    code-drawn character beside its kit stills -> characters/<slug>/rigtest/
+#   sf new-film <slug> --cast hero=<character> [--style ...] [--duration N]  (no --duration: length follows the script)
+#   sf estimate <film> | --text "..."   will the script fill the film? (words -> seconds, per voice)
+#   sf samples <film> [--voices a,b,c]   the whole script in several voices (voice/samples/*.mp3), with measured length
+#   sf voices                            list Kokoro voice names
+#   sf tts <film> [--voice v --speed s]  final narration, one take per paragraph -> voice/voice.json (the clock)
+#   sf qa <film>                         motion QA: knees, hidden hands, ground, pops, voice overlaps
+#   sf stills <film> --times 1,2,3       full frames for a close look
+#   sf sheet <film> [--every 0.2]        contact sheets for review
+#   sf preview <film>                    fast half-size MP4 with sound (frames at 960x540)
+#   sf make <film> [--lufs -14]          events -> qa -> frames -> mix -> encode (out/<film>.mp4)
+#   sf frames|events|mix|encode <film>   the individual steps
+# <film> is a folder path or a slug under $STICKFILM_HOME/films; <slug> is a character under $STICKFILM_HOME/characters.
+set -euo pipefail
+SKILL="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+export STICKFILM_HOME="${STICKFILM_HOME:-$HOME/StickFilms}"
+export PYTHONDONTWRITEBYTECODE=1                     # keep the skill folder clean (it may be read-only)
+TOOLS="$STICKFILM_HOME/.tools"
+PY="python3"; [ -x "$TOOLS/venv/bin/python" ] && PY="$TOOLS/venv/bin/python"
+export NODE_PATH="$TOOLS/node_modules${NODE_PATH:+:$NODE_PATH}"
+[ -z "${KOKORO_DIR:-}" ] && [ -d "$TOOLS/kokoro" ] && export KOKORO_DIR="$TOOLS/kokoro"
+E="$SKILL/engine"; A="$SKILL/audio"
+
+film() { if [ -d "$1" ]; then (cd "$1" && pwd); elif [ -d "$STICKFILM_HOME/films/$1" ]; then echo "$STICKFILM_HOME/films/$1"; else echo "no film '$1' (folder or $STICKFILM_HOME/films/<slug>)" >&2; exit 1; fi; }
+char() { if [ -d "$1" ] && [ -f "$1/character.json" ]; then (cd "$1" && pwd); else echo "$STICKFILM_HOME/characters/$1"; fi; }
+
+cmd="${1:-help}"; shift || true
+case "$cmd" in
+  setup)         bash "$SKILL/scripts/setup.sh" "$@" ;;
+  styles)        node "$E/render.mjs" styles "${1:-$STICKFILM_HOME/styles.png}" "${@:2}" ;;
+  new-character) $PY "$SKILL/scripts/new_character.py" "$@" ;;
+  variants)      $PY "$SKILL/scripts/variants.py" "$@" ;;
+  import-kit)    $PY "$SKILL/scripts/import_kit.py" "$@" ;;
+  measure)       $PY "$SKILL/scripts/measure.py" "$(char "$1")" "${@:2}" ;;
+  rigtest)       node "$E/render.mjs" rigtest "$(char "$1")" ;;
+  new-film)      $PY "$SKILL/scripts/new_film.py" "$@" ;;
+  estimate)      if [ "${1:-}" = "--text" ]; then $PY "$SKILL/scripts/estimate.py" "$@"; else f=$(film "$1"); $PY "$SKILL/scripts/estimate.py" "$f" "${@:2}"; fi ;;
+  samples)       f=$(film "$1"); $PY "$A/samples.py" "$f" "${@:2}" ;;
+  voices)        $PY "$A/tts.py" . --list ;;
+  tts)           f=$(film "$1"); $PY "$A/tts.py" "$f" "${@:2}" ;;
+  qa)            f=$(film "$1"); node "$E/qa.mjs" "$f" "${@:2}" ;;
+  stills)        f=$(film "$1"); node "$E/render.mjs" stills "$f" "${@:2}" ;;
+  sheet)         f=$(film "$1"); node "$E/render.mjs" sheet "$f" "${@:2}" ;;
+  events)        f=$(film "$1"); node "$E/render.mjs" events "$f" ;;
+  frames)        f=$(film "$1"); node "$E/render.mjs" frames "$f" "${@:2}" ;;
+  mix)           f=$(film "$1"); node "$E/render.mjs" events "$f" >/dev/null; $PY "$A/mix.py" "$f" ;;
+  encode)        f=$(film "$1"); $PY "$A/encode.py" "$f" "${@:2}" ;;
+  preview)       f=$(film "$1"); node "$E/render.mjs" frames "$f" --scale 0.5 --out "$f/build/preview_frames"
+                 node "$E/render.mjs" events "$f" >/dev/null; $PY "$A/mix.py" "$f" >/dev/null || echo "(mix skipped)"
+                 $PY "$A/encode.py" "$f" --frames "$f/build/preview_frames" --out "$f/out/preview.mp4" --crf 23 ;;
+  make)          f=$(film "$1"); shift
+                 node "$E/render.mjs" events "$f"
+                 node "$E/qa.mjs" "$f" || { echo "QA found errors (above). Fix them, or run the steps by hand to render anyway."; exit 2; }
+                 node "$E/render.mjs" frames "$f"
+                 $PY "$A/mix.py" "$f"
+                 $PY "$A/encode.py" "$f" "$@" ;;
+  help|-h|--help) awk 'NR>1 && /^#/ {sub(/^# ?/, ""); print; next} NR>1 {exit}' "$0" ;;
+  *) echo "unknown command: $cmd"; awk 'NR>1 && /^#/ {sub(/^# ?/, ""); print; next} NR>1 {exit}' "$0"; exit 1 ;;
+esac

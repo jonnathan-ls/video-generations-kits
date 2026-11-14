@@ -1,0 +1,26 @@
+[
+  {
+    "option": "A",
+    "file": "narration-A.txt",
+    "words": 3094,
+    "estimatedMinutesAt140Wpm": 22.1,
+    "estimatedMinutesAt110Wpm": 28.1,
+    "status": "draft-pending-human-choice"
+  },
+  {
+    "option": "B",
+    "file": "narration-B.txt",
+    "words": 2365,
+    "estimatedMinutesAt140Wpm": 16.9,
+    "estimatedMinutesAt110Wpm": 21.5,
+    "status": "draft-pending-human-choice"
+  },
+  {
+    "option": "C",
+    "file": "narration-C.txt",
+    "words": 2117,
+    "estimatedMinutesAt140Wpm": 15.1,
+    "estimatedMinutesAt110Wpm": 19.2,
+    "status": "draft-pending-human-choice"
+  }
+]

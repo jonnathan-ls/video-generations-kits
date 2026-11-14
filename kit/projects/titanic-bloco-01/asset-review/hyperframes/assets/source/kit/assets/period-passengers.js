@@ -1,0 +1,2 @@
+import * as THREE from 'three';import {person} from './period-person-rig.js';
+export function create({variant='passengers'}={}){if(variant==='captain')return person({captain:true,color:'#26394b'});const root=new THREE.Group(),people=[];for(let i=0;i<8;i++){const p=person({color:['#4a5360','#685342','#8b8173','#293f49'][i%4],female:i%3===0});p.position.set(0,0,(i-3.5)*1.05);p.rotation.y=Math.PI*.5-.08+i*.02;root.add(p);people.push(p);}root.userData.sample=t=>{people.forEach((p,i)=>{p.userData.sample(t);p.userData.rig.head.rotation.y=.2*Math.sin(.45*t+i);});};return root;}

@@ -1,0 +1,696 @@
+- generic:
+  - banner:
+    - link:
+      - /url: /studio/index.html
+      - generic [aria-hidden]: ◩
+      - generic:
+        - strong: Kit de vídeo
+        - generic: Studio de produção
+    - generic:
+      - generic: Produção conectada
+      - button: Atualizar
+  - main:
+    - navigation:
+      - link:
+        - /url: /studio/index.html
+        - text: Studio
+      - generic: /
+      - generic: Acompanhamento
+    - generic:
+      - generic:
+        - paragraph: ACOMPANHAMENTO DA PRODUÇÃO
+        - heading [level=1]: Titanic — a noite do naufrágio e do resgate
+        - paragraph: Acompanhe os blocos, confira cada cena assim que a prévia isolada estiver disponível.
+      - generic:
+        - generic:
+          - generic: ESTADO ATUAL
+          - strong: Em produção
+    - region:
+      - article:
+        - generic:
+          - generic: PROGRESSO GERAL
+          - generic: 14 cenas com render interno; revisão profissional pendente
+        - generic:
+          - generic:
+            - strong: 5%
+            - generic: 14 de 299 cenas com render
+          - progressbar
+        - paragraph: Avanço reportado pela produção; não representa aprovação de qualidade.
+      - article:
+        - generic: ETAPA EM CURSO
+        - strong: Construir e renderizar as cenas dirigidas do bloco 1 (00:00–03:06); depois revisar os trechos isolados.
+        - generic: Produção atualizada 07/11/2026, 21:22:46
+      - article:
+        - generic: ESCOPO DA PRÉVIA
+        - strong: "Amostra renderizada: 40.4 s de 22.4 min · 14/299 cenas com imagem"
+        - generic: Renderização e revisão são estados diferentes.
+    - region:
+      - generic:
+        - generic:
+          - paragraph: AGORA
+          - heading [level=2]: Fila de produção
+        - generic: "11"
+      - generic:
+        - article:
+          - generic:
+            - strong: Amostra aprovada como direção e ritmo
+            - generic: O criador aprovou a abordagem narrativa e o dinamismo da amostra para prosseguir com a produção. Pediu maior presença, escala e integração de motion graphics, imagens e trechos de filmes de referência.
+          - generic: Render concluído
+        - article:
+          - generic:
+            - strong: Bloco 01 · storyboard exclusivo
+            - generic: 49 cenas previstas neste trecho.
+          - generic: Render concluído
+        - article:
+          - generic:
+            - strong: Prévia interna da abertura
+            - generic: 40.4 s disponíveis; atualização não altera a aprovação de direção da amostra.
+          - generic: Render concluído
+        - article:
+          - generic:
+            - strong: Bloco 01 · construção e prévias por cena
+            - generic: 14/49 cenas têm imagem disponível; storyboard dirigido, construção do bloco ainda continua.
+          - generic: Na fila
+        - article:
+          - generic:
+            - strong: BLOCK-02 · 03:06–06:08
+            - generic: Aguardando o bloco anterior e a revisão visual.
+          - generic: Na fila
+        - article:
+          - generic:
+            - strong: BLOCK-03 · 06:08–09:08
+            - generic: Aguardando o bloco anterior e a revisão visual.
+          - generic: Na fila
+        - article:
+          - generic:
+            - strong: BLOCK-04 · 09:08–12:15
+            - generic: Aguardando o bloco anterior e a revisão visual.
+          - generic: Na fila
+        - article:
+          - generic:
+            - strong: BLOCK-05 · 12:15–15:18
+            - generic: Aguardando o bloco anterior e a revisão visual.
+          - generic: Na fila
+        - article:
+          - generic:
+            - strong: BLOCK-06 · 15:18–18:20
+            - generic: Aguardando o bloco anterior e a revisão visual.
+          - generic: Na fila
+        - article:
+          - generic:
+            - strong: BLOCK-07 · 18:20–21:23
+            - generic: Aguardando o bloco anterior e a revisão visual.
+          - generic: Na fila
+        - article:
+          - generic:
+            - strong: BLOCK-08 · 21:23–22:26
+            - generic: Aguardando o bloco anterior e a revisão visual.
+          - generic: Na fila
+    - region:
+      - generic:
+        - generic:
+          - paragraph: MONTAGEM DO LONGA
+          - heading [level=2]: Blocos e cenas
+          - paragraph: Blocos organizados em trechos de aproximadamente 3 minutos. Abra a prévia de uma cena para revisar seu trecho isolado.
+        - generic:
+          - generic: Em produção
+          - generic: Render gerado
+          - generic: Na fila
+      - generic:
+        - group:
+          - generic:
+            - generic:
+              - generic: BLOCO 01
+              - heading [level=3]: 00:00–03:06
+            - generic:
+              - generic: 00:00 — 03:06 · 3 min 06 s
+              - generic: Em produção
+            - generic: ⌄
+          - generic:
+            - paragraph: 14/49 cenas têm imagem disponível; storyboard dirigido, construção do bloco ainda continua.
+            - generic: 49 cenas neste bloco
+            - generic:
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:00 · 1,7 s
+                    - heading [level=4]: O vigia percebe a luz
+                  - generic: Render gerado
+                - paragraph: “Na madrugada em que o Titanic afundou, um capitão viu uma luz verde no meio do oceano e acreditou que ainda havia tempo.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:01 · 1,2 s
+                    - heading [level=4]: O sinal corta a escuridão
+                  - generic: Render gerado
+                - paragraph: “Na madrugada em que o Titanic afundou, um capitão viu uma luz verde no meio do oceano e acreditou que ainda havia tempo.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:02 · 1,6 s
+                    - heading [level=4]: A reação do oficial
+                  - generic: Render gerado
+                - paragraph: “Na madrugada em que o Titanic afundou, um capitão viu uma luz verde no meio do oceano e acreditou que ainda havia tempo.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:04 · 3,9 s
+                    - heading [level=4]: A resposta do Carpathia
+                  - generic: Render gerado
+                - paragraph: “Na madrugada em que o Titanic afundou, um capitão viu uma luz verde no meio do oceano e acreditou que ainda havia tempo.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:08 · 2,4 s
+                    - heading [level=4]: 002.01 · O navio dele se chamava Carpathia.
+                  - generic: Render gerado
+                - paragraph: “O navio dele se chamava Carpathia.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:10 · 3 s
+                    - heading [level=4]: 002.02 · Corria para atender a um pedido de socorro.
+                  - generic: Render gerado
+                - paragraph: “Corria para atender a um pedido de socorro.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:13 · 1,9 s
+                    - heading [level=4]: 002.03 · Ao redor, havia gelo.
+                  - generic: Render gerado
+                - paragraph: “Ao redor, havia gelo.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:15 · 3,1 s
+                    - heading [level=4]: 003.01 · Mais de duas mil pessoas estavam no Titanic.
+                  - generic: Render gerado
+                - paragraph: “Mais de duas mil pessoas estavam no Titanic.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:18 · 2,6 s
+                    - heading [level=4]: 003.02 · Os botes não tinham lugar para todas.
+                  - generic: Render gerado
+                - paragraph: “Os botes não tinham lugar para todas.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:21 · 4 s
+                    - heading [level=4]: 003.03 · Mesmo assim, alguns partiram com lugares vazios.
+                  - generic: Render gerado
+                - paragraph: “Mesmo assim, alguns partiram com lugares vazios.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:25 · 2,2 s
+                    - heading [level=4]: 004.01 · Por que a ajuda não chegou antes?
+                  - generic: Render gerado
+                - paragraph: “Por que a ajuda não chegou antes?”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:27 · 2,6 s
+                    - heading [level=4]: 004.02 · E de onde vinha aquela luz?
+                  - generic: Render gerado
+                - paragraph: “E de onde vinha aquela luz?”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:29 · 2,4 s
+                    - heading [level=4]: 005.01 · Esta é a história da noite do Titanic, do choque com o iceberg à
+                  - generic: Render gerado
+                - paragraph: “Esta é a história da noite do Titanic, do choque com o iceberg à chegada do resgate.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:32 · 3,8 s
+                    - heading [level=4]: 005.01 · Esta é a história da noite do Titanic, do choque com o iceberg à
+                  - generic: Render gerado
+                - paragraph: “Esta é a história da noite do Titanic, do choque com o iceberg à chegada do resgate.”
+                - generic:
+                  - generic: "Revisão: Revisão da cena pendente"
+                  - button: Assistir este trecho ▶
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:36 · 4,2 s
+                    - heading [level=4]: Pausa de capítulo — Antes de haver pressa
+                  - generic: Em produção
+                - paragraph: “Abril de mil novecentos e doze. O Titanic parte da Inglaterra em sua primeira viagem para Nova York.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:40 · 2,2 s
+                    - heading [level=4]: 007.01 · Abril de mil novecentos e doze.
+                  - generic: Em produção
+                - paragraph: “Abril de mil novecentos e doze.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:42 · 5,4 s
+                    - heading [level=4]: 007.02 · O Titanic parte da Inglaterra em sua primeira viagem para Nova Y
+                  - generic: Em produção
+                - paragraph: “O Titanic parte da Inglaterra em sua primeira viagem para Nova York.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:47 · 5,9 s
+                    - heading [level=4]: 008.01 · A bordo estão pessoas para quem aquela travessia significa coisa
+                  - generic: Em produção
+                - paragraph: “A bordo estão pessoas para quem aquela travessia significa coisas muito diferentes.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 00:53 · 8 s
+                    - heading [level=4]: 008.02 · Há passageiros acostumados a cruzar o Atlântico, famílias em via
+                  - generic: Em produção
+                - paragraph: “Há passageiros acostumados a cruzar o Atlântico, famílias em viagem e emigrantes que vão começar outra vida.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:01 · 1,5 s
+                    - heading [level=4]: 009.01 · O destino é o mesmo.
+                  - generic: Em produção
+                - paragraph: “O destino é o mesmo.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:03 · 2,5 s
+                    - heading [level=4]: 009.02 · A maneira de viajar não é.
+                  - generic: Em produção
+                - paragraph: “A maneira de viajar não é.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:05 · 5,3 s
+                    - heading [level=4]: 010.01 · O navio é dividido em classes, com acomodações, espaços e caminh
+                  - generic: Em produção
+                - paragraph: “O navio é dividido em classes, com acomodações, espaços e caminhos diferentes.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:11 · 3,8 s
+                    - heading [level=4]: 010.02 · Para alguns, a travessia inclui salões e serviço de luxo.
+                  - generic: Em produção
+                - paragraph: “Para alguns, a travessia inclui salões e serviço de luxo.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:14 · 5,2 s
+                    - heading [level=4]: 010.03 · Para outros, o que importa é chegar à América com a família e a
+                  - generic: Em produção
+                - paragraph: “Para outros, o que importa é chegar à América com a família e a bagagem.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:20 · 4,8 s
+                    - heading [level=4]: 011.01 · Também há centenas de pessoas trabalhando para que todos possam
+                  - generic: Em produção
+                - paragraph: “Também há centenas de pessoas trabalhando para que todos possam viajar.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:24 · 6 s
+                    - heading [level=4]: 011.02 · Cozinheiros, camareiros, marinheiros, telegrafistas, homens nas
+                  - generic: Em produção
+                - paragraph: “Cozinheiros, camareiros, marinheiros, telegrafistas, homens nas máquinas e nas caldeiras.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:30 · 5,9 s
+                    - heading [level=4]: 011.03 · A viagem que um passageiro vê depende de um trabalho que, em gra
+                  - generic: Em produção
+                - paragraph: “A viagem que um passageiro vê depende de um trabalho que, em grande parte, ele não vê.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:36 · 2,5 s
+                    - heading [level=4]: 012.01 · É importante guardar essa diferença.
+                  - generic: Em produção
+                - paragraph: “É importante guardar essa diferença.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:39 · 1,6 s
+                    - heading [level=4]: 012.02 · Quando o perigo aparece,
+                  - generic: Em produção
+                - paragraph: “Quando o perigo aparece,”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:40 · 3,3 s
+                    - heading [level=4]: 012.03 · ninguém recebe ao mesmo tempo a mesma informação,
+                  - generic: Em produção
+                - paragraph: “ninguém recebe ao mesmo tempo a mesma informação,”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:44 · 3 s
+                    - heading [level=4]: 012.04 · nem está à mesma distância dos botes.
+                  - generic: Em produção
+                - paragraph: “nem está à mesma distância dos botes.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:47 · 4,8 s
+                    - heading [level=4]: 013.01 · O Titanic é grande, moderno e foi construído para resistir a ava
+                  - generic: Em produção
+                - paragraph: “O Titanic é grande, moderno e foi construído para resistir a avarias.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:51 · 4,1 s
+                    - heading [level=4]: 013.02 · Tem divisões internas que podem limitar a entrada de água.
+                  - generic: Em produção
+                - paragraph: “Tem divisões internas que podem limitar a entrada de água.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 01:56 · 4,7 s
+                    - heading [level=4]: 013.03 · Tem rádio para falar com estações em terra e outros navios.
+                  - generic: Em produção
+                - paragraph: “Tem rádio para falar com estações em terra e outros navios.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:00 · 1,7 s
+                    - heading [level=4]: 014.01 · Essas proteções existem.
+                  - generic: Em produção
+                - paragraph: “Essas proteções existem.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:02 · 5,1 s
+                    - heading [level=4]: 014.02 · Não são uma invenção posterior para tornar o desastre mais irôni
+                  - generic: Em produção
+                - paragraph: “Não são uma invenção posterior para tornar o desastre mais irônico.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:07 · 6,9 s
+                    - heading [level=4]: 015.01 · O problema será descobrir o que acontece quando elas não consegu
+                  - generic: Em produção
+                - paragraph: “O problema será descobrir o que acontece quando elas não conseguem, juntas, proteger todo mundo.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:14 · 2,5 s
+                    - heading [level=4]: 016.01 · Durante a viagem, a vida a bordo segue.
+                  - generic: Em produção
+                - paragraph: “Durante a viagem, a vida a bordo segue.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:16 · 2,7 s
+                    - heading [level=4]: 016.02 · Refeições, turnos, mensagens, descanso.
+                  - generic: Em produção
+                - paragraph: “Refeições, turnos, mensagens, descanso.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:19 · 3,4 s
+                    - heading [level=4]: 016.03 · O navio inteiro não está pensando numa evacuação.
+                  - generic: Em produção
+                - paragraph: “O navio inteiro não está pensando numa evacuação.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:23 · 2,5 s
+                    - heading [level=4]: 016.04 · Está atravessando o oceano.
+                  - generic: Em produção
+                - paragraph: “Está atravessando o oceano.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:25 · 4,1 s
+                    - heading [level=4]: 017.01 · No domingo, catorze de abril, chegam avisos de gelo.
+                  - generic: Em produção
+                - paragraph: “No domingo, catorze de abril, chegam avisos de gelo.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:29 · 4 s
+                    - heading [level=4]: 018.01 · São relatos de outras embarcações que passaram pela região.
+                  - generic: Em produção
+                - paragraph: “São relatos de outras embarcações que passaram pela região.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:33 · 1,9 s
+                    - heading [level=4]: 018.02 · Alguns chegam ao comandante.
+                  - generic: Em produção
+                - paragraph: “Alguns chegam ao comandante.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:35 · 6,8 s
+                    - heading [level=4]: 018.03 · Outros seguem caminhos diferentes entre a estação de rádio e os
+                  - generic: Em produção
+                - paragraph: “Outros seguem caminhos diferentes entre a estação de rádio e os responsáveis pela navegação.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:42 · 6,5 s
+                    - heading [level=4]: 019.01 · Hoje, esses papéis parecem uma sequência de advertências sobre u
+                  - generic: Em produção
+                - paragraph: “Hoje, esses papéis parecem uma sequência de advertências sobre uma tragédia que já conhecemos.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:48 · 5,5 s
+                    - heading [level=4]: 019.02 · Para quem os recebeu, eram informações sobre uma rota ainda em a
+                  - generic: Em produção
+                - paragraph: “Para quem os recebeu, eram informações sobre uma rota ainda em andamento.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:54 · 3,6 s
+                    - heading [level=4]: 020.01 · Isso não tira a responsabilidade de avaliar o risco.
+                  - generic: Em produção
+                - paragraph: “Isso não tira a responsabilidade de avaliar o risco.”
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+              - article:
+                - generic:
+                  - generic:
+                    - generic: 02:57 · 8,3 s
+                    - heading [level=4]: "020.02 · Mostra onde a história precisa ser acompanhada: entre receber um"
+                  - generic: Em produção
+                - paragraph: "“Mostra onde a história precisa ser acompanhada: entre receber uma informação e mudar uma decisão por causa dela.”"
+                - generic:
+                  - generic: "Revisão: Plano visual registrado; imagem ainda não verificada"
+                  - generic: Ainda não renderizada
+        - group:
+          - generic:
+            - generic:
+              - generic: BLOCO 02
+              - heading [level=3]: 03:06–06:08
+            - generic:
+              - generic: 03:06 — 06:08 · 3 min 02 s
+              - generic: Aguardando
+            - generic: ⌄
+        - group:
+          - generic:
+            - generic:
+              - generic: BLOCO 03
+              - heading [level=3]: 06:08–09:08
+            - generic:
+              - generic: 06:08 — 09:08 · 3 min
+              - generic: Aguardando
+            - generic: ⌄
+        - group:
+          - generic:
+            - generic:
+              - generic: BLOCO 04
+              - heading [level=3]: 09:08–12:15
+            - generic:
+              - generic: 09:08 — 12:15 · 3 min 07 s
+              - generic: Aguardando
+            - generic: ⌄
+        - group:
+          - generic:
+            - generic:
+              - generic: BLOCO 05
+              - heading [level=3]: 12:15–15:18
+            - generic:
+              - generic: 12:15 — 15:18 · 3 min 03 s
+              - generic: Aguardando
+            - generic: ⌄
+        - group:
+          - generic:
+            - generic:
+              - generic: BLOCO 06
+              - heading [level=3]: 15:18–18:20
+            - generic:
+              - generic: 15:18 — 18:20 · 3 min 02 s
+              - generic: Aguardando
+            - generic: ⌄
+        - group:
+          - generic:
+            - generic:
+              - generic: BLOCO 07
+              - heading [level=3]: 18:20–21:23
+            - generic:
+              - generic: 18:20 — 21:23 · 3 min 03 s
+              - generic: Aguardando
+            - generic: ⌄
+        - group:
+          - generic:
+            - generic:
+              - generic: BLOCO 08
+              - heading [level=3]: 21:23–22:26
+            - generic:
+              - generic: 21:23 — 22:26 · 1 min 02 s
+              - generic: Aguardando
+            - generic: ⌄
+    - generic:
+      - generic: Atualização automática a cada 20 s
+      - generic: Prévia isolada não significa revisão ou aprovação.
+  - dialog [ref=f2e703]:
+    - generic [ref=f2e704]:
+      - generic [ref=f2e705]:
+        - paragraph [ref=f2e706]: PRÉVIA ISOLADA
+        - heading "002.03 · Ao redor, havia gelo." [level=2] [ref=f2e707]
+        - paragraph [ref=f2e708]: 00:13–00:15 no render disponível · 1,9 s de cena
+      - button "Fechar prévia" [active] [ref=f2e709] [cursor=pointer]: ×
+    - paragraph [ref=f2e712]: Trecho recortado temporalmente do render disponível; a cena ainda não tem arquivo de render separado.

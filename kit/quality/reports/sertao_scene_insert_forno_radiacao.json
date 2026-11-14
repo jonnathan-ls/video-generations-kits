@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "8e9ea9a703829647eaa284a1f9b53e9ef637a4e1eb2d8a575bc52b1784af130f",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "forno-barro-radiacao",
+      "meshes": 84,
+      "triangles": 15896,
+      "dimensions": [
+        18.1,
+        1.9464408558003339,
+        8.59
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "forno-barro-radiacao: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.945Z"
+}

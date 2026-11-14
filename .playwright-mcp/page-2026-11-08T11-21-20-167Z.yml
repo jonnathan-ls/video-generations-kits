@@ -1,0 +1,63 @@
+- generic [active] [ref=f36e1]:
+  - main [ref=f36e2]:
+    - generic [ref=f36e4]: PRÉVIA TÉCNICA · NÃO É ENTREGA FINAL
+  - generic [ref=f36e5]:
+    - button "Reproduzir prévia" [ref=f36e6]: ▶ Reproduzir
+    - generic [ref=f36e7]: Tempo
+    - slider "Tempo" [ref=f36e8]: "0"
+    - status [ref=f36e9]: 00:00.0
+    - generic [ref=f36e10]: Ir para cena
+    - combobox "Ir para cena" [ref=f36e11]:
+      - option "Escolha uma cena…" [selected]
+      - option "O vigia percebe a luz"
+      - option "O sinal corta a escuridão"
+      - option "A reação do oficial"
+      - option "A resposta do Carpathia"
+      - option "002.01 · O navio dele se chamava Carpathia."
+      - option "002.02 · Corria para atender a um pedido de socorro."
+      - option "002.03 · Ao redor, havia gelo."
+      - option "003.01 · Mais de duas mil pessoas estavam no Titanic."
+      - option "003.02 · Os botes não tinham lugar para todas."
+      - option "003.03 · Mesmo assim, alguns partiram com lugares vazios."
+      - option "004.01 · Por que a ajuda não chegou antes?"
+      - option "004.02 · E de onde vinha aquela luz?"
+      - option "005.01 · Esta é a história da noite do Titanic, do choque com o iceberg à"
+      - option "005.01 · Esta é a história da noite do Titanic, do choque com o iceberg à"
+      - option "Pausa de capítulo — Antes de haver pressa"
+      - option "007.01 · Abril de mil novecentos e doze."
+      - option "007.02 · O Titanic parte da Inglaterra em sua primeira viagem para Nova Y"
+      - option "008.01 · A bordo estão pessoas para quem aquela travessia significa coisa"
+      - option "008.02 · Há passageiros acostumados a cruzar o Atlântico, famílias em via"
+      - option "009.01 · O destino é o mesmo."
+      - option "009.02 · A maneira de viajar não é."
+      - option "010.01 · O navio é dividido em classes, com acomodações, espaços e caminh"
+      - option "010.02 · Para alguns, a travessia inclui salões e serviço de luxo."
+      - option "010.03 · Para outros, o que importa é chegar à América com a família e a"
+      - option "011.01 · Também há centenas de pessoas trabalhando para que todos possam"
+      - option "011.02 · Cozinheiros, camareiros, marinheiros, telegrafistas, homens nas"
+      - option "011.03 · A viagem que um passageiro vê depende de um trabalho que, em gra"
+      - option "012.01 · É importante guardar essa diferença."
+      - option "012.02 · Quando o perigo aparece,"
+      - option "012.03 · ninguém recebe ao mesmo tempo a mesma informação,"
+      - option "012.04 · nem está à mesma distância dos botes."
+      - option "013.01 · O Titanic é grande, moderno e foi construído para resistir a ava"
+      - option "013.02 · Tem divisões internas que podem limitar a entrada de água."
+      - option "013.03 · Tem rádio para falar com estações em terra e outros navios."
+      - option "014.01 · Essas proteções existem."
+      - option "014.02 · Não são uma invenção posterior para tornar o desastre mais irôni"
+      - option "015.01 · O problema será descobrir o que acontece quando elas não consegu"
+      - option "016.01 · Durante a viagem, a vida a bordo segue."
+      - option "016.02 · Refeições, turnos, mensagens, descanso."
+      - option "016.03 · O navio inteiro não está pensando numa evacuação."
+      - option "016.04 · Está atravessando o oceano."
+      - option "017.01 · No domingo, catorze de abril, chegam avisos de gelo."
+      - option "018.01 · São relatos de outras embarcações que passaram pela região."
+      - option "018.02 · Alguns chegam ao comandante."
+      - option "018.03 · Outros seguem caminhos diferentes entre a estação de rádio e os"
+      - option "019.01 · Hoje, esses papéis parecem uma sequência de advertências sobre u"
+      - option "019.02 · Para quem os recebeu, eram informações sobre uma rota ainda em a"
+      - option "020.01 · Isso não tira a responsabilidade de avaliar o risco."
+      - 'option "020.02 · Mostra onde a história precisa ser acompanhada: entre receber um"'
+    - generic: Carregando…
+  - group [ref=f36e12]:
+    - generic "PLANO VISUAL · cena selecionada" [ref=f36e13] [cursor=pointer]

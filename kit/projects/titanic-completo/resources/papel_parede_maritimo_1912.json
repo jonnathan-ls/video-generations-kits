@@ -1,0 +1,15 @@
+{
+  "id": "papel_parede_maritimo_1912",
+  "label": "Papel de parede e reboco de bordo",
+  "module": "period-wallpaper.js",
+  "kind": "material",
+  "category": "acabamento de interiores historicos",
+  "description": "Revestimento procedural de papel e reboco, tileable e sutil, em escala de sala, com aspereza de superfície e sem arquivo ou download externo. Proposta ilustrativa; não afirma reproduzir decoração arqueológica exata.",
+  "variants": ["padrao"],
+  "aliases": ["Papel de parede de bordo", "reboco de interior", "paredes completas de sala"],
+  "baselineIds": [],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:period-wall-finish-v2"
+  }
+}

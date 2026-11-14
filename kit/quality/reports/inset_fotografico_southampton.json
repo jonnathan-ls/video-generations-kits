@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "e11fe138c170db42b4a01c7cfd33e160f574753a46bb9590b3e6ef2adfc3901b",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "titanic-southampton-1912",
+      "meshes": 4,
+      "triangles": 594,
+      "dimensions": [
+        5.78000020980835,
+        4.400000095367432,
+        0.16099999999999998
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "titanic-southampton-1912: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T04:59:42.708Z"
+}

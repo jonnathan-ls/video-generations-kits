@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "2adbdb6cfd5dc4e45370c24ae1df1ab0bd7c6e9c9e90c6da05e23f7a8ea4e413",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "camera-caminho-cobertura-quarto",
+      "meshes": 2,
+      "triangles": 92,
+      "dimensions": [
+        0.36,
+        0.414999997317791,
+        0.3700000035762787
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.472Z"
+}

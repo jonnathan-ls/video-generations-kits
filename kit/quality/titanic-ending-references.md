@@ -1,0 +1,23 @@
+# Referências consultadas — final do Titanic (cenas 174–298)
+
+Consulta realizada antes de alterar a implementação compartilhada do sinal verde. Esta nota pertence ao produtor do segmento; o integrador deve incorporá-la a `kit/quality/decisions.md` antes de liberar o gate global.
+
+- `js-3d-library/examples/webgl_lights_physical.html`: luz emissiva visível e PointLight fisicamente localizada, decaimento 2, madeira com roughness. Adaptação: manter as lâmpadas reais dos interiores e luminárias do costado como motivo do brilho; não corrigir interiores elevando exposição global. Limite: o exemplo é um ambiente de demonstração, não barco, noite de 1912 ou iluminação historicamente calibrada.
+- `js-3d-library/examples/webgl_animation_skinning_blending.html`: mudanças de ação com pesos e transições explícitas; preparação e repouso pertencem ao movimento. Adaptação: caminhar/receber/operar em janelas subordinadas à fala e parar para leitura do resultado. Limite: rig do kit não usa os clips Mixamo desse exemplo; nenhuma alegação de que o helper de alcance implementa escalada, tecido ou força entre pessoas.
+- `js-3d-library/examples/webgl_sprites.html`: SpriteMaterial e Sprite mantêm a fonte de luz voltada à câmera sem uma placa rígida girando; escala pertence ao mundo, não a um ícone de tela. Adaptação: preservar camadas compactas existentes do sinal verde, profundidade e bounce local; tornar envelope de entrada/permanência/saída configurável por beat, com tempo de timeline determinístico. Limite: não importar o espalhamento aleatório e loop de relógio do exemplo; o sinal não é fogo de artifício ou prova de um navio ainda flutuando.
+- `kit/assets/historical-liners.js`: dimensões do Titanic 269,1×28,2 e Carpathia 170×19,5; convés de botes em y17; escada ilustrativa de acesso do Carpathia x≈10,y1,85–6,55,z=-4. Câmeras são colocadas em torno do acesso físico em vez de pessoas em plataformas soltas. Limite: escada é declaradamente ilustrativa; não é reconstrução exata da disposição histórica.
+- `kit/assets/period-room-parts.js`, `period-corridor.js`, `period-quarters.js`, `period-radio-room.js`, `period-saloon.js`: pisos, paredes, teto, mesa e lâmpadas fecham espaços. Câmeras interiores ficam dentro de x±1,5 no corredor, x±2,3 no rádio, y<3,5. Limite: figurino e objetos continuam estilizados; detalhamento histórico não está provado por geometria fechada.
+- `kit/assets/period-lifeboat.js`, `period-person-rig.js`: casco 9×2,8, bancos em y0,84; pessoas sentadas precisam de raiz aproximadamente y0,08, não ficar pairando com raiz y0,43. A inversão do casco rígido é apenas estudo provisório: não é o bote dobrável B, portanto cenas 221–222 têm P1 explícito.
+- `kit/assets/archival-photo-inset.js` e mídia local `kit/assets/media/titanic-survivors-carpathia-2048.jpg`: preserva crédito Bain/Library of Congress. Inserções principais em 253 (5 s) e retorno de fechamento 298 (7,5 s), em 48% da largura, junto à cena 3D. Não há suposto limite universal de segundos. Mesmo arquivo retorna por função de payoff, não como preenchimento.
+
+`kit/quality/baselines.json` foi consultado: não foi encontrado baseline marítimo explicitamente aprovado nesse arquivo. A aprovação humana da amostra anterior orienta comparação, mas não aprova automaticamente as 125 cenas novas.
+
+## Limites de verificação
+
+O segmento isolado passou na compilação dos assets, variantes, posições, alvos e keyframes e preserva texto/tempos. Ainda não foi inspecionado no navegador: zero cenas com motion aprovado, zero escutas críticas, zero passagens mobile. `ending-review.json` registra P1 reais e mantém estado `not-verified`; não entregar como aprovado.
+
+## Contatos e acessos — correção de 2026-11-08
+
+Antes de implementar `period-rescue-actions.js`, consultei `js-3d-library/examples/webgl_animation_skinning_ik.html` (alvo/effector e limites de articulações) e `js-3d-library/examples/jsm/animation/CCDIKSolver.js` (conversão entre espaço local/mundial e solução de alcance). Adaptação: solver geométrico de dois segmentos do rig próprio, com pés fixados a degraus reais, mãos fixadas às cordas e reação do ajudante durante transferência de carga. Não importar personagem/glTF ou loop por relógio do exemplo. Limite: não é simulação muscular nem certificação de equipamento de içamento.
+
+A escada em `historical-liners.js` tem 16 degraus entre y1,85 e6,55, em z=-4; a posição x acompanha o costado. O recurso de ação calcula os mesmos apoios, em vez de mover a pessoa em linha reta sem contato. Um patamar ilustrativo curto com suportes triangulares fixados ao costado pode receber o ajudante; essa construção de acesso é marcada como ilustração, não como planta histórica comprovada do Carpathia.

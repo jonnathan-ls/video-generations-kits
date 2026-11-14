@@ -1,0 +1,20 @@
+{
+  "id": "navio_carpathia",
+  "label": "Carpathia — navio de resgate",
+  "kind": "object",
+  "category": "historico_maritimo",
+  "description": "Exterior ilustrativo verificável, distinguível do Titanic, com ponte e ponto de observação. Sem copiar detalhes do Titanic; localizar observador e gelo na mesma direção de viagem. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "historical-liners.js",
+  "aliases": [
+    "Carpathia",
+    "Carpathia — navio de resgate"
+  ],
+  "variants": [
+    "carpathia"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:navio-carpathia"
+  },
+  "baselineIds": []
+}

@@ -1,0 +1,48 @@
+{
+  "provider": "kokoro-onnx",
+  "language": "pt-br",
+  "voice": "pm_santa",
+  "speed": 1.0,
+  "selectedOption": 3,
+  "approvedByCreator": true,
+  "approvalChannel": "chat",
+  "audio": "audio/narration.wav",
+  "duration": 45.599,
+  "sampleRate": 24000,
+  "wordCount": 141,
+  "sentenceCount": 15,
+  "alignment": {
+    "model": "openai-whisper-small-local",
+    "whisperMatchedWords": 135,
+    "scriptWords": 141,
+    "whisperCoverage": 0.9574,
+    "alignedWords": 141,
+    "alignedCoverage": 1.0,
+    "contextMappedWords": 6,
+    "interpolatedWords": 6,
+    "corrections": [
+      {
+        "script": "a tiramos",
+        "asr": "atiramos",
+        "method": "separated merged words using the recognized interval"
+      },
+      {
+        "script": "as juntas",
+        "asr": "a juntas",
+        "method": "completed the weak final consonant and adjusted word boundary"
+      },
+      {
+        "script": "Por que",
+        "asr": "porque",
+        "method": "split the recognized interval into the two script words"
+      },
+      {
+        "script": "continua",
+        "asr": "continuar",
+        "method": "kept the approved script spelling and recognized interval"
+      }
+    ],
+    "note": "Word boundaries are Whisper estimates. The six merged/normalized words were mapped to the approved narration and should be visually reviewed during caption timing."
+  },
+  "generatedAt": "2026-11-05T11:42:20.025549+00:00"
+}

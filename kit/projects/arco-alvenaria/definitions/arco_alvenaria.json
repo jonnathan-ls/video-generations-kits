@@ -1,0 +1,23 @@
+{
+  "id": "arco_alvenaria",
+  "module": "arco-alvenaria.js",
+  "kind": "object",
+  "label": "Arco de alvenaria segmentado",
+  "category": "alvenaria",
+  "description": "Anel semicircular ilustrativo de treze cunhas com juntas visíveis e peça de fecho no coroamento. Unidade em metros; não representa dimensionamento estrutural.",
+  "aliases": [
+    "arco de alvenaria",
+    "arco segmentado",
+    "cunha de arco",
+    "aduelas",
+    "peça de fecho"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "baselineIds": [],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:arch-ring",
+    "projectId": "arco-alvenaria"
+  }
+}

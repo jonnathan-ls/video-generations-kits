@@ -1,0 +1,16 @@
+[
+  {
+    "model_type": "t2v_nexus_1.3B",
+    "prompt": "Vertical 9:16 extreme macro video of an original 1:12 handmade crochet miniature kitchen, generated entirely as a tactile yarn craft. Locked camera, fixed warm diffuse window light from the left. One shallow ivory plate rests in a small crochet sink; the plate, sink, countertop and mustard-yellow rectangular sponge are all unmistakably made from thick matte cotton yarn, with large raised interlocking crochet loops and fuzzy fibers visible. One natural hand with a plain navy cuff holds the plate steady. A second hand presses the sponge onto the plate and makes exactly one slow left-to-right pass across its center. The sponge stays in contact for the entire pass and compresses slightly; a thin line of pale soap foam follows the contact. End immediately after the single pass, holding on the visible crochet stitches. Keep the same objects, yarn thickness, loop size, color and camera position from first frame to last. No rinse, no object placement, no cut, no new action.",
+    "negative_prompt": "photorealistic kitchen, ceramic plate, real metal sink, wood, stone, plastic, smooth surface, printed pattern, flat painted yarn, missing crochet loops, melted or changing stitches, texture crawl, flicker, morphing plate, morphing sponge, different objects, extra hands, extra fingers, fused fingers, missing fingers, floating sponge, sponge leaving contact, repeated scrubbing, water stream, rinsing, dish rack, extra action, camera movement, zoom, cut, dutch angle, exposure change, text, logo, watermark, subtitles",
+    "resolution": "432x768",
+    "video_length": 41,
+    "num_inference_steps": 8,
+    "guidance_scale": 1,
+    "flow_shift": 5,
+    "seed": 731824,
+    "repeat_generation": 1,
+    "image_mode": 0,
+    "output_filename": "v04-01-pia-esponja-uma-passada"
+  }
+]

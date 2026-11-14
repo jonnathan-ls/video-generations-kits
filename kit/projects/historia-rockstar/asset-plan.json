@@ -1,0 +1,1759 @@
+{
+  "schemaVersion": 1,
+  "narrationHash": "03e64ea507bce06e",
+  "decisions": [
+    {
+      "id": "sentence-01-001",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Abre a cadeia causal entre saída da fábrica, compra do computador e a posterior cidade vista de cima, sem teatralizar detalhes pessoais. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 0,
+      "end": 144,
+      "phrase": "Quando David Jones saiu da fábrica da Timex, em Dundee, ele usou o dinheiro da redundância voluntária para comprar um Commodore Amiga importado."
+    },
+    {
+      "id": "sentence-01-002",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Abre a cadeia causal entre saída da fábrica, compra do computador e a posterior cidade vista de cima, sem teatralizar detalhes pessoais. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 145,
+      "end": 259,
+      "phrase": "Pensava em voltar à universidade, mas o computador também era uma ferramenta de trabalho: nele, Jones faria jogos."
+    },
+    {
+      "id": "sentence-01-003",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Abre a cadeia causal entre saída da fábrica, compra do computador e a posterior cidade vista de cima, sem teatralizar detalhes pessoais. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 260,
+      "end": 344,
+      "phrase": "Anos depois, um experimento de cidade visto de cima daria origem a Grand Theft Auto."
+    },
+    {
+      "id": "sentence-01-004",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Abre a cadeia causal entre saída da fábrica, compra do computador e a posterior cidade vista de cima, sem teatralizar detalhes pessoais. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 345,
+      "end": 521,
+      "phrase": "A ligação entre esses dois momentos passa por uma equipe pequena, pelo sucesso inesperado de Lemmings e por uma franquia que mudou de mãos antes de se tornar parte da Rockstar."
+    },
+    {
+      "id": "sentence-02-005",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Contrasta as criaturas em percurso com a cidade e os carros que ainda não faziam parte daquele jogo; usar abstração original. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 523,
+      "end": 598,
+      "phrase": "O primeiro grande sucesso da equipe não tinha carros nem uma cidade aberta."
+    },
+    {
+      "id": "sentence-02-006",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Contrasta as criaturas em percurso com a cidade e os carros que ainda não faziam parte daquele jogo; usar abstração original. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 599,
+      "end": 660,
+      "phrase": "Tinha pequenas criaturas que caminhavam em direção ao perigo."
+    },
+    {
+      "id": "sentence-02-007",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Contrasta as criaturas em percurso com a cidade e os carros que ainda não faziam parte daquele jogo; usar abstração original. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 661,
+      "end": 797,
+      "phrase": "A ideia que transformou esse jogo numa série capaz de mudar de escala começou com uma animação curta feita por um programador de Dundee."
+    },
+    {
+      "id": "sentence-03-008",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Relaciona computador compartilhado, aprendizado e encontros de programadores com a falta de estúdios locais; não inventar instituição. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 800,
+      "end": 862,
+      "phrase": "David Jones teve o primeiro contato com programação na escola."
+    },
+    {
+      "id": "sentence-03-009",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Relaciona computador compartilhado, aprendizado e encontros de programadores com a falta de estúdios locais; não inventar instituição. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 863,
+      "end": 966,
+      "phrase": "Havia um Apple II para todos os alunos, e ele aprendeu um pouco de BASIC naquela máquina compartilhada."
+    },
+    {
+      "id": "sentence-03-010",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Relaciona computador compartilhado, aprendizado e encontros de programadores com a falta de estúdios locais; não inventar instituição. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 967,
+      "end": 1082,
+      "phrase": "Fora da sala, frequentava encontros de um clube de computadores, onde programadores mostravam demos e experimentos."
+    },
+    {
+      "id": "sentence-03-011",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Relaciona computador compartilhado, aprendizado e encontros de programadores com a falta de estúdios locais; não inventar instituição. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1083,
+      "end": 1197,
+      "phrase": "Em Dundee, havia editoras, mas poucos estúdios estabelecidos nos quais um programador iniciante pudesse trabalhar."
+    },
+    {
+      "id": "sentence-03-012",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Relaciona computador compartilhado, aprendizado e encontros de programadores com a falta de estúdios locais; não inventar instituição. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1198,
+      "end": 1261,
+      "phrase": "Jones começou a fazer seus próprios projetos enquanto estudava."
+    },
+    {
+      "id": "sentence-04-013",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra experiência técnica, ZX81, saída voluntária e Amiga; não inferir quantia controversa nem copiar hardware/interface. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1263,
+      "end": 1323,
+      "phrase": "Antes do Amiga, ele já havia conseguido um emprego na Timex."
+    },
+    {
+      "id": "sentence-04-014",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra experiência técnica, ZX81, saída voluntária e Amiga; não inferir quantia controversa nem copiar hardware/interface. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1324,
+      "end": 1433,
+      "phrase": "Como aprendiz de engenharia de hardware, trabalhou com unidades de fita, microdrives e computadores Sinclair."
+    },
+    {
+      "id": "sentence-04-015",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra experiência técnica, ZX81, saída voluntária e Amiga; não inferir quantia controversa nem copiar hardware/interface. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1434,
+      "end": 1533,
+      "phrase": "Antes de entrar na fábrica, havia construído um ZX81 a partir de um kit, economizando vinte libras."
+    },
+    {
+      "id": "sentence-04-016",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra experiência técnica, ZX81, saída voluntária e Amiga; não inferir quantia controversa nem copiar hardware/interface. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1534,
+      "end": 1603,
+      "phrase": "A fábrica passava por dificuldades e oferecia pacotes de redundância."
+    },
+    {
+      "id": "sentence-04-017",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra experiência técnica, ZX81, saída voluntária e Amiga; não inferir quantia controversa nem copiar hardware/interface. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1604,
+      "end": 1695,
+      "phrase": "Jones escolheu sair, pensando em voltar à universidade para estudar engenharia de software."
+    },
+    {
+      "id": "sentence-04-018",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra experiência técnica, ZX81, saída voluntária e Amiga; não inferir quantia controversa nem copiar hardware/interface. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1696,
+      "end": 1737,
+      "phrase": "O Amiga era importado dos Estados Unidos."
+    },
+    {
+      "id": "sentence-04-019",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra experiência técnica, ZX81, saída voluntária e Amiga; não inferir quantia controversa nem copiar hardware/interface. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1738,
+      "end": 1842,
+      "phrase": "Jones contou que queria usá-lo para continuar programando e também para jogar os lançamentos mais novos."
+    },
+    {
+      "id": "sentence-05-020",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Localiza início da DMA, lançamentos, demonstração editorial e pagamento em memória; datas e nomes ficam atribuídos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1844,
+      "end": 1971,
+      "phrase": "Enquanto ainda era estudante, Jones começou a formar a DMA Design como projeto de tempo parcial; ele situa esse início em 1987."
+    },
+    {
+      "id": "sentence-05-021",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Localiza início da DMA, lançamentos, demonstração editorial e pagamento em memória; datas e nomes ficam atribuídos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 1972,
+      "end": 2045,
+      "phrase": "Ainda não havia um estúdio estabelecido na região onde pudesse trabalhar."
+    },
+    {
+      "id": "sentence-05-022",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Localiza início da DMA, lançamentos, demonstração editorial e pagamento em memória; datas e nomes ficam atribuídos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2046,
+      "end": 2086,
+      "phrase": "Seu primeiro jogo, Menace, saiu em 1988."
+    },
+    {
+      "id": "sentence-05-023",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Localiza início da DMA, lançamentos, demonstração editorial e pagamento em memória; datas e nomes ficam atribuídos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2087,
+      "end": 2112,
+      "phrase": "Blood Money veio em 1989."
+    },
+    {
+      "id": "sentence-05-024",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Localiza início da DMA, lançamentos, demonstração editorial e pagamento em memória; datas e nomes ficam atribuídos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2113,
+      "end": 2188,
+      "phrase": "Os dois eram jogos de tiro inspirados nos fliperamas e feitos para o Amiga."
+    },
+    {
+      "id": "sentence-05-025",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Localiza início da DMA, lançamentos, demonstração editorial e pagamento em memória; datas e nomes ficam atribuídos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2189,
+      "end": 2313,
+      "phrase": "Com Menace pela metade, Jones levou uma demonstração a um grande evento de computadores e mostrou o jogo a algumas editoras."
+    },
+    {
+      "id": "sentence-05-026",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Localiza início da DMA, lançamentos, demonstração editorial e pagamento em memória; datas e nomes ficam atribuídos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2314,
+      "end": 2380,
+      "phrase": "Escolheu a Psygnosis, que publicava títulos para Amiga e Atari ST."
+    },
+    {
+      "id": "sentence-05-027",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Localiza início da DMA, lançamentos, demonstração editorial e pagamento em memória; datas e nomes ficam atribuídos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2381,
+      "end": 2452,
+      "phrase": "Como pagamento inicial, recebeu um módulo de memória de dois megabytes."
+    },
+    {
+      "id": "sentence-06-028",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Marca trabalho integral, primeira contratação e escritório acima de comércio genérico; não reproduzir endereço ou fachada real. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2454,
+      "end": 2584,
+      "phrase": "Menace e Blood Money deram à DMA os primeiros lançamentos e permitiram que Jones passasse a trabalhar com jogos em tempo integral."
+    },
+    {
+      "id": "sentence-06-029",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Marca trabalho integral, primeira contratação e escritório acima de comércio genérico; não reproduzir endereço ou fachada real. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2585,
+      "end": 2725,
+      "phrase": "Ele deixou a universidade antes de concluir o curso, alugou um escritório pequeno e contratou Mike Dailly, o primeiro programador da equipe."
+    },
+    {
+      "id": "sentence-06-030",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Marca trabalho integral, primeira contratação e escritório acima de comércio genérico; não reproduzir endereço ou fachada real. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2726,
+      "end": 2796,
+      "phrase": "O espaço ficava sobre um comércio de fish-and-chips do sogro de Jones."
+    },
+    {
+      "id": "sentence-06-031",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Marca trabalho integral, primeira contratação e escritório acima de comércio genérico; não reproduzir endereço ou fachada real. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2797,
+      "end": 2908,
+      "phrase": "A operação ainda era modesta, mas já reunia pessoas, ferramentas e experiência para desenvolver jogos próprios."
+    },
+    {
+      "id": "sentence-07-032",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra colaboração e adaptação a máquinas diferentes, sem antecipar uma franquia de mundo aberto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2910,
+      "end": 2980,
+      "phrase": "Jones conheceu Dailly em meio à comunidade de programadores de Dundee."
+    },
+    {
+      "id": "sentence-07-033",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra colaboração e adaptação a máquinas diferentes, sem antecipar uma franquia de mundo aberto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 2981,
+      "end": 3070,
+      "phrase": "A DMA cresceu a partir desse grupo e de colaboradores que trocavam ideias e experimentos."
+    },
+    {
+      "id": "sentence-07-034",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra colaboração e adaptação a máquinas diferentes, sem antecipar uma franquia de mundo aberto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 3071,
+      "end": 3190,
+      "phrase": "Os primeiros jogos eram feitos por uma equipe enxuta, que também precisava adaptar seus projetos a máquinas diferentes."
+    },
+    {
+      "id": "sentence-07-035",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra colaboração e adaptação a máquinas diferentes, sem antecipar uma franquia de mundo aberto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 3191,
+      "end": 3327,
+      "phrase": "Naquele momento, não existia um plano para produzir uma franquia de mundo aberto; a próxima ideia surgiria de uma animação experimental."
+    },
+    {
+      "id": "sentence-08-036",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Explica a passagem de animação repetida a escolha de percurso e fases; sem personagem ou tela copiada. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 3330,
+      "end": 3411,
+      "phrase": "Uma animação feita por Mike Dailly no Deluxe Paint abriu o caminho para Lemmings."
+    },
+    {
+      "id": "sentence-08-037",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Explica a passagem de animação repetida a escolha de percurso e fases; sem personagem ou tela copiada. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 3412,
+      "end": 3498,
+      "phrase": "Na tela, pequenas figuras caminhavam por uma encosta até serem atingidas por uma arma."
+    },
+    {
+      "id": "sentence-08-038",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Explica a passagem de animação repetida a escolha de percurso e fases; sem personagem ou tela copiada. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 3499,
+      "end": 3628,
+      "phrase": "David Jones viu aquela repetição e pensou em transformar a cena em jogo: e se quem jogava pudesse mudar o percurso das criaturas?"
+    },
+    {
+      "id": "sentence-08-039",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Explica a passagem de animação repetida a escolha de percurso e fases; sem personagem ou tela copiada. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 3629,
+      "end": 3749,
+      "phrase": "A equipe ampliou a ideia para centenas de fases, selecionou as melhores e organizou os desafios em ordem de dificuldade."
+    },
+    {
+      "id": "sentence-09-040",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe alcance comercial e custo das conversões; números têm unidade, atribuição e contexto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 3751,
+      "end": 3834,
+      "phrase": "Lemmings chegou ao Amiga em fevereiro de 1991 e se tornou um sucesso internacional."
+    },
+    {
+      "id": "sentence-09-041",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe alcance comercial e custo das conversões; números têm unidade, atribuição e contexto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 3835,
+      "end": 3926,
+      "phrase": "Jones estimou vendas combinadas de cerca de 15 milhões de cópias em diferentes plataformas."
+    },
+    {
+      "id": "sentence-09-042",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe alcance comercial e custo das conversões; números têm unidade, atribuição e contexto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 3927,
+      "end": 4015,
+      "phrase": "O jogo passou por mais de vinte formatos, cada qual com limitações e controles próprios."
+    },
+    {
+      "id": "sentence-09-043",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe alcance comercial e custo das conversões; números têm unidade, atribuição e contexto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 4016,
+      "end": 4154,
+      "phrase": "Para a DMA, isso significava preparar versões para computadores e consoles com maneiras diferentes de mostrar a imagem e receber comandos."
+    },
+    {
+      "id": "sentence-09-044",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe alcance comercial e custo das conversões; números têm unidade, atribuição e contexto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 4155,
+      "end": 4263,
+      "phrase": "Portar Lemmings exigiu trabalho técnico em escala, enquanto a equipe também produzia expansões e sequências."
+    },
+    {
+      "id": "sentence-09-045",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe alcance comercial e custo das conversões; números têm unidade, atribuição e contexto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 4264,
+      "end": 4325,
+      "phrase": "A Psygnosis pediu uma continuação pouco depois do lançamento."
+    },
+    {
+      "id": "sentence-09-046",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe alcance comercial e custo das conversões; números têm unidade, atribuição e contexto. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 4326,
+      "end": 4466,
+      "phrase": "O primeiro jogo deu à empresa uma propriedade que podia ser ampliada, mas as conversões consumiam tempo que não era dedicado a ideias novas."
+    },
+    {
+      "id": "sentence-10-047",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra pausa editorial e procura de outra escala técnica, sem inventar conflito pessoal. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 4468,
+      "end": 4597,
+      "phrase": "Anos depois, Jones disse que a terceira versão foi apressada e seguiu numa direção que ele não considerava adequada para a série."
+    },
+    {
+      "id": "sentence-10-048",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra pausa editorial e procura de outra escala técnica, sem inventar conflito pessoal. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 4598,
+      "end": 4742,
+      "phrase": "A DMA decidiu parar de desenvolver Lemmings até encontrar uma proposta que pudesse levar o jogo adiante sem perder o que o tornava reconhecível."
+    },
+    {
+      "id": "sentence-10-049",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra pausa editorial e procura de outra escala técnica, sem inventar conflito pessoal. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 4743,
+      "end": 4866,
+      "phrase": "A saída não foi abandonar o sucesso de imediato: a equipe já tinha produzido continuações e trabalhado com vários formatos."
+    },
+    {
+      "id": "sentence-10-050",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra pausa editorial e procura de outra escala técnica, sem inventar conflito pessoal. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 4867,
+      "end": 4955,
+      "phrase": "A decisão abriu espaço para um projeto que partia de outra tecnologia e de outra escala."
+    },
+    {
+      "id": "sentence-11-051",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta cidade vista de cima, câmera, carro e ideia de perseguição; movimento explica velocidade e altura. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 4957,
+      "end": 5014,
+      "phrase": "O projeto seguinte começou com outra experiência técnica."
+    },
+    {
+      "id": "sentence-11-052",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta cidade vista de cima, câmera, carro e ideia de perseguição; movimento explica velocidade e altura. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5015,
+      "end": 5075,
+      "phrase": "A DMA já tinha um motor capaz de mostrar uma cidade de cima."
+    },
+    {
+      "id": "sentence-11-053",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta cidade vista de cima, câmera, carro e ideia de perseguição; movimento explica velocidade e altura. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5076,
+      "end": 5223,
+      "phrase": "Quando a câmera acompanhava um carro e se afastava à medida que ele acelerava, o deslocamento dos prédios dava uma sensação de velocidade e altura."
+    },
+    {
+      "id": "sentence-11-054",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta cidade vista de cima, câmera, carro e ideia de perseguição; movimento explica velocidade e altura. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5224,
+      "end": 5295,
+      "phrase": "Jones imaginou aquela visão aplicada a um jogo de perseguição policial."
+    },
+    {
+      "id": "sentence-11-055",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta cidade vista de cima, câmera, carro e ideia de perseguição; movimento explica velocidade e altura. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5296,
+      "end": 5344,
+      "phrase": "A proposta levada à BMG se chamava Race-n-Chase."
+    },
+    {
+      "id": "sentence-12-056",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe interações entre direção, missões e polícia; a lembrança de Gary Penn fica atribuída e como possibilidade. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5346,
+      "end": 5484,
+      "phrase": "Durante o desenvolvimento, a equipe percebeu que as interações entre direção, missões, carros e polícia tornavam o jogo difícil de testar."
+    },
+    {
+      "id": "sentence-12-057",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe interações entre direção, missões e polícia; a lembrança de Gary Penn fica atribuída e como possibilidade. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5485,
+      "end": 5631,
+      "phrase": "Em lembrança posterior, o ex-diretor criativo Gary Penn disse que a polícia ficou agressiva demais e que isso talvez tivesse começado como um bug."
+    },
+    {
+      "id": "sentence-12-058",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expõe interações entre direção, missões e polícia; a lembrança de Gary Penn fica atribuída e como possibilidade. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5632,
+      "end": 5744,
+      "phrase": "O projeto já previa perseguições; a resposta da polícia abriu novas possibilidades para a equipe ajustar o jogo."
+    },
+    {
+      "id": "sentence-13-059",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Liga lançamento, cidade esquemática, missões e desvios; nomes e controvérsia ficam como texto, sem ativos de jogo. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5746,
+      "end": 5804,
+      "phrase": "O nome mudou para Grand Theft Auto, e o jogo saiu em 1997."
+    },
+    {
+      "id": "sentence-13-060",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Liga lançamento, cidade esquemática, missões e desvios; nomes e controvérsia ficam como texto, sem ativos de jogo. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5805,
+      "end": 5878,
+      "phrase": "Sua cidade vista de cima combinava missões com espaço para desviar delas."
+    },
+    {
+      "id": "sentence-13-061",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Liga lançamento, cidade esquemática, missões e desvios; nomes e controvérsia ficam como texto, sem ativos de jogo. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5879,
+      "end": 5966,
+      "phrase": "A primeira versão reunia três cidades fictícias: Liberty City, Vice City e San Andreas."
+    },
+    {
+      "id": "sentence-13-062",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Liga lançamento, cidade esquemática, missões e desvios; nomes e controvérsia ficam como texto, sem ativos de jogo. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 5967,
+      "end": 6061,
+      "phrase": "Os nomes voltariam em jogos posteriores, cada um com uma representação maior e mais detalhada."
+    },
+    {
+      "id": "sentence-13-063",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Liga lançamento, cidade esquemática, missões e desvios; nomes e controvérsia ficam como texto, sem ativos de jogo. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 6062,
+      "end": 6162,
+      "phrase": "Era possível cruzar bairros, roubar carros e criar problemas sem seguir sempre o caminho mais curto."
+    },
+    {
+      "id": "sentence-13-064",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Liga lançamento, cidade esquemática, missões e desvios; nomes e controvérsia ficam como texto, sem ativos de jogo. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 6163,
+      "end": 6251,
+      "phrase": "O jogo virou alvo de campanhas de censura, incluindo a do tabloide britânico Daily Mail."
+    },
+    {
+      "id": "sentence-13-065",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Liga lançamento, cidade esquemática, missões e desvios; nomes e controvérsia ficam como texto, sem ativos de jogo. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 6252,
+      "end": 6372,
+      "phrase": "Anos depois, David Jones descreveu a campanha de divulgação como inteligente e disse que estava disposto a defender GTA."
+    },
+    {
+      "id": "sentence-13-066",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Liga lançamento, cidade esquemática, missões e desvios; nomes e controvérsia ficam como texto, sem ativos de jogo. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 6373,
+      "end": 6418,
+      "phrase": "O jogo também encontrou público e vendeu bem."
+    },
+    {
+      "id": "sentence-13-067",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Liga lançamento, cidade esquemática, missões e desvios; nomes e controvérsia ficam como texto, sem ativos de jogo. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 6419,
+      "end": 6534,
+      "phrase": "A equipe havia construído uma combinação de cidade, direção e objetivos que dava ao jogador espaço para improvisar."
+    },
+    {
+      "id": "sentence-14-068",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Demonstra a combinação de sistemas e trajetos previstos/desviados; duração é estimativa atribuída. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 6536,
+      "end": 6649,
+      "phrase": "Jones estimou que GTA levou cerca de trinta meses para ser desenvolvido, embora o plano inicial previsse dezoito."
+    },
+    {
+      "id": "sentence-14-069",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Demonstra a combinação de sistemas e trajetos previstos/desviados; duração é estimativa atribuída. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 6650,
+      "end": 6767,
+      "phrase": "Cada sistema afetava os outros, e o teste precisava considerar muitas maneiras de cumprir missões ou provocar o caos."
+    },
+    {
+      "id": "sentence-14-070",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Demonstra a combinação de sistemas e trajetos previstos/desviados; duração é estimativa atribuída. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 6768,
+      "end": 6900,
+      "phrase": "O carro podia ser uma ferramenta para chegar ao objetivo, um obstáculo para a polícia ou o ponto de partida para abandonar a missão."
+    },
+    {
+      "id": "sentence-14-071",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Demonstra a combinação de sistemas e trajetos previstos/desviados; duração é estimativa atribuída. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 6901,
+      "end": 6999,
+      "phrase": "A equipe precisava testar tanto o percurso previsto quanto os desvios que o próprio jogo permitia."
+    },
+    {
+      "id": "sentence-14-072",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Demonstra a combinação de sistemas e trajetos previstos/desviados; duração é estimativa atribuída. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7000,
+      "end": 7120,
+      "phrase": "Esse trabalho ajudou a definir a série: os objetivos davam direção, mas a cidade mantinha outras possibilidades abertas."
+    },
+    {
+      "id": "sentence-14-073",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Demonstra a combinação de sistemas e trajetos previstos/desviados; duração é estimativa atribuída. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7121,
+      "end": 7226,
+      "phrase": "Para continuar GTA, a DMA teria de preservar essa liberdade enquanto mudava escala, tecnologia e cenário."
+    },
+    {
+      "id": "sentence-15-074",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Coloca a aquisição da DMA pela Gremlin antes do lançamento e preserva a ordem dos eventos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7229,
+      "end": 7324,
+      "phrase": "Em abril de 1997, meses antes do lançamento de GTA, a Gremlin Interactive comprou a DMA Design."
+    },
+    {
+      "id": "sentence-15-075",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Coloca a aquisição da DMA pela Gremlin antes do lançamento e preserva a ordem dos eventos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7325,
+      "end": 7443,
+      "phrase": "O jogo chegou às lojas naquele mesmo ano, já dentro de um estúdio que passava a ter uma publicadora como proprietária."
+    },
+    {
+      "id": "sentence-15-076",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Coloca a aquisição da DMA pela Gremlin antes do lançamento e preserva a ordem dos eventos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7444,
+      "end": 7588,
+      "phrase": "Dave Jones disse que, na época, via a compra com bons olhos: esperava que a Gremlin fortalecesse a publicação de jogos originais no Reino Unido."
+    },
+    {
+      "id": "sentence-15-077",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Coloca a aquisição da DMA pela Gremlin antes do lançamento e preserva a ordem dos eventos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7589,
+      "end": 7633,
+      "phrase": "A mudança não encerrou o trabalho da equipe."
+    },
+    {
+      "id": "sentence-15-078",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Coloca a aquisição da DMA pela Gremlin antes do lançamento e preserva a ordem dos eventos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7634,
+      "end": 7713,
+      "phrase": "A DMA lançou expansões de GTA, entre elas London 1969, e começou uma sequência."
+    },
+    {
+      "id": "sentence-16-079",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue editora e desenvolvedora, acompanha propriedade e saída de Jones; mostrar relações e datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7715,
+      "end": 7771,
+      "phrase": "Outro movimento acontecia com os direitos de publicação."
+    },
+    {
+      "id": "sentence-16-080",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue editora e desenvolvedora, acompanha propriedade e saída de Jones; mostrar relações e datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7772,
+      "end": 7876,
+      "phrase": "A Rockstar Games foi fundada em 1998, mesmo ano em que a Take-Two adquiriu os ativos da BMG Interactive."
+    },
+    {
+      "id": "sentence-16-081",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue editora e desenvolvedora, acompanha propriedade e saída de Jones; mostrar relações e datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7877,
+      "end": 7965,
+      "phrase": "A marca editorial e a DMA eram estruturas separadas: uma publicava, a outra desenvolvia."
+    },
+    {
+      "id": "sentence-16-082",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue editora e desenvolvedora, acompanha propriedade e saída de Jones; mostrar relações e datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 7966,
+      "end": 8053,
+      "phrase": "Quando a Infogrames comprou a Gremlin, em 1999, Jones decidiu sair e começar algo novo."
+    },
+    {
+      "id": "sentence-16-083",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue editora e desenvolvedora, acompanha propriedade e saída de Jones; mostrar relações e datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8054,
+      "end": 8115,
+      "phrase": "Mais tarde naquele ano, a Infogrames vendeu a DMA à Take-Two."
+    },
+    {
+      "id": "sentence-16-084",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue editora e desenvolvedora, acompanha propriedade e saída de Jones; mostrar relações e datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8116,
+      "end": 8244,
+      "phrase": "O estúdio que fazia GTA e a editora que controlava sua publicação passaram, assim, a fazer parte da mesma estrutura empresarial."
+    },
+    {
+      "id": "sentence-17-085",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Separa consideração nominal, empréstimo e passivos em categorias; não somar cifras distintas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8246,
+      "end": 8348,
+      "phrase": "A venda da DMA à Take-Two costuma ser resumida como uma compra por uma libra, valor nominal das ações."
+    },
+    {
+      "id": "sentence-17-086",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Separa consideração nominal, empréstimo e passivos em categorias; não somar cifras distintas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8349,
+      "end": 8416,
+      "phrase": "O contrato previa também a quitação de um empréstimo de £3.251.703."
+    },
+    {
+      "id": "sentence-17-087",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Separa consideração nominal, empréstimo e passivos em categorias; não somar cifras distintas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8417,
+      "end": 8526,
+      "phrase": "Já o relatório financeiro da Take-Two registrou cerca de US$ 12,3 milhões em passivos assumidos na aquisição."
+    },
+    {
+      "id": "sentence-17-088",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Separa consideração nominal, empréstimo e passivos em categorias; não somar cifras distintas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8527,
+      "end": 8629,
+      "phrase": "As cifras vêm de documentos e categorias diferentes e não devem ser somadas como pagamentos separados."
+    },
+    {
+      "id": "sentence-17-089",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Separa consideração nominal, empréstimo e passivos em categorias; não somar cifras distintas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8630,
+      "end": 8678,
+      "phrase": "A libra, sozinha, não descreve o acordo inteiro."
+    },
+    {
+      "id": "sentence-18-090",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Percorre GTA 2 e GTA III até a mudança de nome; a passagem de vista superior a 3D é central. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8680,
+      "end": 8721,
+      "phrase": "GTA 2 saiu em 1999 com o nome DMA Design."
+    },
+    {
+      "id": "sentence-18-091",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Percorre GTA 2 e GTA III até a mudança de nome; a passagem de vista superior a 3D é central. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8722,
+      "end": 8810,
+      "phrase": "As expansões London 1969 e London 1961 levaram a série a uma versão fictícia de Londres."
+    },
+    {
+      "id": "sentence-18-092",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Percorre GTA 2 e GTA III até a mudança de nome; a passagem de vista superior a 3D é central. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8811,
+      "end": 8919,
+      "phrase": "Grand Theft Auto III chegou em 2001, levou a série ao PlayStation 2 e apresentou a cidade em três dimensões."
+    },
+    {
+      "id": "sentence-18-093",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Percorre GTA 2 e GTA III até a mudança de nome; a passagem de vista superior a 3D é central. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8920,
+      "end": 8949,
+      "phrase": "Jones já tinha deixado a DMA."
+    },
+    {
+      "id": "sentence-18-094",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Percorre GTA 2 e GTA III até a mudança de nome; a passagem de vista superior a 3D é central. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 8950,
+      "end": 9003,
+      "phrase": "Em 2002, o estúdio passou a se chamar Rockstar North."
+    },
+    {
+      "id": "sentence-19-095",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Contrasta vista total e exploração ao nível da calçada; a câmera revela esquina, rota e marcos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9005,
+      "end": 9078,
+      "phrase": "Na vista superior, o jogador enxergava boa parte da cidade de uma só vez."
+    },
+    {
+      "id": "sentence-19-096",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Contrasta vista total e exploração ao nível da calçada; a câmera revela esquina, rota e marcos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9079,
+      "end": 9145,
+      "phrase": "Em GTA III, ruas e prédios apareciam a partir do nível da calçada."
+    },
+    {
+      "id": "sentence-19-097",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Contrasta vista total e exploração ao nível da calçada; a câmera revela esquina, rota e marcos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9146,
+      "end": 9298,
+      "phrase": "A próxima esquina escondia o que vinha depois; um carro podia ser perseguido ao longo de quarteirões; uma missão levava o jogador a outro ponto do mapa."
+    },
+    {
+      "id": "sentence-19-098",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Contrasta vista total e exploração ao nível da calçada; a câmera revela esquina, rota e marcos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9299,
+      "end": 9409,
+      "phrase": "A exploração passou a depender dos marcos que apareciam pelo caminho e do que o jogador encontrava ao avançar."
+    },
+    {
+      "id": "sentence-19-099",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Contrasta vista total e exploração ao nível da calçada; a câmera revela esquina, rota e marcos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9410,
+      "end": 9503,
+      "phrase": "A mudança alterou a maneira de conhecer a cidade e de descobrir atividades durante o trajeto."
+    },
+    {
+      "id": "sentence-20-100",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expande a geografia para cidades e áreas rurais; não usar mapas ou trilhas protegidos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9505,
+      "end": 9596,
+      "phrase": "Vice City, em 2002, levou a série a uma cidade fictícia inspirada em Miami e nos anos 1980."
+    },
+    {
+      "id": "sentence-20-101",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expande a geografia para cidades e áreas rurais; não usar mapas ou trilhas protegidos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9597,
+      "end": 9723,
+      "phrase": "San Andreas, em 2004, expandiu o espaço para três cidades — Los Santos, San Fierro e Las Venturas — e áreas rurais entre elas."
+    },
+    {
+      "id": "sentence-20-102",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expande a geografia para cidades e áreas rurais; não usar mapas ou trilhas protegidos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9724,
+      "end": 9865,
+      "phrase": "Cada lançamento alterou o cenário, a música e o tom, enquanto mantinha a mistura de missões e liberdade que havia distinguido o primeiro GTA."
+    },
+    {
+      "id": "sentence-20-103",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Expande a geografia para cidades e áreas rurais; não usar mapas ou trilhas protegidos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9866,
+      "end": 9989,
+      "phrase": "O mapa deixou de ser só o lugar entre uma missão e outra: passou a carregar diferenças entre bairros, paisagens e trajetos."
+    },
+    {
+      "id": "sentence-21-104",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta outras séries por títulos e gêneros, sem logos, capas, personagens ou gameplay. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 9992,
+      "end": 10064,
+      "phrase": "A Rockstar também publicou jogos de outros estúdios e em outros gêneros."
+    },
+    {
+      "id": "sentence-21-105",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta outras séries por títulos e gêneros, sem logos, capas, personagens ou gameplay. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 10065,
+      "end": 10201,
+      "phrase": "Max Payne, desenvolvido pela Remedy, contou uma história de vingança em forma de jogo de ação e ficou conhecido pelo uso do bullet time."
+    },
+    {
+      "id": "sentence-21-106",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta outras séries por títulos e gêneros, sem logos, capas, personagens ou gameplay. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 10202,
+      "end": 10297,
+      "phrase": "Manhunt e Bully seguiram caminhos próprios, com histórias e espaços diferentes daqueles de GTA."
+    },
+    {
+      "id": "sentence-21-107",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta outras séries por títulos e gêneros, sem logos, capas, personagens ou gameplay. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 10298,
+      "end": 10360,
+      "phrase": "Red Dead Redemption levou a Rockstar a um cenário de faroeste."
+    },
+    {
+      "id": "sentence-21-108",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta outras séries por títulos e gêneros, sem logos, capas, personagens ou gameplay. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 10361,
+      "end": 10547,
+      "phrase": "Esse catálogo ampliou o trabalho da editora e mostrou que seus lançamentos também podiam partir de outros gêneros e períodos, embora GTA continuasse sendo o nome que mais atraía atenção."
+    },
+    {
+      "id": "sentence-22-109",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Conecta tentativa de aquisição frustrada à expansão em 3D e a Red Dead, preservando datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 10549,
+      "end": 10602,
+      "phrase": "Em 2008, a Electronic Arts tentou comprar a Take-Two."
+    },
+    {
+      "id": "sentence-22-110",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Conecta tentativa de aquisição frustrada à expansão em 3D e a Red Dead, preservando datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 10603,
+      "end": 10696,
+      "phrase": "A diretoria recusou a oferta e ela expirou sem aquisição; a Take-Two permaneceu independente."
+    },
+    {
+      "id": "sentence-22-111",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Conecta tentativa de aquisição frustrada à expansão em 3D e a Red Dead, preservando datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 10697,
+      "end": 10833,
+      "phrase": "No mesmo ano, GTA IV levou a série de volta a Liberty City, agora com uma cidade detalhada em 3D e uma história centrada em Niko Bellic."
+    },
+    {
+      "id": "sentence-22-112",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Conecta tentativa de aquisição frustrada à expansão em 3D e a Red Dead, preservando datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 10834,
+      "end": 10958,
+      "phrase": "A escala visual mudou, mas a série continuou a combinar uma história principal com atividades espalhadas pelo espaço urbano."
+    },
+    {
+      "id": "sentence-22-113",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Conecta tentativa de aquisição frustrada à expansão em 3D e a Red Dead, preservando datas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 10959,
+      "end": 11020,
+      "phrase": "Red Dead Redemption chegou em 2010, e sua sequência, em 2018."
+    },
+    {
+      "id": "sentence-23-114",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra três perspectivas no mesmo território; personagens são marcadores genéricos sem semelhança com os jogos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11022,
+      "end": 11171,
+      "phrase": "Voltando a 2013, GTA V reuniu três protagonistas numa região fictícia inspirada no sul da Califórnia, com Los Santos, praias, colinas e áreas rurais."
+    },
+    {
+      "id": "sentence-23-115",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra três perspectivas no mesmo território; personagens são marcadores genéricos sem semelhança com os jogos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11172,
+      "end": 11295,
+      "phrase": "O jogador podia alternar entre Michael, Franklin e Trevor, acompanhando partes diferentes da história dentro do mesmo mapa."
+    },
+    {
+      "id": "sentence-23-116",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra três perspectivas no mesmo território; personagens são marcadores genéricos sem semelhança com os jogos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11296,
+      "end": 11416,
+      "phrase": "Essa estrutura permitia mostrar o mesmo território por meio de personagens com rotinas, relações e objetivos diferentes."
+    },
+    {
+      "id": "sentence-23-117",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra três perspectivas no mesmo território; personagens são marcadores genéricos sem semelhança com os jogos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11417,
+      "end": 11533,
+      "phrase": "As missões cruzavam áreas urbanas e rurais, e a troca de protagonista mudava o ponto de partida de várias situações."
+    },
+    {
+      "id": "sentence-24-118",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra continuidade do mapa, atualizações e venda ao varejo; sold-in não significa pessoas ou jogadores ativos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11535,
+      "end": 11596,
+      "phrase": "GTA Online prolongou o uso daquele espaço depois da campanha."
+    },
+    {
+      "id": "sentence-24-119",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra continuidade do mapa, atualizações e venda ao varejo; sold-in não significa pessoas ou jogadores ativos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11597,
+      "end": 11694,
+      "phrase": "Atualizações acrescentaram atividades e mantiveram o mundo como ponto de encontro para jogadores."
+    },
+    {
+      "id": "sentence-24-120",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra continuidade do mapa, atualizações e venda ao varejo; sold-in não significa pessoas ou jogadores ativos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11695,
+      "end": 11771,
+      "phrase": "O jogo atravessou gerações de consoles e continuou vendendo por muitos anos."
+    },
+    {
+      "id": "sentence-24-121",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra continuidade do mapa, atualizações e venda ao varejo; sold-in não significa pessoas ou jogadores ativos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11772,
+      "end": 11898,
+      "phrase": "Em agosto de 2026, a Take-Two informou que GTA V havia ultrapassado 230 milhões de unidades vendidas ao canal de distribuição."
+    },
+    {
+      "id": "sentence-24-122",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra continuidade do mapa, atualizações e venda ao varejo; sold-in não significa pessoas ou jogadores ativos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11899,
+      "end": 11987,
+      "phrase": "A métrica registra unidades vendidas ao varejo, não pessoas únicas nem jogadores ativos."
+    },
+    {
+      "id": "sentence-24-123",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Mostra continuidade do mapa, atualizações e venda ao varejo; sold-in não significa pessoas ou jogadores ativos. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 11988,
+      "end": 12128,
+      "phrase": "O total não revela quantas pessoas jogaram, mas mostra como um lançamento de 2013 permaneceu no catálogo comercial da Rockstar durante anos."
+    },
+    {
+      "id": "sentence-25-124",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue material interno vazado de apresentação final e organiza anúncios por data; sem screenshots ou trailer. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12131,
+      "end": 12234,
+      "phrase": "Em 2022, uma intrusão levou à divulgação de material interno do desenvolvimento de Grand Theft Auto VI."
+    },
+    {
+      "id": "sentence-25-125",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue material interno vazado de apresentação final e organiza anúncios por data; sem screenshots ou trailer. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12235,
+      "end": 12325,
+      "phrase": "A Take-Two informou à SEC que arquivos haviam sido acessados e publicados sem autorização."
+    },
+    {
+      "id": "sentence-25-126",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue material interno vazado de apresentação final e organiza anúncios por data; sem screenshots ou trailer. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12326,
+      "end": 12405,
+      "phrase": "As imagens mostravam trabalho em andamento, não uma apresentação final do jogo."
+    },
+    {
+      "id": "sentence-25-127",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue material interno vazado de apresentação final e organiza anúncios por data; sem screenshots ou trailer. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12406,
+      "end": 12510,
+      "phrase": "Em dezembro de 2023, a Rockstar publicou o primeiro trailer oficial, que apresentou Leonida e Vice City."
+    },
+    {
+      "id": "sentence-25-128",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Distingue material interno vazado de apresentação final e organiza anúncios por data; sem screenshots ou trailer. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12511,
+      "end": 12605,
+      "phrase": "O segundo, em maio de 2025, mostrou mais do cenário e ampliou a apresentação de Lucia e Jason."
+    },
+    {
+      "id": "sentence-26-129",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra adiamentos históricos e efeito no calendário, sem prometer data futura. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12607,
+      "end": 12696,
+      "phrase": "Em maio de 2025, a Rockstar adiou o lançamento para ter mais tempo de concluir o projeto."
+    },
+    {
+      "id": "sentence-26-130",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra adiamentos históricos e efeito no calendário, sem prometer data futura. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12697,
+      "end": 12797,
+      "phrase": "Em novembro daquele ano, anunciou outro adiamento e voltou a justificar a necessidade de acabamento."
+    },
+    {
+      "id": "sentence-26-131",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Registra adiamentos históricos e efeito no calendário, sem prometer data futura. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12798,
+      "end": 12905,
+      "phrase": "Cada comunicado mudou as expectativas sobre o calendário e prolongou a espera entre apresentações oficiais."
+    },
+    {
+      "id": "sentence-27-132",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta debate trabalhista com escopo, duração e atribuição; relatos diversos não são generalizados. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12907,
+      "end": 12998,
+      "phrase": "O debate sobre condições de trabalho na Rockstar também tem um histórico anterior a GTA VI."
+    },
+    {
+      "id": "sentence-27-133",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta debate trabalhista com escopo, duração e atribuição; relatos diversos não são generalizados. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 12999,
+      "end": 13129,
+      "phrase": "Em 2018, uma declaração de Dan Houser sobre semanas de cem horas durante a produção de Red Dead Redemption 2 gerou reação pública."
+    },
+    {
+      "id": "sentence-27-134",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta debate trabalhista com escopo, duração e atribuição; relatos diversos não são generalizados. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 13130,
+      "end": 13262,
+      "phrase": "Houser esclareceu que se referia à equipe sênior de roteiristas por um período de três semanas, não a todos os estúdios da Rockstar."
+    },
+    {
+      "id": "sentence-27-135",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta debate trabalhista com escopo, duração e atribuição; relatos diversos não são generalizados. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 13263,
+      "end": 13472,
+      "phrase": "Uma reportagem da Kotaku ouviu dezenas de funcionários atuais e antigos, que descreveram experiências diferentes: alguns relataram períodos longos de trabalho e outros falaram de uma experiência mais positiva."
+    },
+    {
+      "id": "sentence-27-136",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Apresenta debate trabalhista com escopo, duração e atribuição; relatos diversos não são generalizados. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 13473,
+      "end": 13555,
+      "phrase": "A discussão não permite presumir que todos os funcionários viveram a mesma rotina."
+    },
+    {
+      "id": "sentence-28-137",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Recapitula equipe, série e mudança empresarial, sem adicionar afirmações novas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 13558,
+      "end": 13611,
+      "phrase": "David Jones comprou um Amiga para seguir programando."
+    },
+    {
+      "id": "sentence-28-138",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Recapitula equipe, série e mudança empresarial, sem adicionar afirmações novas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 13612,
+      "end": 13775,
+      "phrase": "Em Dundee, a DMA lançou Menace e Blood Money, transformou uma animação de Mike Dailly em Lemmings e levou a ideia de uma cidade vista de cima até Grand Theft Auto."
+    },
+    {
+      "id": "sentence-28-139",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Recapitula equipe, série e mudança empresarial, sem adicionar afirmações novas. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 13776,
+      "end": 13909,
+      "phrase": "Jones deixou o estúdio, mas a equipe continuou a série; depois, a Take-Two reuniu a DMA e a marca Rockstar dentro da mesma estrutura."
+    },
+    {
+      "id": "sentence-29-140",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Fecha o arco entre percurso pequeno e cidade, com pausa para a pergunta final. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 13911,
+      "end": 13973,
+      "phrase": "No começo, a escolha era desviar pequenas figuras de uma fase."
+    },
+    {
+      "id": "sentence-29-141",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Fecha o arco entre percurso pequeno e cidade, com pausa para a pergunta final. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 13974,
+      "end": 14039,
+      "phrase": "Em GTA, passou a ser escolher por onde cruzar uma cidade inteira."
+    },
+    {
+      "id": "sentence-29-142",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Fecha o arco entre percurso pequeno e cidade, com pausa para a pergunta final. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 14040,
+      "end": 14117,
+      "phrase": "A história da DMA até a Rockstar amplia esse gesto em cada mudança de escala."
+    },
+    {
+      "id": "sentence-29-143",
+      "action": "ignore",
+      "reason": "Triagem semântica da frase inteira: Fecha o arco entre percurso pequeno e cidade, com pausa para a pergunta final. Não requer um objeto autônomo; seu contexto, ação e relações visuais são cobertos pelos requisitos específicos do parágrafo e pelas cartelas quando necessárias.",
+      "start": 14118,
+      "end": 14181,
+      "phrase": "Que tipo de escolha aparece quando o mapa ganha outra dimensão?"
+    },
+    {
+      "id": "retro-computers",
+      "action": "create",
+      "kind": "object",
+      "label": "Computadores domésticos de época",
+      "specification": "Conjunto modular de microcomputadores e periféricos genéricos do fim dos anos 1970/1980, com variações de silhueta para máquinas compartilhadas, kit ZX81, Sinclair e computador 16-bit. Sem logos, interface reconhecível ou alegação de réplica exata.",
+      "reason": "Objeto causal da abertura e do fechamento; variantes evitam um asset por modelo.",
+      "start": 115,
+      "end": 143,
+      "phrase": "um Commodore Amiga importado",
+      "variant": "16-bit"
+    },
+    {
+      "id": "programming-club-scene",
+      "action": "create",
+      "kind": "scene",
+      "label": "Encontro de programação em Dundee",
+      "specification": "Sala comunitária original de época com mesas compartilhadas, computadores genéricos e pequenos grupos demonstrando experimentos. Não identificar instituição nem usar software reconhecível.",
+      "reason": "Dá contexto ao aprendizado e à troca de demos sem inventar uma escola específica.",
+      "start": 993,
+      "end": 1030,
+      "phrase": "encontros de um clube de computadores",
+      "variant": "club-demo"
+    },
+    {
+      "id": "period-computing-light",
+      "action": "create",
+      "kind": "lighting",
+      "label": "Luz de oficina e computação de época",
+      "specification": "Setup reutilizável para oficina/sala de computação fim dos anos 1970–1980: práticas localizadas, contraste moderado e tela sem brilho que compita com legenda.",
+      "reason": "Unifica ambientes antigos e preserva legibilidade em celular.",
+      "start": 1434,
+      "end": 1460,
+      "phrase": "Antes de entrar na fábrica",
+      "variant": "workshop"
+    },
+    {
+      "id": "retro-computer-material",
+      "action": "create",
+      "kind": "material",
+      "label": "Materiais de microcomputador e papel de época",
+      "specification": "Plástico neutro, vidro de CRT sem conteúdo legível e papel técnico; sem logos, desgaste dramático ou marca inventada.",
+      "reason": "Silhueta e material comunicam época sem copiar produto comercial.",
+      "start": 1379,
+      "end": 1395,
+      "phrase": "unidades de fita",
+      "variant": "computer-shell"
+    },
+    {
+      "id": "retro-computer-sound",
+      "action": "create",
+      "kind": "sound",
+      "label": "Sons discretos de computador mecânico",
+      "specification": "Camada original curta de teclas, botão e acionamento de unidade, sem bipes reconhecíveis ou som de marca; entradas/saídas pontuam ações e permanecem abaixo da locução.",
+      "reason": "O roteiro menciona operação de equipamento; o áudio não simula som original de produto.",
+      "start": 1365,
+      "end": 1432,
+      "phrase": "trabalhou com unidades de fita, microdrives e computadores Sinclair"
+    },
+    {
+      "id": "history-timeline-overlay",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Linha do tempo editorial e cartelas de evidência",
+      "specification": "Gráfico tipográfico original para datas, nomes, publicações e mudanças de estrutura, com fonte, unidade e pausa de leitura em celular; variantes para cronologia e ficha factual curta; sem logos/documentos protegidos.",
+      "reason": "Uma capacidade compartilhada cobre várias décadas e separa data, fonte e interpretação.",
+      "start": 1941,
+      "end": 1970,
+      "phrase": "ele situa esse início em 1987"
+    },
+    {
+      "id": "dma-upstairs-office",
+      "action": "create",
+      "kind": "scene",
+      "label": "Escritório pequeno acima de um comércio",
+      "specification": "Sala compacta de desenvolvimento no pavimento superior e loja genérica abaixo; a relação vertical fica visível. Não representar endereço/fachada real. Compor com a loja do catálogo.",
+      "reason": "É um detalhe narrativo confirmado que dá escala à equipe.",
+      "baselineIds": [
+        "loja"
+      ],
+      "start": 2638,
+      "end": 2666,
+      "phrase": "alugou um escritório pequeno",
+      "variant": "shop-and-office"
+    },
+    {
+      "id": "anonymous-developer-figure",
+      "action": "create",
+      "kind": "character",
+      "label": "Figura genérica de programador",
+      "specification": "Personagem original, não identificável e com roupa neutra; sem retrato, rosto, corpo ou vestuário de qualquer pessoa nomeada.",
+      "reason": "Mostra uma equipe pequena sem inventar semelhanças biográficas.",
+      "start": 2692,
+      "end": 2724,
+      "phrase": "o primeiro programador da equipe"
+    },
+    {
+      "id": "platform-porting-animation",
+      "action": "create",
+      "kind": "animation",
+      "label": "Adaptação visual entre plataformas",
+      "specification": "Transformar um mesmo quadro abstrato entre formatos de tela e controles simplificados; sample(t) determinístico, sem interface de jogo ou console licenciado.",
+      "reason": "Torna visível o trabalho de conversão entre máquinas.",
+      "start": 3146,
+      "end": 3189,
+      "phrase": "adaptar seus projetos a máquinas diferentes"
+    },
+    {
+      "id": "abstract-agent-route",
+      "action": "create",
+      "kind": "animation",
+      "label": "Percurso abstrato que se torna jogável",
+      "specification": "Pequenos marcadores geométricos sem rosto/roupa caminham, encontram obstáculo, recebem rota alternativa e avançam por fases de dificuldade crescente. Sem semelhança com Lemmings ou sua interface; entrada, pausa e saída legíveis.",
+      "reason": "A passagem de animação repetida para escolha de percurso é a causa narrativa.",
+      "start": 3330,
+      "end": 3380,
+      "phrase": "Uma animação feita por Mike Dailly no Deluxe Paint",
+      "variant": "diverted-path"
+    },
+    {
+      "id": "platform-scale-overlay",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Cartela de formatos e versões",
+      "specification": "Gráfico original com contagem atribuída de plataformas/conversões, sem logos/capas/ícones comerciais; não confundir formatos com cópias ou usuários. Alto contraste e pausa legível.",
+      "reason": "Expõe escala de conversão e unidade do número.",
+      "start": 3945,
+      "end": 3967,
+      "phrase": "mais de vinte formatos"
+    },
+    {
+      "id": "abstract-overhead-city",
+      "action": "create",
+      "kind": "scene",
+      "label": "Cidade esquemática vista de cima",
+      "specification": "Ambiente original de quadras, cruzamentos e volumes simples, sem copiar cidade/mapa de GTA. Usar ruas, edifícios e veículos genéricos.",
+      "reason": "É o elo visual entre ferramenta técnica e Race-n-Chase.",
+      "baselineIds": [
+        "rua_reta",
+        "arranha_ceu",
+        "carro_sedan"
+      ],
+      "start": 5030,
+      "end": 5074,
+      "phrase": "um motor capaz de mostrar uma cidade de cima"
+    },
+    {
+      "id": "overhead-follow-camera",
+      "action": "create",
+      "kind": "camera",
+      "label": "Câmera acompanha e abre sobre o mapa",
+      "specification": "Seguir veículo genérico, recuar e subir gradualmente; deslocamento dos volumes explica velocidade/altura. Movimento determinístico em qualquer ordem, com margem para legenda.",
+      "reason": "A mudança da câmera explica o efeito que levou à ideia de perseguição.",
+      "baselineIds": [
+        "carro_sedan"
+      ],
+      "start": 5083,
+      "end": 5126,
+      "phrase": "a câmera acompanhava um carro e se afastava"
+    },
+    {
+      "id": "pursuit-feedback-effect",
+      "action": "create",
+      "kind": "effect",
+      "label": "Relação entre rota, perseguição e resposta",
+      "specification": "Realçar carro e rota; linha de perseguição entra por trás, resposta do sistema aparece depois e pausa durante a lembrança atribuída. Retirar após a relação ficar clara. Sem violência, uniforme ou afirmar que foi bug.",
+      "reason": "Deve mostrar interação e preservar a incerteza relatada por Gary Penn.",
+      "start": 5666,
+      "end": 5743,
+      "phrase": "a resposta da polícia abriu novas possibilidades para a equipe ajustar o jogo"
+    },
+    {
+      "id": "topdown-to-street-transition",
+      "action": "create",
+      "kind": "transition",
+      "label": "Transição de mapa plano para cidade 3D",
+      "specification": "Quadras vistas de cima ganham altura; câmera desce à calçada e revela a próxima esquina. Cenário genérico, sem mapa, interface ou marca de jogo; termina estável para o próximo beat.",
+      "reason": "É a virada formal de GTA III destacada na narrativa.",
+      "baselineIds": [
+        "rua_reta",
+        "arranha_ceu",
+        "predio_apartamentos"
+      ],
+      "start": 8881,
+      "end": 8918,
+      "phrase": "apresentou a cidade em três dimensões"
+    },
+    {
+      "id": "publisher-developer-relations",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Diagrama de editoras, estúdios e aquisições",
+      "specification": "Nós e conexões com datas, separando publicadora e desenvolvedora; revelar uma relação por vez e deixar estrutura resultante visível. Nomes factuais, sem logos e sem fundir entidades antes da data correta.",
+      "reason": "A história empresarial exige mostrar quem publica, quem desenvolve e quando muda.",
+      "start": 7877,
+      "end": 7928,
+      "phrase": "A marca editorial e a DMA eram estruturas separadas"
+    },
+    {
+      "id": "acquisition-financial-evidence",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Cartela de categorias financeiras da aquisição",
+      "specification": "Separar £1 nominal, quitação de empréstimo de £3.251.703 e cerca de US$ 12,3 milhões em passivos assumidos, com moeda/documento/categoria. Não somar nem representar como pagamentos independentes. Fonte e ressalva legíveis no celular.",
+      "reason": "A composição corrige explicitamente uma simplificação e evita soma incorreta.",
+      "start": 8246,
+      "end": 8292,
+      "phrase": "A venda da DMA à Take-Two costuma ser resumida"
+    },
+    {
+      "id": "regional-world-expansion",
+      "action": "create",
+      "kind": "animation",
+      "label": "Expansão de mapa urbano para região",
+      "specification": "Conectar núcleos urbanos genéricos a costa, colinas e zonas rurais; rotas/distâncias legíveis, sem geografia ou mapa de jogo. Movimento determinístico.",
+      "reason": "Mostra crescimento territorial e variedade descritos pela narração.",
+      "baselineIds": [
+        "rua_reta",
+        "chao",
+        "arvore_redonda",
+        "palmeira",
+        "carro_sedan"
+      ],
+      "start": 9619,
+      "end": 9654,
+      "phrase": "expandiu o espaço para três cidades"
+    },
+    {
+      "id": "portfolio-title-overlay",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Catálogo tipográfico de séries e gêneros",
+      "specification": "Cartelas tipográficas com títulos narrados e estúdios/gêneros, sem logotipos, capas, gameplay, personagens ou screenshots; agrupamento discreto e tempo de leitura.",
+      "reason": "Amplia o catálogo sem depender de imagens protegidas.",
+      "start": 9992,
+      "end": 10063,
+      "phrase": "A Rockstar também publicou jogos de outros estúdios e em outros gêneros",
+      "variant": "catalog-grid"
+    },
+    {
+      "id": "three-anonymous-viewpoints",
+      "action": "create",
+      "kind": "character",
+      "label": "Três figuras narrativas genéricas",
+      "specification": "Três silhuetas abstratas de cores distintas, sem semelhança de rosto, corpo, roupa ou pose com personagens de jogos. Marcam perspectivas sobre o mesmo mapa, sem recriar protagonistas.",
+      "reason": "Representa estrutura de três pontos de vista sem copiar personagens.",
+      "start": 11052,
+      "end": 11122,
+      "phrase": "três protagonistas numa região fictícia inspirada no sul da Califórnia"
+    },
+    {
+      "id": "shared-map-viewpoint-switch",
+      "action": "create",
+      "kind": "animation",
+      "label": "Transferência entre perspectivas no mesmo mapa",
+      "specification": "Foco alterna entre três marcadores genéricos com rotas/rotinas próprias sobre território constante; mostra mudança de ponto de partida e cruzamento de trajetos. Sem interface; entrada, pausa e saída.",
+      "reason": "A troca muda o ponto de vista, não o território.",
+      "start": 11172,
+      "end": 11229,
+      "phrase": "O jogador podia alternar entre Michael, Franklin e Trevor"
+    },
+    {
+      "id": "persistent-world-updates",
+      "action": "create",
+      "kind": "animation",
+      "label": "Camadas de atualização sobre o mesmo território",
+      "specification": "Manter mapa original estável e adicionar módulos de atividade ao longo do tempo; cada adição tem pausa antes da próxima. Sem simular interface, servidor ou logotipo.",
+      "reason": "Mostra continuidade do espaço e atualização por anos.",
+      "start": 11535,
+      "end": 11595,
+      "phrase": "GTA Online prolongou o uso daquele espaço depois da campanha"
+    },
+    {
+      "id": "sales-metric-sold-in",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Métrica comercial com definição de sold-in",
+      "specification": "Número com unidade, período e fonte; explicitar venda ao varejo/distribuição (sold-in), sem equivaler a jogadores ou pessoas. Contraste e tempo legível em celular.",
+      "reason": "Evita interpretar o total como jogadores ativos.",
+      "start": 11827,
+      "end": 11897,
+      "phrase": "ultrapassado 230 milhões de unidades vendidas ao canal de distribuição"
+    },
+    {
+      "id": "development-material-disclosure",
+      "action": "create",
+      "kind": "effect",
+      "label": "Fluxo de material de desenvolvimento divulgado",
+      "specification": "Diagrama abstrato de arquivos internos saindo de área privada e tornando-se públicos; revelar direção, pausar no marco de divulgação e retirar. Sem códigos, instruções, telas ou imagens vazadas.",
+      "reason": "Comunica vazamento e consequência sem reutilizar material divulgado.",
+      "start": 12140,
+      "end": 12191,
+      "phrase": "uma intrusão levou à divulgação de material interno"
+    },
+    {
+      "id": "work-conditions-evidence",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Cartela de evidência sobre jornadas e relatos",
+      "specification": "Atribuir 100 horas; contextualizar equipe sênior de roteiristas e três semanas, depois resumir relatos diversos em bloco separado. Citar fontes; não generalizar nem dramatizar com pessoas/relógios.",
+      "reason": "Preserva escopo, atribuição e divergência de relatos.",
+      "start": 13008,
+      "end": 13063,
+      "phrase": "uma declaração de Dan Houser sobre semanas de cem horas"
+    },
+    {
+      "id": "closing-choice-scale-transition",
+      "action": "create",
+      "kind": "transition",
+      "label": "Retorno da pequena rota à cidade inteira",
+      "specification": "Retomar percurso abstrato e expandir até cidade original; movimento detalhe-plano amplo, pausa legível para pergunta final e quadro estável. Sem mapa de jogo.",
+      "reason": "Fecha o arco visual da escolha de caminho até a escolha de trajeto urbano.",
+      "start": 14040,
+      "end": 14090,
+      "phrase": "A história da DMA até a Rockstar amplia esse gesto"
+    },
+    {
+      "id": "reuse-generic-factory",
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "galpao",
+      "reason": "Volume genérico de fábrica; a variante azul indica somente a paleta industrial, sem alegar que reproduz o edifício histórico da Timex.",
+      "start": 27,
+      "end": 43,
+      "phrase": "fábrica da Timex",
+      "variant": "azul"
+    },
+    {
+      "id": "reuse-generic-shop",
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "loja",
+      "reason": "Comércio genérico sob o escritório. A variante padaria é apenas uma paleta do catálogo; não exibir nome/ramo legível nem sugerir que o local histórico era uma padaria.",
+      "start": 2751,
+      "end": 2777,
+      "phrase": "comércio de fish-and-chips",
+      "variant": "padaria"
+    },
+    {
+      "id": "reuse-generic-car",
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "carro_sedan",
+      "reason": "Sedã azul genérico para a revelação urbana; sem marca ou aparência de jogo.",
+      "start": 5104,
+      "end": 5126,
+      "phrase": "um carro e se afastava",
+      "variant": "azul"
+    },
+    {
+      "id": "reuse-generic-road",
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "rua_reta",
+      "reason": "Rua larga para dar espaço legível à câmera e ao carro; sem mapa ou quadra de jogo.",
+      "start": 9091,
+      "end": 9115,
+      "phrase": "ruas e prédios apareciam",
+      "variant": "larga"
+    },
+    {
+      "id": "reuse-generic-building",
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "predio_apartamentos",
+      "reason": "Prédio residencial alto para a revelação ao nível da calçada; sem fachada ou localização real.",
+      "start": 9098,
+      "end": 9115,
+      "phrase": "prédios apareciam",
+      "variant": "alto"
+    },
+    {
+      "id": "reuse-historical-label",
+      "action": "reuse",
+      "kind": "overlay",
+      "assetId": "identificacao_historica",
+      "reason": "Rótulo padrão de nome/data; a cronologia completa será recurso original separado.",
+      "start": 2078,
+      "end": 2085,
+      "phrase": "em 1988",
+      "variant": "padrao"
+    },
+    {
+      "id": "lexical-false-3511",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "olhar_horizonte",
+        "orientacao_observador"
+      ],
+      "reason": "O verbo “viu” descreve percepção de Jones; não significa olhar para horizonte nem orientação marítima.",
+      "start": 3511,
+      "end": 3514,
+      "phrase": "viu"
+    },
+    {
+      "id": "lexical-false-3870",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "cerca"
+      ],
+      "reason": "“cerca de 15 milhões” é aproximação numérica, não cerca física; o número pertence à cartela de dados.",
+      "start": 3870,
+      "end": 3875,
+      "phrase": "cerca"
+    },
+    {
+      "id": "lexical-false-6564",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "cerca"
+      ],
+      "reason": "“cerca de trinta meses” é duração aproximada, não cerca física; manter estimativa atribuída.",
+      "start": 6564,
+      "end": 6569,
+      "phrase": "cerca"
+    },
+    {
+      "id": "lexical-false-8465",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "cerca"
+      ],
+      "reason": "“cerca de US$ 12,3 milhões” é aproximação financeira, não cerca física; separar na cartela de aquisição.",
+      "start": 8465,
+      "end": 8470,
+      "phrase": "cerca"
+    },
+    {
+      "id": "lexical-false-10113",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "atlas_historico_relevo"
+      ],
+      "reason": "“uma história de vingança” designa enredo, não atlas/relevo geográfico.",
+      "start": 10113,
+      "end": 10121,
+      "phrase": "história"
+    },
+    {
+      "id": "lexical-false-10137",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "forma"
+      ],
+      "reason": "“em forma de jogo” significa formato narrativo, não o asset geométrico forma.",
+      "start": 10137,
+      "end": 10142,
+      "phrase": "forma"
+    },
+    {
+      "id": "lexical-false-10800",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "atlas_historico_relevo"
+      ],
+      "reason": "“uma história centrada em Niko Bellic” refere-se ao enredo, não a atlas.",
+      "start": 10800,
+      "end": 10808,
+      "phrase": "história"
+    },
+    {
+      "id": "lexical-false-10894",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "atlas_historico_relevo"
+      ],
+      "reason": "“história principal” designa campanha, não a um atlas.",
+      "start": 10894,
+      "end": 10902,
+      "phrase": "história"
+    },
+    {
+      "id": "lexical-false-11265",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "atlas_historico_relevo"
+      ],
+      "reason": "“partes diferentes da história” são perspectivas narrativas; cobertas por figuras e troca de foco, não por atlas.",
+      "start": 11265,
+      "end": 11273,
+      "phrase": "história"
+    },
+    {
+      "id": "lexical-false-14042",
+      "action": "ignore",
+      "candidateAssetIds": [
+        "atlas_historico_relevo"
+      ],
+      "reason": "“A história da DMA” é trajetória cronológica da empresa, não relevo; coberta pela linha do tempo.",
+      "start": 14042,
+      "end": 14050,
+      "phrase": "história"
+    },
+    {
+      "id": "reuse-generic-highrise",
+      "phrase": "o deslocamento dos prédios",
+      "kind": "scene",
+      "assetId": "arranha_ceu",
+      "reason": "Variante alta como volume urbano ao fundo do movimento de câmera; sem reproduzir fachada ou mapa de jogo.",
+      "action": "reuse",
+      "start": 5155,
+      "end": 5181,
+      "variant": "alto"
+    },
+    {
+      "id": "reuse-ground-regional",
+      "phrase": "e áreas rurais entre elas",
+      "kind": "scene",
+      "assetId": "chao",
+      "reason": "Terra como base para áreas rurais da transição urbano-rural; não representa uma localização específica.",
+      "action": "reuse",
+      "start": 9697,
+      "end": 9722,
+      "variant": "terra"
+    },
+    {
+      "id": "reuse-rural-tree",
+      "phrase": "e áreas rurais entre elas",
+      "kind": "object",
+      "assetId": "arvore_redonda",
+      "reason": "Variante grande para dar escala à borda rural do mapa; não cria ponto narrativo próprio.",
+      "action": "reuse",
+      "start": 9697,
+      "end": 9722,
+      "variant": "grande"
+    },
+    {
+      "id": "reuse-coastal-palm",
+      "phrase": "praias, colinas e áreas rurais",
+      "kind": "object",
+      "assetId": "palmeira",
+      "reason": "Variante alta como vegetação costeira distante; sem imitar cenário ou composição de jogo.",
+      "action": "reuse",
+      "start": 11140,
+      "end": 11170,
+      "variant": "alta"
+    },
+    {
+      "id": "amiga-photo-evidence-overlay",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Inserto fotográfico licenciado de um Amiga 500",
+      "specification": "Recurso de motion gráfico com a foto Amiga500 system.jpg, Bill Bertram, CC BY-SA 2.5 Generic. Usar como evidência visual do modelo Amiga 500, dentro da bancada 3D, com entrada motivada, pelo menos 1 s estável para leitura, crédito legível e saída ligada à cidade procedural. Declarar arquivo local, origem, autor, licença e alterações em files/metadados. Não afirmar que é a unidade comprada por David Jones nem tratar a foto de 2006 como registro de época. Reutilizar a mesma foto no take 137 como retorno/payoff, agora ao lado da bancada ativa, sem insinuar que é a unidade pessoal de Jones.",
+      "reason": "A narrativa nomeia o Commodore Amiga; uma imagem licenciada dá presença documental ao objeto sem substituir a reconstituição 3D. Requer atribuição e obrigações ShareAlike aplicáveis à adaptação.",
+      "start": 115,
+      "end": 143,
+      "phrase": "um Commodore Amiga importado"
+    },
+    {
+      "id": "dma-location-plaque-photo-overlay",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Inserto fotográfico licenciado da placa da DMA em Dundee",
+      "specification": "Recurso de motion gráfico com a foto Lemmings plaque, Nethergate, Dundee.jpg, Millerdl, CC BY-SA 4.0 International. Usar como registro contemporâneo da placa que identifica a localização do primeiro escritório da DMA, integrada como painel dentro do mapa 3D original. Aproximar para leitura por pelo menos 1 s estável, creditar autor/licença e indicar alterações. A foto é de 2019 e não mostra o escritório histórico em funcionamento.",
+      "reason": "A imagem pública licenciada localiza o beat do primeiro escritório e a origem de Lemmings, sem alegar que seja fotografia de época nem copiar a arte do jogo.",
+      "start": 2638,
+      "end": 2666,
+      "phrase": "alugou um escritório pequeno"
+    },
+    {
+      "id": "resource-apple-ii-photo",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Inserto fotográfico licenciado de um Apple II",
+      "reason": "Fotografia CC BY-SA 4.0 de um exemplar de Apple II para apoiar a cena do computador compartilhado. Identificar como foto posterior de um modelo, nunca como registro da escola nem da máquina específica usada por Jones.",
+      "specification": "Painel fotográfico original integrado ao diorama 3D, centralizado, com moldura e crédito legível. Origem: Wikimedia Commons, Apple II Computer.jpg, autor Maksym Kozlenko, CC BY-SA 4.0. A foto documenta um modelo, não a escola nem a unidade mencionada na narrativa. Arquivo local, alterações e crédito declarados.",
+      "start": 863,
+      "end": 901,
+      "phrase": "Havia um Apple II para todos os alunos"
+    },
+    {
+      "id": "resource-zx81-kit-photo",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Inserto fotográfico licenciado de um kit ZX81",
+      "reason": "Fotografia CC BY-SA 3.0 de um ZX81 em forma de kit, pertinente à menção de que Jones montou um ZX81 a partir de um kit. Identificar como exemplar ilustrativo, sem afirmar que é a máquina montada por Jones.",
+      "specification": "Painel fotográfico original integrado ao diorama 3D, centralizado, com moldura e crédito legível. Origem: Wikimedia Commons, ZX81 kit.jpg, autor Smaddison, CC BY-SA 3.0. A foto mostra um exemplar em kit, não a unidade específica de Jones. Arquivo local, alterações e crédito declarados.",
+      "start": 1462,
+      "end": 1505,
+      "phrase": "havia construído um ZX81 a partir de um kit"
+    },
+    {
+      "id": "resource-david-jones-portrait",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Retrato público de David Jones (2003)",
+      "specification": "Painel fotográfico local e centralizado em composição 3D, com data, autor, licença e ressalva de contexto; não recriar a aparência de Jones em outra década.",
+      "reason": "Retrato público CC BY 2.0 contextualiza a frase em que Jones avalia posteriormente a campanha; a fotografia é datada de 2003, não é imagem da campanha nem da época dos primeiros jogos.",
+      "start": 6252,
+      "end": 6372,
+      "phrase": "Anos depois, David Jones descreveu a campanha de divulgação como inteligente e disse que estava disposto a defender GTA."
+    }
+  ],
+  "reviewed": false,
+  "unresolved": [
+    "Aguardando validação humana da lista do projeto; IDs e variações estão propostos, mas ainda não confirmados."
+  ],
+  "semanticReview": {
+    "status": "complete",
+    "method": "Triagem semântica frase a frase; ações, relações, estados, datas, quantidades, cenário, câmera, movimento, materiais, iluminação, efeitos, gráficos e som avaliados. Frases-base cobrem o texto; decisões create/reuse sobrepostas especificam recursos relevantes.",
+    "sentenceUnits": 143,
+    "tokenCount": 2344,
+    "lexicalWindowCount": 6142,
+    "literalMatches": 10,
+    "literalFalsePositives": 10,
+    "uncoveredTokenCount": 2334,
+    "humanProjectPlanApprovalPending": true,
+    "reuseCandidates": 10,
+    "newMediaCandidateCount": 5
+  }
+}

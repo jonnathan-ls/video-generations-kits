@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "status": "planned-before-build",
+  "items": [
+    {"id":"miniature-kitchen","kind":"scene","stage":"queued","dependsOn":[],"specification":"Uma cozinha em L de boneca, janela à esquerda, pia esquerda, fogão direito, armários ao fundo; paleta creme, menta, índigo, coral e mostarda; tudo em crochê."},
+    {"id":"crochet-material-system","kind":"material","stage":"queued","dependsOn":["miniature-kitchen"],"specification":"Laçadas, pontos altos e fibras de algodão visíveis em macro; mesma escala, densidade, relevo e paleta em todas as cenas."},
+    {"id":"hand-operator","kind":"character","stage":"queued","dependsOn":[],"specification":"Mãos humanas de pele castanha com punhos azul-marinho, sem joias, parcialmente cortadas pelas bordas para escala; poucos dedos visíveis e contato natural."},
+    {"id":"dish-cleaning-props","kind":"object","stage":"queued","dependsOn":["crochet-material-system"],"specification":"Pratos, canecas, escorredor, torneira e esponja mostarda com aro verde-menta."},
+    {"id":"stove-cleaning-props","kind":"object","stage":"queued","dependsOn":["crochet-material-system"],"specification":"Cooktop índigo-escuro de crochê, uma panela pequena e pano/esponja; leitura clara sem texto impresso."},
+    {"id":"crumb-cleaning-props","kind":"object","stage":"queued","dependsOn":["crochet-material-system"],"specification":"Migalhas pequenas, vassoura de fibras castanhas, pá menta e cestinho índigo."},
+    {"id":"fridge-pantry-props","kind":"object","stage":"queued","dependsOn":["miniature-kitchen","crochet-material-system"],"specification":"Geladeira menta, prateleiras, recipientes e alimentos de crochê com cores distintas, sem rótulos legíveis."},
+    {"id":"cleaning-motion-12","kind":"animation","stage":"queued","dependsOn":["hand-operator","dish-cleaning-props","stove-cleaning-props","crumb-cleaning-props","fridge-pantry-props"],"specification":"12 clips com uma ação focal cada, contato/resultado claros e duração seguindo a montagem em beats.json."},
+    {"id":"water-foam-crumbs","kind":"effect","stage":"queued","dependsOn":["cleaning-motion-12"],"specification":"Água fina, espuma curta e migalhas aparecem no contato, com volume baixo e sem ocultar os pontos do crochê."},
+    {"id":"vertical-shot-language","kind":"camera","stage":"queued","dependsOn":["miniature-kitchen"],"specification":"Macro vertical durante as ações; cortes diretos de foco; um único pullback final para estabelecer o conjunto."},
+    {"id":"warm-window-light","kind":"lighting","stage":"queued","dependsOn":["miniature-kitchen"],"specification":"Key morna e difusa da janela à esquerda; direção e exposição constantes entre os clips."},
+    {"id":"soft-kitchen-sfx","kind":"sound","stage":"queued","dependsOn":["cleaning-motion-12"],"specification":"Foley original e macio, sincronizado com os contatos marcados em sound-design.json."},
+    {"id":"original-bed","kind":"sound","stage":"queued","dependsOn":["soft-kitchen-sfx"],"specification":"Trilha instrumental original, pulse regular e textura de madeira/feltro; não usar o áudio da referência."},
+    {"id":"direct-cuts","kind":"transition","stage":"queued","dependsOn":["cleaning-motion-12"],"specification":"Corte seco em cada beat, com espaço de leitura antes do corte seguinte; sem transições chamativas."},
+    {"id":"safe-vertical-frame","kind":"overlay","stage":"queued","dependsOn":["vertical-shot-language"],"specification":"Sem overlays de texto; ação e detalhe de crochê ficam dentro da área segura 9:16."}
+  ]
+}

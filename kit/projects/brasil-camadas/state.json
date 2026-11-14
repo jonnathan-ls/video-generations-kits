@@ -1,0 +1,178 @@
+{
+  "id": "brasil-camadas",
+  "title": "As camadas do Brasil",
+  "mode": "production",
+  "stage": "archived-rejected",
+  "label": "Demanda arquivada. Nenhum vídeo final. v1, v2 e v3 reprovadas.",
+  "decisions": {
+    "topic": "formação histórica do Brasil, do período anterior a 1500 ao presente",
+    "format": "1920×1080, 16:9, 30 fps, português brasileiro",
+    "durationTarget": "12–13 min; medir com a voz escolhida",
+    "narrativeMode": "adaptação estrutural fiel da referência, com fatos e realização originais",
+    "visualConcept": "atlas de camadas: mapas, papéis, vidros e miniaturas sobre a mesa de uma cartógrafa",
+    "pipeline": "Three.js + HyperFrames; sem geração de vídeo por IA",
+    "voice": null,
+    "name": null,
+    "humor": "visual e burocrático; sem piadas sobre escravidão, genocídio, racismo, tortura ou desaparecimento",
+    "dialogue": "sem falas de figuras históricas; cartógrafa e funcionário são ficcionais e mudos",
+    "cta": "“Se você quiser continuar abrindo esses mapas com a gente, se inscreve no canal e curte o vídeo. A próxima camada começa no próximo vídeo.” — depois do payoff.",
+    "noAiSlop": "Proibido conversa de IA / AI slop em narração, legenda, texto de tela e CTA; regra registrada em AGENTS.md, kit/docs/qualidade-audiovisual.md, skills/direcao/SKILL.md e kit/docs/narrativa.md."
+  },
+  "approvals": {
+    "narrative": true,
+    "resources": false,
+    "preview": false
+  },
+  "reference": {
+    "videoId": "5Pm_s2wzxo0",
+    "url": "https://www.youtube.com/watch?v=5Pm_s2wzxo0",
+    "title": "423 Years of American History in 13 Minutes",
+    "channel": "Fun History",
+    "durationSeconds": 764.77,
+    "transcript": "research/references/5Pm_s2wzxo0/transcript-timed.txt",
+    "analysis": "kit/projects/brasil-camadas/brief.md"
+  },
+  "narrative": {
+    "file": "narrative-v1.md",
+    "sha256": "3513419f62129583ce0343e09500dd1f6a975bd42290f500b7a590390df97a72",
+    "words": 1794,
+    "estimatedMinutesAt135wpm": 13.29,
+    "estimatedMinutesAt140wpm": 12.81,
+    "status": "proposal-awaiting-human-validation"
+  },
+  "gate": {
+    "file": "gate-narrative.md",
+    "status": "pass-for-creator-review",
+    "checked": [
+      "fidelidade estrutural",
+      "fala brasileira integral",
+      "ordem demonstração → nome → explicação",
+      "contagem e duração provisória"
+    ],
+    "humanValidation": false
+  },
+  "beats": {
+    "file": "beats.json",
+    "count": 10,
+    "directionalShots": 47,
+    "status": "direcional; abertura com 14 tomadas; demais beats com o mapa anterior. O plano de abertura está em preview-opening-plan.md.",
+    "openingShots": 14
+  },
+  "workBoundary": "Prévia de direção dos primeiros segundos. Sem vídeo completo, sem aprovação de assets e sem render final.",
+  "notes": [
+    "A referência foi usada só para arquitetura narrativa; nenhuma imagem, fala, piada ou identidade visual será reutilizada.",
+    "Os números do gancho foram conferidos; a diferença salarial será atualizada com o dado mais recente antes da gravação.",
+    "A duração final será medida com a voz escolhida; se passar de 13:10, cortar 30–50 palavras sem perder fatos ou causalidade.",
+    "A máquina não está expondo a GPU NVIDIA agora e há cerca de 9,3 GB livres; o render final exigirá uma etapa técnica e prova curta, sem fallback silencioso para software."
+  ],
+  "next_action": "Nenhuma. Demanda arquivada; não gerar novas prévias.",
+  "nextDecision": "Aprovar a narração, pedir cortes/ajustes de tom, ou rejeitar a abordagem.",
+  "narrativeApproval": {
+    "channel": "chat",
+    "evidence": "“Aprovo pode seguir até preview dos primeiros segundos... a narração precisa incluir CTA... obs não deve ter trechos de conversa de IA / AI slop.”",
+    "scope": "Aprova a narrativa v1 e exige CTA de inscrição/curtida e ausência de AI slop. A v2 com CTA foi gerada e o gate foi refeito.",
+    "revision": "3513419f62129583ce0343e09500dd1f6a975bd42290f500b7a590390df97a72",
+    "approvedAt": "2026-11-14"
+  },
+  "preview": {
+    "scope": "primeiros segundos: gancho + título; uma cena; 36,9 s",
+    "status": "superseded",
+    "provisional": true,
+    "url": "http://127.0.0.1:4173/",
+    "page": "kit/projects/brasil-camadas/preview/hyperframes/index.html",
+    "project": "kit/projects/brasil-camadas/preview/project.json",
+    "qa": "kit/projects/brasil-camadas/preview-qa.json",
+    "durationSeconds": 36.9,
+    "scene": "abertura-atlas",
+    "asset": "brasil_atlas_abertura / padrao",
+    "assetRevision": "29f888e7a9e18413",
+    "voice": "pm_santa 0.9 (teste, não aprovada)",
+    "videoRendered": false,
+    "artifacts": [
+      "kit/projects/brasil-camadas/preview/hyperframes/check.json",
+      "kit/projects/brasil-camadas/preview/hyperframes/review-snapshots/review-beats.jpg",
+      "kit/projects/brasil-camadas/preview/hyperframes/review-snapshots/review-phone.jpg",
+      "kit/projects/brasil-camadas/preview/hyperframes/motion-sheet.jpg",
+      "kit/projects/brasil-camadas/preview/hyperframes/seek-test/contact-sheet.jpg",
+      "kit/projects/brasil-camadas/preview/voice-open.wav"
+    ],
+    "findings": [
+      "P2-01 camadas históricas ainda esquemáticas",
+      "P2-02 luva placeholder",
+      "P2-03 saída da camada no quadro",
+      "P2-04 legenda marginal no celular",
+      "P2-05 escuta/mixagem não verificadas"
+    ],
+    "notes": "Prévia técnica com selo/controles no player; não é MP4 final. A captura foi em software WebGL; a GPU NVIDIA não está disponível. O CTA está no fecho da narração completa, fora deste trecho.",
+    "supersededBy": "preview-qa-v2.json",
+    "rejection": "P1-01: abertura em uma cena única de 36,9 s; sem cortes, inserções, efeitos e transições por frase; QA de cobertura ausente.",
+    "qualityPolicy": {
+      "minAssetsPerScene": 5,
+      "maxAssetsPerScene": null,
+      "maxSceneSeconds": 8,
+      "note": "Mínimo de 5 assets visuais por cena; sem máximo. Duração máxima de 8 s por cena no projeto novo; exceção justificada."
+    },
+    "plan": "kit/projects/brasil-camadas/preview-opening-plan.md",
+    "sceneCount": 14,
+    "minAssetsPerScene": 5,
+    "maxAssetsPerScene": null,
+    "policy": "Cada cena com 5+ assets visuais; sem limite máximo. A prévia anterior tinha 1 asset e foi reprovada.",
+    "maxSceneSeconds": 8
+  },
+  "protocolUpdates": {
+    "cta": "Regra adicionada a AGENTS.md, kit/docs/qualidade-audiovisual.md, skills/direcao/SKILL.md e kit/docs/narrativa.md.",
+    "aiSlop": "Proibição explícita de conversa de IA / AI slop nos mesmos arquivos.",
+    "coverage": "Regras de cobertura de cenas e densidade adicionadas a AGENTS.md, kit/docs/fluxo.md, kit/docs/qualidade-audiovisual.md, kit/docs/qualidade.md, kit/docs/narrativa.md, skills/direcao, skills/producao, skills/qualidade, skills/revisao-profissional e skills/render.",
+    "minAssets": "Mínimo de 5 assets visuais por cena, sem máximo; qualityPolicy.minAssetsPerScene no project.json e verificação em kit/tools/production.mjs."
+  },
+  "qualityPolicy": {
+    "minAssetsPerScene": 5,
+    "maxAssetsPerScene": null,
+    "maxSceneSeconds": 8,
+    "note": "Mínimo de 5 assets visuais por cena; sem máximo. Duração máxima de 8 s por cena no projeto novo; exceção justificada."
+  },
+  "executionMode": "stopped",
+  "previewV2": {
+    "status": "rejected",
+    "provisional": true,
+    "url": "http://127.0.0.1:4174/?v=2b",
+    "qa": "kit/projects/brasil-camadas/preview-qa-v2.json",
+    "project": "kit/projects/brasil-camadas/preview/project-v2.json",
+    "sceneCount": 14,
+    "durationSeconds": 36.9,
+    "averageSceneSeconds": 2.64,
+    "minAssetsPerScene": 5,
+    "maxAssetsPerScene": null,
+    "findings": [
+      "P2-01 props leem como tabuleiro",
+      "P2-02 cartões dominam",
+      "P2-03 deslizamento sutil",
+      "P2-04 mosaico simples",
+      "P2-05 áudio provisório"
+    ],
+    "videoRendered": false,
+    "notes": "Loop do player corrigido: timeline como relógio único; player reemitido com rev=20261114-v2b; 20 s de reprodução sem reset.",
+    "loopFix": {
+      "status": "fixed",
+      "evidence": "Puppeteer 20 s; 0 resets; console limpo",
+      "cacheBust": "?v=2b / rev=20261114-v2b"
+    },
+    "rejection": "Mundos repetidos e flicker; substituída pela v3."
+  },
+  "previewV3": {
+    "status": "rejected",
+    "provisional": true,
+    "url": "http://127.0.0.1:4175/",
+    "qa": "kit/projects/brasil-camadas/preview-qa-v3.json",
+    "project": "kit/projects/brasil-camadas/preview/project-v3.json",
+    "sceneCount": 14,
+    "distinctWorlds": 6,
+    "maxConsecutiveSameWorld": 2,
+    "minAssetsPerScene": 5,
+    "flickerFixed": true,
+    "rejection": "Áudio cortado, cenas ainda semelhantes e qualidade de produção/direção insuficiente."
+  },
+  "status": "archived",
+  "archivedAt": "2026-11-14T18:20:00-03:00",
+  "archiveNote": "Demanda arquivada por reprovação do criador: áudio cortado, cenas semelhantes e qualidade de produção/direção insuficiente, mesmo com protocolo."
+}

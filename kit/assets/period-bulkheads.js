@@ -1,0 +1,2 @@
+import * as THREE from 'three';import {hull,mat} from './maritime-shapes.js';import {block} from './period-room-parts.js';import {surface} from './period-surface-materials.js';
+export function create(){const r=new THREE.Group();r.add(hull(14,4,1.6,-1,'#40545d',true));for(const z of [-4.5,-2.7,-.9,.9,2.7,4.5])block(r,'illustrative-bulkhead',[3.65,2.1,.10],[0,.5,z],mat('#9daeb2',{metalness:.35,roughness:.35}));for(const x of [-1.95,1.95])block(r,'cut-edge',[.07,.08,11.5],[x,1.65,0],surface('brass'));return r;}

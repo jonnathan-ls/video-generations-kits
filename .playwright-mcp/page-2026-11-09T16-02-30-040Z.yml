@@ -1,0 +1,90 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Rockstar, composições de cena" [ref=e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [aria-hidden] [ref=e4]: R
+      - generic [ref=e5]:
+        - strong [ref=e6]: ROCKSTAR
+        - generic [ref=e7]: HISTÓRIA · ESTUDO VISUAL
+    - generic [ref=e8]:
+      - generic [ref=e9]: QA DE PRÉVIA CONCLUÍDO · AGUARDA SUA REVISÃO
+      - generic [ref=e12]: Prévia local · Three.js · sem render final
+  - main [ref=e13]:
+    - complementary "Cenas da narrativa" [ref=e14]:
+      - generic [ref=e15]:
+        - paragraph [ref=e16]: ALVO · 20–23 MIN
+        - heading "Storyboard visual" [level=1] [ref=e17]
+        - paragraph [ref=e18]: 143 tomadas cobrem as frases da narração; 13 capítulos entram nas cenas de abertura. Os 8 s servem só para inspecionar motion.
+      - navigation "Selecionar cena" [ref=e19]
+      - paragraph [ref=e22]: 3D original + fotos locais licenciadas em avaliação.Sem gameplay ou mapas de jogos.
+    - region "Prévia tridimensional da cena" [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: "01"
+          - generic [ref=e27]: /
+          - generic [ref=e28]: "13"
+          - generic [ref=e29]: A escolha que inicia a cadeia
+        - generic [ref=e30]:
+          - button "Repor câmera" [ref=e31] [cursor=pointer]
+          - generic [ref=e34]: Arraste para inspecionar
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic "Composição tridimensional original da cena" [ref=e37]
+          - generic: COMPOSIÇÃO 3D · LEGENDA PROVISÓRIA
+          - generic: A cidade surge como consequência do primeiro computador.
+        - generic "Controles de movimento" [ref=e38]:
+          - button "Reproduzir movimento" [ref=e39] [cursor=pointer]
+          - generic [ref=e42]: 00:00
+          - slider "Posição do movimento da cena" [ref=e43] [cursor=pointer]: "0"
+          - generic [ref=e44]: 00:08
+          - generic [ref=e45]: MOVIMENTO
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - text: TAKE
+          - generic [ref=e49]: "001"
+        - generic [ref=e50]: TAKE 001 · P01
+        - generic [ref=e51]: MOTION DE ESTUDO · NÃO É RENDER FINAL
+    - complementary "Direção da cena selecionada" [ref=e52]:
+      - generic [ref=e53]:
+        - paragraph [ref=e54]:
+          - generic [ref=e55]: TAKE 001
+          - text: TOMADA
+          - generic [ref=e57]: "001"
+        - heading "Abertura da narrativa" [level=2] [ref=e58]
+        - paragraph [ref=e59]
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: "01"
+            - heading "Alvo visual" [level=3] [ref=e63]
+          - paragraph
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]: "02"
+            - heading "Composição" [level=3] [ref=e67]
+          - paragraph
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: "03"
+            - heading "Beat e contexto" [level=3] [ref=e71]
+          - paragraph
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: "04"
+            - heading "Motion e pausa" [level=3] [ref=e75]
+          - paragraph
+          - generic [ref=e76]:
+            - generic [ref=e77]: Ⅱ
+            - paragraph
+        - group [ref=e78]:
+          - generic "Legenda da frase (texto aprovado; timing depende da voz) −" [ref=e79] [cursor=pointer]
+          - blockquote
+        - generic [ref=e80]:
+          - generic [aria-hidden] [ref=e81]: ◈
+          - generic [ref=e82]:
+            - strong [ref=e83]: RECURSOS EM ANÁLISE
+            - paragraph
+      - generic [ref=e84]:
+        - generic [aria-hidden] [ref=e85]: ↗
+        - paragraph [ref=e86]: Plano expandido em produção. As janelas de 8 s não definem a duração da edição; legenda palavra a palavra, SRT e permanência de capítulos serão alinhados após a escolha da voz. Lista e assets continuam pendentes de revisão.
+        - link "Revisar lista de recursos" [ref=e87] [cursor=pointer]:
+          - /url: /studio/index.html?project=historia-rockstar

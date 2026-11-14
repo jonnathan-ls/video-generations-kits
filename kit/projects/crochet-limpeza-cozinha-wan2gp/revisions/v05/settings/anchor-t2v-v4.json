@@ -1,0 +1,15 @@
+{
+  "model_type": "t2v_nexus_1.3B",
+  "prompt": "Vertical 9:16 straight-down macro video of a handmade crochet kitchen cleaning mat. Only flat textiles and one natural hand are visible: a large indigo crochet counter mat fills the complete frame edge to edge, with a centered ivory crocheted dish-drying mat made from thick cotton loops. One mustard-yellow crochet scrub pad is pressed flat against the ivory mat, held by a natural hand wearing a plain navy cuff. The scrub pad makes one short slow left-to-right wipe across the ivory mat while staying in continuous contact, then holds. Every visible textile is made from thick matte cotton yarn with clear interlocking loops, raised stitches and soft fibers; loop scale and colors remain stable. Tight overhead crop, no room or horizon, gentle warm diffuse studio light, no camera movement.",
+  "negative_prompt": "bowl, basket, plate, dish, ceramic, porcelain, glass, metal, sink, plastic, smooth surface, wood, wood grain, stone, countertop, table edge, floor, wall, window, appliance, room, furniture, background outside the indigo crochet mat, hard object, solid rim, plain fabric, printed pattern, missing stitches, smooth patches, texture crawl, flicker, morphing cloth, changing loop size, extra objects, extra hands, extra fingers, fused fingers, floating scrub pad, loss of contact, vertical dipping, repeated scrubbing, rinsing, water stream, camera movement, zoom, cut, exposure change, text, logo, watermark, subtitles",
+  "resolution": "432x768",
+  "video_length": 41,
+  "force_fps": "16",
+  "num_inference_steps": 8,
+  "guidance_scale": 1,
+  "flow_shift": 5,
+  "seed": 731830,
+  "repeat_generation": 1,
+  "image_mode": 0,
+  "output_filename": "v05-00-ancora-croche-ia-local-v4"
+}

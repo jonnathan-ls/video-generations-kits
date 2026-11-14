@@ -1,0 +1,16 @@
+[
+  {
+    "model_type": "t2v_nexus_1.3B",
+    "prompt": "Vertical 9:16 fixed macro video in a handmade amigurumi kitchen miniature. The focal object is a small shallow bowl-shaped crochet textile, soft and flexible like a tiny yarn basket, made entirely from thick ivory cotton loops; large raised stitches cover both its inside and outside, with fuzzy matte fibers and no hard rim or shine. It rests inside a deep indigo crochet basin, on a chunky crochet counter. A rectangular mustard-yellow crochet scrubber is made from the same thick yarn and has large visible loops. One hand in a plain navy cuff steadies the soft textile bowl. A second natural hand presses the scrubber into its center and moves it in exactly one slow left-to-right sweep, keeping full physical contact; the yarn compresses slightly under the pressure. Hold on the crocheted textures after the single sweep. Stable locked camera, warm soft window light from the left, same bowl and yarn thickness from first frame to last. Only this one action; no rinsing, no placement, no cut.",
+    "negative_prompt": "ceramic, porcelain, glass, metal sink, glazed surface, glossy highlight, rigid dinner plate, hard rim, smooth plastic, wood, stone, flat painted pattern, printed fabric, missing stitches, loose random strings, changing loop size, texture crawl, flicker, morphing bowl, morphing scrubber, extra hands, extra fingers, fused fingers, floating scrubber, hand not touching, scrubber lifted from surface, repeated back-and-forth scrubbing, rinse, water stream, dish rack, extra action, camera movement, zoom, cut, dutch angle, exposure change, text, logo, watermark, subtitles",
+    "resolution": "432x768",
+    "video_length": 41,
+    "num_inference_steps": 6,
+    "guidance_scale": 1,
+    "flow_shift": 5,
+    "seed": 731825,
+    "repeat_generation": 1,
+    "image_mode": 0,
+    "output_filename": "v04-02-tigela-de-croche-uma-passada"
+  }
+]

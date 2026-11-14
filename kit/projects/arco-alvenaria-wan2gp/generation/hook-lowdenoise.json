@@ -1,0 +1,17 @@
+{
+  "model_type": "t2v_nexus_1.3B",
+  "prompt": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. Close view of the crown of a red terracotta wedge brick arch. The final trapezoid keystone descends vertically into the exact central gap, seats between the neighboring bricks, and stops. Then the camera smoothly pulls back to reveal the complete freestanding arch and its two thick masonry piers standing on concrete ground. The completed arch remains motionless.",
+  "negative_prompt": "text, subtitles, watermark, letters, arrows, diagram symbols, extra arches, impossible geometry, melting bricks, floating foundations, drifting piers, flickering, abrupt cuts, camera shake, people obscuring the mechanism",
+  "resolution": "288x512",
+  "video_length": 85,
+  "num_inference_steps": 6,
+  "guidance_scale": 1,
+  "flow_shift": 5,
+  "seed": 20261107,
+  "repeat_generation": 1,
+  "image_mode": 0,
+  "output_filename": "hook-lowdenoise",
+  "video_prompt_type": "GUV",
+  "video_guide": "/home/jonnathan/projects/obra-cortada/kit/projects/arco-alvenaria-wan2gp/guides/01-coroamento-clean.mp4",
+  "denoising_strength": 0.1
+}

@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {buildCatalog,ROOT} from './build-catalog.mjs';
+import {ReviewStore} from './reviews.mjs';
+import {validateQa} from './qa-gate.mjs';
+import {validateProduction} from './production.mjs';
+import {BacklogStore} from './backlog.mjs';import {validateProjectPlanUse} from './project-plan-review.mjs';
+const file=process.argv[2];if(!file)throw new Error('Uso: npm run validar -- projeto.json');
+const project=JSON.parse(await fs.readFile(file,'utf8')),catalog=await buildCatalog();const result=validateProduction(project,catalog,await new ReviewStore(path.join(ROOT,'kit/catalog/reviews.json')).read());
+result.errors.push(...await validateProjectPlanUse(ROOT,file,project,catalog,await new BacklogStore(path.join(ROOT,'kit/catalog/backlog.json')).read()));result.errors.push(...(await validateQa(file,catalog)).errors);result.ok=result.errors.length===0;
+console.log(JSON.stringify(result,null,2));if(!result.ok)process.exitCode=1;

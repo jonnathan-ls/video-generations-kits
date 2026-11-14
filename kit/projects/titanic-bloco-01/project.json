@@ -1,0 +1,4545 @@
+{
+  "schemaVersion": 1,
+  "id": "titanic-bloco-01",
+  "title": "Titanic \u2014 primeiro bloco \u00b7 montagem interna",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 180,
+  "renderLook": "cinematic-pbr",
+  "assetPlan": {
+    "reviewed": false,
+    "unresolved": [
+      "Revis\u00e3o visual em cena, conforme escolha do criador"
+    ]
+  },
+  "voice": {
+    "id": "pm_santa",
+    "approved": true,
+    "source": "../titanic-pilot/audio/preview-voice.wav"
+  },
+  "audio": {
+    "voice": "audio/narration.wav",
+    "events": [
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 0,
+        "duration": 2.6,
+        "volume": 0.392
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 2.45,
+        "duration": 2.3,
+        "volume": 0.392
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 4.6,
+        "duration": 3.811,
+        "volume": 0.392
+      },
+      {
+        "assetId": "som_bordo_radio",
+        "revision": "78247a4cfe326ee4",
+        "time": 8.410958,
+        "duration": 2.442722,
+        "volume": 0.28
+      },
+      {
+        "assetId": "som_bordo_papel",
+        "revision": "6c5ab8061b6dbeb0",
+        "time": 8.899502,
+        "duration": 1.587769,
+        "volume": 0.3
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 10.70368,
+        "duration": 2.592722,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 13.146403,
+        "duration": 2.592722,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 15.589,
+        "duration": 4.011,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 19.45,
+        "duration": 3.25,
+        "volume": 0.364
+      },
+      {
+        "assetId": "som_madeira_creak",
+        "revision": "7c367c89d7f61d4d",
+        "time": 19.6,
+        "duration": 1,
+        "volume": 0.24
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 22.55,
+        "duration": 2.961,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 25.361125,
+        "duration": 2.493542,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 30.048208,
+        "duration": 5.78975,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 35.687958,
+        "duration": 4.15,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 39.687958,
+        "duration": 3.813521,
+        "volume": 0.364
+      },
+      {
+        "assetId": "som_bordo_porto",
+        "revision": "188e5d6c892cfd2b",
+        "time": 39.687958,
+        "duration": 3.813521,
+        "volume": 0.22
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 43.351479,
+        "duration": 3.813521,
+        "volume": 0.364
+      },
+      {
+        "assetId": "som_bordo_porto",
+        "revision": "188e5d6c892cfd2b",
+        "time": 43.351479,
+        "duration": 3.813521,
+        "volume": 0.22
+      },
+      {
+        "assetId": "som_madeira_creak",
+        "revision": "7c367c89d7f61d4d",
+        "time": 47.165,
+        "duration": 1,
+        "volume": 0.12
+      },
+      {
+        "assetId": "som_bordo_servico",
+        "revision": "5a05db8aa6f96c33",
+        "time": 52.64,
+        "duration": 4.04,
+        "volume": 0.32
+      },
+      {
+        "assetId": "som_madeira_creak",
+        "revision": "7c367c89d7f61d4d",
+        "time": 56.68,
+        "duration": 1,
+        "volume": 0.12
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 60.692167,
+        "duration": 3.903666,
+        "volume": 0.364
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 65.295833,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 66.295833,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 67.295833,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 68.295833,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 69.295833,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_servico",
+        "revision": "5a05db8aa6f96c33",
+        "time": 69.6,
+        "duration": 4.2,
+        "volume": 0.32
+      },
+      {
+        "assetId": "som_madeira_creak",
+        "revision": "7c367c89d7f61d4d",
+        "time": 73.8,
+        "duration": 1,
+        "volume": 0.12
+      },
+      {
+        "assetId": "som_bordo_servico",
+        "revision": "5a05db8aa6f96c33",
+        "time": 78.695042,
+        "duration": 5.604958,
+        "volume": 0.4
+      },
+      {
+        "assetId": "som_bordo_servico",
+        "revision": "5a05db8aa6f96c33",
+        "time": 84.3,
+        "duration": 1.5,
+        "volume": 0.32
+      },
+      {
+        "assetId": "som_bordo_radio",
+        "revision": "78247a4cfe326ee4",
+        "time": 85.8,
+        "duration": 1.3,
+        "volume": 0.28
+      },
+      {
+        "assetId": "som_bordo_maquinas",
+        "revision": "1aba41ed3c35e828",
+        "time": 86.95,
+        "duration": 8.1385,
+        "volume": 0.324
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 95.7885,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 96.7885,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 97.7885,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 99.682313,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 100.682313,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 101.682313,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 102.726125,
+        "duration": 4.631361,
+        "volume": 0.364
+      },
+      {
+        "assetId": "som_bordo_radio",
+        "revision": "78247a4cfe326ee4",
+        "time": 111.838847,
+        "duration": 4.481361,
+        "volume": 0.28
+      },
+      {
+        "assetId": "som_bordo_radio",
+        "revision": "78247a4cfe326ee4",
+        "time": 116.320208,
+        "duration": 4.07025,
+        "volume": 0.28
+      },
+      {
+        "assetId": "som_bordo_papel",
+        "revision": "6c5ab8061b6dbeb0",
+        "time": 117.134258,
+        "duration": 2,
+        "volume": 0.3
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 121.090458,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 122.090458,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 123.090458,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_passos",
+        "revision": "ca2efa3e01a497b2",
+        "time": 124.090458,
+        "duration": 0.55,
+        "volume": 0.35
+      },
+      {
+        "assetId": "som_bordo_papel",
+        "revision": "6c5ab8061b6dbeb0",
+        "time": 121.204508,
+        "duration": 2,
+        "volume": 0.3
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 124.310708,
+        "duration": 5.107209,
+        "volume": 0.28
+      },
+      {
+        "assetId": "som_bordo_papel",
+        "revision": "6c5ab8061b6dbeb0",
+        "time": 124.460708,
+        "duration": 2,
+        "volume": 0.3
+      },
+      {
+        "assetId": "som_bordo_servico",
+        "revision": "5a05db8aa6f96c33",
+        "time": 129.417917,
+        "duration": 3.782083,
+        "volume": 0.32
+      },
+      {
+        "assetId": "som_bordo_radio",
+        "revision": "78247a4cfe326ee4",
+        "time": 133.2,
+        "duration": 1.3,
+        "volume": 0.28
+      },
+      {
+        "assetId": "som_madeira_creak",
+        "revision": "7c367c89d7f61d4d",
+        "time": 134.5,
+        "duration": 1,
+        "volume": 0.12
+      },
+      {
+        "assetId": "som_bordo_radio",
+        "revision": "78247a4cfe326ee4",
+        "time": 140.324667,
+        "duration": 3.939041,
+        "volume": 0.28
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 144.113708,
+        "duration": 4.322847,
+        "volume": 0.364
+      },
+      {
+        "assetId": "som_bordo_radio",
+        "revision": "78247a4cfe326ee4",
+        "time": 144.763708,
+        "duration": 3,
+        "volume": 0.1867
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 148.286555,
+        "duration": 4.322847,
+        "volume": 0.28
+      },
+      {
+        "assetId": "som_bordo_papel",
+        "revision": "6c5ab8061b6dbeb0",
+        "time": 148.436555,
+        "duration": 2,
+        "volume": 0.3
+      },
+      {
+        "assetId": "som_bordo_radio",
+        "revision": "78247a4cfe326ee4",
+        "time": 152.609403,
+        "duration": 4.172847,
+        "volume": 0.28
+      },
+      {
+        "assetId": "som_bordo_radio",
+        "revision": "78247a4cfe326ee4",
+        "time": 156.78225,
+        "duration": 5.866958,
+        "volume": 0.28
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 162.499208,
+        "duration": 6.016959,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 168.366167,
+        "duration": 5.317625,
+        "volume": 0.28
+      },
+      {
+        "assetId": "som_bordo_papel",
+        "revision": "6c5ab8061b6dbeb0",
+        "time": 168.516167,
+        "duration": 2,
+        "volume": 0.3
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 173.533792,
+        "duration": 2.255403,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 175.639195,
+        "duration": 2.255403,
+        "volume": 0.364
+      },
+      {
+        "assetId": "ambiencia_mar_calmo",
+        "revision": "f9136892269c8771",
+        "time": 177.744597,
+        "duration": 2.255403,
+        "volume": 0.364
+      },
+      {
+        "assetId": "som_bordo_editorial",
+        "revision": "1ad3b6543e655c02",
+        "time": 176.894597,
+        "duration": 3,
+        "volume": 0.552
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "attention",
+      "start": 0,
+      "duration": 2.6,
+      "label": "Aten\u00e7\u00e3o no horizonte",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8",
+          "position": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "keyPosition": [
+              4,
+              6,
+              6
+            ],
+            "fill": 0.55,
+            "key": 0.9
+          }
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "observer",
+          "position": [
+            -0.5,
+            0,
+            1.38
+          ]
+        },
+        {
+          "id": "orientacao_observador",
+          "variant": "padrao",
+          "revision": "f5fb6c9c64be93fa",
+          "target": "observer",
+          "params": {
+            "fromYaw": -0.25,
+            "turn": 0.5,
+            "start": 0.4,
+            "duration": 1.7
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          0.55,
+          1.72,
+          2.55
+        ],
+        "to": [
+          0.5,
+          1.72,
+          2.51
+        ],
+        "target": [
+          -0.48,
+          1.56,
+          1.38
+        ]
+      },
+      "explanation": "Observador e parapeito estabelecem ponto de vista humano. Um sinal aparece no horizonte e orienta uma pequena mudan\u00e7a de postura. Atua\u00e7\u00e3o ilustrativa, sem atribuir gesto hist\u00f3rico documentado.",
+      "action": "Apresentar rosto e inten\u00e7\u00e3o do observador antes de revelar o que ele v\u00ea. Reconstru\u00e7\u00e3o visual ilustrativa."
+    },
+    {
+      "id": "discovery",
+      "start": 2.6,
+      "duration": 2.15,
+      "label": "A descoberta",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8",
+          "position": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64"
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "7bc94321e1a0e7fe",
+          "position": [
+            -0.5,
+            0,
+            0.2
+          ],
+          "rotation": 15
+        },
+        {
+          "id": "sinalizador_verde",
+          "variant": "padrao",
+          "revision": "be17902f47fc99dd",
+          "position": [
+            12,
+            4,
+            55
+          ],
+          "scale": 1.5,
+          "timeOffset": 1
+        }
+      ],
+      "camera": {
+        "from": [
+          1.15,
+          1.9,
+          -1.4
+        ],
+        "to": [
+          1.2,
+          1.9,
+          -1.35
+        ],
+        "target": [
+          12,
+          4,
+          55
+        ]
+      },
+      "explanation": "Aproximar do eixo de observa\u00e7\u00e3o sem mostrar emissor. Sinal luminoso tem surgimento e dissipa\u00e7\u00e3o leg\u00edveis; n\u00e3o \u00e9 uma luz de navega\u00e7\u00e3o piscante.",
+      "action": "Aproximar do eixo de observa\u00e7\u00e3o sem mostrar emissor. Sinal luminoso tem surgimento e dissipa\u00e7\u00e3o leg\u00edveis; n\u00e3o \u00e9 uma luz de navega\u00e7\u00e3o piscante."
+    },
+    {
+      "id": "reaction",
+      "start": 4.75,
+      "duration": 3.661,
+      "label": "A esperan\u00e7a de chegar",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8",
+          "position": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "keyPosition": [
+              4,
+              6,
+              6
+            ],
+            "fill": 0.55,
+            "key": 0.9
+          }
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "observer",
+          "position": [
+            -0.5,
+            0,
+            1.38
+          ],
+          "timeOffset": 4.75
+        },
+        {
+          "id": "orientacao_observador",
+          "variant": "padrao",
+          "revision": "f5fb6c9c64be93fa",
+          "target": "observer",
+          "params": {
+            "fromYaw": -0.25,
+            "turn": 0.5,
+            "start": 0.4,
+            "duration": 1.7
+          },
+          "timeOffset": 4.75
+        }
+      ],
+      "camera": {
+        "from": [
+          0.22,
+          1.72,
+          2.38
+        ],
+        "to": [
+          0.18,
+          1.72,
+          2.34
+        ],
+        "target": [
+          -0.47,
+          1.59,
+          1.38
+        ]
+      },
+      "explanation": "Observador e parapeito estabelecem ponto de vista humano. Um sinal aparece no horizonte e orienta uma pequena mudan\u00e7a de postura. Atua\u00e7\u00e3o ilustrativa, sem atribuir gesto hist\u00f3rico documentado.",
+      "action": "Voltar ao observador e \u00e0 rea\u00e7\u00e3o contida; o sinal muda a expectativa de quem tenta chegar."
+    },
+    {
+      "id": "b02-01-pedido-radio",
+      "start": 8.410958,
+      "duration": 2.442722,
+      "label": "b02-01-pedido-radio",
+      "assets": [
+        {
+          "id": "radio_bordo_1912",
+          "variant": "padrao",
+          "revision": "9228d81a4d32ce60",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "message",
+          "position": [
+            0.05,
+            0.92,
+            -1.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "operator",
+          "position": [
+            0.85,
+            -0.33,
+            -0.7
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "operator",
+          "params": {
+            "action": "write",
+            "origin": [
+              0.85,
+              -0.33,
+              -0.7
+            ],
+            "seated": true,
+            "handTarget": [
+              0.55,
+              1.13,
+              -1.15
+            ],
+            "keySync": true,
+            "reading": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1.7,
+          1.7,
+          1.4
+        ],
+        "to": [
+          1.52,
+          1.72,
+          1.22
+        ],
+        "target": [
+          0,
+          1.1,
+          -1.4
+        ]
+      },
+      "explanation": "O que a embarca\u00e7\u00e3o faz para chegar?",
+      "action": "Operador recebe e registra uma mensagem.",
+      "sourceBeat": "beat-02"
+    },
+    {
+      "id": "b02-02-resgate",
+      "start": 10.85368,
+      "duration": 2.442722,
+      "label": "b02-02-resgate",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "navio_carpathia",
+          "variant": "carpathia",
+          "revision": "7cdfb331b24df6ed",
+          "instanceId": "ship"
+        },
+        {
+          "id": "aproximacao_resgate",
+          "variant": "padrao",
+          "revision": "25af1cb38f183546",
+          "target": "ship",
+          "params": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "delta": [
+              -5,
+              0,
+              9
+            ],
+            "duration": 2.442722
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          112,
+          35,
+          135
+        ],
+        "to": [
+          109.75999999999999,
+          33.949999999999996,
+          132.3
+        ],
+        "target": [
+          0,
+          10,
+          0
+        ]
+      },
+      "explanation": "O que a embarca\u00e7\u00e3o faz para chegar?",
+      "action": "Carpathia avan\u00e7a com deslocamento claro.",
+      "sourceBeat": "beat-02"
+    },
+    {
+      "id": "b02-03-gelo-rota",
+      "start": 13.296403,
+      "duration": 2.442722,
+      "label": "b02-03-gelo-rota",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "navio_carpathia",
+          "variant": "carpathia",
+          "revision": "7cdfb331b24df6ed",
+          "instanceId": "ship"
+        },
+        {
+          "id": "gelo_maritimo",
+          "variant": "iceberg",
+          "revision": "a4d1e5ad49fc6bb8",
+          "position": [
+            35,
+            0,
+            108
+          ],
+          "scale": 0.33
+        }
+      ],
+      "camera": {
+        "from": [
+          65,
+          10,
+          120
+        ],
+        "to": [
+          63.699999999999996,
+          9.7,
+          117.6
+        ],
+        "target": [
+          0,
+          8,
+          67
+        ]
+      },
+      "explanation": "O que a embarca\u00e7\u00e3o faz para chegar?",
+      "action": "Gelo pr\u00f3ximo cruza a linha de vis\u00e3o da proa, revelando a dificuldade.",
+      "sourceBeat": "beat-02"
+    },
+    {
+      "id": "titanic",
+      "start": 15.739,
+      "duration": 3.861,
+      "label": "Titanic: mais de duas mil pessoas",
+      "explanation": "Identificar claramente o Titanic e recuperar escala antes de aproximar do bote.",
+      "action": "Identificar claramente o Titanic e recuperar escala antes de aproximar do bote.",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29"
+        },
+        {
+          "id": "gelo_maritimo",
+          "variant": "field",
+          "revision": "a4d1e5ad49fc6bb8",
+          "position": [
+            120,
+            0,
+            180
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          185,
+          58,
+          190
+        ],
+        "to": [
+          177,
+          53,
+          180
+        ],
+        "target": [
+          0,
+          13,
+          0
+        ]
+      }
+    },
+    {
+      "id": "empty-seats",
+      "start": 19.6,
+      "duration": 3.1,
+      "label": "Lugares que n\u00e3o foram ocupados",
+      "explanation": "Bote ocupado parcialmente afasta-se do costado, com bancos desocupados leg\u00edveis e rela\u00e7\u00e3o espacial com quem ficou.",
+      "action": "Passageiros sentados e bancos vazios leg\u00edveis no mesmo bote; escala humana e contato com os assentos.",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "bote_salvamento_1912",
+          "variant": "occupied",
+          "revision": "b2c5c21655fe2893",
+          "instanceId": "bote"
+        },
+        {
+          "id": "afastamento_bote",
+          "variant": "padrao",
+          "revision": "25af1cb38f183546",
+          "target": "bote",
+          "params": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "delta": [
+              5,
+              0,
+              3
+            ],
+            "duration": 5.911
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          5.2,
+          4.1,
+          6.8
+        ],
+        "to": [
+          5.3,
+          4.1,
+          6.9
+        ],
+        "target": [
+          0.2,
+          0.9,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "leaving-ship",
+      "start": 22.7,
+      "duration": 2.811,
+      "label": "O bote se afasta",
+      "explanation": "Bote ocupado parcialmente afasta-se do costado, com bancos desocupados leg\u00edveis e rela\u00e7\u00e3o espacial com quem ficou.",
+      "action": "Bote ocupado parcialmente afasta-se do costado, com bancos desocupados leg\u00edveis e rela\u00e7\u00e3o espacial com quem ficou.",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29",
+          "position": [
+            -35,
+            0,
+            -10
+          ]
+        },
+        {
+          "id": "bote_salvamento_1912",
+          "variant": "occupied",
+          "revision": "b2c5c21655fe2893",
+          "instanceId": "bote"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passengers",
+          "revision": "7bc94321e1a0e7fe",
+          "position": [
+            -23.5,
+            17.15,
+            -11.5
+          ]
+        },
+        {
+          "id": "afastamento_bote",
+          "variant": "padrao",
+          "revision": "25af1cb38f183546",
+          "target": "bote",
+          "params": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "delta": [
+              5,
+              0,
+              3
+            ],
+            "duration": 5.911
+          },
+          "timeOffset": 3.1
+        }
+      ],
+      "camera": {
+        "from": [
+          30,
+          22,
+          32
+        ],
+        "to": [
+          31,
+          22,
+          33
+        ],
+        "target": [
+          -9,
+          8,
+          -2
+        ]
+      }
+    },
+    {
+      "id": "b04-01-distancia",
+      "start": 25.511125,
+      "duration": 2.343542,
+      "label": "b04-01-distancia",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "navio_carpathia",
+          "variant": "carpathia",
+          "revision": "7cdfb331b24df6ed",
+          "position": [
+            0,
+            0,
+            -230
+          ],
+          "instanceId": "ship"
+        }
+      ],
+      "camera": {
+        "from": [
+          160,
+          27,
+          150
+        ],
+        "to": [
+          156.8,
+          26.189999999999998,
+          147
+        ],
+        "target": [
+          0,
+          12,
+          -150
+        ]
+      },
+      "explanation": "A ajuda est\u00e1 longe; o que aquela luz realmente significa?",
+      "action": "Uma linha de horizonte separa o resgate de quem espera.",
+      "sourceBeat": "beat-04"
+    },
+    {
+      "id": "b04-02-pista-retorno",
+      "start": 27.854667,
+      "duration": 2.343541,
+      "label": "A descoberta",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8",
+          "position": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64"
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "7bc94321e1a0e7fe",
+          "position": [
+            -0.5,
+            0,
+            0.2
+          ],
+          "rotation": 15
+        },
+        {
+          "id": "sinalizador_verde",
+          "variant": "padrao",
+          "revision": "be17902f47fc99dd",
+          "position": [
+            12,
+            4,
+            55
+          ],
+          "scale": 1.5,
+          "timeOffset": 1
+        }
+      ],
+      "camera": {
+        "from": [
+          -2,
+          2.1,
+          -1.7
+        ],
+        "to": [
+          -1.9,
+          2.1,
+          -1.6
+        ],
+        "target": [
+          12,
+          4,
+          55
+        ]
+      },
+      "explanation": "A ajuda est\u00e1 longe; o que aquela luz realmente significa?",
+      "action": "Retomar o sinal por outro ponto de observa\u00e7\u00e3o apenas para recolocar a pergunta.",
+      "sourceBeat": "beat-04"
+    },
+    {
+      "id": "b05-01-promessa",
+      "start": 30.198208,
+      "duration": 5.63975,
+      "label": "b05-01-promessa",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29",
+          "instanceId": "ship"
+        }
+      ],
+      "camera": {
+        "from": [
+          48,
+          10,
+          125
+        ],
+        "to": [
+          47.04,
+          9.7,
+          122.5
+        ],
+        "target": [
+          0,
+          14,
+          58
+        ]
+      },
+      "explanation": "Qual hist\u00f3ria ser\u00e1 reconstru\u00edda?",
+      "action": "Percorrer o costado e revelar a escala de uma embarca\u00e7\u00e3o ainda inteira.",
+      "sourceBeat": "beat-05"
+    },
+    {
+      "id": "titulo",
+      "start": 35.837958,
+      "duration": 4,
+      "label": "titulo",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          0,
+          20,
+          150
+        ],
+        "to": [
+          0,
+          19.4,
+          147
+        ],
+        "target": [
+          0,
+          8,
+          -300
+        ]
+      }
+    },
+    {
+      "id": "b06-01-cais",
+      "start": 39.837958,
+      "duration": 3.663521,
+      "label": "b06-01-cais",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29",
+          "instanceId": "ship"
+        },
+        {
+          "id": "porto_maritimo_1912",
+          "variant": "padrao",
+          "revision": "7e0fd31e8b480bca"
+        },
+        {
+          "id": "pertences_bordo_1912",
+          "variant": "mala",
+          "revision": "4981a126040d24a4",
+          "instanceId": "case",
+          "position": [
+            -26,
+            4.7,
+            20
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "boarding",
+          "position": [
+            -26,
+            4.24,
+            20
+          ],
+          "rotation": 30
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "boarding",
+          "params": {
+            "action": "carry",
+            "origin": [
+              -26,
+              4.24,
+              20
+            ],
+            "seated": false,
+            "prop": "case"
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "family",
+          "position": [
+            -28,
+            4.24,
+            18
+          ],
+          "rotation": 10
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "family",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -28,
+              4.24,
+              18
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          -18,
+          6,
+          30
+        ],
+        "to": [
+          -17.64,
+          5.82,
+          29.4
+        ],
+        "target": [
+          -26,
+          5,
+          20
+        ]
+      },
+      "explanation": "Como essa viagem come\u00e7ou?",
+      "action": "Cais ativo, bagagem e pessoas mostram partida.",
+      "sourceBeat": "beat-06"
+    },
+    {
+      "id": "b06-02-afastamento",
+      "start": 43.501479,
+      "duration": 3.663521,
+      "label": "b06-02-afastamento",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29",
+          "instanceId": "ship"
+        },
+        {
+          "id": "porto_maritimo_1912",
+          "variant": "padrao",
+          "revision": "7e0fd31e8b480bca"
+        },
+        {
+          "id": "aproximacao_resgate",
+          "variant": "padrao",
+          "revision": "25af1cb38f183546",
+          "target": "ship",
+          "params": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "delta": [
+              8,
+              0,
+              14
+            ],
+            "duration": 3.663521
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          185,
+          67,
+          200
+        ],
+        "to": [
+          181.29999999999998,
+          64.99,
+          196
+        ],
+        "target": [
+          -20,
+          12,
+          0
+        ]
+      },
+      "explanation": "Como essa viagem come\u00e7ou?",
+      "action": "\u00c1gua se abre entre costado e cais.",
+      "sourceBeat": "beat-06"
+    },
+    {
+      "id": "b07-01-bagagem",
+      "start": 47.165,
+      "duration": 5.475,
+      "label": "b07-01-bagagem",
+      "assets": [
+        {
+          "id": "alojamento_bordo_1912",
+          "variant": "padrao",
+          "revision": "1c2c3c8d96630836",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pertences_bordo_1912",
+          "variant": "mala",
+          "revision": "4981a126040d24a4",
+          "instanceId": "case",
+          "position": [
+            0.2,
+            0.45,
+            -0.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "traveller",
+          "position": [
+            0.2,
+            0,
+            0.2
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "traveller",
+          "params": {
+            "action": "set-down",
+            "origin": [
+              0.2,
+              0,
+              0.2
+            ],
+            "seated": false,
+            "prop": "case",
+            "destination": [
+              -0.085,
+              0.47,
+              -0.1
+            ]
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "companion",
+          "position": [
+            -1,
+            0,
+            -2
+          ],
+          "rotation": 25
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "companion",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -1,
+              0,
+              -2
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          -1,
+          1,
+          0.8
+        ],
+        "to": [
+          -0.95,
+          1,
+          0.72
+        ],
+        "target": [
+          -0.03,
+          0.65,
+          -0.1
+        ]
+      },
+      "explanation": "O que cada passageiro est\u00e1 levando para essa viagem?",
+      "action": "Mala e bilhete passam da m\u00e3o para uma superf\u00edcie; fam\u00edlia se re\u00fane ao lado.",
+      "sourceBeat": "beat-07"
+    },
+    {
+      "id": "b07-02-travessia",
+      "start": 52.64,
+      "duration": 4.04,
+      "label": "b07-02-travessia",
+      "assets": [
+        {
+          "id": "salao_bordo_1912",
+          "variant": "padrao",
+          "revision": "ac8b749fc20d6008",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "guest",
+          "position": [
+            1.35,
+            -0.33,
+            0.8
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "guest",
+          "params": {
+            "action": "rest",
+            "origin": [
+              1.35,
+              -0.33,
+              0.8
+            ],
+            "seated": true
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "steward",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "steward",
+          "position": [
+            2.3,
+            0,
+            1.75
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "steward",
+          "params": {
+            "action": "serve",
+            "origin": [
+              2.3,
+              0,
+              1.75
+            ],
+            "seated": false,
+            "prop": "service-item",
+            "destination": [
+              1.925,
+              0.881,
+              1.4
+            ],
+            "propOffset": [
+              -0.09,
+              -0.07,
+              0
+            ]
+          }
+        },
+        {
+          "id": "servico_bordo_1912",
+          "variant": "xicara",
+          "revision": "23f47fc89a990ba0",
+          "instanceId": "service-item",
+          "position": [
+            1.925,
+            0.881,
+            1.4
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "background-guest",
+          "position": [
+            -3.25,
+            -0.33,
+            -2.4
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "background-guest",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -3.25,
+              -0.33,
+              -2.4
+            ],
+            "seated": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1.05,
+          1.45,
+          2.35
+        ],
+        "to": [
+          1.12,
+          1.43,
+          2.25
+        ],
+        "target": [
+          2.05,
+          1,
+          1.35
+        ]
+      },
+      "explanation": "O que cada passageiro est\u00e1 levando para essa viagem?",
+      "action": "Um passageiro observa o mar; outro acomoda bagagem junto \u00e0 fam\u00edlia.",
+      "sourceBeat": "beat-07"
+    },
+    {
+      "id": "b07-03-nova-vida",
+      "start": 56.68,
+      "duration": 4.162167,
+      "label": "b07-03-nova-vida",
+      "assets": [
+        {
+          "id": "alojamento_bordo_1912",
+          "variant": "padrao",
+          "revision": "1c2c3c8d96630836",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pertences_bordo_1912",
+          "variant": "mala",
+          "revision": "4981a126040d24a4",
+          "instanceId": "case",
+          "position": [
+            -1.1,
+            0.47,
+            1
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "traveller",
+          "position": [
+            -1.7,
+            -0.015,
+            1.1
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "traveller",
+          "params": {
+            "action": "rest",
+            "origin": [
+              -1.7,
+              -0.015,
+              1.1
+            ],
+            "seated": true
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "companion",
+          "position": [
+            -1,
+            0,
+            -2
+          ],
+          "rotation": 25
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "companion",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -1,
+              0,
+              -2
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          0.75,
+          1.4,
+          2
+        ],
+        "to": [
+          0.65,
+          1.4,
+          1.9
+        ],
+        "target": [
+          -1.8,
+          1.05,
+          1
+        ]
+      },
+      "explanation": "O que cada passageiro est\u00e1 levando para essa viagem?",
+      "action": "Passageiro acomoda-se no beliche; a mala j\u00e1 est\u00e1 apoiada, em outro enquadramento.",
+      "sourceBeat": "beat-07"
+    },
+    {
+      "id": "b08-01-mesmo-navio",
+      "start": 60.842167,
+      "duration": 3.753666,
+      "label": "b08-01-mesmo-navio",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29",
+          "instanceId": "ship"
+        },
+        {
+          "id": "aproximacao_resgate",
+          "variant": "padrao",
+          "revision": "25af1cb38f183546",
+          "target": "ship",
+          "params": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "delta": [
+              4,
+              0,
+              7
+            ],
+            "duration": 3.753666
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          65,
+          25,
+          135
+        ],
+        "to": [
+          63.699999999999996,
+          24.25,
+          132.3
+        ],
+        "target": [
+          0,
+          12,
+          10
+        ]
+      },
+      "explanation": "Mesmo navio, mesma experi\u00eancia?",
+      "action": "Um \u00fanico navio em marcha re\u00fane as experi\u00eancias diferentes que acabamos de ver.",
+      "sourceBeat": "beat-08"
+    },
+    {
+      "id": "b09-01-corredor",
+      "start": 64.595833,
+      "duration": 5.004167,
+      "label": "b09-01-corredor",
+      "assets": [
+        {
+          "id": "corredor_bordo_1912",
+          "variant": "padrao",
+          "revision": "951adf42355c583b",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "walker",
+          "position": [
+            0.55,
+            0,
+            1.5
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "walker",
+          "params": {
+            "action": "walk",
+            "origin": [
+              0.55,
+              0,
+              1.5
+            ],
+            "seated": false,
+            "speed": 0.6
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "steward",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "distant-person",
+          "position": [
+            -0.55,
+            0,
+            -3
+          ],
+          "rotation": 0
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "distant-person",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -0.55,
+              0,
+              -3
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          0.75,
+          1.65,
+          3.9
+        ],
+        "to": [
+          0.5700000000000001,
+          1.67,
+          3.7199999999999998
+        ],
+        "target": [
+          0,
+          1.2,
+          -3.5
+        ]
+      },
+      "explanation": "O que muda quando o passageiro atravessa essa porta?",
+      "action": "Um percurso pela escada recupera a rela\u00e7\u00e3o dos espa\u00e7os com o conv\u00e9s.",
+      "sourceBeat": "beat-09"
+    },
+    {
+      "id": "b09-02-salao",
+      "start": 69.6,
+      "duration": 4.2,
+      "label": "b09-02-salao",
+      "assets": [
+        {
+          "id": "salao_bordo_1912",
+          "variant": "padrao",
+          "revision": "ac8b749fc20d6008",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "guest",
+          "position": [
+            1.35,
+            -0.33,
+            0.8
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "guest",
+          "params": {
+            "action": "rest",
+            "origin": [
+              1.35,
+              -0.33,
+              0.8
+            ],
+            "seated": true
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "steward",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "steward",
+          "position": [
+            2.3,
+            0,
+            1.75
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "steward",
+          "params": {
+            "action": "serve",
+            "origin": [
+              2.3,
+              0,
+              1.75
+            ],
+            "seated": false,
+            "prop": "service-item",
+            "destination": [
+              1.925,
+              0.881,
+              1.4
+            ],
+            "propOffset": [
+              -0.09,
+              -0.07,
+              0
+            ]
+          }
+        },
+        {
+          "id": "servico_bordo_1912",
+          "variant": "xicara",
+          "revision": "23f47fc89a990ba0",
+          "instanceId": "service-item",
+          "position": [
+            1.925,
+            0.881,
+            1.4
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "background-guest",
+          "position": [
+            -3.25,
+            -0.33,
+            -2.4
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "background-guest",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -3.25,
+              -0.33,
+              -2.4
+            ],
+            "seated": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1.05,
+          1.45,
+          2.35
+        ],
+        "to": [
+          1.12,
+          1.43,
+          2.25
+        ],
+        "target": [
+          2.05,
+          1,
+          1.35
+        ]
+      },
+      "explanation": "O que muda quando o passageiro atravessa essa porta?",
+      "action": "Servi\u00e7o coloca uma x\u00edcara diante de passageiro em sal\u00e3o.",
+      "sourceBeat": "beat-09"
+    },
+    {
+      "id": "b09-03-alojamento",
+      "start": 73.8,
+      "duration": 4.895042,
+      "label": "b09-03-alojamento",
+      "assets": [
+        {
+          "id": "alojamento_bordo_1912",
+          "variant": "padrao",
+          "revision": "1c2c3c8d96630836",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pertences_bordo_1912",
+          "variant": "mala",
+          "revision": "4981a126040d24a4",
+          "instanceId": "case",
+          "position": [
+            0.2,
+            0.45,
+            -0.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "traveller",
+          "position": [
+            0.2,
+            0,
+            0.2
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "traveller",
+          "params": {
+            "action": "set-down",
+            "origin": [
+              0.2,
+              0,
+              0.2
+            ],
+            "seated": false,
+            "prop": "case",
+            "destination": [
+              -0.085,
+              0.47,
+              -0.1
+            ]
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "companion",
+          "position": [
+            -1,
+            0,
+            -2
+          ],
+          "rotation": 25
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "companion",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -1,
+              0,
+              -2
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          -1,
+          1,
+          0.8
+        ],
+        "to": [
+          -0.95,
+          1,
+          0.72
+        ],
+        "target": [
+          -0.03,
+          0.65,
+          -0.1
+        ]
+      },
+      "explanation": "O que muda quando o passageiro atravessa essa porta?",
+      "action": "Outra pessoa acomoda a mala ao lado do beliche.",
+      "sourceBeat": "beat-09"
+    },
+    {
+      "id": "b10-01-cozinha",
+      "start": 78.695042,
+      "duration": 5.604958,
+      "label": "b10-01-cozinha",
+      "assets": [
+        {
+          "id": "cozinha_bordo_1912",
+          "variant": "padrao",
+          "revision": "7605179aa90d9b77",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "servico_bordo_1912",
+          "variant": "bandeja",
+          "revision": "23f47fc89a990ba0",
+          "instanceId": "tray",
+          "position": [
+            1.405,
+            0.9625,
+            1.65
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "steward",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "cook",
+          "position": [
+            1.3,
+            0,
+            2.05
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "cook",
+          "params": {
+            "action": "serve",
+            "origin": [
+              1.3,
+              0,
+              2.05
+            ],
+            "seated": false,
+            "prop": "tray",
+            "destination": [
+              1.405,
+              0.9625,
+              1.65
+            ],
+            "propOffset": [
+              0.39,
+              -0.03,
+              0
+            ]
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "worker",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "assistant",
+          "position": [
+            -0.1,
+            0,
+            -1
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "assistant",
+          "params": {
+            "action": "operate",
+            "origin": [
+              -0.1,
+              0,
+              -1
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          2.8,
+          1.7,
+          3.2
+        ],
+        "to": [
+          2.6199999999999997,
+          1.72,
+          3.02
+        ],
+        "target": [
+          0,
+          1,
+          -1
+        ]
+      },
+      "explanation": "Quem mant\u00e9m essas experi\u00eancias funcionando?",
+      "action": "Preparar e passar uma bandeja para o servi\u00e7o.",
+      "sourceBeat": "beat-10"
+    },
+    {
+      "id": "b10-02-servico",
+      "start": 84.3,
+      "duration": 1.5,
+      "label": "b10-02-servico",
+      "assets": [
+        {
+          "id": "salao_bordo_1912",
+          "variant": "padrao",
+          "revision": "ac8b749fc20d6008",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "guest",
+          "position": [
+            1.35,
+            -0.33,
+            0.8
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "guest",
+          "params": {
+            "action": "rest",
+            "origin": [
+              1.35,
+              -0.33,
+              0.8
+            ],
+            "seated": true
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "steward",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "steward",
+          "position": [
+            2.3,
+            0,
+            1.75
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "steward",
+          "params": {
+            "action": "serve",
+            "origin": [
+              2.3,
+              0,
+              1.75
+            ],
+            "seated": false,
+            "prop": "service-item",
+            "destination": [
+              2.405,
+              0.925,
+              1.35
+            ],
+            "propOffset": [
+              0.39,
+              -0.03,
+              0
+            ]
+          }
+        },
+        {
+          "id": "servico_bordo_1912",
+          "variant": "bandeja",
+          "revision": "23f47fc89a990ba0",
+          "instanceId": "service-item",
+          "position": [
+            2.405,
+            0.925,
+            1.35
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "background-guest",
+          "position": [
+            -3.25,
+            -0.33,
+            -2.4
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "background-guest",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -3.25,
+              -0.33,
+              -2.4
+            ],
+            "seated": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1.05,
+          1.45,
+          2.35
+        ],
+        "to": [
+          1.12,
+          1.43,
+          2.25
+        ],
+        "target": [
+          2.05,
+          1,
+          1.35
+        ]
+      },
+      "explanation": "Quem mant\u00e9m essas experi\u00eancias funcionando?",
+      "action": "Bandeja chega \u00e0 mesa, pagando a a\u00e7\u00e3o anterior.",
+      "sourceBeat": "beat-10"
+    },
+    {
+      "id": "b10-03-radio",
+      "start": 85.8,
+      "duration": 1.3,
+      "label": "b10-03-radio",
+      "assets": [
+        {
+          "id": "radio_bordo_1912",
+          "variant": "padrao",
+          "revision": "9228d81a4d32ce60",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "message",
+          "position": [
+            0.05,
+            0.92,
+            -1.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "operator",
+          "position": [
+            0.85,
+            -0.33,
+            -0.7
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "operator",
+          "params": {
+            "action": "serve-tray",
+            "origin": [
+              0.85,
+              -0.33,
+              -0.7
+            ],
+            "seated": true,
+            "handTarget": [
+              0.55,
+              1.13,
+              -1.15
+            ],
+            "keySync": true,
+            "reading": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1.7,
+          1.7,
+          1.4
+        ],
+        "to": [
+          1.52,
+          1.72,
+          1.22
+        ],
+        "target": [
+          0,
+          1.1,
+          -1.4
+        ]
+      },
+      "explanation": "Quem mant\u00e9m essas experi\u00eancias funcionando?",
+      "action": "Operador escreve e organiza papel enquanto a viagem continua.",
+      "sourceBeat": "beat-10"
+    },
+    {
+      "id": "b10-04-maquinas",
+      "start": 87.1,
+      "duration": 7.9885,
+      "label": "b10-04-maquinas",
+      "assets": [
+        {
+          "id": "maquinas_bordo_1912",
+          "variant": "padrao",
+          "revision": "2f537f567d470185",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "worker",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "engineer",
+          "position": [
+            1.15,
+            0,
+            1.2
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "engineer",
+          "params": {
+            "action": "operate",
+            "origin": [
+              1.15,
+              0,
+              1.2
+            ],
+            "seated": false
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "worker",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "fireman",
+          "position": [
+            -2,
+            0,
+            1.2
+          ],
+          "rotation": 160
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "fireman",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -2,
+              0,
+              1.2
+            ],
+            "seated": false
+          }
+        },
+        {
+          "id": "vapor_bordo_1912",
+          "variant": "padrao",
+          "revision": "81947d47f974171c",
+          "target": "room"
+        }
+      ],
+      "camera": {
+        "from": [
+          1.9,
+          1.7,
+          2.3
+        ],
+        "to": [
+          1.78,
+          1.65,
+          2.15
+        ],
+        "target": [
+          0,
+          1,
+          0
+        ]
+      },
+      "explanation": "Quem mant\u00e9m essas experi\u00eancias funcionando?",
+      "action": "Homens trabalham junto a mecanismo em ciclo e vapor localizado.",
+      "sourceBeat": "beat-10"
+    },
+    {
+      "id": "b11-01-caminho-conves",
+      "start": 95.0885,
+      "duration": 3.893813,
+      "label": "b11-01-caminho-conves",
+      "assets": [
+        {
+          "id": "corredor_bordo_1912",
+          "variant": "padrao",
+          "revision": "951adf42355c583b",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "walker",
+          "position": [
+            0.55,
+            0,
+            1.5
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "walker",
+          "params": {
+            "action": "walk",
+            "origin": [
+              0.55,
+              0,
+              1.5
+            ],
+            "seated": false,
+            "speed": 0.6
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "steward",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "distant-person",
+          "position": [
+            -0.55,
+            0,
+            -3
+          ],
+          "rotation": 0
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "distant-person",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -0.55,
+              0,
+              -3
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          0.75,
+          1.65,
+          3.9
+        ],
+        "to": [
+          0.5700000000000001,
+          1.67,
+          3.7199999999999998
+        ],
+        "target": [
+          0,
+          1.2,
+          -3.5
+        ]
+      },
+      "explanation": "Quem vai saber primeiro, e quem est\u00e1 mais perto dos botes?",
+      "action": "Pessoa percorre um trecho curto e alcan\u00e7a a \u00e1rea dos botes.",
+      "sourceBeat": "beat-11"
+    },
+    {
+      "id": "b11-02-caminho-interno",
+      "start": 98.982313,
+      "duration": 3.893812,
+      "label": "b11-02-caminho-interno",
+      "assets": [
+        {
+          "id": "corredor_bordo_1912",
+          "variant": "padrao",
+          "revision": "951adf42355c583b",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "walker",
+          "position": [
+            0.55,
+            0,
+            1.5
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "walker",
+          "params": {
+            "action": "walk",
+            "origin": [
+              0.55,
+              0,
+              1.5
+            ],
+            "seated": false,
+            "speed": 0.6
+          },
+          "timeOffset": 3.893812500000003
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "steward",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "distant-person",
+          "position": [
+            -0.55,
+            0,
+            -3
+          ],
+          "rotation": 0
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "distant-person",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -0.55,
+              0,
+              -3
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1,
+          1.25,
+          2
+        ],
+        "to": [
+          0.9,
+          1.25,
+          1.8
+        ],
+        "target": [
+          0.55,
+          1,
+          -2.5
+        ]
+      },
+      "explanation": "Quem vai saber primeiro, e quem est\u00e1 mais perto dos botes?",
+      "action": "Outro percurso inclui corredor e escada.",
+      "sourceBeat": "beat-11"
+    },
+    {
+      "id": "b12-01-dimensao",
+      "start": 102.876125,
+      "duration": 4.481361,
+      "label": "b12-01-dimensao",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29",
+          "instanceId": "ship"
+        }
+      ],
+      "camera": {
+        "from": [
+          38,
+          7,
+          100
+        ],
+        "to": [
+          37.24,
+          6.79,
+          98
+        ],
+        "target": [
+          0,
+          11,
+          69
+        ]
+      },
+      "explanation": "O que fazia aquele navio parecer preparado?",
+      "action": "Figura humana junto ao costado estabelece escala.",
+      "sourceBeat": "beat-12"
+    },
+    {
+      "id": "b12-02-protecao",
+      "start": 107.357486,
+      "duration": 4.481361,
+      "assets": [
+        {
+          "id": "anteparas_bordo_1912",
+          "variant": "padrao",
+          "revision": "3382aa641ce980cc"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          12,
+          7,
+          13
+        ],
+        "to": [
+          11,
+          6.8,
+          12
+        ],
+        "target": [
+          0,
+          0.7,
+          0
+        ]
+      },
+      "explanation": "O que fazia aquele navio parecer preparado?",
+      "action": "Revelar brevemente uma se\u00e7\u00e3o com divis\u00f5es internas.",
+      "sourceBeat": "beat-12"
+    },
+    {
+      "id": "b12-03-comunicacao",
+      "start": 111.838847,
+      "duration": 4.481361,
+      "label": "b12-03-comunicacao",
+      "assets": [
+        {
+          "id": "radio_bordo_1912",
+          "variant": "padrao",
+          "revision": "9228d81a4d32ce60",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "message",
+          "position": [
+            0.05,
+            0.92,
+            -1.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "operator",
+          "position": [
+            0.85,
+            -0.33,
+            -0.7
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "operator",
+          "params": {
+            "action": "write",
+            "origin": [
+              0.85,
+              -0.33,
+              -0.7
+            ],
+            "seated": true,
+            "handTarget": [
+              0.55,
+              1.13,
+              -1.15
+            ],
+            "keySync": true,
+            "reading": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          -0.7,
+          1.6,
+          -0.7
+        ],
+        "to": [
+          -0.62,
+          1.56,
+          -0.78
+        ],
+        "target": [
+          -0.2,
+          0.94,
+          -1.35
+        ]
+      },
+      "explanation": "O que fazia aquele navio parecer preparado?",
+      "action": "Chave e fone ligam o navio ao mundo exterior.",
+      "sourceBeat": "beat-12"
+    },
+    {
+      "id": "b13-01-papel-registro",
+      "start": 116.320208,
+      "duration": 4.07025,
+      "label": "b13-01-papel-registro",
+      "assets": [
+        {
+          "id": "radio_bordo_1912",
+          "variant": "padrao",
+          "revision": "9228d81a4d32ce60",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "message",
+          "position": [
+            0.05,
+            0.92,
+            -1.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "operator",
+          "position": [
+            0.85,
+            -0.33,
+            -0.7
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "operator",
+          "params": {
+            "action": "receive",
+            "origin": [
+              0.85,
+              -0.33,
+              -0.7
+            ],
+            "seated": true,
+            "handTarget": [
+              0.55,
+              1.13,
+              -1.15
+            ],
+            "keySync": true,
+            "reading": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1.65,
+          1.6,
+          -0.5
+        ],
+        "to": [
+          1.6,
+          1.58,
+          -0.55
+        ],
+        "target": [
+          0.6,
+          1.05,
+          -1.2
+        ]
+      },
+      "explanation": "Uma mensagem recebida j\u00e1 muda a navega\u00e7\u00e3o?",
+      "action": "Operador termina uma anota\u00e7\u00e3o e a deixa dispon\u00edvel.",
+      "sourceBeat": "beat-13"
+    },
+    {
+      "id": "b13-02-papel-destino",
+      "start": 120.390458,
+      "duration": 4.07025,
+      "label": "b13-02-papel-destino",
+      "assets": [
+        {
+          "id": "corredor_bordo_1912",
+          "variant": "padrao",
+          "revision": "951adf42355c583b",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "walker",
+          "position": [
+            0.55,
+            0,
+            1.5
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "walker",
+          "params": {
+            "action": "walk",
+            "origin": [
+              0.55,
+              0,
+              1.5
+            ],
+            "seated": false,
+            "speed": 0.6,
+            "prop": "transmitted-message",
+            "propOffset": [
+              -0.15,
+              0.03,
+              0
+            ],
+            "propRotation": [
+              -1.0471975511965976,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "steward",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "distant-person",
+          "position": [
+            -0.55,
+            0,
+            -3
+          ],
+          "rotation": 0
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "distant-person",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -0.55,
+              0,
+              -3
+            ],
+            "seated": false
+          }
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "transmitted-message",
+          "position": [
+            0.265,
+            1,
+            1.5
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          -1.2,
+          1.3,
+          2.4
+        ],
+        "to": [
+          -1.05,
+          1.3,
+          2.2
+        ],
+        "target": [
+          0.2,
+          1,
+          -1.5
+        ]
+      },
+      "explanation": "Uma mensagem recebida j\u00e1 muda a navega\u00e7\u00e3o?",
+      "action": "A mensagem sai do posto em dire\u00e7\u00e3o \u00e0 ponte.",
+      "sourceBeat": "beat-13"
+    },
+    {
+      "id": "b14-01-informacao-ponte",
+      "start": 124.460708,
+      "duration": 4.957209,
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8",
+          "position": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true,
+            "keyPosition": [
+              4,
+              6,
+              6
+            ],
+            "fill": 0.7,
+            "key": 1.2
+          }
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "bridge-paper",
+          "position": [
+            0,
+            1,
+            1.6
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "commander",
+          "position": [
+            -0.5,
+            0,
+            1.38
+          ],
+          "rotation": 0
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "commander",
+          "params": {
+            "action": "receive",
+            "origin": [
+              -0.5,
+              0,
+              1.38
+            ],
+            "seated": false,
+            "prop": "bridge-paper",
+            "handTarget": [
+              -0.215,
+              1.14,
+              1.78
+            ],
+            "propRotation": [
+              -1.0471975511965976,
+              0,
+              0
+            ],
+            "propOffset": [
+              0.12,
+              0.13,
+              0.075
+            ],
+            "reading": true,
+            "lookOut": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          0.65,
+          1.65,
+          2.8
+        ],
+        "to": [
+          0.6,
+          1.65,
+          2.7
+        ],
+        "target": [
+          -0.35,
+          1.2,
+          1.38
+        ]
+      },
+      "explanation": "Quanto tempo separa percep\u00e7\u00e3o e conhecimento compartilhado?",
+      "action": "Papel entra no espa\u00e7o de navega\u00e7\u00e3o; olhar se desloca do papel ao mar.",
+      "sourceBeat": "beat-14"
+    },
+    {
+      "id": "b15-01-refeicao-rotina",
+      "start": 129.417917,
+      "duration": 3.782083,
+      "label": "b15-01-refeicao-rotina",
+      "assets": [
+        {
+          "id": "salao_bordo_1912",
+          "variant": "padrao",
+          "revision": "ac8b749fc20d6008",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "guest",
+          "position": [
+            1.35,
+            -0.33,
+            0.8
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "guest",
+          "params": {
+            "action": "rest",
+            "origin": [
+              1.35,
+              -0.33,
+              0.8
+            ],
+            "seated": true
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "steward",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "steward",
+          "position": [
+            2.3,
+            0,
+            1.75
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "steward",
+          "params": {
+            "action": "collect",
+            "origin": [
+              2.3,
+              0,
+              1.75
+            ],
+            "seated": false,
+            "prop": "service-item",
+            "destination": [
+              1.925,
+              0.881,
+              1.4
+            ],
+            "propOffset": [
+              -0.09,
+              -0.07,
+              0
+            ]
+          }
+        },
+        {
+          "id": "servico_bordo_1912",
+          "variant": "xicara",
+          "revision": "23f47fc89a990ba0",
+          "instanceId": "service-item",
+          "position": [
+            1.925,
+            0.881,
+            1.4
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "background-guest",
+          "position": [
+            -3.25,
+            -0.33,
+            -2.4
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "background-guest",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -3.25,
+              -0.33,
+              -2.4
+            ],
+            "seated": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          0.9,
+          1.65,
+          3.5
+        ],
+        "to": [
+          0.72,
+          1.67,
+          3.32
+        ],
+        "target": [
+          2.1,
+          1,
+          0.5
+        ]
+      },
+      "explanation": "O que o restante do navio est\u00e1 fazendo enquanto isso?",
+      "action": "Lou\u00e7a recolhida e mesa organizada; estado posterior ao servi\u00e7o anterior.",
+      "sourceBeat": "beat-15"
+    },
+    {
+      "id": "b15-02-mensagens-rotina",
+      "start": 133.2,
+      "duration": 1.3,
+      "label": "b15-02-mensagens-rotina",
+      "assets": [
+        {
+          "id": "radio_bordo_1912",
+          "variant": "padrao",
+          "revision": "9228d81a4d32ce60",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "message",
+          "position": [
+            0.05,
+            0.92,
+            -1.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "operator",
+          "position": [
+            0.85,
+            -0.33,
+            -0.7
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "operator",
+          "params": {
+            "action": "rest",
+            "origin": [
+              0.85,
+              -0.33,
+              -0.7
+            ],
+            "seated": true,
+            "handTarget": [
+              0.55,
+              1.13,
+              -1.15
+            ],
+            "keySync": true,
+            "reading": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          -0.7,
+          1.6,
+          -0.7
+        ],
+        "to": [
+          -0.62,
+          1.56,
+          -0.78
+        ],
+        "target": [
+          -0.2,
+          0.94,
+          -1.35
+        ]
+      },
+      "explanation": "O que o restante do navio est\u00e1 fazendo enquanto isso?",
+      "action": "Opera\u00e7\u00e3o do r\u00e1dio e mensagem em servi\u00e7o enquanto a rotina continua.",
+      "sourceBeat": "beat-15"
+    },
+    {
+      "id": "b15-03-descanso",
+      "start": 134.5,
+      "duration": 5.824667,
+      "label": "b15-03-descanso",
+      "assets": [
+        {
+          "id": "alojamento_bordo_1912",
+          "variant": "padrao",
+          "revision": "1c2c3c8d96630836",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "pertences_bordo_1912",
+          "variant": "mala",
+          "revision": "4981a126040d24a4",
+          "instanceId": "case",
+          "position": [
+            -1.1,
+            0.47,
+            1
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "traveller",
+          "position": [
+            -1.7,
+            -0.015,
+            1.1
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "traveller",
+          "params": {
+            "action": "rest",
+            "origin": [
+              -1.7,
+              -0.015,
+              1.1
+            ],
+            "seated": true
+          }
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "companion",
+          "position": [
+            -1,
+            0,
+            -2
+          ],
+          "rotation": 25
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "companion",
+          "params": {
+            "action": "watch",
+            "origin": [
+              -1,
+              0,
+              -2
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          0.75,
+          1.4,
+          2
+        ],
+        "to": [
+          0.65,
+          1.4,
+          1.9
+        ],
+        "target": [
+          -1.8,
+          1.05,
+          1
+        ]
+      },
+      "explanation": "O que o restante do navio est\u00e1 fazendo enquanto isso?",
+      "action": "Lumin\u00e1ria e gesto de acomodar pertences indicam repouso.",
+      "sourceBeat": "beat-15"
+    },
+    {
+      "id": "b16-01-aviso-gelo",
+      "start": 140.324667,
+      "duration": 3.939041,
+      "label": "b16-01-aviso-gelo",
+      "assets": [
+        {
+          "id": "radio_bordo_1912",
+          "variant": "padrao",
+          "revision": "9228d81a4d32ce60",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "message",
+          "position": [
+            0.05,
+            0.92,
+            -1.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "operator",
+          "position": [
+            0.85,
+            -0.33,
+            -0.7
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "operator",
+          "params": {
+            "action": "write",
+            "origin": [
+              0.85,
+              -0.33,
+              -0.7
+            ],
+            "seated": true,
+            "handTarget": [
+              0.55,
+              1.13,
+              -1.15
+            ],
+            "keySync": true,
+            "reading": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1.7,
+          1.7,
+          1.4
+        ],
+        "to": [
+          1.52,
+          1.72,
+          1.22
+        ],
+        "target": [
+          0,
+          1.1,
+          -1.4
+        ]
+      },
+      "explanation": "Que nova informa\u00e7\u00e3o quebra a rotina?",
+      "action": "Mensagem de gelo \u00e9 recebida e uma palavra-chave vira foco.",
+      "sourceBeat": "beat-16"
+    },
+    {
+      "id": "b17-01-origem-relato",
+      "start": 144.263708,
+      "duration": 4.172847,
+      "label": "b17-01-origem-relato",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true
+          }
+        },
+        {
+          "id": "navio_carpathia",
+          "variant": "carpathia",
+          "revision": "7cdfb331b24df6ed",
+          "instanceId": "ship"
+        },
+        {
+          "id": "gelo_maritimo",
+          "variant": "iceberg",
+          "revision": "a4d1e5ad49fc6bb8",
+          "position": [
+            35,
+            0,
+            108
+          ],
+          "scale": 0.33
+        }
+      ],
+      "camera": {
+        "from": [
+          110,
+          34,
+          135
+        ],
+        "to": [
+          107.8,
+          32.98,
+          132.3
+        ],
+        "target": [
+          0,
+          8,
+          0
+        ]
+      },
+      "explanation": "Todos esses avisos chegam ao mesmo lugar?",
+      "action": "Outro navio encontra gelo e transmite.",
+      "sourceBeat": "beat-17"
+    },
+    {
+      "id": "b17-02-comandante",
+      "start": 148.436555,
+      "duration": 4.172847,
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8",
+          "position": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true,
+            "keyPosition": [
+              4,
+              6,
+              6
+            ],
+            "fill": 0.7,
+            "key": 1.2
+          }
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "bridge-paper",
+          "position": [
+            0,
+            1,
+            1.6
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "commander",
+          "position": [
+            -0.5,
+            0,
+            1.38
+          ],
+          "rotation": 0
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "commander",
+          "params": {
+            "action": "receive",
+            "origin": [
+              -0.5,
+              0,
+              1.38
+            ],
+            "seated": false,
+            "prop": "bridge-paper",
+            "handTarget": [
+              -0.215,
+              1.14,
+              1.78
+            ],
+            "propRotation": [
+              -1.0471975511965976,
+              0,
+              0
+            ],
+            "propOffset": [
+              0.12,
+              0.13,
+              0.075
+            ],
+            "reading": true,
+            "lookOut": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          1.2,
+          1.8,
+          3.8
+        ],
+        "to": [
+          1.1,
+          1.8,
+          3.7
+        ],
+        "target": [
+          -0.35,
+          1.2,
+          1.38
+        ]
+      },
+      "explanation": "Todos esses avisos chegam ao mesmo lugar?",
+      "action": "Um aviso chega \u00e0 ponte e \u00e9 examinado.",
+      "sourceBeat": "beat-17"
+    },
+    {
+      "id": "b17-03-caminhos-aviso",
+      "start": 152.609403,
+      "duration": 4.172847,
+      "label": "b17-03-caminhos-aviso",
+      "assets": [
+        {
+          "id": "radio_bordo_1912",
+          "variant": "padrao",
+          "revision": "9228d81a4d32ce60",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "message",
+          "position": [
+            0.05,
+            0.92,
+            -1.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "operator",
+          "position": [
+            0.85,
+            -0.33,
+            -0.7
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "operator",
+          "params": {
+            "action": "write",
+            "origin": [
+              0.85,
+              -0.33,
+              -0.7
+            ],
+            "seated": true,
+            "handTarget": [
+              0.55,
+              1.13,
+              -1.15
+            ],
+            "keySync": true,
+            "reading": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          -0.35,
+          1.55,
+          -0.45
+        ],
+        "to": [
+          -0.28,
+          1.52,
+          -0.53
+        ],
+        "target": [
+          0.55,
+          1.01,
+          -1.3
+        ]
+      },
+      "explanation": "Todos esses avisos chegam ao mesmo lugar?",
+      "action": "Outro registro permanece no fluxo de trabalho do r\u00e1dio.",
+      "sourceBeat": "beat-17"
+    },
+    {
+      "id": "b18-01-registros",
+      "start": 156.78225,
+      "duration": 5.866958,
+      "label": "b18-01-registros",
+      "assets": [
+        {
+          "id": "radio_bordo_1912",
+          "variant": "padrao",
+          "revision": "9228d81a4d32ce60",
+          "instanceId": "room"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "da1ad73a719ec48d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "message",
+          "position": [
+            0.05,
+            0.92,
+            -1.3
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "seated",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "operator",
+          "position": [
+            0.85,
+            -0.33,
+            -0.7
+          ],
+          "rotation": 180
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "operator",
+          "params": {
+            "action": "write",
+            "origin": [
+              0.85,
+              -0.33,
+              -0.7
+            ],
+            "seated": true,
+            "handTarget": [
+              0.55,
+              1.13,
+              -1.15
+            ],
+            "keySync": true,
+            "reading": true
+          }
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "record-2",
+          "position": [
+            -0.45,
+            0.923,
+            -1.25
+          ]
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "record-3",
+          "position": [
+            0.15,
+            0.927,
+            -1.5
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          -0.65,
+          2.1,
+          -0.4
+        ],
+        "to": [
+          -0.6,
+          2.05,
+          -0.5
+        ],
+        "target": [
+          -0.1,
+          0.94,
+          -1.4
+        ]
+      },
+      "explanation": "Por que o significado desses pap\u00e9is muda para quem conhece o desfecho?",
+      "action": "Avisos separados aparecem na ordem em que s\u00e3o apresentados.",
+      "sourceBeat": "beat-18"
+    },
+    {
+      "id": "b18-02-rota-em-curso",
+      "start": 162.649208,
+      "duration": 5.866959,
+      "label": "b18-02-rota-em-curso",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29",
+          "instanceId": "ship"
+        }
+      ],
+      "camera": {
+        "from": [
+          36,
+          10,
+          123
+        ],
+        "to": [
+          35.28,
+          9.7,
+          120.53999999999999
+        ],
+        "target": [
+          0,
+          10,
+          63
+        ]
+      },
+      "explanation": "Por que o significado desses pap\u00e9is muda para quem conhece o desfecho?",
+      "action": "Recuperar o avan\u00e7o da proa enquanto a informa\u00e7\u00e3o \u00e9 avaliada.",
+      "sourceBeat": "beat-18"
+    },
+    {
+      "id": "b19-01-decisao",
+      "start": 168.516167,
+      "duration": 5.167625,
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8",
+          "position": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": true,
+            "keyPosition": [
+              4,
+              6,
+              6
+            ],
+            "fill": 0.7,
+            "key": 1.2
+          }
+        },
+        {
+          "id": "ponte_observacao_maritima",
+          "variant": "padrao",
+          "revision": "0a4f4264c601687d"
+        },
+        {
+          "id": "mensagem_bordo_1912",
+          "variant": "papel",
+          "revision": "15d81fdef634eaa0",
+          "instanceId": "bridge-paper",
+          "position": [
+            0,
+            1,
+            1.6
+          ]
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "captain",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "commander",
+          "position": [
+            -0.5,
+            0,
+            1.38
+          ],
+          "rotation": 0
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "commander",
+          "params": {
+            "action": "receive",
+            "origin": [
+              -0.5,
+              0,
+              1.38
+            ],
+            "seated": false,
+            "prop": "bridge-paper",
+            "handTarget": [
+              -0.215,
+              1.14,
+              1.78
+            ],
+            "propRotation": [
+              -1.0471975511965976,
+              0,
+              0
+            ],
+            "propOffset": [
+              0.12,
+              0.13,
+              0.075
+            ],
+            "reading": true,
+            "lookOut": true
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          0.8,
+          2.1,
+          3.2
+        ],
+        "to": [
+          0.7,
+          1.9,
+          3
+        ],
+        "target": [
+          -0.35,
+          1.2,
+          1.38
+        ],
+        "targetFrom": [
+          -0.25,
+          1.3,
+          1.55
+        ],
+        "targetTo": [
+          -0.35,
+          1.5,
+          1.38
+        ]
+      },
+      "explanation": "O que acontece entre receber e decidir?",
+      "action": "M\u00e3o deixa o aviso na mesa; olhar e enquadramento transferem aten\u00e7\u00e3o ao rumo.",
+      "sourceBeat": "beat-19"
+    },
+    {
+      "id": "b20-01-anoitecer",
+      "start": 173.683792,
+      "duration": 2.105403,
+      "label": "b20-01-anoitecer",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29",
+          "instanceId": "ship"
+        },
+        {
+          "id": "pessoas_maritimas_1912",
+          "variant": "passenger",
+          "revision": "7bc94321e1a0e7fe",
+          "instanceId": "on-deck",
+          "position": [
+            12.1,
+            17.15,
+            17.2
+          ],
+          "rotation": 90
+        },
+        {
+          "id": "acoes_bordo_1912",
+          "variant": "padrao",
+          "revision": "10d707cc5a4c76a8",
+          "target": "on-deck",
+          "params": {
+            "action": "watch",
+            "origin": [
+              12.1,
+              17.15,
+              17.2
+            ],
+            "seated": false
+          }
+        }
+      ],
+      "camera": {
+        "from": [
+          8.5,
+          18.7,
+          13.5
+        ],
+        "to": [
+          8.33,
+          18.139,
+          13.23
+        ],
+        "target": [
+          12.1,
+          18.3,
+          17.2
+        ]
+      },
+      "explanation": "O que h\u00e1 al\u00e9m do alcance de quem est\u00e1 a bordo?",
+      "action": "Luz do conv\u00e9s passa ao estado noturno, com gente ainda em rotina.",
+      "sourceBeat": "beat-20"
+    },
+    {
+      "id": "b20-02-proa-noite",
+      "start": 175.789195,
+      "duration": 2.105403,
+      "label": "b20-02-proa-noite",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "transatlantico_titanic",
+          "variant": "titanic",
+          "revision": "29cc96ae54300b29",
+          "instanceId": "ship"
+        }
+      ],
+      "camera": {
+        "from": [
+          33,
+          7,
+          145
+        ],
+        "to": [
+          32.339999999999996,
+          6.79,
+          142.1
+        ],
+        "target": [
+          0,
+          8,
+          110
+        ]
+      },
+      "explanation": "O que h\u00e1 al\u00e9m do alcance de quem est\u00e1 a bordo?",
+      "action": "Proa avan\u00e7a na superf\u00edcie calma.",
+      "sourceBeat": "beat-20"
+    },
+    {
+      "id": "b20-03-gelo-adiante",
+      "start": 177.894597,
+      "duration": 2.105403,
+      "label": "b20-03-gelo-adiante",
+      "assets": [
+        {
+          "id": "atlantico_noturno",
+          "variant": "padrao",
+          "revision": "04ffaea6901b74a8"
+        },
+        {
+          "id": "iluminacao_maritima",
+          "variant": "padrao",
+          "revision": "9088df6c1764dd64",
+          "params": {
+            "day": false
+          }
+        },
+        {
+          "id": "gelo_maritimo",
+          "variant": "iceberg",
+          "revision": "a4d1e5ad49fc6bb8",
+          "position": [
+            0,
+            0,
+            75
+          ],
+          "scale": 0.8
+        }
+      ],
+      "camera": {
+        "from": [
+          18,
+          4,
+          140
+        ],
+        "to": [
+          17.64,
+          3.88,
+          137.2
+        ],
+        "target": [
+          0,
+          6,
+          110
+        ]
+      },
+      "explanation": "O que h\u00e1 al\u00e9m do alcance de quem est\u00e1 a bordo?",
+      "action": "Gelo emerge na dire\u00e7\u00e3o da viagem, ainda separado do navio.",
+      "sourceBeat": "beat-20"
+    }
+  ],
+  "captions": [],
+  "qaSources": [
+    "build-composition.mjs",
+    "build-titles.mjs",
+    "build-mix.py",
+    "finalize-preview.py",
+    "finalize-v12.py"
+  ]
+}

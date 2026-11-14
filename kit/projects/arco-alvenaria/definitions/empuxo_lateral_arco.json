@@ -1,0 +1,19 @@
+{
+  "id": "empuxo_lateral_arco",
+  "label": "Empuxo lateral e reação dos apoios",
+  "kind": "effect",
+  "category": "efeitos",
+  "module": "arco-empuxo-lateral.js",
+  "description": "Setas horizontais de empuxo e reação entram em pares, com contorno escuro, ponta ampliada e cores distintas para tornar as direções legíveis sem atribuir magnitude numérica.",
+  "aliases": [
+    "empuxo lateral",
+    "reação dos apoios",
+    "força lateral no arco"
+  ],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:lateral-thrust",
+    "projectId": "arco-alvenaria"
+  },
+  "variants": [],
+  "baselineIds": []
+}

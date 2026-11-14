@@ -1,0 +1,21 @@
+{
+  "id": "arco-alvenaria-wan2gp-livre",
+  "title": "Arco de alvenaria — Wan2GP livre, a partir da narrativa",
+  "stage": "diagnostic-available",
+  "scope": "Teste independente: usar somente narrativa, áudio existente e direção textual; nenhum frame do original como guia. Encenação, cenário e câmera podem mudar. Mostrar qualidade e falhas reais.",
+  "approvals": {},
+  "sourceNarration": "kit/projects/arco-alvenaria/narration.txt",
+  "sourceAudio": "áudio AAC do short aprovado, sem reencodificação",
+  "imageGuide": null,
+  "videoGuide": null,
+  "humanApproved": false,
+  "next_action": "Criador comparar geração independente e original pelo link Wi-Fi. Não há aprovação de publicação.",
+  "originalVisualsAllowedAsInput": false,
+  "model": "Nexus 1.3B, Wan2GP local",
+  "nativeGenerationInput": "generation/video.json",
+  "resolution": "432×768",
+  "fps": 16,
+  "testsPassed": 23,
+  "qaStatus": "rejected",
+  "previewUrl": "http://192.168.15.10:4180/livre/"
+}

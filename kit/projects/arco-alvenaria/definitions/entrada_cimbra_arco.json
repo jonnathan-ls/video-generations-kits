@@ -1,0 +1,22 @@
+{
+  "id": "entrada_cimbra_arco",
+  "kind": "animation",
+  "label": "Montagem do cimbre sob o arco",
+  "category": "animacoes",
+  "module": "entrada-cimbra-arco.js",
+  "description": "Comportamento determinístico que ergue as escoras do cimbre e monta as costelas curvas em sequência até encostar no intradorso.",
+  "aliases": [
+    "montagem do cimbre",
+    "entrada do cimbre",
+    "erguer escoramento do arco",
+    "cimbre se monta sob o arco"
+  ],
+  "variants": [],
+  "baselineIds": [
+    "cimbra_arco"
+  ],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:e2-centering-entry",
+    "projectId": "arco-alvenaria"
+  }
+}

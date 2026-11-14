@@ -1,0 +1,27 @@
+{
+  "name": "video-kit",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "studio": "node kit/tools/server.mjs",
+    "wan2gp": "node kit/tools/wan2gp.mjs",
+    "catalog": "node kit/tools/build-catalog.mjs",
+    "analisar": "node kit/tools/analyze-narrative.mjs",
+    "validar": "node kit/tools/validate-production.mjs",
+    "procurar": "node kit/tools/catalog-query.mjs",
+    "render:segments": "node kit/tools/render-segments.mjs",
+    "storyboard:compile": "node kit/tools/storyboard-compile.mjs",
+    "scene:jobs": "node kit/tools/scene-jobs.mjs"
+  },
+  "dependencies": {
+    "three": "0.187.0",
+    "gsap": "3.14.2"
+  },
+  "devDependencies": {
+    "puppeteer-core": "25.16.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

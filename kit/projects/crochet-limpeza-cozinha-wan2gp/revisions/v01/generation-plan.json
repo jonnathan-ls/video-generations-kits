@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "crochet-limpeza-cozinha-wan2gp",
+  "title": "Cozinha de crochê: dia de limpeza",
+  "duration": 29.375,
+  "reference": "https://www.instagram.com/reel/Dck3Gz1SHr0/",
+  "referenceHash": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+  "referenceUse": "Amostrada a 10 fps para mapear ações e ritmo. Nunca entrada da geração, condicionamento visual ou material da montagem.",
+  "originalVisualInputsAllowed": false,
+  "approval": {
+    "projectPlan": "approved-in-chat",
+    "assets": "pending",
+    "generatedClips": "pending-human-review",
+    "finalPreview": "not-rendered"
+  },
+  "generation": {
+    "model": "t2v_nexus_1.3B",
+    "modelFile": "wan2.1_t2v_1.3b.nexus.B-SMOOTHED.build.1.safetensors",
+    "mode": "text-to-video",
+    "profile": "5",
+    "attention": "sdpa",
+    "width": 432,
+    "height": 768,
+    "fps": 16,
+    "steps": 6,
+    "guidanceScale": 1,
+    "flowShift": 5,
+    "seedBase": 684201,
+    "seedStep": 97,
+    "batch": 1,
+    "targetDelivery": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "note": "Montagem local amplia a imagem; não cria detalhe que não esteja no quadro base."
+    },
+    "audio": "Gerado/separado depois; o Nexus T2V não fornece a mixagem final deste plano.",
+    "runtimePreflight": "Doctor local e dry-run offline da abertura e dos 11 trechos passaram em 2026-11-09; 12 clips gerados com GPU. O resultado visual foi reprovado e a aprovação humana permanece pendente."
+  },
+  "shots": [
+    {
+      "id": "01-pratos-pia",
+      "start": 0,
+      "end": 3.65,
+      "sourceRange": [
+        0,
+        3.65
+      ],
+      "attentionTarget": "esponja amarela e prato na pia esquerda",
+      "action": "Close macro: a mão segura um prato de crochê sobre a pia, passa uma esponja mostarda uma vez pela superfície com espuma leve e enxágua; a textura de laçadas continua visível e o prato termina limpo no escorredor.",
+      "soundCue": "água fina, esfregada macia e toque abafado no escorredor",
+      "wanPrompt": "Close macro at the left sink, one continuous cleaning action. The dish is a small shallow ivory crochet plate made entirely from thick cotton yarn; its rim and center both have large raised loops and soft matte fibers, clearly crochet, never ceramic. Two hands with plain navy cuffs hold it steady. Start with the small rectangular mustard-yellow yarn sponge already touching the plate. The right hand makes one obvious left-to-right sweep across the surface; the sponge stays in firm contact and compresses slightly, and a short trail of white soap bubbles follows its path. A thin water stream rinses the bubbles away, then the plate is placed in the yarn dish rack. Keep the whole action visible in the fixed close-up. Do not hover or pause with the sponge above the plate. No food, no donut, no cut, no extra action."
+    },
+    {
+      "id": "02-canecas",
+      "start": 3.65,
+      "end": 6.92,
+      "sourceRange": [
+        3.65,
+        6.92
+      ],
+      "attentionTarget": "caneca clara sob o fio d'água",
+      "action": "Close macro no mesmo lado da pia: enxágue uma caneca de crochê azul-acinzentada sob um fio curto de água e pouse-a ao lado das outras no escorredor, concluindo com as peças estáveis e alinhadas.",
+      "soundCue": "fio d'água, toque de tecido e encaixe oco suave",
+      "wanPrompt": "Close macro at the same left sink. A hand rinses one blue-gray crocheted cup beneath a thin clear stream of water, then places it beside two other small yarn cups in the dish rack. Keep the cups still after contact; preserve the same warm window light and kitchen layout. No ceramic, no labels, no camera change."
+    },
+    {
+      "id": "03-cooktop",
+      "start": 6.92,
+      "end": 10.77,
+      "sourceRange": [
+        6.92,
+        10.77
+      ],
+      "attentionTarget": "um único círculo do cooktop índigo",
+      "action": "Macro frontal do fogão à direita: uma esponja verde-menta faz uma passada firme sobre um círculo de queimador de crochê índigo; poucas bolhas surgem no contato e somem, deixando o círculo limpo. Sem trocar de câmera dentro do clip.",
+      "soundCue": "esfregada curta, bolhas discretas e pequeno toque no aro",
+      "wanPrompt": "Front macro of one dark indigo crocheted cooktop burner. A mint-green yarn sponge makes one firm pass across the single burner ring. A few soft bubbles appear on contact and disappear, leaving the crocheted ring clean and its raised loops visible. Locked camera, no other burner, no metal, no cut inside the shot."
+    },
+    {
+      "id": "04-migalhas",
+      "start": 10.77,
+      "end": 14.02,
+      "sourceRange": [
+        10.77,
+        14.02
+      ],
+      "attentionTarget": "migalhas no piso diante dos armários",
+      "action": "Plano médio vertical: uma vassourinha de fibras castanhas varre pequenas migalhas de crochê do piso creme em um arco contínuo para uma pá verde-menta; a mão levanta a pá e despeja as migalhas em um cestinho índigo, que fica quieto.",
+      "soundCue": "cerdas macias deslizando, pequenos grãos tocando a pá e pancada acolchoada no cesto",
+      "wanPrompt": "Vertical medium close shot of a cream crocheted floor in front of the mint cabinets. A small brown yarn broom sweeps tiny crochet crumbs in one continuous arc into a mint dustpan. A hand lifts the dustpan and tips the crumbs into a small indigo yarn basket; the basket stays still. Keep every surface visibly made of chunky crochet yarn; no realistic wood grain."
+    },
+    {
+      "id": "05-geladeira-limpa",
+      "start": 14.02,
+      "end": 17.36,
+      "sourceRange": [
+        14.02,
+        17.36
+      ],
+      "attentionTarget": "prateleira interna da geladeira menta",
+      "action": "Macro dentro da geladeira aberta: mão retira uma prateleira estreita de crochê, passa um pano creme uma vez pela prateleira vazia e a recoloca nivelada. Mantenha o interior e a escala do mesmo conjunto de cozinha.",
+      "soundCue": "porta macia, puxada curta de prateleira e pano deslizando",
+      "wanPrompt": "Macro view inside the same open mint crochet refrigerator. A hand slides out one narrow crocheted shelf, wipes the empty shelf once with a cream yarn cloth, then returns it level to the same rails. Preserve the tiny yarn-built interior, visible loops on the shelf and fixed camera. No real plastic surfaces, no food."
+    },
+    {
+      "id": "06-geladeira-organiza",
+      "start": 17.36,
+      "end": 19.89,
+      "sourceRange": [
+        17.36,
+        19.89
+      ],
+      "attentionTarget": "fileiras de recipientes coloridos na geladeira",
+      "action": "Plano frontal da geladeira aberta: duas mãos colocam uma garrafinha creme, um pote coral e pequenos vegetais de crochê em fileiras espaçadas nas prateleiras menta; terminam imóveis e organizados, sem rótulos.",
+      "soundCue": "três pousos macios em ritmo curto, mantendo a música contínua",
+      "wanPrompt": "Front view of the same open mint crochet refrigerator. Two hands place one small cream yarn bottle, one coral crochet jar and three tiny crocheted vegetables in separated rows on the shelves. Each item is set down with clear contact and remains still. All items and shelves look handmade from thick yarn, with no labels or writing."
+    },
+    {
+      "id": "07-despensa-potes",
+      "start": 19.89,
+      "end": 22.25,
+      "sourceRange": [
+        19.89,
+        22.25
+      ],
+      "attentionTarget": "três potes de tempero no armário",
+      "action": "Close frontal do armário menta aberto: uma mão coloca três potes pequenos de crochê, em coral, mostarda e creme, lado a lado numa prateleira; todos param alinhados, sem texto ou marcas.",
+      "soundCue": "toques leves de pote em madeira acolchoada, sem som metálico duro",
+      "wanPrompt": "Front close-up of the open mint crochet pantry cabinet. One hand places exactly three small crocheted spice jars, coral, mustard and cream, side by side on one shelf. The three yarn jars stop in a neat row. Clearly visible crochet loops on the jars and cabinet; no labels, letters or extra containers."
+    },
+    {
+      "id": "08-pano-dobrado",
+      "start": 22.25,
+      "end": 23.8,
+      "sourceRange": [
+        22.25,
+        23.8
+      ],
+      "attentionTarget": "pano listrado coral e creme",
+      "action": "Macro das mãos dobrando uma única vez um pano de crochê listrado coral e creme e deixando-o diante do armário fechado; a dobra fica nítida, com fibras e pontos visíveis.",
+      "soundCue": "duas fricções de fio e pouso de tecido",
+      "wanPrompt": "Macro of two hands folding one small coral-and-cream striped crochet dishcloth exactly once and setting it in front of the closed mint cabinet. The fold settles clearly and stays still. Show thick yarn fibers and raised crochet loops; no text and no camera reframing."
+    },
+    {
+      "id": "09-pia-bancada",
+      "start": 23.8,
+      "end": 25.2,
+      "sourceRange": [
+        23.8,
+        25.2
+      ],
+      "attentionTarget": "borda da pia e bancada adjacente",
+      "action": "Um só movimento de pano creme atravessa da borda da pia para a bancada de crochê; pequenas gotas translúcidas desaparecem no caminho, sem ocultar a trama. Enquadramento macro, câmera estável.",
+      "soundCue": "pano deslizando, duas gotas e um brilho sonoro mínimo",
+      "wanPrompt": "Stable macro at the sink edge and adjoining yarn countertop. A cream crochet cloth makes one short wipe from sink rim onto the counter; two tiny clear droplets disappear along its path. Keep the raised crochet stitches visible before and after the wipe, with no camera movement or extra props."
+    },
+    {
+      "id": "10-fogao-final",
+      "start": 25.2,
+      "end": 26.78,
+      "sourceRange": [
+        25.2,
+        26.78
+      ],
+      "attentionTarget": "grade do fogão e panela pequena",
+      "action": "Uma mão faz a última passada de pano sobre a grade índigo do fogão e repousa uma única panelinha de crochê no centro do queimador; contato claro, sem objetos extras surgindo.",
+      "soundCue": "passada de tecido e pouso abafado da panelinha",
+      "wanPrompt": "Close macro on one indigo crocheted cooktop ring. A hand finishes one short wipe with a cream yarn cloth, then places one tiny crocheted saucepan exactly at the center of the ring. Show the pan base touching the burner; it stays there. No flames, no extra props, no camera change."
+    },
+    {
+      "id": "11-toalha",
+      "start": 26.78,
+      "end": 27.97,
+      "sourceRange": [
+        26.78,
+        27.97
+      ],
+      "attentionTarget": "toalha listrada no puxador do forno",
+      "action": "A mão pendura uma pequena toalha listrada coral, creme e menta no puxador de crochê do forno e a solta; ela balança uma vez e assenta. Macro lateral com textura nítida.",
+      "soundCue": "tecido ao passar no puxador e um tilintar suave de finalização",
+      "wanPrompt": "Side macro of the same tiny yarn kitchen oven. A hand hangs one small coral, cream and mint striped crochet towel on the crocheted oven handle, releases it, and the towel swings once before settling. Keep the looped yarn texture crisp, with no metal shine and no camera move."
+    },
+    {
+      "id": "12-revelacao-final",
+      "start": 27.97,
+      "end": 29.375,
+      "sourceRange": [
+        27.97,
+        29.375
+      ],
+      "attentionTarget": "cozinha inteira limpa",
+      "action": "Plano geral vertical final da mesma cozinha em L: pia, cooktop, armários, geladeira e despensa no mesmo layout; a câmera faz um pullback curto e para, revelando todas as superfícies organizadas. Luz morna consistente, sem texto e sem nova ação.",
+      "soundCue": "resolução musical leve e ambiente de cozinha macio; sustentar a imagem até o fim",
+      "wanPrompt": "Final vertical wide reveal of the same L-shaped handmade crochet kitchen: sink left, indigo cooktop right, mint cabinets, open pantry and tiny refrigerator all in their established positions. The camera makes one short smooth pullback and settles, showing every visible surface made from chunky yarn with clear crochet loops. Warm left window light, hold the final still composition, no new action, no text."
+    }
+  ]
+}

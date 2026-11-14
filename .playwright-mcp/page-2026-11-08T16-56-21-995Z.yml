@@ -1,0 +1,162 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Rockstar, composições de cena" [ref=e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [aria-hidden] [ref=e4]: R
+      - generic [ref=e5]:
+        - strong [ref=e6]: ROCKSTAR
+        - generic [ref=e7]: HISTÓRIA · ESTUDO VISUAL
+    - generic [ref=e8]:
+      - generic [ref=e9]: QA INTERNO CONCLUÍDO · REVISÃO PENDENTE
+      - generic [ref=e12]: Prévia local · Three.js
+  - main [ref=e13]:
+    - complementary "Cenas da narrativa" [ref=e14]:
+      - generic [ref=e15]:
+        - paragraph [ref=e16]: NARRATIVA · 20–23 MIN
+        - heading "Composições" [level=1] [ref=e17]
+        - paragraph [ref=e18]: 13 composições ligam 29 parágrafos aos acontecimentos e movimentos da narrativa.
+      - navigation "Selecionar cena" [ref=e19]:
+        - button "01 Da fábrica ao primeiro computador 00:00–02:00 ›" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: "01"
+          - generic [ref=e22]: Da fábrica ao primeiro computador
+          - generic [ref=e23]: 00:00–02:00
+          - generic [ref=e24]: ›
+        - button "02 Um estúdio pequeno acima da rua 02:00–06:00 ›" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: "02"
+          - generic [ref=e27]: Um estúdio pequeno acima da rua
+          - generic [ref=e28]: 02:00–06:00
+          - generic [ref=e29]: ›
+        - button "03 Uma animação vira escolha de percurso 06:00–08:00 ›" [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]: "03"
+          - generic [ref=e32]: Uma animação vira escolha de percurso
+          - generic [ref=e33]: 06:00–08:00
+          - generic [ref=e34]: ›
+        - button "04 A cidade vista de cima muda de escala 08:00–10:00 ›" [ref=e35] [cursor=pointer]:
+          - generic [ref=e36]: "04"
+          - generic [ref=e37]: A cidade vista de cima muda de escala
+          - generic [ref=e38]: 08:00–10:00
+          - generic [ref=e39]: ›
+        - button "05 Estúdio e marca editorial percorrem linhas diferentes 10:00–12:00 ›" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: "05"
+          - generic [ref=e42]: Estúdio e marca editorial percorrem linhas diferentes
+          - generic [ref=e43]: 10:00–12:00
+          - generic [ref=e44]: ›
+        - button "06 A câmera desce ao nível da rua 12:00–14:00 ›" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]: "06"
+          - generic [ref=e47]: A câmera desce ao nível da rua
+          - generic [ref=e48]: 12:00–14:00
+          - generic [ref=e49]: ›
+        - button "07 Outros gêneros ampliam o catálogo 14:00–15:00 ›" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: "07"
+          - generic [ref=e52]: Outros gêneros ampliam o catálogo
+          - generic [ref=e53]: 14:00–15:00
+          - generic [ref=e54]: ›
+        - button "08 Uma oferta termina; a série segue por outros cenários 15:00–16:30 ›" [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: "08"
+          - generic [ref=e57]: Uma oferta termina; a série segue por outros cenários
+          - generic [ref=e58]: 15:00–16:30
+          - generic [ref=e59]: ›
+        - button "09 Três pontos de vista no mesmo território 16:30–17:30 ›" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: "09"
+          - generic [ref=e62]: Três pontos de vista no mesmo território
+          - generic [ref=e63]: 16:30–17:30
+          - generic [ref=e64]: ›
+        - button "10 A cidade continua depois da campanha 17:30–18:00 ›" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: "10"
+          - generic [ref=e67]: A cidade continua depois da campanha
+          - generic [ref=e68]: 17:30–18:00
+          - generic [ref=e69]: ›
+        - button "11 Do material divulgado aos comunicados públicos 18:00–20:30 ›" [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]: "11"
+          - generic [ref=e72]: Do material divulgado aos comunicados públicos
+          - generic [ref=e73]: 18:00–20:30
+          - generic [ref=e74]: ›
+        - button "12 Um debate com experiências distintas 20:30–22:25 ›" [ref=e75] [cursor=pointer]:
+          - generic [ref=e76]: "12"
+          - generic [ref=e77]: Um debate com experiências distintas
+          - generic [ref=e78]: 20:30–22:25
+          - generic [ref=e79]: ›
+        - button "13 A escolha aumenta de escala 22:25–22:58 ›" [ref=e80] [cursor=pointer]:
+          - generic [ref=e81]: "13"
+          - generic [ref=e82]: A escolha aumenta de escala
+          - generic [ref=e83]: 22:25–22:58
+          - generic [ref=e84]: ›
+      - paragraph [ref=e87]: 3D original + 2 fotos CC em estudo.Sem gameplay ou mapas de jogos.
+    - region "Prévia tridimensional da cena" [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: "01"
+          - generic [ref=e92]: /
+          - generic [ref=e93]: "13"
+          - generic [ref=e94]: A escolha que inicia a cadeia
+        - generic [ref=e95]:
+          - button "Repor câmera" [ref=e96] [cursor=pointer]
+          - generic [ref=e99]: Arraste para inspecionar
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic "Composição tridimensional original da cena" [ref=e102]
+          - generic: CENA 3D · MÍDIA DOCUMENTAL LOCAL
+          - generic: AMIGA IMPORTADO · FERRAMENTA DE TRABALHO
+          - generic: Foto de um modelo de Amiga 500; a unidade comprada por Jones não foi identificada.
+        - generic "Controles de movimento" [ref=e103]:
+          - button "Reproduzir movimento" [ref=e104] [cursor=pointer]
+          - generic [ref=e107]: 00:00
+          - slider "Posição do movimento da cena" [ref=e108] [cursor=pointer]: "0"
+          - generic [ref=e109]: 00:08
+          - generic [ref=e110]: MOVIMENTO
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: CENA
+          - generic [ref=e114]: "01"
+        - generic [ref=e115]: 00:00–02:00
+        - generic [ref=e116]: OBJETOS ORIGINAIS · SEM GAMEPLAY
+    - complementary "Direção da cena selecionada" [ref=e117]:
+      - generic [ref=e118]:
+        - paragraph [ref=e119]:
+          - generic [ref=e120]: 00:00–02:00
+          - text: COMPOSIÇÃO
+          - generic [ref=e122]: "01"
+        - heading "Da fábrica ao primeiro computador" [level=2] [ref=e123]
+        - paragraph [ref=e124]: Como uma mudança de trabalho se liga, anos depois, a uma cidade jogável?
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]: "01"
+            - heading "Alvo visual" [level=3] [ref=e128]
+          - paragraph [ref=e129]: A foto licenciada documenta um modelo de Amiga; o computador de Jones não foi identificado. A rota de figuras antecipa a passagem à cidade.
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]: "02"
+            - heading "Composição" [level=3] [ref=e133]
+          - paragraph [ref=e134]: A bancada revela o modelo computador; um percurso de pequenas figuras aparece por um instante e sai; só então a cidade cresce atrás do Amiga.
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]: "03"
+            - heading "Beats ligados à narração" [level=3] [ref=e138]
+          - paragraph [ref=e139]: P01 · Amiga como ferramenta de trabalho / P02 · Lemmings como antecipação da virada
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e142]: "04"
+            - heading "Motion e pausa" [level=3] [ref=e143]
+          - paragraph [ref=e144]: Fábrica → Amiga na bancada → cartão fotográfico → cidade vista de cima; a rota breve das figuras entra e sai entre os dois conceitos.
+          - generic [ref=e145]:
+            - generic [ref=e146]: Ⅱ
+            - paragraph [ref=e147]: Segurar a foto com crédito, o modelo separado e a cidade completa no mesmo eixo, sem sugerir que a foto registra a unidade de Jones.
+        - group [ref=e148]:
+          - generic "Frase narrativa associada +" [ref=e149] [cursor=pointer]
+        - generic [ref=e150]:
+          - generic [aria-hidden] [ref=e151]: ◈
+          - generic [ref=e152]:
+            - strong [ref=e153]: RECURSOS EM ANÁLISE
+            - paragraph [ref=e154]: foto do Amiga 500 · CC BY-SA 2.5 · computador de época · luz de época · transição de escala
+        - generic [ref=e155]:
+          - generic [aria-hidden] [ref=e156]: ↗
+          - generic [ref=e157]:
+            - strong [ref=e158]: CANDIDATA · MODELO DE AMIGA 500
+            - paragraph [ref=e159]: Bill Bertram, 2006 · CC BY-SA 2.5. A foto documenta um modelo de 1987; não é a unidade comprada por David Jones. Composição em painel 3D e movimento de câmera; licença ShareAlike permanece em revisão.
+            - link "Abrir origem, licença e crédito" [ref=e160] [cursor=pointer]:
+              - /url: https://commons.wikimedia.org/wiki/File:Amiga500_system.jpg
+      - generic [ref=e161]:
+        - generic [aria-hidden] [ref=e162]: ↗
+        - paragraph [ref=e163]: As 13 composições estão prontas para sua revisão visual. As duas fotos permanecem candidatas; valide o plano e cada asset separadamente.
+        - link "Revisar lista de recursos" [ref=e164] [cursor=pointer]:
+          - /url: /studio/index.html?project=historia-rockstar

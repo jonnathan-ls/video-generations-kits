@@ -1,0 +1,23 @@
+{
+  "id": "junta_dilatacao",
+  "label": "Junta de dilatação",
+  "kind": "object",
+  "category": "objetos",
+  "description": "Conjunto ilustrativo de trilhos, folga, talas, parafusos e dormentes. Não é um projeto executivo.",
+  "module": "junta-dilatacao.js",
+  "aliases": [
+    "junta de dilatacao",
+    "junta",
+    "folga entre trilhos"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "baselineIds": [
+    "parede_hidraulica"
+  ],
+  "introducedBy": {
+    "projectId": "rail-demo",
+    "requirementId": "rail-demo:resource-4"
+  }
+}

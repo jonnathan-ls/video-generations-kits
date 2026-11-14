@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "decf0c50ad948fd02e472eb110e61c4f912e16980b9f9901d9565962ade353c0",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "object-janelas-veneziana",
+      "meshes": 46,
+      "triangles": 3384,
+      "dimensions": [
+        5.87,
+        1.3399999999999999,
+        1.44
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.763Z"
+}

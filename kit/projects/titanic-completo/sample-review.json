@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "artifact": "hyperframes/qa-v12/titanic-v12-diagnostico.mp4",
+  "artifactSha256": "1696c9c1758ff478567d6e122923bc23e83c2761b7da8f5123becf6f6bd43acc",
+  "decision": "approved-for-direction-and-scene-dynamism",
+  "channel": "chat",
+  "note": "O criador aprovou a abordagem narrativa e o dinamismo da amostra para prosseguir com a produção. Pediu maior presença, escala e integração de motion graphics, imagens e trechos de filmes de referência.",
+  "scope": [
+    "direção narrativa da amostra",
+    "fluxo e dinamismo entre cenas"
+  ],
+  "notApprovedByThisDecision": [
+    "aprovação individual de assets e variações",
+    "aprovação profissional do longa completo",
+    "aprovação auditiva da mixagem integral",
+    "exportação final limpa ou publicação"
+  ],
+  "recordedAt": "2026-11-07"
+}

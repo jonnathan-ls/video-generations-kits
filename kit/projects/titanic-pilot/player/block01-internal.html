@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Titanic — assistir à prévia</title>
+  <style>
+    *{box-sizing:border-box}html{color-scheme:dark;background:#0b1520;color:#eee8dc;font:16px/1.5 system-ui,sans-serif}body{margin:0;padding:28px 5vw}main{max-width:1200px;margin:auto}header{display:flex;align-items:baseline;gap:20px;flex-wrap:wrap;margin-bottom:20px}h1{font-size:24px;margin:0}header p{color:#b9c6cf;margin:0}video{display:block;width:100%;aspect-ratio:16/9;background:#07121b;object-fit:contain;border:1px solid #3c4b58;border-radius:6px}footer{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:16px}a{color:#f0d4a0}#status{color:#b9c6cf;flex:1;min-width:260px}button{font:inherit;padding:9px 16px;border:1px solid #bb9d70;border-radius:5px;background:#cdb48d;color:#14202c;cursor:pointer}.note{font-size:14px;color:#b9c6cf}#error{color:#ffc4b8;white-space:pre-wrap}
+  </style>
+</head>
+<body>
+  <main>
+    <header><h1>Titanic · primeiro bloco</h1><p>3 minutos · voz pm_santa</p></header>
+    <video id="video" controls playsinline preload="metadata" poster="block01-v10.png" aria-label="Prévia do Titanic com narração em português"><source src="block01-internal.mp4?v=v10" type="video/mp4">Seu navegador não conseguiu exibir o vídeo. Use o link para abrir o MP4 abaixo.</video>
+    <footer><button id="play" type="button">Reproduzir com áudio</button><span id="status" role="status">Carregando o vídeo…</span><a href="block01-internal.mp4?v=v10" target="_blank" rel="noopener">Abrir MP4</a><a href="block01-internal.mp4?v=v10" download="titanic-bloco01-previa.mp4">Baixar vídeo</a></footer>
+    <p id="error" role="alert"></p>
+    <p class="note">Bloco 01 · V10 · montagem interna de 3 minutos. Revisão audiovisual em andamento; não é entrega aprovada.</p>
+  </main>
+  <script>
+    const video=document.getElementById('video'),status=document.getElementById('status'),error=document.getElementById('error'),button=document.getElementById('play');
+    video.addEventListener('loadedmetadata',()=>{status.textContent='Pronto para assistir · '+video.duration.toFixed(1)+' segundos';});
+    video.addEventListener('playing',()=>{status.textContent='Reproduzindo com áudio';button.textContent='Pausar';error.textContent='';});
+    video.addEventListener('pause',()=>{button.textContent='Reproduzir com áudio';status.textContent='Pausado · '+video.currentTime.toFixed(1)+' segundos';});
+    video.addEventListener('ended',()=>{status.textContent='Fim da prévia';button.textContent='Assistir novamente';});
+    video.addEventListener('error',()=>{status.textContent='Não foi possível carregar o vídeo';error.textContent='Erro de reprodução '+(video.error?.code||'desconhecido')+'. Use “Abrir MP4” ou “Baixar vídeo”.';});
+    button.addEventListener('click',async()=>{if(!video.paused){video.pause();return;}try{video.muted=false;await video.play();}catch(e){error.textContent='A reprodução não iniciou: '+e.message+'. Tente os controles do vídeo ou “Abrir MP4”.';}});
+  </script>
+</body>
+</html>

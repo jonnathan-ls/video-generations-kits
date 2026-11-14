@@ -1,0 +1,20 @@
+{
+  "id": "atlantico_noturno",
+  "label": "Atlântico noturno",
+  "kind": "scene",
+  "category": "historico_maritimo",
+  "description": "Ambiente marítimo de 1912, horizonte legível, céu escuro e superfície de água com escala consistente. Âncora comum para Carpathia, sinal e botes; não implica mar revolto ou tempestade. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "atlantic-ocean.js",
+  "aliases": [
+    "oceano",
+    "Atlântico noturno"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:mar-noturno"
+  },
+  "baselineIds": []
+}

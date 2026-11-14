@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "status": "not-verified",
+  "scope": "revisão textual da direção e rota de geração IA; não é QA de clipe, áudio ou render",
+  "checks": {
+    "referenceSamplingAndBeatOrder": {
+      "status": "pass-inherited-from-revision-02",
+      "evidence": "kit/projects/crochet-limpeza-cozinha-wan2gp/revisions/v02/qa/plan-review.json; kit/projects/crochet-limpeza-cozinha-wan2gp/revisions/v02/beats.json; research/references/crochet-mini-kitchen/"
+    },
+    "creatorPipelineCorrection": {
+      "status": "pass",
+      "method": "revisão 03 usa somente geração visual Wan2GP; Three.js/GUV foi removido da rota ativa antes de construir guia",
+      "evidence": "modeling.md; generation-plan.json; asset-plan.json"
+    },
+    "resourceApprovalApplicability": {
+      "status": "pass",
+      "method": "nenhum requisito de módulo/cena/asset 3D; lista do catálogo explicitamente não aplicável",
+      "evidence": "asset-plan.json; backlog.json; state.json"
+    },
+    "imageModelWeightsAndSettings": {
+      "status": "not-verified",
+      "method": "Qwen Image 2.1 Turbo está configurado no Wan2GP, mas presença dos pesos e parâmetros nativos não está provada",
+      "evidence": "kit/integrations/wan2gp/runtime/wgp_config.json; kit/integrations/wan2gp/models.lock.json"
+    },
+    "videoModelWeightsAndSettings": {
+      "status": "not-verified",
+      "method": "fun_inp_1.3B é candidato do upstream, mas ainda não está no lock local nem em fila de execução",
+      "evidence": "kit/projects/crochet-limpeza-cozinha-wan2gp/revisions/v03/generation-plan.json; vendor/wan2gp/models/wan/infos.py"
+    },
+    "generatedTextureMotionAndSound": {
+      "status": "not-verified",
+      "method": "nenhum resultado da revisão 03 foi gerado; áudio não está alinhado à nova imagem",
+      "evidence": null
+    },
+    "gpuBoundary": {
+      "status": "pass",
+      "method": "nenhum doctor/CUDA, geração de imagem, geração de vídeo ou render foi iniciado nesta revisão",
+      "evidence": "kit/projects/crochet-limpeza-cozinha-wan2gp/revisions/v03/generation-plan.json"
+    }
+  },
+  "findings": [
+    {
+      "id": "v3-local-model-lock-incomplete",
+      "severity": "P1",
+      "domain": "model-capability-and-reproducibility",
+      "observation": "A pasta de checkpoints e o lock contêm Nexus T2V reprovado e dependências compartilhadas, mas não os pesos Qwen Image 2.1 Turbo nem Fun InP 1.3B.",
+      "consequence": "Não existe fila Wan2GP executável e reproduzível com a rota proposta. A auditoria encontrou apenas 6.5 GiB livres; nenhum peso foi baixado.",
+      "correction": "Resolver a disponibilidade de armazenamento e fixar modelos, licença, parâmetros e hashes antes da geração.",
+      "acceptance": "fila Wan2GP validada estaticamente com modelos/pesos fixados; sem iniciar CUDA enquanto a RTX estiver ocupada"
+    },
+    {
+      "id": "v3-clip-qa-pending",
+      "severity": "P1",
+      "domain": "crochet-texture-motion-and-audio",
+      "observation": "Não existe clipe de prova ou mix alinhado à revisão 03.",
+      "consequence": "Textura, continuidade, cortes, contato e som permanecem sem validação profissional.",
+      "correction": "Gerar apenas o primeiro beat após a GPU ficar livre e revisar o artefato exato em movimento.",
+      "acceptance": "nenhum finding P0/P1 no gancho após revisão visual a 10 fps, escala de celular e escuta do mix alinhado"
+    }
+  ],
+  "releaseDecision": "não liberar como prévia nem como vídeo; direção textual em preparo, sem aprovação estética",
+  "nextGate": "resolver o bloqueio de pesos/armazenamento e deixar a fila executável pronta; a primeira validação estética será o clipe de prova Wan2GP quando a RTX estiver livre, sem aprovação preliminar de assets ou do plano"
+}

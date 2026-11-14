@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "8fe4f7adb0230a83e731e6de8914f30d580f5a26931118a0ddb18e8d90b059c3",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "diorama",
+      "meshes": 33,
+      "triangles": 424,
+      "dimensions": [
+        16,
+        9.399999976158142,
+        16
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "diorama: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-14T21:14:05.009Z"
+}

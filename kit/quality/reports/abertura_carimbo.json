@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "b4026995ede1185f8541d68aa23bf222178c65d036b37fec30be61384d45c0d5",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "carimbo",
+      "meshes": 4,
+      "triangles": 952,
+      "dimensions": [
+        0.5199999809265137,
+        1.0999999974668027,
+        0.5199999809265137
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-14T20:55:25.644Z"
+}

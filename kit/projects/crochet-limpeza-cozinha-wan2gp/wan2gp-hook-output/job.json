@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "status": "generated-awaiting-qa",
+  "startedAt": "2026-11-09T10:55:06.943Z",
+  "upstreamCommit": "f0b54e02aa32b539e7be5c65cf4ada67db69da26",
+  "settings": "kit/projects/crochet-limpeza-cozinha-wan2gp/generation/hook.json",
+  "inputSha256": "c43bcb8545bd706a296ab78553a3282c05365ceb3aa1827521abda6892da21ae",
+  "output": "kit/projects/crochet-limpeza-cozinha-wan2gp/wan2gp-hook-output",
+  "dryRun": false,
+  "humanApproved": false,
+  "exitCode": 0,
+  "finishedAt": "2026-11-09T10:56:24.150Z"
+}

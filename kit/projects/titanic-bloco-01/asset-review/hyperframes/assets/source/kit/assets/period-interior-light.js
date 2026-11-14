@@ -1,0 +1,3 @@
+import * as THREE from 'three';import {create as room} from './period-radio-room.js';
+export function create(){return room();}
+export function apply({scene},t,params={}){scene.background=new THREE.Color('#171e25');scene.fog=null;for(const o of scene.children){if(o.isHemisphereLight){o.intensity=.48;o.color.set('#a5bac9');o.groundColor.set('#3f2b1d');}if(o.isDirectionalLight){o.intensity=2.8;o.color.set('#ffe2bd');o.position.set(3.5,5,6);o.castShadow=true;o.shadow.mapSize.set(1024,1024);o.shadow.camera.left=-8;o.shadow.camera.right=8;o.shadow.camera.top=8;o.shadow.camera.bottom=-8;o.shadow.camera.far=30;o.shadow.bias=-.001;o.shadow.normalBias=.02;o.shadow.camera.updateProjectionMatrix();}if(o.isMesh&&o.geometry?.type==='PlaneGeometry')o.visible=false;}}

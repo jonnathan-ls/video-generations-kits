@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "925e1304d39b7f89919a854963195436c9a3007df5db187f7e68a094b45b4ac6",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "animation-inercia-laje",
+      "meshes": 36,
+      "triangles": 24504,
+      "dimensions": [
+        5.54,
+        0.34999999999999964,
+        4.2275
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.752Z"
+}

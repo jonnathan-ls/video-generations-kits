@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "status": "prepared-text-only-no-render",
+  "project": "crochet-limpeza-cozinha-wan2gp",
+  "planSha256": "51d8229d353d7bf2b65b08ab0bab19a8bde1154b024a9a7e057cc81f5ce9d3cd",
+  "styleBibleSha256": "302049d373f2f7e64fd8f3daa2f669f1a4a96a87f9c137831a7791e10f6c3818",
+  "settingsSha256": "ec11857821a2372a93f327c5470f2a70459c4024b29440cfb9929827aaed809c",
+  "batches": {
+    "hookSha256": "7c451cd1d6ef10612c3cfa32fe5797fa08b21c137dc1dcf1d567dbd963aa3ed1",
+    "restSha256": "aa35d20c666371a47e0304d7b93e6ead23841c6c7fbcc8d82228db8d12f8a38d"
+  },
+  "sourceReferenceSha256": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+  "sourceReferencePassedToModel": false,
+  "checkpoint": {
+    "file": "wan2.1_t2v_1.3b.nexus.B-SMOOTHED.build.1.safetensors",
+    "size": 3092110054,
+    "sha256": "f970b3bc30aac8a687aedb51e9675f0f0eff0d24cf4921317dde900ebec66236",
+    "sha256Verified": true
+  },
+  "upstream": {
+    "version": "19.21",
+    "commit": "f0b54e02aa32b539e7be5c65cf4ada67db69da26",
+    "architecture": "t2v_1.3B"
+  },
+  "gpuUsed": false,
+  "queueCount": 12
+}

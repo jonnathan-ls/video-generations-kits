@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "status": "proposed-pending-creator-review",
+  "identity": "cozinha miniatura original, inteiramente construída em crochê de algodão; mãos humanas executam a limpeza",
+  "world": {
+    "scale": "1:12, bancada e objetos dimensionados como uma miniatura física",
+    "layout": "cozinha em L; janela e pia à esquerda, cooktop à direita, geladeira e despensa no mesmo fundo",
+    "continuitySource": "guia 3D local compartilhada; nunca uma nova cozinha inventada por beat",
+    "palette": ["azul-petróleo", "creme amanteigado", "verde-sálvia", "coral queimado"],
+    "lighting": "luz morna difusa de janela à esquerda; direção, temperatura e exposição constantes",
+    "hands": "mãos humanas naturais, sem anéis, pulseiras, esmalte chamativo ou duplicações; só entram para executar um contato visível"
+  },
+  "materialRules": {
+    "textileCoverage": "todas as superfícies sólidas visíveis da cozinha e dos adereços são fio de algodão em crochê; água, espuma e migalhas mantêm aparência própria",
+    "stitchScale": "laçadas interligadas, relevo e fibras grandes o suficiente para leitura a 432x768; escala consistente em macro, plano médio e geral",
+    "patternVariation": "mudar o ponto segundo a função do objeto sem mudar o diâmetro aparente do fio",
+    "temporalStability": "a posição e a forma das laçadas não fervem, derretem, piscam ou mudam entre quadros",
+    "guideMustAlreadyShowCrochet": true
+  },
+  "camera": "vertical 9:16; macros estáveis para contato, planos médios para orientação e um único plano geral no final; movimento de câmera curto e motivado",
+  "imagePromptForGuv": "Preserve the guide frame by frame: the exact miniature kitchen layout, geometry, camera, lighting, hand silhouette, prop count, action timing, object contact and final states. Keep the same scene across every cut. Reinforce thick matte cotton crochet with clearly interlocking loops and stable fibers on every solid kitchen surface and prop. Keep water, soap foam and crumbs physically distinct. Do not invent, remove, duplicate or relocate objects. No text, labels, logo, watermark, camera shake, flicker or material morphing.",
+  "negativePrompt": "photorealistic wood, stone, ceramic, metal, plastic, smooth cabinetry, glossy appliance, printed tile, extra fingers, extra hands, floating props, missing contact, object morphing, changed kitchen layout, changed palette, changed exposure, stitch scale drift, smooth patches on textile surfaces, temporal texture crawl, flicker, camera shake, text, subtitles, logo, watermark",
+  "qualityLimit": "o prompt só orienta o GUV; a geometria/material da guia é o controle principal. A fidelidade do Nexus 1.3B a crochê em GUV ainda não foi validada."
+}
+

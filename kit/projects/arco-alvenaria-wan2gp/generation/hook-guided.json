@@ -1,0 +1,17 @@
+{
+  "model_type": "t2v_nexus_1.3B",
+  "prompt": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, red radial wedge bricks, concrete piers, green garden and their original motion. Enhance the ceramic roughness, soft natural shadows and material definition. The single central keystone seats between its neighbors; then the camera pulls back. No added objects, no extra arches.",
+  "negative_prompt": "text, subtitles, watermark, letters, arrows, diagram symbols, extra arches, impossible geometry, melting bricks, floating foundations, drifting piers, flickering, abrupt cuts, camera shake, people obscuring the mechanism",
+  "resolution": "288x512",
+  "video_length": 85,
+  "num_inference_steps": 6,
+  "guidance_scale": 1,
+  "flow_shift": 5,
+  "seed": 20261107,
+  "repeat_generation": 1,
+  "image_mode": 0,
+  "output_filename": "01-coroamento-guided",
+  "video_prompt_type": "GUV",
+  "video_guide": "/home/jonnathan/projects/obra-cortada/kit/projects/arco-alvenaria-wan2gp/guides/01-coroamento.mp4",
+  "denoising_strength": 0.45
+}

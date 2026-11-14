@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "projectId": "crochet-limpeza-cozinha-wan2gp",
+  "status": "anchor-generation-in-progress",
+  "durationSeconds": 29.375,
+  "source": {
+    "url": "https://www.instagram.com/reel/Dck3Gz1SHr0/",
+    "localPath": "research/references/crochet-mini-kitchen/source.mp4",
+    "sha256": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+    "samplingFps": 10,
+    "sampledFrames": 294,
+    "usedFor": "ordem dos beats, ações e ritmo dos cortes",
+    "passedToAnyModel": false,
+    "sourceAudioUsed": false
+  },
+  "productionMethod": {
+    "pipeline": "wan2gp-local-ai-video",
+    "anchorGeneration": "local Wan2GP T2V; an AI-generated local frame is extracted as the I2V start image",
+    "motionGeneration": "local Wan2GP Fun InP 1.3B through the native queue",
+    "threeJsScenesOrAssets": false,
+    "codeDrawnVisuals": false,
+    "editorialCodeAllowedFor": [
+      "frame extraction from the AI-generated anchor clip",
+      "cuts",
+      "timing",
+      "audio synchronization",
+      "delivery encoding"
+    ]
+  },
+  "replan": {
+    "trigger": "two Nexus T2V prompts retained crochet on the focal textile but left another surface smooth and failed to show the intended horizontal contact clearly",
+    "change": "separate anchor composition from action; use a simpler all-crochet macro image and animate one action with Fun InP I2V",
+    "priorAttempts": [
+      "revisions/v04/output/v04-01-pia-esponja-uma-passada.mp4",
+      "revisions/v04/output/attempt-02/v04-02-tigela-de-croche-uma-passada.mp4"
+    ],
+    "anchorAttempt01": {
+      "status": "rejected-not-used-as-model-input",
+      "finding": "AI anchor shows a smooth wooden counter and window beyond the crochet mat; the first frame has no scrubber/hand yet",
+      "evidence": "qa/anchor-contact-sheet-10fps.png",
+      "sourceClip": "output/anchor/v05-00-ancora-croche-ia-local.mp4"
+    },
+    "anchorAttempt02Correction": "overhead close crop; crochet mat fills all four frame edges; remove room, window, wood and hand so the anchor contains only stable crocheted materials",
+    "anchorAttempt02": {
+      "status": "rejected-not-used-as-model-input",
+      "finding": "the frame removed the room background but the model rendered the focal dish with a smooth rigid white rim and exposed a pale smooth surface at the bottom edge",
+      "evidence": "qa/anchor-attempt-02-contact-sheet-10fps.png",
+      "sourceClip": "output/anchor/attempt-02/v05-00-ancora-croche-ia-local-v2.mp4"
+    },
+    "anchorAttempt03": {
+      "status": "rejected-not-used-as-model-input",
+      "finding": "macro bowl and scrubber were visibly crochet, but the model left smooth wooden strips at both the top and bottom frame edges",
+      "evidence": "qa/anchor-attempt-03-contact-sheet-10fps.png",
+      "sourceClip": "output/anchor/attempt-03/v05-00-ancora-croche-ia-local-v3.mp4"
+    },
+    "replanAfterRepeatedMaterialDrift": "keep the beat's scrubbing action but replace the bowl-shaped object with a flat crocheted dish-drying mat; a flat textile has fewer hard-object priors for this local checkpoint",
+    "anchorAttempt04Correction": "remove all rigid dishware from the composition; use only two crochet textiles and one scrub pad under an overhead edge-to-edge crop"
+  },
+  "generationStrategy": {
+    "phase": "one proof action before any full batch",
+    "anchorModelType": "t2v_nexus_1.3B",
+    "anchorCheckpoint": "vendor/wan2gp/ckpts/wan2.1_t2v_1.3b.nexus.B-SMOOTHED.build.1.safetensors",
+    "anchorCheckpointSha256": "f970b3bc30aac8a687aedb51e9675f0f0eff0d24cf4921317dde900ebec66236",
+    "motionModelType": "fun_inp_1.3B",
+    "motionCheckpoint": "vendor/wan2gp/ckpts/wan2.1_Fun_InP_1.3B_bf16.safetensors",
+    "motionCheckpointSha256": "5628499d573a8b990f9c59787ce82816a6ddee4aa2bd6653e363ce004c9d8ed9",
+    "motionModelSource": "DeepBeepMeep/Wan2.1@176bbae94db7b26f00e5b698d95d4f578debc51c; official model license Apache-2.0",
+    "wan2gpCommit": "f0b54e02aa32b539e7be5c65cf4ada67db69da26",
+    "anchorSettings": "revisions/v05/settings/anchor-t2v-v4.json",
+    "i2vSettings": "revisions/v05/settings/proof-i2v.json",
+    "anchor": {
+      "path": "revisions/v05/input/anchor.png",
+      "sourceClip": "revisions/v05/output/anchor/attempt-04/v05-00-ancora-croche-ia-local-v4.mp4",
+      "sourceTimeSeconds": null,
+      "sha256": null,
+      "selectionStatus": "attempts 01 through 03 rejected; attempt 04 pending generation and visual inspection"
+    },
+    "output": {
+      "path": "revisions/v05/output/proof/v05-01-pia-esponja-passada-i2v.mp4",
+      "status": "not-generated"
+    }
+  },
+  "proof": {
+    "id": "v05-01-pia-esponja-passada-i2v",
+    "beatId": "01-pia-louca",
+    "action": "one short left-to-right scrub pass with continuous physical contact on a crocheted dish-drying mat",
+    "durationSeconds": 2.5625,
+    "frames": 41,
+    "fps": 16,
+    "acceptance": [
+      "every visible solid surface remains clearly crocheted with stable loop scale in every sampled frame",
+      "the pad moves horizontally once, keeps contact, and does not dip vertically or float",
+      "crochet drying mat, scrub pad, hand and layout keep stable identity and shape",
+      "vertical macro reads at phone scale without extra props or distractions",
+      "no P0/P1 finding remains after actual motion playback and 10 fps inspection"
+    ]
+  },
+  "audio": {
+    "generatedInVideoModel": false,
+    "soundDesign": "existing sound-design.json remains a plan only; foley is aligned after visual acceptance",
+    "humanListening": "pending"
+  },
+  "runBoundary": {
+    "generationStarted": true,
+    "gpuUsedByRevision05": true,
+    "finalAssemblyRendered": false,
+    "nextGate": "inspect the AI-generated anchor, run one Fun InP I2V proof, then perform professional QA before expanding"
+  },
+  "creatorReview": {
+    "firstAestheticReview": "actual Fun InP proof clip after professional QA",
+    "humanApproved": false
+  }
+}

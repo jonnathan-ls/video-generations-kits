@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "workflow": "wan2gp-ai-video",
+  "status": "not-applicable-to-3d-resource-catalog",
+  "narrative": false,
+  "narrationHash": null,
+  "decisions": [],
+  "reason": "Os visuais deste projeto são gerados como imagens e clipes pela IA local Wan2GP. Não há módulos, cenas ou assets Three.js para aprovar. A direção semântica está em beats.json e style-bible.json; a revisão estética ocorrerá sobre o clipe gerado."
+}

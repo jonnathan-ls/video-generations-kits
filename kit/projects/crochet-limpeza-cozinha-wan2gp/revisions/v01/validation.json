@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": "rejected-awaiting-revision",
+  "errors": [],
+  "checks": {
+    "referenceAndBeatModel": "pass: 294 quadros amostrados a 10 fps; 12 beats mapeados em 29.375 s",
+    "modelLockAndReferenceIsolation": "pass: checkpoint e hashes conferidos; nenhum frame/áudio da referência na fila",
+    "staticPreflight": "pass: 12 prompts, allowlist nativa, durações/IDs/seeds e checkpoint; erros=0",
+    "nativeWan2gpDoctorAndDryRun": "pass: doctor + filas hook/rest offline, exitCode 0",
+    "clipGeneration": "pass-technical-only: 12 clips gerados a 432x768/16 fps; GPU usada",
+    "visualTextureAndAction": "rejected: P1 textura de crochê inconsistente e deriva de ações",
+    "browserMotionAndPhoneQA": "not-verified: contato 10 fps inspecionado; revisão no navegador não completada para todos os clips; prévia móvel não criada",
+    "audio": "preview-built-pending-listening: 13 eventos, trilha procedural, 29.375 s; -17.9 LUFS integrados, pico medido -1.3 dBFS",
+    "finalAssembly": "not-started: parado antes da montagem/exportação final conforme instrução do criador",
+    "humanApproval": "pending: assets, áudio e prévia não aprovados",
+    "reproducibility": "pass: prompts, seeds, hashes das filas e do checkpoint, commit upstream, recibos e hashes dos 12 outputs preservados; bytes finais podem variar por stack GPU",
+    "repositoryTests": "pass: npm test — 59 passaram, 0 falharam"
+  },
+  "queueHashes": {
+    "hook": "7c451cd1d6ef10612c3cfa32fe5797fa08b21c137dc1dcf1d567dbd963aa3ed1",
+    "rest": "aa35d20c666371a47e0304d7b93e6ead23841c6c7fbcc8d82228db8d12f8a38d",
+    "full": "ec11857821a2372a93f327c5470f2a70459c4024b29440cfb9929827aaed809c"
+  },
+  "sourceReferenceSha256": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+  "checkpointSha256": "f970b3bc30aac8a687aedb51e9675f0f0eff0d24cf4921317dde900ebec66236",
+  "generationRun": "generation-run.json",
+  "previewQa": "preview-qa.json"
+}

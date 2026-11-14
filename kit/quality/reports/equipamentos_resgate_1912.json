@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "158c29f434f9ae30978eee7a16f050a818d6a1af00c3f0f0f75851e85f54b3a5",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "lifebelt",
+      "meshes": 10,
+      "triangles": 304,
+      "dimensions": [
+        0.46000000834465016,
+        0.5649999952316284,
+        0.13249999802559614
+      ]
+    },
+    {
+      "variant": "blanket",
+      "meshes": 1,
+      "triangles": 864,
+      "dimensions": [
+        1.100000023841858,
+        1.5,
+        0.11987198144197464
+      ]
+    },
+    {
+      "variant": "whistle",
+      "meshes": 3,
+      "triangles": 620,
+      "dimensions": [
+        0.2470000033080578,
+        0.07250000022351744,
+        0.07000000029802322
+      ]
+    },
+    {
+      "variant": "lantern",
+      "meshes": 5,
+      "triangles": 792,
+      "dimensions": [
+        0.2800000011920929,
+        0.5289999987930059,
+        0.2800000011920929
+      ]
+    },
+    {
+      "variant": "wheel",
+      "meshes": 11,
+      "triangles": 1848,
+      "dimensions": [
+        1.1000000119209288,
+        1.3500000119209292,
+        0.3550000011920929
+      ]
+    },
+    {
+      "variant": "bell",
+      "meshes": 5,
+      "triangles": 160,
+      "dimensions": [
+        0.5303108926862479,
+        1.1803108777850866,
+        0.4000000059604645
+      ]
+    },
+    {
+      "variant": "rope",
+      "meshes": 1,
+      "triangles": 2240,
+      "dimensions": [
+        0.4675760269165039,
+        0.08748270571231842,
+        0.4679749011993408
+      ]
+    },
+    {
+      "variant": "newspaper",
+      "meshes": 40,
+      "triangles": 480,
+      "dimensions": [
+        0.550000011920929,
+        0.011000000237487257,
+        0.75
+      ]
+    },
+    {
+      "variant": "headphones",
+      "meshes": 3,
+      "triangles": 832,
+      "dimensions": [
+        0.37999999865889555,
+        0.25199999555945396,
+        0.11999999731779099
+      ]
+    },
+    {
+      "variant": "oar",
+      "meshes": 2,
+      "triangles": 36,
+      "dimensions": [
+        0.18000000715255737,
+        0.05200000107288415,
+        2.9749999880790705
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "whistle: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T18:58:32.628Z"
+}

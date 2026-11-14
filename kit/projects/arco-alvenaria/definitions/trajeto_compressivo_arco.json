@@ -1,0 +1,19 @@
+{
+  "id": "trajeto_compressivo_arco",
+  "label": "Trajeto compressivo da carga no arco",
+  "kind": "effect",
+  "category": "efeitos",
+  "module": "arco-trajeto-compressivo.js",
+  "description": "Setas douradas de alto contraste, com contorno escuro e ponta ampliada, surgem em sequência para mostrar a compressão ao longo da curva. Sem magnitude ou cálculo de força.",
+  "aliases": [
+    "trajeto da carga no arco",
+    "transmissão por compressão",
+    "compressão nas cunhas"
+  ],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:compression-path",
+    "projectId": "arco-alvenaria"
+  },
+  "variants": [],
+  "baselineIds": []
+}

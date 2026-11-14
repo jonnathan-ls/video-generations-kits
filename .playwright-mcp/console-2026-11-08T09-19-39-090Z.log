@@ -1,0 +1,2 @@
+[     142ms] [WARNING] [.WebGL-0x1c3c01029c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/index.html?scene=shot-044-radio&rev=v9:0
+[    3132ms] [WARNING] [.WebGL-0x1c3c01029c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) @ http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/index.html?scene=shot-044-radio&rev=v9:0

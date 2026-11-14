@@ -1,0 +1,4 @@
+[  536513ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/fonts/DejaVuSansCondensed-Bold.ttf:0
+[  536689ms] [WARNING] [.WebGL-0x20ec01213c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/index.html?scene=shot-016-port:0
+[  536696ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4174/favicon.ico:0
+[  539941ms] [WARNING] [.WebGL-0x20ec01213c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/index.html?scene=shot-016-port:0

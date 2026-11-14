@@ -1,0 +1,20 @@
+{
+  "id": "identificacao_historica",
+  "label": "Identificações e título do episódio",
+  "kind": "overlay",
+  "category": "historico_maritimo",
+  "description": "Texto curto e original: Atlântico Norte / 1912, Carpathia, Titanic e título. Uma identificação por vez, posição que preserve sinal e ocupação do bote. Legendas da fala serão alinhadas depois da escolha da voz; não animar cada palavra por padrão. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "historical-label.js",
+  "aliases": [
+    "Abril de mil novecentos e doze",
+    "Identificações e título do episódio"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:identificacao-historica"
+  },
+  "baselineIds": []
+}

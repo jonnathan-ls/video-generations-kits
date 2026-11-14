@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Arco de alvenaria · assistir</title>
+  <link rel="stylesheet" href="/player.css">
+  <script src="/player.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Arco de alvenaria</h1>
+      <p>Comparação experimental · 41,6 segundos</p>
+    </header>
+    <nav aria-label="Outro experimento"><a href="/livre/">Ver a nova geração livre pela narrativa</a></nav>
+    <section aria-labelledby="comparison-title">
+      <h2 id="comparison-title">Original × Wan2GP</h2>
+      <p>Original à esquerda. Wan2GP guiado à direita.</p>
+      <video id="comparison" controls playsinline preload="metadata" poster="/poster.jpg" aria-label="Comparação entre o original 3D e o Wan2GP">
+        <source src="/comparacao.mp4" type="video/mp4">
+        Seu navegador não reproduz este vídeo. Use o link para abrir o MP4 abaixo.
+      </video>
+      <p class="error" role="status" hidden>Não foi possível carregar o vídeo. Confira o Wi-Fi e tente abrir o MP4 abaixo.</p>
+      <nav aria-label="Opções da comparação">
+        <a href="/comparacao.mp4" download="arco-comparacao-wan2gp.mp4">Baixar comparação</a>
+        <a href="#short">Ver short vertical</a>
+      </nav>
+      <p class="note">Teste com transformação suave. Ainda há perda de nitidez e rastros em alguns movimentos; a versão permanece experimental.</p>
+    </section>
+    <section id="short" aria-labelledby="short-title">
+      <h2 id="short-title">Short com Wan2GP</h2>
+      <p>Versão vertical com o áudio original.</p>
+      <video id="vertical" controls playsinline preload="metadata" aria-label="Short vertical com Wan2GP">
+        <source src="/short.mp4" type="video/mp4">
+        Seu navegador não reproduz este vídeo. Use o link para abrir o MP4 abaixo.
+      </video>
+      <p class="error" role="status" hidden>Não foi possível carregar o vídeo. Confira o Wi-Fi e tente abrir o MP4 abaixo.</p>
+      <nav aria-label="Opções do short">
+        <a href="/short.mp4" download="arco-short-wan2gp.mp4">Baixar short</a>
+        <a href="#comparison-title">Voltar à comparação</a>
+      </nav>
+    </section>
+    <footer>Disponível na mesma rede Wi-Fi enquanto o servidor deste computador estiver ligado.</footer>
+  </main>
+</body>
+</html>

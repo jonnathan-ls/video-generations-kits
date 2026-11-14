@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "upstream": "https://github.com/deepbeepmeep/Wan2GP.git",
+  "commit": "f0b54e02aa32b539e7be5c65cf4ada67db69da26",
+  "version": "19.21",
+  "directory": "vendor/wan2gp",
+  "python": ".tools/wan2gp-venv/bin/python",
+  "runtime": "kit/integrations/wan2gp/runtime",
+  "host": "127.0.0.1",
+  "port": 7860,
+  "profile": "5",
+  "attention": "sdpa",
+  "defaultModel": "t2v_nexus_1.3B"
+}

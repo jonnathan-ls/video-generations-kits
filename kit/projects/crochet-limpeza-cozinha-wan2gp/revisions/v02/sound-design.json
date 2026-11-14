@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "status": "proposed-only-no-audio-render",
+  "durationSeconds": 29.375,
+  "voice": null,
+  "referenceAudio": {"listening": "not-verified", "transcription": "not-available", "used": false},
+  "music": {
+    "description": "trilha original leve, com plucks macios e percussão pequena; acompanha a sequência sem repetir uma pontuação em cada corte",
+    "structure": "começa junto da ação, abre espaço para foley, reduz perto do plano final e resolve no último quadro",
+    "mix": "not-created",
+    "humanListening": "pending"
+  },
+  "cues": [
+    {"id": "v2-01-water", "beatId": "01-pia-louca", "time": 0.42, "duration": 0.86, "contact": "fio de água entra na pia; somente se aparecer no guia"},
+    {"id": "v2-01-scrub", "beatId": "01-pia-louca", "time": 1.42, "duration": 0.78, "contact": "esponja cruza o prato sob contato contínuo"},
+    {"id": "v2-01-rinse", "beatId": "01-pia-louca", "time": 2.45, "duration": 0.43, "contact": "espuma é removida pelo enxágue"},
+    {"id": "v2-01-rack", "beatId": "01-pia-louca", "time": 3.35, "duration": 0.18, "contact": "prato encontra o escorredor"},
+    {"id": "v2-02-scrub", "beatId": "02-pia-recipiente", "time": 4.05, "duration": 0.68, "contact": "esponja percorre o interior do recipiente"},
+    {"id": "v2-02-rinse", "beatId": "02-pia-recipiente", "time": 5.55, "duration": 0.62, "contact": "água atravessa e escoa pela borda"},
+    {"id": "v2-02-set", "beatId": "02-pia-recipiente", "time": 6.62, "duration": 0.18, "contact": "recipiente é apoiado na área de secagem"},
+    {"id": "v2-03-sponge", "beatId": "03-cooktop-limpeza", "time": 7.48, "duration": 0.52, "contact": "esponja contorna o queimador escolhido"},
+    {"id": "v2-03-cloth", "beatId": "03-cooktop-limpeza", "time": 8.92, "duration": 0.54, "contact": "pano remove a espuma da superfície"},
+    {"id": "v2-03-part", "beatId": "03-cooktop-limpeza", "time": 10.28, "duration": 0.16, "contact": "peça circular assenta no encaixe"},
+    {"id": "v2-04-broom", "beatId": "04-varrer-migalhas", "time": 11.02, "duration": 0.78, "contact": "cerdas reúnem migalhas sobre o piso"},
+    {"id": "v2-04-pan", "beatId": "04-varrer-migalhas", "time": 12.12, "duration": 0.35, "contact": "migalhas atravessam a borda da pá"},
+    {"id": "v2-04-bin", "beatId": "04-varrer-migalhas", "time": 13.38, "duration": 0.24, "contact": "migalhas caem na lixeira"},
+    {"id": "v2-05-fridge", "beatId": "05-geladeira-limpar", "time": 14.08, "duration": 0.32, "contact": "porta da geladeira abre sem rangido metálico"},
+    {"id": "v2-05-wipe", "beatId": "05-geladeira-limpar", "time": 15.62, "duration": 0.58, "contact": "pano percorre a prateleira removida"},
+    {"id": "v2-05-shelf", "beatId": "05-geladeira-limpar", "time": 16.96, "duration": 0.16, "contact": "prateleira retorna ao mesmo trilho"},
+    {"id": "v2-06-bottle", "beatId": "06-geladeira-organizar", "time": 17.72, "duration": 0.16, "contact": "primeiro recipiente pousa na fileira"},
+    {"id": "v2-06-produce", "beatId": "06-geladeira-organizar", "time": 18.52, "duration": 0.18, "contact": "alimento de crochê encosta na cesta"},
+    {"id": "v2-07-door", "beatId": "07-despensa-potes", "time": 19.96, "duration": 0.24, "contact": "porta do armário abre"},
+    {"id": "v2-07-jars", "beatId": "07-despensa-potes", "time": 20.46, "duration": 0.2, "contact": "potes pousam na prateleira"},
+    {"id": "v2-07-hooks", "beatId": "07-despensa-potes", "time": 21.26, "duration": 0.18, "contact": "utensílios entram nos ganchos"},
+    {"id": "v2-08-fold", "beatId": "08-dobrar-pano", "time": 22.42, "duration": 0.48, "contact": "pano é dobrado uma única vez"},
+    {"id": "v2-08-set", "beatId": "08-dobrar-pano", "time": 23.54, "duration": 0.18, "contact": "pano dobrado toca a bancada"},
+    {"id": "v2-09-wipe", "beatId": "09-retoque-pia-bancada", "time": 23.98, "duration": 0.78, "contact": "pano remove gotas da pia e da bancada"},
+    {"id": "v2-10-wipe", "beatId": "10-retoque-cooktop", "time": 25.32, "duration": 0.54, "contact": "pano termina a passada no cooktop"},
+    {"id": "v2-10-set", "beatId": "10-retoque-cooktop", "time": 26.38, "duration": 0.18, "contact": "peça de cozinha assenta no centro do aro"},
+    {"id": "v2-11-towel", "beatId": "11-toalha-gotas", "time": 26.86, "duration": 0.42, "contact": "toalha passa pela barra e balança uma vez"},
+    {"id": "v2-11-drop", "beatId": "11-toalha-gotas", "time": 27.62, "duration": 0.2, "contact": "última gota é removida pela ponta do pano"}
+  ],
+  "notes": [
+    "Todos os cues são propostas presas a ações visíveis, não uma mixagem concluída.",
+    "Não aplicar whoosh em todos os cortes; não acrescentar som se o contato não aparecer no render.",
+    "Revisar cada instante depois do teste visual; nenhum cue foi alinhado a um movimento gerado nesta revisão."
+  ]
+}
+

@@ -1,0 +1,818 @@
+- generic [active] [ref=f17e1]:
+  - banner [ref=f17e2]:
+    - link "Rockstar, composições de cena" [ref=f17e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [aria-hidden] [ref=f17e4]: R
+      - generic [ref=f17e5]:
+        - strong [ref=f17e6]: ROCKSTAR
+        - generic [ref=f17e7]: HISTÓRIA · ESTUDO VISUAL
+    - generic [ref=f17e8]:
+      - generic [ref=f17e9]: EXPANSÃO EM PRODUÇÃO · QA NÃO CONCLUÍDO
+      - generic [ref=f17e12]: Prévia local · Three.js · sem render final
+  - main [ref=f17e13]:
+    - complementary "Cenas da narrativa" [ref=f17e14]:
+      - generic [ref=f17e15]:
+        - paragraph [ref=f17e16]: ALVO · 20–23 MIN
+        - heading "Storyboard visual" [level=1] [ref=f17e17]
+        - paragraph [ref=f17e18]: 143 tomadas cobrem as frases da narração; 13 capítulos entram nas cenas de abertura. Os 8 s servem só para inspecionar motion.
+      - navigation "Selecionar cena" [ref=f17e19]:
+        - paragraph [ref=f17e13221]: A escolha que inicia a cadeia
+        - button "001 Fábrica perde foco enquanto o Amiga exemplar… TAKE 001 · P01 ›" [ref=f17e13222] [cursor=pointer]:
+          - generic [ref=f17e13223]: "001"
+          - generic [ref=f17e13224]: Fábrica perde foco enquanto o Amiga exemplar…
+          - generic [ref=f17e13225]: TAKE 001 · P01
+          - generic [ref=f17e13226]: ›
+        - button "002 Tela abstrata acende para programar enquanto o… TAKE 002 · P01 ›" [ref=f17e13227] [cursor=pointer]:
+          - generic [ref=f17e13228]: "002"
+          - generic [ref=f17e13229]: Tela abstrata acende para programar enquanto o…
+          - generic [ref=f17e13230]: TAKE 002 · P01
+          - generic [ref=f17e13231]: ›
+        - button "003 Quarteirões originais se erguem sob o nome… TAKE 003 · P01 ›" [ref=f17e13232] [cursor=pointer]:
+          - generic [ref=f17e13233]: "003"
+          - generic [ref=f17e13234]: Quarteirões originais se erguem sob o nome…
+          - generic [ref=f17e13235]: TAKE 003 · P01
+          - generic [ref=f17e13236]: ›
+        - button "004 Nós de equipe, sucesso e mudança de direitos… TAKE 004 · P01 ›" [ref=f17e13237] [cursor=pointer]:
+          - generic [ref=f17e13238]: "004"
+          - generic [ref=f17e13239]: Nós de equipe, sucesso e mudança de direitos…
+          - generic [ref=f17e13240]: TAKE 004 · P01
+          - generic [ref=f17e13241]: ›
+        - button "005 Fase abstrata deixa espaço vazio ao redor das… TAKE 005 · P02 ›" [ref=f17e13242] [cursor=pointer]:
+          - generic [ref=f17e13243]: "005"
+          - generic [ref=f17e13244]: Fase abstrata deixa espaço vazio ao redor das…
+          - generic [ref=f17e13245]: TAKE 005 · P02
+          - generic [ref=f17e13246]: ›
+        - button "006 A primeira se aproxima do perigo e a câmera… TAKE 006 · P02 ›" [ref=f17e13247] [cursor=pointer]:
+          - generic [ref=f17e13248]: "006"
+          - generic [ref=f17e13249]: A primeira se aproxima do perigo e a câmera…
+          - generic [ref=f17e13250]: TAKE 006 · P02
+          - generic [ref=f17e13251]: ›
+        - button "007 Cursor interrompe o loop e converte repetição… TAKE 007 · P02 ›" [ref=f17e13252] [cursor=pointer]:
+          - generic [ref=f17e13253]: "007"
+          - generic [ref=f17e13254]: Cursor interrompe o loop e converte repetição…
+          - generic [ref=f17e13255]: TAKE 007 · P02
+          - generic [ref=f17e13256]: ›
+        - paragraph [ref=f17e13257]: Formação e começo da equipe
+        - button "008 Apple II exemplar recebe foco, identificado… TAKE 008 · P03 ›" [ref=f17e13258] [cursor=pointer]:
+          - generic [ref=f17e13259]: "008"
+          - generic [ref=f17e13260]: Apple II exemplar recebe foco, identificado…
+          - generic [ref=f17e13261]: TAKE 008 · P03
+          - generic [ref=f17e13262]: ›
+        - button "009 Um posto acende e BASIC aparece como primeira… TAKE 009 · P03 ›" [ref=f17e13263] [cursor=pointer]:
+          - generic [ref=f17e13264]: "009"
+          - generic [ref=f17e13265]: Um posto acende e BASIC aparece como primeira…
+          - generic [ref=f17e13266]: TAKE 009 · P03
+          - generic [ref=f17e13267]: ›
+        - button "010 Dois grupos anônimos mostram demos abstratas… TAKE 010 · P03 ›" [ref=f17e13268] [cursor=pointer]:
+          - generic [ref=f17e13269]: "010"
+          - generic [ref=f17e13270]: Dois grupos anônimos mostram demos abstratas…
+          - generic [ref=f17e13271]: TAKE 010 · P03
+          - generic [ref=f17e13272]: ›
+        - button "011 Mesa de trabalho isolada revela a escassez de… TAKE 011 · P03 ›" [ref=f17e13273] [cursor=pointer]:
+          - generic [ref=f17e13274]: "011"
+          - generic [ref=f17e13275]: Mesa de trabalho isolada revela a escassez de…
+          - generic [ref=f17e13276]: TAKE 011 · P03
+          - generic [ref=f17e13277]: ›
+        - button "012 Diagrama próprio de programação começa a ser… TAKE 012 · P03 ›" [ref=f17e13278] [cursor=pointer]:
+          - generic [ref=f17e13279]: "012"
+          - generic [ref=f17e13280]: Diagrama próprio de programação começa a ser…
+          - generic [ref=f17e13281]: TAKE 012 · P03
+          - generic [ref=f17e13282]: ›
+        - button "013 Cartão Timex identifica o emprego anterior TAKE 013 · P04 ›" [ref=f17e13283] [cursor=pointer]:
+          - generic [ref=f17e13284]: "013"
+          - generic [ref=f17e13285]: Cartão Timex identifica o emprego anterior
+          - generic [ref=f17e13286]: TAKE 013 · P04
+          - generic [ref=f17e13287]: ›
+        - button "014 Unidades de fita, microdrive e microcomputador… TAKE 014 · P04 ›" [ref=f17e13288] [cursor=pointer]:
+          - generic [ref=f17e13289]: "014"
+          - generic [ref=f17e13290]: Unidades de fita, microdrive e microcomputador…
+          - generic [ref=f17e13291]: TAKE 014 · P04
+          - generic [ref=f17e13292]: ›
+        - button "015 Componentes se encaixam num ZX81 exemplar, sem… TAKE 015 · P04 ›" [ref=f17e13293] [cursor=pointer]:
+          - generic [ref=f17e13294]: "015"
+          - generic [ref=f17e13295]: Componentes se encaixam num ZX81 exemplar, sem…
+          - generic [ref=f17e13296]: TAKE 015 · P04
+          - generic [ref=f17e13297]: ›
+        - button "016 Alguns postos apagam enquanto a oferta de… TAKE 016 · P04 ›" [ref=f17e13298] [cursor=pointer]:
+          - generic [ref=f17e13299]: "016"
+          - generic [ref=f17e13300]: Alguns postos apagam enquanto a oferta de…
+          - generic [ref=f17e13301]: TAKE 016 · P04
+          - generic [ref=f17e13302]: ›
+        - button "017 Marcador sai da Timex e aponta para engenharia… TAKE 017 · P04 ›" [ref=f17e13303] [cursor=pointer]:
+          - generic [ref=f17e13304]: "017"
+          - generic [ref=f17e13305]: Marcador sai da Timex e aponta para engenharia…
+          - generic [ref=f17e13306]: TAKE 017 · P04
+          - generic [ref=f17e13307]: ›
+        - button "018 Caixa gráfica de Amiga chega à bancada com… TAKE 018 · P04 ›" [ref=f17e13308] [cursor=pointer]:
+          - generic [ref=f17e13309]: "018"
+          - generic [ref=f17e13310]: Caixa gráfica de Amiga chega à bancada com…
+          - generic [ref=f17e13311]: TAKE 018 · P04
+          - generic [ref=f17e13312]: ›
+        - button "019 Programação e jogos aparecem lado a lado como… TAKE 019 · P04 ›" [ref=f17e13313] [cursor=pointer]:
+          - generic [ref=f17e13314]: "019"
+          - generic [ref=f17e13315]: Programação e jogos aparecem lado a lado como…
+          - generic [ref=f17e13316]: TAKE 019 · P04
+          - generic [ref=f17e13317]: ›
+        - button "020 Letreiro DMA Design entra como projeto parcial… TAKE 020 · P05 ›" [ref=f17e13318] [cursor=pointer]:
+          - generic [ref=f17e13319]: "020"
+          - generic [ref=f17e13320]: Letreiro DMA Design entra como projeto parcial…
+          - generic [ref=f17e13321]: TAKE 020 · P05
+          - generic [ref=f17e13322]: ›
+        - button "021 A busca termina em espaço vazio TAKE 021 · P05 ›" [ref=f17e13323] [cursor=pointer]:
+          - generic [ref=f17e13324]: "021"
+          - generic [ref=f17e13325]: A busca termina em espaço vazio
+          - generic [ref=f17e13326]: TAKE 021 · P05
+          - generic [ref=f17e13327]: ›
+        - button "022 Menace recebe o primeiro marco em 1988 TAKE 022 · P05 ›" [ref=f17e13328] [cursor=pointer]:
+          - generic [ref=f17e13329]: "022"
+          - generic [ref=f17e13330]: Menace recebe o primeiro marco em 1988
+          - generic [ref=f17e13331]: TAKE 022 · P05
+          - generic [ref=f17e13332]: ›
+        - button "023 Blood Money ocupa o próximo ponto em 1989 TAKE 023 · P05 ›" [ref=f17e13333] [cursor=pointer]:
+          - generic [ref=f17e13334]: "023"
+          - generic [ref=f17e13335]: Blood Money ocupa o próximo ponto em 1989
+          - generic [ref=f17e13336]: TAKE 023 · P05
+          - generic [ref=f17e13337]: ›
+        - button "024 Formas abstratas de tiro arcade aparecem… TAKE 024 · P05 ›" [ref=f17e13338] [cursor=pointer]:
+          - generic [ref=f17e13339]: "024"
+          - generic [ref=f17e13340]: Formas abstratas de tiro arcade aparecem…
+          - generic [ref=f17e13341]: TAKE 024 · P05
+          - generic [ref=f17e13342]: ›
+        - button "025 A câmera segue a demonstração até uma feira de… TAKE 025 · P05 ›" [ref=f17e13343] [cursor=pointer]:
+          - generic [ref=f17e13344]: "025"
+          - generic [ref=f17e13345]: A câmera segue a demonstração até uma feira de…
+          - generic [ref=f17e13346]: TAKE 025 · P05
+          - generic [ref=f17e13347]: ›
+        - button "026 Caminho escolhido para na Psygnosis e mostra… TAKE 026 · P05 ›" [ref=f17e13348] [cursor=pointer]:
+          - generic [ref=f17e13349]: "026"
+          - generic [ref=f17e13350]: Caminho escolhido para na Psygnosis e mostra…
+          - generic [ref=f17e13351]: TAKE 026 · P05
+          - generic [ref=f17e13352]: ›
+        - button "027 Etiqueta 2 MB aparece como pagamento inicial TAKE 027 · P05 ›" [ref=f17e13353] [cursor=pointer]:
+          - generic [ref=f17e13354]: "027"
+          - generic [ref=f17e13355]: Etiqueta 2 MB aparece como pagamento inicial
+          - generic [ref=f17e13356]: TAKE 027 · P05
+          - generic [ref=f17e13357]: ›
+        - button "028 Linha temporal abre espaço para jogos em tempo… TAKE 028 · P06 ›" [ref=f17e13358] [cursor=pointer]:
+          - generic [ref=f17e13359]: "028"
+          - generic [ref=f17e13360]: Linha temporal abre espaço para jogos em tempo…
+          - generic [ref=f17e13361]: TAKE 028 · P06
+          - generic [ref=f17e13362]: ›
+        - button "029 Mike Dailly entra como primeiro programador TAKE 029 · P06 ›" [ref=f17e13363] [cursor=pointer]:
+          - generic [ref=f17e13364]: "029"
+          - generic [ref=f17e13365]: Mike Dailly entra como primeiro programador
+          - generic [ref=f17e13366]: TAKE 029 · P06
+          - generic [ref=f17e13367]: ›
+        - button "030 Escritório funciona sobre a loja de fish-and-chips TAKE 030 · P06 ›" [ref=f17e13368] [cursor=pointer]:
+          - generic [ref=f17e13369]: "030"
+          - generic [ref=f17e13370]: Escritório funciona sobre a loja de fish-and-chips
+          - generic [ref=f17e13371]: TAKE 030 · P06
+          - generic [ref=f17e13372]: ›
+        - button "031 Equipe pequena prepara jogos próprios TAKE 031 · P06 ›" [ref=f17e13373] [cursor=pointer]:
+          - generic [ref=f17e13374]: "031"
+          - generic [ref=f17e13375]: Equipe pequena prepara jogos próprios
+          - generic [ref=f17e13376]: TAKE 031 · P06
+          - generic [ref=f17e13377]: ›
+        - button "032 Dois marcadores se encontram no mapa de… TAKE 032 · P07 ›" [ref=f17e13378] [cursor=pointer]:
+          - generic [ref=f17e13379]: "032"
+          - generic [ref=f17e13380]: Dois marcadores se encontram no mapa de…
+          - generic [ref=f17e13381]: TAKE 032 · P07
+          - generic [ref=f17e13382]: ›
+        - button "033 Colaboradores e trocas de ideias conectam o grupo TAKE 033 · P07 ›" [ref=f17e13383] [cursor=pointer]:
+          - generic [ref=f17e13384]: "033"
+          - generic [ref=f17e13385]: Colaboradores e trocas de ideias conectam o grupo
+          - generic [ref=f17e13386]: TAKE 033 · P07
+          - generic [ref=f17e13387]: ›
+        - button "034 Cartões neutros de máquinas passam por uma… TAKE 034 · P07 ›" [ref=f17e13388] [cursor=pointer]:
+          - generic [ref=f17e13389]: "034"
+          - generic [ref=f17e13390]: Cartões neutros de máquinas passam por uma…
+          - generic [ref=f17e13391]: TAKE 034 · P07
+          - generic [ref=f17e13392]: ›
+        - button "035 Animação experimental aparece como próximo… TAKE 035 · P07 ›" [ref=f17e13393] [cursor=pointer]:
+          - generic [ref=f17e13394]: "035"
+          - generic [ref=f17e13395]: Animação experimental aparece como próximo…
+          - generic [ref=f17e13396]: TAKE 035 · P07
+          - generic [ref=f17e13397]: ›
+        - paragraph [ref=f17e13398]: O sucesso inesperado de Lemmings
+        - button "036 Pincel monta animação original no Deluxe… TAKE 036 · P08 ›" [ref=f17e13399] [cursor=pointer]:
+          - generic [ref=f17e13400]: "036"
+          - generic [ref=f17e13401]: Pincel monta animação original no Deluxe…
+          - generic [ref=f17e13402]: TAKE 036 · P08
+          - generic [ref=f17e13403]: ›
+        - button "037 Projétil abstrato interrompe o movimento TAKE 037 · P08 ›" [ref=f17e13404] [cursor=pointer]:
+          - generic [ref=f17e13405]: "037"
+          - generic [ref=f17e13406]: Projétil abstrato interrompe o movimento
+          - generic [ref=f17e13407]: TAKE 037 · P08
+          - generic [ref=f17e13408]: ›
+        - button "038 Marcador seleciona desvio e muda a rota TAKE 038 · P08 ›" [ref=f17e13409] [cursor=pointer]:
+          - generic [ref=f17e13410]: "038"
+          - generic [ref=f17e13411]: Marcador seleciona desvio e muda a rota
+          - generic [ref=f17e13412]: TAKE 038 · P08
+          - generic [ref=f17e13413]: ›
+        - button "039 Centenas de cartões se agrupam e ordenam por… TAKE 039 · P08 ›" [ref=f17e13414] [cursor=pointer]:
+          - generic [ref=f17e13415]: "039"
+          - generic [ref=f17e13416]: Centenas de cartões se agrupam e ordenam por…
+          - generic [ref=f17e13417]: TAKE 039 · P08
+          - generic [ref=f17e13418]: ›
+        - button "040 Marco Amiga · fevereiro de 1991 e conexões… TAKE 040 · P09 ›" [ref=f17e13419] [cursor=pointer]:
+          - generic [ref=f17e13420]: "040"
+          - generic [ref=f17e13421]: Marco Amiga · fevereiro de 1991 e conexões…
+          - generic [ref=f17e13422]: TAKE 040 · P09
+          - generic [ref=f17e13423]: ›
+        - button "041 Chamada “cerca de 15 milhões · estimativa de… TAKE 041 · P09 ›" [ref=f17e13424] [cursor=pointer]:
+          - generic [ref=f17e13425]: "041"
+          - generic [ref=f17e13426]: Chamada “cerca de 15 milhões · estimativa de…
+          - generic [ref=f17e13427]: TAKE 041 · P09
+          - generic [ref=f17e13428]: ›
+        - button "042 Sequência de mais de vinte formatos se abre… TAKE 042 · P09 ›" [ref=f17e13429] [cursor=pointer]:
+          - generic [ref=f17e13430]: "042"
+          - generic [ref=f17e13431]: Sequência de mais de vinte formatos se abre…
+          - generic [ref=f17e13432]: TAKE 042 · P09
+          - generic [ref=f17e13433]: ›
+        - button "043 Imagem e comandos se reconfiguram entre… TAKE 043 · P09 ›" [ref=f17e13434] [cursor=pointer]:
+          - generic [ref=f17e13435]: "043"
+          - generic [ref=f17e13436]: Imagem e comandos se reconfiguram entre…
+          - generic [ref=f17e13437]: TAKE 043 · P09
+          - generic [ref=f17e13438]: ›
+        - button "044 Trilhas paralelas mostram conversões,… TAKE 044 · P09 ›" [ref=f17e13439] [cursor=pointer]:
+          - generic [ref=f17e13440]: "044"
+          - generic [ref=f17e13441]: Trilhas paralelas mostram conversões,…
+          - generic [ref=f17e13442]: TAKE 044 · P09
+          - generic [ref=f17e13443]: ›
+        - button "045 Pedido de sequência aparece depois do primeiro… TAKE 045 · P09 ›" [ref=f17e13444] [cursor=pointer]:
+          - generic [ref=f17e13445]: "045"
+          - generic [ref=f17e13446]: Pedido de sequência aparece depois do primeiro…
+          - generic [ref=f17e13447]: TAKE 045 · P09
+          - generic [ref=f17e13448]: ›
+        - button "046 Crescimento comercial separa-se do tempo… TAKE 046 · P09 ›" [ref=f17e13449] [cursor=pointer]:
+          - generic [ref=f17e13450]: "046"
+          - generic [ref=f17e13451]: Crescimento comercial separa-se do tempo…
+          - generic [ref=f17e13452]: TAKE 046 · P09
+          - generic [ref=f17e13453]: ›
+        - button "047 Terceira fica comprimida e recebe atribuição a… TAKE 047 · P10 ›" [ref=f17e13454] [cursor=pointer]:
+          - generic [ref=f17e13455]: "047"
+          - generic [ref=f17e13456]: Terceira fica comprimida e recebe atribuição a…
+          - generic [ref=f17e13457]: TAKE 047 · P10
+          - generic [ref=f17e13458]: ›
+        - button "048 Produção pausa antes de nova proposta TAKE 048 · P10 ›" [ref=f17e13459] [cursor=pointer]:
+          - generic [ref=f17e13460]: "048"
+          - generic [ref=f17e13461]: Produção pausa antes de nova proposta
+          - generic [ref=f17e13462]: TAKE 048 · P10
+          - generic [ref=f17e13463]: ›
+        - button "049 Lançamentos anteriores permanecem enquanto a… TAKE 049 · P10 ›" [ref=f17e13464] [cursor=pointer]:
+          - generic [ref=f17e13465]: "049"
+          - generic [ref=f17e13466]: Lançamentos anteriores permanecem enquanto a…
+          - generic [ref=f17e13467]: TAKE 049 · P10
+          - generic [ref=f17e13468]: ›
+        - button "050 Novo motor técnico acende sob cidade abstrata TAKE 050 · P10 ›" [ref=f17e13469] [cursor=pointer]:
+          - generic [ref=f17e13470]: "050"
+          - generic [ref=f17e13471]: Novo motor técnico acende sob cidade abstrata
+          - generic [ref=f17e13472]: TAKE 050 · P10
+          - generic [ref=f17e13473]: ›
+        - paragraph [ref=f17e13474]: Da câmera superior à perseguição
+        - button "051 Malha de teste aparece antes da cidade TAKE 051 · P11 ›" [ref=f17e13475] [cursor=pointer]:
+          - generic [ref=f17e13476]: "051"
+          - generic [ref=f17e13477]: Malha de teste aparece antes da cidade
+          - generic [ref=f17e13478]: TAKE 051 · P11
+          - generic [ref=f17e13479]: ›
+        - button "052 Câmera sobe e mostra cidade de cima TAKE 052 · P11 ›" [ref=f17e13480] [cursor=pointer]:
+          - generic [ref=f17e13481]: "052"
+          - generic [ref=f17e13482]: Câmera sobe e mostra cidade de cima
+          - generic [ref=f17e13483]: TAKE 052 · P11
+          - generic [ref=f17e13484]: ›
+        - button "053 Carro acelera, blocos deslizam e câmera recua… TAKE 053 · P11 ›" [ref=f17e13485] [cursor=pointer]:
+          - generic [ref=f17e13486]: "053"
+          - generic [ref=f17e13487]: Carro acelera, blocos deslizam e câmera recua…
+          - generic [ref=f17e13488]: TAKE 053 · P11
+          - generic [ref=f17e13489]: ›
+        - button "054 Rota recebe marcador policial e torna-se… TAKE 054 · P11 ›" [ref=f17e13490] [cursor=pointer]:
+          - generic [ref=f17e13491]: "054"
+          - generic [ref=f17e13492]: Rota recebe marcador policial e torna-se…
+          - generic [ref=f17e13493]: TAKE 054 · P11
+          - generic [ref=f17e13494]: ›
+        - button "055 Race-n-Chase conecta-se a uma proposta… TAKE 055 · P11 ›" [ref=f17e13495] [cursor=pointer]:
+          - generic [ref=f17e13496]: "055"
+          - generic [ref=f17e13497]: Race-n-Chase conecta-se a uma proposta…
+          - generic [ref=f17e13498]: TAKE 055 · P11
+          - generic [ref=f17e13499]: ›
+        - button "056 Conexões acendem e tornam o conjunto difícil… TAKE 056 · P12 ›" [ref=f17e13500] [cursor=pointer]:
+          - generic [ref=f17e13501]: "056"
+          - generic [ref=f17e13502]: Conexões acendem e tornam o conjunto difícil…
+          - generic [ref=f17e13503]: TAKE 056 · P12
+          - generic [ref=f17e13504]: ›
+        - button "057 Depoimento atribuído a Gary Penn destaca… TAKE 057 · P12 ›" [ref=f17e13505] [cursor=pointer]:
+          - generic [ref=f17e13506]: "057"
+          - generic [ref=f17e13507]: Depoimento atribuído a Gary Penn destaca…
+          - generic [ref=f17e13508]: TAKE 057 · P12
+          - generic [ref=f17e13509]: ›
+        - button "058 Ramais de ajuste se abrem sem dizer que bug… TAKE 058 · P12 ›" [ref=f17e13510] [cursor=pointer]:
+          - generic [ref=f17e13511]: "058"
+          - generic [ref=f17e13512]: Ramais de ajuste se abrem sem dizer que bug…
+          - generic [ref=f17e13513]: TAKE 058 · P12
+          - generic [ref=f17e13514]: ›
+        - button "059 Nome se transforma em Grand Theft Auto com… TAKE 059 · P13 ›" [ref=f17e13515] [cursor=pointer]:
+          - generic [ref=f17e13516]: "059"
+          - generic [ref=f17e13517]: Nome se transforma em Grand Theft Auto com…
+          - generic [ref=f17e13518]: TAKE 059 · P13
+          - generic [ref=f17e13519]: ›
+        - button "060 Rotas laterais aparecem na cidade vista de cima TAKE 060 · P13 ›" [ref=f17e13520] [cursor=pointer]:
+          - generic [ref=f17e13521]: "060"
+          - generic [ref=f17e13522]: Rotas laterais aparecem na cidade vista de cima
+          - generic [ref=f17e13523]: TAKE 060 · P13
+          - generic [ref=f17e13524]: ›
+        - button "061 Três placas identificam Liberty City, Vice… TAKE 061 · P13 ›" [ref=f17e13525] [cursor=pointer]:
+          - generic [ref=f17e13526]: "061"
+          - generic [ref=f17e13527]: Três placas identificam Liberty City, Vice…
+          - generic [ref=f17e13528]: TAKE 061 · P13
+          - generic [ref=f17e13529]: ›
+        - button "062 Cartões posteriores reapresentam cada cidade… TAKE 062 · P13 ›" [ref=f17e13530] [cursor=pointer]:
+          - generic [ref=f17e13531]: "062"
+          - generic [ref=f17e13532]: Cartões posteriores reapresentam cada cidade…
+          - generic [ref=f17e13533]: TAKE 062 · P13
+          - generic [ref=f17e13534]: ›
+        - button "063 Rotas atravessam bairros e desviam do caminho… TAKE 063 · P13 ›" [ref=f17e13535] [cursor=pointer]:
+          - generic [ref=f17e13536]: "063"
+          - generic [ref=f17e13537]: Rotas atravessam bairros e desviam do caminho…
+          - generic [ref=f17e13538]: TAKE 063 · P13
+          - generic [ref=f17e13539]: ›
+        - button "064 Recortes editoriais identificam campanha de… TAKE 064 · P13 ›" [ref=f17e13540] [cursor=pointer]:
+          - generic [ref=f17e13541]: "064"
+          - generic [ref=f17e13542]: Recortes editoriais identificam campanha de…
+          - generic [ref=f17e13543]: TAKE 064 · P13
+          - generic [ref=f17e13544]: ›
+        - button "065 Cartão de David Jones apresenta avaliação e… TAKE 065 · P13 ›" [ref=f17e13545] [cursor=pointer]:
+          - generic [ref=f17e13546]: "065"
+          - generic [ref=f17e13547]: Cartão de David Jones apresenta avaliação e…
+          - generic [ref=f17e13548]: TAKE 065 · P13
+          - generic [ref=f17e13549]: ›
+        - button "066 Sinais de público e bom desempenho aparecem… TAKE 066 · P13 ›" [ref=f17e13550] [cursor=pointer]:
+          - generic [ref=f17e13551]: "066"
+          - generic [ref=f17e13552]: Sinais de público e bom desempenho aparecem…
+          - generic [ref=f17e13553]: TAKE 066 · P13
+          - generic [ref=f17e13554]: ›
+        - button "067 As três trilhas se cruzam e deixam várias… TAKE 067 · P13 ›" [ref=f17e13555] [cursor=pointer]:
+          - generic [ref=f17e13556]: "067"
+          - generic [ref=f17e13557]: As três trilhas se cruzam e deixam várias…
+          - generic [ref=f17e13558]: TAKE 067 · P13
+          - generic [ref=f17e13559]: ›
+        - button "068 Faixa “cerca de 30 meses” contrapõe plano… TAKE 068 · P14 ›" [ref=f17e13560] [cursor=pointer]:
+          - generic [ref=f17e13561]: "068"
+          - generic [ref=f17e13562]: Faixa “cerca de 30 meses” contrapõe plano…
+          - generic [ref=f17e13563]: TAKE 068 · P14
+          - generic [ref=f17e13564]: ›
+        - button "069 Ligações se cruzam e cada teste considera… TAKE 069 · P14 ›" [ref=f17e13565] [cursor=pointer]:
+          - generic [ref=f17e13566]: "069"
+          - generic [ref=f17e13567]: Ligações se cruzam e cada teste considera…
+          - generic [ref=f17e13568]: TAKE 069 · P14
+          - generic [ref=f17e13569]: ›
+        - 'button "070 Três estados: ferramenta, obstáculo e ponto de… TAKE 070 · P14 ›" [ref=f17e13570] [cursor=pointer]':
+          - generic [ref=f17e13571]: "070"
+          - generic [ref=f17e13572]: "Três estados: ferramenta, obstáculo e ponto de…"
+          - generic [ref=f17e13573]: TAKE 070 · P14
+          - generic [ref=f17e13574]: ›
+        - button "071 Rota alternativa acende como segundo caso de… TAKE 071 · P14 ›" [ref=f17e13575] [cursor=pointer]:
+          - generic [ref=f17e13576]: "071"
+          - generic [ref=f17e13577]: Rota alternativa acende como segundo caso de…
+          - generic [ref=f17e13578]: TAKE 071 · P14
+          - generic [ref=f17e13579]: ›
+        - button "072 Linha de missão aponta direção enquanto saídas… TAKE 072 · P14 ›" [ref=f17e13580] [cursor=pointer]:
+          - generic [ref=f17e13581]: "072"
+          - generic [ref=f17e13582]: Linha de missão aponta direção enquanto saídas…
+          - generic [ref=f17e13583]: TAKE 072 · P14
+          - generic [ref=f17e13584]: ›
+        - button "073 Liberdade, tecnologia e cenário preparam… TAKE 073 · P14 ›" [ref=f17e13585] [cursor=pointer]:
+          - generic [ref=f17e13586]: "073"
+          - generic [ref=f17e13587]: Liberdade, tecnologia e cenário preparam…
+          - generic [ref=f17e13588]: TAKE 073 · P14
+          - generic [ref=f17e13589]: ›
+        - paragraph [ref=f17e13590]: Mudança de mãos
+        - button "074 Nó Gremlin conecta-se à DMA antes do… TAKE 074 · P15 ›" [ref=f17e13591] [cursor=pointer]:
+          - generic [ref=f17e13592]: "074"
+          - generic [ref=f17e13593]: Nó Gremlin conecta-se à DMA antes do…
+          - generic [ref=f17e13594]: TAKE 074 · P15
+          - generic [ref=f17e13595]: ›
+        - button "075 GTA chega em 1997 dentro do estúdio controlado… TAKE 075 · P15 ›" [ref=f17e13596] [cursor=pointer]:
+          - generic [ref=f17e13597]: "075"
+          - generic [ref=f17e13598]: GTA chega em 1997 dentro do estúdio controlado…
+          - generic [ref=f17e13599]: TAKE 075 · P15
+          - generic [ref=f17e13600]: ›
+        - button "076 Cartão de Dave Jones registra expectativa… TAKE 076 · P15 ›" [ref=f17e13601] [cursor=pointer]:
+          - generic [ref=f17e13602]: "076"
+          - generic [ref=f17e13603]: Cartão de Dave Jones registra expectativa…
+          - generic [ref=f17e13604]: TAKE 076 · P15
+          - generic [ref=f17e13605]: ›
+        - button "077 Aquisição permanece e equipe continua trabalhando TAKE 077 · P15 ›" [ref=f17e13606] [cursor=pointer]:
+          - generic [ref=f17e13607]: "077"
+          - generic [ref=f17e13608]: Aquisição permanece e equipe continua trabalhando
+          - generic [ref=f17e13609]: TAKE 077 · P15
+          - generic [ref=f17e13610]: ›
+        - button "078 London 1969 aparece e trilha de sequência começa TAKE 078 · P15 ›" [ref=f17e13611] [cursor=pointer]:
+          - generic [ref=f17e13612]: "078"
+          - generic [ref=f17e13613]: London 1969 aparece e trilha de sequência começa
+          - generic [ref=f17e13614]: TAKE 078 · P15
+          - generic [ref=f17e13615]: ›
+        - button "079 Duas trilhas distintas aparecem TAKE 079 · P16 ›" [ref=f17e13616] [cursor=pointer]:
+          - generic [ref=f17e13617]: "079"
+          - generic [ref=f17e13618]: Duas trilhas distintas aparecem
+          - generic [ref=f17e13619]: TAKE 079 · P16
+          - generic [ref=f17e13620]: ›
+        - button "080 Fundação da Rockstar e compra dos ativos da… TAKE 080 · P16 ›" [ref=f17e13621] [cursor=pointer]:
+          - generic [ref=f17e13622]: "080"
+          - generic [ref=f17e13623]: Fundação da Rockstar e compra dos ativos da…
+          - generic [ref=f17e13624]: TAKE 080 · P16
+          - generic [ref=f17e13625]: ›
+        - button "081 “publica” e “desenvolve” ocupam nós separados TAKE 081 · P16 ›" [ref=f17e13626] [cursor=pointer]:
+          - generic [ref=f17e13627]: "081"
+          - generic [ref=f17e13628]: “publica” e “desenvolve” ocupam nós separados
+          - generic [ref=f17e13629]: TAKE 081 · P16
+          - generic [ref=f17e13630]: ›
+        - button "082 Aquisição pela Infogrames e saída de Jones… TAKE 082 · P16 ›" [ref=f17e13631] [cursor=pointer]:
+          - generic [ref=f17e13632]: "082"
+          - generic [ref=f17e13633]: Aquisição pela Infogrames e saída de Jones…
+          - generic [ref=f17e13634]: TAKE 082 · P16
+          - generic [ref=f17e13635]: ›
+        - button "083 DMA desloca-se para Take-Two mais tarde no… TAKE 083 · P16 ›" [ref=f17e13636] [cursor=pointer]:
+          - generic [ref=f17e13637]: "083"
+          - generic [ref=f17e13638]: DMA desloca-se para Take-Two mais tarde no…
+          - generic [ref=f17e13639]: TAKE 083 · P16
+          - generic [ref=f17e13640]: ›
+        - button "084 Linhas DMA e publicação convergem sob a… TAKE 084 · P16 ›" [ref=f17e13641] [cursor=pointer]:
+          - generic [ref=f17e13642]: "084"
+          - generic [ref=f17e13643]: Linhas DMA e publicação convergem sob a…
+          - generic [ref=f17e13644]: TAKE 084 · P16
+          - generic [ref=f17e13645]: ›
+        - button "085 Rótulo identifica valor nominal das ações TAKE 085 · P17 ›" [ref=f17e13646] [cursor=pointer]:
+          - generic [ref=f17e13647]: "085"
+          - generic [ref=f17e13648]: Rótulo identifica valor nominal das ações
+          - generic [ref=f17e13649]: TAKE 085 · P17
+          - generic [ref=f17e13650]: ›
+        - button "086 Categoria separada mostra quitação do… TAKE 086 · P17 ›" [ref=f17e13651] [cursor=pointer]:
+          - generic [ref=f17e13652]: "086"
+          - generic [ref=f17e13653]: Categoria separada mostra quitação do…
+          - generic [ref=f17e13654]: TAKE 086 · P17
+          - generic [ref=f17e13655]: ›
+        - button "087 Relatório financeiro apresenta cerca de US$… TAKE 087 · P17 ›" [ref=f17e13656] [cursor=pointer]:
+          - generic [ref=f17e13657]: "087"
+          - generic [ref=f17e13658]: Relatório financeiro apresenta cerca de US$…
+          - generic [ref=f17e13659]: TAKE 087 · P17
+          - generic [ref=f17e13660]: ›
+        - button "088 Categorias e documentos ficam separados com… TAKE 088 · P17 ›" [ref=f17e13661] [cursor=pointer]:
+          - generic [ref=f17e13662]: "088"
+          - generic [ref=f17e13663]: Categorias e documentos ficam separados com…
+          - generic [ref=f17e13664]: TAKE 088 · P17
+          - generic [ref=f17e13665]: ›
+        - button "089 Câmera abre e revela as três categorias do acordo TAKE 089 · P17 ›" [ref=f17e13666] [cursor=pointer]:
+          - generic [ref=f17e13667]: "089"
+          - generic [ref=f17e13668]: Câmera abre e revela as três categorias do acordo
+          - generic [ref=f17e13669]: TAKE 089 · P17
+          - generic [ref=f17e13670]: ›
+        - button "090 Marco 1999 identifica DMA Design TAKE 090 · P18 ›" [ref=f17e13671] [cursor=pointer]:
+          - generic [ref=f17e13672]: "090"
+          - generic [ref=f17e13673]: Marco 1999 identifica DMA Design
+          - generic [ref=f17e13674]: TAKE 090 · P18
+          - generic [ref=f17e13675]: ›
+        - button "091 Placas London 1969 e London 1961 situam… TAKE 091 · P18 ›" [ref=f17e13676] [cursor=pointer]:
+          - generic [ref=f17e13677]: "091"
+          - generic [ref=f17e13678]: Placas London 1969 e London 1961 situam…
+          - generic [ref=f17e13679]: TAKE 091 · P18
+          - generic [ref=f17e13680]: ›
+        - button "092 Grand Theft Auto III, 2001, e PlayStation 2… TAKE 092 · P18 ›" [ref=f17e13681] [cursor=pointer]:
+          - generic [ref=f17e13682]: "092"
+          - generic [ref=f17e13683]: Grand Theft Auto III, 2001, e PlayStation 2…
+          - generic [ref=f17e13684]: TAKE 092 · P18
+          - generic [ref=f17e13685]: ›
+        - button "093 Posto de Jones deixa de ser foco enquanto DMA… TAKE 093 · P18 ›" [ref=f17e13686] [cursor=pointer]:
+          - generic [ref=f17e13687]: "093"
+          - generic [ref=f17e13688]: Posto de Jones deixa de ser foco enquanto DMA…
+          - generic [ref=f17e13689]: TAKE 093 · P18
+          - generic [ref=f17e13690]: ›
+        - button "094 Nome se transforma em Rockstar North em 2002 TAKE 094 · P18 ›" [ref=f17e13691] [cursor=pointer]:
+          - generic [ref=f17e13692]: "094"
+          - generic [ref=f17e13693]: Nome se transforma em Rockstar North em 2002
+          - generic [ref=f17e13694]: TAKE 094 · P18
+          - generic [ref=f17e13695]: ›
+        - paragraph [ref=f17e13696]: A cidade na altura da calçada
+        - button "095 Vista superior abre vários bairros de uma vez TAKE 095 · P19 ›" [ref=f17e13697] [cursor=pointer]:
+          - generic [ref=f17e13698]: "095"
+          - generic [ref=f17e13699]: Vista superior abre vários bairros de uma vez
+          - generic [ref=f17e13700]: TAKE 095 · P19
+          - generic [ref=f17e13701]: ›
+        - button "096 Câmera desce até a calçada e oculta a próxima… TAKE 096 · P19 ›" [ref=f17e13702] [cursor=pointer]:
+          - generic [ref=f17e13703]: "096"
+          - generic [ref=f17e13704]: Câmera desce até a calçada e oculta a próxima…
+          - generic [ref=f17e13705]: TAKE 096 · P19
+          - generic [ref=f17e13706]: ›
+        - button "097 Carro e rota de missão percorrem quarteirões… TAKE 097 · P19 ›" [ref=f17e13707] [cursor=pointer]:
+          - generic [ref=f17e13708]: "097"
+          - generic [ref=f17e13709]: Carro e rota de missão percorrem quarteirões…
+          - generic [ref=f17e13710]: TAKE 097 · P19
+          - generic [ref=f17e13711]: ›
+        - button "098 Câmera avança e descobre atividades ao longo… TAKE 098 · P19 ›" [ref=f17e13712] [cursor=pointer]:
+          - generic [ref=f17e13713]: "098"
+          - generic [ref=f17e13714]: Câmera avança e descobre atividades ao longo…
+          - generic [ref=f17e13715]: TAKE 098 · P19
+          - generic [ref=f17e13716]: ›
+        - button "099 A mudança de câmera amplia exploração e revelação TAKE 099 · P19 ›" [ref=f17e13717] [cursor=pointer]:
+          - generic [ref=f17e13718]: "099"
+          - generic [ref=f17e13719]: A mudança de câmera amplia exploração e revelação
+          - generic [ref=f17e13720]: TAKE 099 · P19
+          - generic [ref=f17e13721]: ›
+        - button "100 Placa Vice City · 2002 acompanha costa… TAKE 100 · P20 ›" [ref=f17e13722] [cursor=pointer]:
+          - generic [ref=f17e13723]: "100"
+          - generic [ref=f17e13724]: Placa Vice City · 2002 acompanha costa…
+          - generic [ref=f17e13725]: TAKE 100 · P20
+          - generic [ref=f17e13726]: ›
+        - button "101 Três centros nomeados ligam-se a áreas rurais… TAKE 101 · P20 ›" [ref=f17e13727] [cursor=pointer]:
+          - generic [ref=f17e13728]: "101"
+          - generic [ref=f17e13729]: Três centros nomeados ligam-se a áreas rurais…
+          - generic [ref=f17e13730]: TAKE 101 · P20
+          - generic [ref=f17e13731]: ›
+        - button "102 Cenário, música e tom mudam por camadas… TAKE 102 · P20 ›" [ref=f17e13732] [cursor=pointer]:
+          - generic [ref=f17e13733]: "102"
+          - generic [ref=f17e13734]: Cenário, música e tom mudam por camadas…
+          - generic [ref=f17e13735]: TAKE 102 · P20
+          - generic [ref=f17e13736]: ›
+        - button "103 Bairros e paisagens tornam-se destinos distintos TAKE 103 · P20 ›" [ref=f17e13737] [cursor=pointer]:
+          - generic [ref=f17e13738]: "103"
+          - generic [ref=f17e13739]: Bairros e paisagens tornam-se destinos distintos
+          - generic [ref=f17e13740]: TAKE 103 · P20
+          - generic [ref=f17e13741]: ›
+        - paragraph [ref=f17e13742]: O catálogo além de GTA
+        - button "104 Catálogo de outros estúdios e gêneros abre… TAKE 104 · P21 ›" [ref=f17e13743] [cursor=pointer]:
+          - generic [ref=f17e13744]: "104"
+          - generic [ref=f17e13745]: Catálogo de outros estúdios e gêneros abre…
+          - generic [ref=f17e13746]: TAKE 104 · P21
+          - generic [ref=f17e13747]: ›
+        - button "105 Movimento suspende por um instante para… TAKE 105 · P21 ›" [ref=f17e13748] [cursor=pointer]:
+          - generic [ref=f17e13749]: "105"
+          - generic [ref=f17e13750]: Movimento suspende por um instante para…
+          - generic [ref=f17e13751]: TAKE 105 · P21
+          - generic [ref=f17e13752]: ›
+        - button "106 Dois dioramas distintos identificam Manhunt e… TAKE 106 · P21 ›" [ref=f17e13753] [cursor=pointer]:
+          - generic [ref=f17e13754]: "106"
+          - generic [ref=f17e13755]: Dois dioramas distintos identificam Manhunt e…
+          - generic [ref=f17e13756]: TAKE 106 · P21
+          - generic [ref=f17e13757]: ›
+        - button "107 Horizonte de faroeste recebe Red Dead Redemption TAKE 107 · P21 ›" [ref=f17e13758] [cursor=pointer]:
+          - generic [ref=f17e13759]: "107"
+          - generic [ref=f17e13760]: Horizonte de faroeste recebe Red Dead Redemption
+          - generic [ref=f17e13761]: TAKE 107 · P21
+          - generic [ref=f17e13762]: ›
+        - button "108 GTA continua atraindo atenção dentro do… TAKE 108 · P21 ›" [ref=f17e13763] [cursor=pointer]:
+          - generic [ref=f17e13764]: "108"
+          - generic [ref=f17e13765]: GTA continua atraindo atenção dentro do…
+          - generic [ref=f17e13766]: TAKE 108 · P21
+          - generic [ref=f17e13767]: ›
+        - paragraph [ref=f17e13768]: A oferta recusada e novos mundos
+        - button "109 Em 2008, proposta de compra da EA chega como… TAKE 109 · P22 ›" [ref=f17e13769] [cursor=pointer]:
+          - generic [ref=f17e13770]: "109"
+          - generic [ref=f17e13771]: Em 2008, proposta de compra da EA chega como…
+          - generic [ref=f17e13772]: TAKE 109 · P22
+          - generic [ref=f17e13773]: ›
+        - button "110 Linha recua sem transação e Take-Two permanece… TAKE 110 · P22 ›" [ref=f17e13774] [cursor=pointer]:
+          - generic [ref=f17e13775]: "110"
+          - generic [ref=f17e13776]: Linha recua sem transação e Take-Two permanece…
+          - generic [ref=f17e13777]: TAKE 110 · P22
+          - generic [ref=f17e13778]: ›
+        - button "111 Liberty City recebe volume 3D e Niko Bellic é… TAKE 111 · P22 ›" [ref=f17e13779] [cursor=pointer]:
+          - generic [ref=f17e13780]: "111"
+          - generic [ref=f17e13781]: Liberty City recebe volume 3D e Niko Bellic é…
+          - generic [ref=f17e13782]: TAKE 111 · P22
+          - generic [ref=f17e13783]: ›
+        - button "112 Atividades urbanas permanecem paralelas à… TAKE 112 · P22 ›" [ref=f17e13784] [cursor=pointer]:
+          - generic [ref=f17e13785]: "112"
+          - generic [ref=f17e13786]: Atividades urbanas permanecem paralelas à…
+          - generic [ref=f17e13787]: TAKE 112 · P22
+          - generic [ref=f17e13788]: ›
+        - button "113 Marcos 2010 e 2018 separam lançamento e sequência TAKE 113 · P22 ›" [ref=f17e13789] [cursor=pointer]:
+          - generic [ref=f17e13790]: "113"
+          - generic [ref=f17e13791]: Marcos 2010 e 2018 separam lançamento e sequência
+          - generic [ref=f17e13792]: TAKE 113 · P22
+          - generic [ref=f17e13793]: ›
+        - paragraph [ref=f17e13794]: Três pontos de vista
+        - button "114 Em 2013, Los Santos, costa, colinas e áreas… TAKE 114 · P23 ›" [ref=f17e13795] [cursor=pointer]:
+          - generic [ref=f17e13796]: "114"
+          - generic [ref=f17e13797]: Em 2013, Los Santos, costa, colinas e áreas…
+          - generic [ref=f17e13798]: TAKE 114 · P23
+          - generic [ref=f17e13799]: ›
+        - button "115 Três marcadores anônimos nomeados Michael,… TAKE 115 · P23 ›" [ref=f17e13800] [cursor=pointer]:
+          - generic [ref=f17e13801]: "115"
+          - generic [ref=f17e13802]: Três marcadores anônimos nomeados Michael,…
+          - generic [ref=f17e13803]: TAKE 115 · P23
+          - generic [ref=f17e13804]: ›
+        - button "116 Três rotas destacam rotinas, relações e… TAKE 116 · P23 ›" [ref=f17e13805] [cursor=pointer]:
+          - generic [ref=f17e13806]: "116"
+          - generic [ref=f17e13807]: Três rotas destacam rotinas, relações e…
+          - generic [ref=f17e13808]: TAKE 116 · P23
+          - generic [ref=f17e13809]: ›
+        - button "117 Ponto de partida muda entre área urbana e… TAKE 117 · P23 ›" [ref=f17e13810] [cursor=pointer]:
+          - generic [ref=f17e13811]: "117"
+          - generic [ref=f17e13812]: Ponto de partida muda entre área urbana e…
+          - generic [ref=f17e13813]: TAKE 117 · P23
+          - generic [ref=f17e13814]: ›
+        - paragraph [ref=f17e13815]: Um mundo que continua
+        - button "118 O mesmo território permanece ativo como espaço… TAKE 118 · P24 ›" [ref=f17e13816] [cursor=pointer]:
+          - generic [ref=f17e13817]: "118"
+          - generic [ref=f17e13818]: O mesmo território permanece ativo como espaço…
+          - generic [ref=f17e13819]: TAKE 118 · P24
+          - generic [ref=f17e13820]: ›
+        - button "119 Módulos entram em sequência e permanecem… TAKE 119 · P24 ›" [ref=f17e13821] [cursor=pointer]:
+          - generic [ref=f17e13822]: "119"
+          - generic [ref=f17e13823]: Módulos entram em sequência e permanecem…
+          - generic [ref=f17e13824]: TAKE 119 · P24
+          - generic [ref=f17e13825]: ›
+        - button "120 Gerações estilizadas prolongam a linha… TAKE 120 · P24 ›" [ref=f17e13826] [cursor=pointer]:
+          - generic [ref=f17e13827]: "120"
+          - generic [ref=f17e13828]: Gerações estilizadas prolongam a linha…
+          - generic [ref=f17e13829]: TAKE 120 · P24
+          - generic [ref=f17e13830]: ›
+        - button "121 Take-Two · agosto de 2026 · mais de 230… TAKE 121 · P24 ›" [ref=f17e13831] [cursor=pointer]:
+          - generic [ref=f17e13832]: "121"
+          - generic [ref=f17e13833]: Take-Two · agosto de 2026 · mais de 230…
+          - generic [ref=f17e13834]: TAKE 121 · P24
+          - generic [ref=f17e13835]: ›
+        - button "122 Limite separa distribuição comercial de… TAKE 122 · P24 ›" [ref=f17e13836] [cursor=pointer]:
+          - generic [ref=f17e13837]: "122"
+          - generic [ref=f17e13838]: Limite separa distribuição comercial de…
+          - generic [ref=f17e13839]: TAKE 122 · P24
+          - generic [ref=f17e13840]: ›
+        - button "123 Catálogo se estende por anos sem deduzir… TAKE 123 · P24 ›" [ref=f17e13841] [cursor=pointer]:
+          - generic [ref=f17e13842]: "123"
+          - generic [ref=f17e13843]: Catálogo se estende por anos sem deduzir…
+          - generic [ref=f17e13844]: TAKE 123 · P24
+          - generic [ref=f17e13845]: ›
+        - paragraph [ref=f17e13846]: O que se sabe publicamente sobre GTA VI
+        - button "124 Marco 2022 abre área privada e arquivos… TAKE 124 · P25 ›" [ref=f17e13847] [cursor=pointer]:
+          - generic [ref=f17e13848]: "124"
+          - generic [ref=f17e13849]: Marco 2022 abre área privada e arquivos…
+          - generic [ref=f17e13850]: TAKE 124 · P25
+          - generic [ref=f17e13851]: ›
+        - button "125 Cartão identifica comunicação da Take-Two à… TAKE 125 · P25 ›" [ref=f17e13852] [cursor=pointer]:
+          - generic [ref=f17e13853]: "125"
+          - generic [ref=f17e13854]: Cartão identifica comunicação da Take-Two à…
+          - generic [ref=f17e13855]: TAKE 125 · P25
+          - generic [ref=f17e13856]: ›
+        - button "126 Acabamento recua e cartela marca trabalho em… TAKE 126 · P25 ›" [ref=f17e13857] [cursor=pointer]:
+          - generic [ref=f17e13858]: "126"
+          - generic [ref=f17e13859]: Acabamento recua e cartela marca trabalho em…
+          - generic [ref=f17e13860]: TAKE 126 · P25
+          - generic [ref=f17e13861]: ›
+        - button "127 Dezembro de 2023 recebe primeiro trailer… TAKE 127 · P25 ›" [ref=f17e13862] [cursor=pointer]:
+          - generic [ref=f17e13863]: "127"
+          - generic [ref=f17e13864]: Dezembro de 2023 recebe primeiro trailer…
+          - generic [ref=f17e13865]: TAKE 127 · P25
+          - generic [ref=f17e13866]: ›
+        - button "128 Maio de 2025 acrescenta cenário e nomes… TAKE 128 · P25 ›" [ref=f17e13867] [cursor=pointer]:
+          - generic [ref=f17e13868]: "128"
+          - generic [ref=f17e13869]: Maio de 2025 acrescenta cenário e nomes…
+          - generic [ref=f17e13870]: TAKE 128 · P25
+          - generic [ref=f17e13871]: ›
+        - button "129 Maio de 2025 move o marco e liga o adiamento à… TAKE 129 · P26 ›" [ref=f17e13872] [cursor=pointer]:
+          - generic [ref=f17e13873]: "129"
+          - generic [ref=f17e13874]: Maio de 2025 move o marco e liga o adiamento à…
+          - generic [ref=f17e13875]: TAKE 129 · P26
+          - generic [ref=f17e13876]: ›
+        - button "130 Novembro de 2025 desloca novamente a… TAKE 130 · P26 ›" [ref=f17e13877] [cursor=pointer]:
+          - generic [ref=f17e13878]: "130"
+          - generic [ref=f17e13879]: Novembro de 2025 desloca novamente a…
+          - generic [ref=f17e13880]: TAKE 130 · P26
+          - generic [ref=f17e13881]: ›
+        - button "131 Espaço entre comunicados se alarga sem… TAKE 131 · P26 ›" [ref=f17e13882] [cursor=pointer]:
+          - generic [ref=f17e13883]: "131"
+          - generic [ref=f17e13884]: Espaço entre comunicados se alarga sem…
+          - generic [ref=f17e13885]: TAKE 131 · P26
+          - generic [ref=f17e13886]: ›
+        - paragraph [ref=f17e13887]: O debate sobre o trabalho
+        - button "132 Discussão recua a 2018, antes do jogo TAKE 132 · P27 ›" [ref=f17e13888] [cursor=pointer]:
+          - generic [ref=f17e13889]: "132"
+          - generic [ref=f17e13890]: Discussão recua a 2018, antes do jogo
+          - generic [ref=f17e13891]: TAKE 132 · P27
+          - generic [ref=f17e13892]: ›
+        - button "133 Declaração atribuída a Dan Houser recebe 100… TAKE 133 · P27 ›" [ref=f17e13893] [cursor=pointer]:
+          - generic [ref=f17e13894]: "133"
+          - generic [ref=f17e13895]: Declaração atribuída a Dan Houser recebe 100…
+          - generic [ref=f17e13896]: TAKE 133 · P27
+          - generic [ref=f17e13897]: ›
+        - button "134 Recorte identifica roteiristas sênior e três… TAKE 134 · P27 ›" [ref=f17e13898] [cursor=pointer]:
+          - generic [ref=f17e13899]: "134"
+          - generic [ref=f17e13900]: Recorte identifica roteiristas sênior e três…
+          - generic [ref=f17e13901]: TAKE 134 · P27
+          - generic [ref=f17e13902]: ›
+        - button "135 Relatos de atuais e antigos se dividem em… TAKE 135 · P27 ›" [ref=f17e13903] [cursor=pointer]:
+          - generic [ref=f17e13904]: "135"
+          - generic [ref=f17e13905]: Relatos de atuais e antigos se dividem em…
+          - generic [ref=f17e13906]: TAKE 135 · P27
+          - generic [ref=f17e13907]: ›
+        - button "136 Diferenças ficam visíveis sem concluir que… TAKE 136 · P27 ›" [ref=f17e13908] [cursor=pointer]:
+          - generic [ref=f17e13909]: "136"
+          - generic [ref=f17e13910]: Diferenças ficam visíveis sem concluir que…
+          - generic [ref=f17e13911]: TAKE 136 · P27
+          - generic [ref=f17e13912]: ›
+        - paragraph [ref=f17e13913]: Da fase à cidade inteira
+        - button "137 Jones retorna ao computador como ferramenta… TAKE 137 · P28 ›" [ref=f17e13914] [cursor=pointer]:
+          - generic [ref=f17e13915]: "137"
+          - generic [ref=f17e13916]: Jones retorna ao computador como ferramenta…
+          - generic [ref=f17e13917]: TAKE 137 · P28
+          - generic [ref=f17e13918]: ›
+        - button "138 Menace, Blood Money, Lemmings e GTA… TAKE 138 · P28 ›" [ref=f17e13919] [cursor=pointer]:
+          - generic [ref=f17e13920]: "138"
+          - generic [ref=f17e13921]: Menace, Blood Money, Lemmings e GTA…
+          - generic [ref=f17e13922]: TAKE 138 · P28
+          - generic [ref=f17e13923]: ›
+        - button "139 Saída do fundador, continuidade da equipe e… TAKE 139 · P28 ›" [ref=f17e13924] [cursor=pointer]:
+          - generic [ref=f17e13925]: "139"
+          - generic [ref=f17e13926]: Saída do fundador, continuidade da equipe e…
+          - generic [ref=f17e13927]: TAKE 139 · P28
+          - generic [ref=f17e13928]: ›
+        - button "140 Câmera retorna a poucos marcadores e mostra… TAKE 140 · P29 ›" [ref=f17e13929] [cursor=pointer]:
+          - generic [ref=f17e13930]: "140"
+          - generic [ref=f17e13931]: Câmera retorna a poucos marcadores e mostra…
+          - generic [ref=f17e13932]: TAKE 140 · P29
+          - generic [ref=f17e13933]: ›
+        - button "141 Percurso entra numa cidade inteira e câmera… TAKE 141 · P29 ›" [ref=f17e13934] [cursor=pointer]:
+          - generic [ref=f17e13935]: "141"
+          - generic [ref=f17e13936]: Percurso entra numa cidade inteira e câmera…
+          - generic [ref=f17e13937]: TAKE 141 · P29
+          - generic [ref=f17e13938]: ›
+        - button "142 Mapa fica aberto, sem antecipar conteúdo de… TAKE 142 · P29 ›" [ref=f17e13939] [cursor=pointer]:
+          - generic [ref=f17e13940]: "142"
+          - generic [ref=f17e13941]: Mapa fica aberto, sem antecipar conteúdo de…
+          - generic [ref=f17e13942]: TAKE 142 · P29
+          - generic [ref=f17e13943]: ›
+        - button "143 Plano sustenta múltiplas possibilidades e… TAKE 143 · P29 ›" [ref=f17e13944] [cursor=pointer]:
+          - generic [ref=f17e13945]: "143"
+          - generic [ref=f17e13946]: Plano sustenta múltiplas possibilidades e…
+          - generic [ref=f17e13947]: TAKE 143 · P29
+          - generic [ref=f17e13948]: ›
+      - paragraph [ref=f17e750]: 3D original + fotos locais licenciadas em avaliação.Sem gameplay ou mapas de jogos.
+    - region "Prévia tridimensional da cena" [ref=f17e751]:
+      - generic [ref=f17e752]:
+        - generic [ref=f17e753]:
+          - generic [ref=f17e754]: "140"
+          - generic [ref=f17e755]: /
+          - generic [ref=f17e756]: "143"
+          - generic [ref=f17e757]: Da fase à cidade inteira
+        - generic [ref=f17e758]:
+          - button "Repor câmera" [ref=f17e759] [cursor=pointer]
+          - generic [ref=f17e762]: Arraste para inspecionar
+      - generic [ref=f17e763]:
+        - generic [ref=f17e764]:
+          - generic "Composição tridimensional original da cena" [ref=f17e765]
+          - generic: COMPOSIÇÃO 3D · LEGENDA PROVISÓRIA
+          - generic: No começo, a escolha era desviar pequenas figuras de uma fase.
+        - generic "Controles de movimento" [ref=f17e766]:
+          - button "Reproduzir movimento" [ref=f17e767] [cursor=pointer]
+          - generic [ref=f17e770]: 00:05
+          - slider "Posição do movimento da cena" [ref=f17e771] [cursor=pointer]: "5.35"
+          - generic [ref=f17e772]: 00:08
+          - generic [ref=f17e773]: MOVIMENTO
+      - generic [ref=f17e774]:
+        - generic [ref=f17e775]:
+          - text: TAKE
+          - generic [ref=f17e777]: "140"
+        - generic [ref=f17e778]: TAKE 140 · P29
+        - generic [ref=f17e779]: MOTION DE ESTUDO · NÃO É RENDER FINAL
+    - complementary "Direção da cena selecionada" [ref=f17e780]:
+      - generic [ref=f17e781]:
+        - paragraph [ref=f17e782]:
+          - generic [ref=f17e783]: TAKE 140 · P29
+          - text: TOMADA
+          - generic [ref=f17e785]: "140"
+        - heading "Câmera retorna a poucos marcadores e mostra…" [level=2] [ref=f17e13949]
+        - paragraph [ref=f17e787]: Como a escolha de percurso cresce de uma fase até uma cidade inteira?
+        - generic [ref=f17e788]:
+          - generic [ref=f17e789]:
+            - generic [ref=f17e790]: "01"
+            - heading "Alvo visual" [level=3] [ref=f17e791]
+          - paragraph [ref=f17e792]: câmera retorna a poucos marcadores e mostra escolha de desviar numa fase
+        - generic [ref=f17e793]:
+          - generic [ref=f17e794]:
+            - generic [ref=f17e795]: "02"
+            - heading "Composição" [level=3] [ref=f17e796]
+          - paragraph [ref=f17e797]: "Antes: cidade domina o quadro. Evento: A transição visual sai de “cidade domina o quadro” e revela “câmera retorna a poucos marcadores e mostra escolha de desviar numa fase”. Resultado: câmera retorna a poucos marcadores e mostra escolha de desviar numa fase."
+        - generic [ref=f17e798]:
+          - generic [ref=f17e799]:
+            - generic [ref=f17e800]: "03"
+            - heading "Beat e contexto" [level=3] [ref=f17e801]
+          - paragraph [ref=f17e802]: P29 · Escolha de percurso cresce de uma fase à cidade
+        - generic [ref=f17e803]:
+          - generic [ref=f17e804]:
+            - generic [ref=f17e805]: "04"
+            - heading "Motion e pausa" [level=3] [ref=f17e806]
+          - paragraph [ref=f17e807]: Acompanha a ação, ultrapassa o objeto e segura o destino. Preparar “cidade domina o quadro”, revelar “câmera retorna a poucos marcadores e mostra escolha de desviar numa fase” e sustentar o estado final antes do corte.
+          - generic [ref=f17e808]:
+            - generic [ref=f17e809]: Ⅱ
+            - paragraph [ref=f17e810]: "Sustentar o estado final da frase: câmera retorna a poucos marcadores e mostra escolha de desviar numa fase. A permanência será ajustada ao áudio depois da escolha da voz."
+        - group [ref=f17e811]:
+          - generic "Legenda da frase (texto aprovado; timing depende da voz) −" [ref=f17e812] [cursor=pointer]
+          - blockquote [ref=f17e813]: “No começo, a escolha era desviar pequenas figuras de uma fase.”
+        - generic [ref=f17e814]:
+          - generic [aria-hidden] [ref=f17e815]: ◈
+          - generic [ref=f17e816]:
+            - strong [ref=f17e817]: RECURSOS EM ANÁLISE
+            - paragraph [ref=f17e818]: rota abstrata de figuras · transição de escala
+      - generic [ref=f17e825]:
+        - generic [aria-hidden] [ref=f17e826]: ↗
+        - paragraph [ref=f17e827]: Plano expandido em produção. As janelas de 8 s não definem a duração da edição; legenda palavra a palavra, SRT e permanência de capítulos serão alinhados após a escolha da voz. Lista e assets continuam pendentes de revisão.
+        - link "Revisar lista de recursos" [ref=f17e828] [cursor=pointer]:
+          - /url: /studio/index.html?project=historia-rockstar

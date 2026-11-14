@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "status": "not-verified",
+  "checkedAt": "2026-11-09T14:00:16Z",
+  "scope": "revisão textual da direção, beats, inventário de recursos e plano técnico antes da construção/render; não é revisão profissional de vídeo",
+  "artifact": null,
+  "checks": {
+    "referenceSampling10Fps": {"status": "pass", "method": "inspeção das 15 folhas de contato que cobrem 294 quadros a 10 fps; tempos tratados como aproximações", "evidence": "research/references/crochet-mini-kitchen/contact-sheets/"},
+    "beatOrderAndPayoff": {"status": "pass", "method": "louça → fogão → migalhas → geladeira → despensa → retoques → plano geral; ordem da referência preservada", "evidence": "revisions/v02/beats.json"},
+    "shotActionsAndStates": {"status": "pass", "method": "cada beat registra evento, estado antes/depois, câmera, fases de ação e intenção sonora", "evidence": "revisions/v02/beats.json"},
+    "resourceBacklogBeforeBuild": {"status": "pass", "method": "cena, material, mãos, objetos, animação, efeitos, câmera, luz, corte, som e ausência de overlay inventariados antes da construção", "evidence": "revisions/v02/asset-plan.json; revisions/v02/backlog.json"},
+    "studioResourcePlanScreen": {"status": "pass", "method": "API identifica a lista v2 como atual e não aprovada; a tela direta mostra 10 recursos e o botão de validação, sem acioná-lo", "evidence": "http://127.0.0.1:4173/studio/index.html?project=crochet-limpeza-cozinha-wan2gp"},
+    "wan2gpControlMethod": {"status": "pass", "method": "a configuração GUV e o denoise 0.1 constam num teste de outra cena; a eficácia em crochê permanece não verificada", "evidence": "kit/docs/wan2gp.md; kit/projects/arco-alvenaria-wan2gp/generation/hook-lowdenoise.json"},
+    "crochetTexture": {"status": "not-verified", "method": "a textura está especificada na guia planejada, mas a guia não foi construída e nenhum quadro da revisão 02 foi renderizado", "evidence": null},
+    "continuityAndActionMotion": {"status": "not-verified", "method": "sem guia nem clip de teste; não é possível inspecionar preparação, contato, reação, resultado ou cortes no navegador", "evidence": null},
+    "audioAndMix": {"status": "not-verified", "method": "áudio original proposto em cues; referência não foi ouvida, mix não criado e nenhum sincronismo foi inspecionado", "evidence": "revisions/v02/sound-design.json"},
+    "gpuAndRenderBoundary": {"status": "pass", "method": "esta revisão não chamou doctor/CUDA, não renderizou guia e não gerou vídeo", "evidence": "revisions/v02/generation-plan.json"},
+    "professionalVideoReview": {"status": "not-verified", "method": "não existe artefato renderizado da revisão 02 para revisão profissional", "evidence": null}
+  },
+  "findings": [
+    {
+      "id": "v2-crochet-fidelity-untested",
+      "severity": "P1",
+      "domain": "art-lighting/material",
+      "observation": "A textura de crochê permanece uma especificação; não há guia nem quadro para confirmar cobertura, escala de laçada ou estabilidade temporal.",
+      "consequence": "A meta central de textura ainda não foi demonstrada.",
+      "correction": "Construir a guia com laçadas explícitas e avaliar um único teste GUV a 432x768.",
+      "acceptance": "todas as superfícies sólidas designadas como têxteis leem como crochê em todos os quadros amostrados, inclusive na escala de celular; nenhuma superfície muda de material"
+    },
+    {
+      "id": "v2-action-continuity-untested",
+      "severity": "P1",
+      "domain": "animation/storyboard",
+      "observation": "O método GUV ainda não foi testado em mãos, espuma, enxágue ou colocação no escorredor desta cena.",
+      "consequence": "Não há evidência de que a IA mantenha os contatos e a ação do guia.",
+      "correction": "Inspecionar apenas o beat 01 em movimento, comparando cada frame do teste ao guia antes de expandir.",
+      "acceptance": "a esponja permanece em contato; sabão, esfregada, enxágue e pouso aparecem na ordem planejada; nenhum objeto flutua, some ou muda de forma"
+    },
+    {
+      "id": "v2-full-motion-audio-untested",
+      "severity": "P1",
+      "domain": "camera-editing/sound/delivery",
+      "observation": "Nenhum clip, montagem ou mix foi produzido nesta revisão.",
+      "consequence": "Ritmo, cortes, som, sincronia e reprodução final não têm parecer profissional.",
+      "correction": "Manter os status como not-verified até existir o artefato exato; revisar o gancho antes de ampliar e o filme completo depois.",
+      "acceptance": "inspeção no navegador de todos os beats e cortes, escuta de música/foley e decodificação do arquivo final sem P0/P1"
+    }
+  ],
+  "releaseDecision": "não liberar como prévia visual nem como vídeo; compartilhar apenas esta modelagem textual para validação do criador",
+  "nextGate": "validar plano e backlog; construir a guia; só depois, com limite de render autorizado e GPU livre, testar um clip"
+}
+

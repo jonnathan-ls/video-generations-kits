@@ -1,0 +1,19 @@
+{
+  "id": "instabilidade_apoio_arco",
+  "label": "Abertura das juntas por movimento do apoio",
+  "kind": "animation",
+  "category": "animacoes",
+  "module": "arco-instabilidade-apoio.js",
+  "description": "Um encontro se desloca para fora e as cunhas próximas ao arranque acompanham parte do movimento, deixando juntas abertas. Esquema causal sem solver físico nem colapso obrigatório.",
+  "aliases": [
+    "movimento do apoio",
+    "instabilidade do arco",
+    "abertura de juntas no arranque"
+  ],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:support-instability",
+    "projectId": "arco-alvenaria"
+  },
+  "variants": [],
+  "baselineIds": []
+}

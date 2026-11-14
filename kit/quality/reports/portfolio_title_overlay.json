@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "ca045218c3bdf10a8f37e2ff36193c4cc414b14b3a294ca6bc3eccf4b836b17d",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "catalog-grid",
+      "meshes": 18,
+      "triangles": 7740,
+      "dimensions": [
+        12,
+        1.7325000005960467,
+        10
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "catalog-grid: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-09T11:57:14.733Z"
+}

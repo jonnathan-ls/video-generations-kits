@@ -1,0 +1,20 @@
+{
+  "id": "transatlantico_titanic",
+  "label": "Titanic — exterior reconhecível",
+  "kind": "object",
+  "category": "historico_maritimo",
+  "description": "Reconstrução ilustrativa do exterior de 1912, quatro chaminés e proporções verificadas antes da modelagem. Convés utilizável no embarque; não substituir por navio genérico ou apresentar como modelo arqueológico exato. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "historical-liners.js",
+  "aliases": [
+    "Titanic",
+    "Titanic — exterior reconhecível"
+  ],
+  "variants": [
+    "titanic"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:transatlantico-titanic"
+  },
+  "baselineIds": []
+}

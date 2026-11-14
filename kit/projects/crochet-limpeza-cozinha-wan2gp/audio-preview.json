@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "crochet-limpeza-cozinha-wan2gp-audio-preview",
+  "duration": 29.375,
+  "audio": {
+    "voice": null,
+    "referenceAudioUse": "none",
+    "events": [
+      {"assetId": "som_movimento", "time": 0.72, "duration": 0.8, "volume": 0.2, "note": "passada da esponja; a saída não mostra enxágue ou espuma"},
+      {"assetId": "som_impacto", "time": 6.32, "duration": 0.18, "volume": 0.16, "note": "caneca pousada"},
+      {"assetId": "som_movimento", "time": 8.05, "duration": 0.9, "volume": 0.18, "note": "passada sobre o círculo do cooktop"},
+      {"assetId": "som_movimento", "time": 11.35, "duration": 0.9, "volume": 0.18, "note": "vassourinha percorre o tapete de crochê"},
+      {"assetId": "som_impacto", "time": 13.52, "duration": 0.18, "volume": 0.14, "note": "pouso macio após a varrida"},
+      {"assetId": "som_impacto", "time": 17.62, "duration": 0.16, "volume": 0.14, "note": "recipiente pousado na organização da geladeira"},
+      {"assetId": "som_impacto", "time": 18.34, "duration": 0.16, "volume": 0.14, "note": "segundo recipiente pousado"},
+      {"assetId": "som_impacto", "time": 20.32, "duration": 0.16, "volume": 0.14, "note": "pote alinhado no armário"},
+      {"assetId": "som_impacto", "time": 21.02, "duration": 0.16, "volume": 0.14, "note": "segundo pote alinhado"},
+      {"assetId": "som_movimento", "time": 22.58, "duration": 0.55, "volume": 0.15, "note": "movimento do pano de crochê"},
+      {"assetId": "som_movimento", "time": 24.05, "duration": 0.75, "volume": 0.16, "note": "pano atravessa a pia e a bancada"},
+      {"assetId": "som_impacto", "time": 26.03, "duration": 0.18, "volume": 0.15, "note": "panelinha pousada no queimador"},
+      {"assetId": "som_movimento", "time": 27.05, "duration": 0.45, "volume": 0.14, "note": "toalha passa pelo puxador"}
+    ],
+    "moods": [[0, "playful"], [19.89, "warm"], [27.97, "triumph"]],
+    "music": {"off": false, "preset": "playful", "key": "C", "bpm": 96, "seed": 684201},
+    "mix": {"voice": 1.0, "sfx": 0.62, "music": 0.26, "duck": 0.0},
+    "notes": [
+      "Prévia de áudio independente, sem áudio extraído do Reel e sem narração.",
+      "Somente eventos que encontram uma ação visível nos clips gerados foram mapeados; água e bolhas foram removidas porque não aparecem na saída.",
+      "Os efeitos utilizam os Foley locais do catálogo e a trilha sintetizada do kit. Escuta humana e aprovação dos dois recursos continuam pendentes.",
+      "Os contatos serão recalibrados se os clips ou cortes mudarem."
+    ]
+  }
+}

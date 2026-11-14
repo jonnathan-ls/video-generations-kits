@@ -1,0 +1,42 @@
+[     277ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead. @ http://127.0.0.1:4173/vendor/three/build/three.core.js:2014
+[     459ms] [WARNING] WebGL: INVALID_VALUE: texImage2D: width or height out of range @ http://127.0.0.1:4173/vendor/three/build/three.module.js:10543
+[     462ms] [WARNING] WebGL: INVALID_VALUE: texImage2D: width or height out of range @ http://127.0.0.1:4173/vendor/three/build/three.module.js:10543
+[     463ms] [WARNING] WebGL: INVALID_VALUE: texImage2D: width or height out of range @ http://127.0.0.1:4173/vendor/three/build/three.module.js:10543
+[     463ms] [WARNING] WebGL: INVALID_VALUE: texImage2D: width or height out of range @ http://127.0.0.1:4173/vendor/three/build/three.module.js:10543
+[     463ms] [WARNING] WebGL: INVALID_VALUE: texImage2D: width or height out of range @ http://127.0.0.1:4173/vendor/three/build/three.module.js:10543
+[     463ms] [WARNING] WebGL: INVALID_VALUE: texImage2D: width or height out of range @ http://127.0.0.1:4173/vendor/three/build/three.module.js:10543
+[     463ms] [WARNING] WebGL: INVALID_VALUE: texImage2D: width or height out of range @ http://127.0.0.1:4173/vendor/three/build/three.module.js:10543
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_VALUE: glRenderbufferStorage: Desired resource size is greater than max renderbuffer size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glClear: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glClear: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawElements: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawElements: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawElements: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawElements: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawElements: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawElements: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawElements: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glClear: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glClear: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glClear: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glClear: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glClear: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glClear: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_VALUE: glRenderbufferStorage: Desired resource size is greater than max renderbuffer size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glClear: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000] GL_INVALID_FRAMEBUFFER_OPERATION: glDrawArrays: Framebuffer is incomplete: Attachment has zero size. @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0
+[    1868ms] [WARNING] [.WebGL-0x158c00c0a000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ http://127.0.0.1:4173/preview/historia-rockstar/index.html:0

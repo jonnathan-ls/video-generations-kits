@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "c0aa557196524a20bbe9c3e376801a394c3e726b3591f405090e2f1df546ca99",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "roof-stack-corte",
+      "meshes": 125,
+      "triangles": 42052,
+      "dimensions": [
+        5.491368510354528,
+        1.6499999976158142,
+        4.475000001192093
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.513Z"
+}

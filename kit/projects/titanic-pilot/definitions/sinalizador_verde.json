@@ -1,0 +1,20 @@
+{
+  "id": "sinalizador_verde",
+  "label": "Sinalizador verde distante",
+  "kind": "effect",
+  "category": "historico_maritimo",
+  "description": "Sinal de socorro luminoso visível no escuro e breve dissipação; sem pisca de navegação. Aparece na direção observada pelo Carpathia. Não revelar o bote emissor na abertura. Entrada, espera de leitura e saída limitadas; não cobrir legenda ou lavar a imagem. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "green-distress-flare.js",
+  "aliases": [
+    "luz verde",
+    "Sinalizador verde distante"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:sinal-verde"
+  },
+  "baselineIds": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "contexto_arco_jardim",
+  "kind": "scene",
+  "label": "Arco em jardim habitado com elementos em movimento",
+  "category": "cenas de construção",
+  "module": "contexto-arco-jardim.js",
+  "description": "Parede de alvenaria e arco em primeiro plano, com casa, jardim, estátua visível junto ao muro, colinas, prédios distantes e sol. Um pequeno bando de pássaros segue uma trajetória curta e distinta da passagem única do avião em céu mais alto. Elementos animados usam tempo absoluto, são legíveis e não disputam o mecanismo. Inclui variação procedural sutil na superfície da parede.",
+  "aliases": [
+    "cena do arco no jardim",
+    "arco com casa ao fundo",
+    "ambiente de obra com jardim",
+    "parede com arco em contexto externo",
+    "arco em jardim com pássaros e prédios ao fundo"
+  ],
+  "variants": [],
+  "baselineIds": [
+    "contexto_obra_arco",
+    "casa_simples"
+  ],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:e2-garden-scene",
+    "projectId": "arco-alvenaria"
+  }
+}

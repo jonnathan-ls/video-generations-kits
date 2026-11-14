@@ -1,0 +1,20 @@
+{
+  "id": "ponte_observacao_maritima",
+  "label": "Ponte de observação marítima",
+  "kind": "scene",
+  "category": "historico_maritimo",
+  "description": "Trecho de ponte com piso, parapeito e referência de navio; ponto de vista humano de 1912, mar ao fundo; não atribuir reconstrução exata ao espaço.",
+  "module": "maritime-observation-bridge.js",
+  "aliases": [
+    "capitão",
+    "Ponte de observação marítima"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:ponte-maritima"
+  },
+  "baselineIds": []
+}

@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "titanic-bloco-01-asset-review",
+  "title": "Titanic — inspeção interna de materiais e ambientes",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 24,
+  "assetPlan": {
+    "reviewed": false,
+    "unresolved": [
+      "Revisão visual em cena"
+    ]
+  },
+  "audio": {
+    "events": []
+  },
+  "scenes": [
+    {
+      "id": "room-0",
+      "start": 0,
+      "duration": 4,
+      "assets": [
+        {
+          "id": "salao_bordo_1912",
+          "variant": "padrao",
+          "revision": "40597a61eb3c8fa8"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "810c4ea1197c0344"
+        }
+      ],
+      "camera": {
+        "from": [
+          3.7,
+          1.85,
+          3.6
+        ],
+        "to": [
+          3.7,
+          1.85,
+          3.6
+        ],
+        "target": [
+          0,
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "room-1",
+      "start": 4,
+      "duration": 4,
+      "assets": [
+        {
+          "id": "alojamento_bordo_1912",
+          "variant": "padrao",
+          "revision": "8b515dff2d18ddeb"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "810c4ea1197c0344"
+        }
+      ],
+      "camera": {
+        "from": [
+          1.7,
+          1.7,
+          3
+        ],
+        "to": [
+          1.7,
+          1.7,
+          3
+        ],
+        "target": [
+          0,
+          1.1,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "room-2",
+      "start": 8,
+      "duration": 4,
+      "assets": [
+        {
+          "id": "radio_bordo_1912",
+          "variant": "padrao",
+          "revision": "a1469fcb57c2408f"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "810c4ea1197c0344"
+        }
+      ],
+      "camera": {
+        "from": [
+          1.7,
+          1.7,
+          1.6
+        ],
+        "to": [
+          1.7,
+          1.7,
+          1.6
+        ],
+        "target": [
+          0,
+          1,
+          -1.4
+        ]
+      }
+    },
+    {
+      "id": "room-3",
+      "start": 12,
+      "duration": 4,
+      "assets": [
+        {
+          "id": "corredor_bordo_1912",
+          "variant": "padrao",
+          "revision": "1b79c7c9eee204aa"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "810c4ea1197c0344"
+        }
+      ],
+      "camera": {
+        "from": [
+          0.8,
+          1.7,
+          4
+        ],
+        "to": [
+          0.8,
+          1.7,
+          4
+        ],
+        "target": [
+          0,
+          1,
+          -4
+        ]
+      }
+    },
+    {
+      "id": "room-4",
+      "start": 16,
+      "duration": 4,
+      "assets": [
+        {
+          "id": "maquinas_bordo_1912",
+          "variant": "padrao",
+          "revision": "db6f95710be7bc1e"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "810c4ea1197c0344"
+        }
+      ],
+      "camera": {
+        "from": [
+          3.8,
+          2.1,
+          4
+        ],
+        "to": [
+          3.8,
+          2.1,
+          4
+        ],
+        "target": [
+          0,
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "room-5",
+      "start": 20,
+      "duration": 4,
+      "assets": [
+        {
+          "id": "cozinha_bordo_1912",
+          "variant": "padrao",
+          "revision": "39838747bfcb2d6a"
+        },
+        {
+          "id": "luz_interiores_bordo",
+          "variant": "padrao",
+          "revision": "810c4ea1197c0344"
+        }
+      ],
+      "camera": {
+        "from": [
+          3,
+          1.75,
+          3.4
+        ],
+        "to": [
+          3,
+          1.75,
+          3.4
+        ],
+        "target": [
+          0,
+          1,
+          -1
+        ]
+      }
+    }
+  ],
+  "renderLook": "cinematic-pbr"
+}

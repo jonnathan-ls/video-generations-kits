@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "bff248322328310a3b6b23ba2d53cbb8990a981b23c263e59f0ec54bccfbf9b5",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "titanic-second-class-deck-1912",
+      "meshes": 4,
+      "triangles": 594,
+      "dimensions": [
+        5.78000020980835,
+        4.400000095367432,
+        0.16099999999999998
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "titanic-second-class-deck-1912: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T05:28:43.552Z"
+}

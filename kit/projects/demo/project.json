@@ -1,0 +1,91 @@
+{
+  "title": "Demonstração de composição por assets",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 12,
+  "assetPlan": {
+    "reviewed": true,
+    "unresolved": []
+  },
+  "scenes": [
+    {
+      "id": "agua",
+      "start": 0,
+      "duration": 6,
+      "explanation": "Água percorre uma tubulação embutida.",
+      "action": "Partículas seguem o tubo enquanto o enquadramento aproxima.",
+      "assets": [
+        {
+          "id": "parede_hidraulica",
+          "revision": "316a4d16d19f0db8",
+          "variant": "fria",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          5,
+          3.6,
+          8
+        ],
+        "to": [
+          4.6,
+          3.3,
+          7.6
+        ],
+        "target": [
+          0,
+          1.4,
+          0
+        ]
+      }
+    },
+    {
+      "id": "piso",
+      "start": 6,
+      "duration": 6,
+      "explanation": "Um piso é formado por uma composição de camadas.",
+      "action": "As camadas se separam mantendo dimensões e orientação.",
+      "assets": [
+        {
+          "id": "piso_camadas",
+          "revision": "316a4d16d19f0db8",
+          "variant": "ceramica"
+        }
+      ],
+      "camera": {
+        "from": [
+          6,
+          4.5,
+          8
+        ],
+        "to": [
+          5.7,
+          4.3,
+          7.7
+        ],
+        "target": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ],
+  "audio": {
+    "events": [
+      {
+        "assetId": "som_movimento",
+        "revision": "316a4d16d19f0db8",
+        "time": 6,
+        "duration": 0.6,
+        "volume": 0.3
+      }
+    ]
+  }
+}

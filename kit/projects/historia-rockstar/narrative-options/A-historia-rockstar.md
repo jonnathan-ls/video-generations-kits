@@ -1,0 +1,81 @@
+# História da Rockstar Games — Opção A
+
+**Fio condutor:** David Jones e a equipe da DMA Design, de Dundee à formação da Rockstar North.
+
+**Espinha da narrativa:** Timex e Amiga → começo da DMA → Lemmings → Race-n-Chase e GTA → mudanças de propriedade → GTA III e expansão da série → GTA V e Online → GTA VI, vazamento, calendário e debate sobre condições de produção.
+
+**Narração integral — versão aprovada no chat em 08/11/2026**
+
+**Contagem provisória:** 2.328 palavras; cerca de 20,2–21,2 minutos a 110–115 palavras por minuto. O tempo final depende da leitura e da voz escolhida.
+
+### A aposta do Amiga
+
+Quando David Jones saiu da fábrica da Timex, em Dundee, ele usou o dinheiro da redundância voluntária para comprar um Commodore Amiga importado. Pensava em voltar à universidade, mas o computador também era uma ferramenta de trabalho: nele, Jones faria jogos. Anos depois, um experimento de cidade visto de cima daria origem a Grand Theft Auto. A ligação entre esses dois momentos passa por uma equipe pequena, pelo sucesso inesperado de Lemmings e por uma franquia que mudou de mãos antes de se tornar parte da Rockstar.
+
+O primeiro grande sucesso da equipe não tinha carros nem uma cidade aberta. Tinha pequenas criaturas que caminhavam em direção ao perigo. A ideia que transformou esse jogo numa série capaz de mudar de escala começou com uma animação curta feita por um programador de Dundee.
+
+### Dundee, Jones e a DMA Design
+
+David Jones teve o primeiro contato com programação na escola. Havia um Apple II para todos os alunos, e ele aprendeu um pouco de BASIC naquela máquina compartilhada. Fora da sala, frequentava encontros de um clube de computadores, onde programadores mostravam demos e experimentos. Em Dundee, havia editoras, mas poucos estúdios estabelecidos nos quais um programador iniciante pudesse trabalhar. Jones começou a fazer seus próprios projetos enquanto estudava.
+
+Antes do Amiga, ele já havia conseguido um emprego na Timex. Como aprendiz de engenharia de hardware, trabalhou com unidades de fita, microdrives e computadores Sinclair. Antes de entrar na fábrica, havia construído um ZX81 a partir de um kit, economizando vinte libras. A fábrica passava por dificuldades e oferecia pacotes de redundância. Jones escolheu sair, pensando em voltar à universidade para estudar engenharia de software. O Amiga era importado dos Estados Unidos. Jones contou que queria usá-lo para continuar programando e também para jogar os lançamentos mais novos.
+
+Enquanto ainda era estudante, Jones começou a formar a DMA Design como projeto de tempo parcial; ele situa esse início em 1987. Ainda não havia um estúdio estabelecido na região onde pudesse trabalhar. Seu primeiro jogo, Menace, saiu em 1988. Blood Money veio em 1989. Os dois eram jogos de tiro inspirados nos fliperamas e feitos para o Amiga. Com Menace pela metade, Jones levou uma demonstração a um grande evento de computadores e mostrou o jogo a algumas editoras. Escolheu a Psygnosis, que publicava títulos para Amiga e Atari ST. Como pagamento inicial, recebeu um módulo de memória de dois megabytes.
+
+Menace e Blood Money deram à DMA os primeiros lançamentos e permitiram que Jones passasse a trabalhar com jogos em tempo integral. Ele deixou a universidade antes de concluir o curso, alugou um escritório pequeno e contratou Mike Dailly, o primeiro programador da equipe. O espaço ficava sobre um comércio de fish-and-chips do sogro de Jones. A operação ainda era modesta, mas já reunia pessoas, ferramentas e experiência para desenvolver jogos próprios.
+
+Jones conheceu Dailly em meio à comunidade de programadores de Dundee. A DMA cresceu a partir desse grupo e de colaboradores que trocavam ideias e experimentos. Os primeiros jogos eram feitos por uma equipe enxuta, que também precisava adaptar seus projetos a máquinas diferentes. Naquele momento, não existia um plano para produzir uma franquia de mundo aberto; a próxima ideia surgiria de uma animação experimental.
+
+### Lemmings, Race-n-Chase e o primeiro GTA
+
+Uma animação feita por Mike Dailly no Deluxe Paint abriu o caminho para Lemmings. Na tela, pequenas figuras caminhavam por uma encosta até serem atingidas por uma arma. David Jones viu aquela repetição e pensou em transformar a cena em jogo: e se quem jogava pudesse mudar o percurso das criaturas? A equipe ampliou a ideia para centenas de fases, selecionou as melhores e organizou os desafios em ordem de dificuldade.
+
+Lemmings chegou ao Amiga em fevereiro de 1991 e se tornou um sucesso internacional. Jones estimou vendas combinadas de cerca de 15 milhões de cópias em diferentes plataformas. O jogo passou por mais de vinte formatos, cada qual com limitações e controles próprios. Para a DMA, isso significava preparar versões para computadores e consoles com maneiras diferentes de mostrar a imagem e receber comandos. Portar Lemmings exigiu trabalho técnico em escala, enquanto a equipe também produzia expansões e sequências. A Psygnosis pediu uma continuação pouco depois do lançamento. O primeiro jogo deu à empresa uma propriedade que podia ser ampliada, mas as conversões consumiam tempo que não era dedicado a ideias novas.
+
+Anos depois, Jones disse que a terceira versão foi apressada e seguiu numa direção que ele não considerava adequada para a série. A DMA decidiu parar de desenvolver Lemmings até encontrar uma proposta que pudesse levar o jogo adiante sem perder o que o tornava reconhecível. A saída não foi abandonar o sucesso de imediato: a equipe já tinha produzido continuações e trabalhado com vários formatos. A decisão abriu espaço para um projeto que partia de outra tecnologia e de outra escala.
+
+O projeto seguinte começou com outra experiência técnica. A DMA já tinha um motor capaz de mostrar uma cidade de cima. Quando a câmera acompanhava um carro e se afastava à medida que ele acelerava, o deslocamento dos prédios dava uma sensação de velocidade e altura. Jones imaginou aquela visão aplicada a um jogo de perseguição policial. A proposta levada à BMG se chamava Race-n-Chase.
+
+Durante o desenvolvimento, a equipe percebeu que as interações entre direção, missões, carros e polícia tornavam o jogo difícil de testar. Em lembrança posterior, o ex-diretor criativo Gary Penn disse que a polícia ficou agressiva demais e que isso talvez tivesse começado como um bug. O projeto já previa perseguições; a resposta da polícia abriu novas possibilidades para a equipe ajustar o jogo.
+
+O nome mudou para Grand Theft Auto, e o jogo saiu em 1997. Sua cidade vista de cima combinava missões com espaço para desviar delas. A primeira versão reunia três cidades fictícias: Liberty City, Vice City e San Andreas. Os nomes voltariam em jogos posteriores, cada um com uma representação maior e mais detalhada. Era possível cruzar bairros, roubar carros e criar problemas sem seguir sempre o caminho mais curto. O jogo virou alvo de campanhas de censura, incluindo a do tabloide britânico Daily Mail. Anos depois, David Jones descreveu a campanha de divulgação como inteligente e disse que estava disposto a defender GTA. O jogo também encontrou público e vendeu bem. A equipe havia construído uma combinação de cidade, direção e objetivos que dava ao jogador espaço para improvisar.
+
+Jones estimou que GTA levou cerca de trinta meses para ser desenvolvido, embora o plano inicial previsse dezoito. Cada sistema afetava os outros, e o teste precisava considerar muitas maneiras de cumprir missões ou provocar o caos. O carro podia ser uma ferramenta para chegar ao objetivo, um obstáculo para a polícia ou o ponto de partida para abandonar a missão. A equipe precisava testar tanto o percurso previsto quanto os desvios que o próprio jogo permitia. Esse trabalho ajudou a definir a série: os objetivos davam direção, mas a cidade mantinha outras possibilidades abertas. Para continuar GTA, a DMA teria de preservar essa liberdade enquanto mudava escala, tecnologia e cenário.
+
+### As aquisições, Rockstar e GTA III
+
+Em abril de 1997, meses antes do lançamento de GTA, a Gremlin Interactive comprou a DMA Design. O jogo chegou às lojas naquele mesmo ano, já dentro de um estúdio que passava a ter uma publicadora como proprietária. Dave Jones disse que, na época, via a compra com bons olhos: esperava que a Gremlin fortalecesse a publicação de jogos originais no Reino Unido. A mudança não encerrou o trabalho da equipe. A DMA lançou expansões de GTA, entre elas London 1969, e começou uma sequência.
+
+Outro movimento acontecia com os direitos de publicação. A Rockstar Games foi fundada em 1998, mesmo ano em que a Take-Two adquiriu os ativos da BMG Interactive. A marca editorial e a DMA eram estruturas separadas: uma publicava, a outra desenvolvia. Quando a Infogrames comprou a Gremlin, em 1999, Jones decidiu sair e começar algo novo. Mais tarde naquele ano, a Infogrames vendeu a DMA à Take-Two. O estúdio que fazia GTA e a editora que controlava sua publicação passaram, assim, a fazer parte da mesma estrutura empresarial.
+
+A venda da DMA à Take-Two costuma ser resumida como uma compra por uma libra, valor nominal das ações. O contrato previa também a quitação de um empréstimo de £3.251.703. Já o relatório financeiro da Take-Two registrou cerca de US$ 12,3 milhões em passivos assumidos na aquisição. As cifras vêm de documentos e categorias diferentes e não devem ser somadas como pagamentos separados. A libra, sozinha, não descreve o acordo inteiro.
+
+GTA 2 saiu em 1999 com o nome DMA Design. As expansões London 1969 e London 1961 levaram a série a uma versão fictícia de Londres. Grand Theft Auto III chegou em 2001, levou a série ao PlayStation 2 e apresentou a cidade em três dimensões. Jones já tinha deixado a DMA. Em 2002, o estúdio passou a se chamar Rockstar North.
+
+Na vista superior, o jogador enxergava boa parte da cidade de uma só vez. Em GTA III, ruas e prédios apareciam a partir do nível da calçada. A próxima esquina escondia o que vinha depois; um carro podia ser perseguido ao longo de quarteirões; uma missão levava o jogador a outro ponto do mapa. A exploração passou a depender dos marcos que apareciam pelo caminho e do que o jogador encontrava ao avançar. A mudança alterou a maneira de conhecer a cidade e de descobrir atividades durante o trajeto.
+
+Vice City, em 2002, levou a série a uma cidade fictícia inspirada em Miami e nos anos 1980. San Andreas, em 2004, expandiu o espaço para três cidades — Los Santos, San Fierro e Las Venturas — e áreas rurais entre elas. Cada lançamento alterou o cenário, a música e o tom, enquanto mantinha a mistura de missões e liberdade que havia distinguido o primeiro GTA. O mapa deixou de ser só o lugar entre uma missão e outra: passou a carregar diferenças entre bairros, paisagens e trajetos.
+
+### Outras séries, a EA, GTA V e Online
+
+A Rockstar também publicou jogos de outros estúdios e em outros gêneros. Max Payne, desenvolvido pela Remedy, contou uma história de vingança em forma de jogo de ação e ficou conhecido pelo uso do bullet time. Manhunt e Bully seguiram caminhos próprios, com histórias e espaços diferentes daqueles de GTA. Red Dead Redemption levou a Rockstar a um cenário de faroeste. Esse catálogo ampliou o trabalho da editora e mostrou que seus lançamentos também podiam partir de outros gêneros e períodos, embora GTA continuasse sendo o nome que mais atraía atenção.
+
+Em 2008, a Electronic Arts tentou comprar a Take-Two. A diretoria recusou a oferta e ela expirou sem aquisição; a Take-Two permaneceu independente. No mesmo ano, GTA IV levou a série de volta a Liberty City, agora com uma cidade detalhada em 3D e uma história centrada em Niko Bellic. A escala visual mudou, mas a série continuou a combinar uma história principal com atividades espalhadas pelo espaço urbano. Red Dead Redemption chegou em 2010, e sua sequência, em 2018.
+
+Voltando a 2013, GTA V reuniu três protagonistas numa região fictícia inspirada no sul da Califórnia, com Los Santos, praias, colinas e áreas rurais. O jogador podia alternar entre Michael, Franklin e Trevor, acompanhando partes diferentes da história dentro do mesmo mapa. Essa estrutura permitia mostrar o mesmo território por meio de personagens com rotinas, relações e objetivos diferentes. As missões cruzavam áreas urbanas e rurais, e a troca de protagonista mudava o ponto de partida de várias situações.
+
+GTA Online prolongou o uso daquele espaço depois da campanha. Atualizações acrescentaram atividades e mantiveram o mundo como ponto de encontro para jogadores. O jogo atravessou gerações de consoles e continuou vendendo por muitos anos. Em agosto de 2026, a Take-Two informou que GTA V havia ultrapassado 230 milhões de unidades vendidas ao canal de distribuição. A métrica registra unidades vendidas ao varejo, não pessoas únicas nem jogadores ativos. O total não revela quantas pessoas jogaram, mas mostra como um lançamento de 2013 permaneceu no catálogo comercial da Rockstar durante anos.
+
+### GTA VI, vazamento e pressão pública
+
+Em 2022, uma intrusão levou à divulgação de material interno do desenvolvimento de Grand Theft Auto VI. A Take-Two informou à SEC que arquivos haviam sido acessados e publicados sem autorização. As imagens mostravam trabalho em andamento, não uma apresentação final do jogo. Em dezembro de 2023, a Rockstar publicou o primeiro trailer oficial, que apresentou Leonida e Vice City. O segundo, em maio de 2025, mostrou mais do cenário e ampliou a apresentação de Lucia e Jason.
+
+Em maio de 2025, a Rockstar adiou o lançamento para ter mais tempo de concluir o projeto. Em novembro daquele ano, anunciou outro adiamento e voltou a justificar a necessidade de acabamento. Cada comunicado mudou as expectativas sobre o calendário e prolongou a espera entre apresentações oficiais.
+
+O debate sobre condições de trabalho na Rockstar também tem um histórico anterior a GTA VI. Em 2018, uma declaração de Dan Houser sobre semanas de cem horas durante a produção de Red Dead Redemption 2 gerou reação pública. Houser esclareceu que se referia à equipe sênior de roteiristas por um período de três semanas, não a todos os estúdios da Rockstar. Uma reportagem da Kotaku ouviu dezenas de funcionários atuais e antigos, que descreveram experiências diferentes: alguns relataram períodos longos de trabalho e outros falaram de uma experiência mais positiva. A discussão não permite presumir que todos os funcionários viveram a mesma rotina.
+
+### Fechamento
+
+David Jones comprou um Amiga para seguir programando. Em Dundee, a DMA lançou Menace e Blood Money, transformou uma animação de Mike Dailly em Lemmings e levou a ideia de uma cidade vista de cima até Grand Theft Auto. Jones deixou o estúdio, mas a equipe continuou a série; depois, a Take-Two reuniu a DMA e a marca Rockstar dentro da mesma estrutura.
+
+No começo, a escolha era desviar pequenas figuras de uma fase. Em GTA, passou a ser escolher por onde cruzar uma cidade inteira. A história da DMA até a Rockstar amplia esse gesto em cada mudança de escala. Que tipo de escolha aparece quando o mapa ganha outra dimensão?

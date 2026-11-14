@@ -1,0 +1,1530 @@
+- generic [active] [ref=f38e1]:
+  - banner [ref=f38e2]:
+    - generic [ref=f38e3]:
+      - generic [aria-hidden] [ref=f38e4]: ◩
+      - generic [ref=f38e5]:
+        - strong [ref=f38e6]: Kit de vídeo
+        - text: Biblioteca de produção 3D
+    - navigation "Seções" [ref=f38e7]:
+      - button "Biblioteca" [ref=f38e8] [cursor=pointer]
+      - button "Validar recursos" [ref=f38e9] [cursor=pointer]
+      - button "Narrativas" [ref=f38e10] [cursor=pointer]
+      - link "Produção" [ref=f38e11] [cursor=pointer]:
+        - /url: ./production.html
+    - button "Atualizar" [ref=f38e12] [cursor=pointer]
+  - main [ref=f38e13]:
+    - complementary [ref=f38e14]:
+      - generic [ref=f38e15]:
+        - heading "Recursos" [level=1] [ref=f38e16]
+        - generic [ref=f38e17]: 245 / 245
+      - generic "Origem e aprovação" [ref=f38e18]:
+        - button "Todos 245" [ref=f38e19] [cursor=pointer]:
+          - text: Todos
+          - generic [ref=f38e20]: "245"
+        - button "Aprovados 25" [ref=f38e21] [cursor=pointer]:
+          - text: Aprovados
+          - generic [ref=f38e22]: "25"
+        - button "Catálogo pendente 97" [ref=f38e23] [cursor=pointer]:
+          - text: Catálogo pendente
+          - generic [ref=f38e24]: "97"
+        - button "Novos da narrativa 146" [ref=f38e25] [cursor=pointer]:
+          - text: Novos da narrativa
+          - generic [ref=f38e26]: "146"
+      - generic [ref=f38e27]: Buscar no catálogo
+      - searchbox "Buscar no catálogo" [ref=f38e28]
+      - generic [ref=f38e29]:
+        - generic [ref=f38e30]:
+          - text: Categoria
+          - combobox "Categoria" [ref=f38e31]:
+            - option "Todas as categorias" [selected]
+            - option "Casas"
+            - option "Prédios e pontes"
+            - option "Árvores e plantas"
+            - option "Ruas e terreno"
+            - option "Veículos"
+            - option "Objetos"
+            - option "Construção"
+            - option "Formas"
+            - option "Máquinas e processos"
+            - option "Personagens"
+            - option "Animações"
+            - option "Interiores"
+            - option "Efeitos"
+            - option "Transições"
+            - option "Sons FX"
+            - option "Alvenaria"
+            - option "Estruturas temporárias"
+            - option "cenas de construção"
+            - option "historico_maritimo"
+            - option "cenarios"
+            - option "maritimo-1912"
+            - option "audio-1912"
+            - option "Cenário"
+            - option "evidencia historica"
+            - option "direcao de arte historica"
+            - option "acabamento de interiores historicos"
+            - option "motion_graphics"
+            - option "casa-sertao-calor"
+            - option "animações"
+            - option "cenários"
+            - option "motion graphics"
+            - option "transições"
+            - option "câmera"
+            - option "iluminação"
+            - option "Materiais"
+        - generic [ref=f38e32]:
+          - text: Revisão
+          - combobox "Revisão" [ref=f38e33]:
+            - option "Todos os estados" [selected]
+            - option "A revisar"
+            - option "Aprovação parcial"
+            - option "Aprovados"
+            - option "Melhorar"
+      - generic "Assets disponíveis" [ref=f38e34]:
+        - button "Casa simples Cenário · 1/3 variações aprovadas" [ref=f38e35] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e36]: ⌂
+          - generic [ref=f38e37]:
+            - strong [ref=f38e38]: Casa simples
+            - generic [ref=f38e39]: Cenário · 1/3 variações aprovadas
+        - button "Casa colonial Cenário · 1/2 variações aprovadas" [ref=f38e41] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e42]: ⌂
+          - generic [ref=f38e43]:
+            - strong [ref=f38e44]: Casa colonial
+            - generic [ref=f38e45]: Cenário · 1/2 variações aprovadas
+        - button "Sobrado Cenário · 1/2 variações aprovadas" [ref=f38e47] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e48]: ⌂
+          - generic [ref=f38e49]:
+            - strong [ref=f38e50]: Sobrado
+            - generic [ref=f38e51]: Cenário · 1/2 variações aprovadas
+        - button "Casa moderna Cenário · 1/2 variações aprovadas" [ref=f38e53] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e54]: ⌂
+          - generic [ref=f38e55]:
+            - strong [ref=f38e56]: Casa moderna
+            - generic [ref=f38e57]: Cenário · 1/2 variações aprovadas
+        - button "Prédio de apartamentos Cenário · 1/3 variações aprovadas" [ref=f38e59] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e60]: ⌂
+          - generic [ref=f38e61]:
+            - strong [ref=f38e62]: Prédio de apartamentos
+            - generic [ref=f38e63]: Cenário · 1/3 variações aprovadas
+        - button "Arranha-céu Cenário · A revisar" [ref=f38e65] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e66]: ⌂
+          - generic [ref=f38e67]:
+            - strong [ref=f38e68]: Arranha-céu
+            - generic [ref=f38e69]: Cenário · A revisar
+        - button "Loja Cenário · A revisar" [ref=f38e71] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e72]: ⌂
+          - generic [ref=f38e73]:
+            - strong [ref=f38e74]: Loja
+            - generic [ref=f38e75]: Cenário · A revisar
+        - button "Galpão / fábrica Cenário · A revisar" [ref=f38e77] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e78]: ⌂
+          - generic [ref=f38e79]:
+            - strong [ref=f38e80]: Galpão / fábrica
+            - generic [ref=f38e81]: Cenário · A revisar
+        - button "Ponte de vigas Cenário · 1/2 variações aprovadas" [ref=f38e83] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e84]: ⌂
+          - generic [ref=f38e85]:
+            - strong [ref=f38e86]: Ponte de vigas
+            - generic [ref=f38e87]: Cenário · 1/2 variações aprovadas
+        - button "Árvore de copa redonda Objeto · A revisar" [ref=f38e89] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e90]: ◇
+          - generic [ref=f38e91]:
+            - strong [ref=f38e92]: Árvore de copa redonda
+            - generic [ref=f38e93]: Objeto · A revisar
+        - button "Árvore frutífera Objeto · 1/2 variações aprovadas" [ref=f38e95] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e96]: ◇
+          - generic [ref=f38e97]:
+            - strong [ref=f38e98]: Árvore frutífera
+            - generic [ref=f38e99]: Objeto · 1/2 variações aprovadas
+        - button "Pinheiro Objeto · 1/3 variações aprovadas" [ref=f38e101] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e102]: ◇
+          - generic [ref=f38e103]:
+            - strong [ref=f38e104]: Pinheiro
+            - generic [ref=f38e105]: Objeto · 1/3 variações aprovadas
+        - button "Palmeira Objeto · A revisar" [ref=f38e107] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e108]: ◇
+          - generic [ref=f38e109]:
+            - strong [ref=f38e110]: Palmeira
+            - generic [ref=f38e111]: Objeto · A revisar
+        - button "Arbusto Objeto · A revisar" [ref=f38e113] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e114]: ◇
+          - generic [ref=f38e115]:
+            - strong [ref=f38e116]: Arbusto
+            - generic [ref=f38e117]: Objeto · A revisar
+        - button "Rua reta Cenário · A revisar" [ref=f38e119] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e120]: ⌂
+          - generic [ref=f38e121]:
+            - strong [ref=f38e122]: Rua reta
+            - generic [ref=f38e123]: Cenário · A revisar
+        - button "Cruzamento Cenário · A revisar" [ref=f38e125] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e126]: ⌂
+          - generic [ref=f38e127]:
+            - strong [ref=f38e128]: Cruzamento
+            - generic [ref=f38e129]: Cenário · A revisar
+        - button "Chão (terreno) Cenário · Aprovado" [ref=f38e131] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e132]: ⌂
+          - generic [ref=f38e133]:
+            - strong [ref=f38e134]: Chão (terreno)
+            - generic [ref=f38e135]: Cenário · Aprovado
+        - button "Campo de futebol Cenário · A revisar" [ref=f38e137] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e138]: ⌂
+          - generic [ref=f38e139]:
+            - strong [ref=f38e140]: Campo de futebol
+            - generic [ref=f38e141]: Cenário · A revisar
+        - button "Carro sedã Objeto · A revisar" [ref=f38e143] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e144]: ◇
+          - generic [ref=f38e145]:
+            - strong [ref=f38e146]: Carro sedã
+            - generic [ref=f38e147]: Objeto · A revisar
+        - button "Carro hatch Objeto · A revisar" [ref=f38e149] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e150]: ◇
+          - generic [ref=f38e151]:
+            - strong [ref=f38e152]: Carro hatch
+            - generic [ref=f38e153]: Objeto · A revisar
+        - button "Ônibus Objeto · A revisar" [ref=f38e155] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e156]: ◇
+          - generic [ref=f38e157]:
+            - strong [ref=f38e158]: Ônibus
+            - generic [ref=f38e159]: Objeto · A revisar
+        - button "Caminhão caçamba Objeto · A revisar" [ref=f38e161] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e162]: ◇
+          - generic [ref=f38e163]:
+            - strong [ref=f38e164]: Caminhão caçamba
+            - generic [ref=f38e165]: Objeto · A revisar
+        - button "Caminhão betoneira Objeto · A revisar" [ref=f38e167] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e168]: ◇
+          - generic [ref=f38e169]:
+            - strong [ref=f38e170]: Caminhão betoneira
+            - generic [ref=f38e171]: Objeto · A revisar
+        - button "Rolo compressor Objeto · A revisar" [ref=f38e173] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e174]: ◇
+          - generic [ref=f38e175]:
+            - strong [ref=f38e176]: Rolo compressor
+            - generic [ref=f38e177]: Objeto · A revisar
+        - button "Vibroacabadora Objeto · A revisar" [ref=f38e179] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e180]: ◇
+          - generic [ref=f38e181]:
+            - strong [ref=f38e182]: Vibroacabadora
+            - generic [ref=f38e183]: Objeto · A revisar
+        - button "Caminhão espargidor Objeto · 1/2 variações aprovadas" [ref=f38e185] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e186]: ◇
+          - generic [ref=f38e187]:
+            - strong [ref=f38e188]: Caminhão espargidor
+            - generic [ref=f38e189]: Objeto · 1/2 variações aprovadas
+        - button "Cone de trânsito Objeto · A revisar" [ref=f38e191] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e192]: ◇
+          - generic [ref=f38e193]:
+            - strong [ref=f38e194]: Cone de trânsito
+            - generic [ref=f38e195]: Objeto · A revisar
+        - button "Barreira de obra Objeto · A revisar" [ref=f38e197] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e198]: ◇
+          - generic [ref=f38e199]:
+            - strong [ref=f38e200]: Barreira de obra
+            - generic [ref=f38e201]: Objeto · A revisar
+        - button "Pilha de tijolos Objeto · A revisar" [ref=f38e203] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e204]: ◇
+          - generic [ref=f38e205]:
+            - strong [ref=f38e206]: Pilha de tijolos
+            - generic [ref=f38e207]: Objeto · A revisar
+        - button "Sacos de cimento Objeto · A revisar" [ref=f38e209] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e210]: ◇
+          - generic [ref=f38e211]:
+            - strong [ref=f38e212]: Sacos de cimento
+            - generic [ref=f38e213]: Objeto · A revisar
+        - button "Carrinho de mão Objeto · A revisar" [ref=f38e215] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e216]: ◇
+          - generic [ref=f38e217]:
+            - strong [ref=f38e218]: Carrinho de mão
+            - generic [ref=f38e219]: Objeto · A revisar
+        - button "Escada de mão Objeto · A revisar" [ref=f38e221] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e222]: ◇
+          - generic [ref=f38e223]:
+            - strong [ref=f38e224]: Escada de mão
+            - generic [ref=f38e225]: Objeto · A revisar
+        - button "Poste de luz Objeto · A revisar" [ref=f38e227] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e228]: ◇
+          - generic [ref=f38e229]:
+            - strong [ref=f38e230]: Poste de luz
+            - generic [ref=f38e231]: Objeto · A revisar
+        - button "Semáforo Objeto · A revisar" [ref=f38e233] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e234]: ◇
+          - generic [ref=f38e235]:
+            - strong [ref=f38e236]: Semáforo
+            - generic [ref=f38e237]: Objeto · A revisar
+        - button "Placa PARE Objeto · A revisar" [ref=f38e239] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e240]: ◇
+          - generic [ref=f38e241]:
+            - strong [ref=f38e242]: Placa PARE
+            - generic [ref=f38e243]: Objeto · A revisar
+        - button "Banco de praça Objeto · A revisar" [ref=f38e245] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e246]: ◇
+          - generic [ref=f38e247]:
+            - strong [ref=f38e248]: Banco de praça
+            - generic [ref=f38e249]: Objeto · A revisar
+        - button "Cerca de madeira Objeto · A revisar" [ref=f38e251] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e252]: ◇
+          - generic [ref=f38e253]:
+            - strong [ref=f38e254]: Cerca de madeira
+            - generic [ref=f38e255]: Objeto · A revisar
+        - button "Muro Objeto · A revisar" [ref=f38e257] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e258]: ◇
+          - generic [ref=f38e259]:
+            - strong [ref=f38e260]: Muro
+            - generic [ref=f38e261]: Objeto · A revisar
+        - button "Hidrante Objeto · A revisar" [ref=f38e263] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e264]: ◇
+          - generic [ref=f38e265]:
+            - strong [ref=f38e266]: Hidrante
+            - generic [ref=f38e267]: Objeto · A revisar
+        - button "Lixeira Objeto · A revisar" [ref=f38e269] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e270]: ◇
+          - generic [ref=f38e271]:
+            - strong [ref=f38e272]: Lixeira
+            - generic [ref=f38e273]: Objeto · A revisar
+        - button "Caixote de madeira Objeto · A revisar" [ref=f38e275] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e276]: ◇
+          - generic [ref=f38e277]:
+            - strong [ref=f38e278]: Caixote de madeira
+            - generic [ref=f38e279]: Objeto · A revisar
+        - button "Bueiro (boca de lobo) Objeto · A revisar" [ref=f38e281] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e282]: ◇
+          - generic [ref=f38e283]:
+            - strong [ref=f38e284]: Bueiro (boca de lobo)
+            - generic [ref=f38e285]: Objeto · A revisar
+        - button "Casa em obra Objeto · A revisar" [ref=f38e287] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e288]: ◇
+          - generic [ref=f38e289]:
+            - strong [ref=f38e290]: Casa em obra
+            - generic [ref=f38e291]: Objeto · A revisar
+        - button "Estrutura de prédio Objeto · A revisar" [ref=f38e293] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e294]: ◇
+          - generic [ref=f38e295]:
+            - strong [ref=f38e296]: Estrutura de prédio
+            - generic [ref=f38e297]: Objeto · A revisar
+        - button "Corte da pavimentação Objeto · A revisar" [ref=f38e299] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e300]: ◇
+          - generic [ref=f38e301]:
+            - strong [ref=f38e302]: Corte da pavimentação
+            - generic [ref=f38e303]: Objeto · A revisar
+        - button "Corte do terreno Objeto · A revisar" [ref=f38e305] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e306]: ◇
+          - generic [ref=f38e307]:
+            - strong [ref=f38e308]: Corte do terreno
+            - generic [ref=f38e309]: Objeto · A revisar
+        - button "Guindaste de obra Objeto · A revisar" [ref=f38e311] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e312]: ◇
+          - generic [ref=f38e313]:
+            - strong [ref=f38e314]: Guindaste de obra
+            - generic [ref=f38e315]: Objeto · A revisar
+        - button "Forma livre Objeto · A revisar" [ref=f38e317] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e318]: ◇
+          - generic [ref=f38e319]:
+            - strong [ref=f38e320]: Forma livre
+            - generic [ref=f38e321]: Objeto · A revisar
+        - button "Tubo / cano Objeto · A revisar" [ref=f38e323] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e324]: ◇
+          - generic [ref=f38e325]:
+            - strong [ref=f38e326]: Tubo / cano
+            - generic [ref=f38e327]: Objeto · A revisar
+        - button "Engrenagem Objeto · A revisar" [ref=f38e329] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e330]: ◇
+          - generic [ref=f38e331]:
+            - strong [ref=f38e332]: Engrenagem
+            - generic [ref=f38e333]: Objeto · A revisar
+        - button "Hélice / ventilador Objeto · A revisar" [ref=f38e335] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e336]: ◇
+          - generic [ref=f38e337]:
+            - strong [ref=f38e338]: Hélice / ventilador
+            - generic [ref=f38e339]: Objeto · A revisar
+        - button "Esteira transportadora Objeto · A revisar" [ref=f38e341] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e342]: ◇
+          - generic [ref=f38e343]:
+            - strong [ref=f38e344]: Esteira transportadora
+            - generic [ref=f38e345]: Objeto · A revisar
+        - button "Monte de material Objeto · A revisar" [ref=f38e347] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e348]: ◇
+          - generic [ref=f38e349]:
+            - strong [ref=f38e350]: Monte de material
+            - generic [ref=f38e351]: Objeto · A revisar
+        - button "Tanque / silo transparente Objeto · A revisar" [ref=f38e353] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e354]: ◇
+          - generic [ref=f38e355]:
+            - strong [ref=f38e356]: Tanque / silo transparente
+            - generic [ref=f38e357]: Objeto · A revisar
+        - button "Misturador / tambor Objeto · A revisar" [ref=f38e359] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e360]: ◇
+          - generic [ref=f38e361]:
+            - strong [ref=f38e362]: Misturador / tambor
+            - generic [ref=f38e363]: Objeto · A revisar
+        - button "Escavadeira Objeto · A revisar" [ref=f38e365] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e366]: ◇
+          - generic [ref=f38e367]:
+            - strong [ref=f38e368]: Escavadeira
+            - generic [ref=f38e369]: Objeto · A revisar
+        - button "Fábrica de processamento Objeto · A revisar" [ref=f38e371] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e372]: ◇
+          - generic [ref=f38e373]:
+            - strong [ref=f38e374]: Fábrica de processamento
+            - generic [ref=f38e375]: Objeto · A revisar
+        - button "Construtor Personagem · A revisar" [ref=f38e377] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e378]: ♙
+          - generic [ref=f38e379]:
+            - strong [ref=f38e380]: Construtor
+            - generic [ref=f38e381]: Personagem · A revisar
+        - button "Engenheiro Personagem · A revisar" [ref=f38e383] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e384]: ♙
+          - generic [ref=f38e385]:
+            - strong [ref=f38e386]: Engenheiro
+            - generic [ref=f38e387]: Personagem · A revisar
+        - button "Engenheira Personagem · A revisar" [ref=f38e389] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e390]: ♙
+          - generic [ref=f38e391]:
+            - strong [ref=f38e392]: Engenheira
+            - generic [ref=f38e393]: Personagem · A revisar
+        - button "Servente Personagem · A revisar" [ref=f38e395] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e396]: ♙
+          - generic [ref=f38e397]:
+            - strong [ref=f38e398]: Servente
+            - generic [ref=f38e399]: Personagem · A revisar
+        - button "Homem Personagem · A revisar" [ref=f38e401] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e402]: ♙
+          - generic [ref=f38e403]:
+            - strong [ref=f38e404]: Homem
+            - generic [ref=f38e405]: Personagem · A revisar
+        - button "Mulher Personagem · A revisar" [ref=f38e407] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e408]: ♙
+          - generic [ref=f38e409]:
+            - strong [ref=f38e410]: Mulher
+            - generic [ref=f38e411]: Personagem · A revisar
+        - button "Velhinho Personagem · A revisar" [ref=f38e413] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e414]: ♙
+          - generic [ref=f38e415]:
+            - strong [ref=f38e416]: Velhinho
+            - generic [ref=f38e417]: Personagem · A revisar
+        - button "Velhinha Personagem · A revisar" [ref=f38e419] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e420]: ♙
+          - generic [ref=f38e421]:
+            - strong [ref=f38e422]: Velhinha
+            - generic [ref=f38e423]: Personagem · A revisar
+        - button "Crianca Personagem · A revisar" [ref=f38e425] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e426]: ♙
+          - generic [ref=f38e427]:
+            - strong [ref=f38e428]: Crianca
+            - generic [ref=f38e429]: Personagem · A revisar
+        - button "Menina Personagem · A revisar" [ref=f38e431] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e432]: ♙
+          - generic [ref=f38e433]:
+            - strong [ref=f38e434]: Menina
+            - generic [ref=f38e435]: Personagem · A revisar
+        - button "Motorista Personagem · A revisar" [ref=f38e437] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e438]: ♙
+          - generic [ref=f38e439]:
+            - strong [ref=f38e440]: Motorista
+            - generic [ref=f38e441]: Personagem · A revisar
+        - button "Ação · idle Animação · A revisar" [ref=f38e443] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e444]: ▷
+          - generic [ref=f38e445]:
+            - strong [ref=f38e446]: Ação · idle
+            - generic [ref=f38e447]: Animação · A revisar
+        - button "Ação · walk Animação · A revisar" [ref=f38e449] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e450]: ▷
+          - generic [ref=f38e451]:
+            - strong [ref=f38e452]: Ação · walk
+            - generic [ref=f38e453]: Animação · A revisar
+        - button "Ação · run Animação · A revisar" [ref=f38e455] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e456]: ▷
+          - generic [ref=f38e457]:
+            - strong [ref=f38e458]: Ação · run
+            - generic [ref=f38e459]: Animação · A revisar
+        - button "Ação · wave Animação · A revisar" [ref=f38e461] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e462]: ▷
+          - generic [ref=f38e463]:
+            - strong [ref=f38e464]: Ação · wave
+            - generic [ref=f38e465]: Animação · A revisar
+        - button "Ação · point Animação · A revisar" [ref=f38e467] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e468]: ▷
+          - generic [ref=f38e469]:
+            - strong [ref=f38e470]: Ação · point
+            - generic [ref=f38e471]: Animação · A revisar
+        - button "Ação · talk Animação · A revisar" [ref=f38e473] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e474]: ▷
+          - generic [ref=f38e475]:
+            - strong [ref=f38e476]: Ação · talk
+            - generic [ref=f38e477]: Animação · A revisar
+        - button "Ação · hammer Animação · A revisar" [ref=f38e479] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e480]: ▷
+          - generic [ref=f38e481]:
+            - strong [ref=f38e482]: Ação · hammer
+            - generic [ref=f38e483]: Animação · A revisar
+        - button "Ação · carry Animação · A revisar" [ref=f38e485] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e486]: ▷
+          - generic [ref=f38e487]:
+            - strong [ref=f38e488]: Ação · carry
+            - generic [ref=f38e489]: Animação · A revisar
+        - button "Ação · push Animação · A revisar" [ref=f38e491] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e492]: ▷
+          - generic [ref=f38e493]:
+            - strong [ref=f38e494]: Ação · push
+            - generic [ref=f38e495]: Animação · A revisar
+        - button "Ação · dig Animação · A revisar" [ref=f38e497] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e498]: ▷
+          - generic [ref=f38e499]:
+            - strong [ref=f38e500]: Ação · dig
+            - generic [ref=f38e501]: Animação · A revisar
+        - button "Ação · cheer Animação · A revisar" [ref=f38e503] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e504]: ▷
+          - generic [ref=f38e505]:
+            - strong [ref=f38e506]: Ação · cheer
+            - generic [ref=f38e507]: Animação · A revisar
+        - button "Ação · surprised Animação · A revisar" [ref=f38e509] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e510]: ▷
+          - generic [ref=f38e511]:
+            - strong [ref=f38e512]: Ação · surprised
+            - generic [ref=f38e513]: Animação · A revisar
+        - button "Ação · think Animação · A revisar" [ref=f38e515] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e516]: ▷
+          - generic [ref=f38e517]:
+            - strong [ref=f38e518]: Ação · think
+            - generic [ref=f38e519]: Animação · A revisar
+        - button "Ação · look_around Animação · A revisar" [ref=f38e521] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e522]: ▷
+          - generic [ref=f38e523]:
+            - strong [ref=f38e524]: Ação · look_around
+            - generic [ref=f38e525]: Animação · A revisar
+        - button "Ação · nod Animação · Aprovado" [ref=f38e527] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e528]: ▷
+          - generic [ref=f38e529]:
+            - strong [ref=f38e530]: Ação · nod
+            - generic [ref=f38e531]: Animação · Aprovado
+        - button "Ação · shake_head Animação · A revisar" [ref=f38e533] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e534]: ▷
+          - generic [ref=f38e535]:
+            - strong [ref=f38e536]: Ação · shake_head
+            - generic [ref=f38e537]: Animação · A revisar
+        - button "Ação · shrug Animação · A revisar" [ref=f38e539] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e540]: ▷
+          - generic [ref=f38e541]:
+            - strong [ref=f38e542]: Ação · shrug
+            - generic [ref=f38e543]: Animação · A revisar
+        - button "Ação · crouch Animação · A revisar" [ref=f38e545] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e546]: ▷
+          - generic [ref=f38e547]:
+            - strong [ref=f38e548]: Ação · crouch
+            - generic [ref=f38e549]: Animação · A revisar
+        - button "Ação · sit Animação · A revisar" [ref=f38e551] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e552]: ▷
+          - generic [ref=f38e553]:
+            - strong [ref=f38e554]: Ação · sit
+            - generic [ref=f38e555]: Animação · A revisar
+        - button "Ação · read_clipboard Animação · A revisar" [ref=f38e557] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e558]: ▷
+          - generic [ref=f38e559]:
+            - strong [ref=f38e560]: Ação · read_clipboard
+            - generic [ref=f38e561]: Animação · A revisar
+        - button "Parede com tubulação Objeto · 1/2 variações aprovadas" [pressed] [ref=f38e563] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e564]: ◇
+          - generic [ref=f38e565]:
+            - strong [ref=f38e566]: Parede com tubulação
+            - generic [ref=f38e567]: Objeto · 1/2 variações aprovadas
+        - button "Piso em camadas Objeto · A revisar" [ref=f38e569] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e570]: ◇
+          - generic [ref=f38e571]:
+            - strong [ref=f38e572]: Piso em camadas
+            - generic [ref=f38e573]: Objeto · A revisar
+        - button "Cozinha em corte Cenário · A revisar" [ref=f38e575] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e576]: ⌂
+          - generic [ref=f38e577]:
+            - strong [ref=f38e578]: Cozinha em corte
+            - generic [ref=f38e579]: Cenário · A revisar
+        - button "Revelar por corte Efeito · A revisar" [ref=f38e581] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e582]: ◩
+          - generic [ref=f38e583]:
+            - strong [ref=f38e584]: Revelar por corte
+            - generic [ref=f38e585]: Efeito · A revisar
+        - button "Montagem por camadas Animação · A revisar" [ref=f38e587] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e588]: ▷
+          - generic [ref=f38e589]:
+            - strong [ref=f38e590]: Montagem por camadas
+            - generic [ref=f38e591]: Animação · A revisar
+        - button "Corte de continuidade Transição · A revisar" [ref=f38e593] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e594]: ⇥
+          - generic [ref=f38e595]:
+            - strong [ref=f38e596]: Corte de continuidade
+            - generic [ref=f38e597]: Transição · A revisar
+        - button "Impacto de material Som FX · A revisar" [ref=f38e599] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e600]: ♫
+          - generic [ref=f38e601]:
+            - strong [ref=f38e602]: Impacto de material
+            - generic [ref=f38e603]: Som FX · A revisar
+        - button "Passagem de movimento Som FX · A revisar" [ref=f38e605] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e606]: ♫
+          - generic [ref=f38e607]:
+            - strong [ref=f38e608]: Passagem de movimento
+            - generic [ref=f38e609]: Som FX · A revisar
+        - button "Encaixe metálico Som FX · A revisar" [ref=f38e611] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e612]: ♫
+          - generic [ref=f38e613]:
+            - strong [ref=f38e614]: Encaixe metálico
+            - generic [ref=f38e615]: Som FX · A revisar
+        - button "Contato seco de alvenaria Som FX · A revisar" [ref=f38e617] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e618]: ♫
+          - generic [ref=f38e619]:
+            - strong [ref=f38e620]: Contato seco de alvenaria
+            - generic [ref=f38e621]: Som FX · A revisar
+        - button "Esforço leve da madeira Som FX · A revisar" [ref=f38e623] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e624]: ♫
+          - generic [ref=f38e625]:
+            - strong [ref=f38e626]: Esforço leve da madeira
+            - generic [ref=f38e627]: Som FX · A revisar
+        - button "Teclas e mecanismo de computador Som FX · A revisar Novo · historia-rockstar" [ref=f38e629] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e630]: ♫
+          - generic [ref=f38e631]:
+            - strong [ref=f38e632]: Teclas e mecanismo de computador
+            - generic [ref=f38e633]: Som FX · A revisar
+            - generic [ref=f38e634]: Novo · historia-rockstar
+        - button "Junta de dilatação Objeto · Aprovado Novo · rail-demo" [ref=f38e636] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e637]: ◇
+          - generic [ref=f38e638]:
+            - strong [ref=f38e639]: Junta de dilatação
+            - generic [ref=f38e640]: Objeto · Aprovado
+            - generic [ref=f38e641]: Novo · rail-demo
+        - button "Arco de alvenaria segmentado Objeto · Aprovado Novo · arco-alvenaria" [ref=f38e643] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e644]: ◇
+          - generic [ref=f38e645]:
+            - strong [ref=f38e646]: Arco de alvenaria segmentado
+            - generic [ref=f38e647]: Objeto · Aprovado
+            - generic [ref=f38e648]: Novo · arco-alvenaria
+        - button "Cimbre de madeira para arco Objeto · Aprovado Novo · arco-alvenaria" [ref=f38e650] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e651]: ◇
+          - generic [ref=f38e652]:
+            - strong [ref=f38e653]: Cimbre de madeira para arco
+            - generic [ref=f38e654]: Objeto · Aprovado
+            - generic [ref=f38e655]: Novo · arco-alvenaria
+        - button "Pilares de apoio do arco Objeto · Aprovado Novo · arco-alvenaria" [ref=f38e657] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e658]: ◇
+          - generic [ref=f38e659]:
+            - strong [ref=f38e660]: Pilares de apoio do arco
+            - generic [ref=f38e661]: Objeto · Aprovado
+            - generic [ref=f38e662]: Novo · arco-alvenaria
+        - button "Encaixe da peça de fecho Animação · Aprovado Novo · arco-alvenaria" [ref=f38e664] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e665]: ▷
+          - generic [ref=f38e666]:
+            - strong [ref=f38e667]: Encaixe da peça de fecho
+            - generic [ref=f38e668]: Animação · Aprovado
+            - generic [ref=f38e669]: Novo · arco-alvenaria
+        - button "Cedimento após retirada precoce da cimbra Animação · A revisar Novo · arco-alvenaria" [ref=f38e671] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e672]: ▷
+          - generic [ref=f38e673]:
+            - strong [ref=f38e674]: Cedimento após retirada precoce da cimbra
+            - generic [ref=f38e675]: Animação · A revisar
+            - generic [ref=f38e676]: Novo · arco-alvenaria
+        - button "Descida e retirada do cimbre Animação · Aprovado Novo · arco-alvenaria" [ref=f38e678] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e679]: ▷
+          - generic [ref=f38e680]:
+            - strong [ref=f38e681]: Descida e retirada do cimbre
+            - generic [ref=f38e682]: Animação · Aprovado
+            - generic [ref=f38e683]: Novo · arco-alvenaria
+        - button "Abertura das juntas por movimento do apoio Animação · Aprovado Novo · arco-alvenaria" [ref=f38e685] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e686]: ▷
+          - generic [ref=f38e687]:
+            - strong [ref=f38e688]: Abertura das juntas por movimento do apoio
+            - generic [ref=f38e689]: Animação · Aprovado
+            - generic [ref=f38e690]: Novo · arco-alvenaria
+        - button "Trajeto compressivo da carga no arco Efeito · Aprovado Novo · arco-alvenaria" [ref=f38e692] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e693]: ◩
+          - generic [ref=f38e694]:
+            - strong [ref=f38e695]: Trajeto compressivo da carga no arco
+            - generic [ref=f38e696]: Efeito · Aprovado
+            - generic [ref=f38e697]: Novo · arco-alvenaria
+        - button "Empuxo do arco e reação dos pilares Efeito · Aprovado Novo · arco-alvenaria" [ref=f38e699] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e700]: ◩
+          - generic [ref=f38e701]:
+            - strong [ref=f38e702]: Empuxo do arco e reação dos pilares
+            - generic [ref=f38e703]: Efeito · Aprovado
+            - generic [ref=f38e704]: Novo · arco-alvenaria
+        - button "Contexto de obra com vão em arco Cenário · Aprovado Novo · arco-alvenaria" [ref=f38e706] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e707]: ⌂
+          - generic [ref=f38e708]:
+            - strong [ref=f38e709]: Contexto de obra com vão em arco
+            - generic [ref=f38e710]: Cenário · Aprovado
+            - generic [ref=f38e711]: Novo · arco-alvenaria
+        - button "Argamassa entre as cunhas do arco Objeto · Aprovado Novo · arco-alvenaria" [ref=f38e713] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e714]: ◇
+          - generic [ref=f38e715]:
+            - strong [ref=f38e716]: Argamassa entre as cunhas do arco
+            - generic [ref=f38e717]: Objeto · Aprovado
+            - generic [ref=f38e718]: Novo · arco-alvenaria
+        - button "Arco em jardim habitado com elementos em movimento Cenário · Aprovado Novo · arco-alvenaria" [ref=f38e720] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e721]: ⌂
+          - generic [ref=f38e722]:
+            - strong [ref=f38e723]: Arco em jardim habitado com elementos em movimento
+            - generic [ref=f38e724]: Cenário · Aprovado
+            - generic [ref=f38e725]: Novo · arco-alvenaria
+        - button "Montagem do cimbre sob o arco Animação · Aprovado Novo · arco-alvenaria" [ref=f38e727] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e728]: ▷
+          - generic [ref=f38e729]:
+            - strong [ref=f38e730]: Montagem do cimbre sob o arco
+            - generic [ref=f38e731]: Animação · Aprovado
+            - generic [ref=f38e732]: Novo · arco-alvenaria
+        - button "Bote afasta-se com lugares vazios Animação · A revisar Novo · titanic-pilot" [ref=f38e734] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e735]: ▷
+          - generic [ref=f38e736]:
+            - strong [ref=f38e737]: Bote afasta-se com lugares vazios
+            - generic [ref=f38e738]: Animação · A revisar
+            - generic [ref=f38e739]: Novo · titanic-pilot
+        - button "Ambiência marítima discreta Som FX · A revisar Novo · titanic-pilot" [ref=f38e741] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e742]: ♫
+          - generic [ref=f38e743]:
+            - strong [ref=f38e744]: Ambiência marítima discreta
+            - generic [ref=f38e745]: Som FX · A revisar
+            - generic [ref=f38e746]: Novo · titanic-pilot
+        - button "Aproximação do navio entre gelo Animação · A revisar Novo · titanic-pilot" [ref=f38e748] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e749]: ▷
+          - generic [ref=f38e750]:
+            - strong [ref=f38e751]: Aproximação do navio entre gelo
+            - generic [ref=f38e752]: Animação · A revisar
+            - generic [ref=f38e753]: Novo · titanic-pilot
+        - button "Atlântico noturno Cenário · A revisar Novo · titanic-pilot" [ref=f38e755] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e756]: ⌂
+          - generic [ref=f38e757]:
+            - strong [ref=f38e758]: Atlântico noturno
+            - generic [ref=f38e759]: Cenário · A revisar
+            - generic [ref=f38e760]: Novo · titanic-pilot
+        - button "Atlas histórico em relevo Objeto · A revisar Novo · titanic-pilot" [ref=f38e762] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e763]: ◇
+          - generic [ref=f38e764]:
+            - strong [ref=f38e765]: Atlas histórico em relevo
+            - generic [ref=f38e766]: Objeto · A revisar
+            - generic [ref=f38e767]: Novo · titanic-pilot
+        - button "Bote de salvamento de 1912 Objeto · A revisar Novo · titanic-pilot" [ref=f38e769] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e770]: ◇
+          - generic [ref=f38e771]:
+            - strong [ref=f38e772]: Bote de salvamento de 1912
+            - generic [ref=f38e773]: Objeto · A revisar
+            - generic [ref=f38e774]: Novo · titanic-pilot
+        - button "Gelo marítimo Objeto · A revisar Novo · titanic-pilot" [ref=f38e776] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e777]: ◇
+          - generic [ref=f38e778]:
+            - strong [ref=f38e779]: Gelo marítimo
+            - generic [ref=f38e780]: Objeto · A revisar
+            - generic [ref=f38e781]: Novo · titanic-pilot
+        - button "Identificações e título do episódio Elemento gráfico · A revisar Novo · titanic-pilot" [ref=f38e783] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e784]: ▧
+          - generic [ref=f38e785]:
+            - strong [ref=f38e786]: Identificações e título do episódio
+            - generic [ref=f38e787]: Elemento gráfico · A revisar
+            - generic [ref=f38e788]: Novo · titanic-pilot
+        - button "Noite marítima legível Iluminação · A revisar Novo · titanic-pilot" [ref=f38e790] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e791]: ☼
+          - generic [ref=f38e792]:
+            - strong [ref=f38e793]: Noite marítima legível
+            - generic [ref=f38e794]: Iluminação · A revisar
+            - generic [ref=f38e795]: Novo · titanic-pilot
+        - button "Do atlas para o Atlântico Transição · A revisar Novo · titanic-pilot" [ref=f38e797] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e798]: ⇥
+          - generic [ref=f38e799]:
+            - strong [ref=f38e800]: Do atlas para o Atlântico
+            - generic [ref=f38e801]: Transição · A revisar
+            - generic [ref=f38e802]: Novo · titanic-pilot
+        - button "Carpathia — navio de resgate Objeto · A revisar Novo · titanic-pilot" [ref=f38e804] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e805]: ◇
+          - generic [ref=f38e806]:
+            - strong [ref=f38e807]: Carpathia — navio de resgate
+            - generic [ref=f38e808]: Objeto · A revisar
+            - generic [ref=f38e809]: Novo · titanic-pilot
+        - button "Olhar até o sinal no horizonte Câmera · A revisar Novo · titanic-pilot" [ref=f38e811] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e812]: ⌘
+          - generic [ref=f38e813]:
+            - strong [ref=f38e814]: Olhar até o sinal no horizonte
+            - generic [ref=f38e815]: Câmera · A revisar
+            - generic [ref=f38e816]: Novo · titanic-pilot
+        - button "Partida do Titanic em 1912 Cenário · A revisar Novo · titanic-pilot" [ref=f38e818] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e819]: ⌂
+          - generic [ref=f38e820]:
+            - strong [ref=f38e821]: Partida do Titanic em 1912
+            - generic [ref=f38e822]: Cenário · A revisar
+            - generic [ref=f38e823]: Novo · titanic-pilot
+        - button "Capitão e passageiros de 1912 Personagem · A revisar Novo · titanic-pilot" [ref=f38e825] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e826]: ♙
+          - generic [ref=f38e827]:
+            - strong [ref=f38e828]: Capitão e passageiros de 1912
+            - generic [ref=f38e829]: Personagem · A revisar
+            - generic [ref=f38e830]: Novo · titanic-pilot
+        - button "Luz verde baixa ao longe Efeito · A revisar Novo · titanic-pilot" [ref=f38e832] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e833]: ◩
+          - generic [ref=f38e834]:
+            - strong [ref=f38e835]: Luz verde baixa ao longe
+            - generic [ref=f38e836]: Efeito · A revisar
+            - generic [ref=f38e837]: Novo · titanic-pilot
+        - button "Titanic — exterior reconhecível Objeto · A revisar Novo · titanic-pilot" [ref=f38e839] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e840]: ◇
+          - generic [ref=f38e841]:
+            - strong [ref=f38e842]: Titanic — exterior reconhecível
+            - generic [ref=f38e843]: Objeto · A revisar
+            - generic [ref=f38e844]: Novo · titanic-pilot
+        - button "Ponte de observação marítima Cenário · A revisar Novo · titanic-pilot" [ref=f38e846] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e847]: ⌂
+          - generic [ref=f38e848]:
+            - strong [ref=f38e849]: Ponte de observação marítima
+            - generic [ref=f38e850]: Cenário · A revisar
+            - generic [ref=f38e851]: Novo · titanic-pilot
+        - button "Orientação do observador ao sinal Animação · A revisar Novo · titanic-pilot" [ref=f38e853] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e854]: ▷
+          - generic [ref=f38e855]:
+            - strong [ref=f38e856]: Orientação do observador ao sinal
+            - generic [ref=f38e857]: Animação · A revisar
+            - generic [ref=f38e858]: Novo · titanic-pilot
+        - button "Cais marítimo de 1912 Cenário · A revisar Novo · titanic-pilot" [ref=f38e860] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e861]: ⌂
+          - generic [ref=f38e862]:
+            - strong [ref=f38e863]: Cais marítimo de 1912
+            - generic [ref=f38e864]: Cenário · A revisar
+            - generic [ref=f38e865]: Novo · titanic-pilot
+        - button "Materiais texturizados de bordo Material · A revisar Novo · titanic-bloco-01" [ref=f38e867] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e868]: ◐
+          - generic [ref=f38e869]:
+            - strong [ref=f38e870]: Materiais texturizados de bordo
+            - generic [ref=f38e871]: Material · A revisar
+            - generic [ref=f38e872]: Novo · titanic-bloco-01
+        - button "Salão de passageiros de 1912 Cenário · A revisar Novo · titanic-bloco-01" [ref=f38e874] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e875]: ⌂
+          - generic [ref=f38e876]:
+            - strong [ref=f38e877]: Salão de passageiros de 1912
+            - generic [ref=f38e878]: Cenário · A revisar
+            - generic [ref=f38e879]: Novo · titanic-bloco-01
+        - button "Alojamento de passageiros de 1912 Cenário · A revisar Novo · titanic-bloco-01" [ref=f38e881] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e882]: ⌂
+          - generic [ref=f38e883]:
+            - strong [ref=f38e884]: Alojamento de passageiros de 1912
+            - generic [ref=f38e885]: Cenário · A revisar
+            - generic [ref=f38e886]: Novo · titanic-bloco-01
+        - button "Estação de telegrafia de bordo Cenário · A revisar Novo · titanic-bloco-01" [ref=f38e888] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e889]: ⌂
+          - generic [ref=f38e890]:
+            - strong [ref=f38e891]: Estação de telegrafia de bordo
+            - generic [ref=f38e892]: Cenário · A revisar
+            - generic [ref=f38e893]: Novo · titanic-bloco-01
+        - button "Corredor e escada de bordo Cenário · A revisar Novo · titanic-bloco-01" [ref=f38e895] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e896]: ⌂
+          - generic [ref=f38e897]:
+            - strong [ref=f38e898]: Corredor e escada de bordo
+            - generic [ref=f38e899]: Cenário · A revisar
+            - generic [ref=f38e900]: Novo · titanic-bloco-01
+        - button "Praça de máquinas de bordo Cenário · A revisar Novo · titanic-bloco-01" [ref=f38e902] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e903]: ⌂
+          - generic [ref=f38e904]:
+            - strong [ref=f38e905]: Praça de máquinas de bordo
+            - generic [ref=f38e906]: Cenário · A revisar
+            - generic [ref=f38e907]: Novo · titanic-bloco-01
+        - button "Cozinha e serviço de bordo Cenário · A revisar Novo · titanic-bloco-01" [ref=f38e909] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e910]: ⌂
+          - generic [ref=f38e911]:
+            - strong [ref=f38e912]: Cozinha e serviço de bordo
+            - generic [ref=f38e913]: Cenário · A revisar
+            - generic [ref=f38e914]: Novo · titanic-bloco-01
+        - button "Luz prática e recorte nos interiores Iluminação · A revisar Novo · titanic-bloco-01" [ref=f38e916] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e917]: ☼
+          - generic [ref=f38e918]:
+            - strong [ref=f38e919]: Luz prática e recorte nos interiores
+            - generic [ref=f38e920]: Iluminação · A revisar
+            - generic [ref=f38e921]: Novo · titanic-bloco-01
+        - button "Ações e contatos a bordo Animação · A revisar Novo · titanic-bloco-01" [ref=f38e923] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e924]: ▷
+          - generic [ref=f38e925]:
+            - strong [ref=f38e926]: Ações e contatos a bordo
+            - generic [ref=f38e927]: Animação · A revisar
+            - generic [ref=f38e928]: Novo · titanic-bloco-01
+        - button "Pertences de travessia Objeto · A revisar Novo · titanic-bloco-01" [ref=f38e930] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e931]: ◇
+          - generic [ref=f38e932]:
+            - strong [ref=f38e933]: Pertences de travessia
+            - generic [ref=f38e934]: Objeto · A revisar
+            - generic [ref=f38e935]: Novo · titanic-bloco-01
+        - button "Mensagem de rádio ilustrativa Objeto · A revisar Novo · titanic-bloco-01" [ref=f38e937] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e938]: ◇
+          - generic [ref=f38e939]:
+            - strong [ref=f38e940]: Mensagem de rádio ilustrativa
+            - generic [ref=f38e941]: Objeto · A revisar
+            - generic [ref=f38e942]: Novo · titanic-bloco-01
+        - button "Serviço e louça de bordo Objeto · A revisar Novo · titanic-bloco-01" [ref=f38e944] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e945]: ◇
+          - generic [ref=f38e946]:
+            - strong [ref=f38e947]: Serviço e louça de bordo
+            - generic [ref=f38e948]: Objeto · A revisar
+            - generic [ref=f38e949]: Novo · titanic-bloco-01
+        - button "Vapor industrial contido Efeito · A revisar Novo · titanic-bloco-01" [ref=f38e951] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e952]: ◩
+          - generic [ref=f38e953]:
+            - strong [ref=f38e954]: Vapor industrial contido
+            - generic [ref=f38e955]: Efeito · A revisar
+            - generic [ref=f38e956]: Novo · titanic-bloco-01
+        - button "Divisões internas ilustrativas Objeto · A revisar Novo · titanic-bloco-01" [ref=f38e958] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e959]: ◇
+          - generic [ref=f38e960]:
+            - strong [ref=f38e961]: Divisões internas ilustrativas
+            - generic [ref=f38e962]: Objeto · A revisar
+            - generic [ref=f38e963]: Novo · titanic-bloco-01
+        - button "Revelação de espaço e detalhe Câmera · A revisar Novo · titanic-bloco-01" [ref=f38e965] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e966]: ⌘
+          - generic [ref=f38e967]:
+            - strong [ref=f38e968]: Revelação de espaço e detalhe
+            - generic [ref=f38e969]: Câmera · A revisar
+            - generic [ref=f38e970]: Novo · titanic-bloco-01
+        - 'button "Som de bordo: porto Som FX · A revisar Novo · titanic-bloco-01" [ref=f38e972] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e973]: ♫
+          - generic [ref=f38e974]:
+            - strong [ref=f38e975]: "Som de bordo: porto"
+            - generic [ref=f38e976]: Som FX · A revisar
+            - generic [ref=f38e977]: Novo · titanic-bloco-01
+        - 'button "Som de bordo: passos Som FX · A revisar Novo · titanic-bloco-01" [ref=f38e979] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e980]: ♫
+          - generic [ref=f38e981]:
+            - strong [ref=f38e982]: "Som de bordo: passos"
+            - generic [ref=f38e983]: Som FX · A revisar
+            - generic [ref=f38e984]: Novo · titanic-bloco-01
+        - 'button "Som de bordo: servico Som FX · A revisar Novo · titanic-bloco-01" [ref=f38e986] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e987]: ♫
+          - generic [ref=f38e988]:
+            - strong [ref=f38e989]: "Som de bordo: servico"
+            - generic [ref=f38e990]: Som FX · A revisar
+            - generic [ref=f38e991]: Novo · titanic-bloco-01
+        - 'button "Som de bordo: maquinas Som FX · A revisar Novo · titanic-bloco-01" [ref=f38e993] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e994]: ♫
+          - generic [ref=f38e995]:
+            - strong [ref=f38e996]: "Som de bordo: maquinas"
+            - generic [ref=f38e997]: Som FX · A revisar
+            - generic [ref=f38e998]: Novo · titanic-bloco-01
+        - 'button "Som de bordo: radio Som FX · A revisar Novo · titanic-bloco-01" [ref=f38e1000] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e1001]: ♫
+          - generic [ref=f38e1002]:
+            - strong [ref=f38e1003]: "Som de bordo: radio"
+            - generic [ref=f38e1004]: Som FX · A revisar
+            - generic [ref=f38e1005]: Novo · titanic-bloco-01
+        - 'button "Som de bordo: papel Som FX · A revisar Novo · titanic-bloco-01" [ref=f38e1007] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e1008]: ♫
+          - generic [ref=f38e1009]:
+            - strong [ref=f38e1010]: "Som de bordo: papel"
+            - generic [ref=f38e1011]: Som FX · A revisar
+            - generic [ref=f38e1012]: Novo · titanic-bloco-01
+        - 'button "Som de bordo: editorial Som FX · A revisar Novo · titanic-bloco-01" [ref=f38e1014] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e1015]: ♫
+          - generic [ref=f38e1016]:
+            - strong [ref=f38e1017]: "Som de bordo: editorial"
+            - generic [ref=f38e1018]: Som FX · A revisar
+            - generic [ref=f38e1019]: Novo · titanic-bloco-01
+        - button "Atlântico cinematográfico Cenário · A revisar Novo · undefined" [ref=f38e1021] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1022]: ⌂
+          - generic [ref=f38e1023]:
+            - strong [ref=f38e1024]: Atlântico cinematográfico
+            - generic [ref=f38e1025]: Cenário · A revisar
+            - generic [ref=f38e1026]: Novo · undefined
+        - button "Mesa de navegação e instrumentos de 1912 Objeto · A revisar Novo · titanic-completo" [ref=f38e1028] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1029]: ◇
+          - generic [ref=f38e1030]:
+            - strong [ref=f38e1031]: Mesa de navegação e instrumentos de 1912
+            - generic [ref=f38e1032]: Objeto · A revisar
+            - generic [ref=f38e1033]: Novo · titanic-completo
+        - button "Capacidade dos botes — evidência visual Objeto · A revisar Novo · titanic-completo" [ref=f38e1035] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1036]: ◇
+          - generic [ref=f38e1037]:
+            - strong [ref=f38e1038]: Capacidade dos botes — evidência visual
+            - generic [ref=f38e1039]: Objeto · A revisar
+            - generic [ref=f38e1040]: Novo · titanic-completo
+        - button "Seção ilustrativa de casco e anteparas Cenário · A revisar Novo · titanic-completo" [ref=f38e1042] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1043]: ⌂
+          - generic [ref=f38e1044]:
+            - strong [ref=f38e1045]: Seção ilustrativa de casco e anteparas
+            - generic [ref=f38e1046]: Cenário · A revisar
+            - generic [ref=f38e1047]: Novo · titanic-completo
+        - button "Objetos de resgate e ponte em detalhe Objeto · A revisar Novo · titanic-completo" [ref=f38e1049] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1050]: ◇
+          - generic [ref=f38e1051]:
+            - strong [ref=f38e1052]: Objetos de resgate e ponte em detalhe
+            - generic [ref=f38e1053]: Objeto · A revisar
+            - generic [ref=f38e1054]: Novo · titanic-completo
+        - button "Iluminação marítima e interior com reflexos Iluminação · A revisar Novo · titanic-completo" [ref=f38e1056] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1057]: ☼
+          - generic [ref=f38e1058]:
+            - strong [ref=f38e1059]: Iluminação marítima e interior com reflexos
+            - generic [ref=f38e1060]: Iluminação · A revisar
+            - generic [ref=f38e1061]: Novo · titanic-completo
+        - button "Papel de parede e reboco de bordo Material · A revisar Novo · titanic-completo" [ref=f38e1063] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1064]: ◐
+          - generic [ref=f38e1065]:
+            - strong [ref=f38e1066]: Papel de parede e reboco de bordo
+            - generic [ref=f38e1067]: Material · A revisar
+            - generic [ref=f38e1068]: Novo · titanic-completo
+        - button "Insert fotográfico histórico Elemento gráfico · A revisar Novo · titanic-completo" [ref=f38e1070] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1071]: ▧
+          - generic [ref=f38e1072]:
+            - strong [ref=f38e1073]: Insert fotográfico histórico
+            - generic [ref=f38e1074]: Elemento gráfico · A revisar
+            - generic [ref=f38e1075]: Novo · titanic-completo
+        - button "Insert de filme histórico em movimento Elemento gráfico · A revisar Novo · titanic-completo" [ref=f38e1077] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1078]: ▧
+          - generic [ref=f38e1079]:
+            - strong [ref=f38e1080]: Insert de filme histórico em movimento
+            - generic [ref=f38e1081]: Elemento gráfico · A revisar
+            - generic [ref=f38e1082]: Novo · titanic-completo
+        - button "Amarra de saída no cais Objeto · A revisar Novo · titanic-completo" [ref=f38e1084] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1085]: ◇
+          - generic [ref=f38e1086]:
+            - strong [ref=f38e1087]: Amarra de saída no cais
+            - generic [ref=f38e1088]: Objeto · A revisar
+            - generic [ref=f38e1089]: Novo · titanic-completo
+        - button "Fotografia histórica do Titanic em Southampton Elemento gráfico · A revisar Novo · titanic-completo" [ref=f38e1091] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1092]: ▧
+          - generic [ref=f38e1093]:
+            - strong [ref=f38e1094]: Fotografia histórica do Titanic em Southampton
+            - generic [ref=f38e1095]: Elemento gráfico · A revisar
+            - generic [ref=f38e1096]: Novo · titanic-completo
+        - button "Fotografia histórica do convés de segunda classe do Titanic Elemento gráfico · A revisar Novo · titanic-completo" [ref=f38e1098] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1099]: ▧
+          - generic [ref=f38e1100]:
+            - strong [ref=f38e1101]: Fotografia histórica do convés de segunda classe do Titanic
+            - generic [ref=f38e1102]: Elemento gráfico · A revisar
+            - generic [ref=f38e1103]: Novo · titanic-completo
+        - button "Quarto da casa no Sertão em corte Cenário · A revisar Novo · casa-sertao-calor" [ref=f38e1105] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1106]: ⌂
+          - generic [ref=f38e1107]:
+            - strong [ref=f38e1108]: Quarto da casa no Sertão em corte
+            - generic [ref=f38e1109]: Cenário · A revisar
+            - generic [ref=f38e1110]: Novo · casa-sertao-calor
+        - button "Luz de tarde e noite Iluminação · A revisar Novo · casa-sertao-calor" [ref=f38e1112] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1113]: ☼
+          - generic [ref=f38e1114]:
+            - strong [ref=f38e1115]: Luz de tarde e noite
+            - generic [ref=f38e1116]: Iluminação · A revisar
+            - generic [ref=f38e1117]: Novo · casa-sertao-calor
+        - button "Câmera editorial e cortes da casa Câmera · A revisar Novo · casa-sertao-calor" [ref=f38e1119] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1120]: ⌘
+          - generic [ref=f38e1121]:
+            - strong [ref=f38e1122]: Câmera editorial e cortes da casa
+            - generic [ref=f38e1123]: Câmera · A revisar
+            - generic [ref=f38e1124]: Novo · casa-sertao-calor
+        - button "Corte de retorno à tarde Transição · A revisar Novo · casa-sertao-calor" [ref=f38e1126] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1127]: ⇥
+          - generic [ref=f38e1128]:
+            - strong [ref=f38e1129]: Corte de retorno à tarde
+            - generic [ref=f38e1130]: Transição · A revisar
+            - generic [ref=f38e1131]: Novo · casa-sertao-calor
+        - button "Cobertura em camadas Objeto · A revisar Novo · casa-sertao-calor" [ref=f38e1133] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1134]: ◇
+          - generic [ref=f38e1135]:
+            - strong [ref=f38e1136]: Cobertura em camadas
+            - generic [ref=f38e1137]: Objeto · A revisar
+            - generic [ref=f38e1138]: Novo · casa-sertao-calor
+        - button "Telha clara refletiva Material · A revisar Novo · casa-sertao-calor" [ref=f38e1140] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1141]: ◐
+          - generic [ref=f38e1142]:
+            - strong [ref=f38e1143]: Telha clara refletiva
+            - generic [ref=f38e1144]: Material · A revisar
+            - generic [ref=f38e1145]: Novo · casa-sertao-calor
+        - button "Caminho do calor da telha ao quarto Animação · A revisar Novo · casa-sertao-calor" [ref=f38e1147] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1148]: ▷
+          - generic [ref=f38e1149]:
+            - strong [ref=f38e1150]: Caminho do calor da telha ao quarto
+            - generic [ref=f38e1151]: Animação · A revisar
+            - generic [ref=f38e1152]: Novo · casa-sertao-calor
+        - button "Calor persistente na laje Efeito · A revisar Novo · casa-sertao-calor" [ref=f38e1154] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1155]: ◩
+          - generic [ref=f38e1156]:
+            - strong [ref=f38e1157]: Calor persistente na laje
+            - generic [ref=f38e1158]: Efeito · A revisar
+            - generic [ref=f38e1159]: Novo · casa-sertao-calor
+        - button "Ventilador de pedestal completo Objeto · A revisar Novo · casa-sertao-calor" [ref=f38e1161] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1162]: ◇
+          - generic [ref=f38e1163]:
+            - strong [ref=f38e1164]: Ventilador de pedestal completo
+            - generic [ref=f38e1165]: Objeto · A revisar
+            - generic [ref=f38e1166]: Novo · casa-sertao-calor
+        - button "Pessoa no quarto Personagem · A revisar Novo · casa-sertao-calor" [ref=f38e1168] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1169]: ♙
+          - generic [ref=f38e1170]:
+            - strong [ref=f38e1171]: Pessoa no quarto
+            - generic [ref=f38e1172]: Personagem · A revisar
+            - generic [ref=f38e1173]: Novo · casa-sertao-calor
+        - button "Vento focado na pessoa Animação · A revisar Novo · casa-sertao-calor" [ref=f38e1175] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1176]: ▷
+          - generic [ref=f38e1177]:
+            - strong [ref=f38e1178]: Vento focado na pessoa
+            - generic [ref=f38e1179]: Animação · A revisar
+            - generic [ref=f38e1180]: Novo · casa-sertao-calor
+        - button "Som do ventilador Som FX · A revisar Novo · casa-sertao-calor" [ref=f38e1182] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1183]: ♫
+          - generic [ref=f38e1184]:
+            - strong [ref=f38e1185]: Som do ventilador
+            - generic [ref=f38e1186]: Som FX · A revisar
+            - generic [ref=f38e1187]: Novo · casa-sertao-calor
+        - button "Falha e correção da ventilação do ático Animação · A revisar Novo · casa-sertao-calor" [ref=f38e1189] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1190]: ▷
+          - generic [ref=f38e1191]:
+            - strong [ref=f38e1192]: Falha e correção da ventilação do ático
+            - generic [ref=f38e1193]: Animação · A revisar
+            - generic [ref=f38e1194]: Novo · casa-sertao-calor
+        - button "Rótulos dos conceitos Elemento gráfico · A revisar Novo · casa-sertao-calor" [ref=f38e1196] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1197]: ▧
+          - generic [ref=f38e1198]:
+            - strong [ref=f38e1199]: Rótulos dos conceitos
+            - generic [ref=f38e1200]: Elemento gráfico · A revisar
+            - generic [ref=f38e1201]: Novo · casa-sertao-calor
+        - button "Radiação que permanece no ático Efeito · A revisar Novo · casa-sertao-calor" [ref=f38e1203] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1204]: ◩
+          - generic [ref=f38e1205]:
+            - strong [ref=f38e1206]: Radiação que permanece no ático
+            - generic [ref=f38e1207]: Efeito · A revisar
+            - generic [ref=f38e1208]: Novo · casa-sertao-calor
+        - button "Manta refletiva sob as telhas Objeto · A revisar Novo · casa-sertao-calor" [ref=f38e1210] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1211]: ◇
+          - generic [ref=f38e1212]:
+            - strong [ref=f38e1213]: Manta refletiva sob as telhas
+            - generic [ref=f38e1214]: Objeto · A revisar
+            - generic [ref=f38e1215]: Novo · casa-sertao-calor
+        - button "Face aluminizada da manta Material · A revisar Novo · casa-sertao-calor" [ref=f38e1217] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1218]: ◐
+          - generic [ref=f38e1219]:
+            - strong [ref=f38e1220]: Face aluminizada da manta
+            - generic [ref=f38e1221]: Material · A revisar
+            - generic [ref=f38e1222]: Novo · casa-sertao-calor
+        - button "Instalação e comparação da manta Animação · A revisar Novo · casa-sertao-calor" [ref=f38e1224] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1225]: ▷
+          - generic [ref=f38e1226]:
+            - strong [ref=f38e1227]: Instalação e comparação da manta
+            - generic [ref=f38e1228]: Animação · A revisar
+            - generic [ref=f38e1229]: Novo · casa-sertao-calor
+        - button "Foley das camadas térmicas Som FX · A revisar Novo · casa-sertao-calor" [ref=f38e1231] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1232]: ♫
+          - generic [ref=f38e1233]:
+            - strong [ref=f38e1234]: Foley das camadas térmicas
+            - generic [ref=f38e1235]: Som FX · A revisar
+            - generic [ref=f38e1236]: Novo · casa-sertao-calor
+        - button "Camada de lã de rocha Objeto · A revisar Novo · casa-sertao-calor" [ref=f38e1238] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1239]: ◇
+          - generic [ref=f38e1240]:
+            - strong [ref=f38e1241]: Camada de lã de rocha
+            - generic [ref=f38e1242]: Objeto · A revisar
+            - generic [ref=f38e1243]: Novo · casa-sertao-calor
+        - button "Material de lã de rocha Material · A revisar Novo · casa-sertao-calor" [ref=f38e1245] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1246]: ◐
+          - generic [ref=f38e1247]:
+            - strong [ref=f38e1248]: Material de lã de rocha
+            - generic [ref=f38e1249]: Material · A revisar
+            - generic [ref=f38e1250]: Novo · casa-sertao-calor
+        - button "Continuidade e falha da isolação Animação · A revisar Novo · casa-sertao-calor" [ref=f38e1252] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1253]: ▷
+          - generic [ref=f38e1254]:
+            - strong [ref=f38e1255]: Continuidade e falha da isolação
+            - generic [ref=f38e1256]: Animação · A revisar
+            - generic [ref=f38e1257]: Novo · casa-sertao-calor
+        - button "Armazenamento e liberação de calor Animação · A revisar Novo · casa-sertao-calor" [ref=f38e1259] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1260]: ▷
+          - generic [ref=f38e1261]:
+            - strong [ref=f38e1262]: Armazenamento e liberação de calor
+            - generic [ref=f38e1263]: Animação · A revisar
+            - generic [ref=f38e1264]: Novo · casa-sertao-calor
+        - button "Janelas opostas e veneziana Objeto · A revisar Novo · casa-sertao-calor" [ref=f38e1266] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1267]: ◇
+          - generic [ref=f38e1268]:
+            - strong [ref=f38e1269]: Janelas opostas e veneziana
+            - generic [ref=f38e1270]: Objeto · A revisar
+            - generic [ref=f38e1271]: Novo · casa-sertao-calor
+        - button "Comparação de temperatura relativa Elemento gráfico · A revisar Novo · casa-sertao-calor" [ref=f38e1273] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1274]: ▧
+          - generic [ref=f38e1275]:
+            - strong [ref=f38e1276]: Comparação de temperatura relativa
+            - generic [ref=f38e1277]: Elemento gráfico · A revisar
+            - generic [ref=f38e1278]: Novo · casa-sertao-calor
+        - button "Ventilação cruzada condicionada Animação · A revisar Novo · casa-sertao-calor" [ref=f38e1280] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1281]: ▷
+          - generic [ref=f38e1282]:
+            - strong [ref=f38e1283]: Ventilação cruzada condicionada
+            - generic [ref=f38e1284]: Animação · A revisar
+            - generic [ref=f38e1285]: Novo · casa-sertao-calor
+        - button "Fechamento da veneziana e sombra Animação · A revisar Novo · casa-sertao-calor" [ref=f38e1287] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1288]: ▷
+          - generic [ref=f38e1289]:
+            - strong [ref=f38e1290]: Fechamento da veneziana e sombra
+            - generic [ref=f38e1291]: Animação · A revisar
+            - generic [ref=f38e1292]: Novo · casa-sertao-calor
+        - button "Som do fecho da veneziana Som FX · A revisar Novo · casa-sertao-calor" [ref=f38e1294] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1295]: ♫
+          - generic [ref=f38e1296]:
+            - strong [ref=f38e1297]: Som do fecho da veneziana
+            - generic [ref=f38e1298]: Som FX · A revisar
+            - generic [ref=f38e1299]: Novo · casa-sertao-calor
+        - button "Payoff do ventilador junto à cama Animação · A revisar Novo · casa-sertao-calor" [ref=f38e1301] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1302]: ▷
+          - generic [ref=f38e1303]:
+            - strong [ref=f38e1304]: Payoff do ventilador junto à cama
+            - generic [ref=f38e1305]: Animação · A revisar
+            - generic [ref=f38e1306]: Novo · casa-sertao-calor
+        - button "Calor que persiste no teto Efeito · A revisar Novo · casa-sertao-calor" [ref=f38e1308] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1309]: ◩
+          - generic [ref=f38e1310]:
+            - strong [ref=f38e1311]: Calor que persiste no teto
+            - generic [ref=f38e1312]: Efeito · A revisar
+            - generic [ref=f38e1313]: Novo · casa-sertao-calor
+        - button "Reflexo solar na telha clara Efeito · A revisar Novo · casa-sertao-calor" [ref=f38e1315] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1316]: ◩
+          - generic [ref=f38e1317]:
+            - strong [ref=f38e1318]: Reflexo solar na telha clara
+            - generic [ref=f38e1319]: Efeito · A revisar
+            - generic [ref=f38e1320]: Novo · casa-sertao-calor
+        - 'button "Rótulo: barreira radiante Elemento gráfico · A revisar Novo · casa-sertao-calor" [ref=f38e1322] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e1323]: ▧
+          - generic [ref=f38e1324]:
+            - strong [ref=f38e1325]: "Rótulo: barreira radiante"
+            - generic [ref=f38e1326]: Elemento gráfico · A revisar
+            - generic [ref=f38e1327]: Novo · casa-sertao-calor
+        - 'button "Rótulo: isolamento térmico Elemento gráfico · A revisar Novo · casa-sertao-calor" [ref=f38e1329] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e1330]: ▧
+          - generic [ref=f38e1331]:
+            - strong [ref=f38e1332]: "Rótulo: isolamento térmico"
+            - generic [ref=f38e1333]: Elemento gráfico · A revisar
+            - generic [ref=f38e1334]: Novo · casa-sertao-calor
+        - 'button "Rótulo: inércia térmica Elemento gráfico · A revisar Novo · casa-sertao-calor" [ref=f38e1336] [cursor=pointer]':
+          - generic [aria-hidden] [ref=f38e1337]: ▧
+          - generic [ref=f38e1338]:
+            - strong [ref=f38e1339]: "Rótulo: inércia térmica"
+            - generic [ref=f38e1340]: Elemento gráfico · A revisar
+            - generic [ref=f38e1341]: Novo · casa-sertao-calor
+        - button "Acúmulo de calor no ático fechado Efeito · A revisar Novo · casa-sertao-calor" [ref=f38e1343] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1344]: ◩
+          - generic [ref=f38e1345]:
+            - strong [ref=f38e1346]: Acúmulo de calor no ático fechado
+            - generic [ref=f38e1347]: Efeito · A revisar
+            - generic [ref=f38e1348]: Novo · casa-sertao-calor
+        - button "Fotografia histórica do grande salão de jantar do Titanic Elemento gráfico · A revisar Novo · titanic-completo" [ref=f38e1350] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1351]: ▧
+          - generic [ref=f38e1352]:
+            - strong [ref=f38e1353]: Fotografia histórica do grande salão de jantar do Titanic
+            - generic [ref=f38e1354]: Elemento gráfico · A revisar
+            - generic [ref=f38e1355]: Novo · titanic-completo
+        - button "Fotografia histórica da sala de rádio Marconi do Titanic Elemento gráfico · A revisar Novo · titanic-completo" [ref=f38e1357] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1358]: ▧
+          - generic [ref=f38e1359]:
+            - strong [ref=f38e1360]: Fotografia histórica da sala de rádio Marconi do Titanic
+            - generic [ref=f38e1361]: Elemento gráfico · A revisar
+            - generic [ref=f38e1362]: Novo · titanic-completo
+        - button "Telegrama histórico Mesaba → Titanic Elemento gráfico · A revisar Novo · titanic-completo" [ref=f38e1364] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1365]: ▧
+          - generic [ref=f38e1366]:
+            - strong [ref=f38e1367]: Telegrama histórico Mesaba → Titanic
+            - generic [ref=f38e1368]: Elemento gráfico · A revisar
+            - generic [ref=f38e1369]: Novo · titanic-completo
+        - button "Fotografia histórica da cabine B-60 do Titanic Elemento gráfico · A revisar Novo · titanic-completo" [ref=f38e1371] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1372]: ▧
+          - generic [ref=f38e1373]:
+            - strong [ref=f38e1374]: Fotografia histórica da cabine B-60 do Titanic
+            - generic [ref=f38e1375]: Elemento gráfico · A revisar
+            - generic [ref=f38e1376]: Novo · titanic-completo
+        - button "Fotografia histórica da família Kink, passageiros da terceira classe Elemento gráfico · A revisar Novo · titanic-completo" [ref=f38e1378] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1379]: ▧
+          - generic [ref=f38e1380]:
+            - strong [ref=f38e1381]: Fotografia histórica da família Kink, passageiros da terceira classe
+            - generic [ref=f38e1382]: Elemento gráfico · A revisar
+            - generic [ref=f38e1383]: Novo · titanic-completo
+        - button "Passagem estanque ilustrativa de 1912 Cenário · A revisar Novo · titanic-completo" [ref=f38e1385] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1386]: ⌂
+          - generic [ref=f38e1387]:
+            - strong [ref=f38e1388]: Passagem estanque ilustrativa de 1912
+            - generic [ref=f38e1389]: Cenário · A revisar
+            - generic [ref=f38e1390]: Novo · titanic-completo
+        - button "Foguete branco de socorro — encenação Efeito · A revisar Novo · titanic-completo" [ref=f38e1392] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1393]: ◩
+          - generic [ref=f38e1394]:
+            - strong [ref=f38e1395]: Foguete branco de socorro — encenação
+            - generic [ref=f38e1396]: Efeito · A revisar
+            - generic [ref=f38e1397]: Novo · titanic-completo
+        - button "Dobrável invertido ilustrativo Objeto · A revisar Novo · titanic-completo" [ref=f38e1399] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1400]: ◇
+          - generic [ref=f38e1401]:
+            - strong [ref=f38e1402]: Dobrável invertido ilustrativo
+            - generic [ref=f38e1403]: Objeto · A revisar
+            - generic [ref=f38e1404]: Novo · titanic-completo
+        - button "Roupa de resgate envolvente Objeto · A revisar Novo · titanic-completo" [ref=f38e1406] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1407]: ◇
+          - generic [ref=f38e1408]:
+            - strong [ref=f38e1409]: Roupa de resgate envolvente
+            - generic [ref=f38e1410]: Objeto · A revisar
+            - generic [ref=f38e1411]: Novo · titanic-completo
+        - button "Passageira de1912 — figura ilustrativa Personagem · A revisar Novo · titanic-completo" [ref=f38e1413] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1414]: ♙
+          - generic [ref=f38e1415]:
+            - strong [ref=f38e1416]: Passageira de1912 — figura ilustrativa
+            - generic [ref=f38e1417]: Personagem · A revisar
+            - generic [ref=f38e1418]: Novo · titanic-completo
+        - button "Contatos de resgate, escada e içamento de 1912 Animação · A revisar Novo · titanic-completo" [ref=f38e1420] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1421]: ▷
+          - generic [ref=f38e1422]:
+            - strong [ref=f38e1423]: Contatos de resgate, escada e içamento de 1912
+            - generic [ref=f38e1424]: Animação · A revisar
+            - generic [ref=f38e1425]: Novo · titanic-completo
+        - button "Pessoa do quarto · rig humano do kit Personagem · A revisar Novo · casa-sertao-calor" [ref=f38e1427] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1428]: ♙
+          - generic [ref=f38e1429]:
+            - strong [ref=f38e1430]: Pessoa do quarto · rig humano do kit
+            - generic [ref=f38e1431]: Personagem · A revisar
+            - generic [ref=f38e1432]: Novo · casa-sertao-calor
+        - button "Insert no terreiro · forno de barro Cenário · A revisar Novo · casa-sertao-calor" [ref=f38e1434] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1435]: ⌂
+          - generic [ref=f38e1436]:
+            - strong [ref=f38e1437]: Insert no terreiro · forno de barro
+            - generic [ref=f38e1438]: Cenário · A revisar
+            - generic [ref=f38e1439]: Novo · casa-sertao-calor
+        - button "Exterior da casa no terreiro do Sertão Cenário · A revisar Novo · casa-sertao-calor" [ref=f38e1441] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1442]: ⌂
+          - generic [ref=f38e1443]:
+            - strong [ref=f38e1444]: Exterior da casa no terreiro do Sertão
+            - generic [ref=f38e1445]: Cenário · A revisar
+            - generic [ref=f38e1446]: Novo · casa-sertao-calor
+        - button "Percurso abstrato que se torna jogável Animação · A revisar Novo · historia-rockstar" [ref=f38e1448] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1449]: ▷
+          - generic [ref=f38e1450]:
+            - strong [ref=f38e1451]: Percurso abstrato que se torna jogável
+            - generic [ref=f38e1452]: Animação · A revisar
+            - generic [ref=f38e1453]: Novo · historia-rockstar
+        - button "Cidade esquemática vista de cima Cenário · A revisar Novo · historia-rockstar" [ref=f38e1455] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1456]: ⌂
+          - generic [ref=f38e1457]:
+            - strong [ref=f38e1458]: Cidade esquemática vista de cima
+            - generic [ref=f38e1459]: Cenário · A revisar
+            - generic [ref=f38e1460]: Novo · historia-rockstar
+        - button "Cartela de categorias financeiras da aquisição Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1462] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1463]: ▧
+          - generic [ref=f38e1464]:
+            - strong [ref=f38e1465]: Cartela de categorias financeiras da aquisição
+            - generic [ref=f38e1466]: Elemento gráfico · A revisar
+            - generic [ref=f38e1467]: Novo · historia-rockstar
+        - button "Inserto fotográfico licenciado de um Amiga 500 Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1469] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1470]: ▧
+          - generic [ref=f38e1471]:
+            - strong [ref=f38e1472]: Inserto fotográfico licenciado de um Amiga 500
+            - generic [ref=f38e1473]: Elemento gráfico · A revisar
+            - generic [ref=f38e1474]: Novo · historia-rockstar
+        - button "Figura genérica de programador Personagem · A revisar Novo · historia-rockstar" [ref=f38e1476] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1477]: ♙
+          - generic [ref=f38e1478]:
+            - strong [ref=f38e1479]: Figura genérica de programador
+            - generic [ref=f38e1480]: Personagem · A revisar
+            - generic [ref=f38e1481]: Novo · historia-rockstar
+        - button "Retorno da pequena rota à cidade inteira Transição · A revisar Novo · historia-rockstar" [ref=f38e1483] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1484]: ⇥
+          - generic [ref=f38e1485]:
+            - strong [ref=f38e1486]: Retorno da pequena rota à cidade inteira
+            - generic [ref=f38e1487]: Transição · A revisar
+            - generic [ref=f38e1488]: Novo · historia-rockstar
+        - button "Fluxo de material de desenvolvimento divulgado Efeito · A revisar Novo · historia-rockstar" [ref=f38e1490] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1491]: ◩
+          - generic [ref=f38e1492]:
+            - strong [ref=f38e1493]: Fluxo de material de desenvolvimento divulgado
+            - generic [ref=f38e1494]: Efeito · A revisar
+            - generic [ref=f38e1495]: Novo · historia-rockstar
+        - button "Inserto fotográfico licenciado da placa da DMA em Dundee Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1497] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1498]: ▧
+          - generic [ref=f38e1499]:
+            - strong [ref=f38e1500]: Inserto fotográfico licenciado da placa da DMA em Dundee
+            - generic [ref=f38e1501]: Elemento gráfico · A revisar
+            - generic [ref=f38e1502]: Novo · historia-rockstar
+        - button "Escritório pequeno acima de um comércio Cenário · A revisar Novo · historia-rockstar" [ref=f38e1504] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1505]: ⌂
+          - generic [ref=f38e1506]:
+            - strong [ref=f38e1507]: Escritório pequeno acima de um comércio
+            - generic [ref=f38e1508]: Cenário · A revisar
+            - generic [ref=f38e1509]: Novo · historia-rockstar
+        - button "Linha do tempo editorial e cartelas de evidência Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1511] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1512]: ▧
+          - generic [ref=f38e1513]:
+            - strong [ref=f38e1514]: Linha do tempo editorial e cartelas de evidência
+            - generic [ref=f38e1515]: Elemento gráfico · A revisar
+            - generic [ref=f38e1516]: Novo · historia-rockstar
+        - button "Câmera acompanha e abre sobre o mapa Câmera · A revisar Novo · historia-rockstar" [ref=f38e1518] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1519]: ⌘
+          - generic [ref=f38e1520]:
+            - strong [ref=f38e1521]: Câmera acompanha e abre sobre o mapa
+            - generic [ref=f38e1522]: Câmera · A revisar
+            - generic [ref=f38e1523]: Novo · historia-rockstar
+        - button "Luz de oficina e computação de época Iluminação · A revisar Novo · historia-rockstar" [ref=f38e1525] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1526]: ☼
+          - generic [ref=f38e1527]:
+            - strong [ref=f38e1528]: Luz de oficina e computação de época
+            - generic [ref=f38e1529]: Iluminação · A revisar
+            - generic [ref=f38e1530]: Novo · historia-rockstar
+        - button "Camadas de atualização sobre o mesmo território Animação · A revisar Novo · historia-rockstar" [ref=f38e1532] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1533]: ▷
+          - generic [ref=f38e1534]:
+            - strong [ref=f38e1535]: Camadas de atualização sobre o mesmo território
+            - generic [ref=f38e1536]: Animação · A revisar
+            - generic [ref=f38e1537]: Novo · historia-rockstar
+        - button "Adaptação visual entre plataformas Animação · A revisar Novo · historia-rockstar" [ref=f38e1539] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1540]: ▷
+          - generic [ref=f38e1541]:
+            - strong [ref=f38e1542]: Adaptação visual entre plataformas
+            - generic [ref=f38e1543]: Animação · A revisar
+            - generic [ref=f38e1544]: Novo · historia-rockstar
+        - button "Cartela de formatos e versões Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1546] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1547]: ▧
+          - generic [ref=f38e1548]:
+            - strong [ref=f38e1549]: Cartela de formatos e versões
+            - generic [ref=f38e1550]: Elemento gráfico · A revisar
+            - generic [ref=f38e1551]: Novo · historia-rockstar
+        - button "Catálogo tipográfico de séries e gêneros Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1553] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1554]: ▧
+          - generic [ref=f38e1555]:
+            - strong [ref=f38e1556]: Catálogo tipográfico de séries e gêneros
+            - generic [ref=f38e1557]: Elemento gráfico · A revisar
+            - generic [ref=f38e1558]: Novo · historia-rockstar
+        - button "Encontro de programação em Dundee Cenário · A revisar Novo · historia-rockstar" [ref=f38e1560] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1561]: ⌂
+          - generic [ref=f38e1562]:
+            - strong [ref=f38e1563]: Encontro de programação em Dundee
+            - generic [ref=f38e1564]: Cenário · A revisar
+            - generic [ref=f38e1565]: Novo · historia-rockstar
+        - button "Diagrama de editoras, estúdios e aquisições Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1567] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1568]: ▧
+          - generic [ref=f38e1569]:
+            - strong [ref=f38e1570]: Diagrama de editoras, estúdios e aquisições
+            - generic [ref=f38e1571]: Elemento gráfico · A revisar
+            - generic [ref=f38e1572]: Novo · historia-rockstar
+        - button "Relação entre rota, perseguição e resposta Efeito · A revisar Novo · historia-rockstar" [ref=f38e1574] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1575]: ◩
+          - generic [ref=f38e1576]:
+            - strong [ref=f38e1577]: Relação entre rota, perseguição e resposta
+            - generic [ref=f38e1578]: Efeito · A revisar
+            - generic [ref=f38e1579]: Novo · historia-rockstar
+        - button "Expansão de mapa urbano para região Animação · A revisar Novo · historia-rockstar" [ref=f38e1581] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1582]: ▷
+          - generic [ref=f38e1583]:
+            - strong [ref=f38e1584]: Expansão de mapa urbano para região
+            - generic [ref=f38e1585]: Animação · A revisar
+            - generic [ref=f38e1586]: Novo · historia-rockstar
+        - button "Inserto fotográfico licenciado de um Apple II Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1588] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1589]: ▧
+          - generic [ref=f38e1590]:
+            - strong [ref=f38e1591]: Inserto fotográfico licenciado de um Apple II
+            - generic [ref=f38e1592]: Elemento gráfico · A revisar
+            - generic [ref=f38e1593]: Novo · historia-rockstar
+        - button "Inserto fotográfico licenciado de um kit ZX81 Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1595] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1596]: ▧
+          - generic [ref=f38e1597]:
+            - strong [ref=f38e1598]: Inserto fotográfico licenciado de um kit ZX81
+            - generic [ref=f38e1599]: Elemento gráfico · A revisar
+            - generic [ref=f38e1600]: Novo · historia-rockstar
+        - button "Materiais de microcomputador e papel de época Material · A revisar Novo · historia-rockstar" [ref=f38e1602] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1603]: ◐
+          - generic [ref=f38e1604]:
+            - strong [ref=f38e1605]: Materiais de microcomputador e papel de época
+            - generic [ref=f38e1606]: Material · A revisar
+            - generic [ref=f38e1607]: Novo · historia-rockstar
+        - button "Computadores domésticos de época Objeto · A revisar Novo · historia-rockstar" [ref=f38e1609] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1610]: ◇
+          - generic [ref=f38e1611]:
+            - strong [ref=f38e1612]: Computadores domésticos de época
+            - generic [ref=f38e1613]: Objeto · A revisar
+            - generic [ref=f38e1614]: Novo · historia-rockstar
+        - button "Métrica comercial com definição de sold-in Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1616] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1617]: ▧
+          - generic [ref=f38e1618]:
+            - strong [ref=f38e1619]: Métrica comercial com definição de sold-in
+            - generic [ref=f38e1620]: Elemento gráfico · A revisar
+            - generic [ref=f38e1621]: Novo · historia-rockstar
+        - button "Transferência entre perspectivas no mesmo mapa Animação · A revisar Novo · historia-rockstar" [ref=f38e1623] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1624]: ▷
+          - generic [ref=f38e1625]:
+            - strong [ref=f38e1626]: Transferência entre perspectivas no mesmo mapa
+            - generic [ref=f38e1627]: Animação · A revisar
+            - generic [ref=f38e1628]: Novo · historia-rockstar
+        - button "Três figuras narrativas genéricas Personagem · A revisar Novo · historia-rockstar" [ref=f38e1630] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1631]: ♙
+          - generic [ref=f38e1632]:
+            - strong [ref=f38e1633]: Três figuras narrativas genéricas
+            - generic [ref=f38e1634]: Personagem · A revisar
+            - generic [ref=f38e1635]: Novo · historia-rockstar
+        - button "Transição de mapa plano para cidade 3D Transição · A revisar Novo · historia-rockstar" [ref=f38e1637] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1638]: ⇥
+          - generic [ref=f38e1639]:
+            - strong [ref=f38e1640]: Transição de mapa plano para cidade 3D
+            - generic [ref=f38e1641]: Transição · A revisar
+            - generic [ref=f38e1642]: Novo · historia-rockstar
+        - button "Cartela de evidência sobre jornadas e relatos Elemento gráfico · A revisar Novo · historia-rockstar" [ref=f38e1644] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f38e1645]: ▧
+          - generic [ref=f38e1646]:
+            - strong [ref=f38e1647]: Cartela de evidência sobre jornadas e relatos
+            - generic [ref=f38e1648]: Elemento gráfico · A revisar
+            - generic [ref=f38e1649]: Novo · historia-rockstar
+    - region "Inspeção 3D" [ref=f38e1651]:
+      - generic [ref=f38e1652]:
+        - generic [ref=f38e1653]:
+          - generic [ref=f38e1654]: Objeto · Catálogo existente
+          - heading "Parede com tubulação" [level=2] [ref=f38e1655]
+        - generic [ref=f38e1656]: Aprovado
+      - generic [ref=f38e1657]:
+        - generic: Arraste para orbitar · role para aproximar · botão direito para deslocar
+        - group "Vistas de câmera" [ref=f38e1658]:
+          - button "3D" [ref=f38e1659] [cursor=pointer]
+          - button "Frente" [ref=f38e1660] [cursor=pointer]
+          - button "Lado" [ref=f38e1661] [cursor=pointer]
+          - button "Topo" [ref=f38e1662] [cursor=pointer]
+          - button "Salvar imagem" [ref=f38e1663] [cursor=pointer]
+      - generic [ref=f38e1665]:
+        - button "Reproduzir animação" [ref=f38e1666] [cursor=pointer]: ▶ Reproduzir
+        - generic [ref=f38e1667]: Tempo da animação
+        - slider "Tempo da animação" [ref=f38e1668] [cursor=pointer]: "0"
+        - status [ref=f38e1669]: 0,00 s
+        - button "Reiniciar" [ref=f38e1670] [cursor=pointer]
+      - generic [ref=f38e1671]:
+        - generic [ref=f38e1672]: Dimensões em metros
+        - generic [ref=f38e1673]: Tempo determinístico · 30 fps
+    - complementary [ref=f38e1674]:
+      - heading "Inspecionar" [level=2] [ref=f38e1675]
+      - paragraph [ref=f38e1676]: Parede aberta com percurso de água em movimento. Esquema visual, sem dimensionamento executivo.
+      - generic [ref=f38e1677]:
+        - text: Variação
+        - combobox "Variação" [ref=f38e1678]:
+          - option "fria" [selected]
+          - option "quente"
+      - generic [ref=f38e1679]:
+        - text: Escala
+        - status "Escala 1" [ref=f38e1680]: 1,0×
+        - slider [ref=f38e1681] [cursor=pointer]: "1"
+      - generic [ref=f38e1682]:
+        - text: Giro
+        - status "Giro 0" [ref=f38e1683]: 0°
+        - slider [ref=f38e1684] [cursor=pointer]: "0"
+      - generic [ref=f38e1685]:
+        - text: Plano de corte
+        - status "Plano de corte 1" [ref=f38e1686]: Inteiro
+        - slider [ref=f38e1687] [cursor=pointer]: "1"
+      - generic [ref=f38e1688]:
+        - checkbox "Ver malha" [ref=f38e1689]
+        - text: Ver malha
+      - group [ref=f38e1690]:
+        - generic "Inspeção técnica" [ref=f38e1691] [cursor=pointer]
+        - option "Perspectiva" [selected]
+        - option "Ortográfica"
+        - option "Original" [selected]
+        - option "Neutro (clay)"
+        - option "Normais"
+        - option "X" [selected]
+        - option "Y"
+        - option "Z"
+        - option "Desligado" [selected]
+        - option "Mover"
+        - option "Girar"
+        - option "Escalar"
+        - option "Global" [selected]
+        - option "Local"
+        - option "Modelo completo" [selected]
+      - group [ref=f38e1692]:
+        - generic "Contrato do recurso" [ref=f38e1693] [cursor=pointer]
+      - generic [ref=f38e1694]:
+        - heading "Sua revisão" [level=2] [ref=f38e1695]
+        - paragraph [ref=f38e1696]: A decisão vale para esta versão e variação.
+        - generic [ref=f38e1697]: O que precisa melhorar?
+        - textbox "O que precisa melhorar?" [ref=f38e1698]:
+          - /placeholder: Forma, cor, escala, movimento…
+        - generic [ref=f38e1699]:
+          - button "Aprovar recurso" [ref=f38e1700] [cursor=pointer]
+          - button "Pedir melhoria" [ref=f38e1701] [cursor=pointer]
+          - button "Voltar para revisão" [ref=f38e1702] [cursor=pointer]
+        - status [ref=f38e1703]: Salvo em 05/11/2026, 00:02:17

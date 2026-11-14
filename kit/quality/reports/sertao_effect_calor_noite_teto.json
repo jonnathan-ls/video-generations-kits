@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "61ce89e75b75729015e9fef0943d3c374ed7c7bbe7f65d929013b7086df835dd",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "effect-calor-noite-teto",
+      "meshes": 23,
+      "triangles": 13272,
+      "dimensions": [
+        4.134994387626648,
+        4.34999999165535,
+        3.795
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "effect-calor-noite-teto: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.834Z"
+}

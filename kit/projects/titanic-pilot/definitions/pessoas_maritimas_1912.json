@@ -1,0 +1,21 @@
+{
+  "id": "pessoas_maritimas_1912",
+  "label": "Capitão e passageiros de 1912",
+  "kind": "character",
+  "category": "historico_maritimo",
+  "description": "Variações separadas: capitão de uniforme marítimo e passageiros adultos de 1912. Aproveitar adaptador de personagens existente quando compatível, mas revisar figurino e silhueta. Não atribuir identidade ou destino inventado aos passageiros figurantes. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "period-passengers.js",
+  "aliases": [
+    "capitão",
+    "Capitão e passageiros de 1912"
+  ],
+  "variants": [
+    "captain",
+    "passengers"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:observador-1912"
+  },
+  "baselineIds": []
+}

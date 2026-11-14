@@ -1,0 +1,263 @@
+# Catálogo compacto
+
+A LLM consulta apenas os recursos relacionados e verifica a revisão de cada um.
+
+- casa_simples | Casa simples | scene | a842549d9351fbc2 | verde, azul, amarela
+- casa_colonial | Casa colonial | scene | a842549d9351fbc2 | rosa, azul
+- sobrado | Sobrado | scene | a842549d9351fbc2 | cinza, salmao
+- casa_moderna | Casa moderna | scene | a842549d9351fbc2 | escura, quente
+- predio_apartamentos | Prédio de apartamentos | scene | a842549d9351fbc2 | azul, rosa, alto
+- arranha_ceu | Arranha-céu | scene | a842549d9351fbc2 | verde, escuro, alto
+- loja | Loja | scene | a842549d9351fbc2 | padaria, mercado
+- galpao | Galpão / fábrica | scene | a842549d9351fbc2 | azul, verde
+- ponte_viga | Ponte de vigas | scene | a842549d9351fbc2 | longa, baixa
+- arvore_redonda | Árvore de copa redonda | object | a842549d9351fbc2 | clara, escura, grande, outono
+- arvore_frutifera | Árvore frutífera | object | a842549d9351fbc2 | laranja, limao
+- arvore_pinheiro | Pinheiro | object | a842549d9351fbc2 | clara, alta, nevada
+- palmeira | Palmeira | object | a842549d9351fbc2 | baixa, alta
+- arbusto | Arbusto | object | a842549d9351fbc2 | florido, claro
+- rua_reta | Rua reta | scene | a842549d9351fbc2 | larga, sem_calcada, com_faixa
+- cruzamento | Cruzamento | scene | a842549d9351fbc2 | longo
+- chao | Chão (terreno) | scene | a842549d9351fbc2 | terra, areia, concreto, asfalto
+- campo_futebol | Campo de futebol | scene | a842549d9351fbc2 | pequeno
+- carro_sedan | Carro sedã | object | a842549d9351fbc2 | azul, branco, taxi, verde
+- carro_hatch | Carro hatch | object | a842549d9351fbc2 | vermelho, amarelo, preto
+- onibus | Ônibus | object | a842549d9351fbc2 | vermelho, azul, verde
+- caminhao_cacamba | Caminhão caçamba | object | a842549d9351fbc2 | amarelo, azul, levantada
+- betoneira | Caminhão betoneira | object | a842549d9351fbc2 | verde, azul
+- rolo_compressor | Rolo compressor | object | a842549d9351fbc2 | laranja, azul
+- vibroacabadora | Vibroacabadora | object | a842549d9351fbc2 | laranja, azul
+- espargidor | Caminhão espargidor | object | a842549d9351fbc2 | jorrando, vermelho
+- cone | Cone de trânsito | object | a842549d9351fbc2 | amarelo
+- barreira | Barreira de obra | object | a842549d9351fbc2 | longa
+- pilha_tijolos | Pilha de tijolos | object | a842549d9351fbc2 | baixa, clara
+- saco_cimento | Sacos de cimento | object | a842549d9351fbc2 | um, muitos
+- carrinho_mao | Carrinho de mão | object | a842549d9351fbc2 | azul, vermelho
+- escada | Escada de mão | object | a842549d9351fbc2 | alta
+- poste_luz | Poste de luz | object | a842549d9351fbc2 | baixo
+- semaforo | Semáforo | object | a842549d9351fbc2 | amarelo, verde
+- placa_pare | Placa PARE | object | a842549d9351fbc2
+- banco | Banco de praça | object | a842549d9351fbc2 | verde
+- cerca | Cerca de madeira | object | a842549d9351fbc2 | branca
+- muro | Muro | object | a842549d9351fbc2 | tijolo, cinza
+- hidrante | Hidrante | object | a842549d9351fbc2
+- lixeira | Lixeira | object | a842549d9351fbc2 | azul, amarela
+- caixa_madeira | Caixote de madeira | object | a842549d9351fbc2 | grande
+- bueiro | Bueiro (boca de lobo) | object | a842549d9351fbc2
+- casa_obra | Casa em obra | object | a842549d9351fbc2 | fundacao, paredes, madeiramento
+- predio_estrutura | Estrutura de prédio | object | a842549d9351fbc2 | baixo, meio
+- rua_camadas | Corte da pavimentação | object | a842549d9351fbc2 | subleito, quase
+- corte_terreno | Corte do terreno | object | a842549d9351fbc2 | so_rocha
+- guindaste | Guindaste de obra | object | a842549d9351fbc2 | baixo
+- forma | Forma livre | object | a842549d9351fbc2 | tanque, bola, lampada
+- tubo | Tubo / cano | object | a842549d9351fbc2 | vermelho, azul, cobre
+- engrenagem | Engrenagem | object | a842549d9351fbc2 | prata, vermelha
+- helice | Hélice / ventilador | object | a842549d9351fbc2 | turbina, ventilador
+- esteira | Esteira transportadora | object | a842549d9351fbc2 | subindo, graos, areia
+- monte | Monte de material | object | a842549d9351fbc2 | areia, terra, grao, pequeno
+- tanque | Tanque / silo transparente | object | a842549d9351fbc2 | agua, leite, oleo, grao
+- misturador | Misturador / tambor | object | a842549d9351fbc2 | tinta, concreto, massa
+- escavadeira | Escavadeira | object | a842549d9351fbc2 | laranja, rapida
+- fabrica_processo | Fábrica de processamento | object | a842549d9351fbc2 | graos, areia
+- personagem_construtor | Construtor | character | a842549d9351fbc2
+- personagem_engenheiro | Engenheiro | character | a842549d9351fbc2
+- personagem_engenheira | Engenheira | character | a842549d9351fbc2
+- personagem_servente | Servente | character | a842549d9351fbc2
+- personagem_homem | Homem | character | a842549d9351fbc2
+- personagem_mulher | Mulher | character | a842549d9351fbc2
+- personagem_velhinho | Velhinho | character | a842549d9351fbc2
+- personagem_velhinha | Velhinha | character | a842549d9351fbc2
+- personagem_crianca | Crianca | character | a842549d9351fbc2
+- personagem_menina | Menina | character | a842549d9351fbc2
+- personagem_motorista | Motorista | character | a842549d9351fbc2
+- anim_idle | Ação · idle | animation | a842549d9351fbc2
+- anim_walk | Ação · walk | animation | a842549d9351fbc2
+- anim_run | Ação · run | animation | a842549d9351fbc2
+- anim_wave | Ação · wave | animation | a842549d9351fbc2
+- anim_point | Ação · point | animation | a842549d9351fbc2
+- anim_talk | Ação · talk | animation | a842549d9351fbc2
+- anim_hammer | Ação · hammer | animation | a842549d9351fbc2
+- anim_carry | Ação · carry | animation | a842549d9351fbc2
+- anim_push | Ação · push | animation | a842549d9351fbc2
+- anim_dig | Ação · dig | animation | a842549d9351fbc2
+- anim_cheer | Ação · cheer | animation | a842549d9351fbc2
+- anim_surprised | Ação · surprised | animation | a842549d9351fbc2
+- anim_think | Ação · think | animation | a842549d9351fbc2
+- anim_look_around | Ação · look_around | animation | a842549d9351fbc2
+- anim_nod | Ação · nod | animation | a842549d9351fbc2
+- anim_shake_head | Ação · shake_head | animation | a842549d9351fbc2
+- anim_shrug | Ação · shrug | animation | a842549d9351fbc2
+- anim_crouch | Ação · crouch | animation | a842549d9351fbc2
+- anim_sit | Ação · sit | animation | a842549d9351fbc2
+- anim_read_clipboard | Ação · read_clipboard | animation | a842549d9351fbc2
+- parede_hidraulica | Parede com tubulação | object | 8c235c7629c3c7d0 | fria, quente
+- piso_camadas | Piso em camadas | object | feeb353d3c035c82 | ceramica, porcelanato
+- cozinha_corte | Cozinha em corte | scene | d2b02c6fc9550049 | clara, madeira
+- revelar_corte | Revelar por corte | effect | bbcbf99fa90ec151
+- montagem_suave | Montagem por camadas | animation | 7b2723eb8ce8edb7
+- corte_direto | Corte de continuidade | transition | 5a68afceb24aa902
+- som_impacto | Impacto de material | sound | a202d883dc893488
+- som_movimento | Passagem de movimento | sound | 92541915acc1e174
+- som_encaixe | Encaixe metálico | sound | b6adbb817b30eef6
+- som_alvenaria_batida | Contato seco de alvenaria | sound | ab38dbe50b096f35
+- som_madeira_creak | Esforço leve da madeira | sound | edecaf236c7905ee
+- retro_computer_sound | Teclas e mecanismo de computador | sound | 6adfb8e77ada12c5
+- junta_dilatacao | Junta de dilatação | object | f742b7264f5fc44e | padrao
+- arco_alvenaria | Arco de alvenaria segmentado | object | eda066931e8374ac | padrao
+- cimbra_arco | Cimbre de madeira para arco | object | b8b04bda3274951d | padrao
+- apoios_arco | Pilares de apoio do arco | object | 1de2f3747723c4f2 | padrao
+- encaixe_coroamento | Encaixe da peça de fecho | animation | 9ecdede324da9dab
+- retirada_precoce_cimbra | Cedimento após retirada precoce da cimbra | animation | 0baa7fb54544f7da
+- retirada_cimbra | Descida e retirada do cimbre | animation | 72f9303be455b137
+- instabilidade_apoio_arco | Abertura das juntas por movimento do apoio | animation | ddd5a59292dadc25
+- trajeto_compressivo_arco | Trajeto compressivo da carga no arco | effect | 8e4b0b82ea1a022c
+- empuxo_lateral_arco | Empuxo do arco e reação dos pilares | effect | f2ce5abf6d2c3c73
+- contexto_obra_arco | Contexto de obra com vão em arco | scene | 484bde003507c81e
+- argamassa_juntas_arco | Argamassa entre as cunhas do arco | object | cf0393396a47e47c | padrao
+- contexto_arco_jardim | Arco em jardim habitado com elementos em movimento | scene | 5bf15975d7a3adb1
+- entrada_cimbra_arco | Montagem do cimbre sob o arco | animation | a80440f66d761db9
+- afastamento_bote | Bote afasta-se com lugares vazios | animation | dcc3d4f521b92e2d | padrao
+- ambiencia_mar_calmo | Ambiência marítima discreta | sound | f9136892269c8771 | padrao
+- aproximacao_resgate | Aproximação do navio entre gelo | animation | dcc3d4f521b92e2d | padrao
+- atlantico_noturno | Atlântico noturno | scene | 35e10070e13b4755 | padrao
+- atlas_historico_relevo | Atlas histórico em relevo | object | 3a0c9ccaa2012f38 | padrao
+- bote_salvamento_1912 | Bote de salvamento de 1912 | object | ab318733e1cbff94 | occupied, empty
+- gelo_maritimo | Gelo marítimo | object | fca1a2473406fc3e | field, iceberg
+- identificacao_historica | Identificações e título do episódio | overlay | bf3f837e85832fa5 | padrao
+- iluminacao_maritima | Noite marítima legível | lighting | 5812fc4c3aa6492c | padrao
+- mergulho_atlas | Do atlas para o Atlântico | transition | 0ac8b5ee0f71677e | padrao
+- navio_carpathia | Carpathia — navio de resgate | object | b771bea794fcb522 | carpathia
+- olhar_horizonte | Olhar até o sinal no horizonte | camera | bdc5cbd56b937717 | padrao
+- partida_transatlantico | Partida do Titanic em 1912 | scene | f45080b0c0f79253 | titanic
+- pessoas_maritimas_1912 | Capitão e passageiros de 1912 | character | 057769b9ec9c0236 | captain, passengers, passenger, seated, worker, steward
+- sinalizador_verde | Luz verde baixa ao longe | effect | 45c569089ba692d6 | padrao
+- transatlantico_titanic | Titanic — exterior reconhecível | object | f693a596c3659b5f | titanic, titanic-passenger-deck, titanic-cutaway
+- ponte_observacao_maritima | Ponte de observação marítima | scene | 3aa97057cc5d08b7 | padrao
+- orientacao_observador | Orientação do observador ao sinal | animation | 87e740c43ff1c298 | padrao
+- porto_maritimo_1912 | Cais marítimo de 1912 | scene | e656020499ec0cd9 | padrao
+- materiais_bordo_1912 | Materiais texturizados de bordo | material | 3ee1e8b71a887a1e | padrao
+- salao_bordo_1912 | Salão de passageiros de 1912 | scene | 42f5ea533cdc0e7a | padrao
+- alojamento_bordo_1912 | Alojamento de passageiros de 1912 | scene | 4bc8c060b9be5e36 | padrao
+- radio_bordo_1912 | Estação de telegrafia de bordo | scene | d02179574a4caa77 | padrao
+- corredor_bordo_1912 | Corredor e escada de bordo | scene | ca7e4578089bb533 | padrao
+- maquinas_bordo_1912 | Praça de máquinas de bordo | scene | 5e7caf80122beeee | padrao, open-cutaway
+- cozinha_bordo_1912 | Cozinha e serviço de bordo | scene | da121bf128a924e8 | padrao
+- luz_interiores_bordo | Luz prática e recorte nos interiores | lighting | 5cbe9491d3648a7b | padrao
+- acoes_bordo_1912 | Ações e contatos a bordo | animation | 769af9fc4230fa34 | padrao
+- pertences_bordo_1912 | Pertences de travessia | object | f578a810f6dedd59 | mala, bilhete, carta
+- mensagem_bordo_1912 | Mensagem de rádio ilustrativa | object | 8faf80b1f2f091bc | papel
+- servico_bordo_1912 | Serviço e louça de bordo | object | 7479a4b14be56cf3 | bandeja, xicara
+- vapor_bordo_1912 | Vapor industrial contido | effect | c75b74e9b476aaed | padrao
+- anteparas_bordo_1912 | Divisões internas ilustrativas | object | b3e094df9c34f72c | padrao
+- revelacao_bordo_1912 | Revelação de espaço e detalhe | camera | 35d435d8e8274a84 | padrao
+- som_bordo_porto | Som de bordo: porto | sound | 188e5d6c892cfd2b | padrao
+- som_bordo_passos | Som de bordo: passos | sound | ca2efa3e01a497b2 | padrao
+- som_bordo_servico | Som de bordo: servico | sound | 5a05db8aa6f96c33 | padrao
+- som_bordo_maquinas | Som de bordo: maquinas | sound | 1aba41ed3c35e828 | padrao
+- som_bordo_radio | Som de bordo: radio | sound | 78247a4cfe326ee4 | padrao
+- som_bordo_papel | Som de bordo: papel | sound | 6c5ab8061b6dbeb0 | padrao
+- som_bordo_editorial | Som de bordo: editorial | sound | 1ad3b6543e655c02 | padrao
+- mar_cinematico | Atlântico cinematográfico | scene | efc364489a553266 | night, day
+- mesa_navegacao_1912 | Mesa de navegação e instrumentos de 1912 | object | e0200b249a7ebc37 | route-chart, telegraph, chronometer
+- capacidade_botes_1912 | Capacidade dos botes — evidência visual | object | b3008903247eb107 | seats, empty-spaces
+- corte_casco_1912 | Seção ilustrativa de casco e anteparas | scene | be5d2dede7baa6e0 | compartments, flood-path
+- equipamentos_resgate_1912 | Objetos de resgate e ponte em detalhe | object | 434710d5d0a2e467 | lifebelt, blanket, whistle, lantern, wheel, bell, rope, newspaper, headphones, oar
+- iluminacao_cinematica_1912 | Iluminação marítima e interior com reflexos | lighting | ebb6fa321ba08672 | padrao
+- papel_parede_maritimo_1912 | Papel de parede e reboco de bordo | material | 8987ca200cd42f67 | padrao
+- inset_fotografico_historico | Insert fotográfico histórico | overlay | 19fef226f9331957 | rescue-archive
+- inset_filmico_historico | Insert de filme histórico em movimento | overlay | 9c32ecd7b1a49b62 | titanic-belfast
+- amarra_portuaria_1912 | Amarra de saída no cais | object | 7f6793f8746d30ed | single
+- inset_fotografico_southampton | Fotografia histórica do Titanic em Southampton | overlay | 430ce4d12a4081b2 | titanic-southampton-1912, californian-1912, carpathia-officers-may-1912, titanic-marconi-wireless-room-1912
+- inset_fotografico_deck_segunda_classe | Fotografia histórica do convés de segunda classe do Titanic | overlay | a4c0392187902f3e | titanic-second-class-deck-1912
+- sertao_scene_quarto_sertao | Quarto da casa no Sertão em corte | scene | fbbcd56197080f60 | scene-quarto-sertao
+- sertao_lighting_ciclo_dia_noite | Luz de tarde e noite | lighting | 214118ef0685c257 | lighting-ciclo-dia-noite
+- sertao_camera_caminho_cobertura_quarto | Câmera editorial e cortes da casa | camera | c74ee045442c2c88 | camera-caminho-cobertura-quarto
+- sertao_transition_volta_tarde | Corte de retorno à tarde | transition | 607dd169c26c729e | transition-volta-tarde
+- sertao_roof_stack_corte | Cobertura em camadas | object | 2e8b33b2864de2fe | roof-stack-corte
+- sertao_material_telha_clara | Telha clara refletiva | material | 0e3ab1b27d4d49c5 | material-telha-clara
+- sertao_animation_radiacao_e_transferencia | Caminho do calor da telha ao quarto | animation | 7d663c468f2dd34b | animation-radiacao-e-transferencia
+- sertao_effect_calor_armazenado_laje | Calor persistente na laje | effect | 8ef20d48964ede1c | effect-calor-armazenado-laje
+- sertao_object_ventilador_pedestal | Ventilador de pedestal completo | object | 4e0ede6702e49db5 | object-ventilador-pedestal
+- sertao_character_pessoa_quarto | Pessoa no quarto | character | b6018136a1675911 | character-pessoa-quarto
+- sertao_animation_ventilador_alvo | Vento focado na pessoa | animation | ae1e7d50567851aa | animation-ventilador-alvo
+- sertao_sound_motor_ventilador | Som do ventilador | sound | 6520dd73bfa639a8 | sound-motor-ventilador
+- sertao_animation_atico_falha_solucao | Falha e correção da ventilação do ático | animation | 89dcfaf21ea2506a | animation-atico-falha-solucao
+- sertao_overlay_rotulos_conceitos | Rótulos dos conceitos | overlay | 2dce99a51af6bede | overlay-rotulos-conceitos
+- sertao_effect_irradiacao_restante | Radiação que permanece no ático | effect | c2845ad7e5ac4e59 | effect-irradiacao-restante
+- sertao_object_manta_refletiva | Manta refletiva sob as telhas | object | dacdbfcca5dcdbef | object-manta-refletiva
+- sertao_material_aluminio_manta | Face aluminizada da manta | material | 606dbb392f370bcc | material-aluminio-manta
+- sertao_animation_manta_comparacao | Instalação e comparação da manta | animation | c436898965fd32c0 | animation-manta-comparacao
+- sertao_sound_foley_camadas | Foley das camadas térmicas | sound | b6b9a6ed750ed357 | sound-foley-camadas
+- sertao_object_la_rocha | Camada de lã de rocha | object | 554c16e656b777a7 | object-la-rocha
+- sertao_material_la_rocha | Material de lã de rocha | material | bb2a99862857ecc1 | material-la-rocha
+- sertao_animation_isolamento_fresta | Continuidade e falha da isolação | animation | acc17ac4b748a4b6 | animation-isolamento-fresta
+- sertao_animation_inercia_laje | Armazenamento e liberação de calor | animation | 512d335c83e7bb27 | animation-inercia-laje
+- sertao_object_janelas_veneziana | Janelas opostas e veneziana | object | 183e7053e53a8b64 | object-janelas-veneziana
+- sertao_overlay_temperatura_relativa | Comparação de temperatura relativa | overlay | 3e4fd016737c3ba3 | overlay-temperatura-relativa
+- sertao_animation_ventilacao_cruzada | Ventilação cruzada condicionada | animation | c7938c5dc073736d | animation-ventilacao-cruzada
+- sertao_animation_veneziana_sombra | Fechamento da veneziana e sombra | animation | 8d32cd6216645669 | animation-veneziana-sombra
+- sertao_sound_fecho_veneziana | Som do fecho da veneziana | sound | c58ceec5df33628e | sound-fecho-veneziana
+- sertao_animation_payoff_cama | Payoff do ventilador junto à cama | animation | 33b2aea9560cd598 | animation-payoff-cama
+- sertao_effect_calor_noite_teto | Calor que persiste no teto | effect | 2c5d4ca515239cc8 | effect-calor-noite-teto
+- sertao_effect_reflexao_telha | Reflexo solar na telha clara | effect | 08948be26a891f4c | effect-reflexao-telha
+- sertao_overlay_label_barreira | Rótulo: barreira radiante | overlay | 8df5985da09ba954 | overlay-label-barreira
+- sertao_overlay_label_isolamento | Rótulo: isolamento térmico | overlay | c99b2a0028e0750a | overlay-label-isolamento
+- sertao_overlay_label_inercia | Rótulo: inércia térmica | overlay | efe575336319a343 | overlay-label-inercia
+- sertao_effect_calor_atico_fechado | Acúmulo de calor no ático fechado | effect | 30d12d7fc25a52f9 | effect-calor-atico-fechado
+- inset_fotografico_salao_jantar_titanic | Fotografia histórica do grande salão de jantar do Titanic | overlay | 499e1f848bc0e51e | titanic-grand-dining-saloon-1912
+- inset_fotografico_radio_titanic | Fotografia histórica da sala de rádio Marconi do Titanic | overlay | 933cafb23a634c05 | titanic-marconi-wireless-room-1912
+- inset_fotografico_mesaba | Telegrama histórico Mesaba → Titanic | overlay | 344a7ddf5e40a950 | mesaba-telegram-1912
+- inset_fotografico_cabine_b60 | Fotografia histórica da cabine B-60 do Titanic | overlay | 3b2cf5bc7e57571a | titanic-stateroom-b60-1912
+- inset_fotografico_familia_kink | Fotografia histórica da família Kink, passageiros da terceira classe | overlay | 95d4ec094e8e27e0 | titanic-survivors-kink-family-1912
+- passagem_estanque_1912 | Passagem estanque ilustrativa de 1912 | scene | 141839c78a635718 | padrao
+- foguete_socorro_branco_1912 | Foguete branco de socorro — encenação | effect | 2b14272c25b4d0e3 | padrao
+- bote_dobravel_invertido_1912 | Dobrável invertido ilustrativo | object | 4975c3b791a89685 | inverted
+- roupa_resgate_1912 | Roupa de resgate envolvente | object | 4e19828f9da10f60 | coat, blanket
+- passageira_maritima_1912 | Passageira de1912 — figura ilustrativa | character | 710b4c2092c64d54 | padrao
+- acoes_resgate_1912 | Contatos de resgate, escada e içamento de 1912 | animation | 425bf44fce768cc2 | padrao
+- sertao_character_pessoa_quarto_rig | Pessoa do quarto · rig humano do kit | character | 18f180940864bd7a | pessoa-quarto-rig-kit-v2
+- sertao_scene_insert_forno_radiacao | Insert no terreiro · forno de barro | scene | a2fb66e2a5496c70 | forno-barro-radiacao
+- sertao_exterior_terreiro | Exterior da casa no terreiro do Sertão | scene | beb3a093bc09eca1 | terreiro-tarde, terreiro-noite
+- abstract_agent_route | Percurso abstrato que se torna jogável | animation | 9a045a2e5f623bf5 | single-path, diverted-path
+- abstract_overhead_city | Cidade esquemática vista de cima | scene | eb2bbd7240d8497f
+- acquisition_financial_evidence | Cartela de categorias financeiras da aquisição | overlay | aff3e89a2bc09b73
+- amiga_photo_evidence_overlay | Inserto fotográfico licenciado de um Amiga 500 | overlay | 7046d3eb584b32f0
+- anonymous_developer_figure | Figura genérica de programador | character | 659aef873ccce2b4
+- closing_choice_scale_transition | Retorno da pequena rota à cidade inteira | transition | 6461c02cac1400f9
+- development_material_disclosure | Fluxo de material de desenvolvimento divulgado | effect | 041c58d444538f86
+- dma_location_plaque_photo_overlay | Inserto fotográfico licenciado da placa da DMA em Dundee | overlay | b3b8df40b6b492d8
+- dma_upstairs_office | Escritório pequeno acima de um comércio | scene | 6b45749303e4f170 | shop-and-office
+- history_timeline_overlay | Linha do tempo editorial e cartelas de evidência | overlay | af3c044bb5d587c2
+- overhead_follow_camera | Câmera acompanha e abre sobre o mapa | camera | a8126251442d709c
+- period_computing_light | Luz de oficina e computação de época | lighting | 9376c9d2c12d27bf | classroom, workshop
+- persistent_world_updates | Camadas de atualização sobre o mesmo território | animation | ed6880668bacadd0
+- platform_porting_animation | Adaptação visual entre plataformas | animation | 8d8ec0589b5e786e
+- platform_scale_overlay | Cartela de formatos e versões | overlay | 772f64783ad9624f
+- portfolio_title_overlay | Catálogo tipográfico de séries e gêneros | overlay | 73ee7d8c861ea12e | catalog-grid
+- programming_club_scene | Encontro de programação em Dundee | scene | dc08a5001dcc4691 | club-demo
+- publisher_developer_relations | Diagrama de editoras, estúdios e aquisições | overlay | c9e912e3af364c8e
+- pursuit_feedback_effect | Relação entre rota, perseguição e resposta | effect | a4749e81788fe41a
+- regional_world_expansion | Expansão de mapa urbano para região | animation | cd0cecf146e69014
+- resource_apple_ii_photo | Inserto fotográfico licenciado de um Apple II | overlay | ae8fdaa10d8d204a
+- resource_zx81_kit_photo | Inserto fotográfico licenciado de um kit ZX81 | overlay | f04eec1c92177717
+- retro_computer_material | Materiais de microcomputador e papel de época | material | f7e0063b598b71fd | computer-shell, crt-glass, technical-paper
+- retro_computers | Computadores domésticos de época | object | 66020eeb0a9aa7f8 | shared-apple, assembled-kit, microcomputer, 16-bit
+- sales_metric_sold_in | Métrica comercial com definição de sold-in | overlay | 96b4a0d44a00f67d
+- shared_map_viewpoint_switch | Transferência entre perspectivas no mesmo mapa | animation | 4a3695fee90661ca
+- three_anonymous_viewpoints | Três figuras narrativas genéricas | character | dc17cb574d167a6b
+- topdown_to_street_transition | Transição de mapa plano para cidade 3D | transition | b14a9d787f4883c9
+- work_conditions_evidence | Cartela de evidência sobre jornadas e relatos | overlay | d1d5affc565f13a6
+- resource_david_jones_portrait | Retrato público de David Jones, 2003 | overlay | b496d30e00f916cd
+- brasil_atlas_abertura | Atlas de camadas — abertura | scene | 762f617e0d0dedce | padrao
+- abertura_carimbo | Carimbo de latão da abertura | object | 08c94d1c9228c178 | carimbo
+- abertura_dados | Folha de pagamento e barra de 70% | object | ae6a9ef94118f3a1 | dados
+- abertura_lei | Documento da lei com vazios | object | 33432b690c446f9c | lei
+- abertura_mosaico_1500 | Mosaico de 1500 | object | 55609bc7ee2ba551 | mos1500
+- abertura_cartao | Cartões de número da abertura | object | f471b2fc063f63ca | 55, 70, 1888, 1500
+- abertura_renda | Camada de renda sobre o mapa | object | 8e7c14a238c2edf9 | renda
+- abertura_poeira | Poeira da mesa | object | 80cf86328e9ff3b1 | poeira
+- abertura_set_dados | Mundo — mesa de dados | scene | d1960f6e86fe004d | dados
+- abertura_set_documento | Mundo — mesa de documento | scene | 44152076d09f8112 | documento
+- abertura_set_macro | Mundo — macro de papel | scene | 51e511470fb11b4c | macro
+- abertura_set_mapa | Mundo — parede de mapa | scene | 87476f5e28446f42 | mapa
+- abertura_set_diorama | Mundo — diorama de 1500 | scene | 01f4e29420bed50f | diorama

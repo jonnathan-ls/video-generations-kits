@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "projectId": "crochet-limpeza-cozinha-wan2gp",
+  "status": "proof-iteration-02-pending",
+  "durationSeconds": 29.375,
+  "source": {
+    "url": "https://www.instagram.com/reel/Dck3Gz1SHr0/",
+    "localPath": "research/references/crochet-mini-kitchen/source.mp4",
+    "sha256": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+    "samplingFps": 10,
+    "sampledFrames": 294,
+    "usedFor": "ordem dos beats, ações e candidatos a cortes",
+    "passedToAnyModel": false,
+    "sourceAudioUsed": false
+  },
+  "productionMethod": {
+    "pipeline": "wan2gp-local-ai-video",
+    "visualGeneration": "local Wan2GP model only",
+    "threeJsScenesOrAssets": false,
+    "codeDrawnVisuals": false,
+    "editorialCodeAllowedFor": [
+      "cuts",
+      "timing",
+      "audio synchronization",
+      "delivery encoding"
+    ]
+  },
+  "generationStrategy": {
+    "phase": "single-action texture/contact proof before full shot queue",
+    "modelType": "t2v_nexus_1.3B",
+    "modelStatus": "weights already local and SHA-256 verified",
+    "checkpoint": "vendor/wan2gp/ckpts/wan2.1_t2v_1.3b.nexus.B-SMOOTHED.build.1.safetensors",
+    "checkpointSha256": "f970b3bc30aac8a687aedb51e9675f0f0eff0d24cf4921317dde900ebec66236",
+    "upstreamCommit": "f0b54e02aa32b539e7be5c65cf4ada67db69da26",
+    "differenceFromRejectedBatch": "one continuous sponge pass only; no sequence of soap, scrub, rinse and rack placement in the same clip; fresh action-specific prompt and seed",
+    "notAvailableLocally": [
+      "Qwen Image 2.1 Turbo 8 Steps",
+      "Fun InP 1.3B"
+    ],
+    "notAttemptingToMaskLimit": "if this proof fails texture/contact QA, do not reuse the rejected checkpoint for the full queue",
+    "attempt01": {
+      "status": "rejected",
+      "finding": "the model rendered the ivory dish as glossy ceramic despite the crochet prompt; the frame sequence does not establish one clear left-to-right scrub",
+      "evidence": "qa/attempt-01-contact-sheet-10fps.png"
+    },
+    "attempt02Correction": "remove the dish/plate token that pulled the model toward porcelain; make a flexible bowl-shaped crochet textile the sole focal prop and emphasize loops on its inside and outside"
+  },
+  "proof": {
+    "id": "v04-01-pia-esponja-uma-passada",
+    "beatId": "01-pia-louca",
+    "durationSeconds": 2.5625,
+    "frames": 41,
+    "fps": 16,
+    "settings": "revisions/v04/settings/one-pass-scrub-v2.json",
+    "output": "revisions/v04/output",
+    "qa": "revisions/v04/qa/proof-review.json",
+    "acceptance": [
+      "crochet loops and cotton fibers remain clear and temporally stable on plate, sponge and visible surfaces",
+      "the sponge performs exactly one continuous sweep and remains in physical contact",
+      "the plate and kitchen identity do not morph; no extra hands, fingers or cleaning actions appear",
+      "fixed macro framing reads in 9:16 at phone scale",
+      "no P0/P1 finding remains in professional motion review"
+    ]
+  },
+  "audio": {
+    "generatedInVideoModel": false,
+    "soundDesign": "project sound-design.json remains a proposal; foley is aligned only after visual acceptance",
+    "humanListening": "pending"
+  },
+  "runBoundary": {
+    "generationStarted": true,
+    "gpuUsedByRevision04": true,
+    "finalAssemblyRendered": false,
+    "nextGate": "generate only the proof clip, inspect its actual MP4, then expand only if the professional QA passes"
+  },
+  "creatorReview": {
+    "decisionRequested": "none-before-generation",
+    "firstAestheticReview": "actual Wan2GP proof clip after professional QA"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "independent-direction",
+      "kind": "direction",
+      "stage": "implemented",
+      "specification": "Decompor narração E3 em ações únicas, ambiente novo de oficina; preservar encadeamento causal sem copiar a encenação do original.",
+      "humanApproved": false
+    },
+    {
+      "id": "ten-new-clips",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Gerar dez clipes novos somente por texto, sem mídia de referência do original; registrar parâmetros e falhas.",
+      "humanApproved": false
+    },
+    {
+      "id": "free-comparison",
+      "kind": "composition",
+      "stage": "implemented",
+      "specification": "Compor em 41.6s com voz e legendas locais; publicar apenas diagnóstico na página Wi-Fi já autorizada.",
+      "humanApproved": false
+    },
+    {
+      "id": "free:01-coroamento",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. A front close view of the crown of an unfinished semicircular arch. One red trapezoid keystone is suspended above the central gap. It slowly lowers into the gap, touches the two neighboring wedges and stops flush with them. The other bricks do not move. The camera holds still so the insertion is clearly visible.",
+      "start": 0,
+      "end": 5.12,
+      "requiredFile": "wan2gp-output/01-coroamento.mp4",
+      "review": "pending",
+      "humanApproved": false
+    },
+    {
+      "id": "free:02-falha-apoio",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. An intact semicircular brick arch stands on two massive stone piers. The right pier slowly moves outward once. A narrow gap opens between two wedges near that support and the arch begins to sag. Make the physical separation readable. Show the entire arch and both supports in one shot, not a huge explosion.",
+      "start": 5.12,
+      "end": 10.78,
+      "requiredFile": "wan2gp-output/02-falha-apoio.mp4",
+      "review": "pending",
+      "humanApproved": false
+    },
+    {
+      "id": "free:03-pergunta",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. A complete semicircular brick arch stands stable on two thick stone piers. The camera slowly circles through a small angle, revealing the empty space under the arch and the wedge-shaped bricks touching each other. Keep the arch stable, with visible contact between the stones and the workbench.",
+      "start": 10.78,
+      "end": 14.42,
+      "requiredFile": "wan2gp-output/03-pergunta.mp4",
+      "review": "pending",
+      "humanApproved": false
+    },
+    {
+      "id": "free:04-compressao",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. Extreme close view tracking along the curved ring of a brick arch. Red tapered wedge bricks press against one another along their radial faces. Begin at the central keystone, then move down the curve to the stone pier. Closely fitted edges and physical contact are the main subject.",
+      "start": 14.42,
+      "end": 19.76,
+      "requiredFile": "wan2gp-output/04-compressao.mp4",
+      "review": "pending",
+      "humanApproved": false
+    },
+    {
+      "id": "free:05-argamassa",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. Macro cinematic view of pale mortar joints between rough red wedge bricks in a masonry arch. A single bead of fresh mortar fills a narrow joint between two touching wedges. The camera slowly slides past the joint, revealing rough clay and fine lime mortar texture.",
+      "start": 19.76,
+      "end": 22.62,
+      "requiredFile": "wan2gp-output/05-argamassa.mp4",
+      "review": "pending",
+      "humanApproved": false
+    },
+    {
+      "id": "free:06-montagem",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. A half-built brick arch rests on a curved wooden centering frame in a masonry workshop. Thick wooden legs carry the curved timber ribs and touch the workbench. Wedge bricks lie only on the top curve, with a clearly unfinished central gap. Slowly reveal the wooden support underneath.",
+      "start": 22.62,
+      "end": 25.9,
+      "requiredFile": "wan2gp-output/06-montagem.mp4",
+      "review": "pending",
+      "humanApproved": false
+    },
+    {
+      "id": "free:07-cimbre",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. A curved wooden centering frame supports the red wedge bricks of a half-built arch. One final keystone lowers into the central gap and completes the ring. All wood remains in contact beneath the bricks, and the two thick stone piers remain planted on the workbench.",
+      "start": 25.9,
+      "end": 30.7,
+      "requiredFile": "wan2gp-output/07-cimbre.mp4",
+      "review": "pending",
+      "humanApproved": false
+    },
+    {
+      "id": "free:08-retirada",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. The brick arch is complete and stable on its two stone piers. The curved wooden centering frame beneath it lowers slightly, clearing the underside of the arch, then slides forward out of the opening. The masonry stays still after the support leaves. Show one clear removal action.",
+      "start": 30.7,
+      "end": 32.76,
+      "requiredFile": "wan2gp-output/08-retirada.mp4",
+      "review": "pending",
+      "humanApproved": false
+    },
+    {
+      "id": "free:09-sistema",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. Begin with a close view of the central keystone of a completed arch. Slowly pull back to reveal its neighboring wedge bricks and the entire ring reaching both stone piers. The keystone belongs to the connected ring; every brick remains touching its neighbor.",
+      "start": 32.76,
+      "end": 36.52,
+      "requiredFile": "wan2gp-output/09-sistema.mp4",
+      "review": "pending",
+      "humanApproved": false
+    },
+    {
+      "id": "free:10-vao-livre",
+      "kind": "animation",
+      "stage": "generated-diagnostic",
+      "specification": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. A completed red brick arch rests on two solid stone piers. The camera tracks down a pier to its wide solid foundation and the workbench below, then reveals the unobstructed empty space beneath the arch. End on a stable frontal view of the whole arch, resting firmly on both supports.",
+      "start": 36.52,
+      "end": 41.576,
+      "requiredFile": "wan2gp-output/10-vao-livre.mp4",
+      "review": "pending",
+      "humanApproved": false
+    }
+  ]
+}

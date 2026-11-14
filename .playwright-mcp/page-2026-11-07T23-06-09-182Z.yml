@@ -1,0 +1,27 @@
+- generic [active] [ref=f3e1]:
+  - main [ref=f3e2]:
+    - generic [ref=f3e4]: PRÉVIA TÉCNICA · NÃO É ENTREGA FINAL
+  - generic [ref=f3e5]:
+    - button "Reproduzir prévia" [ref=f3e6]: ▶ Reproduzir
+    - generic [ref=f3e7]: Tempo
+    - slider "Tempo" [ref=f3e8]: "0"
+    - status [ref=f3e9]: 00:00.0
+    - generic [ref=f3e10]: Ir para cena
+    - combobox "Ir para cena" [ref=f3e11]:
+      - option "Escolha uma cena…" [selected]
+      - option "O vigia percebe a luz"
+      - option "O sinal corta a escuridão"
+      - option "A reação do oficial"
+      - option "A resposta do Carpathia"
+      - option "002.01 · O navio dele se chamava Carpathia."
+      - option "002.02 · Corria para atender a um pedido de socorro."
+      - option "002.03 · Ao redor, havia gelo."
+      - option "003.01 · Mais de duas mil pessoas estavam no Titanic."
+      - option "003.02 · Os botes não tinham lugar para todas."
+      - option "003.03 · Mesmo assim, alguns partiram com lugares vazios."
+      - option "004.01 · Por que a ajuda não chegou antes?"
+      - option "004.02 · E de onde vinha aquela luz?"
+      - option "005.01 · Esta é a história da noite do Titanic, do choque com o iceberg à"
+      - option "005.01 · Esta é a história da noite do Titanic, do choque com o iceberg à"
+      - option "Pausa de capítulo — Antes de haver pressa"
+    - generic: Carregando…

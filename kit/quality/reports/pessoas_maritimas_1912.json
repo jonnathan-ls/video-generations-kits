@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "59ccd33154cb468793b6c29d7b1aa33a10d72f3d3f6abede1a8736d0e9d72cda",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "captain",
+      "meshes": 40,
+      "triangles": 5472,
+      "dimensions": [
+        0.736035333146352,
+        1.7920164794292939,
+        0.46945698027658855
+      ]
+    },
+    {
+      "variant": "passengers",
+      "meshes": 288,
+      "triangles": 37728,
+      "dimensions": [
+        0.5355901211103405,
+        1.797195010526404,
+        8.091546180651036
+      ]
+    },
+    {
+      "variant": "passenger",
+      "meshes": 36,
+      "triangles": 4716,
+      "dimensions": [
+        0.736035333146352,
+        1.797195010526404,
+        0.5107915458551928
+      ]
+    },
+    {
+      "variant": "seated",
+      "meshes": 36,
+      "triangles": 4620,
+      "dimensions": [
+        0.736035333146352,
+        1.467195010526404,
+        0.90533277895736
+      ]
+    },
+    {
+      "variant": "worker",
+      "meshes": 36,
+      "triangles": 4716,
+      "dimensions": [
+        0.736035333146352,
+        1.797195010526404,
+        0.5107915458551928
+      ]
+    },
+    {
+      "variant": "steward",
+      "meshes": 34,
+      "triangles": 4556,
+      "dimensions": [
+        0.736035333146352,
+        1.7292182330520214,
+        0.4445171195985435
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T03:51:32.481Z"
+}

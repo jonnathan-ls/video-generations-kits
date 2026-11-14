@@ -1,0 +1,6 @@
+import * as THREE from 'three';
+let puff;
+function puffTexture(){if(puff)return puff;const n=64,a=new Uint8Array(n*n*4);for(let y=0;y<n;y++)for(let x=0;x<n;x++){const r=Math.hypot((x+.5)/n-.5,(y+.5)/n-.5)*2,i=(y*n+x)*4;a[i]=a[i+1]=a[i+2]=230;a[i+3]=Math.max(0,1-r)**2*120;}puff=new THREE.DataTexture(a,n,n);puff.needsUpdate=true;return puff;}
+export function cloud(){const r=new THREE.Group();r.name='steam-plume';const sprites=[];for(let i=0;i<10;i++){const m=new THREE.SpriteMaterial({map:puffTexture(),transparent:true,depthWrite:false,opacity:0,color:'#dbe3df'}),s=new THREE.Sprite(m);r.add(s);sprites.push(s);}r.userData.sample=t=>{sprites.forEach((s,i)=>{const u=((t*.32+i*.1)%1+1)%1;s.position.set(Math.sin(i*2.4)*u*.24,u*1.6,Math.cos(i*2.4)*u*.18);s.scale.setScalar(.20+u*.8);s.material.opacity=Math.sin(u*Math.PI)*.23;});};r.userData.sample(0);return r;}
+export function create(){const r=cloud();const base=new THREE.Mesh(new THREE.CylinderGeometry(.1,.1,.2,12),new THREE.MeshStandardMaterial({color:'#555c60'}));r.add(base);return r;}
+export function apply({target},t,params={}){let plume=target.getObjectByName('steam-plume');if(!plume){plume=cloud();plume.position.fromArray(params.position||[0,21,0]);target.add(plume);}plume.userData.sample(t);}

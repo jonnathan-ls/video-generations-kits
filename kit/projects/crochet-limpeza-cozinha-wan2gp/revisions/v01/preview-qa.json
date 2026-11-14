@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "status": "rejected",
+  "checkedAt": "2026-11-09T11:32:53Z",
+  "scope": "Análise da referência a 10 fps, preflight nativo, geração Wan2GP dos 12 clips e inspeção dos 12 clips por contact sheet a 10 fps, mais 4 quadros em resolução original. A montagem final e a revisão de movimento de todos os clips no navegador não foram feitas.",
+  "checks": {
+    "referenceSampling": {
+      "status": "pass",
+      "method": "294 quadros extraídos a 10 fps; cortes e ações agrupados em 12 beats.",
+      "evidence": "research/references/crochet-mini-kitchen/contact-sheets/"
+    },
+    "beatCoverage": {
+      "status": "pass",
+      "method": "12 planos com início/fim contínuos até 29.375 s, cada um ligado a um beat e intenção sonora.",
+      "evidence": "beats.json; generation-plan.json"
+    },
+    "referenceIsolation": {
+      "status": "pass",
+      "method": "A referência serviu apenas à análise; nenhuma imagem, frame ou áudio foi enviado como input ao modelo.",
+      "evidence": "generation/input-lock.json; generation-run.json"
+    },
+    "staticWan2gpPreflight": {
+      "status": "pass",
+      "method": "Checkpoint, hashes, campos nativos, seeds e durações validados antes da geração.",
+      "evidence": "validation.json; generation/input-lock.json"
+    },
+    "nativeWan2gpDryRun": {
+      "status": "pass",
+      "method": "Doctor local e dry-runs offline da abertura e da fila restante terminaram com exitCode 0.",
+      "evidence": "wan2gp-hook-dryrun-v4/job.json; wan2gp-rest-dryrun/job.json"
+    },
+    "clipGeneration": {
+      "status": "pass",
+      "method": "12/12 tarefas concluídas; arquivos 432x768, 16 fps. Isso confirma execução técnica, não qualidade.",
+      "evidence": "generation-run.json; wan2gp-hook-v4-output/job.json; wan2gp-rest-output/job.json"
+    },
+    "crochetTexture": {
+      "status": "rejected",
+      "method": "Quadros de resolução original mostram laçadas nítidas em alguns props, enquanto paredes, armários, backsplash, pia, fogão e piso ficam lisos ou fotográficos em vários clips.",
+      "evidence": "qa/clips-10fps/; qa/frames/01-pratos-pia-full.png; qa/frames/03-cooktop-full.png; qa/frames/12-revelacao-final-full.png"
+    },
+    "shotActionAccuracy": {
+      "status": "rejected",
+      "method": "O clip 05 retira um tapete do chão em vez de limpar a prateleira da geladeira; o clip 10 pousa a panelinha sem a passada final de pano; abertura sem enxágue/espuma visível.",
+      "evidence": "qa/clips-10fps/05-geladeira-limpa-10fps.jpg; qa/clips-10fps/10-fogao-final-10fps.jpg; qa/clips-10fps/01-pratos-pia-10fps.jpg"
+    },
+    "motionAndContinuity": {
+      "status": "rejected",
+      "method": "As folhas de contato a 10 fps mostram composições, layouts, paletas e materiais diferentes entre clips; o total de duração bruta é 31.749 s e exigiria recorte por beat.",
+      "evidence": "qa/clips-10fps/; generation-run.json"
+    },
+    "browserMotionQA": {
+      "status": "not-verified",
+      "method": "Abertura V4 foi revisada em movimento no navegador; os demais clips não passaram por revisão individual no navegador.",
+      "evidence": "qa/hook/iteration-04/contact-10fps.jpg"
+    },
+    "audioPreviewBuild": {
+      "status": "pass",
+      "method": "Ponte de áudio e mixer local geraram uma prévia de 29.375 s com trilha procedural e 13 eventos; sem áudio da referência.",
+      "evidence": "audio-preview.json; audio-build/build/mix.wav"
+    },
+    "audioListening": {
+      "status": "not-verified",
+      "method": "A prévia existe, mas a escuta crítica e aprovação humana continuam pendentes.",
+      "evidence": "audio-build/build/mix.wav"
+    },
+    "phonePreview": {
+      "status": "not-verified",
+      "method": "Não há montagem final nem página de prévia do projeto; a resolução gerada é 432x768.",
+      "evidence": null
+    },
+    "humanApproval": {
+      "status": "pending",
+      "method": "O plano/lista foi aprovado no chat; assets gerados, som, prévia e vídeo não foram aprovados.",
+      "evidence": "state.json"
+    },
+    "finalAssembly": {
+      "status": "not-started",
+      "method": "Parado antes da montagem/exportação final, conforme instrução do criador.",
+      "evidence": null
+    },
+    "repositoryTests": {
+      "status": "pass",
+      "method": "npm test: 59 passaram, 0 falharam.",
+      "evidence": "saída npm test de 2026-11-09"
+    },
+    "reproducibility": {
+      "status": "pass",
+      "method": "Prompts, seeds por plano, hashes das filas e do checkpoint, commit upstream e recibos de execução preservados. Byte a byte não é garantido entre stacks de GPU.",
+      "evidence": "generation-run.json; generation/input-lock.json; generation/video.json"
+    }
+  },
+  "findings": [
+    {
+      "id": "crochet-surface-fidelity",
+      "severity": "P1",
+      "domain": "art-lighting/material",
+      "observation": "A trama de crochê aparece em alguns objetos, mas grande parte das superfícies que deveriam ser de fio continua lisa, de madeira, azulejo ou metal.",
+      "consequence": "A meta explícita de consistência e alta qualidade de textura não é atingida pelo lote atual.",
+      "nextCheck": "Revisar a direção de estilo/condicionamento antes de qualquer novo lote; validar um teste visual curto antes de reexecutar os demais."
+    },
+    {
+      "id": "independent-kitchen-layout-drift",
+      "severity": "P1",
+      "domain": "continuity",
+      "observation": "Os clips independentes mudam o desenho da cozinha, a paleta e a composição; o plano final não recompõe o mesmo L da abertura.",
+      "consequence": "Cortes secos entre eles pareceriam uma montagem de cozinhas diferentes.",
+      "nextCheck": "Resolver continuidade visual na estratégia e repetir a amostragem de todos os cortes."
+    },
+    {
+      "id": "wan2gp-action-drift",
+      "severity": "P1",
+      "domain": "animation/storyboard",
+      "observation": "Alguns eventos solicitados foram substituídos por outras ações, incluindo retirar tapete no beat 05 e apenas pousar panela no beat 10.",
+      "consequence": "Som e narrativa visual poderiam afirmar contatos que não acontecem.",
+      "nextCheck": "Corrigir cada prompt para uma ação focal verificável; comparar contato, movimento e resultado em nova revisão."
+    },
+    {
+      "id": "nexus-delivery-resolution",
+      "severity": "P2",
+      "domain": "image-quality",
+      "observation": "A saída base é 432x768 e o upscale para 1080x1920 não recupera detalhes finos que não existem.",
+      "consequence": "A qualidade percebida das laçadas pode cair na visualização em tela grande.",
+      "nextCheck": "Reavaliar nitidez em escala de telefone e resolução final depois que o estilo e a ação forem corrigidos."
+    }
+  ]
+}

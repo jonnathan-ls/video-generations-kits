@@ -1,0 +1,22 @@
+{
+  "id": "Dck3Gz1SHr0",
+  "url": "https://www.instagram.com/reel/Dck3Gz1SHr0/",
+  "profile": "crochet.mini.kitchen",
+  "publicTitle": "Video by crochet.mini.kitchen",
+  "publicDescription": "kitchen cleaning day #crochetart #kitchencleaning #aivideo #minikitchen",
+  "file": "source.mp4",
+  "sha256": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+  "durationSeconds": 29.375011,
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "videoCodec": "vp9",
+  "audioCodec": "aac",
+  "audioSampleRate": 44100,
+  "audioChannels": 2,
+  "framesExtractedAtFps": 10,
+  "framesExtracted": 294,
+  "audioListening": "not-verified",
+  "speechTranscription": "not-available; whisper.cpp not installed",
+  "license": "not-verified; research only"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "360cbe5af8593a07f0748904f789984ac373f9e6a5334aeae0d901259bb6740c",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "effect-irradiacao-restante",
+      "meshes": 23,
+      "triangles": 13272,
+      "dimensions": [
+        4.134994387626648,
+        4.34999999165535,
+        3.795
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "effect-irradiacao-restante: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.661Z"
+}

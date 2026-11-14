@@ -1,0 +1,418 @@
+{
+  "collectedOn": "2026-11-04",
+  "timezone": "America/Sao_Paulo",
+  "selection": "3 Shorts públicos disponíveis no YouTube; 3 Reels mais vistos entre os 28 posts do perfil Instagram, conforme contagens exibidas no navegador conectado.",
+  "findings": [
+    "Continuidade causal: mostrar a falha, introduzir uma peça e demonstrar como ela resolve o problema antes de apresentar a próxima restrição.",
+    "O corte mantém o objeto reconhecível enquanto revela camadas, trajetos e contatos que ficariam escondidos.",
+    "As seis referências têm 80,5–96,8 s de arquivo e aproximadamente 172–191 palavras/minuto, conforme as transcrições automáticas.",
+    "YouTube: low-poly, cores simples e construção cumulativa. Instagram: interiores e materiais mais detalhados, com dor doméstica, falsa solução e analogia.",
+    "O mix completo medido fica entre -14,1 e -14,0 LUFS. Isso não identifica o timbre ou o nível separado dos FX.",
+    "Novos recursos entram em revisão humana por variação; a geração final exige aprovação da revisão de código atual."
+  ],
+  "videos": [
+    {
+      "id": "SMljncnq2UI",
+      "platform": "youtube",
+      "duration": 86.021,
+      "width": 608,
+      "height": 1080,
+      "views": 3856,
+      "title": "Cristo Redentor: função de cada peça",
+      "url": "https://www.youtube.com/watch?v=SMljncnq2UI",
+      "frames": [
+        0.0,
+        5.05,
+        10.1,
+        15.15,
+        20.2,
+        25.26,
+        30.31,
+        35.36,
+        40.41,
+        45.46,
+        50.51,
+        55.56,
+        60.61,
+        65.67,
+        70.72,
+        75.77,
+        80.82,
+        85.87
+      ],
+      "contactSheet": "/research/frames/SMljncnq2UI/contact.jpg",
+      "wordCount": 247,
+      "wordsPerMinute": 172.3,
+      "segments": 26,
+      "integratedLUFS": -14.1,
+      "truePeakDBFS": -1.2,
+      "viewsLabel": "3.856",
+      "observation": "Montagem causal de estrutura, fundação, revestimento e manutenção. O corte abre a estátua mantendo o monumento como referência espacial.",
+      "beats": [
+        {
+          "start": 0,
+          "end": 13,
+          "purpose": "Escala ingênua e falha do material"
+        },
+        {
+          "start": 13,
+          "end": 33,
+          "purpose": "Estrutura oca e fundação na rocha"
+        },
+        {
+          "start": 33,
+          "end": 51,
+          "purpose": "Revestimento e detalhe próximo"
+        },
+        {
+          "start": 51,
+          "end": 69,
+          "purpose": "Raio e caminho até a terra"
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "purpose": "Manutenção interna e fechamento"
+        }
+      ],
+      "viewsPrecision": "metadados do vídeo na coleta"
+    },
+    {
+      "id": "YVkyM_uHYPY",
+      "platform": "youtube",
+      "duration": 84.401,
+      "width": 608,
+      "height": 1080,
+      "views": 1356,
+      "title": "Ponte: função de cada peça",
+      "url": "https://www.youtube.com/watch?v=YVkyM_uHYPY",
+      "frames": [
+        0.0,
+        4.96,
+        9.91,
+        14.87,
+        19.82,
+        24.78,
+        29.74,
+        34.69,
+        39.65,
+        44.6,
+        49.56,
+        54.52,
+        59.47,
+        64.43,
+        69.38,
+        74.34,
+        79.3,
+        84.25
+      ],
+      "contactSheet": "/research/frames/YVkyM_uHYPY/contact.jpg",
+      "wordCount": 264,
+      "wordsPerMinute": 187.7,
+      "segments": 26,
+      "integratedLUFS": -14.0,
+      "truePeakDBFS": -1.2,
+      "viewsLabel": "1.356",
+      "observation": "A ponte permanece sobre o mesmo rio; o enquadramento vai ao ponto de falha e retorna ao conjunto. A viga, o pilar, o apoio e a drenagem têm demonstrações próprias.",
+      "beats": [
+        {
+          "start": 0,
+          "end": 9,
+          "purpose": "Solução improvisada falha"
+        },
+        {
+          "start": 9,
+          "end": 26,
+          "purpose": "Concreto e aço: esforços diferentes"
+        },
+        {
+          "start": 26,
+          "end": 43,
+          "purpose": "Pilar e interação com correnteza"
+        },
+        {
+          "start": 43,
+          "end": 69,
+          "purpose": "Margens, encontro e aparelho de apoio"
+        },
+        {
+          "start": 69,
+          "end": 82,
+          "purpose": "Chuva, drenagem e resultado"
+        }
+      ],
+      "viewsPrecision": "metadados do vídeo na coleta"
+    },
+    {
+      "id": "VRQiGogxCEw",
+      "platform": "youtube",
+      "duration": 80.521,
+      "width": 608,
+      "height": 1080,
+      "views": 1234,
+      "title": "Forno de pizza: base, cúpula e calor",
+      "url": "https://www.youtube.com/watch?v=VRQiGogxCEw",
+      "frames": [
+        0.0,
+        4.73,
+        9.46,
+        14.18,
+        18.91,
+        23.64,
+        28.37,
+        33.09,
+        37.82,
+        42.55,
+        47.28,
+        52.0,
+        56.73,
+        61.46,
+        66.19,
+        70.92,
+        75.64,
+        80.37
+      ],
+      "contactSheet": "/research/frames/VRQiGogxCEw/contact.jpg",
+      "wordCount": 256,
+      "wordsPerMinute": 190.8,
+      "segments": 23,
+      "integratedLUFS": -14.1,
+      "truePeakDBFS": -1.1,
+      "viewsLabel": "1.234",
+      "observation": "Construção cumulativa de um forno no quintal. O corte mostra o calor voltando da cúpula para a pizza; o conjunto continua reconhecível até o final.",
+      "beats": [
+        {
+          "start": 0,
+          "end": 8,
+          "purpose": "Fogo exposto e consequência"
+        },
+        {
+          "start": 8,
+          "end": 24,
+          "purpose": "Base e camada refratária"
+        },
+        {
+          "start": 24,
+          "end": 39,
+          "purpose": "Cúpula e percurso do calor"
+        },
+        {
+          "start": 39,
+          "end": 60,
+          "purpose": "Boca, fumaça e chaminé"
+        },
+        {
+          "start": 60,
+          "end": 78,
+          "purpose": "Isolamento e payoff culinário"
+        }
+      ],
+      "viewsPrecision": "metadados do vídeo na coleta"
+    },
+    {
+      "id": "DfPlrwRuSLj",
+      "platform": "instagram",
+      "duration": 96.759002,
+      "width": 1080,
+      "height": 1920,
+      "views": null,
+      "title": "Por que o mofo do rodapé sempre volta?",
+      "url": "https://www.instagram.com/reel/DfPlrwRuSLj/",
+      "frames": [
+        0.0,
+        5.68,
+        11.37,
+        17.05,
+        22.73,
+        28.41,
+        34.1,
+        39.78,
+        45.46,
+        51.15,
+        56.83,
+        62.51,
+        68.19,
+        73.88,
+        79.56,
+        85.24,
+        90.93,
+        96.61
+      ],
+      "contactSheet": "/research/frames/DfPlrwRuSLj/contact.jpg",
+      "wordCount": 287,
+      "wordsPerMinute": 178.0,
+      "segments": 39,
+      "integratedLUFS": -14.1,
+      "truePeakDBFS": -0.9,
+      "viewsLabel": "3,3 milhões",
+      "observation": "A parede em corte mostra solo, fundação e alvenaria. O roteiro derruba duas falsas soluções, usa uma analogia de capilaridade e distingue umidade ascendente de condensação.",
+      "beats": [
+        {
+          "start": 0,
+          "end": 12,
+          "purpose": "Dor doméstica e limpeza que não resolve"
+        },
+        {
+          "start": 12,
+          "end": 32,
+          "purpose": "Capilaridade, analogia e salitre"
+        },
+        {
+          "start": 32,
+          "end": 43,
+          "purpose": "Cerâmica desloca o problema"
+        },
+        {
+          "start": 43,
+          "end": 69,
+          "purpose": "Barreira e ponte de umidade por terra externa"
+        },
+        {
+          "start": 69,
+          "end": 95,
+          "purpose": "Diagnóstico da casa pronta, barreira química e condensação"
+        }
+      ],
+      "viewsPrecision": "contagem pública abreviada na interface"
+    },
+    {
+      "id": "DfFTGMXu-Ug",
+      "platform": "instagram",
+      "duration": 92.069002,
+      "width": 1080,
+      "height": 1920,
+      "views": null,
+      "title": "Fachada linda, por dentro chove?",
+      "url": "https://www.instagram.com/reel/DfFTGMXu-Ug/",
+      "frames": [
+        0.0,
+        5.41,
+        10.81,
+        16.22,
+        21.63,
+        27.04,
+        32.44,
+        37.85,
+        43.26,
+        48.66,
+        54.07,
+        59.48,
+        64.88,
+        70.29,
+        75.7,
+        81.11,
+        86.51,
+        91.92
+      ],
+      "contactSheet": "/research/frames/DfFTGMXu-Ug/contact.jpg",
+      "wordCount": 273,
+      "wordsPerMinute": 177.9,
+      "segments": 34,
+      "integratedLUFS": -14.1,
+      "truePeakDBFS": -1.5,
+      "viewsLabel": "2,9 milhões",
+      "observation": "Uma casa cortada organiza telhado, calha e descida. O detalhe do rufo tem plano próprio. A pergunta sobre o caninho externo é paga depois da demonstração de obstrução e extravasamento.",
+      "beats": [
+        {
+          "start": 0,
+          "end": 9,
+          "purpose": "Contraste entre fachada e falha interna"
+        },
+        {
+          "start": 9,
+          "end": 27,
+          "purpose": "Inclinação, coleta e percurso da água"
+        },
+        {
+          "start": 27,
+          "end": 44,
+          "purpose": "Dimensionamento contextual e junção"
+        },
+        {
+          "start": 44,
+          "end": 63,
+          "purpose": "Proteção superior e obstrução"
+        },
+        {
+          "start": 63,
+          "end": 90,
+          "purpose": "Extravasor, interpretação do sintoma e manutenção"
+        }
+      ],
+      "viewsPrecision": "contagem pública abreviada na interface"
+    },
+    {
+      "id": "DfJ4jEJOo4H",
+      "platform": "instagram",
+      "duration": 91.558005,
+      "width": 1080,
+      "height": 1920,
+      "views": null,
+      "title": "Para que serve o pino do meio da tomada?",
+      "url": "https://www.instagram.com/reel/DfJ4jEJOo4H/",
+      "frames": [
+        0.0,
+        5.38,
+        10.75,
+        16.13,
+        21.51,
+        26.88,
+        32.26,
+        37.64,
+        43.02,
+        48.39,
+        53.77,
+        59.15,
+        64.52,
+        69.9,
+        75.28,
+        80.65,
+        86.03,
+        91.41
+      ],
+      "contactSheet": "/research/frames/DfJ4jEJOo4H/contact.jpg",
+      "wordCount": 275,
+      "wordsPerMinute": 180.2,
+      "segments": 16,
+      "integratedLUFS": -14.1,
+      "truePeakDBFS": -1.1,
+      "viewsLabel": "1,4 milhão",
+      "observation": "O pino cortado aparece já na abertura. A câmera acompanha circuito, carcaça e aterramento; amplia o quadro e o DR quando a pergunta muda. Um personagem demonstra contato, sem atuar como apresentador permanente.",
+      "beats": [
+        {
+          "start": 0,
+          "end": 10,
+          "purpose": "Provocação e promessa do mecanismo"
+        },
+        {
+          "start": 10,
+          "end": 27,
+          "purpose": "Defeito e caminho da corrente"
+        },
+        {
+          "start": 27,
+          "end": 49,
+          "purpose": "Conexão real da tomada ao aterramento"
+        },
+        {
+          "start": 49,
+          "end": 73,
+          "purpose": "Limite da proteção e DR"
+        },
+        {
+          "start": 73,
+          "end": 90,
+          "purpose": "Geometria do plugue e fechamento"
+        }
+      ],
+      "viewsPrecision": "contagem pública abreviada na interface"
+    }
+  ],
+  "limits": [
+    "Contagens Instagram abreviadas e mutáveis; não são números exatos.",
+    "Não foram obtidas curvas privadas de retenção.",
+    "Whisper pode errar palavras técnicas; os beats têm intervalos aproximados de segmento, não alinhamento palavra a palavra validado.",
+    "Análise visual baseada em 18 quadros espaçados e sequências curtas por vídeo, sem inferência de dimensões executivas.",
+    "LUFS e pico verdadeiro medem o mix inteiro; sem stems não medimos FX isolados."
+  ]
+}

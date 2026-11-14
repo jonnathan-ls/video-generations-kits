@@ -1,0 +1,19 @@
+{
+  "id": "retirada_precoce_cimbra",
+  "label": "Cedimento após retirada precoce da cimbra",
+  "kind": "animation",
+  "category": "animacoes",
+  "module": "arco-retirada-precoce.js",
+  "description": "A retirada prematura esquemática baixa a cimbra, desloca a peça de fecho e abre discretamente juntas próximas ao coroamento. Representa um risco possível, não uma consequência inevitável.",
+  "aliases": [
+    "retirada precoce da cimbra",
+    "cedimento do arco",
+    "abertura de juntas no coroamento"
+  ],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:early-centering-removal",
+    "projectId": "arco-alvenaria"
+  },
+  "variants": [],
+  "baselineIds": []
+}

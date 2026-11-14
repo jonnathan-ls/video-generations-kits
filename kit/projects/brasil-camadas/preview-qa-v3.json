@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "projectId": "brasil-camadas",
+  "artifactType": "multi-scene-animatic",
+  "scope": "Abertura v3: 36,9 s, 14 cenas, seis mundos distintos. 5+ assets por cena. Prévia de direção; não é o vídeo final.",
+  "status": "rejected",
+  "provisional": true,
+  "url": "http://127.0.0.1:4175/",
+  "page": "kit/projects/brasil-camadas/preview/hyperframes-v3/index.html",
+  "project": "kit/projects/brasil-camadas/preview/project-v3.json",
+  "durationSeconds": 36.9,
+  "sceneCount": 14,
+  "averageSceneSeconds": 2.64,
+  "maxSceneSeconds": 4.0,
+  "minAssetsPerScene": 5,
+  "worlds": [
+    "atlas-mesa",
+    "macro-papel",
+    "mesa-dados",
+    "mesa-documento",
+    "mapa",
+    "diorama-1500"
+  ],
+  "distinctWorlds": 6,
+  "maxConsecutiveSameWorld": 2,
+  "qualityPolicy": {
+    "minAssetsPerScene": 5,
+    "maxAssetsPerScene": null,
+    "maxSceneSeconds": 8,
+    "maxConsecutiveSameWorld": 2,
+    "minDistinctWorlds": 6
+  },
+  "checks": [
+    {
+      "domain": "world-variety",
+      "status": "pass",
+      "evidence": "project-v3.json",
+      "note": "Seis mundos; no máximo 2 cenas consecutivas no mesmo mundo; 8 cenas usam sets novos. O validador de produção verifica world/streak/minDistinctWorlds."
+    },
+    {
+      "domain": "flicker",
+      "status": "pass",
+      "evidence": "flicker-test/flicker-strip.jpg; contact sheets",
+      "note": "Atlas com camadas opacas; cartões com separação vertical; carimbo para acima do cartão; a faixa de quadros próximos em 2,3/2,45/5,35/5,45/5,55/7,25/7,35/7,45 s não mostra z-fighting."
+    },
+    {
+      "domain": "hyperframes-check",
+      "status": "pass",
+      "evidence": "preview/hyperframes-v3/check.json",
+      "note": "ok=true; sem erros. Avisos de UI/captura em software, contraste do painel de plano e som de papel com silêncio inicial."
+    },
+    {
+      "domain": "coverage",
+      "status": "pass",
+      "evidence": "v3-snapshots/contact-sheet-1.jpg e contact-sheet-2.jpg",
+      "note": "14 quadros: atlas, macro, dados, barra, camada 1888, documento, vazios, pilha, mapa/renda, pergunta, pausa, saída, diorama 1500 e título."
+    },
+    {
+      "domain": "seek",
+      "status": "pass",
+      "evidence": "seek-v3/contact-sheet.jpg",
+      "note": "Capturas em 30, 3, 18, 0 e 35 s, fora de ordem, sem estado residual."
+    },
+    {
+      "domain": "playback",
+      "status": "pass",
+      "evidence": "preview-controls.js rev 20261114-v3",
+      "note": "Player usa a linha do tempo como relógio único; sem o loop de transições que travava a v2."
+    }
+  ],
+  "findings": [
+    {
+      "id": "P1-01",
+      "severity": "P1",
+      "domain": "audio",
+      "observation": "O áudio da prévia corta; a voz de teste não cobre a duração com folga e a mixagem não foi validada.",
+      "consequence": "A narração não termina limpa.",
+      "correction": "Não corrigido; demanda arquivada.",
+      "acceptance": "Falhou."
+    },
+    {
+      "id": "P1-02",
+      "severity": "P1",
+      "domain": "direction",
+      "observation": "As cenas continuam semelhantes na linguagem e no peso visual, apesar dos seis mundos.",
+      "consequence": "A sequência não tem a variedade de direção pedida.",
+      "correction": "Não corrigido; demanda arquivada.",
+      "acceptance": "Falhou."
+    },
+    {
+      "id": "P1-03",
+      "severity": "P1",
+      "domain": "production",
+      "observation": "Qualidade de produção/direção de animatic, não de vídeo final.",
+      "consequence": "Não atende ao padrão Titanic-level pedido.",
+      "correction": "Não corrigido; demanda arquivada.",
+      "acceptance": "Falhou."
+    },
+    {
+      "id": "P2-01",
+      "severity": "P2",
+      "domain": "art",
+      "observation": "Os sets ainda são animatic: geometria simples, pouca textura e iluminação básica.",
+      "correction": "Passada de arte/materiais/luz antes do render final."
+    },
+    {
+      "id": "P2-02",
+      "severity": "P2",
+      "domain": "composition",
+      "observation": "No macro do carimbo, o cabo domina o topo do quadro.",
+      "correction": "Baixar a câmera ou encurtar o cabo para ler o carimbo e o papel."
+    },
+    {
+      "id": "P2-03",
+      "severity": "P2",
+      "domain": "readability",
+      "observation": "A barra de 70% na mesa de dados lê como bloco de madeira, não como comparação.",
+      "correction": "Transformar a barra em gráfico físico horizontal com escala e linha de 70%."
+    },
+    {
+      "id": "P2-04",
+      "severity": "P2",
+      "domain": "typography",
+      "observation": "Os cartões de papel ainda cobrem parte da encenação.",
+      "correction": "Integrar o número ao objeto (carimbo/selo) ou reduzir a área."
+    },
+    {
+      "id": "P2-05",
+      "severity": "P2",
+      "domain": "audio",
+      "observation": "Voz e foley continuam provisórios.",
+      "correction": "Voz definitiva e mixagem depois da direção aprovada."
+    }
+  ],
+  "notVerified": [
+    "escuta crítica da voz/mixagem",
+    "alinhamento por palavra",
+    "render final em GPU",
+    "aprovação de assets",
+    "restante do vídeo"
+  ],
+  "nextAction": "Arquivada. Não continuar."
+}

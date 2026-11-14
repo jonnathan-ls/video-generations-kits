@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "source": "áudio sintetizado localmente em PCM mono 44.1 kHz; sem samples remotos ou da referência",
+  "assets": [
+    {
+      "assetId": "sertao_sound_fan",
+      "file": "kit/audio/previews/sertao_fan.wav",
+      "use": "motor suave do ventilador; loop curto durante beats 1, 3 e payoff"
+    },
+    {
+      "assetId": "sertao_sound_foley",
+      "file": "kit/audio/previews/sertao_foley.wav",
+      "sourceFiles": [
+        "kit/audio/previews/sertao_foil.wav",
+        "kit/audio/previews/sertao_wool.wav"
+      ],
+      "use": "contato da manta e assentamento da lã, no instante narrativo"
+    },
+    {
+      "assetId": "sertao_sound_shutter",
+      "file": "kit/audio/previews/sertao_shutter.wav",
+      "use": "fecho da veneziana sincronizado ao corte de luz"
+    }
+  ],
+  "reuse": {
+    "assetId": "som_movimento",
+    "file": "kit/audio/previews/whoosh.wav",
+    "use": "transições e fluxo de ar, abaixo da fala"
+  },
+  "review": "Os arquivos serão verificados no navegador. A avaliação perceptiva de timbre, loudness, inteligibilidade e mix com voz ainda aguarda escuta humana e escolha da voz.",
+  "files": [
+    {
+      "file": "sertao_fan.wav",
+      "bytes": 317564
+    },
+    {
+      "file": "sertao_foil.wav",
+      "bytes": 56492
+    },
+    {
+      "file": "sertao_wool.wav",
+      "bytes": 51200
+    },
+    {
+      "file": "sertao_shutter.wav",
+      "bytes": 45908
+    },
+    {
+      "file": "sertao_foley.wav",
+      "bytes": 119996
+    }
+  ],
+  "previewEventBasis": "Tempos relativos aos 5 s de cada prévia; valores finais dependem da voz aprovada e da duração real das falas. Eventos são disparados por posição absoluta, inclusive após seek.",
+  "previewEvents": [
+    {
+      "sceneId": "cs-01-noite-teto",
+      "title": "Motor leve · quarto noturno",
+      "label": "AMBIENTE",
+      "events": [
+        {
+          "at": 0.82,
+          "file": "sertao_fan.wav",
+          "volume": 0.17,
+          "label": "MOTOR",
+          "sync": "o motor começa depois do primeiro olhar para o teto"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-02-sol-telha-laje",
+      "title": "Do telhado ao insert do forno",
+      "label": "CORTE",
+      "events": [
+        {
+          "at": 0.08,
+          "file": "whoosh.wav",
+          "volume": 0.24,
+          "label": "SOL",
+          "sync": "corte do quarto noturno para o sol da tarde"
+        },
+        {
+          "at": 3.02,
+          "file": "sertao_foley.wav",
+          "volume": 0.3,
+          "label": "RECUO",
+          "sync": "o corte abre junto com o foley quando a pessoa puxa a mão do calor do forno"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-03-laje-ventilador",
+      "title": "Ventilador local · laje ainda quente",
+      "label": "MOTOR",
+      "events": [
+        {
+          "at": 1.22,
+          "file": "sertao_fan.wav",
+          "volume": 0.16,
+          "label": "MOTOR",
+          "sync": "motor entra junto ao corte macro da hélice"
+        },
+        {
+          "at": 2.12,
+          "file": "whoosh.wav",
+          "volume": 0.18,
+          "label": "AR",
+          "sync": "whoosh coincide com a brisa alcançando o rosto no corte reverso"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-04-telha-clara-atico",
+      "title": "Terreiro e cobertura · corte de contexto",
+      "label": "CORTE",
+      "events": [
+        {
+          "at": 0.02,
+          "file": "whoosh.wav",
+          "volume": 0.16,
+          "label": "FORA",
+          "sync": "corte do quarto para o terreiro e retomada da casa no contexto exterior"
+        },
+        {
+          "at": 1.32,
+          "file": "whoosh.wav",
+          "volume": 0.13,
+          "label": "REFLEXO",
+          "sync": "luz refletida sem impacto metálico"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-05-cumeeira-sem-beiral",
+      "title": "O fluxo que perde força",
+      "label": "FALHA",
+      "events": [
+        {
+          "at": 1.48,
+          "file": "whoosh.wav",
+          "volume": 0.26,
+          "label": "SOPRO",
+          "sync": "fluxo começa e perde força na tentativa"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-06-caminho-ventilacao",
+      "title": "Entrada baixa · saída alta",
+      "label": "FLUXO",
+      "events": [
+        {
+          "at": 0.32,
+          "file": "whoosh.wav",
+          "volume": 0.22,
+          "label": "ENTRADA",
+          "sync": "tela do beiral abre"
+        },
+        {
+          "at": 3.72,
+          "file": "whoosh.wav",
+          "volume": 0.23,
+          "label": "SAÍDA",
+          "sync": "ar quente deixa o ático pela cumeeira"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-07-radiacao-ainda-passa",
+      "title": "Ventilação e radiação em paralelo",
+      "label": "FLUXO",
+      "events": [
+        {
+          "at": 0.48,
+          "file": "whoosh.wav",
+          "volume": 0.14,
+          "label": "AR",
+          "sync": "fluxo contínuo fica abaixo da demonstração radiativa"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-08-manta-radiante",
+      "title": "A manta assenta no vão",
+      "label": "CONTATO",
+      "events": [
+        {
+          "at": 1.9,
+          "file": "sertao_foil.wav",
+          "volume": 0.3,
+          "label": "MANTA",
+          "sync": "face refletiva assenta no suporte"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-09-la-rocha-fresta",
+      "title": "Fibra contínua · fresta como atalho",
+      "label": "CONTATO",
+      "events": [
+        {
+          "at": 0.72,
+          "file": "sertao_wool.wav",
+          "volume": 0.27,
+          "label": "LÃ",
+          "sync": "camada de fibra encosta e assenta"
+        },
+        {
+          "at": 2.66,
+          "file": "sertao_foley.wav",
+          "volume": 0.24,
+          "label": "FRESTA",
+          "sync": "a falha abre passagem para o calor"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-10-inercia-laje",
+      "title": "Noite no terreiro · calor que ficou",
+      "label": "CORTE",
+      "events": [
+        {
+          "at": 0.03,
+          "file": "whoosh.wav",
+          "volume": 0.14,
+          "label": "NOITE",
+          "sync": "corte contextual para a fachada escura antes de retornar à laje morna"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-11-ventilacao-cruzada-condicional",
+      "title": "Vento quando o lado de fora ajuda",
+      "label": "BRISA",
+      "events": [
+        {
+          "at": 1.62,
+          "file": "whoosh.wav",
+          "volume": 0.25,
+          "label": "VENTO",
+          "sync": "a corrente percorre as duas aberturas"
+        },
+        {
+          "at": 3.54,
+          "file": "sertao_shutter.wav",
+          "volume": 0.26,
+          "label": "FECHO",
+          "sync": "a veneziana termina de fechar quando a pessoa decide esperar pelo ar mais fresco"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-12-veneziana-sombra",
+      "title": "Fecho da veneziana no contato",
+      "label": "CONTATO",
+      "events": [
+        {
+          "at": 1.86,
+          "file": "sertao_shutter.wav",
+          "volume": 0.3,
+          "label": "CLIQUE",
+          "sync": "lâminas fecham e o feixe desaparece"
+        }
+      ]
+    },
+    {
+      "sceneId": "cs-13-payoff-cama",
+      "title": "Motor estabiliza junto à cama",
+      "label": "PAYOFF",
+      "events": [
+        {
+          "at": 0.72,
+          "file": "sertao_fan.wav",
+          "volume": 0.15,
+          "label": "MOTOR",
+          "sync": "o ventilador volta a trabalhar perto da cama"
+        },
+        {
+          "at": 2.04,
+          "file": "whoosh.wav",
+          "volume": 0.16,
+          "label": "BRISA",
+          "sync": "brisa alcança só a pessoa"
+        }
+      ]
+    }
+  ]
+}

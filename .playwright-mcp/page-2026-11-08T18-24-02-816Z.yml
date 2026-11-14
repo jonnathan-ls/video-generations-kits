@@ -1,0 +1,109 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Kit de vídeo, casa do Sertão" [ref=e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e4]: OC
+      - generic [ref=e5]:
+        - strong [ref=e6]: Obra em corte
+        - generic [ref=e7]: Revisão de cenas · 3D
+    - generic [ref=e8]: Aguardando sua revisão
+  - main [ref=e11]:
+    - region "Prévia das cenas" [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: CENA 01 / 13
+          - generic [ref=e16]: ESTUDO DE CENA · SEM VOZ FINAL
+        - generic "Cena 3D vertical" [ref=e17]:
+          - generic "Casa em corte 3D animada" [ref=e18]
+          - generic:
+            - text: O SINTOMA
+            - heading "O teto ainda irradia" [level=1]
+          - generic [ref=e19]:
+            - generic [ref=e20]: Push-in curto no rosto; inclinação do olhar deixa a laje no alto do quadro.
+            - generic [ref=e21]: MOTOR · 0.8s
+          - button "INSPECIONAR" [ref=e22] [cursor=pointer]
+        - generic [ref=e23]:
+          - button "Cena anterior" [ref=e24] [cursor=pointer]: ‹
+          - button "Reproduzir cena" [ref=e25] [cursor=pointer]: ▶
+          - button "Próxima cena" [ref=e26] [cursor=pointer]: ›
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - generic [ref=e29]: 00:00 / 00:05
+              - generic [ref=e30]: tempo de revisão
+            - slider "Tempo da cena" [ref=e31] [cursor=pointer]: "0"
+          - button "Ouvir efeitos deste beat" [ref=e32] [cursor=pointer]: ♪ FX
+        - generic [ref=e33]:
+          - generic [ref=e34]: i
+          - generic [ref=e35]: Os cinco segundos são só para revisar o movimento. A duração final será definida depois da escolha da voz.
+        - navigation "Escolher cena pela prévia visual" [ref=e36]:
+          - 'button "Abrir cena 1: O teto ainda irradia" [ref=e37] [cursor=pointer]':
+            - generic [ref=e38]: "01"
+          - 'button "Abrir cena 2: Da telha à laje" [ref=e39] [cursor=pointer]':
+            - generic [ref=e40]: "02"
+          - 'button "Abrir cena 3: O ventilador não esfria a laje" [ref=e41] [cursor=pointer]':
+            - generic [ref=e42]: "03"
+          - 'button "Abrir cena 4: Telha clara, ático fechado" [ref=e43] [cursor=pointer]':
+            - generic [ref=e44]: "04"
+          - 'button "Abrir cena 5: Só a cumeeira não cria caminho" [ref=e45] [cursor=pointer]':
+            - generic [ref=e46]: "05"
+          - 'button "Abrir cena 6: Entrada baixa, saída alta" [ref=e47] [cursor=pointer]':
+            - generic [ref=e48]: "06"
+          - 'button "Abrir cena 7: Ventilar não interrompe radiação" [ref=e49] [cursor=pointer]':
+            - generic [ref=e50]: "07"
+          - 'button "Abrir cena 8: A face refletiva olha para o vão" [ref=e51] [cursor=pointer]':
+            - generic [ref=e52]: "08"
+          - 'button "Abrir cena 9: Camada contínua, sem atalho" [ref=e53] [cursor=pointer]':
+            - generic [ref=e54]: "09"
+          - 'button "Abrir cena 10: A laje muda devagar" [ref=e55] [cursor=pointer]':
+            - generic [ref=e56]: "10"
+          - 'button "Abrir cena 11: Abre quando lá fora está mais fresco" [ref=e57] [cursor=pointer]':
+            - generic [ref=e58]: "11"
+          - 'button "Abrir cena 12: Fecha quando o sol bate" [ref=e59] [cursor=pointer]':
+            - generic [ref=e60]: "12"
+          - 'button "Abrir cena 13: O ventilador sai do turno dobrado" [ref=e61] [cursor=pointer]':
+            - generic [ref=e62]: "13"
+    - complementary "Decisão da cena selecionada" [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - text: CENA SELECIONADA
+            - heading "O teto ainda irradia" [level=2] [ref=e67]
+          - generic [ref=e68]: PENDENTE
+        - generic [ref=e69]:
+          - text: FALA APROVADA
+          - paragraph [ref=e70]: De noite, o quarto continua abafado. O sol já foi embora; então por que o calor ainda vem do teto?
+        - generic [ref=e71]:
+          - generic [ref=e72]: ◉
+          - generic [ref=e73]:
+            - text: O QUE VOCÊ ESTÁ VENDO
+            - paragraph [ref=e74]: Noite azul; a laje mantém um brilho âmbar discreto que alcança o quarto. A pessoa olha para cima; um tilting reveal expõe a cobertura em corte.
+        - generic [ref=e75]:
+          - generic [ref=e76]: ↗
+          - generic [ref=e77]:
+            - text: ALVO DE ATENÇÃO
+            - paragraph [ref=e78]: faixa de calor junto à laje, acima da pessoa deitada
+        - generic [ref=e79]:
+          - button "Aprovar esta cena" [ref=e80] [cursor=pointer]
+          - button "Pedir ajuste" [ref=e81] [cursor=pointer]
+        - paragraph [ref=e82]
+      - generic [ref=e83]:
+        - text: POR QUE ESTA CENA VEM AGORA
+        - paragraph [ref=e84]: O quarto aparece primeiro como sintoma. Esta abertura planta a pergunta que a próxima cena começa a responder.
+        - generic [ref=e87]:
+          - generic [ref=e88]: A pergunta
+          - generic [ref=e89]: →
+          - generic [ref=e90]: Da telha à laje
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - generic [ref=e93]: ♫
+          - generic [ref=e94]:
+            - text: ENCONTRO DE FX COM A AÇÃO
+            - heading "Motor leve · quarto noturno" [level=3] [ref=e95]
+        - paragraph [ref=e96]: ambiente noturno quase silencioso; grave quente sutil ao revelar a faixa na laje; sem vento ainda
+        - paragraph [ref=e111]: Efeitos sintetizados localmente. A revisão auditiva e a mixagem com a voz continuam pendentes.
+      - generic [ref=e112]:
+        - generic [ref=e113]: ✓
+        - paragraph [ref=e114]: A aprovação desta cena vale para a encenação visual. A revisão dos assets individuais e do plano de recursos continua separada.
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]: Estudo original inspirado pela ordem causal aprovada; textos, design e encenação próprios.
+    - generic [ref=e117]: Render Three.js local · sem envio de dados

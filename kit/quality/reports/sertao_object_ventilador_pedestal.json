@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "d4c97a3033351b44610810e2513a09d05d030958b65ddd7bc52cffea8182f561",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "object-ventilador-pedestal",
+      "meshes": 29,
+      "triangles": 3196,
+      "dimensions": [
+        0.8600000143051152,
+        1.810000003129244,
+        1.175448485395112
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.584Z"
+}

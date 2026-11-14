@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "revision": 3,
+  "status": "prepared-for-wan2gp-generation",
+  "identity": "cozinha miniatura original, inteiramente construída em crochê de algodão; mãos humanas executam a limpeza",
+  "world": {
+    "scale": "1:12, bancada e objetos dimensionados como uma miniatura física",
+    "layout": "cozinha em L; janela e pia à esquerda, cooktop à direita, geladeira e despensa no mesmo fundo",
+    "continuitySource": "âncoras de imagem geradas e editadas por IA local para cada beat; quadros da referência nunca entram no modelo",
+    "palette": [
+      "azul-petróleo",
+      "creme amanteigado",
+      "verde-sálvia",
+      "coral queimado"
+    ],
+    "lighting": "luz morna difusa de janela à esquerda; direção, temperatura e exposição constantes",
+    "hands": "mãos humanas naturais, sem anéis, pulseiras, esmalte chamativo ou duplicações; só entram para executar um contato visível"
+  },
+  "materialRules": {
+    "textileCoverage": "todas as superfícies sólidas visíveis da cozinha e dos adereços são fio de algodão em crochê; água, espuma e migalhas mantêm aparência própria",
+    "stitchScale": "laçadas interligadas, relevo e fibras grandes o suficiente para leitura a 432x768; escala consistente em macro, plano médio e geral",
+    "patternVariation": "mudar o ponto segundo a função do objeto sem mudar o diâmetro aparente do fio",
+    "temporalStability": "a posição e a forma das laçadas não fervem, derretem, piscam ou mudam entre quadros",
+    "aiAnchorsMustAlreadyShowCrochet": true
+  },
+  "camera": "vertical 9:16; macros estáveis para contato, planos médios para orientação e um único plano geral no final; movimento de câmera curto e motivado",
+  "globalPrompt": "Vertical 9:16 handmade amigurumi miniature kitchen, entirely constructed from thick matte cotton crochet yarn. The same small L-shaped layout across all shots: window and sink on the left, indigo cooktop on the right, mint cabinets, refrigerator and pantry on the same rear wall. Oatmeal cream, muted mint, deep indigo, warm coral and small mustard accents. Warm diffuse morning window light from camera left. Chunky interlocking crochet loops, raised stitch rows and fuzzy yarn fibers remain crisp and recognizable across every solid surface and prop. One clear cleaning action per shot, with visible preparation, contact and result. Natural hands with plain navy cuffs enter only to perform the action. Water, foam and crumbs retain distinct materials. No text, labels, logos or watermarks.",
+  "negativePrompt": "photorealistic wood, stone, ceramic, metal, plastic, smooth cabinetry, glossy appliance, printed tile, extra fingers, extra hands, floating props, missing contact, object morphing, changed kitchen layout, changed palette, changed exposure, stitch scale drift, smooth patches on textile surfaces, temporal texture crawl, flicker, camera shake, text, subtitles, logo, watermark",
+  "consistencyMethod": "Gerar âncoras visuais com modelo local de imagem e animá-las em Wan2GP I2V quando o modelo e os pesos locais forem confirmados. A âncora deve mostrar crochê antes da animação; a imagem não será desenhada em Three.js.",
+  "qualityLimit": "A consistência das âncoras e a fidelidade temporal do candidato I2V ainda não foram testadas. Prompts e sementes não comprovam qualidade; o clipe real será revisado em movimento a 10 fps e em escala de celular."
+}

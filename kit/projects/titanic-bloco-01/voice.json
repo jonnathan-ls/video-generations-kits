@@ -1,0 +1,184 @@
+{
+  "provider": "kokoro-onnx",
+  "language": "pt-br",
+  "voice": "pm_santa",
+  "speed": 0.85,
+  "voiceChoiceSource": "creator-chat",
+  "newTakesApproved": false,
+  "auditoryInspection": "not-verified",
+  "duration": 180.0,
+  "spokenDuration": 167.40254200000004,
+  "tailSilence": 1.0974583333333334,
+  "sampleRate": 24000,
+  "segments": [
+    {
+      "paragraph": 1,
+      "start": 0.0,
+      "end": 7.760958,
+      "text": "Na madrugada em que o Titanic afundou, um capitão viu uma luz verde no meio do oceano e acreditou que ainda havia tempo.",
+      "source": "kit/projects/titanic-pilot/audio/voice-options/pm_santa-p1.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 2,
+      "start": 8.410958,
+      "end": 15.089125,
+      "text": "O navio dele se chamava Carpathia. Corria para atender a um pedido de socorro. Ao redor, havia gelo.",
+      "source": "kit/projects/titanic-pilot/audio/voice-options/pm_santa-p2.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 3,
+      "start": 15.739125,
+      "end": 24.861125,
+      "text": "Mais de duas mil pessoas estavam no Titanic. Os botes não tinham lugar para todas. Mesmo assim, alguns partiram com lugares vazios.",
+      "source": "kit/projects/titanic-pilot/audio/voice-options/pm_santa-p3.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 4,
+      "start": 25.511125,
+      "end": 29.548208,
+      "text": "Por que a ajuda não chegou antes? E de onde vinha aquela luz?",
+      "source": "kit/projects/titanic-pilot/audio/voice-options/pm_santa-p4.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 5,
+      "start": 30.198208,
+      "end": 35.837958,
+      "text": "Esta é a história da noite do Titanic, do choque com o iceberg à chegada do resgate.",
+      "source": "kit/projects/titanic-pilot/audio/voice-options/pm_santa-p5.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 6,
+      "start": 39.837958,
+      "end": 46.815,
+      "text": "Abril de mil novecentos e doze. O Titanic parte da Inglaterra em sua primeira viagem para Nova York.",
+      "source": "kit/projects/titanic-pilot/audio/voice-options/pm_santa-p6.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 7,
+      "start": 47.165,
+      "end": 60.492167,
+      "text": "A bordo estão pessoas para quem aquela travessia significa coisas muito diferentes. Há passageiros acostumados a cruzar o Atlântico, famílias em viagem e emigrantes que vão começar outra vida.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p1.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 8,
+      "start": 60.842167,
+      "end": 64.245833,
+      "text": "O destino é o mesmo. A maneira de viajar não é.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p2.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 9,
+      "start": 64.595833,
+      "end": 78.345042,
+      "text": "O navio é dividido em classes, com acomodações, espaços e caminhos diferentes. Para alguns, a travessia inclui salões e serviço de luxo. Para outros, o que importa é chegar à América com a família e a bagagem.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p3.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 10,
+      "start": 78.695042,
+      "end": 94.7385,
+      "text": "Também há centenas de pessoas trabalhando para que todos possam viajar. Cozinheiros, camareiros, marinheiros, telegrafistas, homens nas máquinas e nas caldeiras. A viagem que um passageiro vê depende de um trabalho que, em grande parte, ele não vê.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p4.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 11,
+      "start": 95.0885,
+      "end": 102.526125,
+      "text": "Quando o perigo aparece, ninguém recebe ao mesmo tempo a mesma informação, nem está à mesma distância dos botes.",
+      "source": "kit/projects/titanic-bloco-01/audio/revision-p11/pm_santa-p1.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 12,
+      "start": 102.876125,
+      "end": 115.970208,
+      "text": "O Titanic é grande, moderno e foi construído para resistir a avarias. Tem divisões internas que podem limitar a entrada de água. Tem rádio para falar com estações em terra e outros navios.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p6.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 13,
+      "start": 116.320208,
+      "end": 124.110708,
+      "text": "O rádio leva notícias para fora do navio. Mas uma mensagem recebida não muda, sozinha, o que acontece na ponte.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p7.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 14,
+      "start": 124.460708,
+      "end": 129.067917,
+      "text": "Quando alguém percebe o perigo, quanto tempo leva até os outros saberem?",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p8.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 15,
+      "start": 129.417917,
+      "end": 139.974667,
+      "text": "Durante a viagem, a vida a bordo segue. Refeições, turnos, mensagens, descanso. O navio inteiro não está pensando numa evacuação. Está atravessando o oceano.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p9.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 16,
+      "start": 140.324667,
+      "end": 143.913708,
+      "text": "No domingo, catorze de abril, chegam avisos de gelo.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p10.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 17,
+      "start": 144.263708,
+      "end": 156.43225,
+      "text": "São relatos de outras embarcações que passaram pela região. Alguns chegam ao comandante. Outros seguem caminhos diferentes entre a estação de rádio e os responsáveis pela navegação.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p11.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 18,
+      "start": 156.78225,
+      "end": 168.166167,
+      "text": "Hoje, esses papéis parecem uma sequência de advertências sobre uma tragédia que já conhecemos. Para quem os recebeu, eram informações sobre uma rota ainda em andamento.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p12.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 19,
+      "start": 168.516167,
+      "end": 173.333792,
+      "text": "Entre receber o aviso e tomar uma decisão, o navio continua avançando.",
+      "source": "kit/projects/titanic-bloco-01/audio/revision-p19/pm_santa-p1.wav",
+      "sourcePreserved": true
+    },
+    {
+      "paragraph": 20,
+      "start": 173.683792,
+      "end": 178.902542,
+      "text": "Ao anoitecer, o Titanic continua avançando. O mar está calmo. Há gelo adiante.",
+      "source": "kit/projects/titanic-bloco-01/audio/takes/pm_santa-p14.wav",
+      "sourcePreserved": true
+    }
+  ],
+  "alignmentStatus": "paragraph-exact; word alignment pending",
+  "preservedPilotParagraphs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "92b3331f715255c7fe03b399d8d27d84c1fb1773fbdb702d7cba43e690a050f2",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "animation-ventilacao-cruzada",
+      "meshes": 21,
+      "triangles": 11616,
+      "dimensions": [
+        5.310981750488281,
+        3.0616435241284896,
+        2.1399603831768035
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.790Z"
+}

@@ -1,0 +1,20 @@
+import * as THREE from 'three';import {keyDown} from './period-telegraph-timing.js';import {person} from './period-person-rig.js';
+export function create(){return person();}
+const ease=(t,a,b)=>THREE.MathUtils.smoothstep(t,a,b);
+function reach(target,rig,worldGoal,u,side=1){target.updateMatrixWorld(true);const limb=rig.arms.find(x=>x.side===side)||rig.arms.find(x=>x.side===1),goal=rig.upper.worldToLocal(worldGoal.clone()),dy=goal.y-limb.arm.position.y,dz=goal.z-limb.arm.position.z,L1=Math.hypot(.29,.01),L2=Math.hypot(.24,.045),dist=Math.min(L1+L2-.001,Math.hypot(dy,dz)),a2=Math.acos(THREE.MathUtils.clamp((dist*dist-L1*L1-L2*L2)/(2*L1*L2),-1,1)),a1=Math.atan2(dz,-dy)-Math.atan2(L2*Math.sin(a2),L1+L2*Math.cos(a2));limb.arm.rotation.x=THREE.MathUtils.lerp(-.25,Math.atan2(.01,.29)-a1,u);limb.arm.rotation.z=0;limb.elbow.rotation.x=THREE.MathUtils.lerp(-.55,Math.atan2(.045,.24)-Math.atan2(.01,.29)-a2,u);}
+
+export function apply({target,targets},t,p={}){const rig=target.userData.rig;if(!rig)return;const origin=p.origin||[0,0,0];target.position.fromArray(origin);const action=p.action||'watch',u=ease(t,.3,1.5);rig.head.rotation.y=.12+Math.sin(t*.7)*.06;
+ if(action==='walk'){target.position.z+=Math.cos(target.rotation.y)*t*(p.speed??1);target.position.x+=Math.sin(target.rotation.y)*t*(p.speed??1);target.userData.setFeet?.(t*(p.speed??1),true);for(const {arm,elbow,side}of rig.arms){arm.rotation.x=p.prop&&side===1?-.4:Math.cos(t*(p.speed??1)*Math.PI/.6+(side>0?Math.PI:0))*.32;elbow.rotation.x=p.prop&&side===1?-.55:-.18;arm.rotation.z=p.prop&&side===1?.22:side*.04;}}
+ else if(['write','receive','serve','set-down','carry'].includes(action)){for(const {arm,elbow,side}of rig.arms){arm.rotation.x=-.40-(side>0?.45:0)*u;elbow.rotation.x=-.55-(side>0?.35:0)*u;}if(p.seated){for(const {arm,elbow}of rig.arms){arm.rotation.x=-1.1;elbow.rotation.x=-.65;}}rig.head.rotation.x=.08*u;rig.upper.rotation.x=.04*u;}
+ else if(action==='knock'){const knockSide=p.knockSide===-1?-1:1;for(const {arm,elbow,side}of rig.arms){const active=side===knockSide;arm.rotation.x=active?-.34:-.08;elbow.rotation.x=active?-.72:-.18;}rig.head.rotation.x=.12*u;rig.upper.rotation.x=.035*u;}
+ else if(action==='operate'){rig.arms.forEach(({arm,elbow})=>{arm.rotation.x=-.9;elbow.rotation.x=-.65+.07*Math.sin(t*4);});rig.head.rotation.x=.05;}
+ else if(action==='rest'){rig.head.rotation.x=.1;rig.upper.rotation.x=.04;}
+ if(p.reading){rig.head.rotation.x=.35*(p.lookOut?1-ease(t,2,3.5):1);for(const pupil of rig.pupils)pupil.position.y=.014;}
+ if(p.handTarget){const goal=new THREE.Vector3(...p.handTarget);if(p.keySync&&keyDown(t))goal.y-=.01;const reachAmount=action==='release'?ease(t,p.reachStart??.25,p.reachEnd??1.35)*(1-ease(t,p.releaseStart??1.75,p.releaseEnd??2.55)):p.keySync||action==='knock'?1:u;const reachSide=action==='knock'&&p.knockSide===-1?-1:1;reach(target,rig,goal,reachAmount,reachSide);if(p.seated)rig.head.rotation.x=.22;
+  if(action==='knock'){const hits=p.knocks||[.35,.78,1.2];const pulse=hits.reduce((best,at)=>Math.max(best,Math.max(0,1-Math.abs(t-at)/.105)),0);const knockArm=rig.arms.find(item=>item.side===reachSide);if(knockArm){knockArm.arm.rotation.x+=pulse*.12;knockArm.elbow.rotation.x+=pulse*.19;}}
+ }
+ if(p.prop){const prop=targets.get(p.prop);if(prop){
+ const right=rig.arms.find(x=>x.side===1),drop=action==='set-down'?.36*u:0,offset=new THREE.Vector3(...(p.propOffset||[0,0,0]));target.position.y=origin[1]-drop;if(action!=='walk')target.userData.setFeet?.(0,false,drop);if(action==='set-down'||action==='serve'||action==='collect')rig.upper.rotation.x=.28*u;
+ if(p.destination){const destination=new THREE.Vector3(...p.destination).sub(offset);if(action==='collect')destination.y+=.23*ease(t,1.5,2.4);reach(target,rig,destination,u);}
+ target.updateMatrixWorld(true);right.hand.getWorldPosition(prop.position);prop.position.add(offset);if(p.destination&&action==='collect')prop.position.lerp(new THREE.Vector3(...p.destination),1-u);else if(p.destination&&t>=2.4)prop.position.fromArray(p.destination);prop.rotation.set(...(p.propRotation||[0,0,0]));}}
+}

@@ -1,0 +1,185 @@
+{
+  "title": "Como um arco de tijolos sustenta um vão",
+  "mode": "full-video",
+  "stage": "final-rendered",
+  "decisions": {
+    "format": "vertical short",
+    "scope": "produção completa pelo protocolo do repositório",
+    "topic": "como um arco de tijolos sustenta um vão",
+    "narration_version": "E3 (abertura em frase única, pausa curta na vírgula e clareza técnica)",
+    "duration_policy": "definir pela narrativa e pela leitura da voz; sem meta fixa de 60 segundos",
+    "narrative_direction": "contínua, causal, visual, sem introdução genérica ou texto formulaico",
+    "revision_status": "A prévia E3, com os prédios apoiados no terreno, a rua, a passagem do sedã e as legendas ampliadas, foi aprovada pelo criador no chat em 2026-11-06. O MP4 final foi renderizado.",
+    "previous_narration_version": "C (preservada como versão aprovada anterior)"
+  },
+  "approvals": {
+    "narration": "A versão E3 com abertura revisada em português falado foi aprovada pelo criador no chat em 2026-11-05.",
+    "initial_resources": "A lista original de 9 recursos novos e a variante concreto foram aprovadas pelo criador pelo chat em 2026-11-05.",
+    "updated_resource_list": "Plano de recursos E3 validado pelo criador no chat em 2026-11-06 após aprovação da prévia; sem lacunas pendentes.",
+    "asset_revisions": "Recursos aprovados anteriormente preservados. contexto_arco_jardim na revisão 5bf15975d7a3adb1 foi aprovada pelo criador em 2026-11-06 ao autorizar a geração final.",
+    "resource_assets": "Aprovações históricas preservadas; cenário atualizado aprovado pelo criador junto com a prévia final em 2026-11-06.",
+    "voice": "Identidade pm_santa e tomada E3 aprovadas pelo criador no chat em 2026-11-05.",
+    "video_preview": "A prévia E3 atualizada foi aprovada pelo criador em 2026-11-06 com a instrução “Pode gerar o final”.",
+    "current_E_mortar": "Argamassa revisada para close móvel vertical (0,42°, aprox. 17,4 mm); verificação técnica passou; inspeção humana da revisão atual continua pendente.",
+    "current_E2": "O plano E2 não foi validado. Recursos em revisão humana pendente: contexto_arco_jardim, arco_alvenaria/padrao, argamassa_juntas_arco/padrao, encaixe_coroamento, instabilidade_apoio_arco, empuxo_lateral_arco, trajeto_compressivo_arco, entrada_cimbra_arco, retirada_cimbra, som_alvenaria_batida, som_impacto, som_movimento e som_madeira_creak. Os relatórios técnicos de arco_alvenaria e dos comportamentos dependentes estão atuais e passaram sem erro, sem aprovar suas revisões estéticas. Aprovações de outros recursos não alterados permanecem preservadas.",
+    "current_E3": "Narrativa E3, tomada de voz e recursos mantidos aprovados. Cenário com rua/carro e legenda ampliada aprovados na prévia; render final concluído."
+  },
+  "narration_candidates": {
+    "A": "narration-A.txt — explica o mecanismo de forma linear",
+    "B": "narration-B.txt — abre com uma falha, mantém uma pergunta e escala dois riscos",
+    "C": "narration-C.txt — distribui perguntas e respostas entre a montagem, a transferência da carga, o empuxo e o papel da peça do topo; aprovada anteriormente",
+    "D": "narrative-options-D-F.md — resultado primeiro, pergunta sobre por que o vão permanece aberto",
+    "E": "narrative-options-D-F.md — falha visível primeiro, diagnóstico e reconstrução do mecanismo; selecionada pelo criador para adaptação visual.",
+    "F": "narrative-options-D-F.md — pergunta sobre a peça do topo, resposta imediata e revelação do sistema completo"
+  },
+  "narrative_audio_auditions": {
+    "voice": "pm_santa",
+    "speed": 1,
+    "language": "pt-br",
+    "music": false,
+    "sound_effects": false,
+    "question_pause_seconds": 0.28,
+    "other_beat_pause_seconds": 0.3,
+    "status": "Narrativa E3 e tomada pm_santa aprovadas pelo criador no chat em 2026-11-05.",
+    "takes_approved": true,
+    "options": {
+      "D": {
+        "preview": "audio/narrative-auditions/D/preview.wav",
+        "speech_seconds": 37.67,
+        "preview_seconds": 39.83
+      },
+      "E": {
+        "preview": "audio/narrative-auditions/E/preview.wav",
+        "speech_seconds": 39.679,
+        "preview_seconds": 41.959
+      },
+      "F": {
+        "preview": "audio/narrative-auditions/F/preview.wav",
+        "speech_seconds": 35.253,
+        "preview_seconds": 37.413
+      }
+    },
+    "selectedOption": "E",
+    "E2": {
+      "preview": "audio/narrative-auditions/E2/preview.wav",
+      "speech_seconds": 35.864,
+      "preview_seconds": 38.024,
+      "voice": "pm_santa",
+      "status": "nova redação de produção derivada de E; amostra técnica pendente de aprovação auditiva"
+    },
+    "E3": {
+      "preview": "audio/narrative-auditions/E3/preview.wav",
+      "speech_seconds": 38.386,
+      "preview_seconds": 41.576,
+      "voice": "pm_santa",
+      "status": "Tomada E3 aprovada pelo criador no chat em 2026-11-05."
+    }
+  },
+  "pending": [],
+  "next_action": "Entregar o arquivo MP4 final para o criador assistir.",
+  "voice_candidates": [
+    {
+      "id": "pf_dora",
+      "preview": "audio/voice-options/preview-pf_dora.wav",
+      "speech_seconds": 42.68,
+      "preview_seconds": 44.43,
+      "approved": false
+    },
+    {
+      "id": "pm_alex",
+      "preview": "audio/voice-options/preview-pm_alex.wav",
+      "speech_seconds": 43.34,
+      "preview_seconds": 45.09,
+      "approved": false
+    },
+    {
+      "id": "pm_santa",
+      "preview": "audio/voice-options/preview-pm_santa.wav",
+      "speech_seconds": 43.85,
+      "preview_seconds": 45.6,
+      "approved": true
+    }
+  ],
+  "voice_selection": {
+    "id": "pm_santa",
+    "option": 3,
+    "approved": true,
+    "channel": "chat",
+    "approved_on": "2026-11-05",
+    "speed": 1,
+    "audio": "audio/narrative-auditions/E3/preview.wav",
+    "preview_for_narrative_E": "audio/narrative-auditions/E/preview.wav",
+    "preview_for_narrative_E_approved": false,
+    "preview_for_narrative_E2": "audio/narrative-auditions/E2/preview.wav",
+    "preview_for_narrative_E2_approved": false,
+    "preview_for_narrative_E3": "audio/narrative-auditions/E3/preview.wav",
+    "preview_for_narrative_E3_approved": true
+  },
+  "label": "Narrativa E3 adaptada · prévia técnica com prédios apoiados, rua, carro e legendas ampliadas",
+  "preview": {
+    "path": "hyperframes/index.html",
+    "url": "http://127.0.0.1:4175/preview/arco-alvenaria/index.html",
+    "duration_seconds": 41.576,
+    "status": "approved_and_rendered",
+    "final_render": "render/video.mp4"
+  },
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "summary": "O criador aprovou a prévia E3 com prédios apoiados no terreno, rua e sedã em passagem distante e legendas ampliadas, e autorizou o final. Plano validado e revisão atual de contexto aprovada pelo chat. Vídeo final renderizado em MP4 1080×1920, 30 fps, 41,6 s; áudio AAC estéreo com voz e oito efeitos locais."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "Pedido mais recente: prédios altos com base no terreno, rua sobre a frente do piso de concreto e sedã distante em passagem única. Legendas ampliadas de 48 para 52 px, com maior largura, contraste e margens seguras. Português falado e seleção de elementos de entorno foram formalizados nas skills de direção, áudio, assets e qualidade."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "Pequeno ajuste gramatical: abertura unificada em “A última cunha encaixa, mas o que impede o arco de cair?”, com pausa curta antes de “mas”. Voz e legendas retimadas; a passagem do avião foi separada do voo dos pássaros; legenda usa posição configurada mais baixa e segura. A prévia permanece pendente de validação."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "E3: abertura com “A última cunha encaixa. Mas o que impede o arco de cair?” e pausa; explicação direta do empurrão nos pilares; argamassa ligada pela conjunção “e”; fraseado e pausas atualizados. Apoios e sapatas alinhados com o arco e o plano frontal da parede. Jardim ganhou sol, pássaros, passagem única de avião, prédios, colinas e estátua discreta. Voz e legendas realinhadas; oito efeitos reposicionados e com mais presença. Plano e novas revisões continuam pendentes de avaliação humana."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "O payoff de “os encontros resistem” agora mostra somente as duas reações teal, que entram em sequência e pulsam brevemente; o plano anterior mantém empuxo vermelho e reação teal juntos. A superfície das cunhas recebeu granulação e relevo sutis. Relatórios técnicos dos recursos dependentes foram atualizados, sem erros; revisões humanas ainda pendentes."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "A superfície das cunhas recebeu mapas procedurais sutis de cor e relevo; o relatório técnico do arco foi atualizado e passou sem erros. A revisão do material permanece pendente para avaliação humana."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "A revisão de enquadramento abre o empuxo para mostrar os dois encontros e as reações laterais simultaneamente. Perguntas recebem entrada cinética curta na legenda e o ponto de interrogação em cor de destaque. Os oito SFX agora têm volumes entre 0,54 e 0,65; a reprodução local do evento de abertura foi observada sem erro no player. Plano E2, revisões de assets, amostra de voz, mixagem e estética seguem pendentes."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "Adaptação E2 abre com o encaixe frontal da última cunha; narrativa medida em 38,024 s. Composição refeita em 20 planos com recuo para contexto, cena externa discreta, entrada sequenciada da cimbra, alinhamento do arco e dos apoios ao plano da parede, legendas associadas à fala e oito efeitos locais. O agendador de SFX foi implementado no player. Plano, dois recursos novos, tomada E2, mistura sonora e estética continuam pendentes; nenhuma aprovação foi criada."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "Movimento, setas, juntas, legenda e plano de efeitos foram revisados. A tomada C permanece preservada como aprovação anterior; D, E e F aguardam escolha. A aprovação estética da nova prévia e as aprovações de recursos desta revisão continuam pendentes."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "Geradas amostras secas das narrativas D, E e F na voz pm_santa aprovada, com pausas entre beats. As tomadas aguardam escuta e escolha do criador; decisão de adaptação visual permanece para depois da audição."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "Narrativa E selecionada pelo criador. A voz E foi alinhada por palavra ao arquivo local; 29 cenas e 27 legendas acompanham o deslocamento do apoio, a abertura das juntas, o percurso da carga e a retirada final da cimbra. O empuxo agora tem um plano aberto bilateral e um close curto no apoio direito. Adicionado um objeto local de argamassa entre as cunhas e análise dos quatro vídeos de referência a 4 fps. Plano E, revisão de assets e sons aguardam inspeção; a prévia é técnica."
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "Close da argamassa reforçado para tela 9:16 com juntas de 0,42° (aprox. 17,4 mm) e câmera deslizando pelo preenchimento antes de recuar para o arco. Adicionados foleys locais no empuxo, compressão e apoio da cimbra: seis eventos no total. Todos os 29 planos têm movimento de câmera durante o beat; projeto e relatórios técnicos atualizados. Nenhuma revisão humana foi aprovada automaticamente."
+    }
+  ],
+  "final_delivery": {
+    "file": "render/video.mp4",
+    "format": "MP4/H.264",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "durationSeconds": 41.6,
+    "sizeBytes": 84021173,
+    "audio": "AAC estéreo, 48 kHz; voz E3 e oito efeitos locais; sem trilha musical."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "inset_fotografico_familia_kink",
+  "label": "Fotografia histórica da família Kink, passageiros da terceira classe",
+  "kind": "overlay",
+  "category": "motion_graphics",
+  "description": "Retrato de 1912 da família Kink, passageiros da terceira classe e sobreviventes do Titanic; insert documental animado com contexto e crédito, sem apresentá-lo como fotografia a bordo.",
+  "module": "archive-photo-motion-inset.js",
+  "aliases": [
+    "família Kink",
+    "sobreviventes da terceira classe",
+    "famílias de passageiros do Titanic"
+  ],
+  "variants": [
+    "titanic-survivors-kink-family-1912"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:archive-inset-family-kink"
+  },
+  "sourceMetadata": {
+    "title": "Titanic's Survivors Kink Family Members",
+    "creator": "Fotógrafo desconhecido; publicado no Milwaukee Journal",
+    "date": "Imagem de meados de abril de 1912; publicação em 24 de abril de 1912",
+    "repository": "Wikimedia Commons; Milwaukee Journal via Encyclopedia-Titanica",
+    "catalogUrl": "https://commons.wikimedia.org/wiki/File:Titanic's_Survivors_Kink_Family_Members.jpg",
+    "rightsAdvisory": "Wikimedia Commons classifica a imagem como obra anônima/pseudônima publicada antes de 1º de janeiro de 1913 e em domínio público em países cujo prazo para obra anônima é de até 113 anos. A legenda identifica os Kink como passageiros da 3ª classe e sobreviventes; a imagem foi publicada após o naufrágio.",
+    "license": "Public domain marking (PD-anon-expired; unknown photographer)",
+    "attribution": "Milwaukee Journal · 24 abril 1912 · fotógrafo desconhecido · Wikimedia Commons",
+    "originalFile": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Titanic%27s_Survivors_Kink_Family_Members.jpg",
+    "displayFile": "kit/assets/media/titanic-survivors-kink-family-1912.jpg",
+    "retrievedAt": "2026-11-08"
+  },
+  "files": [
+    "kit/assets/media/titanic-survivors-kink-family-1912.jpg"
+  ]
+}

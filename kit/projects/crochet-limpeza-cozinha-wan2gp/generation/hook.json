@@ -1,0 +1,16 @@
+[
+  {
+    "model_type": "t2v_nexus_1.3B",
+    "prompt": "scene: \"vertical 9:16 stop-motion macro shot of a handmade amigurumi dollhouse kitchen built entirely from crochet yarn, clearly a soft yarn craft world, never a real kitchen\", material: \"highest priority is unmistakable crocheted cotton: thick matte yarn, large individual loops, raised stitch rows and fuzzy fibers visible across cabinets, floor, sink, counters and every prop\", layout: \"same tiny L-shaped kitchen in every shot, sink left, dark indigo cooktop right, mint cabinets at the rear, one window at camera left\", palette: \"oatmeal cream, muted mint, deep indigo, warm coral and small mustard accents\", lighting: \"warm diffuse morning light from the left, fixed direction and exposure\", scale: \"consistent 1:12 dollhouse scale and chunky crochet loops\", hands: \"only two natural medium-brown hands with plain navy cuffs may enter at the frame edge, no jewelry\", camera: \"vertical macro framing with a clear contact plane and useful depth of field\", style: \"tactile handcrafted crochet amigurumi stop-motion, soft sculpted yarn, visible loops are the main visual subject\", quality: \"crisp high-contrast yarn stitches at macro scale, one action, stable object contact, no text\". Close macro at the left sink, one continuous cleaning action. The dish is a small shallow ivory crochet plate made entirely from thick cotton yarn; its rim and center both have large raised loops and soft matte fibers, clearly crochet, never ceramic. Two hands with plain navy cuffs hold it steady. Start with the small rectangular mustard-yellow yarn sponge already touching the plate. The right hand makes one obvious left-to-right sweep across the surface; the sponge stays in firm contact and compresses slightly, and a short trail of white soap bubbles follows its path. A thin water stream rinses the bubbles away, then the plate is placed in the yarn dish rack. Keep the whole action visible in the fixed close-up. Do not hover or pause with the sponge above the plate. No food, no donut, no cut, no extra action.",
+    "negative_prompt": "photorealistic, realistic kitchen, real materials, smooth cabinets, polished wood, stone countertop, ceramic plate, glossy plastic, metallic appliance, food, pastry, donut, full-size room, different room, changed layout, changed palette, changed light direction, letters, readable text, logo, watermark, extra people, extra hands, extra fingers, fused fingers, missing fingers, floating objects, hovering sponge, static hands, no physical contact, morphing props, melting yarn, blurry loops, inconsistent stitch scale, flicker, temporal trails, camera shake, fast zoom, dutch angle, sudden exposure change, subtitles, captions",
+    "resolution": "432x768",
+    "video_length": 61,
+    "num_inference_steps": 6,
+    "guidance_scale": 1,
+    "flow_shift": 5,
+    "seed": 684201,
+    "repeat_generation": 1,
+    "image_mode": 0,
+    "output_filename": "01-pratos-pia"
+  }
+]

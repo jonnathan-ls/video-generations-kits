@@ -1,0 +1,3713 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "rail-demo:resource-1",
+      "projectId": "rail-demo",
+      "kind": "scene",
+      "label": "Via em contexto",
+      "specification": "Trecho de via com terreno, apoio e referência de escala; manter continuidade espacial.",
+      "evidence": [
+        {
+          "phrase": "via",
+          "start": 3,
+          "end": 6
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-05T03:49:24.509Z",
+      "updatedAt": "2026-11-05T03:49:24.509Z"
+    },
+    {
+      "id": "rail-demo:resource-2",
+      "projectId": "rail-demo",
+      "kind": "object",
+      "label": "Segmento de trilho",
+      "specification": "Perfil de trilho com alma e mesas distintas, material metálico legível e unidade em metros.",
+      "evidence": [
+        {
+          "phrase": "trilho",
+          "start": 10,
+          "end": 16
+        }
+      ],
+      "baselineIds": [
+        "parede_hidraulica"
+      ],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-05T03:49:24.509Z",
+      "updatedAt": "2026-11-05T03:49:24.509Z"
+    },
+    {
+      "id": "rail-demo:resource-3",
+      "projectId": "rail-demo",
+      "kind": "material",
+      "label": "Material de aquecimento",
+      "specification": "Variação controlada de aparência para indicar aquecimento; não deformar a peça nem sugerir temperatura sem evidência.",
+      "evidence": [
+        {
+          "phrase": "aquece",
+          "start": 17,
+          "end": 23
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-05T03:49:24.509Z",
+      "updatedAt": "2026-11-05T03:49:24.509Z"
+    },
+    {
+      "id": "rail-demo:resource-4",
+      "projectId": "rail-demo",
+      "kind": "object",
+      "label": "Junta de dilatação",
+      "specification": "Conjunto ilustrativo de dois segmentos, folga, talas e fixações; encaixes visíveis nas vistas de detalhe.",
+      "evidence": [
+        {
+          "phrase": "junta",
+          "start": 27,
+          "end": 32
+        }
+      ],
+      "baselineIds": [
+        "parede_hidraulica"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "junta_dilatacao",
+      "createdAt": "2026-11-05T03:49:24.509Z",
+      "updatedAt": "2026-11-05T03:49:25.075Z"
+    },
+    {
+      "id": "rail-demo:resource-5",
+      "projectId": "rail-demo",
+      "kind": "animation",
+      "label": "Abertura longitudinal",
+      "specification": "Mover segmentos apenas ao longo do eixo da junta, com distância limitada e sem escala elástica.",
+      "evidence": [
+        {
+          "phrase": "abre",
+          "start": 33,
+          "end": 37
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-05T03:49:24.509Z",
+      "updatedAt": "2026-11-05T03:49:24.509Z"
+    },
+    {
+      "id": "rail-demo:resource-6",
+      "projectId": "rail-demo",
+      "kind": "camera",
+      "label": "Aproximação do mecanismo",
+      "specification": "Deslocamento curto até a folga, sem órbita decorativa, preservando a orientação do conjunto.",
+      "evidence": [
+        {
+          "phrase": "câmera aproxima",
+          "start": 41,
+          "end": 56
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-05T03:49:24.509Z",
+      "updatedAt": "2026-11-05T03:49:24.509Z"
+    },
+    {
+      "id": "rail-demo:resource-7",
+      "projectId": "rail-demo",
+      "kind": "effect",
+      "label": "Realce de contato",
+      "specification": "Contorno pontual no local de interesse; conservar o material original e a legibilidade do mecanismo.",
+      "evidence": [
+        {
+          "phrase": "contorno destaca",
+          "start": 61,
+          "end": 77
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-05T03:49:24.509Z",
+      "updatedAt": "2026-11-05T03:49:24.509Z"
+    },
+    {
+      "id": "arco-alvenaria:coroamento-fit",
+      "projectId": "arco-alvenaria",
+      "kind": "animation",
+      "label": "Encaixe da peça de fecho",
+      "specification": "Animação determinística da última peça de alvenaria entrando no coroamento e completando o anel. O movimento termina com contato claro entre as faces; não simular cálculo estrutural.",
+      "evidence": [
+        {
+          "phrase": "encaixa",
+          "start": 14,
+          "end": 21
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:arch-ring"
+      ],
+      "stage": "review",
+      "assetId": "encaixe_coroamento",
+      "createdAt": "2026-11-05T05:12:49.285Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:cimbra-arch",
+      "projectId": "arco-alvenaria",
+      "kind": "object",
+      "label": "Cimbra de madeira para arco",
+      "specification": "Escoramento temporário curvo de madeira ajustado ao intradorso do arco, com costelas e escoras legíveis. Unidade em metros, apoiado no chão, separado do arco para permitir a retirada. Modelo ilustrativo, sem cálculo de capacidade.",
+      "evidence": [
+        {
+          "phrase": "forma de madeira",
+          "start": 29,
+          "end": 45
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "cimbra_arco",
+      "createdAt": "2026-11-05T05:12:49.285Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:arch-ring",
+      "projectId": "arco-alvenaria",
+      "kind": "object",
+      "label": "Arco de alvenaria segmentado",
+      "specification": "Anel de arco composto por unidades trapezoidais separadas, juntas visíveis e peça de fecho reconhecível no coroamento. Geometria autoportante apoiada nas extremidades; permitir leitura frontal e separação controlada das peças. Dimensões ilustrativas, sem representar projeto executivo.",
+      "evidence": [
+        {
+          "phrase": "arco",
+          "start": 66,
+          "end": 70
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "arco_alvenaria",
+      "createdAt": "2026-11-05T05:12:49.285Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:abutments",
+      "projectId": "arco-alvenaria",
+      "kind": "object",
+      "label": "Apoios laterais de arco",
+      "specification": "Par de encontros maciços independentes nas duas extremidades do arco, com bases em contato com o chão e faces de contato no arranque da curva. Separados do anel para mostrar as reações laterais. Escala ilustrativa, sem dimensionamento estrutural.",
+      "evidence": [
+        {
+          "phrase": "apoios",
+          "start": 443,
+          "end": 449
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "apoios_arco",
+      "createdAt": "2026-11-05T05:12:49.285Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:early-centering-removal",
+      "projectId": "arco-alvenaria",
+      "kind": "animation",
+      "label": "Cedimento após retirada precoce da cimbra",
+      "specification": "Animação determinística em que a cimbra é baixada antes do arco estar pronto para receber a carga; o coroamento cede e algumas juntas se abrem de modo esquemático. Mostrar risco possível, sem sugerir que toda retirada causa sempre o mesmo colapso.",
+      "evidence": [
+        {
+          "phrase": "tiramos cedo",
+          "start": 151,
+          "end": 163
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:cimbra-arch",
+        "arco-alvenaria:arch-ring",
+        "arco-alvenaria:abutments"
+      ],
+      "stage": "review",
+      "assetId": "retirada_precoce_cimbra",
+      "createdAt": "2026-11-05T05:12:49.285Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:lower-centering",
+      "projectId": "arco-alvenaria",
+      "kind": "animation",
+      "label": "Descida e retirada da cimbra",
+      "specification": "A cimbra desce de forma controlada e se afasta, enquanto o arco e os apoios permanecem no lugar. sample(t) deve ser determinístico e permitir inspeção temporal fora de ordem.",
+      "evidence": [
+        {
+          "phrase": "a madeira desce",
+          "start": 192,
+          "end": 207
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:cimbra-arch",
+        "arco-alvenaria:arch-ring",
+        "arco-alvenaria:abutments"
+      ],
+      "stage": "review",
+      "assetId": "retirada_cimbra",
+      "createdAt": "2026-11-05T05:12:49.285Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:compression-path",
+      "projectId": "arco-alvenaria",
+      "kind": "effect",
+      "label": "Trajeto compressivo da carga no arco",
+      "specification": "Setas esquemáticas percorrem o anel desde a região do coroamento ao longo da curva até os dois arranques e bases. Indicar transmissão por compressão em unidades vizinhas; não exibir números, escala de força ou resultado de cálculo.",
+      "evidence": [
+        {
+          "phrase": "a curva conduz a carga às bases",
+          "start": 331,
+          "end": 362
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:arch-ring",
+        "arco-alvenaria:abutments"
+      ],
+      "stage": "review",
+      "assetId": "trajeto_compressivo_arco",
+      "createdAt": "2026-11-05T05:12:49.285Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:lateral-thrust",
+      "projectId": "arco-alvenaria",
+      "kind": "effect",
+      "label": "Empuxo lateral e reação dos apoios",
+      "specification": "Setas horizontais esquemáticas mostram o empuxo para fora nos arranques do arco e setas opostas nos encontros mostram a reação dos apoios. Manter a direção clara e não apresentar magnitude calculada.",
+      "evidence": [
+        {
+          "phrase": "empurra as bases para fora",
+          "start": 383,
+          "end": 409
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:arch-ring",
+        "arco-alvenaria:abutments"
+      ],
+      "stage": "review",
+      "assetId": "empuxo_lateral_arco",
+      "createdAt": "2026-11-05T05:12:49.285Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:support-instability",
+      "projectId": "arco-alvenaria",
+      "kind": "animation",
+      "label": "Abertura das juntas por movimento do apoio",
+      "specification": "Animação determinística em que um apoio se desloca para fora, juntas próximas ao arranque abrem e o anel começa a perder estabilidade. Mostrar a progressão como esquema causal, sem solver físico ou colapso obrigatório.",
+      "evidence": [
+        {
+          "phrase": "Se um se move, as juntas abrem e o arco pode cair",
+          "start": 482,
+          "end": 531
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:arch-ring",
+        "arco-alvenaria:abutments"
+      ],
+      "stage": "review",
+      "assetId": "instabilidade_apoio_arco",
+      "createdAt": "2026-11-05T05:12:49.285Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:context-wall-scene",
+      "projectId": "arco-alvenaria",
+      "kind": "scene",
+      "label": "Contexto de obra com parede e vão em arco",
+      "specification": "Cena estática reutilizável de uma parede de alvenaria inacabada com abertura em arco, espessura e retornos laterais discretos. A abertura permanece livre para compor o arco, cimbra e apoios como recursos separados; o piso aprovado continua como asset independente. O contexto serve às cenas de montagem, cedimento e retirada, sem ferramentas, trabalhadores ou decoração que compitam com o mecanismo.",
+      "evidence": [
+        {
+          "phrase": "vão",
+          "start": 718,
+          "end": 721
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:arch-ring",
+        "arco-alvenaria:abutments"
+      ],
+      "stage": "review",
+      "assetId": "contexto_obra_arco",
+      "createdAt": "2026-11-05T05:59:10.557Z",
+      "updatedAt": "2026-11-05T13:59:50.305Z"
+    },
+    {
+      "id": "arco-alvenaria:sound-masonry-contact",
+      "projectId": "arco-alvenaria",
+      "kind": "sound",
+      "label": "Contato seco de alvenaria",
+      "specification": "Foley local e determinístico, toque curto e seco para o assentamento de uma peça de alvenaria. Sem ressonância metálica e sem sugerir impacto destrutivo; proposta sonora sujeita à escuta humana.",
+      "evidence": [
+        {
+          "phrase": "encaixa",
+          "start": 14,
+          "end": 21
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "som_alvenaria_batida",
+      "createdAt": "2026-11-05T13:58:40.137Z",
+      "updatedAt": "2026-11-05T14:00:22.102Z"
+    },
+    {
+      "id": "arco-alvenaria:sound-wood-creak",
+      "projectId": "arco-alvenaria",
+      "kind": "sound",
+      "label": "Esforço leve da madeira",
+      "specification": "Foley local e determinístico de madeira sob esforço, curto e de baixa intensidade, para acompanhar a descida da cimbra. Não sugerir ruptura ou falha estrutural.",
+      "evidence": [
+        {
+          "phrase": "madeira desce",
+          "start": 194,
+          "end": 207
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "som_madeira_creak",
+      "createdAt": "2026-11-05T13:58:40.137Z",
+      "updatedAt": "2026-11-05T14:00:22.103Z"
+    },
+    {
+      "id": "arco-alvenaria:e-mortar-joints",
+      "projectId": "arco-alvenaria",
+      "kind": "object",
+      "label": "Argamassa entre as cunhas do arco",
+      "specification": "Objeto local, determinístico, composto por doze cunhas estreitas de argamassa clara que preenchem as juntas radiais do anel de treze unidades do asset arco_alvenaria. Coordenadas, centro, raio interno/externo e ângulo devem coincidir com a geometria do arco; faces frontal e traseira ficam ligeiramente recuadas para não cobrir os tijolos. Contraste suficiente para leitura em close vertical, sem transformar juntas em folgas grandes. Material fosco de argamassa, sem textura externa ou cálculo estrutural.",
+      "evidence": [
+        {
+          "phrase": "Juntas de argamassa ajustadas mantêm o contato entre as peças",
+          "start": 317,
+          "end": 378
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:arch-ring"
+      ],
+      "stage": "review",
+      "assetId": "argamassa_juntas_arco",
+      "createdAt": "2026-11-05T16:27:07.639Z",
+      "updatedAt": "2026-11-05T17:06:00.043Z"
+    },
+    {
+      "id": "arco-alvenaria:e-mortar-mobile-readability",
+      "projectId": "arco-alvenaria",
+      "kind": "object",
+      "label": "Legibilidade das juntas de argamassa em close vertical",
+      "specification": "Revisar o asset argamassa_juntas_arco para que as juntas radiais apareçam preenchidas e legíveis em tela móvel 9:16 durante a fala sobre argamassa. Usar abertura de 0,42 graus (aprox. 17 mm no raio externo de 2,38 m, dentro da referência construtiva de 3–19 mm), material fosco com contraste claro em relação à terracota e um close que mostre duas cunhas adjacentes e a junta preenchida. Preservar proporções e contato físico; sem ampliar o vão além da referência nem cobrir a face dos tijolos.",
+      "evidence": [
+        {
+          "phrase": "Juntas de argamassa ajustadas mantêm o contato entre as peças",
+          "start": 317,
+          "end": 378
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:e-mortar-joints",
+        "arco-alvenaria:arch-ring"
+      ],
+      "stage": "review",
+      "assetId": "argamassa_juntas_arco",
+      "createdAt": "2026-11-05T16:55:33.534Z",
+      "updatedAt": "2026-11-05T16:59:54.824Z"
+    },
+    {
+      "id": "arco-alvenaria:e2-centering-entry",
+      "projectId": "arco-alvenaria",
+      "kind": "animation",
+      "label": "Montagem da cimbra sob o arco",
+      "specification": "Comportamento determinístico aplicado à instância local da cimbra. Entrar em até 1,8 s com escoras apoiadas no piso primeiro e segmentos das costelas surgindo em stagger curto a partir dos encontros até a coroa; pouso sem quique, contato visual claro com o intradorso e estado final estável. O tempo é absoluto/seekável e aceita timeOffset para cenas seguintes. Não simula capacidade estrutural.",
+      "evidence": [
+        {
+          "phrase": "A cimbra apoia a alvenaria",
+          "start": 366,
+          "end": 392
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:cimbra-arch"
+      ],
+      "stage": "review",
+      "assetId": "entrada_cimbra_arco",
+      "createdAt": "2026-11-05T21:04:03.597Z",
+      "updatedAt": "2026-11-05T21:40:56.240Z"
+    },
+    {
+      "id": "arco-alvenaria:e2-garden-scene",
+      "projectId": "arco-alvenaria",
+      "kind": "scene",
+      "label": "Contexto do arco com jardim ao fundo",
+      "specification": "Cena contextual 3D composta pela parede de alvenaria existente, abertura em arco, uma casa distante enquadrada pelo vão e árvores/arbustos discretos nas laterais. O eixo frontal do arco, apoios e parede deve coincidir; vegetação e casa ficam em segundo plano, não atravessam o mecanismo nem competem com legendas. Materiais low-poly com variação tonal sutil na alvenaria; manter luz e sombras compatíveis com o projeto.",
+      "evidence": [
+        {
+          "phrase": "o vão fica livre",
+          "start": 574,
+          "end": 590
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:context-wall-scene"
+      ],
+      "stage": "review",
+      "assetId": "contexto_arco_jardim",
+      "createdAt": "2026-11-05T21:04:03.597Z",
+      "updatedAt": "2026-11-05T21:40:56.240Z"
+    },
+    {
+      "id": "arco-alvenaria:e3-abutment-alignment",
+      "projectId": "arco-alvenaria",
+      "kind": "object",
+      "label": "Pilares e sapatas alinhados ao arco",
+      "specification": "Revisar a geometria do par de pilares para que cada pilar encontre o arranque de uma extremidade do arco, com a sapata centrada sob o próprio pilar e base integralmente apoiada no piso. Manter as faces frontais de pilares, arco e parede no mesmo plano visível. Modelo esquemático sem dimensionamento estrutural.",
+      "evidence": [
+        {
+          "source": "feedback do criador",
+          "phrase": "O pilar não está alinhado com o arco; o tijolo sob o pilar precisa coincidir com as extremidades do pilar.",
+          "date": "2026-11-05"
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "arco-alvenaria:arch-ring"
+      ],
+      "stage": "review",
+      "assetId": "apoios_arco",
+      "createdAt": "2026-11-06T00:15:57.072Z",
+      "updatedAt": "2026-11-06T00:15:57.072Z"
+    },
+    {
+      "id": "arco-alvenaria:e3-garden-life",
+      "projectId": "arco-alvenaria",
+      "kind": "scene",
+      "label": "Ambiente exterior com vida",
+      "specification": "Ampliar o mesmo cenário contextual com sol diurno, pássaros em movimento, uma única passagem distante de avião, prédios e colinas ao fundo e uma estátua discreta no jardim. Preservar a continuidade espacial e manter todos esses elementos em segundo plano, com baixo contraste e sem cruzar o arco, as legendas ou o foco da ação.",
+      "evidence": [
+        {
+          "source": "feedback do criador",
+          "phrase": "Sol, pássaros, avião passando, prédios atrás, estátua de jardim e montanha ao fundo.",
+          "date": "2026-11-05"
+        }
+      ],
+      "baselineIds": [
+        "contexto_obra_arco"
+      ],
+      "dependsOn": [
+        "arco-alvenaria:context-wall-scene"
+      ],
+      "stage": "review",
+      "assetId": "contexto_arco_jardim",
+      "createdAt": "2026-11-06T00:15:57.072Z",
+      "updatedAt": "2026-11-06T00:15:57.072Z"
+    },
+    {
+      "id": "arco-alvenaria:e4-street-car",
+      "projectId": "arco-alvenaria",
+      "kind": "scene",
+      "label": "Rua e carro de passagem no ambiente do arco",
+      "specification": "Completar o ambiente exterior aprovado com uma rua em primeiro plano, assentada sobre o piso de concreto, e um sedã que cruza a cena uma vez em trajetória horizontal, velocidade moderada e distância suficiente do arco. Manter bases de prédios em contato com o terreno e preservar a leitura do arco, dos apoios e das legendas.",
+      "evidence": [
+        {
+          "source": "pedido do criador pelo chat",
+          "phrase": "Rua na frente do chão de concreto e algum carro passando sem estar tão próximo."
+        }
+      ],
+      "baselineIds": [
+        "contexto_obra_arco"
+      ],
+      "dependsOn": [
+        "arco-alvenaria:e3-garden-life"
+      ],
+      "stage": "review",
+      "assetId": "contexto_arco_jardim",
+      "createdAt": "2026-11-06T02:23:19.036Z",
+      "updatedAt": "2026-11-06T02:23:19.037Z"
+    },
+    {
+      "id": "titanic-pilot:mar-noturno",
+      "projectId": "titanic-pilot",
+      "kind": "scene",
+      "label": "Atlântico noturno",
+      "specification": "Ambiente marítimo de 1912, horizonte legível, céu escuro e superfície de água com escala consistente. Âncora comum para Carpathia, sinal e botes; não implica mar revolto ou tempestade.",
+      "evidence": [
+        {
+          "phrase": "oceano",
+          "start": 79,
+          "end": 85
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "atlantico_noturno",
+      "createdAt": "2026-11-07T00:08:38.019Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:transatlantico-titanic",
+      "projectId": "titanic-pilot",
+      "kind": "object",
+      "label": "Titanic — exterior reconhecível",
+      "specification": "Reconstrução ilustrativa do exterior de 1912, quatro chaminés e proporções verificadas antes da modelagem. Convés utilizável no embarque; não substituir por navio genérico ou apresentar como modelo arqueológico exato.",
+      "evidence": [
+        {
+          "phrase": "Titanic",
+          "start": 22,
+          "end": 29
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "transatlantico_titanic",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:navio-carpathia",
+      "projectId": "titanic-pilot",
+      "kind": "object",
+      "label": "Carpathia — navio de resgate",
+      "specification": "Exterior ilustrativo verificável, distinguível do Titanic, com ponte e ponto de observação. Sem copiar detalhes do Titanic; localizar observador e gelo na mesma direção de viagem.",
+      "evidence": [
+        {
+          "phrase": "Carpathia",
+          "start": 146,
+          "end": 155
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "navio_carpathia",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:observador-1912",
+      "projectId": "titanic-pilot",
+      "kind": "character",
+      "label": "Capitão e passageiros de 1912",
+      "specification": "Variações separadas: capitão de uniforme marítimo e passageiros adultos de 1912. Aproveitar adaptador de personagens existente quando compatível, mas revisar figurino e silhueta. Não atribuir identidade ou destino inventado aos passageiros figurantes.",
+      "evidence": [
+        {
+          "phrase": "capitão",
+          "start": 42,
+          "end": 49
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "pessoas_maritimas_1912",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:sinal-verde",
+      "projectId": "titanic-pilot",
+      "kind": "effect",
+      "label": "Sinalizador verde distante",
+      "specification": "Luz verde compacta, baixa e legível na popa do bote, com halo e reflexo local discretos; sem rastro vertical, flash ou aparência de foguete. Na abertura, o bote primeiro permanece quase invisível e a câmera confirma a origem no insert. Não cobrir a legenda nem lavar a água.",
+      "evidence": [
+        {
+          "phrase": "luz verde",
+          "start": 58,
+          "end": 67
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sinalizador_verde",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:gelo-maritimo",
+      "projectId": "titanic-pilot",
+      "kind": "object",
+      "label": "Gelo marítimo",
+      "specification": "Campo e massa de iceberg com silhueta assimétrica, crista irregular, faces de gelo quebrado e linha d’água legível. No choque, encostar visualmente ao costado sem ocultar toda a embarcação; dimensões e forma ilustrativas, sem afirmar a forma exata do iceberg histórico.",
+      "evidence": [
+        {
+          "phrase": "gelo",
+          "start": 217,
+          "end": 221
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "gelo_maritimo",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:bote-1912",
+      "projectId": "titanic-pilot",
+      "kind": "object",
+      "label": "Bote de salvamento de 1912",
+      "specification": "Casco aberto, bancos legíveis e lugares desocupados visíveis sem números inventados. Variante com passageiros sentados; superfície da água toca o casco. Revisar formato histórico e escala em relação aos passageiros.",
+      "evidence": [
+        {
+          "phrase": "botes",
+          "start": 272,
+          "end": 277
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "bote_salvamento_1912",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:ocupacao-bote",
+      "projectId": "titanic-pilot",
+      "kind": "animation",
+      "label": "Bote afasta-se com lugares vazios",
+      "specification": "Movimento curto e determinístico do bote em relação ao costado. Passageiros assentados nos bancos, sem atravessar casco; recuperar visão do Titanic e de quem fica. Lugares vazios legíveis, sem sugerir que todos os botes saíram assim.",
+      "evidence": [
+        {
+          "phrase": "lugares vazios",
+          "start": 340,
+          "end": 354
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "afastamento_bote",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:trajeto-resgate",
+      "projectId": "titanic-pilot",
+      "kind": "animation",
+      "label": "Aproximação do navio entre gelo",
+      "specification": "Avanço determinado por trajetória e tempo absoluto, deslocamento da água subordinado ao casco. Mostrar obstáculo e destino espacial; sem insinuar distância ou velocidade exata não verificada.",
+      "evidence": [
+        {
+          "phrase": "Corria para atender",
+          "start": 157,
+          "end": 176
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "aproximacao_resgate",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:ponte-observacao",
+      "projectId": "titanic-pilot",
+      "kind": "camera",
+      "label": "Olhar até o sinal no horizonte",
+      "specification": "Partir da ponte do Carpathia e revelar luz no horizonte. Manter eixo e escala, parar para leitura do sinal; evitar órbita contínua e reação facial inventada como evidência histórica.",
+      "evidence": [
+        {
+          "phrase": "viu",
+          "start": 50,
+          "end": 53
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "olhar_horizonte",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:luz-noite",
+      "projectId": "titanic-pilot",
+      "kind": "lighting",
+      "label": "Noite marítima legível",
+      "specification": "Separar horizonte, casco, pessoas e gelo com iluminação estilizada discreta. O sinal mantém contraste sem dominar toda a tela; não fingir que iluminação de cinema é registro documental.",
+      "evidence": [
+        {
+          "phrase": "madrugada",
+          "start": 3,
+          "end": 12
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "iluminacao_maritima",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:atlas-historico",
+      "projectId": "titanic-pilot",
+      "kind": "object",
+      "label": "Atlas histórico em relevo",
+      "specification": "Identidade original: atlas aberto, superfície cartográfica do Atlântico e relevo simplificado. Um percurso contínuo conduz ao lugar e ano do episódio; sem ampulheta, galeria dourada ou sequência de épocas da referência.",
+      "evidence": [
+        {
+          "phrase": "história",
+          "start": 429,
+          "end": 437
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "atlas_historico_relevo",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:atlas-para-mar",
+      "projectId": "titanic-pilot",
+      "kind": "transition",
+      "label": "Do atlas para o Atlântico",
+      "specification": "Percurso original de cinco a seis segundos como estimativa: atlas ganha relevo, aproximação encontra Atlântico Norte em 1912, superfície transforma-se em mar. Uma direção principal, sem espera por marca; pausa para leitura do lugar.",
+      "evidence": [
+        {
+          "phrase": "noite do Titanic",
+          "start": 441,
+          "end": 457
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "mergulho_atlas",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:identificacao-historica",
+      "projectId": "titanic-pilot",
+      "kind": "overlay",
+      "label": "Identificações e título do episódio",
+      "specification": "Texto curto e original: Atlântico Norte / 1912, Carpathia, Titanic e título. Uma identificação por vez, posição que preserve sinal e ocupação do bote. Legendas da fala serão alinhadas depois da escolha da voz; não animar cada palavra por padrão.",
+      "evidence": [
+        {
+          "phrase": "Abril de mil novecentos e doze",
+          "start": 506,
+          "end": 536
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "identificacao_historica",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:partida-1912",
+      "projectId": "titanic-pilot",
+      "kind": "scene",
+      "label": "Partida do Titanic em 1912",
+      "specification": "Contexto portuário ilustrativo para entrada cronológica, dia distinto da noite do resgate. Manter navio reconhecível, cais e água em contato, pessoas em escala. Evitar detalhes documentais específicos sem fonte.",
+      "evidence": [
+        {
+          "phrase": "parte da Inglaterra",
+          "start": 548,
+          "end": 567
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "partida_transatlantico",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:ambiente-mar",
+      "projectId": "titanic-pilot",
+      "kind": "sound",
+      "label": "Ambiência marítima discreta",
+      "specification": "Som original ou local licenciado, mar calmo e ruído distante do navio, sem sons copiados da referência. Estabelecer lugar sem abafar a narração. Não pontuar cada corte com whoosh.",
+      "evidence": [
+        {
+          "phrase": "no meio do oceano",
+          "start": 68,
+          "end": 85
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "ambiencia_mar_calmo",
+      "createdAt": "2026-11-07T00:08:38.020Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:ponte-maritima",
+      "projectId": "titanic-pilot",
+      "kind": "scene",
+      "label": "Ponte de observação marítima",
+      "specification": "Trecho de ponte com piso, parapeito e referência de navio; plano sobre o ombro mantém oficial e sinal no mesmo quadro. Vidro escurecido e iluminação quente de cabine contida para preservar a hierarquia; mar legível ao fundo, sem atribuir reconstrução exata ao espaço.",
+      "evidence": [
+        {
+          "phrase": "capitão",
+          "start": 42,
+          "end": 49
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "ponte_observacao_maritima",
+      "createdAt": "2026-11-07T01:48:12.372Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:reacao-observador",
+      "projectId": "titanic-pilot",
+      "kind": "animation",
+      "label": "Orientação do observador ao sinal",
+      "specification": "O olhar acompanha a luz e a cabeça e os ombros reagem com movimento legível no plano próximo; sem gesto apontado nem diálogo atribuído como testemunho histórico.",
+      "evidence": [
+        {
+          "phrase": "viu",
+          "start": 50,
+          "end": 53
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "orientacao_observador",
+      "createdAt": "2026-11-07T01:48:12.372Z",
+      "updatedAt": "2026-11-07T02:32:17.747Z"
+    },
+    {
+      "id": "titanic-pilot:porto-era1912",
+      "projectId": "titanic-pilot",
+      "kind": "scene",
+      "label": "Cais portuário de 1912",
+      "specification": "Contexto ilustrativo de partida: cais de alvenaria, armazéns com cobertura inclinada, guindastes portuários e cabeços de amarração, escala compatível com transatlântico. Sem afirmar planta exata de Southampton. Navio se afasta com água entre costado e cais.",
+      "evidence": [
+        {
+          "phrase": "Inglaterra",
+          "start": 557,
+          "end": 567
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "porto_maritimo_1912",
+      "createdAt": "2026-11-07T02:32:17.747Z",
+      "updatedAt": "2026-11-07T02:32:42.378Z"
+    },
+    {
+      "id": "titanic-bloco-01:salao-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "scene",
+      "label": "Salão de passageiros de 1912",
+      "specification": "Espaço utilizável com piso, painéis de madeira, mesas, cadeiras, luminárias e passagem; desenho de época ilustrativo, não planta exata.",
+      "evidence": [
+        {
+          "phrase": "salões",
+          "start": 962,
+          "end": 968
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "salao_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:alojamento-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "scene",
+      "label": "Alojamento de passageiros de terceira classe",
+      "specification": "Beliches, circulação, bagagem e contato com piso; espaço digno e histórico ilustrativo, sem miséria caricatural.",
+      "evidence": [
+        {
+          "phrase": "emigrantes",
+          "start": 762,
+          "end": 772
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "alojamento_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:corredores-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "scene",
+      "label": "Corredores, escada e acesso ao convés",
+      "specification": "Geometria contínua com portas e patamares; dois percursos legíveis até o convés, sem sugerir aprisionamento universal.",
+      "evidence": [
+        {
+          "phrase": "caminhos diferentes",
+          "start": 909,
+          "end": 928
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "corredor_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:radio-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "scene",
+      "label": "Estação de telegrafia de 1912",
+      "specification": "Mesa, chave de Morse, receptor, fones, papel e operador apoiado; reconstrução ilustrativa com gesto de recepção e registro.",
+      "evidence": [
+        {
+          "phrase": "rádio",
+          "start": 1559,
+          "end": 1564
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "radio_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:maquinas-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "scene",
+      "label": "Praça de máquinas e trabalho de 1912",
+      "specification": "Partes móveis interligadas, plataformas, tubulações e trabalhadores em escala; peças com contato e ciclos determinísticos, sem simular planta exata.",
+      "evidence": [
+        {
+          "phrase": "máquinas",
+          "start": 1198,
+          "end": 1206
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "maquinas_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:cozinha-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "scene",
+      "label": "Cozinha e serviço de bordo",
+      "specification": "Bancadas, fogão, utensílios e ligação com serviço de mesa; ação causal de preparar e levar, sem decoração isolada.",
+      "evidence": [
+        {
+          "phrase": "Cozinheiros",
+          "start": 1134,
+          "end": 1145
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "cozinha_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:pertences-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "object",
+      "label": "Bagagem e documentos de travessia",
+      "specification": "Variantes mala de couro, baú, bilhete e carta; dobradiças/pegas para mão e apoio; detalhes de época sem nomes inventados de passageiros reais.",
+      "evidence": [
+        {
+          "phrase": "bagagem",
+          "start": 1052,
+          "end": 1059
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "pertences_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:mesa-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "object",
+      "label": "Louça e serviço de mesa",
+      "specification": "Prato, talheres, xícara, bandeja e mesa com superfícies de contato; encaixe na mão e na mesa.",
+      "evidence": [
+        {
+          "phrase": "Refeições",
+          "start": 1843,
+          "end": 1852
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "servico_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:telegrama-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "object",
+      "label": "Telegrama marítimo ilustrativo",
+      "specification": "Folha, lápis e prancheta com leitura focal; conteúdo visível limitado a aviso ilustrativo, sem forjar fac-símile ou assinatura.",
+      "evidence": [
+        {
+          "phrase": "papéis",
+          "start": 2211,
+          "end": 2217
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "mensagem_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:estrutura-navio",
+      "projectId": "titanic-bloco-01",
+      "kind": "object",
+      "label": "Seção ilustrativa de compartimentos",
+      "specification": "Seção localizada, clara e breve mostrando barreiras contra água; sem antecipar dano exato, sem blueprint ou números de engenharia desnecessários.",
+      "evidence": [
+        {
+          "phrase": "divisões internas",
+          "start": 1500,
+          "end": 1517
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "anteparas_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:locomocao-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "animation",
+      "label": "Locomoção e mudança de apoio",
+      "specification": "Passos com pés plantados, apoio em escada, mala na mão e mudança de trajetória; variações por contexto, sem foot sliding.",
+      "evidence": [
+        {
+          "phrase": "caminhos",
+          "start": 909,
+          "end": 917
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "acoes_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:acoes-bordo",
+      "projectId": "titanic-bloco-01",
+      "kind": "animation",
+      "label": "Gestos de trabalho e rotina a bordo",
+      "specification": "Pegar, apoiar, servir, operar comando, sentar e reagir; antecipação/contato/acomodação explícitos nos alvos reais.",
+      "evidence": [
+        {
+          "phrase": "trabalhando",
+          "start": 1092,
+          "end": 1103
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "acoes_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:mensagem-circula",
+      "projectId": "titanic-bloco-01",
+      "kind": "animation",
+      "label": "Receber, escrever e transferir mensagem",
+      "specification": "Mão alcança papel, pega acompanha mão, folha chega à outra mão ou à mesa. Estado absoluto e continuidade entre cortes.",
+      "evidence": [
+        {
+          "phrase": "receber o aviso",
+          "start": 2375,
+          "end": 2390
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "acoes_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:camera-revelacao",
+      "projectId": "titanic-bloco-01",
+      "kind": "camera",
+      "label": "Revelação de espaço e detalhe",
+      "specification": "Aproximação revela dado novo, recuo recupera localização, travelling acompanha ação; focal e eixo preservados, sem zoom constante ou deriva decorativa.",
+      "evidence": [
+        {
+          "phrase": "espaços",
+          "start": 899,
+          "end": 906
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "revelacao_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:passagem-visual",
+      "projectId": "titanic-bloco-01",
+      "kind": "transition",
+      "label": "Passagens entre espaços e estados",
+      "specification": "Match cuts e cortes por ação quando houver relação de forma/movimento; não repetir transição chamativa em toda frase. Pontes sonoras podem antecipar novo espaço.",
+      "evidence": [
+        {
+          "phrase": "mesmo",
+          "start": 816,
+          "end": 821
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "corte_direto",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:vapor-bordo",
+      "projectId": "titanic-bloco-01",
+      "kind": "effect",
+      "label": "Vapor industrial contido",
+      "specification": "Emissão localizada ligada a tubulação/trabalho, dissipação e oclusão, sem nuvem cobrindo mecanismo ou sujeito.",
+      "evidence": [
+        {
+          "phrase": "caldeiras",
+          "start": 1213,
+          "end": 1222
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "vapor_bordo_1912",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:luz-bordo",
+      "projectId": "titanic-bloco-01",
+      "kind": "lighting",
+      "label": "Luz de bordo e passagem para a noite",
+      "specification": "Interiores quentes versus exterior frio, transição temporal limitada, rosto e mãos legíveis; sem filtro genérico ou apagar detalhes.",
+      "evidence": [
+        {
+          "phrase": "anoitecer",
+          "start": 2444,
+          "end": 2453
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "luz_interiores_bordo",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:som-porto",
+      "projectId": "titanic-bloco-01",
+      "kind": "sound",
+      "label": "Porto e partida de época",
+      "specification": "Ambiência de cais, água no costado, atividade distante e sinal de partida com perspectiva. Som original/licenciado local, sem cópia do canal ou apito moderno inadequado.",
+      "evidence": [
+        {
+          "phrase": "parte",
+          "start": 548,
+          "end": 553
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "som_bordo_porto",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:som-passos",
+      "projectId": "titanic-bloco-01",
+      "kind": "sound",
+      "label": "Passos e bagagem em madeira",
+      "specification": "Contatos no quadro do apoio, passos alternados e mala apoiada/arrastada conforme ação; variar intensidade e perspectiva.",
+      "evidence": [
+        {
+          "phrase": "caminhos",
+          "start": 909,
+          "end": 917
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "som_bordo_passos",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:som-servico",
+      "projectId": "titanic-bloco-01",
+      "kind": "sound",
+      "label": "Louça, talheres e serviço",
+      "specification": "Contatos de prato/xícara/talher e murmúrio indistinto compatíveis com salão/cozinha; não inventar diálogo inteligível.",
+      "evidence": [
+        {
+          "phrase": "Refeições",
+          "start": 1843,
+          "end": 1852
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "som_bordo_servico",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:som-maquinas",
+      "projectId": "titanic-bloco-01",
+      "kind": "sound",
+      "label": "Máquinas e vapor de bordo",
+      "specification": "Camadas mecânicas coerentes com ciclos visíveis e vapor; mudar perspectiva no corte, margem de voz preservada.",
+      "evidence": [
+        {
+          "phrase": "máquinas",
+          "start": 1198,
+          "end": 1206
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "som_bordo_maquinas",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:som-radio",
+      "projectId": "titanic-bloco-01",
+      "kind": "sound",
+      "label": "Telegrafia e papel",
+      "specification": "Morse e chave, fone e lápis/papel sincronizados; qualquer código com significado declarado precisa ser conferido, não ruído aleatório chamado SOS.",
+      "evidence": [
+        {
+          "phrase": "mensagens",
+          "start": 1862,
+          "end": 1871
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "som_bordo_papel",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:som-editorial",
+      "projectId": "titanic-bloco-01",
+      "kind": "sound",
+      "label": "Acentos e pontes sonoras narrativas",
+      "specification": "Tensão, acentos discretos, antecipação do próximo ambiente e cortes sonoros; variações e silêncios deliberados, sem whoosh repetido ou música cobrindo encenação.",
+      "evidence": [
+        {
+          "phrase": "Por que",
+          "start": 357,
+          "end": 364
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "som_bordo_editorial",
+      "createdAt": "2026-11-07T03:18:08.205Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-bloco-01:materiais-1912",
+      "projectId": "titanic-bloco-01",
+      "kind": "material",
+      "label": "Madeira, latão, tecido e pedra de época",
+      "specification": "Texturas locais determinísticas com veios, relevo fino e rugosidade; metais com reflexos e luzes práticas. Qualidade de boa a excelente solicitada pelo criador. Sem brilho plástico uniforme, texturas esticadas ou download durante render.",
+      "evidence": [
+        {
+          "phrase": "salões",
+          "start": 962,
+          "end": 968
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "materiais_bordo_1912",
+      "createdAt": "2026-11-07T03:27:54.867Z",
+      "updatedAt": "2026-11-07T03:43:28.656Z"
+    },
+    {
+      "id": "titanic-completo:mar-cinematico",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Mar com ondulação e reflexos",
+      "specification": "Superfície animada no shader, normal e reflexos dependentes de distância; sem interseção do piso.",
+      "evidence": [
+        {
+          "phrase": "oceano",
+          "start": 79,
+          "end": 85
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "mar_cinematico",
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:luz-cinematica",
+      "projectId": "titanic-completo",
+      "kind": "lighting",
+      "label": "Iluminação cinematográfica de época",
+      "specification": "Reflexos de janelas e luminárias, sombras de contato, chave quente e preenchimento frio, legibilidade noturna.",
+      "evidence": [
+        {
+          "phrase": "luzes",
+          "start": 4202,
+          "end": 4207
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:conves-detalhado",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Convés com equipamentos e resgate",
+      "specification": "Railing, tábuas, luminárias, bancos, cabos e turcos de bote em escala humana; variações de rotina/evacuação/resgate.",
+      "evidence": [
+        {
+          "phrase": "convés",
+          "start": 5906,
+          "end": 5912
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:espacos-epoca",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Cabine, escada, enfermaria e inquérito",
+      "specification": "Ambientes separados por variante, com janelas, móveis e superfícies contínuas; ilustração histórica sem planta exata.",
+      "evidence": [
+        {
+          "phrase": "cabine",
+          "start": 7580,
+          "end": 7586
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:objetos-socorro",
+      "projectId": "titanic-completo",
+      "kind": "object",
+      "label": "Objetos de socorro e comunicação",
+      "specification": "Variantes manta, colete, apito, lanterna, roda, sino, fone, jornal e corda; contato legível com mãos e superfícies.",
+      "evidence": [
+        {
+          "phrase": "cobertores",
+          "start": 8314,
+          "end": 8324
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:gestos-dramaticos",
+      "projectId": "titanic-completo",
+      "kind": "animation",
+      "label": "Atuação e gestos narrativos",
+      "specification": "Olhar, apontar, chamar, carregar, remar e puxar com antecipação, peso e acomodação; nenhuma fala fictícia.",
+      "evidence": [
+        {
+          "phrase": "ajudar",
+          "start": 13073,
+          "end": 13079
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:movimentos-maritimos",
+      "projectId": "titanic-completo",
+      "kind": "animation",
+      "label": "Movimento de navio e botes",
+      "specification": "Afundamento/trim ilustrativo, deslocamento, descida de bote e oscilação leve; parâmetros de duração e origem.",
+      "evidence": [
+        {
+          "phrase": "afunda",
+          "start": 3706,
+          "end": 3712
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:agua-fx",
+      "projectId": "titanic-completo",
+      "kind": "effect",
+      "label": "Água, névoa e sinais de socorro",
+      "specification": "Inundação ilustrativa controlada por nível, spray localizado, fachos de sinal com origem e dissipação.",
+      "evidence": [
+        {
+          "phrase": "água",
+          "start": 1623,
+          "end": 1627
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:legendas-motion",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Legendas e palavras de impacto",
+      "specification": "Texto integral revisado; palavras alinhadas ao áudio; grupos curtos em maiúsculas, peso 900, contorno e sombra, 80% title safe.",
+      "evidence": [
+        {
+          "phrase": "história",
+          "start": 429,
+          "end": 437
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:capitulos-motion",
+      "projectId": "titanic-completo",
+      "kind": "transition",
+      "label": "Títulos e pausas entre capítulos",
+      "specification": "9 divisões com 4.2–4.6s de pausa, título cinético, tempo para leitura e passagem sonora. Sem texto sobre rosto.",
+      "evidence": [
+        {
+          "phrase": "Capítulo",
+          "start": 506,
+          "end": 514
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:som-narrativo",
+      "projectId": "titanic-completo",
+      "kind": "sound",
+      "label": "Foley e desenho sonoro do longa",
+      "specification": "Contato, ambiente, urgência, rádio, água, cordas e acentos editoriais variados; mix com voz prioritária, sem diálogos inventados.",
+      "evidence": [
+        {
+          "phrase": "socorro",
+          "start": 192,
+          "end": 199
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "queued",
+      "assetId": null,
+      "createdAt": "2026-11-07T05:06:46.784Z",
+      "updatedAt": "2026-11-08T01:22:38.716Z"
+    },
+    {
+      "id": "titanic-completo:navigation-evidence",
+      "projectId": "titanic-completo",
+      "kind": "object",
+      "label": "Mesa de navegação e instrumentos de 1912",
+      "specification": "Carta esquemática em mesa de madeira com rota pontilhada para Nova York, régua de latão, compasso, telégrafo de máquina e cronômetro; peças físicas nomeadas e móveis, metais e papel texturizados. Rota ilustrativa, não cartas históricas copiadas.",
+      "evidence": [
+        {
+          "phrase": "O Titanic parte da Inglaterra em sua primeira viagem para Nova York.",
+          "start": 575,
+          "end": 643
+        }
+      ],
+      "stage": "review",
+      "dependsOn": [],
+      "baselineIds": [],
+      "assetId": "mesa_navegacao_1912",
+      "createdAt": "2026-11-07T18:41:34.903Z",
+      "updatedAt": "2026-11-07T18:43:44.101Z"
+    },
+    {
+      "id": "titanic-completo:capacity-evidence",
+      "projectId": "titanic-completo",
+      "kind": "object",
+      "label": "Capacidade dos botes — evidência visual",
+      "specification": "Miniatura de bote aberta com assentos legíveis, grupos de passageiros e assentos vazios em cores/materiais diferenciados. Relação qualitativa sem contagens fictícias; escala e proporção ilustrativas, sem representar lotação de bote particular.",
+      "evidence": [
+        {
+          "phrase": "Os botes não tinham lugar para todas.",
+          "start": 269,
+          "end": 306
+        }
+      ],
+      "stage": "review",
+      "dependsOn": [],
+      "baselineIds": [],
+      "assetId": "capacidade_botes_1912",
+      "createdAt": "2026-11-07T18:41:34.903Z",
+      "updatedAt": "2026-11-07T18:43:44.362Z"
+    },
+    {
+      "id": "titanic-completo:hull-evidence",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Seção ilustrativa de casco e anteparas",
+      "specification": "Seção de casco com anteparas e água contida; módulo segmentado ilustrativo, não reconstrução dimensional completa. Superfícies recortadas acabadas, rebites, placas de ferro, água com normal animada e evento de nível por compartimento. Não inventar trajetória histórica específica.",
+      "evidence": [
+        {
+          "phrase": "Tem divisões internas que podem limitar a entrada de água.",
+          "start": 1570,
+          "end": 1628
+        }
+      ],
+      "stage": "review",
+      "dependsOn": [],
+      "baselineIds": [],
+      "assetId": "corte_casco_1912",
+      "createdAt": "2026-11-07T18:41:34.903Z",
+      "updatedAt": "2026-11-07T18:43:44.591Z"
+    },
+    {
+      "id": "titanic-completo:cinematic-lighting",
+      "projectId": "titanic-completo",
+      "kind": "lighting",
+      "label": "Iluminação marítima e interior com reflexos",
+      "specification": "Reflexos de faixas quentes/frias sobre materiais físicos e luz com sombra de contato para inserts e espaços de 1912.",
+      "evidence": [
+        {
+          "phrase": "no meio do oceano",
+          "start": 68,
+          "end": 85
+        }
+      ],
+      "stage": "review",
+      "baselineIds": [],
+      "dependsOn": [],
+      "assetId": "iluminacao_cinematica_1912",
+      "createdAt": "2026-11-07T18:43:43.843Z",
+      "updatedAt": "2026-11-07T18:43:51.751Z"
+    },
+    {
+      "id": "titanic-completo:rescue-detail-props",
+      "projectId": "titanic-completo",
+      "kind": "object",
+      "label": "Objetos de resgate e ponte em detalhe",
+      "specification": "Adereços reutilizáveis: colete, manta, apito, lanterna, roda de leme, sino, corda, jornal, fone e remo. Detalhes sem alegar pertencerem a testemunho específico.",
+      "evidence": [
+        {
+          "phrase": "no meio do oceano",
+          "start": 68,
+          "end": 85
+        }
+      ],
+      "stage": "review",
+      "baselineIds": [],
+      "dependsOn": [],
+      "assetId": "equipamentos_resgate_1912",
+      "createdAt": "2026-11-07T18:43:43.843Z",
+      "updatedAt": "2026-11-07T18:43:44.995Z"
+    },
+    {
+      "id": "titanic-completo:ocean-night-v2",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Atlântico noturno legível",
+      "specification": "Mar contínuo com ondas finas e médias, reflexos especulares alinhados com lua visível, cor que se separa do preto do céu, horizonte atmosférico, nuvens estratificadas discretas e céu noturno com lua. Movimento determinístico, sem textura externa ou atualizações pesadas de malha por quadro. Inspirar-se nos modelos Fresnel, direção de luz e pós-conversão da Water.js local e gradiente direcional da Sky.js; adaptar à engine sem carregar examples ou downloads.",
+      "evidence": [
+        {
+          "phrase": "primeiros planos de oceano à noite; shot-001-hook, shot-002-hook, shot-012-deck",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "atlantico_noturno",
+      "createdAt": "2026-11-07T20:27:35.054Z",
+      "updatedAt": "2026-11-07T20:35:16.650Z"
+    },
+    {
+      "id": "titanic-completo:interior-shell-radio-v2",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Fechamento superior do rádio",
+      "specification": "Eliminar vão entre topo da parede posterior e forro do rádio (parede termina em y=3m, forro inicia y=3.44m). Manter corte frontal legível pela câmera, guarnição e encontro físico acabamento em vez de parede truncada; material com textura de reboco/papel discreta.",
+      "evidence": [
+        {
+          "phrase": "estação de rádio a bordo; shot-006-radio",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "radio_bordo_1912",
+      "createdAt": "2026-11-07T20:27:35.056Z",
+      "updatedAt": "2026-11-07T20:35:16.654Z"
+    },
+    {
+      "id": "titanic-completo:interior-shell-corridor-v2",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Fechamento superior do corredor",
+      "specification": "Eliminar vão entre topo da parede de fundo e forro do corredor (parede termina em y=3m, forro inicia y=3.44m). Preservar paredes laterais, recortes de porta, acabamento contínuo e câmera dentro do espaço.",
+      "evidence": [
+        {
+          "phrase": "corredor de bordo; shot-008-deck",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "corredor_bordo_1912",
+      "createdAt": "2026-11-07T20:27:35.056Z",
+      "updatedAt": "2026-11-07T20:35:16.656Z"
+    },
+    {
+      "id": "titanic-completo:period-wall-finish-v2",
+      "projectId": "titanic-completo",
+      "kind": "material",
+      "label": "Papel de parede e reboco de bordo",
+      "specification": "Mapa local procedural tileable para paredes de interiores: trama e mottle sutil em escala real, roughness alto, sem aparência lisa ou ruído excessivo; utilizar somente no revestimento de paredes e preservar painéis de madeira.",
+      "evidence": [
+        {
+          "phrase": "ambientes interiores do prefixo visual",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "papel_parede_maritimo_1912",
+      "createdAt": "2026-11-07T20:27:35.056Z",
+      "updatedAt": "2026-11-07T20:34:51.007Z"
+    },
+    {
+      "id": "titanic-completo:ocean-cinematic-v2",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Superfície do Atlântico animada day/night",
+      "specification": "Atualizar reflexo, fresnel, ondas e gradiente de horizonte no módulo compartilhado pelo mar diurno/noturno; sem texturas externas ou render pass fora da engine.",
+      "evidence": [
+        {
+          "phrase": "revisão de interiores a partir do diagnóstico V2",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "mar_cinematico",
+      "createdAt": "2026-11-07T20:34:37.314Z",
+      "updatedAt": "2026-11-07T20:35:16.653Z"
+    },
+    {
+      "id": "titanic-completo:interior-shell-saloon-v2",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Paredes e revestimento do salão",
+      "specification": "Textura de revestimento period wallpaper e revisão dos encontros entre parede, teto, piso e janelas; preservar encenação e abertura controlada para câmera.",
+      "evidence": [
+        {
+          "phrase": "revisão de interiores a partir do diagnóstico V2",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "salao_bordo_1912",
+      "createdAt": "2026-11-07T20:34:37.314Z",
+      "updatedAt": "2026-11-07T20:35:16.657Z"
+    },
+    {
+      "id": "titanic-completo:interior-shell-quarters-v2",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Paredes e revestimento do alojamento",
+      "specification": "Textura de parede, altura completa até o forro e encontros com beliches e vigias.",
+      "evidence": [
+        {
+          "phrase": "revisão de interiores a partir do diagnóstico V2",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "alojamento_bordo_1912",
+      "createdAt": "2026-11-07T20:34:37.314Z",
+      "updatedAt": "2026-11-07T20:35:16.659Z"
+    },
+    {
+      "id": "titanic-completo:interior-shell-galley-v2",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Paredes e revestimento da cozinha",
+      "specification": "Textura de parede, altura completa e continuidade com forro e balcões.",
+      "evidence": [
+        {
+          "phrase": "revisão de interiores a partir do diagnóstico V2",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "cozinha_bordo_1912",
+      "createdAt": "2026-11-07T20:34:37.314Z",
+      "updatedAt": "2026-11-07T20:35:16.659Z"
+    },
+    {
+      "id": "titanic-completo:interior-shell-engine-v2",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Paredes e revestimento da praça de máquinas",
+      "specification": "Textura das paredes, fechamento de aberturas visuais e encontros com estrutura e teto; preservar leitura de equipamento.",
+      "evidence": [
+        {
+          "phrase": "revisão de interiores a partir do diagnóstico V2",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "maquinas_bordo_1912",
+      "createdAt": "2026-11-07T20:34:37.314Z",
+      "updatedAt": "2026-11-07T20:35:16.660Z"
+    },
+    {
+      "id": "titanic-completo:archive-inset-resgate",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Insert fotográfico histórico — resgate do Titanic",
+      "specification": "Fotografia histórica em cartão motion-graphics local, integrada como inset no quadro 3D durante a fala sobre a chegada do resgate; preservar navio, bote, legenda e movimento como cena principal; registrar fonte, licença e crédito; animação por entrada, estabilização e saída determinísticas.",
+      "evidence": [
+        {
+          "phrase": "à chegada do resgate",
+          "start": 483,
+          "end": 503
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "inset_fotografico_historico",
+      "createdAt": "2026-11-07T22:52:32.691Z",
+      "updatedAt": "2026-11-07T22:56:13.065Z"
+    },
+    {
+      "id": "titanic-completo:arquivo-filmico-titanic-belfast",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Trecho de filme histórico do Titanic em Belfast",
+      "specification": "Janela motion-graphics com 4,5 s de filmagem autenticada do Titanic em Belfast, 2 de abril de 1912, convertida a uma sequência local determinística de 12 quadros/s. Entra em escala de leitura dentro do cenário 3D, com cartela “Belfast · 2 abril 1912” e crédito British Pathé/Wikimedia Commons. Não apresentar como a saída de Southampton da viagem inaugural, não usar o áudio do upload e não cobrir legenda nem ação.",
+      "evidence": [
+        {
+          "phrase": "O Titanic parte da Inglaterra em sua primeira viagem para Nova York.",
+          "start": 575,
+          "end": 643
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "inset_filmico_historico",
+      "createdAt": "2026-11-08T01:22:38.716Z",
+      "updatedAt": "2026-11-08T01:23:32.395Z"
+    },
+    {
+      "id": "historia-rockstar:retro-computers",
+      "projectId": "historia-rockstar",
+      "kind": "object",
+      "label": "Computadores domésticos de época",
+      "specification": "Conjunto modular de microcomputadores e periféricos genéricos do fim dos anos 1970/1980, com variações de silhueta para máquinas compartilhadas, kit ZX81, Sinclair e computador 16-bit. Sem logos, interface reconhecível ou alegação de réplica exata.",
+      "evidence": [
+        {
+          "phrase": "um Commodore Amiga importado",
+          "start": 115,
+          "end": 143
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "retro_computers",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:17.041Z"
+    },
+    {
+      "id": "historia-rockstar:programming-club-scene",
+      "projectId": "historia-rockstar",
+      "kind": "scene",
+      "label": "Encontro de programação em Dundee",
+      "specification": "Sala comunitária original de época com mesas compartilhadas, computadores genéricos e pequenos grupos demonstrando experimentos. Não identificar instituição nem usar software reconhecível.",
+      "evidence": [
+        {
+          "phrase": "encontros de um clube de computadores",
+          "start": 993,
+          "end": 1030
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "programming_club_scene",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:15.105Z"
+    },
+    {
+      "id": "historia-rockstar:period-computing-light",
+      "projectId": "historia-rockstar",
+      "kind": "lighting",
+      "label": "Luz de oficina e computação de época",
+      "specification": "Setup reutilizável para oficina/sala de computação fim dos anos 1970–1980: práticas localizadas, contraste moderado e tela sem brilho que compita com legenda.",
+      "evidence": [
+        {
+          "phrase": "Antes de entrar na fábrica",
+          "start": 1434,
+          "end": 1460
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "period_computing_light",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:13.692Z"
+    },
+    {
+      "id": "historia-rockstar:retro-computer-material",
+      "projectId": "historia-rockstar",
+      "kind": "material",
+      "label": "Materiais de microcomputador e papel de época",
+      "specification": "Plástico neutro, vidro de CRT sem conteúdo legível e papel técnico; sem logos, desgaste dramático ou marca inventada.",
+      "evidence": [
+        {
+          "phrase": "unidades de fita",
+          "start": 1379,
+          "end": 1395
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "retro_computer_material",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:16.742Z"
+    },
+    {
+      "id": "historia-rockstar:retro-computer-sound",
+      "projectId": "historia-rockstar",
+      "kind": "sound",
+      "label": "Sons discretos de computador mecânico",
+      "specification": "Camada original curta de teclas, botão e acionamento de unidade, sem bipes reconhecíveis ou som de marca; entradas/saídas pontuam ações e permanecem abaixo da locução.",
+      "evidence": [
+        {
+          "phrase": "trabalhou com unidades de fita, microdrives e computadores Sinclair",
+          "start": 1365,
+          "end": 1432
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "retro_computer_sound",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:25.617Z"
+    },
+    {
+      "id": "historia-rockstar:history-timeline-overlay",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Linha do tempo editorial e cartelas de evidência",
+      "specification": "Gráfico tipográfico original para datas, nomes, publicações e mudanças de estrutura, com fonte, unidade e pausa de leitura em celular; variantes para cronologia e ficha factual curta; sem logos/documentos protegidos.",
+      "evidence": [
+        {
+          "phrase": "ele situa esse início em 1987",
+          "start": 1941,
+          "end": 1970
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "history_timeline_overlay",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:13.178Z"
+    },
+    {
+      "id": "historia-rockstar:dma-upstairs-office",
+      "projectId": "historia-rockstar",
+      "kind": "scene",
+      "label": "Escritório pequeno acima de um comércio",
+      "specification": "Sala compacta de desenvolvimento no pavimento superior e loja genérica abaixo; a relação vertical fica visível. Não representar endereço/fachada real. Compor com a loja do catálogo.",
+      "evidence": [
+        {
+          "phrase": "alugou um escritório pequeno",
+          "start": 2638,
+          "end": 2666
+        }
+      ],
+      "baselineIds": [
+        "loja"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "dma_upstairs_office",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:12.885Z"
+    },
+    {
+      "id": "historia-rockstar:anonymous-developer-figure",
+      "projectId": "historia-rockstar",
+      "kind": "character",
+      "label": "Figura genérica de programador",
+      "specification": "Personagem original, não identificável e com roupa neutra; sem retrato, rosto, corpo ou vestuário de qualquer pessoa nomeada.",
+      "evidence": [
+        {
+          "phrase": "o primeiro programador da equipe",
+          "start": 2692,
+          "end": 2724
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "anonymous_developer_figure",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:11.807Z"
+    },
+    {
+      "id": "historia-rockstar:platform-porting-animation",
+      "projectId": "historia-rockstar",
+      "kind": "animation",
+      "label": "Adaptação visual entre plataformas",
+      "specification": "Transformar um mesmo quadro abstrato entre formatos de tela e controles simplificados; sample(t) determinístico, sem interface de jogo ou console licenciado.",
+      "evidence": [
+        {
+          "phrase": "adaptar seus projetos a máquinas diferentes",
+          "start": 3146,
+          "end": 3189
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "platform_porting_animation",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:14.262Z"
+    },
+    {
+      "id": "historia-rockstar:abstract-agent-route",
+      "projectId": "historia-rockstar",
+      "kind": "animation",
+      "label": "Percurso abstrato que se torna jogável",
+      "specification": "Pequenos marcadores geométricos sem rosto/roupa caminham, encontram obstáculo, recebem rota alternativa e avançam por fases de dificuldade crescente. Sem semelhança com Lemmings ou sua interface; entrada, pausa e saída legíveis.",
+      "evidence": [
+        {
+          "phrase": "Uma animação feita por Mike Dailly no Deluxe Paint",
+          "start": 3330,
+          "end": 3380
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "abstract_agent_route",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:10.772Z"
+    },
+    {
+      "id": "historia-rockstar:platform-scale-overlay",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Cartela de formatos e versões",
+      "specification": "Gráfico original com contagem atribuída de plataformas/conversões, sem logos/capas/ícones comerciais; não confundir formatos com cópias ou usuários. Alto contraste e pausa legível.",
+      "evidence": [
+        {
+          "phrase": "mais de vinte formatos",
+          "start": 3945,
+          "end": 3967
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "platform_scale_overlay",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:14.541Z"
+    },
+    {
+      "id": "historia-rockstar:abstract-overhead-city",
+      "projectId": "historia-rockstar",
+      "kind": "scene",
+      "label": "Cidade esquemática vista de cima",
+      "specification": "Ambiente original de quadras, cruzamentos e volumes simples, sem copiar cidade/mapa de GTA. Usar ruas, edifícios e veículos genéricos.",
+      "evidence": [
+        {
+          "phrase": "um motor capaz de mostrar uma cidade de cima",
+          "start": 5030,
+          "end": 5074
+        }
+      ],
+      "baselineIds": [
+        "rua_reta",
+        "arranha_ceu",
+        "carro_sedan"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "abstract_overhead_city",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:11.066Z"
+    },
+    {
+      "id": "historia-rockstar:overhead-follow-camera",
+      "projectId": "historia-rockstar",
+      "kind": "camera",
+      "label": "Câmera acompanha e abre sobre o mapa",
+      "specification": "Seguir veículo genérico, recuar e subir gradualmente; deslocamento dos volumes explica velocidade/altura. Movimento determinístico em qualquer ordem, com margem para legenda.",
+      "evidence": [
+        {
+          "phrase": "a câmera acompanhava um carro e se afastava",
+          "start": 5083,
+          "end": 5126
+        }
+      ],
+      "baselineIds": [
+        "carro_sedan"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "overhead_follow_camera",
+      "createdAt": "2026-11-08T03:39:03.902Z",
+      "updatedAt": "2026-11-09T11:57:13.428Z"
+    },
+    {
+      "id": "historia-rockstar:pursuit-feedback-effect",
+      "projectId": "historia-rockstar",
+      "kind": "effect",
+      "label": "Relação entre rota, perseguição e resposta",
+      "specification": "Realçar carro e rota; linha de perseguição entra por trás, resposta do sistema aparece depois e pausa durante a lembrança atribuída. Retirar após a relação ficar clara. Sem violência, uniforme ou afirmar que foi bug.",
+      "evidence": [
+        {
+          "phrase": "a resposta da polícia abriu novas possibilidades para a equipe ajustar o jogo",
+          "start": 5666,
+          "end": 5743
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "pursuit_feedback_effect",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:15.667Z"
+    },
+    {
+      "id": "historia-rockstar:topdown-to-street-transition",
+      "projectId": "historia-rockstar",
+      "kind": "transition",
+      "label": "Transição de mapa plano para cidade 3D",
+      "specification": "Quadras vistas de cima ganham altura; câmera desce à calçada e revela a próxima esquina. Cenário genérico, sem mapa, interface ou marca de jogo; termina estável para o próximo beat.",
+      "evidence": [
+        {
+          "phrase": "apresentou a cidade em três dimensões",
+          "start": 8881,
+          "end": 8918
+        }
+      ],
+      "baselineIds": [
+        "rua_reta",
+        "arranha_ceu",
+        "predio_apartamentos"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "topdown_to_street_transition",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:18.183Z"
+    },
+    {
+      "id": "historia-rockstar:publisher-developer-relations",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Diagrama de editoras, estúdios e aquisições",
+      "specification": "Nós e conexões com datas, separando publicadora e desenvolvedora; revelar uma relação por vez e deixar estrutura resultante visível. Nomes factuais, sem logos e sem fundir entidades antes da data correta.",
+      "evidence": [
+        {
+          "phrase": "A marca editorial e a DMA eram estruturas separadas",
+          "start": 7877,
+          "end": 7928
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "publisher_developer_relations",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:15.361Z"
+    },
+    {
+      "id": "historia-rockstar:acquisition-financial-evidence",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Cartela de categorias financeiras da aquisição",
+      "specification": "Separar £1 nominal, quitação de empréstimo de £3.251.703 e cerca de US$ 12,3 milhões em passivos assumidos, com moeda/documento/categoria. Não somar nem representar como pagamentos independentes. Fonte e ressalva legíveis no celular.",
+      "evidence": [
+        {
+          "phrase": "A venda da DMA à Take-Two costuma ser resumida",
+          "start": 8246,
+          "end": 8292
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "acquisition_financial_evidence",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:11.311Z"
+    },
+    {
+      "id": "historia-rockstar:regional-world-expansion",
+      "projectId": "historia-rockstar",
+      "kind": "animation",
+      "label": "Expansão de mapa urbano para região",
+      "specification": "Conectar núcleos urbanos genéricos a costa, colinas e zonas rurais; rotas/distâncias legíveis, sem geografia ou mapa de jogo. Movimento determinístico.",
+      "evidence": [
+        {
+          "phrase": "expandiu o espaço para três cidades",
+          "start": 9619,
+          "end": 9654
+        }
+      ],
+      "baselineIds": [
+        "rua_reta",
+        "chao",
+        "arvore_redonda",
+        "palmeira",
+        "carro_sedan"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "regional_world_expansion",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:15.941Z"
+    },
+    {
+      "id": "historia-rockstar:portfolio-title-overlay",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Catálogo tipográfico de séries e gêneros",
+      "specification": "Cartelas tipográficas com títulos narrados e estúdios/gêneros, sem logotipos, capas, gameplay, personagens ou screenshots; agrupamento discreto e tempo de leitura.",
+      "evidence": [
+        {
+          "phrase": "A Rockstar também publicou jogos de outros estúdios e em outros gêneros",
+          "start": 9992,
+          "end": 10063
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "portfolio_title_overlay",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:14.810Z"
+    },
+    {
+      "id": "historia-rockstar:three-anonymous-viewpoints",
+      "projectId": "historia-rockstar",
+      "kind": "character",
+      "label": "Três figuras narrativas genéricas",
+      "specification": "Três silhuetas abstratas de cores distintas, sem semelhança de rosto, corpo, roupa ou pose com personagens de jogos. Marcam perspectivas sobre o mesmo mapa, sem recriar protagonistas.",
+      "evidence": [
+        {
+          "phrase": "três protagonistas numa região fictícia inspirada no sul da Califórnia",
+          "start": 11052,
+          "end": 11122
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "three_anonymous_viewpoints",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:17.877Z"
+    },
+    {
+      "id": "historia-rockstar:shared-map-viewpoint-switch",
+      "projectId": "historia-rockstar",
+      "kind": "animation",
+      "label": "Transferência entre perspectivas no mesmo mapa",
+      "specification": "Foco alterna entre três marcadores genéricos com rotas/rotinas próprias sobre território constante; mostra mudança de ponto de partida e cruzamento de trajetos. Sem interface; entrada, pausa e saída.",
+      "evidence": [
+        {
+          "phrase": "O jogador podia alternar entre Michael, Franklin e Trevor",
+          "start": 11172,
+          "end": 11229
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "shared_map_viewpoint_switch",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:17.603Z"
+    },
+    {
+      "id": "historia-rockstar:persistent-world-updates",
+      "projectId": "historia-rockstar",
+      "kind": "animation",
+      "label": "Camadas de atualização sobre o mesmo território",
+      "specification": "Manter mapa original estável e adicionar módulos de atividade ao longo do tempo; cada adição tem pausa antes da próxima. Sem simular interface, servidor ou logotipo.",
+      "evidence": [
+        {
+          "phrase": "GTA Online prolongou o uso daquele espaço depois da campanha",
+          "start": 11535,
+          "end": 11595
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "persistent_world_updates",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:13.983Z"
+    },
+    {
+      "id": "historia-rockstar:sales-metric-sold-in",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Métrica comercial com definição de sold-in",
+      "specification": "Número com unidade, período e fonte; explicitar venda ao varejo/distribuição (sold-in), sem equivaler a jogadores ou pessoas. Contraste e tempo legível em celular.",
+      "evidence": [
+        {
+          "phrase": "ultrapassado 230 milhões de unidades vendidas ao canal de distribuição",
+          "start": 11827,
+          "end": 11897
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sales_metric_sold_in",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:17.296Z"
+    },
+    {
+      "id": "historia-rockstar:development-material-disclosure",
+      "projectId": "historia-rockstar",
+      "kind": "effect",
+      "label": "Fluxo de material de desenvolvimento divulgado",
+      "specification": "Diagrama abstrato de arquivos internos saindo de área privada e tornando-se públicos; revelar direção, pausar no marco de divulgação e retirar. Sem códigos, instruções, telas ou imagens vazadas.",
+      "evidence": [
+        {
+          "phrase": "uma intrusão levou à divulgação de material interno",
+          "start": 12140,
+          "end": 12191
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "development_material_disclosure",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:12.343Z"
+    },
+    {
+      "id": "historia-rockstar:work-conditions-evidence",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Cartela de evidência sobre jornadas e relatos",
+      "specification": "Atribuir 100 horas; contextualizar equipe sênior de roteiristas e três semanas, depois resumir relatos diversos em bloco separado. Citar fontes; não generalizar nem dramatizar com pessoas/relógios.",
+      "evidence": [
+        {
+          "phrase": "uma declaração de Dan Houser sobre semanas de cem horas",
+          "start": 13008,
+          "end": 13063
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "work_conditions_evidence",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:18.467Z"
+    },
+    {
+      "id": "historia-rockstar:closing-choice-scale-transition",
+      "projectId": "historia-rockstar",
+      "kind": "transition",
+      "label": "Retorno da pequena rota à cidade inteira",
+      "specification": "Retomar percurso abstrato e expandir até cidade original; movimento detalhe-plano amplo, pausa legível para pergunta final e quadro estável. Sem mapa de jogo.",
+      "evidence": [
+        {
+          "phrase": "A história da DMA até a Rockstar amplia esse gesto",
+          "start": 14040,
+          "end": 14090
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "closing_choice_scale_transition",
+      "createdAt": "2026-11-08T03:39:03.903Z",
+      "updatedAt": "2026-11-09T11:57:12.094Z"
+    },
+    {
+      "id": "titanic-completo:amarra-portuaria-1912",
+      "projectId": "titanic-completo",
+      "kind": "object",
+      "label": "Amarra de saída no cais",
+      "specification": "Cabo de amarração legível entre cabeço do cais e costado do Titanic; curva com tensão, liberação e recolhimento determinísticos por tempo local, articulado com gesto do trabalhador. Reconstrução ilustrativa, sem afirmar um arranjo exato de Southampton.",
+      "evidence": [
+        {
+          "phrase": "parte da Inglaterra",
+          "start": 585,
+          "end": 604
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [
+        "pessoas_maritimas_1912",
+        "acoes_bordo_1912"
+      ],
+      "stage": "review",
+      "assetId": "amarra_portuaria_1912",
+      "createdAt": "2026-11-08T03:56:33.233Z",
+      "updatedAt": "2026-11-08T03:59:48.650Z"
+    },
+    {
+      "id": "historia-rockstar:amiga-photo-evidence-overlay",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Inserto fotográfico licenciado de um Amiga 500",
+      "specification": "Recurso de motion gráfico com a foto Amiga500 system.jpg, Bill Bertram, CC BY-SA 2.5 Generic. Usar como evidência visual do modelo Amiga 500, dentro da bancada 3D, com entrada motivada, pelo menos 1 s estável para leitura, crédito legível e saída ligada à cidade procedural. Declarar arquivo local, origem, autor, licença e alterações em files/metadados. Não afirmar que é a unidade comprada por David Jones nem tratar a foto de 2006 como registro de época.",
+      "evidence": [
+        {
+          "phrase": "um Commodore Amiga importado",
+          "start": 115,
+          "end": 143
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "amiga_photo_evidence_overlay",
+      "createdAt": "2026-11-08T04:32:45.996Z",
+      "updatedAt": "2026-11-09T11:57:11.558Z"
+    },
+    {
+      "id": "historia-rockstar:dma-location-plaque-photo-overlay",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Inserto fotográfico licenciado da placa da DMA em Dundee",
+      "specification": "Recurso de motion gráfico com a foto Lemmings plaque, Nethergate, Dundee.jpg, Millerdl, CC BY-SA 4.0 International. Usar como registro contemporâneo da placa que identifica a localização do primeiro escritório da DMA, integrada como painel dentro do mapa 3D original. Aproximar para leitura por pelo menos 1 s estável, creditar autor/licença e indicar alterações. A foto é de 2019 e não mostra o escritório histórico em funcionamento.",
+      "evidence": [
+        {
+          "phrase": "alugou um escritório pequeno",
+          "start": 2638,
+          "end": 2666
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "dma_location_plaque_photo_overlay",
+      "createdAt": "2026-11-08T04:32:45.996Z",
+      "updatedAt": "2026-11-09T11:57:12.597Z"
+    },
+    {
+      "id": "casa-sertao-calor:scene-quarto-sertao",
+      "projectId": "casa-sertao-calor",
+      "kind": "scene",
+      "label": "Quarto da casa no Sertão em corte",
+      "specification": "Quarto de uma casa térrea do semiárido brasileiro, ligado visualmente à cobertura real da mesma casa. Corte arquitetônico limpo que permita ver quarto, laje, ático e telhas sem trocar de planta. Habitação plausível, materiais e desgaste discretos; sem cenário de miséria ou clichê regional. A decisão de cidade e tipologia fica aberta.",
+      "evidence": [
+        {
+          "phrase": "o quarto",
+          "start": 10,
+          "end": 18
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_scene_quarto_sertao",
+      "createdAt": "2026-11-08T04:42:24.633Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:lighting-ciclo-dia-noite",
+      "projectId": "casa-sertao-calor",
+      "kind": "lighting",
+      "label": "Luz de tarde e noite",
+      "specification": "Um ciclo coerente tarde/noite com sol quente de tarde e leitura noturna mais fria, mantendo a laje como fonte visual de calor após o pôr do sol. Contraste legível entre exterior e quarto, sombras suaves e cor controlada; sem afirmar que a noite sempre é mais fresca fora.",
+      "evidence": [
+        {
+          "phrase": "De noite",
+          "start": 0,
+          "end": 8
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_lighting_ciclo_dia_noite",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:camera-caminho-cobertura-quarto",
+      "projectId": "casa-sertao-calor",
+      "kind": "camera",
+      "label": "Movimento de câmera pela cobertura",
+      "specification": "Movimento vertical curto que começa no quarto abafado, sobe até o teto e revela a cobertura em corte; depois alterna planos gerais e macros dos mecanismos e retorna ao mesmo quarto. Acelera nos cortes de diagnóstico e assenta nos payoffs. Parallax e motion blur discretos, sem deriva nem imitação de enquadramentos específicos da referência.",
+      "evidence": [
+        {
+          "phrase": "vem do teto",
+          "start": 86,
+          "end": 97
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_camera_caminho_cobertura_quarto",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:transition-volta-tarde",
+      "projectId": "casa-sertao-calor",
+      "kind": "transition",
+      "label": "Corte de retorno à tarde",
+      "specification": "Corte temporal curto do quarto noturno para a mesma casa sob o sol da tarde, motivado pela pergunta sobre a origem do calor. Preservar orientação espacial e continuidade da cobertura.",
+      "evidence": [
+        {
+          "phrase": "Volta pra tarde",
+          "start": 100,
+          "end": 115
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_transition_volta_tarde",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:roof-stack-corte",
+      "projectId": "casa-sertao-calor",
+      "kind": "object",
+      "label": "Cobertura em camadas",
+      "specification": "Conjunto arquitetônico desmontável em corte: telhas, estrutura, vão de ar/ático, entradas nos beirais, saída na cumeeira e laje, com espessuras visualmente separadas e pontos de ventilação visíveis. Peças permanecem alinhadas quando câmera aproxima; permite demonstrar falha e correção sem reconstruir o cenário.",
+      "evidence": [
+        {
+          "phrase": "começa pela cobertura",
+          "start": 384,
+          "end": 405
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_roof_stack_corte",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:material-telha-clara",
+      "projectId": "casa-sertao-calor",
+      "kind": "material",
+      "label": "Telha clara refletiva",
+      "specification": "Telha de acabamento claro fosco, textura cerâmica plausível e refletância apenas suficiente para mostrar mais luz solar refletida que uma telha escura. Sem números ou promessa de desempenho.",
+      "evidence": [
+        {
+          "phrase": "telha clara",
+          "start": 407,
+          "end": 418
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_material_telha_clara",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:animation-radiacao-e-transferencia",
+      "projectId": "casa-sertao-calor",
+      "kind": "animation",
+      "label": "Caminho do calor da telha ao quarto",
+      "specification": "Em sequência sincronizada à fala: sol aquece as telhas; faixas gráficas discretas indicam a troca por radiação através do vão; breve analogia visual de calor vindo de um forno sem toque; a laje aquece e transfere calor para o quarto. Gráfico esquemático claramente visual, sem partículas falsas nem escala quantitativa.",
+      "evidence": [
+        {
+          "phrase": "O sol aquece as telhas e parte desse calor cruza o vão até a laje por radiação — como sentir o calor de um forno sem encostar nele.",
+          "start": 117,
+          "end": 248
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_animation_radiacao_e_transferencia",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:effect-calor-armazenado-laje",
+      "projectId": "casa-sertao-calor",
+      "kind": "effect",
+      "label": "Calor persistente na laje",
+      "specification": "Realce térmico sutil na face inferior da laje e no teto do quarto. O destaque surge depois do aquecimento da cobertura e persiste no plano noturno mesmo enquanto o ventilador refresca somente a pessoa. Diferenciar efeito visual explicativo de temperatura medida.",
+      "evidence": [
+        {
+          "phrase": "A laje esquenta e passa calor pro quarto. O ventilador refresca quem está na frente, mas a laje continua no turno da noite.",
+          "start": 249,
+          "end": 372
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_effect_calor_armazenado_laje",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:object-ventilador-pedestal",
+      "projectId": "casa-sertao-calor",
+      "kind": "object",
+      "label": "Ventilador de pedestal completo",
+      "specification": "Ventilador de pedestal completo, com grade, motor, coluna e base estáveis; encaixe para aproveitar a hélice existente somente após revisão visual. Pás giram sem atravessar a grade e ficam legíveis em plano médio.",
+      "evidence": [
+        {
+          "phrase": "O ventilador",
+          "start": 291,
+          "end": 303
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_object_ventilador_pedestal",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:character-pessoa-quarto",
+      "projectId": "casa-sertao-calor",
+      "kind": "character",
+      "label": "Pessoa no quarto",
+      "specification": "Pessoa adulta anônima, proporções naturais e roupa cotidiana leve, sem nome, gênero ou parentesco definidos. Posição e olhar permitem mostrar que o vento chega à pessoa e não esfria o volume inteiro da casa.",
+      "evidence": [
+        {
+          "phrase": "quem está na frente",
+          "start": 313,
+          "end": 332
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_character_pessoa_quarto",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:animation-ventilador-alvo",
+      "projectId": "casa-sertao-calor",
+      "kind": "animation",
+      "label": "Vento focado na pessoa",
+      "specification": "Hélice gira e produz movimento de roupa/cabelo muito leve apenas junto à pessoa; a laje permanece realçada e o resto do quarto não recebe uma falsa queda global de temperatura. Reutilizar o mesmo gesto no payoff final: pessoa volta à cama e o ventilador trabalha para ela, não para a casa inteira.",
+      "evidence": [
+        {
+          "phrase": "refresca quem está na frente",
+          "start": 304,
+          "end": 332
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_animation_ventilador_alvo",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:sound-motor-ventilador",
+      "projectId": "casa-sertao-calor",
+      "kind": "sound",
+      "label": "Som do ventilador",
+      "specification": "Motor doméstico baixo e fluxo local suave, entra quando o ventilador é apresentado, recua sob a voz e retorna discretamente no payoff final. Sem mascarar a fala nem sugerir máquina industrial.",
+      "evidence": [
+        {
+          "phrase": "O ventilador",
+          "start": 291,
+          "end": 303
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_sound_motor_ventilador",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:animation-atico-falha-solucao",
+      "projectId": "casa-sertao-calor",
+      "kind": "animation",
+      "label": "Falha e correção da ventilação do ático",
+      "specification": "Começar pelo ático fechado acumulando ar quente. Demonstração A/B na mesma cobertura: abrir apenas a cumeeira quase não muda o acúmulo; mostrar ausência de entrada nos beirais; então abrir entrada baixa e saída alta e animar fluxo contínuo que carrega parte do calor. O rótulo “ático ventilado” aparece depois. Setas claras e econômicas, sem fumaça ou vento mágico.",
+      "evidence": [
+        {
+          "phrase": "Abrir só a cumeeira quase não muda nada; sem entrada nos beirais, falta caminho pro ar atravessar o ático. Quando o ar entra por baixo e sai no alto, leva parte do calor junto.",
+          "start": 480,
+          "end": 656
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_animation_atico_falha_solucao",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:overlay-rotulos-conceitos",
+      "projectId": "casa-sertao-calor",
+      "kind": "overlay",
+      "label": "Rótulos dos conceitos",
+      "specification": "Quatro cartelas curtas em português brasileiro: “ático ventilado”, “barreira radiante”, “isolamento térmico” e “inércia térmica”. Cada rótulo só entra depois da demonstração correspondente, com hierarquia tipográfica vertical legível e sem cobrir o mecanismo.",
+      "evidence": [
+        {
+          "phrase": "Isso se chama ático ventilado.",
+          "start": 657,
+          "end": 687
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_overlay_rotulos_conceitos",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.351Z"
+    },
+    {
+      "id": "casa-sertao-calor:effect-irradiacao-restante",
+      "projectId": "casa-sertao-calor",
+      "kind": "effect",
+      "label": "Radiação que permanece no ático",
+      "specification": "Mesmo com ar em movimento, manter visível o caminho de radiação das telhas para a laje. A comparação deixa claro que ventilação do ático e bloqueio/redução da troca radiativa cumprem funções diferentes.",
+      "evidence": [
+        {
+          "phrase": "o ar circulando não impede a telha de irradiar calor pra laje",
+          "start": 693,
+          "end": 754
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_effect_irradiacao_restante",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:object-manta-refletiva",
+      "projectId": "casa-sertao-calor",
+      "kind": "object",
+      "label": "Manta refletiva sob as telhas",
+      "specification": "Manta fina sob as telhas, separada por vão de ar e orientada com a face refletiva voltada para esse vão; mostrar fixação realista sem encostar na telha nem cobrir a entrada/saída de ventilação.",
+      "evidence": [
+        {
+          "phrase": "manta refletiva de alumínio sob a telha",
+          "start": 771,
+          "end": 810
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_object_manta_refletiva",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:material-aluminio-manta",
+      "projectId": "casa-sertao-calor",
+      "kind": "material",
+      "label": "Face aluminizada da manta",
+      "specification": "Acabamento aluminizado controlado, reflexivo sem brilho estourado. A leitura do lado voltado ao vão precisa continuar clara no corte e em macro. Não confundir a manta com isolamento volumoso.",
+      "evidence": [
+        {
+          "phrase": "face voltada pro vão de ar",
+          "start": 818,
+          "end": 844
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_material_aluminio_manta",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:animation-manta-comparacao",
+      "projectId": "casa-sertao-calor",
+      "kind": "animation",
+      "label": "Instalação e comparação da manta",
+      "specification": "Ação de colocar a manta antes do rótulo; repetir o caminho radiativo em comparação visual antes/depois, reduzindo a seta de troca sem fazê-la desaparecer por completo. A camada e o vão permanecem distintos.",
+      "evidence": [
+        {
+          "phrase": "Ela reduz essa troca por radiação.",
+          "start": 846,
+          "end": 880
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_animation_manta_comparacao",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:sound-foley-camadas",
+      "projectId": "casa-sertao-calor",
+      "kind": "sound",
+      "label": "Foley das camadas térmicas",
+      "specification": "Foley breve de manta flexível ao instalar a folha e toque macio ao assentar lã de rocha; cada som sincroniza com contato e termina antes do nome do conceito. Sem estalos dramáticos.",
+      "evidence": [
+        {
+          "phrase": "põe uma manta refletiva de alumínio",
+          "start": 763,
+          "end": 798
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_sound_foley_camadas",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:object-la-rocha",
+      "projectId": "casa-sertao-calor",
+      "kind": "object",
+      "label": "Camada de lã de rocha",
+      "specification": "Camada contínua de lã de rocha sobre a laje, com uma segunda configuração contendo uma fresta visível para comparação. Bordas e fibras são legíveis em macro; espessura ilustrativa, sem sugerir dimensão de projeto executivo.",
+      "evidence": [
+        {
+          "phrase": "lã de rocha",
+          "start": 974,
+          "end": 985
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_object_la_rocha",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:material-la-rocha",
+      "projectId": "casa-sertao-calor",
+      "kind": "material",
+      "label": "Material de lã de rocha",
+      "specification": "Material fibroso mineral de aparência fosca e densidade visual distinta da laje e da manta. Sem textura exagerada ou fibras soltas no ambiente habitado.",
+      "evidence": [
+        {
+          "phrase": "lã de rocha",
+          "start": 974,
+          "end": 985
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_material_la_rocha",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:animation-isolamento-fresta",
+      "projectId": "casa-sertao-calor",
+      "kind": "animation",
+      "label": "Continuidade e falha da isolação",
+      "specification": "Mostrar primeiro que ainda pode passar uma parcela de calor; cobrir a laje com uma camada contínua; então abrir uma fresta e fazer o caminho gráfico contorná-la como atalho. Fechar a falha restabelece continuidade. O rótulo entra após o efeito demonstrado. Sem escala quantitativa.",
+      "evidence": [
+        {
+          "phrase": "Como ainda pode passar um pouco de calor, cobre a laje com lã de rocha e mantém a camada contínua. Se sobra uma fresta, o calor acha um atalho.",
+          "start": 915,
+          "end": 1058
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_animation_isolamento_fresta",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:animation-inercia-laje",
+      "projectId": "casa-sertao-calor",
+      "kind": "animation",
+      "label": "Armazenamento e liberação de calor",
+      "specification": "Comparação qualitativa de uma laje com massa visual maior: aquece ao longo da tarde e libera o calor gradualmente à noite. Mostrar o atraso no tempo com transição de luz, sem escala, segundos convertidos em horas ou promessa numérica.",
+      "evidence": [
+        {
+          "phrase": "E à noite? A laje guarda calor durante o dia e devolve aos poucos; com mais massa, essa mudança demora mais.",
+          "start": 1087,
+          "end": 1195
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_animation_inercia_laje",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:object-janelas-veneziana",
+      "projectId": "casa-sertao-calor",
+      "kind": "object",
+      "label": "Janelas opostas e veneziana",
+      "specification": "Duas janelas em paredes opostas do mesmo quarto e uma veneziana articulada, com dobradiças e abertura visíveis. Compatíveis com a câmera em corte e com o caminho de ar sem atravessar paredes opacas.",
+      "evidence": [
+        {
+          "phrase": "janelas opostas",
+          "start": 1277,
+          "end": 1292
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_object_janelas_veneziana",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:overlay-temperatura-relativa",
+      "projectId": "casa-sertao-calor",
+      "kind": "overlay",
+      "label": "Comparação de temperatura relativa",
+      "specification": "Indicador relacional simples, sem números: exterior “mais fresco” ou “mais quente” que o interior. Aparece junto da escolha de abrir ou esperar e não declara um valor medido.",
+      "evidence": [
+        {
+          "phrase": "Quando lá fora fica mais fresco que dentro",
+          "start": 1228,
+          "end": 1270
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_overlay_temperatura_relativa",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:animation-ventilacao-cruzada",
+      "projectId": "casa-sertao-calor",
+      "kind": "animation",
+      "label": "Ventilação cruzada condicionada",
+      "specification": "Quando o indicador mostra exterior mais fresco, abrir as duas janelas e conduzir um fluxo contínuo por elas. Quando exterior está mais quente, segurar a abertura e interromper o fluxo; uma micro-reação bem-humorada da pessoa comunica “bafo quente não precisa de convite” sem mudar a ordem ou ridicularizar a explicação.",
+      "evidence": [
+        {
+          "phrase": "Quando lá fora fica mais fresco que dentro, abre janelas opostas e deixa o vento atravessar o quarto. Se lá fora ainda está mais quente, espera: bafo quente não precisa de convite.",
+          "start": 1228,
+          "end": 1408
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_animation_ventilacao_cruzada",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:animation-veneziana-sombra",
+      "projectId": "casa-sertao-calor",
+      "kind": "animation",
+      "label": "Fechamento da veneziana e sombra",
+      "specification": "A veneziana fecha no momento em que o feixe solar atinge a janela; a sombra resultante reduz a luz direta sobre a cama e o piso. Casar movimento, corte de luz e fala no mesmo instante.",
+      "evidence": [
+        {
+          "phrase": "De dia, fecha a veneziana quando o sol bate.",
+          "start": 1409,
+          "end": 1453
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_animation_veneziana_sombra",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:sound-fecho-veneziana",
+      "projectId": "casa-sertao-calor",
+      "kind": "sound",
+      "label": "Som do fecho da veneziana",
+      "specification": "Toque leve de lâmina/fecho sincronizado com o fechamento e a mudança de sombra, mixado abaixo da narração.",
+      "evidence": [
+        {
+          "phrase": "fecha a veneziana",
+          "start": 1417,
+          "end": 1434
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_sound_fecho_veneziana",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:animation-payoff-cama",
+      "projectId": "casa-sertao-calor",
+      "kind": "animation",
+      "label": "Payoff do ventilador junto à cama",
+      "specification": "A pessoa retorna à cama; o ventilador fica direcionado ao corpo e o efeito local permanece restrito ao alvo, enquanto o quarto não ganha uma falsa temperatura uniforme. Pausa visual curta no payoff, preservando o humor coloquial de “turno dobrado”.",
+      "evidence": [
+        {
+          "phrase": "Aí você volta pra cama e o ventilador sai do turno dobrado: refresca você, sem tentar esfriar a casa inteira.",
+          "start": 1454,
+          "end": 1563
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_animation_payoff_cama",
+      "createdAt": "2026-11-08T04:42:24.634Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:effect-calor-noite-teto",
+      "projectId": "casa-sertao-calor",
+      "kind": "effect",
+      "label": "Calor que persiste no teto",
+      "specification": "Brilho térmico gráfico discreto nasce no teto do quarto noturno e aponta para a laje aquecida durante o dia. Abre a pergunta do vídeo e distingue calor persistente de chama ou fumaça.",
+      "evidence": [
+        {
+          "phrase": "De noite, o quarto continua abafado. O sol já foi embora; então por que o calor ainda vem do teto?",
+          "start": 0,
+          "end": 98
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_effect_calor_noite_teto",
+      "createdAt": "2026-11-08T04:44:57.249Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:effect-reflexao-telha",
+      "projectId": "casa-sertao-calor",
+      "kind": "effect",
+      "label": "Reflexo solar na telha clara",
+      "specification": "No plano da cobertura, parte maior da luz incidente retorna da telha clara; demonstração breve em linhas de luz, sem números nem comparação absoluta de desempenho.",
+      "evidence": [
+        {
+          "phrase": "reflete mais sol",
+          "start": 419,
+          "end": 435
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_effect_reflexao_telha",
+      "createdAt": "2026-11-08T04:44:57.249Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:overlay-label-barreira",
+      "projectId": "casa-sertao-calor",
+      "kind": "overlay",
+      "label": "Rótulo: barreira radiante",
+      "specification": "Cartela curta “barreira radiante”, só depois da colocação e da comparação da troca radiativa. Usa a mesma família tipográfica do conjunto de conceitos.",
+      "evidence": [
+        {
+          "phrase": "Isso se chama barreira radiante.",
+          "start": 881,
+          "end": 913
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_overlay_label_barreira",
+      "createdAt": "2026-11-08T04:44:57.249Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:overlay-label-isolamento",
+      "projectId": "casa-sertao-calor",
+      "kind": "overlay",
+      "label": "Rótulo: isolamento térmico",
+      "specification": "Cartela curta “isolamento térmico”, só depois de mostrar a camada contínua e o atalho na fresta. Usa a mesma família tipográfica do conjunto de conceitos.",
+      "evidence": [
+        {
+          "phrase": "Isso é isolamento térmico.",
+          "start": 1059,
+          "end": 1085
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_overlay_label_isolamento",
+      "createdAt": "2026-11-08T04:44:57.249Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:overlay-label-inercia",
+      "projectId": "casa-sertao-calor",
+      "kind": "overlay",
+      "label": "Rótulo: inércia térmica",
+      "specification": "Cartela curta “inércia térmica”, só depois de mostrar aquecimento diurno e liberação gradual noturna. Usa a mesma família tipográfica do conjunto de conceitos.",
+      "evidence": [
+        {
+          "phrase": "Isso se chama inércia térmica.",
+          "start": 1196,
+          "end": 1226
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_overlay_label_inercia",
+      "createdAt": "2026-11-08T04:44:57.249Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:effect-calor-atico-fechado",
+      "projectId": "casa-sertao-calor",
+      "kind": "effect",
+      "label": "Acúmulo de calor no ático fechado",
+      "specification": "Ao começar a demonstração, realçar discretamente o bolsão de ar quente sob as telhas quando o ático está fechado. A imagem prepara a comparação de entradas e saídas; sem fumaça ou temperatura numérica.",
+      "evidence": [
+        {
+          "phrase": "ático fechado acumula ar quente",
+          "start": 446,
+          "end": 477
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_effect_calor_atico_fechado",
+      "createdAt": "2026-11-08T04:47:31.456Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "titanic-completo:archive-inset-southampton",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Fotografia histórica do Titanic em Southampton",
+      "specification": "Motion graphic local com a fotografia do RMS Titanic em Southampton, entre 4 e 10 de abril de 1912, por autor não identificado, identificada como domínio público (Public Domain Mark 1.0) na fonte Wikimedia Commons. Integrada ao plano 3D durante a referência à travessia do Atlântico, em largura legível, com entrada curta, avanço sutil, pausa de leitura de pelo menos 2,5 s e saída antes da mudança de assunto. Não apresentar a imagem como oceano aberto nem como registro dos passageiros a bordo.",
+      "evidence": [
+        {
+          "phrase": "cruzar o Atlântico",
+          "start": 758,
+          "end": 776
+        }
+      ],
+      "stage": "review",
+      "assetId": "inset_fotografico_southampton",
+      "createdAt": "2026-11-08T04:59:42.546Z",
+      "updatedAt": "2026-11-08T04:59:42.757Z"
+    },
+    {
+      "id": "titanic-completo:archive-inset-second-class-deck",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Foto histórica do convés de segunda classe",
+      "specification": "Integrar uma fotografia do convés de segunda classe do Titanic, datada de 11 de abril de 1912, dentro do plano 3D do convés: entrada e avanço sutis, ocupação próxima de 42% da largura, posicionada à esquerda para preservar pessoas e mar à direita, pausa legível de pelo menos 3 s, saída antes da mudança de assunto e crédito autor/data legíveis em celular. Manter o mar e os passageiros 3D como plano principal; não sugerir que a foto registra a família reconstruída.",
+      "evidence": [
+        {
+          "phrase": "chegar à América com a família e a bagagem",
+          "start": 1054,
+          "end": 1096
+        }
+      ],
+      "stage": "review",
+      "assetId": "inset_fotografico_deck_segunda_classe",
+      "createdAt": "2026-11-08T05:24:29.422Z",
+      "updatedAt": "2026-11-08T05:28:43.607Z"
+    },
+    {
+      "id": "titanic-completo:archive-inset-grand-dining-saloon",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Foto histórica do grande salão de jantar do Titanic",
+      "specification": "Exibir a fotografia original de 1912 dentro do plano 3D do salão, com entrada animada, avanço discreto, crédito e pausa legível de pelo menos 2,5 s. Sincronizar com a fala sobre os salões e o serviço; manter a cena 3D principal visível e não sugerir que a foto mostra os figurantes reconstruídos.",
+      "evidence": [
+        {
+          "phrase": "Para alguns, a travessia inclui salões e serviço de luxo.",
+          "start": 967,
+          "end": 1024
+        }
+      ],
+      "stage": "review",
+      "assetId": "inset_fotografico_salao_jantar_titanic",
+      "createdAt": "2026-11-08T05:42:17.423Z",
+      "updatedAt": "2026-11-08T05:42:17.701Z"
+    },
+    {
+      "id": "titanic-completo:archive-inset-marconi-room",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Fotografia de arquivo da sala de rádio Marconi do Titanic",
+      "specification": "Exibir a fotografia histórica identificada junto ao trecho “telegrafistas”, por todo o corte de rádio disponível, com movimento de entrada e leve avanço; preservar a ação 3D e manter personagem/equipamento legíveis fora do cartão. Usar imagem local CC0 e crédito visível.",
+      "evidence": [
+        {
+          "phrase": "telegrafistas",
+          "start": 1209,
+          "end": 1222
+        }
+      ],
+      "stage": "review",
+      "assetId": "inset_fotografico_radio_titanic",
+      "createdAt": "2026-11-08T06:05:53.596Z",
+      "updatedAt": "2026-11-08T06:05:53.904Z"
+    },
+    {
+      "id": "titanic-completo:archive-inset-mesaba",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Telegrama histórico Mesaba → Titanic",
+      "specification": "Motion graphic local com a imagem do telegrama original de 14 de abril de 1912, enviado pelo Mesaba ao Titanic às 19h50. Integrar ao plano 3D de rádio e navegação por pelo menos 2,7 s, com aproximação legível, identificação de data/horário e crédito Museu da Fundação Postal e de Telecomunicações (CC BY-SA 4.0). Não encenar o documento como se a câmera estivesse no Titanic nem afirmar que chegou à ponte.",
+      "evidence": [
+        {
+          "phrase": "São relatos de outras embarcações que passaram pela região.",
+          "start": 2095,
+          "end": 2154
+        }
+      ],
+      "baselineIds": [
+        "inset_fotografico_radio_titanic"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "inset_fotografico_mesaba",
+      "createdAt": "2026-11-08T06:31:43.702Z",
+      "updatedAt": "2026-11-08T06:35:17.611Z"
+    },
+    {
+      "id": "titanic-completo:archive-inset-cabin-b60",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Insert documental de cabine B-60",
+      "specification": "Fotografia de época em domínio público, proporcional e creditada, integrada ao trecho sobre acomodações sem usar pessoas 3D em poses artificiais.",
+      "evidence": [
+        {
+          "phrase": "acomodações",
+          "start": 923,
+          "end": 934
+        }
+      ],
+      "baselineIds": [
+        "alojamento_bordo_1912"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "inset_fotografico_cabine_b60",
+      "createdAt": "2026-11-08T08:27:17.431Z",
+      "updatedAt": "2026-11-08T08:27:42.743Z"
+    },
+    {
+      "id": "titanic-completo:archive-inset-family-kink",
+      "projectId": "titanic-completo",
+      "kind": "overlay",
+      "label": "Insert documental da família Kink",
+      "specification": "Retrato público de 1912 identificado como família de passageiros da terceira classe e sobreviventes; cartão animado com atribuição explícita, sem sugerir que o retrato foi feito a bordo.",
+      "evidence": [
+        {
+          "phrase": "famílias em viagem",
+          "start": 778,
+          "end": 796
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "inset_fotografico_familia_kink",
+      "createdAt": "2026-11-08T08:36:48.105Z",
+      "updatedAt": "2026-11-08T08:36:52.719Z"
+    },
+    {
+      "id": "titanic-completo:passagem-estanque-1912",
+      "projectId": "titanic-completo",
+      "kind": "scene",
+      "label": "Passagem estanque com porta e água controlada",
+      "specification": "Passagem interna contínua de navio de 1912 com piso, teto, paredes, tubulações, luzes práticas, porta estanque e água visível apenas dentro do compartimento. Reconstituição ilustrativa, sem alegação de planta exata ou sequência histórica de inundação.",
+      "evidence": [
+        {
+          "phrase": "Tem divisões internas que podem limitar a entrada de água.",
+          "start": 1570,
+          "end": 1628
+        }
+      ],
+      "baselineIds": [
+        "corredor_bordo_1912",
+        "anteparas_bordo_1912"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "passagem_estanque_1912",
+      "createdAt": "2026-11-08T11:51:08.962Z",
+      "updatedAt": "2026-11-08T11:51:16.783Z"
+    },
+    {
+      "id": "titanic-completo:moonless-readable-environment",
+      "projectId": "titanic-completo",
+      "kind": "lighting",
+      "label": "Oceano noturno legível sem lua factual incorreta",
+      "specification": "Separar disco celeste de preenchimento ilustrativo e parametrizar cobertura de nuvens; manter água/reflexos reconhecíveis.",
+      "assetId": "mar_cinematico",
+      "stage": "construction",
+      "baselineIds": [],
+      "dependsOn": []
+    },
+    {
+      "id": "titanic-completo:white-distress-rocket",
+      "projectId": "titanic-completo",
+      "kind": "effect",
+      "label": "Foguete branco de socorro",
+      "specification": "Subida e queda branca no pedido de socorro; não confundir com luz verde do bote. Forma e trajetória ilustrativas.",
+      "stage": "review",
+      "baselineIds": [],
+      "dependsOn": [],
+      "assetId": "foguete_socorro_branco_1912",
+      "updatedAt": "2026-11-08T13:18:40.909Z"
+    },
+    {
+      "id": "titanic-completo:collapsible-b-inverted",
+      "projectId": "titanic-completo",
+      "kind": "object",
+      "label": "Dobrável invertido ilustrativo",
+      "specification": "Fundo de madeira arqueado exposto, lona colapsada junto à linha da água e superfície de apoio coerente; sem bote rígido virado, bancos ou passageiros incorporados. Não apresentar como arqueologia exata.",
+      "baselineIds": [
+        "bote_salvamento_1912"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "references": [
+        "kit/quality/titanic-middle-references.md"
+      ],
+      "assetId": "bote_dobravel_invertido_1912",
+      "updatedAt": "2026-11-08T13:31:15.800Z"
+    },
+    {
+      "id": "titanic-completo:rescue-body-cloth",
+      "projectId": "titanic-completo",
+      "kind": "object",
+      "label": "Casaco e cobertor envolventes",
+      "specification": "Malha volumétrica apoiada em ombros, com costas, gola vazada, sobreposição frontal e pregas; blanket seated cobre colo e joelhos. Compartilha origem e orientação do rig de personagem.",
+      "baselineIds": [
+        "pessoas_maritimas_1912",
+        "equipamentos_resgate_1912"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "references": [
+        "kit/quality/titanic-middle-references.md"
+      ],
+      "assetId": "roupa_resgate_1912",
+      "updatedAt": "2026-11-08T13:31:16.084Z"
+    },
+    {
+      "id": "titanic-completo:passageira-amparo",
+      "projectId": "titanic-completo",
+      "kind": "character",
+      "label": "Passageira ilustrativa no amparo",
+      "specification": "Figura feminina adulta com o rig existente, escala humana, figurino ilustrativo e contato real com o sobrevivente; sem retrato ou fala inventados.",
+      "stage": "review",
+      "baselineIds": [],
+      "dependsOn": [],
+      "assetId": "passageira_maritima_1912",
+      "updatedAt": "2026-11-08T13:32:40.180Z"
+    },
+    {
+      "id": "titanic-completo:contatos-resgate-1912",
+      "projectId": "titanic-completo",
+      "kind": "animation",
+      "label": "Apoios e força no resgate",
+      "specification": "Mãos compartilhadas, pés em degraus reais, sling e cordas carregadas, reação de ajudante e lanterna com obturador.",
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "acoes_resgate_1912",
+      "updatedAt": "2026-11-08T13:33:13.671Z"
+    },
+    {
+      "id": "casa-sertao-calor:camera-multicorte-ritmo-10fps",
+      "projectId": "casa-sertao-calor",
+      "kind": "camera",
+      "label": "Câmera com inserts e microcortes por beat",
+      "specification": "Plano vertical de 13 beats com 2 ou 3 composições claramente diferentes por beat: quarto íntimo, corte amplo, macro de material, detalhe de pessoa/objeto e inserts de contexto quando a analogia pedir. Alternar push-in e pull-out motivados, câmera lateral/superior/frontal e cortes secos curtos; sem deriva ornamental, sem repetir o mesmo eixo em beats vizinhos e sem alterar a ordem causal.",
+      "evidence": [
+        {
+          "phrase": "De noite, o quarto continua abafado. O sol já foi embora; então por que o calor ainda vem do teto?\n\nVolta pra tarde. O sol aquece as telhas e parte desse calor cruza o vão até a laje por radiação — como sentir o calor de um forno sem encostar nele. A laje esquenta e passa calor pro quarto. O ventilador refresca quem está na frente, mas a laje continua no turno da noite.\n\nPor isso, começa pela cobertura: telha clara reflete mais sol. Só que o ático fechado acumula ar quente.\n\nAbrir só a cumeeira quase não muda nada; sem entrada nos beirais, falta caminho pro ar atravessar o ático. Quando o ar entra por baixo e sai no alto, leva parte do calor junto. Isso se chama ático ventilado.\n\nMas o ar circulando não impede a telha de irradiar calor pra laje. Então, põe uma manta refletiva de alumínio sob a telha, com a face voltada pro vão de ar. Ela reduz essa troca por radiação. Isso se chama barreira radiante.\n\nComo ainda pode passar um pouco de calor, cobre a laje com lã de rocha e mantém a camada contínua. Se sobra uma fresta, o calor acha um atalho. Isso é isolamento térmico.\n\nE à noite? A laje guarda calor durante o dia e devolve aos poucos; com mais massa, essa mudança demora mais. Isso se chama inércia térmica.\n\nQuando lá fora fica mais fresco que dentro, abre janelas opostas e deixa o vento atravessar o quarto. Se lá fora ainda está mais quente, espera: bafo quente não precisa de convite. De dia, fecha a veneziana quando o sol bate. Aí você volta pra cama e o ventilador sai do turno dobrado: refresca você, sem tentar esfriar a casa inteira.",
+          "start": 0,
+          "end": 1563
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_camera_caminho_cobertura_quarto",
+      "createdAt": "2026-11-08T16:59:39.855Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:scene-insert-forno-barro-radiacao",
+      "projectId": "casa-sertao-calor",
+      "kind": "scene",
+      "label": "Insert no terreiro: calor sem contato",
+      "specification": "Pequeno terreiro de casa no semiárido com forno de barro aquecido e personagem do kit humano. A pessoa aproxima a mão sem tocar, sente o calor, recua com reação expressiva; ondas térmicas visíveis ligam o forno à mão. Plano externo abre, corte rápido aproxima da reação, volta ao corte da casa antes do próximo beat. Não inclui churrasqueira nem cunhado, nem repete a piada da referência.",
+      "evidence": [
+        {
+          "phrase": "como sentir o calor de um forno sem encostar nele.",
+          "start": 198,
+          "end": 248
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_scene_insert_forno_radiacao",
+      "createdAt": "2026-11-08T16:59:39.855Z",
+      "updatedAt": "2026-11-08T18:18:29.352Z"
+    },
+    {
+      "id": "casa-sertao-calor:character-pessoa-quarto-rig-kit-v2",
+      "projectId": "casa-sertao-calor",
+      "kind": "character",
+      "label": "Pessoa do quarto com rig casual articulado do kit",
+      "specification": "Adaptar a variante casual de kit/assets/period-person-rig.js, com uma forma sentada na borda da cama e uma forma em pé para janela/insert. Silhueta adulta, rosto legível, roupa cotidiana, gesto de calor/vento/recuo e amostragem determinística; mesma identidade anônima e sem diálogo novo.",
+      "evidence": [
+        {
+          "phrase": "A laje esquenta e passa calor pro quarto.",
+          "start": 249,
+          "end": 290
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_character_pessoa_quarto_rig",
+      "createdAt": "2026-11-08T16:59:39.855Z",
+      "updatedAt": "2026-11-08T21:00:00.000Z"
+    },
+    {
+      "id": "casa-sertao-calor:context-07",
+      "projectId": "casa-sertao-calor",
+      "kind": "scene",
+      "label": "Exterior da casa no Sertão",
+      "specification": "Plano exterior reutilizável do mesmo universo visual: reutilizar casa_simples aprovada com parede caiada e telha de barro, apoiada em chão terroso, horizonte de serra seca e um mandacaru discreto. A composição oferece estados de tarde e noite por sample(t,{night,sunset}), com busca temporal determinística; câmera vertical mostra a casa inteira antes de aproximar cumeeira, beiral, janela ou sombra. A vegetação e o fundo dão escala sem criar segunda narrativa; sem mídia remota.",
+      "evidence": [
+        {
+          "phrase": "Por isso, começa pela cobertura: telha clara reflete mais sol.",
+          "start": 374,
+          "end": 436
+        }
+      ],
+      "baselineIds": [
+        "casa_simples"
+      ],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "sertao_exterior_terreiro",
+      "createdAt": "2026-11-08T18:10:05.981Z",
+      "updatedAt": "2026-11-08T18:18:43.206Z"
+    },
+    {
+      "id": "historia-rockstar:resource-apple-ii-photo",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Inserto fotográfico licenciado de um Apple II",
+      "specification": "Painel fotográfico original integrado ao diorama 3D, centralizado, com moldura e crédito legível. Origem: Wikimedia Commons, Apple II Computer.jpg, autor Maksym Kozlenko, CC BY-SA 4.0. A foto documenta um modelo, não a escola nem a unidade mencionada na narrativa. Arquivo local, alterações e crédito declarados.",
+      "evidence": [
+        {
+          "phrase": "Havia um Apple II para todos os alunos",
+          "start": 863,
+          "end": 901
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "resource_apple_ii_photo",
+      "createdAt": "2026-11-09T11:20:52.160Z",
+      "updatedAt": "2026-11-09T11:57:16.192Z"
+    },
+    {
+      "id": "historia-rockstar:resource-zx81-kit-photo",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Inserto fotográfico licenciado de um kit ZX81",
+      "specification": "Painel fotográfico original integrado ao diorama 3D, centralizado, com moldura e crédito legível. Origem: Wikimedia Commons, ZX81 kit.jpg, autor Smaddison, CC BY-SA 3.0. A foto mostra um exemplar em kit, não a unidade específica de Jones. Arquivo local, alterações e crédito declarados.",
+      "evidence": [
+        {
+          "phrase": "havia construído um ZX81 a partir de um kit",
+          "start": 1462,
+          "end": 1505
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "resource_zx81_kit_photo",
+      "createdAt": "2026-11-09T11:20:52.160Z",
+      "updatedAt": "2026-11-09T11:57:16.450Z"
+    },
+    {
+      "id": "historia-rockstar:resource-david-jones-portrait",
+      "projectId": "historia-rockstar",
+      "kind": "overlay",
+      "label": "Retrato público de David Jones (2003)",
+      "specification": "Painel fotográfico local e centralizado em composição 3D, com data, autor, licença e ressalva de contexto; não recriar a aparência de Jones em outra década.",
+      "evidence": [
+        {
+          "phrase": "Anos depois, David Jones descreveu a campanha de divulgação como inteligente e disse que estava disposto a defender GTA.",
+          "start": 6252,
+          "end": 6372
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "resource_david_jones_portrait",
+      "createdAt": "2026-11-09T15:43:50.815Z",
+      "updatedAt": "2026-11-09T15:43:51.117Z"
+    },
+    {
+      "id": "brasil-camadas:preview-abertura",
+      "projectId": "brasil-camadas",
+      "kind": "scene",
+      "label": "Atlas de camadas — abertura",
+      "specification": "Mesa de cartógrafo com pilha de mapas, camada de papel com silhueta esquemática do Brasil, camadas translúcidas, lâmpada de mesa e janela fria. A camada superior sobe entre 7,4 s e 13,6 s; a câmera acompanha. Prévia dos primeiros segundos, sem personagem e sem texto 3D.",
+      "evidence": [
+        {
+          "phrase": "Abertura — gancho e título",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "brasil_atlas_abertura",
+      "createdAt": "2026-11-14T20:09:52.622Z",
+      "updatedAt": "2026-11-14T20:09:52.955Z"
+    },
+    {
+      "id": "brasil-camadas:preview-abertura-props",
+      "projectId": "brasil-camadas",
+      "kind": "object",
+      "label": "Kit de props da abertura",
+      "specification": "Carimbo, folha de pagamento com barra, documento da lei com vazios, mosaico de 1500, cartões de número, camada de renda e poeira. Recursos separados para as 14 cenas da abertura; mínimo 5 assets visuais por cena, sem teto.",
+      "evidence": [
+        {
+          "phrase": "Kit de props da abertura — 14 cenas",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "abertura_poeira",
+      "createdAt": "2026-11-14T20:55:25.197Z",
+      "updatedAt": "2026-11-14T20:55:29.953Z"
+    },
+    {
+      "id": "brasil-camadas:preview-abertura-sets",
+      "projectId": "brasil-camadas",
+      "kind": "scene",
+      "label": "Mundos da abertura",
+      "specification": "Cinco sets distintos: mesa de dados, mesa de documento, parede de mapa, diorama de 1500 e macro de papel. Cada cena declara world; no máximo 2 cenas consecutivas no mesmo mundo.",
+      "evidence": [
+        {
+          "phrase": "Mundos da abertura — 14 cenas",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "baselineIds": [],
+      "dependsOn": [],
+      "stage": "review",
+      "assetId": "abertura_set_diorama",
+      "createdAt": "2026-11-14T21:14:03.556Z",
+      "updatedAt": "2026-11-14T21:14:05.093Z"
+    }
+  ]
+}

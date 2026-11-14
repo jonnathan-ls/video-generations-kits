@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "04479799b953fbe78997fc3c19913c84d4b9bdeaaf57850dc4da254ffa79caaf",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "pessoa-quarto-rig-kit-v2",
+      "meshes": 96,
+      "triangles": 17880,
+      "dimensions": [
+        1.1899997456067957,
+        1.7419166257296237,
+        1.3356113569120551
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.927Z"
+}

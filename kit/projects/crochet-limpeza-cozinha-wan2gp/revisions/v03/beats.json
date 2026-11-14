@@ -1,0 +1,314 @@
+[
+  {
+    "id": "01-pia-louca",
+    "start": 0,
+    "end": 3.65,
+    "dialogue": null,
+    "referenceSection": "0.00–3.65 s: pratos, esponja, sabão, enxágue e escorredor na pia.",
+    "sourceCutCandidates": {"times": [3.3, 3.583], "status": "heuristic; confirm visually before editing"},
+    "plannedMicrocuts": [1.35, 2.2],
+    "visualPlan": {
+      "beatId": "01-pia-louca",
+      "attentionTarget": "a esponja em contato com um prato claro de crochê, com a trama legível ao redor do trajeto",
+      "visualQuestion": "A espuma e o enxágue deixam a louça limpa sem esconder nem apagar os pontos?",
+      "visibleEvent": "A mão pega a esponja já sobre o prato, espalha uma faixa curta de sabão, esfrega com contato contínuo, enxágua e apoia o prato no escorredor.",
+      "stateBefore": "louça por lavar na área da pia; esponja e prato já visíveis no primeiro quadro",
+      "stateAfter": "prato enxaguado, apoiado e imóvel no escorredor; a pia continua reconhecível",
+      "cameraReveal": "macro lateral fixo; aproximar o detalhe pelo corte, sem zoom durante a passada",
+      "soundIntent": "água fina, fricção curta de esponja, bolhas discretas e pouso macio no escorredor"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "a mão entra já alcançando a esponja; prato e pia estão no quadro"},
+      {"phase": "contact", "action": "a esponja cruza o prato sem perder contato; a espuma acompanha o caminho"},
+      {"phase": "reaction", "action": "o fio de água retira a espuma e revela os pontos"},
+      {"phase": "result", "action": "o prato encosta no escorredor e para"}
+    ],
+    "returnVisit": null
+  },
+  {
+    "id": "02-pia-recipiente",
+    "start": 3.65,
+    "end": 6.92,
+    "dialogue": null,
+    "referenceSection": "3.65–6.92 s: recipiente pequeno é esfregado, virado e enxaguado na mesma área da pia.",
+    "sourceCutCandidates": {"times": [], "status": "no internal candidate promoted; keep the observed major boundary"},
+    "plannedMicrocuts": [4.55, 5.6],
+    "visualPlan": {
+      "beatId": "02-pia-recipiente",
+      "attentionTarget": "o interior e a borda de um recipiente pequeno, sustentado pelas duas mãos",
+      "visualQuestion": "O detalhe interno também fica limpo quando a peça é virada e enxaguada?",
+      "visibleEvent": "A mão gira o recipiente uma vez, esfrega o interior, deixa a água correr pela trama e devolve a peça à área de secagem.",
+      "stateBefore": "recipiente de crochê ainda úmido, com resíduo visível no interior",
+      "stateAfter": "interior limpo e recipiente apoiado; nenhuma peça muda de forma",
+      "cameraReveal": "corte para um macro de três quartos; manter borda e interior no mesmo plano de foco",
+      "soundIntent": "fricção úmida, fio de água e dois contatos suaves das bordas"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "duas mãos seguram o recipiente acima da pia"},
+      {"phase": "contact", "action": "a esponja percorre o interior e a mão gira a peça uma única vez"},
+      {"phase": "reaction", "action": "a água atravessa o recipiente e escoa pela borda"},
+      {"phase": "result", "action": "o recipiente é apoiado ao lado do escorredor e permanece estável"}
+    ],
+    "returnVisit": {"priorSceneId": "01-pia-louca", "function": "state-change", "visibleDelta": "a primeira ação limpa um prato; o retorno limpa o interior de um recipiente e revela outra escala de pontos"}
+  },
+  {
+    "id": "03-cooktop-limpeza",
+    "start": 6.92,
+    "end": 10.77,
+    "dialogue": null,
+    "referenceSection": "6.92–10.77 s: cooktop, insertes de esponja e pano, peças circulares voltam ao lugar.",
+    "sourceCutCandidates": {"times": [7.3, 7.717, 8.683, 9.183, 10.183], "status": "heuristic; individual transitions require visual confirmation"},
+    "plannedMicrocuts": [7.3, 7.717, 8.683, 9.183, 10.183],
+    "visualPlan": {
+      "beatId": "03-cooktop-limpeza",
+      "attentionTarget": "a faixa de espuma em torno de um único queimador de crochê",
+      "visualQuestion": "A sujeira sai sem transformar o cooktop em metal ou apagar a trama?",
+      "visibleEvent": "Um macro situa o queimador; a esponja percorre a borda com contato; um pano remove a espuma; a mão retorna uma peça circular ao encaixe marcado.",
+      "stateBefore": "cooktop de crochê com espuma localizada e uma peça circular fora do encaixe",
+      "stateAfter": "superfície enxuta, aro legível e peça assentada sem flutuar",
+      "cameraReveal": "plano médio curto para orientar; inserts de cima e macro no contato; eixo não cruza a bancada",
+      "soundIntent": "esfregada rítmica, pano úmido e pouso abafado da peça no encaixe"
+    },
+    "actionPhases": [
+      {"phase": "orientation", "action": "mostrar um cooktop e o queimador que será limpo"},
+      {"phase": "contact", "action": "a esponja contorna apenas o queimador escolhido"},
+      {"phase": "reaction", "action": "o pano retira a espuma; o fio e o relevo continuam visíveis"},
+      {"phase": "result", "action": "uma peça circular retorna ao seu encaixe e para"}
+    ],
+    "returnVisit": null
+  },
+  {
+    "id": "04-varrer-migalhas",
+    "start": 10.77,
+    "end": 14.02,
+    "dialogue": null,
+    "referenceSection": "10.77–14.02 s: plano mais aberto, migalhas no piso, varrida, pá e lixeira.",
+    "sourceCutCandidates": {"times": [11.317, 11.883, 13.05, 13.617], "status": "heuristic; confirm which changes are cuts versus broom movement"},
+    "plannedMicrocuts": [11.317, 11.883, 13.05, 13.617],
+    "visualPlan": {
+      "beatId": "04-varrer-migalhas",
+      "attentionTarget": "a linha de migalhas e a ponta da vassoura no piso de crochê",
+      "visualQuestion": "Para onde as migalhas vão depois que a vassoura as reúne?",
+      "visibleEvent": "A vassoura reúne as migalhas numa única faixa, a pá as recolhe e a mão despeja o conteúdo numa lixeira de crochê.",
+      "stateBefore": "migalhas bem separadas sobre o piso, pá e lixeira visíveis ao lado",
+      "stateAfter": "piso sem migalhas; conteúdo dentro da lixeira, que fica apoiada no chão",
+      "cameraReveal": "plano baixo médio para orientar o piso; insert no encontro de vassoura e pá; corte para o depósito na lixeira",
+      "soundIntent": "cerdas macias no piso, grãos raspando na pá e depósito abafado na lixeira"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "estabelecer onde estão migalhas, pá e lixeira"},
+      {"phase": "contact", "action": "a vassoura avança em um arco curto e leva as migalhas para a pá"},
+      {"phase": "reaction", "action": "a pá levanta sem derramar o conteúdo"},
+      {"phase": "result", "action": "as migalhas caem na lixeira; o piso limpo continua no quadro"}
+    ],
+    "returnVisit": null
+  },
+  {
+    "id": "05-geladeira-limpar",
+    "start": 14.02,
+    "end": 17.36,
+    "dialogue": null,
+    "referenceSection": "14.02–17.36 s: geladeira abre, alimentos saem, prateleiras são retiradas e limpas.",
+    "sourceCutCandidates": {"times": [14.35], "status": "heuristic; later action changes require manual edit decisions"},
+    "plannedMicrocuts": [14.35, 15.05, 15.55, 16.8],
+    "visualPlan": {
+      "beatId": "05-geladeira-limpar",
+      "attentionTarget": "uma prateleira removível e seu trilho dentro da geladeira",
+      "visualQuestion": "A prateleira sai, é limpa e volta ao mesmo encaixe?",
+      "visibleEvent": "A porta abre; as poucas peças são retiradas e estacionadas fora da ação; a prateleira desliza, recebe uma passada de pano e volta nivelada ao trilho.",
+      "stateBefore": "interior ocupado, prateleira no trilho e porta fechada",
+      "stateAfter": "interior limpo e vazio, prateleira assentada no mesmo trilho, porta aberta",
+      "cameraReveal": "primeiro quadro frontal com a porta inteira; insert interno alinhado ao trilho; manter entrada e apoio no mesmo eixo",
+      "soundIntent": "abertura macia, deslizamento curto, pano sobre fio e encaixe sem estalo metálico"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "a mão abre a porta e revela o interior"},
+      {"phase": "contact", "action": "a prateleira desliza para fora em linha reta"},
+      {"phase": "reaction", "action": "o pano percorre a superfície uma vez e remove as gotas"},
+      {"phase": "result", "action": "a prateleira volta ao mesmo par de trilhos e fica nivelada"}
+    ],
+    "returnVisit": null
+  },
+  {
+    "id": "06-geladeira-organizar",
+    "start": 17.36,
+    "end": 19.89,
+    "dialogue": null,
+    "referenceSection": "17.36–19.89 s: potes, garrafas e alimentos de crochê são organizados em fileiras.",
+    "sourceCutCandidates": {"times": [18.417, 18.933], "status": "heuristic; confirm inserts at 10 fps"},
+    "plannedMicrocuts": [18.417, 18.933],
+    "visualPlan": {
+      "beatId": "06-geladeira-organizar",
+      "attentionTarget": "as mãos encaixando itens coloridos em fileiras distintas",
+      "visualQuestion": "Como a geladeira limpa ganha uma ordem que se lê num relance?",
+      "visibleEvent": "Garrafas e alimentos miniatura são colocados, um por vez, em três zonas da prateleira; cada peça encosta e para antes da próxima.",
+      "stateBefore": "geladeira vazia, limpa e aberta",
+      "stateAfter": "fileiras separadas por tipo e cor, sem peças sobrepostas ou rótulos",
+      "cameraReveal": "frente da mesma geladeira; inserts breves de cima para cada pouso e retorno à composição frontal",
+      "soundIntent": "pousos de tecido leves em três acentos, sem vidro nem metal"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "mostrar prateleira vazia e o primeiro item na mão"},
+      {"phase": "contact", "action": "pousar cada item em uma zona definida, mantendo a base em contato"},
+      {"phase": "reaction", "action": "a mão solta; nenhum item escorrega ou muda de forma"},
+      {"phase": "result", "action": "revelar as fileiras organizadas por uma pausa curta"}
+    ],
+    "returnVisit": {"priorSceneId": "05-geladeira-limpar", "function": "state-change", "visibleDelta": "o interior vazio e limpo recebe itens em fileiras estáveis; cada pouso acrescenta uma mudança visível"}
+  },
+  {
+    "id": "07-despensa-potes",
+    "start": 19.89,
+    "end": 22.25,
+    "dialogue": null,
+    "referenceSection": "19.89–22.25 s: portas da despensa abrem, potes são alinhados e colheres penduradas.",
+    "sourceCutCandidates": {"times": [20.3, 20.783], "status": "heuristic; confirm which changes are edits"},
+    "plannedMicrocuts": [20.3, 20.783],
+    "visualPlan": {
+      "beatId": "07-despensa-potes",
+      "attentionTarget": "três potes de crochê e a fileira de utensílios no interior do armário",
+      "visualQuestion": "A organização fica clara quando os recipientes e utensílios encontram seus lugares?",
+      "visibleEvent": "As portas se abrem; três potes são alinhados com espaço entre eles; três utensílios são pendurados em ganchos fixos.",
+      "stateBefore": "despensa fechada, com potes e utensílios fora de alinhamento",
+      "stateAfter": "armário aberto, potes estáveis e utensílios pendurados sem se cruzar",
+      "cameraReveal": "quadro frontal simétrico; insert dos pousos e do encaixe nos ganchos; terminar na mesma vista",
+      "soundIntent": "dobradiça de tecido, toques macios dos potes e um contato discreto por utensílio"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "as portas abrem e revelam a prateleira"},
+      {"phase": "contact", "action": "potes descem verticalmente até a prateleira; utensílios entram nos ganchos"},
+      {"phase": "reaction", "action": "mãos soltam as peças; nada balança além do necessário"},
+      {"phase": "result", "action": "a fileira organizada fica legível por um instante"}
+    ],
+    "returnVisit": null
+  },
+  {
+    "id": "08-dobrar-pano",
+    "start": 22.25,
+    "end": 23.8,
+    "dialogue": null,
+    "referenceSection": "22.25–23.80 s: pano quadriculado é dobrado e pousado diante da despensa.",
+    "sourceCutCandidates": {"times": [22.783], "status": "heuristic; verify against the sampled frames"},
+    "plannedMicrocuts": [22.783],
+    "visualPlan": {
+      "beatId": "08-dobrar-pano",
+      "attentionTarget": "a linha central da dobra no pano quadriculado",
+      "visualQuestion": "Qual pequeno gesto deixa a arrumação com um acabamento claro?",
+      "visibleEvent": "Duas mãos alinham as bordas, fazem uma dobra única e pousam o pano centralizado diante do armário.",
+      "stateBefore": "pano aberto, com trama e desenho quadriculado legíveis",
+      "stateAfter": "pano dobrado uma vez, bordas alinhadas e imóvel",
+      "cameraReveal": "macro fixo; mão e bordas nunca saem do enquadramento durante a dobra",
+      "soundIntent": "fricção curta do fio e pouso macio; sem whoosh"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "abrir o pano o bastante para ver o padrão"},
+      {"phase": "contact", "action": "as bordas se encontram numa dobra só"},
+      {"phase": "reaction", "action": "a trama acomoda sem esticar ou trocar de padrão"},
+      {"phase": "result", "action": "o pano pousa centralizado e para"}
+    ],
+    "returnVisit": null
+  },
+  {
+    "id": "09-retoque-pia-bancada",
+    "start": 23.8,
+    "end": 25.2,
+    "dialogue": null,
+    "referenceSection": "23.80–25.20 s: inserts da pia e da bancada recebem uma passada final de pano.",
+    "sourceCutCandidates": {"times": [24.15, 24.633], "status": "heuristic; verify the switch between sink and counter"},
+    "plannedMicrocuts": [24.15, 24.633],
+    "visualPlan": {
+      "beatId": "09-retoque-pia-bancada",
+      "attentionTarget": "a ponta do pano cruzando duas gotas sobre a pia e a bancada de crochê",
+      "visualQuestion": "As gotas desaparecem no mesmo caminho em que o pano passa?",
+      "visibleEvent": "O pano toca a borda da pia e segue para uma faixa curta da bancada; as gotas somem apenas atrás do pano.",
+      "stateBefore": "pia e bancada limpas, mas com gotas pequenas visíveis",
+      "stateAfter": "faixa seca; pontos do crochê permanecem nítidos e sem mudança de cor",
+      "cameraReveal": "dois macros de contato, primeiro na pia e depois na bancada; foco estável e sem zoom",
+      "soundIntent": "pano úmido em duas superfícies e gotas discretas; sem impacto metálico"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "mostrar gotas distintas sobre a trama"},
+      {"phase": "contact", "action": "o pano percorre uma faixa curta e contínua"},
+      {"phase": "reaction", "action": "as gotas desaparecem somente sob o pano"},
+      {"phase": "result", "action": "pausa sobre a faixa seca com os pontos visíveis"}
+    ],
+    "returnVisit": {"priorSceneId": "01-pia-louca", "function": "state-change", "visibleDelta": "a primeira visita lava objetos; esta visita seca gotas da superfície e fecha a tarefa da pia"}
+  },
+  {
+    "id": "10-retoque-cooktop",
+    "start": 25.2,
+    "end": 26.78,
+    "dialogue": null,
+    "referenceSection": "25.20–26.78 s: pano final no cooktop; pequenos utensílios retornam aos círculos limpos.",
+    "sourceCutCandidates": {"times": [], "status": "major boundary only; retain the source action order"},
+    "plannedMicrocuts": [25.95, 26.35],
+    "visualPlan": {
+      "beatId": "10-retoque-cooktop",
+      "attentionTarget": "a última passada do pano e o pouso de uma peça pequena sobre o queimador limpo",
+      "visualQuestion": "O fogão termina limpo e com os objetos assentados, sem flutuar?",
+      "visibleEvent": "O pano completa uma passada visível; uma peça de cozinha de crochê volta ao centro do aro e permanece em contato.",
+      "stateBefore": "cooktop sem espuma, mas com a peça de uso fora de seu lugar",
+      "stateAfter": "aro limpo e peça assentada; nenhum fogo ou elemento novo aparece",
+      "cameraReveal": "macro de três quartos que mantém base e aro no mesmo plano de foco; corte no pouso",
+      "soundIntent": "passada final de pano, pouso abafado e breve repouso musical"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "reestabelecer o cooktop limpo e o local vazio"},
+      {"phase": "contact", "action": "o pano termina a passada antes de a panela/peça entrar"},
+      {"phase": "reaction", "action": "a base encontra o aro sem atravessar ou flutuar"},
+      {"phase": "result", "action": "a peça fica imóvel no centro"}
+    ],
+    "returnVisit": {"priorSceneId": "03-cooktop-limpeza", "function": "payoff", "visibleDelta": "o cooktop antes recebe limpeza; agora retorna seco, limpo e com a peça de uso assentada"}
+  },
+  {
+    "id": "11-toalha-gotas",
+    "start": 26.78,
+    "end": 27.97,
+    "dialogue": null,
+    "referenceSection": "26.78–27.97 s: toalha listrada é pendurada; um insert remove gotas restantes.",
+    "sourceCutCandidates": {"times": [27.4], "status": "heuristic; confirm the internal insert at 10 fps"},
+    "plannedMicrocuts": [27.4],
+    "visualPlan": {
+      "beatId": "11-toalha-gotas",
+      "attentionTarget": "a toalha listrada pendurada e, no insert, a última gota na bancada",
+      "visualQuestion": "Que detalhe final confirma que a cozinha está pronta?",
+      "visibleEvent": "A toalha é pendurada e balança uma vez; o corte mostra uma gota sendo retirada com a ponta do pano.",
+      "stateBefore": "barra vazia e uma gota pequena visível numa bancada próxima",
+      "stateAfter": "toalha estável, bancada seca e trama sem manchas",
+      "cameraReveal": "macro lateral da queda da toalha; insert distinto da gota antes do plano geral",
+      "soundIntent": "tecido passando pela barra, balanço curto e último toque de pano"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "mãos seguram a toalha acima da barra"},
+      {"phase": "contact", "action": "a toalha passa sobre a barra e encosta no puxador"},
+      {"phase": "reaction", "action": "um único balanço curto perde energia"},
+      {"phase": "result", "action": "insert da mão retirando a última gota da bancada"}
+    ],
+    "returnVisit": null
+  },
+  {
+    "id": "12-revelacao-cozinha",
+    "start": 27.97,
+    "end": 29.375,
+    "dialogue": null,
+    "referenceSection": "27.97–29.375 s: plano geral vertical da cozinha pronta, sustentado até o fim.",
+    "sourceCutCandidates": {"times": [], "status": "final hold; do not add another cut"},
+    "plannedMicrocuts": [],
+    "visualPlan": {
+      "beatId": "12-revelacao-cozinha",
+      "attentionTarget": "a cozinha miniatura completa e a continuidade entre pia, fogão, geladeira e despensa",
+      "visualQuestion": "Como os pequenos retoques se juntam numa cozinha inteira e coerente?",
+      "visibleEvent": "Um pullback curto revela a mesma cozinha-guia organizada e termina numa pausa estável.",
+      "stateBefore": "close da última gota e da toalha recém-pendurada",
+      "stateAfter": "conjunto limpo, todos os itens nos lugares, sem movimento novo",
+      "cameraReveal": "recuo único para o plano geral; segurar o enquadramento até o fim",
+      "soundIntent": "resolução musical curta e sustentada; sem whoosh ou efeito chamativo"
+    },
+    "actionPhases": [
+      {"phase": "preparation", "action": "começar no detalhe já concluído"},
+      {"phase": "reveal", "action": "recuar suavemente até incluir pia, cooktop, geladeira e despensa"},
+      {"phase": "result", "action": "manter a cozinha parada no quadro geral"}
+    ],
+    "returnVisit": {"priorSceneId": "01-pia-louca", "function": "payoff", "visibleDelta": "a pia antes era um macro de trabalho; agora pertence ao conjunto inteiro finalizado"}
+  }
+]
+

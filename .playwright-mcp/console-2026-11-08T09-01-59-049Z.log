@@ -1,0 +1,14 @@
+[     194ms] [WARNING] [.WebGL-0x1c3c01023c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/index.html?scene=shot-018-voyage&rev=v5:0
+[     211ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4174/favicon.ico:0
+[    1156ms] Error: Alvo não encontrado: shot-018-family-companion
+    at applyBehavior (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/source/kit/engine/behaviors.js:6:31)
+    at Object.renderAt (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/source/kit/engine/composition.js:59:42)
+    at renderAt (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/main.js:12:94)
+    at Tween.onUpdate [as _onUpdate] (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/main.js:20:138)
+    at _callback (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/lib/gsap.min.js:10:14046)
+    at Tween.render (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/lib/gsap.min.js:10:38714)
+    at Timeline.render (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/lib/gsap.min.js:10:26172)
+    at qa (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/lib/gsap.min.js:10:1973)
+    at Timeline.totalTime (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/lib/gsap.min.js:10:18266)
+    at Timeline.totalTime (http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/assets/lib/gsap.min.js:10:28149)
+[    2362ms] [WARNING] [.WebGL-0x1c3c01023c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ http://127.0.0.1:4174/preview/titanic-completo/previs-bloco-01/index.html?scene=shot-018-voyage&rev=v5:0

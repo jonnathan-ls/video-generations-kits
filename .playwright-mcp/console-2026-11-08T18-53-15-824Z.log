@@ -1,0 +1,6 @@
+[ 1314356ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4173/kit/projects/casa-sertao-calor/beats.json:0
+[ 1317908ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4173/kit/projects/casa-sertao-calor/beats.json:0
+[ 6422384ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4173/kit-video-3d/preview/index.html?view=single&char=homem&clip=sit&t=0.2&cam=1:0
+[ 6422411ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4173/favicon.ico:0
+[ 6476556ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5173/favicon.ico:0
+[ 6964495ms] Identifier 'head' has already been declared

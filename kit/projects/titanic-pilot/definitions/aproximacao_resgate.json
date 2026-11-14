@@ -1,0 +1,20 @@
+{
+  "id": "aproximacao_resgate",
+  "label": "Aproximação do navio entre gelo",
+  "kind": "animation",
+  "category": "historico_maritimo",
+  "description": "Avanço determinado por trajetória e tempo absoluto, deslocamento da água subordinado ao casco. Mostrar obstáculo e destino espacial; sem insinuar distância ou velocidade exata não verificada. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "maritime-travel.js",
+  "aliases": [
+    "Corria para atender",
+    "Aproximação do navio entre gelo"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:trajeto-resgate"
+  },
+  "baselineIds": []
+}

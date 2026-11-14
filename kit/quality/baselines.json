@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "baselines": [
+    {
+      "id": "casa_simples",
+      "variant": "verde",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Casa térrea de telhado de duas águas, porta central, duas janelas na frente e chaminé. 6 × 7 m.",
+      "reviewNote": ""
+    },
+    {
+      "id": "casa_colonial",
+      "variant": "rosa",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Casa grande de telhado de quatro águas com varanda de colunas, portas duplas e janelas com venezianas. 9 × 7 m (+2 m de varanda).",
+      "reviewNote": ""
+    },
+    {
+      "id": "sobrado",
+      "variant": "cinza",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Casa de dois andares com garagem, porta de entrada, sacada sobre a garagem e telhado de duas águas. 6,5 × 8 m, 5,6 m de parede.",
+      "reviewNote": ""
+    },
+    {
+      "id": "casa_moderna",
+      "variant": "escura",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Casa de linhas retas: dois volumes, laje plana, janelas grandes e garagem. 9 × 7 m, 6 m de altura.",
+      "reviewNote": ""
+    },
+    {
+      "id": "predio_apartamentos",
+      "variant": "azul",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Prédio residencial com térreo de entrada, janelas e sacadas em cada andar, platibanda e caixa d'água. 14 × 10 m; cada andar 3 m.",
+      "reviewNote": ""
+    },
+    {
+      "id": "ponte_viga",
+      "variant": "longa",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Ponte de concreto sobre um rio: tabuleiro com pista, guarda-corpo, dois pilares com travessa e encontros nas pontas. Vão de 24 m ao longo de X, 8 m de largura.",
+      "reviewNote": ""
+    },
+    {
+      "id": "arvore_frutifera",
+      "variant": "laranja",
+      "revision": "a842549d9351fbc2",
+      "kind": "object",
+      "description": "Árvore de copa redonda com frutas (bolinhas coloridas), tipo laranjeira ou macieira. 4 m.",
+      "reviewNote": ""
+    },
+    {
+      "id": "arvore_pinheiro",
+      "variant": "clara",
+      "revision": "a842549d9351fbc2",
+      "kind": "object",
+      "description": "Árvore em forma de cone, feita de camadas empilhadas. Altura padrão 6 m.",
+      "reviewNote": ""
+    },
+    {
+      "id": "chao",
+      "variant": "terra",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Placa de chão quadrada com manchas de cor: grama, terra, areia, concreto ou asfalto.",
+      "reviewNote": ""
+    },
+    {
+      "id": "chao",
+      "variant": "areia",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Placa de chão quadrada com manchas de cor: grama, terra, areia, concreto ou asfalto.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "chao",
+      "variant": "concreto",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Placa de chão quadrada com manchas de cor: grama, terra, areia, concreto ou asfalto.",
+      "reviewNote": "Aprovação explícita do criador no chat: todos os elementos, incluindo o piso concreto, foram aprovados em 2026-11-05."
+    },
+    {
+      "id": "chao",
+      "variant": "asfalto",
+      "revision": "a842549d9351fbc2",
+      "kind": "scene",
+      "description": "Placa de chão quadrada com manchas de cor: grama, terra, areia, concreto ou asfalto.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "espargidor",
+      "variant": "jorrando",
+      "revision": "a842549d9351fbc2",
+      "kind": "object",
+      "description": "Caminhão-tanque que espalha o ligante asfáltico líquido (imprimação e pintura de ligação). setProgress(1) liga o jato e deixa a faixa escura atrás. 2,6 × 10 m.",
+      "reviewNote": ""
+    },
+    {
+      "id": "anim_nod",
+      "variant": "",
+      "revision": "a842549d9351fbc2",
+      "kind": "animation",
+      "description": "Balançar a cabeça dizendo \"sim\".",
+      "reviewNote": ""
+    },
+    {
+      "id": "parede_hidraulica",
+      "variant": "fria",
+      "revision": "8c235c7629c3c7d0",
+      "kind": "object",
+      "description": "Parede aberta com percurso de água em movimento. Esquema visual, sem dimensionamento executivo.",
+      "reviewNote": ""
+    },
+    {
+      "id": "som_impacto",
+      "variant": "",
+      "revision": "ad51952281919fa6",
+      "kind": "sound",
+      "description": "Foley sintetizado pelo DSP do stick-film; ouvir e aprovar antes de reutilizar.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "som_movimento",
+      "variant": "",
+      "revision": "43edcd17293bc83e",
+      "kind": "sound",
+      "description": "Foley suave de deslocamento, sincronizado ao movimento.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "som_alvenaria_batida",
+      "variant": "",
+      "revision": "74952614a470b4e4",
+      "kind": "sound",
+      "description": "Foley local, sintético e curto para o contato entre unidades de alvenaria; proposta sujeita à escuta humana.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "som_madeira_creak",
+      "variant": "",
+      "revision": "7c367c89d7f61d4d",
+      "kind": "sound",
+      "description": "Foley local, sintético e discreto de madeira sob esforço; sem sugerir ruptura.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "junta_dilatacao",
+      "variant": "padrao",
+      "revision": "f742b7264f5fc44e",
+      "kind": "object",
+      "description": "Conjunto ilustrativo de trilhos, folga, talas, parafusos e dormentes. Não é um projeto executivo.",
+      "reviewNote": ""
+    },
+    {
+      "id": "arco_alvenaria",
+      "variant": "padrao",
+      "revision": "eda066931e8374ac",
+      "kind": "object",
+      "description": "Anel semicircular ilustrativo de treze cunhas com juntas visíveis e peça de fecho no coroamento. Unidade em metros; não representa dimensionamento estrutural.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "cimbra_arco",
+      "variant": "padrao",
+      "revision": "b8b04bda3274951d",
+      "kind": "object",
+      "description": "Cimbre ilustrativo de madeira com três costelas curvas segmentadas, escoras verticais, sapatas e travessas. Sustenta as cunhas até o anel se fechar; pode ser retirado separadamente. Não representa cálculo de capacidade.",
+      "reviewNote": "Aprovação explícita do criador informada pelo chat em 2026-11-05."
+    },
+    {
+      "id": "apoios_arco",
+      "variant": "padrao",
+      "revision": "1de2f3747723c4f2",
+      "kind": "object",
+      "description": "Par de pilares esquemáticos centrados sob os arranques do arco. Cada sapata tem as mesmas extremidades laterais e profundidade do pilar acima, com contato contínuo e alinhamento frontal com o arco e a parede. Não representa dimensionamento estrutural.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "encaixe_coroamento",
+      "variant": "",
+      "revision": "9ecdede324da9dab",
+      "kind": "animation",
+      "description": "A peça de fecho desce até completar o coroamento do anel. Movimento ilustrativo e determinístico; não simula cálculo estrutural.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "retirada_cimbra",
+      "variant": "",
+      "revision": "72f9303be455b137",
+      "kind": "animation",
+      "description": "As costelas e travessas do cimbre descem de modo controlado, as escoras encurtam e a estrutura temporária se afasta pela frente; arco e apoios permanecem imóveis.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "instabilidade_apoio_arco",
+      "variant": "",
+      "revision": "ddd5a59292dadc25",
+      "kind": "animation",
+      "description": "Um encontro se desloca para fora e as cunhas próximas ao arranque acompanham parte do movimento, deixando juntas abertas. Esquema causal sem solver físico nem colapso obrigatório.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "trajeto_compressivo_arco",
+      "variant": "",
+      "revision": "8e4b0b82ea1a022c",
+      "kind": "effect",
+      "description": "Setas douradas de alto contraste, com contorno escuro e ponta ampliada, surgem em sequência para mostrar a compressão ao longo da curva. Sem magnitude ou cálculo de força.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "empuxo_lateral_arco",
+      "variant": "",
+      "revision": "f2ce5abf6d2c3c73",
+      "kind": "effect",
+      "description": "Setas mostram o empurrão horizontal do arco para fora e a reação oposta exercida pelos pilares. Contorno escuro, ponta ampliada e cores distintas tornam a direção legível sem atribuir magnitude numérica.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "contexto_obra_arco",
+      "variant": "",
+      "revision": "484bde003507c81e",
+      "kind": "scene",
+      "description": "Parede de alvenaria inacabada com espessura, retornos laterais e abertura arqueada livre. Serve de fundo coerente para montagem, transformações e retirada da cimbra; o piso e as peças estruturais continuam como recursos independentes.",
+      "reviewNote": "Aprovação explícita do criador pelo chat em 2026-11-05; revisão visual e lista do projeto aprovadas."
+    },
+    {
+      "id": "argamassa_juntas_arco",
+      "variant": "padrao",
+      "revision": "cf0393396a47e47c",
+      "kind": "object",
+      "description": "Doze preenchimentos de argamassa visíveis entre as treze cunhas de um arco ilustrativo; geometria vinculada ao mesmo layout compartilhado do anel, sem dimensionamento estrutural.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    },
+    {
+      "id": "contexto_arco_jardim",
+      "variant": "",
+      "revision": "5bf15975d7a3adb1",
+      "kind": "scene",
+      "description": "Parede de alvenaria e arco em primeiro plano, com casa, jardim, estátua, colinas, prédios apoiados no terreno e sol ao fundo. Uma rua assentada diante do piso de concreto recebe uma passagem única e distante de um sedã; pássaros e avião seguem trajetórias separadas. Elementos de ambiente preservam escala e não competem com o mecanismo. Inclui variação procedural sutil na superfície da parede.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-06 ao autorizar o vídeo final: “Pode gerar o final”. A aprovação cobre a revisão atual do cenário com prédios apoiados no terreno, rua, passagem distante do sedã e a composição ampliada das legendas."
+    },
+    {
+      "id": "entrada_cimbra_arco",
+      "variant": "",
+      "revision": "a80440f66d761db9",
+      "kind": "animation",
+      "description": "Comportamento determinístico que ergue as escoras do cimbre e monta as costelas curvas em sequência até encostar no intradorso.",
+      "reviewNote": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente."
+    }
+  ]
+}

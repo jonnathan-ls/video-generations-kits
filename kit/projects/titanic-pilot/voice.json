@@ -1,0 +1,52 @@
+{
+  "provider": "kokoro-onnx",
+  "language": "pt-br",
+  "voice": "pm_santa",
+  "speed": 0.85,
+  "approvedByCreator": true,
+  "approvalChannel": "chat",
+  "approvalEvidence": "Pm santa",
+  "scope": "Voz e ritmo da amostra do piloto; não aprova lista, recursos visuais ou mixagem final.",
+  "audio": "audio/narration.wav",
+  "duration": 43.815,
+  "sampleRate": 24000,
+  "segments": [
+    {
+      "paragraph": 1,
+      "start": 0,
+      "end": 7.761,
+      "text": "Na madrugada em que o Titanic afundou, um capitão viu uma luz verde no meio do oceano e acreditou que ainda havia tempo."
+    },
+    {
+      "paragraph": 2,
+      "start": 8.411,
+      "end": 15.089,
+      "text": "O navio dele se chamava Carpathia. Corria para atender a um pedido de socorro. Ao redor, havia gelo."
+    },
+    {
+      "paragraph": 3,
+      "start": 15.739,
+      "end": 24.861,
+      "text": "Mais de duas mil pessoas estavam no Titanic. Os botes não tinham lugar para todas. Mesmo assim, alguns partiram com lugares vazios."
+    },
+    {
+      "paragraph": 4,
+      "start": 25.511,
+      "end": 29.548,
+      "text": "Por que a ajuda não chegou antes? E de onde vinha aquela luz?"
+    },
+    {
+      "paragraph": 5,
+      "start": 30.198,
+      "end": 35.838,
+      "text": "Esta é a história da noite do Titanic, do choque com o iceberg à chegada do resgate."
+    },
+    {
+      "paragraph": 6,
+      "start": 36.838,
+      "end": 43.815,
+      "text": "Abril de mil novecentos e doze. O Titanic parte da Inglaterra em sua primeira viagem para Nova York."
+    }
+  ],
+  "alignmentStatus": "paragraph-timing-only-not-word-aligned"
+}

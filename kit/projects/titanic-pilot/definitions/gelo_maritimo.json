@@ -1,0 +1,21 @@
+{
+  "id": "gelo_maritimo",
+  "label": "Gelo marítimo",
+  "kind": "object",
+  "category": "historico_maritimo",
+  "description": "Blocos e silhueta de iceberg em variantes: rota do resgate e referência ao choque. Posição segura ao longo da trajetória; dimensões ilustrativas, sem afirmar forma exata do iceberg histórico. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "sea-ice.js",
+  "aliases": [
+    "gelo",
+    "Gelo marítimo"
+  ],
+  "variants": [
+    "field",
+    "iceberg"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:gelo-maritimo"
+  },
+  "baselineIds": []
+}

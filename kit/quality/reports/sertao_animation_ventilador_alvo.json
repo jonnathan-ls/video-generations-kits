@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "9be98e2d8328b644d3f1db04201554a0ffc5796d613038717d38dd0afafbac86",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "animation-ventilador-alvo",
+      "meshes": 21,
+      "triangles": 11616,
+      "dimensions": [
+        5.310981750488281,
+        3.0616435241284896,
+        2.1399603831768035
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.612Z"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "1651f26a38258d50dee4bcbc77d90f64078f510867be352188076b016b12caff",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "padrao",
+      "meshes": 83,
+      "triangles": 2496,
+      "dimensions": [
+        4.119999997317791,
+        3.679999997317791,
+        13.370000001788139
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "padrao: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T20:35:24.921Z"
+}

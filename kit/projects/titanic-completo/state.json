@@ -1,0 +1,110 @@
+{
+  "stage": "pre-render-scene-review-block-01",
+  "scope": "Vídeo integral autorizado; narração real, timeline de cenas originais e revisão em cena.",
+  "voice": "pm_santa",
+  "voiceSeconds": 1346.1666666666667,
+  "chapters": 9,
+  "scenes": 298,
+  "captionCues": 661,
+  "qa": "not-verified; 52-scene diagnostic preview at 192.048 s; 66 local FX cues load; full visual pass and human audio listening remain pending",
+  "visualProgression": {
+    "status": "blocked",
+    "scenesMissingVisualPlan": 298,
+    "unjustifiedRepeatedCompositions": 229,
+    "repeatedCompositionGroups": 46,
+    "method": "inventory of project.json scene assets and declarations; not a frame-by-frame visual review"
+  },
+  "publication": "local-only",
+  "nextAction": "Revisar a prévia 3D e ouvir narração/FX no player. Corrigir somente os trechos reprovados; não iniciar render final sem autorização explícita.",
+  "artifact": "hyperframes/qa-v3/titanic-v3-diagnostico.mp4",
+  "workflowRevision": "incremental-authored-storyboard-v3-quality-pass",
+  "captionStyle": {
+    "reveal": "progressive-word",
+    "case": "uppercase",
+    "style": "bold outline shadow",
+    "alignment": "forced acoustic",
+    "words": 2959,
+    "fallbackWords": 0,
+    "humanListening": "not-verified"
+  },
+  "storyboard": {
+    "file": "storyboard-v2.json",
+    "authoredScenes": 298,
+    "stagedPrefixScenes": 14,
+    "stagedPrefixSeconds": 40.375,
+    "fullFilmRebuilt": false,
+    "resourceAndChoreographyGaps": 94
+  },
+  "incremental": {
+    "enabled": true,
+    "reviewBlocksSeconds": 180,
+    "targetPacketSeconds": 20,
+    "renderedPrefixPackets": 3,
+    "cachedPrefixPackets": 3,
+    "fps": 24,
+    "composition": "NVIDIA RTX 3060 hardware BeginFrame",
+    "encoder": "h264_nvenc proved from output stream tag",
+    "editProof": "production-v2/qa/incremental-cache-proof.json",
+    "editResult": "only packet containing shot-009 invalidates; other two remain cached"
+  },
+  "previousArtifact": "renders/titanic-completo-r14-prime-interno.mp4",
+  "qualityIteration": {
+    "artifact": "hyperframes/qa-v3/titanic-v3-diagnostico.mp4",
+    "reviewedPrefixSeconds": 40.375,
+    "sampledFrames": 18,
+    "status": "rejected-internal-qa",
+    "fixes": [
+      "ocean now reads as water with visible moon/cloud atmosphere and broken reflection",
+      "wall-ceiling gaps closed in inspected rooms; textured finish applied across six interior modules",
+      "local Three.js Water.js, Sky.js, and RoomEnvironment.js inspected and adapted",
+      "diagnostic qaSources resolved relative to the copied project for reproducible review"
+    ],
+    "openP1Findings": [
+      "character/ship/iceberg materiality",
+      "distinct human action",
+      "lifeboat capacity evidence",
+      "lifeboat geography",
+      "contextual staging of consequences"
+    ],
+    "technicalChecks": {
+      "oceanResources": "pass",
+      "roomResources": "pass",
+      "video": "1920x1080, 24fps, 969 frames, AAC audio",
+      "composition": "RTX 3060 hardware GPU"
+    },
+    "humanReview": "not-approved"
+  },
+  "updatedAt": "2026-11-08T12:20:32.064Z",
+  "preRenderPreview": {
+    "blockId": "block-01",
+    "storyboardFile": "storyboard-v3-block-01.json",
+    "sceneCount": 52,
+    "durationSeconds": 192.0478333333334,
+    "previewPath": "/preview/titanic-completo/previs-bloco-01/index.html",
+    "dashboardPath": "/studio/production.html",
+    "status": "diagnostic-preview-regenerated; creator-review-pending; professional-QA-incomplete",
+    "renderStarted": false,
+    "lastSceneInspected": "shot-051-icefield",
+    "scene16Finding": "Câmera reposicionada para o lado da água; placa preta removida; laço do cabo e gesto de liberação agora visíveis em quadros buscados.",
+    "pendingReview": [
+      "revisão visual humana das cenas pelo painel",
+      "escuta crítica de narração, efeitos e mixagem pelo criador",
+      "aprovação individual de recursos e plano antes do vídeo final",
+      "autorização explícita para iniciar a captura final"
+    ],
+    "visualSampling": {
+      "sceneEntries": 12,
+      "sceneMidpoints": 0,
+      "changedSceneKeyMoments": 13,
+      "method": "prévia de navegador 16:9; pontos críticos de cenas alteradas amostrados após exportação; sem captura final",
+      "coverage": "amostragem seletiva; não equivale à reprodução contínua de todas as 52 cenas"
+    },
+    "lastFindings": [
+      "Sala de máquinas fechada; operador e máquinas em quadro, sem mar como fundo de plataforma.",
+      "Compartimentos apresentados como corredor contínuo com porta e água dentro do ambiente.",
+      "Inserts de arquivo ampliados e associados a beats historicamente corretos; travessia e noite têm mar, céu, lua e reflexos.",
+      "Cortes ajustados aos onsets das falas; legendas abaixo; 66 cues FX locais incluídos no player."
+    ],
+    "audioCueCount": 66
+  }
+}

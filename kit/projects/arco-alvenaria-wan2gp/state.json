@@ -1,0 +1,76 @@
+{
+  "id": "arco-alvenaria-wan2gp",
+  "title": "Arco de alvenaria — comparação Wan2GP",
+  "mode": "comparison",
+  "sourceProject": "arco-alvenaria",
+  "stage": "experimental-comparison-generated",
+  "scope": "Recriar o short E3 de 41.576 s com geração local Wan2GP, manter a voz e comparar com o MP4 original.",
+  "approvals": {},
+  "voice": {
+    "id": "pm_santa",
+    "policy": "Reuso da tomada E3 existente por meio do áudio original; nenhuma nova escolha inferida."
+  },
+  "implementationStarted": true,
+  "imageGenerated": true,
+  "videoRendered": true,
+  "generationPlan": "generation-plan.json",
+  "sourceVideo": "kit/projects/arco-alvenaria/render/video.mp4",
+  "professionalQa": {
+    "status": "rejected",
+    "report": "qa/report.json",
+    "humanApprovalGranted": false,
+    "scope": "Diagnóstico comparativo completo; não liberado para publicação."
+  },
+  "verification": {
+    "npmTests": {
+      "passed": 22,
+      "failed": 0
+    },
+    "nativeGeneration": "Imagem, abertura e nove clipes restantes gerados; duas montagens MP4 decodificadas.",
+    "upstreamStartup": "Falha em shared/attention.py ao consultar capacidade CUDA",
+    "models": {
+      "status": "downloaded-and-verified",
+      "files": 13,
+      "bytes": 13270451505,
+      "manifest": "kit/integrations/wan2gp/models.lock.json"
+    },
+    "browser": "Comparação local 1080×1024, 41.6 s; player chegou a ended=true, readyState=4, sem erro. Isso verifica reprodução técnica; escuta e inspeção audiovisual contínua permanecem não verificadas.",
+    "audioCopiedWithoutReencode": true,
+    "audioBitIdenticalToSource": true
+  },
+  "next_action": "Diagnóstico experimental entregue com links dos dois MP4. Aguardar direção do criador sobre os limites observados; nenhuma aprovação nova registrada.",
+  "nextDecision": "Escolha criativa após assistir à comparação; nenhuma aprovação inferida.",
+  "integrationStatus": "Wan2GP validado com CUDA real, imagem e vídeo; 22 testes passaram. Comparação completa gerada, com QA reprovado por artefatos temporais.",
+  "recoveryHistory": {
+    "userReported": "Reinício normal travou; usuário precisou desligar segurando botão e ligar novamente.",
+    "systemCommand": "systemctl reboot, exit=0; autorizado no chat",
+    "kernelEvidence": "Boot anterior: NVIDIA Xid 120 e 154 em 2026-11-06 22:44:27; falha anterior à instalação. Log encerrado durante shutdown normal. Causa final do travamento não determinada.",
+    "cudaRecovered": true,
+    "furtherRebootsAuthorized": false
+  },
+  "imageArtifact": "wan2gp-output/arco-image-test.jpg",
+  "generationMode": "Nexus 1.3B video-to-video, GUV, denoising_strength=0.1",
+  "hookTechnicalReview": "Baixa força recupera o encaixe da cunha e o recuo da câmera nos quadros; sem texto sintetizado. Inspeção audiovisual completa ainda pendente.",
+  "comparisonRendered": true,
+  "artifacts": {
+    "short": "render/wan2gp-internal.mp4",
+    "comparison": "render/comparison-internal.mp4",
+    "image": "wan2gp-output/arco-image-test.jpg",
+    "textOnlyFailure": "wan2gp-output/01-coroamento.mp4"
+  },
+  "mobilePlayback": {
+    "authorization": "Pedido explícito do criador: página HTML por IP para assistir no celular; confirmou mesmo Wi-Fi.",
+    "url": "http://192.168.15.10:4180/",
+    "bind": "192.168.15.10",
+    "port": 4180,
+    "scope": "Somente página, CSS, JavaScript, pôster e dois MP4; servidor de revisão e aprovações continua em loopback.",
+    "checks": {
+      "pageHTTP": 200,
+      "videoRangeHTTP": 206,
+      "mobileViewport": "390×844, sem overflow observado",
+      "browserPlayback": "comparison paused=false, readyState4, duration41.6; vertical pausado"
+    },
+    "phonePlayback": "Criador relatou no chat ter encontrado e assistido à página; nenhuma aprovação estética inferida.",
+    "uiReview": "Revisor marcou correção de recuperação de erro como resolvida; documentação preservou o sistema existente."
+  }
+}

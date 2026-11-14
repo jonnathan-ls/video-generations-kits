@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "dabc1b7b4a2843ce0259d5a3f7de5755a91c52aee3b5e741b8f969ac351d758b",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "single",
+      "meshes": 1,
+      "triangles": 768,
+      "dimensions": [
+        6.664358139038086,
+        1.345448613166809,
+        1.2525516152381897
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T04:21:14.757Z"
+}

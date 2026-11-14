@@ -1,0 +1,36 @@
+{
+  "id": "inset_fotografico_cabine_b60",
+  "label": "Fotografia histórica da cabine B-60 do Titanic",
+  "kind": "overlay",
+  "category": "motion_graphics",
+  "description": "Fotografia documental de uma cabine de primeira classe do Titanic, inserida como motion graphic proporcional à imagem, identificada como B-60 e datada de 1912.",
+  "module": "archive-photo-motion-inset.js",
+  "aliases": [
+    "cabine B-60 do Titanic",
+    "stateroom B-60",
+    "cabine de primeira classe"
+  ],
+  "variants": [
+    "titanic-stateroom-b60-1912"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:archive-inset-cabin-b60"
+  },
+  "sourceMetadata": {
+    "title": "Titanic's stateroom B-60",
+    "creator": "Robert John Welch (1859–1936)",
+    "date": "March–April 1912",
+    "repository": "Wikimedia Commons; image sourced to National Museums NI",
+    "catalogUrl": "https://commons.wikimedia.org/wiki/File:Titanic's_stateroom_B-60.jpg",
+    "rightsAdvisory": "A página do Commons identifica Robert John Welch, registra o original como domínio público por expiração do prazo autoral e marca este arquivo como PD-scan/sem restrições conhecidas. A fotografia documenta uma cabine B-60 do Titanic.",
+    "license": "Public domain (PD-old-70; PD-scan; Public Domain Mark 1.0)",
+    "attribution": "Robert J. Welch · Wikimedia Commons · domínio público",
+    "originalFile": "https://upload.wikimedia.org/wikipedia/commons/4/49/Titanic%27s_stateroom_B-60.jpg",
+    "displayFile": "kit/assets/media/titanic-stateroom-b60-1912.jpg",
+    "retrievedAt": "2026-11-08"
+  },
+  "files": [
+    "kit/assets/media/titanic-stateroom-b60-1912.jpg"
+  ]
+}

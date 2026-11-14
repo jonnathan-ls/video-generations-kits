@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "narrationHash": "fb14657b981d0be1",
+  "decisions": [
+    {
+      "id": "context-01",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 0,
+      "end": 36,
+      "phrase": "De noite, o quarto continua abafado."
+    },
+    {
+      "id": "context-02",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 37,
+      "end": 98,
+      "phrase": "O sol já foi embora; então por que o calor ainda vem do teto?"
+    },
+    {
+      "id": "context-03",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 100,
+      "end": 116,
+      "phrase": "Volta pra tarde."
+    },
+    {
+      "id": "context-04",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 117,
+      "end": 248,
+      "phrase": "O sol aquece as telhas e parte desse calor cruza o vão até a laje por radiação — como sentir o calor de um forno sem encostar nele."
+    },
+    {
+      "id": "context-05",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 249,
+      "end": 290,
+      "phrase": "A laje esquenta e passa calor pro quarto."
+    },
+    {
+      "id": "context-06",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 291,
+      "end": 372,
+      "phrase": "O ventilador refresca quem está na frente, mas a laje continua no turno da noite."
+    },
+    {
+      "id": "context-07",
+      "action": "create",
+      "reason": "O retrabalho precisa alternar a casa em corte com contexto exterior durante as transições de luz e de ar. Reutilizar a casa simples aprovada do kit; criar só o terreiro semiárido e a composição contextual que faltam.",
+      "start": 374,
+      "end": 436,
+      "phrase": "Por isso, começa pela cobertura: telha clara reflete mais sol.",
+      "kind": "scene",
+      "label": "Exterior da casa no Sertão",
+      "specification": "Plano exterior reutilizável do mesmo universo visual: reutilizar casa_simples aprovada com parede caiada e telha de barro, apoiada em chão terroso, horizonte de serra seca e um mandacaru discreto. A composição oferece estados de tarde e noite por sample(t,{night,sunset}), com busca temporal determinística; câmera vertical mostra a casa inteira antes de aproximar cumeeira, beiral, janela ou sombra. A vegetação e o fundo dão escala sem criar segunda narrativa; sem mídia remota.",
+      "baselineIds": [
+        "casa_simples"
+      ]
+    },
+    {
+      "id": "context-08",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 437,
+      "end": 478,
+      "phrase": "Só que o ático fechado acumula ar quente."
+    },
+    {
+      "id": "context-09",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 480,
+      "end": 586,
+      "phrase": "Abrir só a cumeeira quase não muda nada; sem entrada nos beirais, falta caminho pro ar atravessar o ático."
+    },
+    {
+      "id": "context-10",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 587,
+      "end": 656,
+      "phrase": "Quando o ar entra por baixo e sai no alto, leva parte do calor junto."
+    },
+    {
+      "id": "context-11",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 657,
+      "end": 687,
+      "phrase": "Isso se chama ático ventilado."
+    },
+    {
+      "id": "context-12",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 689,
+      "end": 755,
+      "phrase": "Mas o ar circulando não impede a telha de irradiar calor pra laje."
+    },
+    {
+      "id": "context-13",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 756,
+      "end": 845,
+      "phrase": "Então, põe uma manta refletiva de alumínio sob a telha, com a face voltada pro vão de ar."
+    },
+    {
+      "id": "context-14",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 846,
+      "end": 880,
+      "phrase": "Ela reduz essa troca por radiação."
+    },
+    {
+      "id": "context-15",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 881,
+      "end": 913,
+      "phrase": "Isso se chama barreira radiante."
+    },
+    {
+      "id": "context-16",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 915,
+      "end": 1013,
+      "phrase": "Como ainda pode passar um pouco de calor, cobre a laje com lã de rocha e mantém a camada contínua."
+    },
+    {
+      "id": "context-17",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 1014,
+      "end": 1058,
+      "phrase": "Se sobra uma fresta, o calor acha um atalho."
+    },
+    {
+      "id": "context-18",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 1059,
+      "end": 1085,
+      "phrase": "Isso é isolamento térmico."
+    },
+    {
+      "id": "context-19",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 1087,
+      "end": 1097,
+      "phrase": "E à noite?"
+    },
+    {
+      "id": "context-20",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 1098,
+      "end": 1195,
+      "phrase": "A laje guarda calor durante o dia e devolve aos poucos; com mais massa, essa mudança demora mais."
+    },
+    {
+      "id": "context-21",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 1196,
+      "end": 1226,
+      "phrase": "Isso se chama inércia térmica."
+    },
+    {
+      "id": "context-22",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 1228,
+      "end": 1329,
+      "phrase": "Quando lá fora fica mais fresco que dentro, abre janelas opostas e deixa o vento atravessar o quarto."
+    },
+    {
+      "id": "context-23",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 1330,
+      "end": 1408,
+      "phrase": "Se lá fora ainda está mais quente, espera: bafo quente não precisa de convite."
+    },
+    {
+      "id": "context-24",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 1409,
+      "end": 1453,
+      "phrase": "De dia, fecha a veneziana quando o sol bate."
+    },
+    {
+      "id": "context-25",
+      "action": "ignore",
+      "reason": "Conexões, tempo, condição, perspectiva e formulação oral deste beat ficam representados na encenação. Os mecanismos, ações e efeitos que pedem recurso recebem decisões específicas com evidência sobreposta; este registro não cria asset autônomo.",
+      "start": 1454,
+      "end": 1563,
+      "phrase": "Aí você volta pra cama e o ventilador sai do turno dobrado: refresca você, sem tentar esfriar a casa inteira."
+    },
+    {
+      "id": "scene-quarto-sertao",
+      "action": "create",
+      "kind": "scene",
+      "label": "Quarto da casa no Sertão em corte",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "o quarto",
+      "start": 10,
+      "end": 18,
+      "specification": "Quarto de uma casa térrea do semiárido brasileiro, ligado visualmente à cobertura real da mesma casa. Corte arquitetônico limpo que permita ver quarto, laje, ático e telhas sem trocar de planta. Habitação plausível, materiais e desgaste discretos; sem cenário de miséria ou clichê regional. A decisão de cidade e tipologia fica aberta."
+    },
+    {
+      "id": "lighting-ciclo-dia-noite",
+      "action": "create",
+      "kind": "lighting",
+      "label": "Luz de tarde e noite",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "De noite",
+      "start": 0,
+      "end": 8,
+      "specification": "Um ciclo coerente tarde/noite com sol quente de tarde e leitura noturna mais fria, mantendo a laje como fonte visual de calor após o pôr do sol. Contraste legível entre exterior e quarto, sombras suaves e cor controlada; sem afirmar que a noite sempre é mais fresca fora."
+    },
+    {
+      "id": "camera-caminho-cobertura-quarto",
+      "action": "create",
+      "kind": "camera",
+      "label": "Movimento de câmera pela cobertura",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "vem do teto",
+      "start": 86,
+      "end": 97,
+      "specification": "Movimento vertical curto que começa no quarto abafado, sobe até o teto e revela a cobertura em corte; depois alterna planos gerais e macros dos mecanismos e retorna ao mesmo quarto. Acelera nos cortes de diagnóstico e assenta nos payoffs. Parallax e motion blur discretos, sem deriva nem imitação de enquadramentos específicos da referência."
+    },
+    {
+      "id": "transition-volta-tarde",
+      "action": "create",
+      "kind": "transition",
+      "label": "Corte de retorno à tarde",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "Volta pra tarde",
+      "start": 100,
+      "end": 115,
+      "specification": "Corte temporal curto do quarto noturno para a mesma casa sob o sol da tarde, motivado pela pergunta sobre a origem do calor. Preservar orientação espacial e continuidade da cobertura."
+    },
+    {
+      "id": "roof-stack-corte",
+      "action": "create",
+      "kind": "object",
+      "label": "Cobertura em camadas",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "começa pela cobertura",
+      "start": 384,
+      "end": 405,
+      "specification": "Conjunto arquitetônico desmontável em corte: telhas, estrutura, vão de ar/ático, entradas nos beirais, saída na cumeeira e laje, com espessuras visualmente separadas e pontos de ventilação visíveis. Peças permanecem alinhadas quando câmera aproxima; permite demonstrar falha e correção sem reconstruir o cenário."
+    },
+    {
+      "id": "material-telha-clara",
+      "action": "create",
+      "kind": "material",
+      "label": "Telha clara refletiva",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "telha clara",
+      "start": 407,
+      "end": 418,
+      "specification": "Telha de acabamento claro fosco, textura cerâmica plausível e refletância apenas suficiente para mostrar mais luz solar refletida que uma telha escura. Sem números ou promessa de desempenho."
+    },
+    {
+      "id": "animation-radiacao-e-transferencia",
+      "action": "create",
+      "kind": "animation",
+      "label": "Caminho do calor da telha ao quarto",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "O sol aquece as telhas e parte desse calor cruza o vão até a laje por radiação — como sentir o calor de um forno sem encostar nele.",
+      "start": 117,
+      "end": 248,
+      "specification": "Em sequência sincronizada à fala: sol aquece as telhas; faixas gráficas discretas indicam a troca por radiação através do vão; breve analogia visual de calor vindo de um forno sem toque; a laje aquece e transfere calor para o quarto. Gráfico esquemático claramente visual, sem partículas falsas nem escala quantitativa."
+    },
+    {
+      "id": "effect-calor-armazenado-laje",
+      "action": "create",
+      "kind": "effect",
+      "label": "Calor persistente na laje",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "A laje esquenta e passa calor pro quarto. O ventilador refresca quem está na frente, mas a laje continua no turno da noite.",
+      "start": 249,
+      "end": 372,
+      "specification": "Realce térmico sutil na face inferior da laje e no teto do quarto. O destaque surge depois do aquecimento da cobertura e persiste no plano noturno mesmo enquanto o ventilador refresca somente a pessoa. Diferenciar efeito visual explicativo de temperatura medida."
+    },
+    {
+      "id": "object-ventilador-pedestal",
+      "action": "create",
+      "kind": "object",
+      "label": "Ventilador de pedestal completo",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "O ventilador",
+      "start": 291,
+      "end": 303,
+      "specification": "Ventilador de pedestal completo, com grade, motor, coluna e base estáveis; encaixe para aproveitar a hélice existente somente após revisão visual. Pás giram sem atravessar a grade e ficam legíveis em plano médio."
+    },
+    {
+      "id": "character-pessoa-quarto",
+      "action": "create",
+      "kind": "character",
+      "label": "Pessoa no quarto",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "quem está na frente",
+      "start": 313,
+      "end": 332,
+      "specification": "Pessoa adulta anônima, proporções naturais e roupa cotidiana leve, sem nome, gênero ou parentesco definidos. Posição e olhar permitem mostrar que o vento chega à pessoa e não esfria o volume inteiro da casa."
+    },
+    {
+      "id": "animation-ventilador-alvo",
+      "action": "create",
+      "kind": "animation",
+      "label": "Vento focado na pessoa",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "refresca quem está na frente",
+      "start": 304,
+      "end": 332,
+      "specification": "Hélice gira e produz movimento de roupa/cabelo muito leve apenas junto à pessoa; a laje permanece realçada e o resto do quarto não recebe uma falsa queda global de temperatura. Reutilizar o mesmo gesto no payoff final: pessoa volta à cama e o ventilador trabalha para ela, não para a casa inteira."
+    },
+    {
+      "id": "sound-motor-ventilador",
+      "action": "create",
+      "kind": "sound",
+      "label": "Som do ventilador",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "O ventilador",
+      "start": 291,
+      "end": 303,
+      "specification": "Motor doméstico baixo e fluxo local suave, entra quando o ventilador é apresentado, recua sob a voz e retorna discretamente no payoff final. Sem mascarar a fala nem sugerir máquina industrial."
+    },
+    {
+      "id": "reuse-som-movimento-ar",
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_movimento",
+      "reason": "O catálogo tem este acento de movimento já aprovado e ele corresponde ao fluxo de ar; usar uma ocorrência curta, sem reutilizar o sentido incorreto do match literal “barreira”.",
+      "phrase": "leva parte do calor junto",
+      "start": 630,
+      "end": 655
+    },
+    {
+      "id": "animation-atico-falha-solucao",
+      "action": "create",
+      "kind": "animation",
+      "label": "Falha e correção da ventilação do ático",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "Abrir só a cumeeira quase não muda nada; sem entrada nos beirais, falta caminho pro ar atravessar o ático. Quando o ar entra por baixo e sai no alto, leva parte do calor junto.",
+      "start": 480,
+      "end": 656,
+      "specification": "Começar pelo ático fechado acumulando ar quente. Demonstração A/B na mesma cobertura: abrir apenas a cumeeira quase não muda o acúmulo; mostrar ausência de entrada nos beirais; então abrir entrada baixa e saída alta e animar fluxo contínuo que carrega parte do calor. O rótulo “ático ventilado” aparece depois. Setas claras e econômicas, sem fumaça ou vento mágico."
+    },
+    {
+      "id": "overlay-rotulos-conceitos",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Rótulos dos conceitos",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "Isso se chama ático ventilado.",
+      "start": 657,
+      "end": 687,
+      "specification": "Quatro cartelas curtas em português brasileiro: “ático ventilado”, “barreira radiante”, “isolamento térmico” e “inércia térmica”. Cada rótulo só entra depois da demonstração correspondente, com hierarquia tipográfica vertical legível e sem cobrir o mecanismo."
+    },
+    {
+      "id": "effect-irradiacao-restante",
+      "action": "create",
+      "kind": "effect",
+      "label": "Radiação que permanece no ático",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "o ar circulando não impede a telha de irradiar calor pra laje",
+      "start": 693,
+      "end": 754,
+      "specification": "Mesmo com ar em movimento, manter visível o caminho de radiação das telhas para a laje. A comparação deixa claro que ventilação do ático e bloqueio/redução da troca radiativa cumprem funções diferentes."
+    },
+    {
+      "id": "object-manta-refletiva",
+      "action": "create",
+      "kind": "object",
+      "label": "Manta refletiva sob as telhas",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "manta refletiva de alumínio sob a telha",
+      "start": 771,
+      "end": 810,
+      "specification": "Manta fina sob as telhas, separada por vão de ar e orientada com a face refletiva voltada para esse vão; mostrar fixação realista sem encostar na telha nem cobrir a entrada/saída de ventilação."
+    },
+    {
+      "id": "material-aluminio-manta",
+      "action": "create",
+      "kind": "material",
+      "label": "Face aluminizada da manta",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "face voltada pro vão de ar",
+      "start": 818,
+      "end": 844,
+      "specification": "Acabamento aluminizado controlado, reflexivo sem brilho estourado. A leitura do lado voltado ao vão precisa continuar clara no corte e em macro. Não confundir a manta com isolamento volumoso."
+    },
+    {
+      "id": "animation-manta-comparacao",
+      "action": "create",
+      "kind": "animation",
+      "label": "Instalação e comparação da manta",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "Ela reduz essa troca por radiação.",
+      "start": 846,
+      "end": 880,
+      "specification": "Ação de colocar a manta antes do rótulo; repetir o caminho radiativo em comparação visual antes/depois, reduzindo a seta de troca sem fazê-la desaparecer por completo. A camada e o vão permanecem distintos."
+    },
+    {
+      "id": "sound-foley-camadas",
+      "action": "create",
+      "kind": "sound",
+      "label": "Foley das camadas térmicas",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "põe uma manta refletiva de alumínio",
+      "start": 763,
+      "end": 798,
+      "specification": "Foley breve de manta flexível ao instalar a folha e toque macio ao assentar lã de rocha; cada som sincroniza com contato e termina antes do nome do conceito. Sem estalos dramáticos."
+    },
+    {
+      "id": "object-la-rocha",
+      "action": "create",
+      "kind": "object",
+      "label": "Camada de lã de rocha",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "lã de rocha",
+      "start": 974,
+      "end": 985,
+      "specification": "Camada contínua de lã de rocha sobre a laje, com uma segunda configuração contendo uma fresta visível para comparação. Bordas e fibras são legíveis em macro; espessura ilustrativa, sem sugerir dimensão de projeto executivo."
+    },
+    {
+      "id": "material-la-rocha",
+      "action": "create",
+      "kind": "material",
+      "label": "Material de lã de rocha",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "lã de rocha",
+      "start": 974,
+      "end": 985,
+      "specification": "Material fibroso mineral de aparência fosca e densidade visual distinta da laje e da manta. Sem textura exagerada ou fibras soltas no ambiente habitado."
+    },
+    {
+      "id": "animation-isolamento-fresta",
+      "action": "create",
+      "kind": "animation",
+      "label": "Continuidade e falha da isolação",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "Como ainda pode passar um pouco de calor, cobre a laje com lã de rocha e mantém a camada contínua. Se sobra uma fresta, o calor acha um atalho.",
+      "start": 915,
+      "end": 1058,
+      "specification": "Mostrar primeiro que ainda pode passar uma parcela de calor; cobrir a laje com uma camada contínua; então abrir uma fresta e fazer o caminho gráfico contorná-la como atalho. Fechar a falha restabelece continuidade. O rótulo entra após o efeito demonstrado. Sem escala quantitativa."
+    },
+    {
+      "id": "animation-inercia-laje",
+      "action": "create",
+      "kind": "animation",
+      "label": "Armazenamento e liberação de calor",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "E à noite? A laje guarda calor durante o dia e devolve aos poucos; com mais massa, essa mudança demora mais.",
+      "start": 1087,
+      "end": 1195,
+      "specification": "Comparação qualitativa de uma laje com massa visual maior: aquece ao longo da tarde e libera o calor gradualmente à noite. Mostrar o atraso no tempo com transição de luz, sem escala, segundos convertidos em horas ou promessa numérica."
+    },
+    {
+      "id": "object-janelas-veneziana",
+      "action": "create",
+      "kind": "object",
+      "label": "Janelas opostas e veneziana",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "janelas opostas",
+      "start": 1277,
+      "end": 1292,
+      "specification": "Duas janelas em paredes opostas do mesmo quarto e uma veneziana articulada, com dobradiças e abertura visíveis. Compatíveis com a câmera em corte e com o caminho de ar sem atravessar paredes opacas."
+    },
+    {
+      "id": "overlay-temperatura-relativa",
+      "action": "create",
+      "kind": "overlay",
+      "label": "Comparação de temperatura relativa",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "Quando lá fora fica mais fresco que dentro",
+      "start": 1228,
+      "end": 1270,
+      "specification": "Indicador relacional simples, sem números: exterior “mais fresco” ou “mais quente” que o interior. Aparece junto da escolha de abrir ou esperar e não declara um valor medido."
+    },
+    {
+      "id": "animation-ventilacao-cruzada",
+      "action": "create",
+      "kind": "animation",
+      "label": "Ventilação cruzada condicionada",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "Quando lá fora fica mais fresco que dentro, abre janelas opostas e deixa o vento atravessar o quarto. Se lá fora ainda está mais quente, espera: bafo quente não precisa de convite.",
+      "start": 1228,
+      "end": 1408,
+      "specification": "Quando o indicador mostra exterior mais fresco, abrir as duas janelas e conduzir um fluxo contínuo por elas. Quando exterior está mais quente, segurar a abertura e interromper o fluxo; uma micro-reação bem-humorada da pessoa comunica “bafo quente não precisa de convite” sem mudar a ordem ou ridicularizar a explicação."
+    },
+    {
+      "id": "animation-veneziana-sombra",
+      "action": "create",
+      "kind": "animation",
+      "label": "Fechamento da veneziana e sombra",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "De dia, fecha a veneziana quando o sol bate.",
+      "start": 1409,
+      "end": 1453,
+      "specification": "A veneziana fecha no momento em que o feixe solar atinge a janela; a sombra resultante reduz a luz direta sobre a cama e o piso. Casar movimento, corte de luz e fala no mesmo instante."
+    },
+    {
+      "id": "sound-fecho-veneziana",
+      "action": "create",
+      "kind": "sound",
+      "label": "Som do fecho da veneziana",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "fecha a veneziana",
+      "start": 1417,
+      "end": 1434,
+      "specification": "Toque leve de lâmina/fecho sincronizado com o fechamento e a mudança de sombra, mixado abaixo da narração."
+    },
+    {
+      "id": "animation-payoff-cama",
+      "action": "create",
+      "kind": "animation",
+      "label": "Payoff do ventilador junto à cama",
+      "reason": "Recurso necessário para encenar um mecanismo, movimento, pista gráfica, câmera, luz ou som desta passagem; criação original a partir do plano, sem copiar a realização específica do Reel.",
+      "phrase": "Aí você volta pra cama e o ventilador sai do turno dobrado: refresca você, sem tentar esfriar a casa inteira.",
+      "start": 1454,
+      "end": 1563,
+      "specification": "A pessoa retorna à cama; o ventilador fica direcionado ao corpo e o efeito local permanece restrito ao alvo, enquanto o quarto não ganha uma falsa temperatura uniforme. Pausa visual curta no payoff, preservando o humor coloquial de “turno dobrado”."
+    },
+    {
+      "id": "effect-calor-noite-teto",
+      "action": "create",
+      "kind": "effect",
+      "phrase": "De noite, o quarto continua abafado. O sol já foi embora; então por que o calor ainda vem do teto?",
+      "start": 0,
+      "end": 98,
+      "label": "Calor que persiste no teto",
+      "specification": "Brilho térmico gráfico discreto nasce no teto do quarto noturno e aponta para a laje aquecida durante o dia. Abre a pergunta do vídeo e distingue calor persistente de chama ou fumaça.",
+      "reason": "Representa visualmente uma ação, estado ou conceito dito nesta passagem; entra no beat original correspondente e usa desenho próprio, sem copiar o Reel."
+    },
+    {
+      "id": "effect-reflexao-telha",
+      "action": "create",
+      "kind": "effect",
+      "phrase": "reflete mais sol",
+      "start": 419,
+      "end": 435,
+      "label": "Reflexo solar na telha clara",
+      "specification": "No plano da cobertura, parte maior da luz incidente retorna da telha clara; demonstração breve em linhas de luz, sem números nem comparação absoluta de desempenho.",
+      "reason": "Representa visualmente uma ação, estado ou conceito dito nesta passagem; entra no beat original correspondente e usa desenho próprio, sem copiar o Reel."
+    },
+    {
+      "id": "overlay-label-barreira",
+      "action": "create",
+      "kind": "overlay",
+      "phrase": "Isso se chama barreira radiante.",
+      "start": 881,
+      "end": 913,
+      "label": "Rótulo: barreira radiante",
+      "specification": "Cartela curta “barreira radiante”, só depois da colocação e da comparação da troca radiativa. Usa a mesma família tipográfica do conjunto de conceitos.",
+      "reason": "Representa visualmente uma ação, estado ou conceito dito nesta passagem; entra no beat original correspondente e usa desenho próprio, sem copiar o Reel."
+    },
+    {
+      "id": "overlay-label-isolamento",
+      "action": "create",
+      "kind": "overlay",
+      "phrase": "Isso é isolamento térmico.",
+      "start": 1059,
+      "end": 1085,
+      "label": "Rótulo: isolamento térmico",
+      "specification": "Cartela curta “isolamento térmico”, só depois de mostrar a camada contínua e o atalho na fresta. Usa a mesma família tipográfica do conjunto de conceitos.",
+      "reason": "Representa visualmente uma ação, estado ou conceito dito nesta passagem; entra no beat original correspondente e usa desenho próprio, sem copiar o Reel."
+    },
+    {
+      "id": "overlay-label-inercia",
+      "action": "create",
+      "kind": "overlay",
+      "phrase": "Isso se chama inércia térmica.",
+      "start": 1196,
+      "end": 1226,
+      "label": "Rótulo: inércia térmica",
+      "specification": "Cartela curta “inércia térmica”, só depois de mostrar aquecimento diurno e liberação gradual noturna. Usa a mesma família tipográfica do conjunto de conceitos.",
+      "reason": "Representa visualmente uma ação, estado ou conceito dito nesta passagem; entra no beat original correspondente e usa desenho próprio, sem copiar o Reel."
+    },
+    {
+      "id": "effect-calor-atico-fechado",
+      "action": "create",
+      "kind": "effect",
+      "phrase": "ático fechado acumula ar quente",
+      "start": 446,
+      "label": "Acúmulo de calor no ático fechado",
+      "specification": "Ao começar a demonstração, realçar discretamente o bolsão de ar quente sob as telhas quando o ático está fechado. A imagem prepara a comparação de entradas e saídas; sem fumaça ou temperatura numérica.",
+      "reason": "O estado de acúmulo é uma causa visual distinta que antecede a tentativa incompleta de abrir só a cumeeira.",
+      "end": 477
+    },
+    {
+      "id": "camera-multicorte-ritmo-10fps",
+      "action": "create",
+      "kind": "camera",
+      "label": "Câmera com inserts e microcortes por beat",
+      "reason": "A revisão do Reel a 10 fps mostrou trocas de escala e alvo dentro dos beats; o plano atual repete o mesmo lado da casa. O novo recurso de direção deve ligar cada corte a um evento da fala e manter a busca temporal determinística.",
+      "phrase": "De noite, o quarto continua abafado. O sol já foi embora; então por que o calor ainda vem do teto?\n\nVolta pra tarde. O sol aquece as telhas e parte desse calor cruza o vão até a laje por radiação — como sentir o calor de um forno sem encostar nele. A laje esquenta e passa calor pro quarto. O ventilador refresca quem está na frente, mas a laje continua no turno da noite.\n\nPor isso, começa pela cobertura: telha clara reflete mais sol. Só que o ático fechado acumula ar quente.\n\nAbrir só a cumeeira quase não muda nada; sem entrada nos beirais, falta caminho pro ar atravessar o ático. Quando o ar entra por baixo e sai no alto, leva parte do calor junto. Isso se chama ático ventilado.\n\nMas o ar circulando não impede a telha de irradiar calor pra laje. Então, põe uma manta refletiva de alumínio sob a telha, com a face voltada pro vão de ar. Ela reduz essa troca por radiação. Isso se chama barreira radiante.\n\nComo ainda pode passar um pouco de calor, cobre a laje com lã de rocha e mantém a camada contínua. Se sobra uma fresta, o calor acha um atalho. Isso é isolamento térmico.\n\nE à noite? A laje guarda calor durante o dia e devolve aos poucos; com mais massa, essa mudança demora mais. Isso se chama inércia térmica.\n\nQuando lá fora fica mais fresco que dentro, abre janelas opostas e deixa o vento atravessar o quarto. Se lá fora ainda está mais quente, espera: bafo quente não precisa de convite. De dia, fecha a veneziana quando o sol bate. Aí você volta pra cama e o ventilador sai do turno dobrado: refresca você, sem tentar esfriar a casa inteira.",
+      "start": 0,
+      "end": 1563,
+      "specification": "Plano vertical de 13 beats com 2 ou 3 composições claramente diferentes por beat: quarto íntimo, corte amplo, macro de material, detalhe de pessoa/objeto e inserts de contexto quando a analogia pedir. Alternar push-in e pull-out motivados, câmera lateral/superior/frontal e cortes secos curtos; sem deriva ornamental, sem repetir o mesmo eixo em beats vizinhos e sem alterar a ordem causal."
+    },
+    {
+      "id": "scene-insert-forno-barro-radiacao",
+      "action": "create",
+      "kind": "scene",
+      "label": "Insert no terreiro: calor sem contato",
+      "reason": "A fala compara a radiação a sentir o calor de um forno sem tocar nele. Um insert curto em outro contexto reforça a analogia e cria a quebra cômica que a referência usa; a encenação, personagem e piada são próprias.",
+      "phrase": "como sentir o calor de um forno sem encostar nele.",
+      "start": 198,
+      "end": 248,
+      "specification": "Pequeno terreiro de casa no semiárido com forno de barro aquecido e personagem do kit humano. A pessoa aproxima a mão sem tocar, sente o calor, recua com reação expressiva; ondas térmicas visíveis ligam o forno à mão. Plano externo abre, corte rápido aproxima da reação, volta ao corte da casa antes do próximo beat. Não inclui churrasqueira nem cunhado, nem repete a piada da referência."
+    },
+    {
+      "id": "character-pessoa-quarto-rig-kit-v2",
+      "action": "create",
+      "kind": "character",
+      "label": "Pessoa do quarto com rig casual articulado do kit",
+      "reason": "A comparação visual mostrou que o preset contemporâneo de kit-video-3d mantém proporções infantis e rosto muito geométrico. Reutilizar a variante casual do rig humano local kit/assets/period-person-rig.js, que já traz torso em volume, roupa cotidiana, rosto e pose sentada; a escolha é baseada na malha e na atuação, não no uso histórico do arquivo. O mesmo personagem aparece sentado na borda da cama, junto à janela e no insert do forno; a revisão humana continua pendente.",
+      "phrase": "A laje esquenta e passa calor pro quarto.",
+      "start": 249,
+      "end": 290,
+      "specification": "Usar person({coatStyle:\"casual\"}) do rig local, com uma variante sentada e outra em pé da mesma identidade visual. A pessoa sentada fica na borda do colchão com as pernas para fora; a expressão e os gestos reagem ao calor, ao vento que chega e ao payoff. A atuação do forno aproxima a mão, recua no contato sem encostar e reage ao calor. Movimentos por tempo absoluto; sem rosto, fala, parentesco ou piada copiados."
+    }
+  ],
+  "reviewed": false,
+  "unresolved": [
+    "Lista de recursos aguarda validação humana. Aprovações individuais dos assets permanecem separadas."
+  ],
+  "literalMatchReview": {
+    "phrase": "barreira",
+    "catalogAssetId": "barreira",
+    "disposition": "false-positive",
+    "reason": "Na fala, “barreira radiante” nomeia o conceito de troca térmica; o match do catálogo é uma barreira física e não deve ser reutilizado."
+  }
+}

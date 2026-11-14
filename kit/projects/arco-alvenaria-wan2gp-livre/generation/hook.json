@@ -1,0 +1,14 @@
+{
+  "model_type": "t2v_nexus_1.3B",
+  "prompt": "Cinematic 3D educational animation, physically coherent red wedge brick masonry and pale stone supports on a stone workbench in a bright stonemason workshop. Warm daylight through high windows, softly blurred hand tools in the background, realistic rough clay, wood grain and fine mortar, clear silhouettes. One main action per shot. A front close view of the crown of an unfinished semicircular arch. One red trapezoid keystone is suspended above the central gap. It slowly lowers into the gap, touches the two neighboring wedges and stops flush with them. The other bricks do not move. The camera holds still so the insertion is clearly visible.",
+  "negative_prompt": "captions, subtitles, text, logo, watermark, written labels, unreadable letters, extra arches, melted bricks, floating blocks, disconnected supports, explosions, morphing buildings, flicker, camera shake",
+  "resolution": "432x768",
+  "video_length": 85,
+  "num_inference_steps": 6,
+  "guidance_scale": 1,
+  "flow_shift": 5,
+  "seed": 79137,
+  "repeat_generation": 1,
+  "image_mode": 0,
+  "output_filename": "01-coroamento"
+}

@@ -1,0 +1,255 @@
+[
+  {
+    "id": "cap-001",
+    "text": "A última cunha encaixa.",
+    "start": 0,
+    "duration": 1.42,
+    "wordCount": 4,
+    "sourceWords": [
+      "A",
+      "encaixa."
+    ]
+  },
+  {
+    "id": "cap-002",
+    "text": "O que impede o arco de cair?",
+    "start": 1.7,
+    "duration": 1.66,
+    "wordCount": 7,
+    "sourceWords": [
+      "O",
+      "cair?"
+    ]
+  },
+  {
+    "id": "cap-003",
+    "text": "Sem reação lateral, o empuxo",
+    "start": 3.98,
+    "duration": 1.82,
+    "wordCount": 5,
+    "sourceWords": [
+      "Sem",
+      "empuxo"
+    ]
+  },
+  {
+    "id": "cap-004",
+    "text": "empurra os encontros para fora.",
+    "start": 5.8,
+    "duration": 1.7,
+    "wordCount": 5,
+    "sourceWords": [
+      "empurra",
+      "fora."
+    ]
+  },
+  {
+    "id": "cap-005",
+    "text": "As juntas abrem",
+    "start": 8,
+    "duration": 0.74,
+    "wordCount": 3,
+    "sourceWords": [
+      "As",
+      "abrem"
+    ]
+  },
+  {
+    "id": "cap-006",
+    "text": "e o anel perde contato.",
+    "start": 8.74,
+    "duration": 1.46,
+    "wordCount": 5,
+    "sourceWords": [
+      "e",
+      "contato."
+    ]
+  },
+  {
+    "id": "cap-007",
+    "text": "Então como um arco pronto",
+    "start": 10.58,
+    "duration": 1.56,
+    "wordCount": 5,
+    "sourceWords": [
+      "Então",
+      "pronto"
+    ]
+  },
+  {
+    "id": "cap-008",
+    "text": "fica de pé?",
+    "start": 12.14,
+    "duration": 0.9,
+    "wordCount": 3,
+    "sourceWords": [
+      "fica",
+      "pé?"
+    ]
+  },
+  {
+    "id": "cap-009",
+    "text": "As cunhas se comprimem",
+    "start": 13.62,
+    "duration": 1.06,
+    "wordCount": 4,
+    "sourceWords": [
+      "As",
+      "comprimem"
+    ]
+  },
+  {
+    "id": "cap-010",
+    "text": "umas contra as outras.",
+    "start": 14.68,
+    "duration": 1.26,
+    "wordCount": 4,
+    "sourceWords": [
+      "umas",
+      "outras."
+    ]
+  },
+  {
+    "id": "cap-011",
+    "text": "A curva leva a carga",
+    "start": 16.36,
+    "duration": 0.94,
+    "wordCount": 5,
+    "sourceWords": [
+      "A",
+      "carga"
+    ]
+  },
+  {
+    "id": "cap-012",
+    "text": "aos dois apoios;",
+    "start": 17.3,
+    "duration": 0.9,
+    "wordCount": 3,
+    "sourceWords": [
+      "aos",
+      "apoios;"
+    ]
+  },
+  {
+    "id": "cap-013",
+    "text": "a argamassa mantém as peças em contato.",
+    "start": 18.62,
+    "duration": 2.34,
+    "wordCount": 7,
+    "sourceWords": [
+      "a",
+      "contato."
+    ]
+  },
+  {
+    "id": "cap-014",
+    "text": "Mas, durante a montagem,",
+    "start": 21.28,
+    "duration": 1.22,
+    "wordCount": 4,
+    "sourceWords": [
+      "Mas,",
+      "montagem,"
+    ]
+  },
+  {
+    "id": "cap-015",
+    "text": "quem sustenta tudo?",
+    "start": 22.7,
+    "duration": 1.04,
+    "wordCount": 3,
+    "sourceWords": [
+      "quem",
+      "tudo?"
+    ]
+  },
+  {
+    "id": "cap-016",
+    "text": "A cimbra apoia a alvenaria",
+    "start": 24.46,
+    "duration": 1.2,
+    "wordCount": 5,
+    "sourceWords": [
+      "A",
+      "alvenaria"
+    ]
+  },
+  {
+    "id": "cap-017",
+    "text": "até o anel fechar e se estabilizar.",
+    "start": 25.66,
+    "duration": 2.02,
+    "wordCount": 7,
+    "sourceWords": [
+      "até",
+      "estabilizar."
+    ]
+  },
+  {
+    "id": "cap-018",
+    "text": "Só então a madeira pode sair.",
+    "start": 27.68,
+    "duration": 2.22,
+    "wordCount": 6,
+    "sourceWords": [
+      "Só",
+      "sair."
+    ]
+  },
+  {
+    "id": "cap-019",
+    "text": "A peça do topo fecha o anel,",
+    "start": 30.3,
+    "duration": 1.54,
+    "wordCount": 7,
+    "sourceWords": [
+      "A",
+      "anel,"
+    ]
+  },
+  {
+    "id": "cap-020",
+    "text": "mas não trabalha sozinha.",
+    "start": 31.96,
+    "duration": 1.34,
+    "wordCount": 4,
+    "sourceWords": [
+      "mas",
+      "sozinha."
+    ]
+  },
+  {
+    "id": "cap-021",
+    "text": "Os encontros resistem ao empuxo,",
+    "start": 33.7,
+    "duration": 1.92,
+    "wordCount": 5,
+    "sourceWords": [
+      "Os",
+      "empuxo,"
+    ]
+  },
+  {
+    "id": "cap-022",
+    "text": "a carga chega ao chão —",
+    "start": 35.8,
+    "duration": 1.1,
+    "wordCount": 5,
+    "sourceWords": [
+      "a",
+      "chão"
+    ]
+  },
+  {
+    "id": "cap-023",
+    "text": "e o vão fica livre.",
+    "start": 36.9,
+    "duration": 1.02,
+    "wordCount": 5,
+    "sourceWords": [
+      "e",
+      "livre."
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+[    1748ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead. @ http://127.0.0.1:4173/vendor/three/build/three.core.js:2014

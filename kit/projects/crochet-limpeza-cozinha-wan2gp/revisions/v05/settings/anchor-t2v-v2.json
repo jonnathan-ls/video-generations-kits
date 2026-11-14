@@ -1,0 +1,15 @@
+{
+  "model_type": "t2v_nexus_1.3B",
+  "prompt": "Vertical 9:16 overhead macro still-life video, camera directly above a handmade crochet cleaning setup. The deep-indigo chunky crochet mat fills every edge of the frame; its large raised cotton loops are visible everywhere outside the objects. Center one shallow flexible ivory crochet dish with large interlocking loops clearly visible inside and outside. A small round mustard-yellow crochet scrubber disk made from thick cotton loops rests inside the dish near its left side, fully visible. No hand is in the composition. Crop tightly so the crochet mat is the entire background and fills the frame to all four edges. Warm soft diffuse light, stable exact object shapes, fibers and loop scale, no camera movement and no action; compose this as a clear image anchor for later animation.",
+  "negative_prompt": "window, windowsill, room, wall, floor, table, wooden counter, wood grain, stone, marble, ceramic, porcelain, glass, metal sink, plastic basin, smooth plastic, glossy surface, hard dish, rigid rim, plain fabric, printed pattern, background outside the crochet mat, extra objects, hand, person, missing stitches, smooth patches, changing stitch size, texture crawl, flicker, morphing dish, morphing scrubber, camera movement, zoom, cut, exposure change, text, logo, watermark, subtitles",
+  "resolution": "432x768",
+  "video_length": 41,
+  "force_fps": "16",
+  "num_inference_steps": 8,
+  "guidance_scale": 1,
+  "flow_shift": 5,
+  "seed": 731828,
+  "repeat_generation": 1,
+  "image_mode": 0,
+  "output_filename": "v05-00-ancora-croche-ia-local-v2"
+}

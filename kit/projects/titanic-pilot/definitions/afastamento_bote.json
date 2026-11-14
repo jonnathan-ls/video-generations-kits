@@ -1,0 +1,20 @@
+{
+  "id": "afastamento_bote",
+  "label": "Bote afasta-se com lugares vazios",
+  "kind": "animation",
+  "category": "historico_maritimo",
+  "description": "Movimento curto e determinístico do bote em relação ao costado. Passageiros assentados nos bancos, sem atravessar casco; recuperar visão do Titanic e de quem fica. Lugares vazios legíveis, sem sugerir que todos os botes saíram assim. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "maritime-travel.js",
+  "aliases": [
+    "lugares vazios",
+    "Bote afasta-se com lugares vazios"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:ocupacao-bote"
+  },
+  "baselineIds": []
+}

@@ -1,0 +1,3 @@
+import * as THREE from 'three';import {create as ocean} from './atlantic-ocean.js';
+export function create(){return ocean();}
+export function apply({scene},t,params={}){const day=params.day===true;scene.background=new THREE.Color(day?'#94a9b0':'#091623');scene.fog=new THREE.Fog(day?'#94a9b0':'#091623',day?900:600,day?2400:2000);for(const obj of scene.children){if(obj.isHemisphereLight){obj.intensity=day?1.7:(params.fill??.65);obj.color.set(day?'#e7ecde':'#91b4d6');obj.groundColor.set('#22313a');}if(obj.isDirectionalLight){obj.intensity=day?2.3:(params.key??1.45);obj.color.set(day?'#ffe0b4':'#a4c5e5');obj.position.fromArray(params.keyPosition||[120,180,80]);obj.castShadow=false;}if(obj.isMesh&&obj.geometry?.type==='PlaneGeometry')obj.visible=false;}}

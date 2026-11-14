@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "0bbeedfab012670ec8a0adde862f56554e7b343d5dd608b1c8504899449d972c",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "computer-shell",
+      "meshes": 11,
+      "triangles": 6196,
+      "dimensions": [
+        12,
+        0.47500000476837156,
+        10
+      ]
+    },
+    {
+      "variant": "crt-glass",
+      "meshes": 11,
+      "triangles": 6196,
+      "dimensions": [
+        12,
+        0.47500000476837156,
+        10
+      ]
+    },
+    {
+      "variant": "technical-paper",
+      "meshes": 11,
+      "triangles": 6196,
+      "dimensions": [
+        12,
+        0.47500000476837156,
+        10
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "computer-shell: recurso abaixo do chão; justificar contato no contrato.",
+    "crt-glass: recurso abaixo do chão; justificar contato no contrato.",
+    "technical-paper: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-09T11:57:16.667Z"
+}

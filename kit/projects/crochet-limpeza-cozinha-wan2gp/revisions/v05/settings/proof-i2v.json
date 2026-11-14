@@ -1,0 +1,17 @@
+{
+  "model_type": "fun_inp_1.3B",
+  "prompt": "Animate the supplied opening image as the exact first frame. Preserve the same flat handmade crochet kitchen textiles, overhead camera, crop, object positions, colors and thick matte cotton loops on every visible surface. The indigo crochet mat fills the frame edge to edge; the centered ivory dish-drying mat and mustard crochet scrub pad remain visibly textile with stable raised stitches and fiber scale. The scrub pad stays pressed flat and makes exactly one short, smooth left-to-right wipe across the ivory mat. Show slight compression of yarn at contact, then hold on the cleaned textile so the texture remains easy to read. No new objects or action.",
+  "negative_prompt": "bowl, basket, plate, ceramic, porcelain, glass, metal sink, plastic, smooth surface, wood, stone, glossy surface, table edge, window, room, hard object, solid rim, plain fabric, printed pattern, missing stitches, smooth patches, changing stitch size, texture crawl, flicker, morphing textile, morphing scrub pad, changing layout, extra hands, extra fingers, fused fingers, floating pad, loss of contact, vertical dipping, repeated scrubbing, rinsing, water stream, extra objects, camera movement, zoom, cut, exposure change, text, logo, watermark, subtitles",
+  "image_start": "kit/projects/crochet-limpeza-cozinha-wan2gp/revisions/v05/input/anchor.png",
+  "image_prompt_type": "S",
+  "resolution": "432x768",
+  "video_length": 41,
+  "force_fps": "16",
+  "num_inference_steps": 8,
+  "guidance_scale": 1,
+  "flow_shift": 5,
+  "seed": 731827,
+  "repeat_generation": 1,
+  "image_mode": 0,
+  "output_filename": "v05-01-pia-esponja-passada-i2v"
+}

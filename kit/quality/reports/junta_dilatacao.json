@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "0ed945b163ef6b06df637b74ba6013e943f2bbbc40cb276e2d2e79bdc2dab5c4",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "padrao",
+      "meshes": 33,
+      "triangles": 812,
+      "dimensions": [
+        3.959999957084656,
+        0.6200000032782554,
+        1.75
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "baselines": [
+    {
+      "id": "parede_hidraulica",
+      "variant": "fria",
+      "revision": "8c235c7629c3c7d0"
+    }
+  ],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-05T03:49:25.029Z"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "e422e28156c3546c889c35c7baab6dd6fe5bd644b3f7aae8929935451c75d199",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "mos1500",
+      "meshes": 32,
+      "triangles": 2582,
+      "dimensions": [
+        4.483545028162112,
+        0.9699999922513962,
+        3
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-14T20:55:27.650Z"
+}

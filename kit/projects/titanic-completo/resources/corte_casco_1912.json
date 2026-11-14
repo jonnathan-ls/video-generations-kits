@@ -1,0 +1,21 @@
+{
+  "id": "corte_casco_1912",
+  "label": "Seção ilustrativa de casco e anteparas",
+  "module": "period-hull-section.js",
+  "kind": "scene",
+  "category": "evidencia historica",
+  "description": "Seção de casco com anteparas e água contida; módulo segmentado ilustrativo, não reconstrução dimensional completa. Superfícies recortadas acabadas, rebites, placas de ferro, água com normal animada e evento de nível por compartimento. Não inventar trajetória histórica específica.",
+  "variants": [
+    "compartments",
+    "flood-path"
+  ],
+  "aliases": [
+    "Seção ilustrativa de casco e anteparas",
+    "Tem divisões internas que podem limitar a entrada de água."
+  ],
+  "baselineIds": [],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:hull-evidence"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "status": "generated-awaiting-qa",
+  "startedAt": "2026-11-10T15:36:54.490Z",
+  "upstreamCommit": "f0b54e02aa32b539e7be5c65cf4ada67db69da26",
+  "settings": "kit/projects/crochet-limpeza-cozinha-wan2gp/revisions/v04/settings/one-pass-scrub-v2.json",
+  "inputSha256": "cb9bbfe79b0318b5185bc0131792e21cedecda7e8e74131d282eef85090b5f55",
+  "output": "kit/projects/crochet-limpeza-cozinha-wan2gp/revisions/v04/output/attempt-02",
+  "dryRun": false,
+  "humanApproved": false,
+  "exitCode": 0,
+  "finishedAt": "2026-11-10T15:37:53.916Z"
+}

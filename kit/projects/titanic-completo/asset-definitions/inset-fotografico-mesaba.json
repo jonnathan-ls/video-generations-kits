@@ -1,0 +1,36 @@
+{
+  "id": "inset_fotografico_mesaba",
+  "label": "Telegrama histórico Mesaba → Titanic",
+  "kind": "overlay",
+  "category": "motion_graphics",
+  "description": "Documento original do alerta de gelo enviado pelo Mesaba ao Titanic, apresentado em cartão motion graphic dentro da reconstrução 3D, com data, horário e crédito de licença visíveis.",
+  "module": "archive-telegram-motion-inset.js",
+  "aliases": [
+    "telegrama Mesaba para Titanic",
+    "aviso de gelo do Mesaba",
+    "documento histórico do alerta de gelo de 14 de abril de 1912"
+  ],
+  "variants": [
+    "mesaba-telegram-1912"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:archive-inset-mesaba"
+  },
+  "sourceMetadata": {
+    "title": "Telegramm, ‘Mesaba to Titanic’",
+    "creator": "Marconi International Marine Communication Ltd. (MIMC Co.)",
+    "date": "14 April 1912, 19:50",
+    "repository": "Museumsstiftung Post und Telekommunikation, inventory 4.2.1.85",
+    "catalogUrl": "https://onlinesammlung.museumsstiftung.de/detail/collection/709d4d93-177b-4a31-b0a5-e1a02d04ed36",
+    "rightsAdvisory": "The collection record attributes the image copyright to Museumsstiftung Post und Telekommunikation and displays CC BY-SA 4.0. Credit and license are embedded in the motion graphic.",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Museumsstiftung Post und Telekommunikation · CC BY-SA 4.0",
+    "originalFile": "kit/assets/media/mesaba-titanic-warning-1912.jpg",
+    "displayFile": "kit/assets/media/mesaba-titanic-warning-1912.jpg",
+    "retrievedAt": "2026-11-08"
+  },
+  "files": [
+    "kit/assets/media/mesaba-titanic-warning-1912.jpg"
+  ]
+}

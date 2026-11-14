@@ -1,0 +1,109 @@
+- generic [active] [ref=f7e1]:
+  - banner [ref=f7e2]:
+    - link "Kit de vídeo, casa do Sertão" [ref=f7e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f7e4]: OC
+      - generic [ref=f7e5]:
+        - strong [ref=f7e6]: Obra em corte
+        - generic [ref=f7e7]: Revisão de cenas · 3D
+    - generic [ref=f7e8]: Aguardando sua revisão
+  - main [ref=f7e11]:
+    - region "Prévia das cenas" [ref=f7e12]:
+      - generic [ref=f7e13]:
+        - generic [ref=f7e14]:
+          - generic [ref=f7e15]: CENA 02 / 13
+          - generic [ref=f7e16]: ESTUDO DE CENA · SEM VOZ FINAL
+        - generic "Cena 3D vertical" [ref=f7e17]:
+          - generic "Casa em corte 3D animada" [ref=f7e18]
+          - generic:
+            - text: A CAUSA
+            - heading "Da telha à laje" [level=1]
+          - generic [ref=f7e19]:
+            - generic [ref=f7e20]: Corte seco no foley e pull-out rápido que enquadra reação, mão e forno no mesmo plano.
+            - generic [ref=f7e21]: RECUO · 3.0s
+          - button "INSPECIONAR" [ref=f7e22] [cursor=pointer]
+        - generic [ref=f7e23]:
+          - button "Cena anterior" [ref=f7e24] [cursor=pointer]: ‹
+          - button "Reproduzir cena" [ref=f7e25] [cursor=pointer]: ▶
+          - button "Próxima cena" [ref=f7e26] [cursor=pointer]: ›
+          - generic [ref=f7e27]:
+            - generic [ref=f7e28]:
+              - generic [ref=f7e29]: 00:03 / 00:05
+              - generic [ref=f7e30]: tempo de revisão
+            - slider "Tempo da cena" [ref=f7e31] [cursor=pointer]: "3.02"
+          - button "Ouvir efeitos deste beat" [ref=f7e32] [cursor=pointer]: ♪ FX
+        - generic [ref=f7e33]:
+          - generic [ref=f7e34]: i
+          - generic [ref=f7e35]: Os cinco segundos são só para revisar o movimento. A duração final será definida depois da escolha da voz.
+        - navigation "Escolher cena pela prévia visual" [ref=f7e36]:
+          - 'button "Abrir cena 1: O teto ainda irradia" [ref=f7e37] [cursor=pointer]':
+            - generic [ref=f7e38]: "01"
+          - 'button "Abrir cena 2: Da telha à laje" [ref=f7e39] [cursor=pointer]':
+            - generic [ref=f7e40]: "02"
+          - 'button "Abrir cena 3: O ventilador não esfria a laje" [ref=f7e41] [cursor=pointer]':
+            - generic [ref=f7e42]: "03"
+          - 'button "Abrir cena 4: Telha clara, ático fechado" [ref=f7e43] [cursor=pointer]':
+            - generic [ref=f7e44]: "04"
+          - 'button "Abrir cena 5: Só a cumeeira não cria caminho" [ref=f7e45] [cursor=pointer]':
+            - generic [ref=f7e46]: "05"
+          - 'button "Abrir cena 6: Entrada baixa, saída alta" [ref=f7e47] [cursor=pointer]':
+            - generic [ref=f7e48]: "06"
+          - 'button "Abrir cena 7: Ventilar não interrompe radiação" [ref=f7e49] [cursor=pointer]':
+            - generic [ref=f7e50]: "07"
+          - 'button "Abrir cena 8: A face refletiva olha para o vão" [ref=f7e51] [cursor=pointer]':
+            - generic [ref=f7e52]: "08"
+          - 'button "Abrir cena 9: Camada contínua, sem atalho" [ref=f7e53] [cursor=pointer]':
+            - generic [ref=f7e54]: "09"
+          - 'button "Abrir cena 10: A laje muda devagar" [ref=f7e55] [cursor=pointer]':
+            - generic [ref=f7e56]: "10"
+          - 'button "Abrir cena 11: Abre quando lá fora está mais fresco" [ref=f7e57] [cursor=pointer]':
+            - generic [ref=f7e58]: "11"
+          - 'button "Abrir cena 12: Fecha quando o sol bate" [ref=f7e59] [cursor=pointer]':
+            - generic [ref=f7e60]: "12"
+          - 'button "Abrir cena 13: O ventilador sai do turno dobrado" [ref=f7e61] [cursor=pointer]':
+            - generic [ref=f7e62]: "13"
+    - complementary "Decisão da cena selecionada" [ref=f7e63]:
+      - generic [ref=f7e64]:
+        - generic [ref=f7e65]:
+          - generic [ref=f7e66]:
+            - text: CENA SELECIONADA
+            - heading "Da telha à laje" [level=2] [ref=f7e118]
+          - generic [ref=f7e68]: PENDENTE
+        - generic [ref=f7e69]:
+          - text: FALA APROVADA
+          - paragraph [ref=f7e70]: Volta pra tarde. O sol aquece as telhas e parte desse calor cruza o vão até a laje por radiação — como sentir o calor de um forno sem encostar nele.
+        - generic [ref=f7e71]:
+          - generic [ref=f7e72]: ◉
+          - generic [ref=f7e73]:
+            - text: O QUE VOCÊ ESTÁ VENDO
+            - paragraph [ref=f7e74]: O sol aquece telhas cerâmicas; ondas térmicas atravessam o vão sem tocar as peças e aquecem a laje. Uma brincadeira visual breve com a mão que recua de um forno quente reforça a analogia sem virar gag longa.
+        - generic [ref=f7e75]:
+          - generic [ref=f7e76]: ↗
+          - generic [ref=f7e77]:
+            - text: ALVO DE ATENÇÃO
+            - paragraph [ref=f7e78]: telha, vão de ar e superfície da laje em sequência causal
+        - generic [ref=f7e79]:
+          - button "Aprovar esta cena" [ref=f7e80] [cursor=pointer]
+          - button "Pedir ajuste" [ref=f7e81] [cursor=pointer]
+        - paragraph [ref=f7e82]
+      - generic [ref=f7e83]:
+        - text: POR QUE ESTA CENA VEM AGORA
+        - paragraph [ref=f7e84]: a câmera revela a causa diurna do calor que antes só aparecia como sintoma noturno
+        - generic [ref=f7e87]:
+          - generic [ref=f7e88]: O teto ainda irradia
+          - generic [ref=f7e89]: →
+          - generic [ref=f7e90]: O ventilador não esfria a laje
+      - generic [ref=f7e91]:
+        - generic [ref=f7e92]:
+          - generic [ref=f7e93]: ♫
+          - generic [ref=f7e94]:
+            - text: ENCONTRO DE FX COM A AÇÃO
+            - heading "Do telhado ao insert do forno" [level=3] [ref=f7e119]
+        - paragraph [ref=f7e96]: whoosh curto no retorno à tarde; estalo cerâmico leve no primeiro calor; sem foley de contato no vão
+        - paragraph [ref=f7e111]: Efeitos sintetizados localmente. A revisão auditiva e a mixagem com a voz continuam pendentes.
+      - generic [ref=f7e112]:
+        - generic [ref=f7e113]: ✓
+        - paragraph [ref=f7e114]: A aprovação desta cena vale para a encenação visual. A revisão dos assets individuais e do plano de recursos continua separada.
+  - contentinfo [ref=f7e115]:
+    - generic [ref=f7e116]: Estudo original inspirado pela ordem causal aprovada; textos, design e encenação próprios.
+    - generic [ref=f7e117]: Render Three.js local · sem envio de dados

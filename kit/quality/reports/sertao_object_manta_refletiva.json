@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "e7695a1aeb2113e34b412d9ee58fa01c355682c2a8670499f418fb9f41484f9a",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "object-manta-refletiva",
+      "meshes": 18,
+      "triangles": 216,
+      "dimensions": [
+        5.559623765988528,
+        1.2409207394662438,
+        3.72
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.674Z"
+}

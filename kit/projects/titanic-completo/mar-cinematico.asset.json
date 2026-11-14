@@ -1,0 +1,14 @@
+{
+  "id": "mar_cinematico",
+  "label": "Atlântico cinematográfico",
+  "category": "Cenário",
+  "description": "Superfície oceânica procedural com reflexos e ondas contínuas calculadas no shader, pronta para cenas históricas noturnas ou diurnas.",
+  "kind": "scene",
+  "module": "cinematic-ocean.js",
+  "aliases": ["mar aberto", "oceano atlântico", "superfície do mar", "ondas noturnas", "reflexo no mar", "mar sob luz do dia"],
+  "variants": ["night", "day"],
+  "introducedBy": {
+    "requirementId": "titanic-completo:mar-cinematico",
+    "reason": "A travessia, o naufrágio e o resgate dependem de uma superfície oceânica legível e animada sem recalcular a malha na CPU a cada quadro."
+  }
+}

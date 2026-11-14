@@ -1,0 +1,102 @@
+{
+  "id": "titanic-pilot",
+  "title": "Titanic — abertura de validação",
+  "parentProject": "titanic",
+  "stage": "professional-qa-awaiting-required-inspection",
+  "scope": "Apenas a abertura; sem produzir o longa.",
+  "approvals": {},
+  "voice": {
+    "status": "chosen-by-creator",
+    "voice": "pm_santa",
+    "speed": 0.85,
+    "channel": "chat",
+    "evidence": "Pm santa",
+    "pilotVoiceFile": "kit/projects/titanic-pilot/voice.json"
+  },
+  "implementationStarted": true,
+  "audioGenerated": true,
+  "nextDecision": "Concluir inspeções obrigatórias pendentes; manter gate fechado até haver evidência real.",
+  "verification": {
+    "testsPassed": 17,
+    "browserInspection": "R10 playback reached ended=true",
+    "audioTechnicalChecks": "-14.14 LUFS; -1.69 dBTP; active voice margin >=18.86 dB",
+    "audioListening": "not-verified",
+    "visualReview": "R8 corrections under review",
+    "hyperframesErrors": 0,
+    "continuousAudiovisualInspection": "not-verified"
+  },
+  "reviewWorkflow": {
+    "mode": "visual-in-scene",
+    "channel": "chat",
+    "evidence": "Não preciso mais validar lista , ao menos em texto, quero validar direto os assets visual de como ficará e se possível direto em cena vídeo",
+    "listIsInternal": true,
+    "assetApprovalInferred": false
+  },
+  "preview": {
+    "duration": 52.815,
+    "url": "http://127.0.0.1:4174/preview/titanic-pilot/index.html",
+    "watermarked": true,
+    "voice": "pm_santa",
+    "status": "awaiting-visual-review",
+    "renderInProgress": false,
+    "renderFile": "kit/projects/titanic-pilot/render/titanic-pilot-review.mp4",
+    "decodedDuration": 52.833333,
+    "audioPresent": true,
+    "humanApproved": false,
+    "editorUrl": "http://localhost:3018/#project/hyperframes",
+    "playbackVerification": {
+      "surface": "in-app-browser",
+      "visibleImage": true,
+      "playingStatus": "Reproduzindo com áudio",
+      "source": "local-rendered-mp4",
+      "rootCauseOfOriginalWhiteScreen": "not-confirmed"
+    }
+  },
+  "videoRendered": true,
+  "renderScope": "Prévia técnica do piloto, não entrega final ou longa completo",
+  "mobileSharing": {
+    "authorizationChannel": "chat",
+    "authorizationEvidence": "Sim",
+    "scope": "Apenas prévia leve e player no HyperFrames",
+    "provider": "HyperFrames",
+    "projectId": "35a58602-399f-45e0-84ba-6ef38e9af6a4",
+    "publicRequested": true,
+    "filesUploaded": 3,
+    "status": "uploaded-awaiting-account-claim",
+    "url": "https://hyperframes.dev/p/35a58602-399f-45e0-84ba-6ef38e9af6a4",
+    "playbackVerified": false,
+    "blocker": "HyperFrames exige login para claim; abertura no navegador recusada pelo controle de autorização de origem."
+  },
+  "professionalQa": {
+    "skill": "skills/revisao-profissional/SKILL.md",
+    "status": "rejected",
+    "report": "kit/projects/titanic-pilot/qa/report.json",
+    "humanApprovalGranted": false,
+    "internalCorrectionInProgress": true,
+    "lastCompletedIteration": "R4",
+    "internalArtifact": "kit/projects/titanic-pilot/qa/iterations/02/hook-r4.mp4",
+    "blockingFindings": [
+      "hook-003",
+      "art-002",
+      "animation-002",
+      "body-001"
+    ],
+    "notVerified": [
+      "escuta do mix",
+      "inspeção audiovisual contínua",
+      "restante da nova montagem"
+    ],
+    "currentIteration": "R6",
+    "resumeEvidence": "Nao entendi a nova versao so pararia quando a skill aprovar"
+  },
+  "currentIteration": "R10",
+  "internalCorrectionInProgress": false,
+  "qaStatus": "not-verified",
+  "qaBlockingReason": "Entrada auditiva e percepção audiovisual contínua indisponíveis; auditoria humana real solicitada, sem inferir resposta ou aprovação.",
+  "diagnosticReview": {
+    "url": "http://127.0.0.1:4174/preview/titanic-pilot/qa-internal.html",
+    "artifact": "kit/projects/titanic-pilot/qa/iterations/03/pilot-r10.mp4",
+    "deliveryApproved": false,
+    "renderInProgress": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "2d3a8e43aef238b44e78a9e0293c7bbd0014751176d9d27233fb3b0ba6973872",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "lei",
+      "meshes": 10,
+      "triangles": 2520,
+      "dimensions": [
+        4.400000095367432,
+        0.9373028751241967,
+        2.799999952316284
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "lei: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-14T20:55:27.045Z"
+}

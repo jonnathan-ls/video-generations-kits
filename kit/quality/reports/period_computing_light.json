@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "d146d95605cb5008b5dfd0534d85fa90a36f64ebf06fc7debe6d3a7364aad876",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "classroom",
+      "meshes": 9,
+      "triangles": 5020,
+      "dimensions": [
+        12,
+        4.9900000004470355,
+        10
+      ]
+    },
+    {
+      "variant": "workshop",
+      "meshes": 9,
+      "triangles": 5020,
+      "dimensions": [
+        12,
+        4.9900000004470355,
+        10
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "classroom: recurso abaixo do chão; justificar contato no contrato.",
+    "workshop: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-09T11:57:13.620Z"
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "sourceFingerprint": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+  "artifact": {
+    "path": "revisions/v04/output/v04-01-pia-esponja-uma-passada.mp4",
+    "sha256": "09b15cfa8dbe08753538d3400c17ff053f3c033ccd517af60bc7ef40a552ce4e",
+    "width": 432,
+    "height": 768,
+    "fps": 16,
+    "frames": 41,
+    "durationSeconds": 2.562012
+  },
+  "scope": "clipe-prova da passada de esponja; inspeção estática a 10 fps, não é QA do vídeo completo nem QA de áudio",
+  "checks": {
+    "crochetMaterial": {
+      "status": "fail",
+      "method": "contact sheet com 26 amostras a 10 fps",
+      "evidence": ["qa/attempt-01-contact-sheet-10fps.png"]
+    },
+    "actionAndContact": {
+      "status": "not-verified",
+      "method": "a amostragem estática mostra a mão pressionando a peça, mas não confirma a passada pretendida em playback",
+      "evidence": ["qa/attempt-01-contact-sheet-10fps.png"]
+    },
+    "motionPlayback": {
+      "status": "not-verified",
+      "method": "o navegador recusou a abertura file:// do MP4; não foi contornado",
+      "evidence": []
+    },
+    "audio": {
+      "status": "not-applicable-to-generated-clip",
+      "method": "o arquivo de geração não contém mix; foley só será alinhado após aceitar a imagem"
+    }
+  },
+  "findings": [
+    {
+      "id": "v04-attempt-01-ceramic-dish",
+      "domain": "art-lighting/material",
+      "severity": "P1",
+      "observation": "O prato ocupa o centro e aparece branco, liso e especular em toda a amostragem; a esponja e a bancada são de crochê, mas o objeto narrativo principal não é.",
+      "consequence": "A imagem contradiz a direção de cozinha integralmente tecida e não atende ao objetivo de consistência de trama.",
+      "correction": "substituir o prato rígido por uma peça rasa e flexível com forma de tigela têxtil; manter a trama como superfície e não como decoração aplicada.",
+      "acceptance": "laçadas de algodão visíveis no interior e no exterior em todos os frames amostrados e playback sem superfície cerâmica"
+    },
+    {
+      "id": "v04-attempt-01-playback-unavailable",
+      "domain": "animation",
+      "severity": "P1",
+      "observation": "A sequência de frames sugere pressão, mas não prova a trajetória contínua de uma passada.",
+      "consequence": "O movimento e o contato não podem receber parecer profissional sem playback.",
+      "correction": "corrigir o prompt e revisar em playback quando a inspeção do MP4 for possível.",
+      "acceptance": "passada única, da esquerda para a direita, contato sem interrupção, confirmada a velocidade normal e a 10 fps"
+    }
+  ],
+  "releaseDecision": "rejected; não expandir a fila nem entregar como prévia pronta",
+  "nextGate": "gerar a segunda tentativa corrigida; revisar frames. Para ready-for-creator-review também será obrigatório completar inspeção em movimento"
+}

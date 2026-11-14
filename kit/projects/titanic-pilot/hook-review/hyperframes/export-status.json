@@ -1,0 +1,31 @@
+{
+  "preview": true,
+  "validation": {
+    "ok": false,
+    "errors": [
+      "Aprovação humana pendente: atlantico_noturno/padrao",
+      "Qualidade técnica desatualizada: iluminacao_maritima",
+      "Aprovação humana pendente: iluminacao_maritima/padrao",
+      "Qualidade técnica desatualizada: ponte_observacao_maritima",
+      "Aprovação humana pendente: ponte_observacao_maritima/padrao",
+      "Qualidade técnica desatualizada: pessoas_maritimas_1912",
+      "Declare a animação do personagem como recurso aprovado: anim_talk",
+      "Aprovação humana pendente: pessoas_maritimas_1912/captain",
+      "Qualidade técnica desatualizada: orientacao_observador",
+      "Aprovação humana pendente: orientacao_observador/padrao",
+      "Aprovação humana pendente: sinalizador_verde/padrao",
+      "Qualidade técnica desatualizada: navio_carpathia",
+      "Aprovação humana pendente: navio_carpathia/carpathia",
+      "Aprovação humana pendente: gelo_maritimo/field",
+      "Qualidade técnica desatualizada: aproximacao_resgate",
+      "Aprovação humana pendente: aproximacao_resgate/padrao",
+      "Aprovação humana pendente: gelo_maritimo/iceberg",
+      "Qualidade técnica desatualizada: transatlantico_titanic",
+      "Aprovação humana pendente: transatlantico_titanic/titanic",
+      "Aprovação do som pendente: ambiencia_mar_calmo",
+      "Resolver lacunas semânticas do plano de assets.",
+      "Plano semântico da narrativa não revisado."
+    ]
+  },
+  "revision": "f188de34367b4712"
+}

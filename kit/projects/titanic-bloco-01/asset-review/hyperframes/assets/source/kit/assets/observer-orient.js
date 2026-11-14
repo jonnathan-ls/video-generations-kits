@@ -1,0 +1,4 @@
+import {create as people} from './period-passengers.js';
+const ease=t=>{t=Math.max(0,Math.min(1,t));return t*t*(3-2*t);};
+export function create(){return people({variant:'captain'});}
+export function apply({target},t,params={}){const rig=target.userData.rig;if(!rig)return;const u=ease((t-.3)/1.7),react=ease((t-4.75)/1.0);rig.head.rotation.y=-.30+.35*u+.27*react;rig.head.rotation.x=.035-.055*react;rig.upper.rotation.x=.015-.10*react;for(const [i,brow]of rig.brows.entries()){brow.position.y=.055+.012*react;brow.rotation.z=(i?1:-1)*(.14-.20*react);}for(const {lip,side}of rig.lips){lip.rotation.z=side*.22*react;lip.position.y=-.055+.002*react;}for(const pupil of rig.pupils)pupil.position.y=.025+.005*react;for(const {arm,elbow,side}of rig.arms){arm.rotation.x=-.25-.3*react;arm.rotation.z=side*.035;elbow.rotation.x=-.55-.35*react;}}

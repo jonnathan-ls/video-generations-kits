@@ -1,0 +1,45 @@
+{
+  "id": "titanic-bloco-01",
+  "title": "Titanic — bloco 01: antes de haver pressa",
+  "parentProject": "titanic",
+  "stage": "rendering-bridge-correction-v12",
+  "targetDuration": 180,
+  "timingStatus": "Parágrafos medidos; cortes 7/9/10/15 revisados contra palavras de ASR local small.",
+  "scope": "Primeiros 3 minutos, incluindo abertura; longa produzido em blocos, não de uma vez.",
+  "voice": {
+    "id": "pm_santa",
+    "speed": 0.85,
+    "choiceSource": "creator-chat",
+    "newTakesApproved": false
+  },
+  "approvals": {},
+  "reviewWorkflow": {
+    "mode": "visual-in-scene",
+    "listIsInternal": true
+  },
+  "creativeDirectionEvidence": "Assisti melhorou muitooooo justamente esssa abordagem que preciso",
+  "nextAction": "Renderizar cinco faixas de ponte com mar rebaixado; inspecionar gancho e piso antes de montar MP4 V12.",
+  "wordCount": 421,
+  "measuredVoiceDuration": 180,
+  "plannedShots": 47,
+  "newResourceRequirements": 24,
+  "quality": {
+    "style": "Reconstrução histórica 3D estilizada",
+    "materialDirection": "Texturas métricas, tecido fosco, madeira com veio, metal e porcelana com reflexos localizados",
+    "lightingDirection": "Luz prática quente nos interiores e convés, separação de silhueta noturna",
+    "status": "rejected",
+    "lastStaticCorrections": [
+      "Alça de bandeja e manga com mão visível",
+      "Apoio do passageiro na borda do beliche",
+      "Folga acima da cabeça sob beliche superior",
+      "Luminária de convés",
+      "Contato da bandeja na mesa da cozinha"
+    ]
+  },
+  "internalVersion": "V12",
+  "audioTechnical": {
+    "integratedLUFS": -14.15,
+    "truePeakDbTP": -1.83,
+    "auditoryReview": "not-verified"
+  }
+}

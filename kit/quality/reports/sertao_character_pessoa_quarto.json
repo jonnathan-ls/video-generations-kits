@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "6d5b505d3e329bdad4df22d9df471c82c6bf94626de37dc47b7f8fca1c0b61cc",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "character-pessoa-quarto",
+      "meshes": 26,
+      "triangles": 9184,
+      "dimensions": [
+        3.328384215131256,
+        2.0399999999999996,
+        0.822324661966626
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.597Z"
+}

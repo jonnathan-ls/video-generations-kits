@@ -1,0 +1,21 @@
+{
+  "id": "ambiencia_mar_calmo",
+  "label": "Ambiência marítima discreta",
+  "kind": "sound",
+  "category": "historico_maritimo",
+  "description": "Som original ou local licenciado, mar calmo e ruído distante do navio, sem sons copiados da referência. Estabelecer lugar sem abafar a narração. Não pontuar cada corte com whoosh. Proposta ilustrativa para revisão visual; não é reconstrução arqueológica.",
+  "module": "sea-ambience.js",
+  "aliases": [
+    "no meio do oceano",
+    "Ambiência marítima discreta"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-pilot",
+    "requirementId": "titanic-pilot:ambiente-mar"
+  },
+  "baselineIds": [],
+  "sound": "ambiencia_mar_calmo"
+}

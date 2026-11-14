@@ -1,0 +1,286 @@
+{
+  "projectId": "historia-rockstar",
+  "scope": {
+    "currentProduction": "143 sentence-linked shots and 13 chapter cards",
+    "previousPreview": "13 conceptual compositions / 29 beat plans; superseded for coverage"
+  },
+  "artifact": {
+    "sceneData": "kit/projects/historia-rockstar/preview/scenes.json",
+    "implementation": "kit/projects/historia-rockstar/preview/scene-review.js",
+    "evidenceDirectory": "research/frames/historia-rockstar-production-preview/",
+    "implementationFiles": [
+      "kit/projects/historia-rockstar/preview/scene-review.js",
+      "kit/projects/historia-rockstar/preview/scene-expansion.js",
+      "kit/projects/historia-rockstar/preview/shot-designs.js",
+      "kit/assets/rockstar-resource-david-jones-portrait.js"
+    ],
+    "implementationFingerprintMethod": "SHA-256 sobre caminho relativo + byte NUL + conteúdo + byte NUL, na ordem de implementationFiles.",
+    "finalTake65Evidence": {
+      "desktop": [
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-0.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-1_45.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-2_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-3_25.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-5_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-8.png"
+      ],
+      "mobile": [
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-0.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-1_45.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-2_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-3_25.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-5_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-8.png"
+      ],
+      "repeatedSeek": [
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-seek-first-5_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-seek-last-5_35.png"
+      ]
+    }
+  },
+  "reviewedAt": "2026-11-09",
+  "status": "ready-for-creator-review",
+  "sourceFingerprint": {
+    "narration": "03e64ea507bce06e2437b99ae8cba410e273ab45e0f40945746aa57385fb0405",
+    "beatData": "c6ff8ffb911533f036694a615c5dd2c2a1abdfc1a337a2c209a535f0521a4b83",
+    "sceneData": "d6b5ec2a434f4dbaf60d8ef9a57a133b8acbfe3f774c93d6092bd6662de44ffd",
+    "implementation": "3170b58687f13f4ece59cb4d4b9817a35425aa22d330006290b557d28713bc5f",
+    "mediaCredits": "a5195e3e9001bf6ccace51753ead0e27c3e9d6374c0eef8fdf79bff03d4c4eda",
+    "productionStoryboard": "74997a5abf9c082002fcdefd13103ab42dde038fd6cbad0ab82594c2766d42a0"
+  },
+  "humanDecision": {
+    "channel": "chat",
+    "status": "pending-review",
+    "previousDecision": {
+      "status": "rejected",
+      "scope": "prior low-quality preview",
+      "evidence": "The user rejected the previous preview and required the repo protocol, Three.js reference research, motion and QA gates."
+    },
+    "evidence": "No approval is recorded for this expanded production preview, its asset list, or individual assets."
+  },
+  "coverage": {
+    "sceneCount": 143,
+    "chapterCardCount": 13,
+    "narratedWordCount": 2328,
+    "beatCount": 29,
+    "beatCoverage": "Cada uma das 143 frases da narração está ligada na ordem a uma tomada e a um beat; cada plano identifica foco, pergunta, evento, estado anterior/posterior, revelação de câmera e intenção sonora.",
+    "motionReview": "As 143 tomadas foram inspecionadas no navegador em preparação (0 s), ação (1,45 s), contato (3,25 s), reação/estado assentado (5,35 s) e resultado/fim (8 s): 715 quadros e cinco folhas de contato. Após a revisão do card do take 065, essa tomada foi novamente amostrada em 0 / 1,45 / 2,35 / 3,25 / 5,35 / 8 s em desktop e celular.",
+    "outOfOrderSeeking": "Os 143 takes haviam sido visitados em 5,35 → 1,45 → 8 → 0 → 3,25 → 5,35 s sem divergência. Depois da mudança no card do take 065, a sequência foi repetida nessa tomada; dataURL do canvas em 5,35 s permaneceu igual e as capturas desktop repetidas tiveram SHA-256 idêntico. Evidência em research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/.",
+    "desktopReview": "Folhas de contato desktop cobrem as 143 tomadas nos cinco pontos de motion, além das capturas detalhadas das cenas refinadas. O take 065 foi revisto de novo em seis pontos no stage de 715 × 401 px; o card horizontal mantém padding, texto hierarquizado e distância da legenda.",
+    "mobileReview": "Viewport 390 × 844 px; o passe anterior cobriu 13 takes representativos e cinco refinamentos. O take 065 foi recapturado em seis pontos com stage de 366 × 205 px; legenda não cobre o card, a faixa de crédito permanece dentro do quadro e não houve overflow horizontal. O contexto completo e a origem também estão no inspector.",
+    "captions": "A prévia mostra a fala exata aprovada por frase. Duração de cada legenda, pausas, cartões de capítulo e arquivo YouTube .srt serão sincronizados à voz após seleção/gravação; os 8 s do viewer são uma janela de inspeção, não duração final de tomada.",
+    "publicMediaIntegration": "Cinco fotografias públicas licenciadas estão integradas como mídia documental local em painéis 3D: Amiga, Apple II, kit ZX81, placa da DMA (foto de 2019) e retrato de David Jones (foto de 2003). A foto do Amiga reaparece no take 137 como payoff, totalizando seis instâncias. Créditos, licenças, recortes, contexto e hashes em preview/media-credits.json. Nenhum vídeo público com licença de reutilização confirmada foi encontrado; não foram usados trailers, gameplay ou mapas.",
+    "audio": "Som indicado no storyboard é intenção de encenação; sem voz final, mix ou render nesta etapa."
+  },
+  "referencesConsulted": [
+    {
+      "path": "node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js",
+      "principle": "arestas suavizadas com raio limitado",
+      "adaptation": "raio pequeno em objetos hero; geometria estrutural fica plana para preservar leitura."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/environments/RoomEnvironment.js",
+      "principle": "ambiente local para PMREM e resposta PBR",
+      "adaptation": "gerado uma vez no viewer; não reutilizar a sala demonstrativa como arte."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/objects/Sky.js",
+      "principle": "shader de atmosfera e direção solar",
+      "adaptation": "consultado; não aplicado porque este estudo usa dioramas de estúdio sem céu físico."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "principle": "controle de inspeção manual",
+      "adaptation": "sem autoRotate/damping acumulado; movimentos narrativos são amostrados por tempo absoluto."
+    },
+    {
+      "path": "node_modules/three/src/objects/Sprite.js; node_modules/three/src/materials/SpriteMaterial.js",
+      "principle": "sprites faceiam a câmera, usam transparência e não projetam sombras",
+      "adaptation": "cartelas com zona temporal e escala fixa; não há exemplo JSM específico instalado para este uso."
+    },
+    {
+      "path": "node_modules/three/src/textures/CanvasTexture.js",
+      "principle": "CanvasTexture marca a textura como atualizada ao ser construída",
+      "adaptation": "cartelas geradas localmente; colorSpace SRGB e nenhum recurso remoto."
+    },
+    {
+      "path": "node_modules/three/src/geometries/TubeGeometry.js; node_modules/three/examples/jsm/misc/TubePainter.js",
+      "principle": "tubo extrudado por uma curva; o exemplo mais próximo edita buffers para desenho XR em tempo real",
+      "adaptation": "rotas estáticas usam Catmull-Rom/TubeGeometry e marcadores com amostragem absoluta, sem o buffer gigante e clock contínuo do TubePainter."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/EffectComposer.js; node_modules/three/examples/jsm/postprocessing/RenderPass.js",
+      "principle": "cadeia ordenada de passes, com render de cena para buffers e saída pelo último pass",
+      "adaptation": "viewer usa composer para substituir o render direto e acompanha o tamanho responsivo do stage; não há demo HTML local empacotada, então as implementações JSM foram a referência consultada."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js",
+      "principle": "separação por luminância alta e blur de múltiplos níveis; exige tone mapping",
+      "adaptation": "força 0.035, raio 0.12, limiar 1.1, conferido para preservar textura e leitura da foto e cartelas."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/SMAAPass.js; node_modules/three/examples/jsm/postprocessing/OutputPass.js",
+      "principle": "SMAA opera em linear-sRGB e deve preceder a transformação de saída; OutputPass aplica tone mapping e color space do renderer",
+      "adaptation": "SMAA fica antes de OutputPass, que conserva ACES Filmic e SRGB."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/shaders/VignetteShader.js",
+      "principle": "sombras progressivas nas bordas",
+      "adaptation": "consultado e descartado para não escurecer composições/fundos já escuros."
+    },
+    {
+      "path": "node_modules/three/src/geometries/BoxGeometry.js; node_modules/three/src/geometries/PlaneGeometry.js; node_modules/three/src/textures/Texture.js; node_modules/three/src/textures/CanvasTexture.js; node_modules/three/src/materials/MeshBasicMaterial.js; node_modules/three/src/materials/MeshStandardMaterial.js",
+      "principle": "Face de cubo centrada no eixo; plano XY com normal +Z e UV explícitos; textura de fotografia em SRGB; CanvasTexture marca a tela para atualização; materiais básicos preservam informação impressa e material PBR dá resposta de luz à moldura.",
+      "adaptation": "Novo painel modular do retrato usa fotografia sem deformação, placa central para data/autor/licença/limite documental e entrada determinística por tempo absoluto. O arquivo local é carregado na preparação do viewer; nenhuma URL remota em runtime. As implementações são referências geométricas/técnicas, não baseline estético."
+    }
+  ],
+  "findings": [
+    {
+      "id": "rockstar-preview-001",
+      "domain": "art-direction",
+      "severity": "P1",
+      "status": "resolved-for-creator-review",
+      "observation": "A primeira versão foi reprovada por tratamento visual uniforme e escuro; não existe baseline estético Rockstar aprovado no projeto.",
+      "correction": "Composições diferenciadas por acontecimento, cenários com contato conferido, luz ambiente/key/fill/rim ajustada e leitura da linha do tempo ampliada. As 13 cenas foram inspecionadas no navegador.",
+      "limitation": "A linguagem 3D é proposta original de estudo, não um baseline aprovado. A decisão estética final permanece com a criadora.",
+      "evidence": [
+        "research/frames/historia-rockstar-preview/rework-20261108-final/contact-sheet-scenes-t4.jpg",
+        "research/frames/historia-rockstar-preview/rework-20261108-final/desktop/s01-t4.png",
+        "research/frames/historia-rockstar-preview/rework-20261108-final/desktop/s05-t4.png",
+        "research/frames/historia-rockstar-preview/rework-20261108-final/desktop/s09-t4.png"
+      ]
+    },
+    {
+      "id": "rockstar-preview-002",
+      "domain": "threejs-reference-process",
+      "severity": "P1",
+      "status": "resolved",
+      "observation": "A revisão inicial não tinha registro de consulta Three.js específico.",
+      "correction": "Implementações JSM e fontes core próximas foram consultadas; limitações e adaptações estão registradas em kit/quality/decisions.md.",
+      "evidence": [
+        "kit/quality/decisions.md"
+      ]
+    },
+    {
+      "id": "rockstar-preview-003",
+      "domain": "narrative-coverage",
+      "severity": "P1",
+      "status": "resolved",
+      "observation": "O gate anterior tinha cobertura por capítulo sem plano beat a beat.",
+      "correction": "29 beats únicos ligados em ordem às 13 cenas; cada beat registra alvo, evento, estados, câmera, pausa e intenção sonora.",
+      "evidence": [
+        "kit/projects/historia-rockstar/beats.json",
+        "kit/projects/historia-rockstar/preview/scenes.json"
+      ]
+    },
+    {
+      "id": "rockstar-preview-004",
+      "domain": "motion-and-device-review",
+      "severity": "P1",
+      "status": "resolved-for-creator-review",
+      "observation": "A primeira revisão não tinha registro visual explícito do movimento entre estados narrativos.",
+      "correction": "Ajustei e inspecionei visualmente câmera e movimentos nas cenas alteradas; a cena 07 ganhou aproximações por diorama e retorno ao plano geral.",
+      "evidence": [
+        "research/frames/historia-rockstar-preview/manual-review-20261108.md"
+      ],
+      "limitation": "Revisão visual qualitativa em pontos escolhidos; sem alegação de cobertura exaustiva ou de render final."
+    },
+    {
+      "id": "rockstar-preview-005",
+      "domain": "post-processing-and-edge-quality",
+      "severity": "P2",
+      "status": "resolved-for-creator-review",
+      "observation": "A prévia desenhava direto no canvas; o primeiro ajuste de bloom lavou as altas luzes na fotografia e na mesa.",
+      "correction": "Consultei os módulos JSM locais e configurei composer com SMAA, saída ACES/SRGB e bloom contido. A cadeia permanece na prévia e foi inspecionada junto às composições alteradas.",
+      "limitation": "Não há baseline aprovado de pós-processamento nem direção final de color grade; a proposta deve ser julgada pela criadora.",
+      "evidence": [
+        "kit/quality/decisions.md",
+        "research/frames/historia-rockstar-preview/manual-review-20261108.md"
+      ]
+    },
+    {
+      "id": "rockstar-production-001",
+      "domain": "expanded-shot-coverage",
+      "severity": "P1",
+      "status": "resolved-for-creator-review",
+      "observation": "O storyboard expandido cobria 143 frases, mas o passe integral de motion/layout ainda não estava registrado.",
+      "correction": "Concluído o passe das 143 tomadas em cinco checkpoints, com 715 capturas, revisão das folhas de contato, nova amostragem das cinco cenas refinadas, seek fora de ordem sem divergências e revisão mobile representativa. Legenda provisória permanece ligada ao texto exato.",
+      "limitation": "Não é vídeo final: duração depende da voz, SRT e mix estão pendentes; lista do projeto e aprovação individual dos assets continuam pendentes da criadora.",
+      "evidence": [
+        "research/frames/historia-rockstar-production-preview/2026-11-09/full-refresh/contact-t000-preparacao.jpg",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/full-refresh/contact-t145-acao.jpg",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/full-refresh/contact-t325-contato.jpg",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/full-refresh/contact-t535-reacao.jpg",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/full-refresh/contact-t800-resultado.jpg",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/temporal-seek-validation.json",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/mobile/mobile-review.json"
+      ]
+    },
+    {
+      "id": "rockstar-production-002",
+      "domain": "sprite-and-reveal-proportions",
+      "severity": "P1",
+      "status": "resolved-for-creator-review",
+      "observation": "O sampler compartilhado deformava sprites e os registros QA cobriam apenas as últimas 20 cenas.",
+      "correction": "Preservação proporcional dos eixos XYZ ficou no código comum; após o patch, as 143 tomadas foram reamostradas nos cinco pontos e a tela mobile foi conferida em amostras representativas.",
+      "limitation": "Os quadros e o relatório do browser provam QA da prévia no escopo registrado, não sincronismo com voz nem qualidade do vídeo final.",
+      "evidence": [
+        "research/frames/historia-rockstar-production-preview/2026-11-09/full-refresh/",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/expanded-scenes/refinement-065-070.jpg",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/expanded-scenes/refinement-086-110-124.jpg"
+      ]
+    },
+    {
+      "id": "rockstar-production-003",
+      "domain": "post-processing-and-terminal-scene",
+      "severity": "P1",
+      "status": "resolved-for-creator-review",
+      "observation": "Take 143 rendered as an empty frame through the normal EffectComposer chain while direct rendering and the composer without Bloom showed the scene.",
+      "correction": "Removed the translucent ghost block that triggered the blank output in this composition; upward routes and the open frame retain the dimensional-choice visual. The full composer chain now renders the closing scene.",
+      "limitation": "A correção foi rechecado no passe integral atual; segue sujeita à avaliação visual da criadora.",
+      "evidence": [
+        "research/frames/historia-rockstar-production-preview/2026-11-09/full-refresh/contact-t800-resultado.jpg",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/expanded-scenes/"
+      ]
+    },
+    {
+      "id": "rockstar-production-004",
+      "domain": "evidence-card-and-caption-hierarchy",
+      "severity": "P2",
+      "status": "resolved-for-creator-review",
+      "observation": "Os takes 70, 86, 110 e 124 apresentavam rótulos concorrentes ou elementos que podiam sugerir uma ação diferente do texto narrado; no take 65 a pessoa nomeada ainda era uma silhueta genérica.",
+      "correction": "Cartelas foram consolidadas em um único card central por evento; no registro financeiro o marcador chega à cláusula sem afirmar que houve pagamento; a foto de Jones é identificada como retrato de 2003, com autor, licença e limite de contexto. Legendas permanecem exatas e em faixa própria.",
+      "limitation": "Fotos e assets continuam candidatos. A decisão estética permanece com a criadora.",
+      "evidence": [
+        "research/frames/historia-rockstar-production-preview/2026-11-09/expanded-scenes/refinement-065-070.jpg",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/expanded-scenes/refinement-086-110-124.jpg",
+        "kit/projects/historia-rockstar/preview/media-credits.json"
+      ]
+    },
+    {
+      "id": "rockstar-production-005",
+      "domain": "portrait-evidence-card-and-mobile-caption-clearance",
+      "severity": "P1",
+      "status": "resolved-for-creator-review",
+      "observation": "No take 065, os rótulos separados do retrato comprimiam crédito e contexto no celular; a legenda e o card ficavam próximos demais durante a saída da câmera.",
+      "correction": "O recurso local foi redesenhado como painel horizontal com foto sem distorção, padding equilibrado e coluna para nome, data, autor, CC BY 2.0 e limite de contexto. O grupo 3D acompanha o enquadramento e limita escala pela altura disponível, a UI técnica some enquanto o card está em leitura e a linha temporal/fixa “ANOS DEPOIS” saem antes do pullback final. A origem correta aparece no inspector.",
+      "limitation": "O retrato documenta David Jones em 2003, não a campanha; continua candidato e aguarda revisão individual e validação do plano. Tempos de leitura finais dependem da voz.",
+      "evidence": [
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-2_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-3_25.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-5_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-desktop-final-v3-8.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-2_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-3_25.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-5_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-mobile-final-v3-8.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-seek-first-5_35.png",
+        "research/frames/historia-rockstar-production-preview/2026-11-09/final-adjusted/take65-seek-last-5_35.png",
+        "kit/projects/historia-rockstar/preview/media-credits.json",
+        "kit/quality/decisions.md"
+      ]
+    }
+  ],
+  "releaseRule": "Status ready-for-creator-review significa que os gates de prévia foram conferidos e não há P0/P1 aberto; não significa aprovação humana da prévia, da lista, de assets ou de produção. A aprovação da lista e a revisão de cada recurso permanecem pendentes. Voz, sincronismo final das legendas/SRT, áudio e render não fazem parte deste escopo.",
+  "updatedAt": "2026-11-09"
+}

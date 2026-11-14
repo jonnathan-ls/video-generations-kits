@@ -1,0 +1,19 @@
+{
+  "id": "iluminacao_cinematica_1912",
+  "label": "Iluminação marítima e interior com reflexos",
+  "module": "cinematic-period-lighting.js",
+  "kind": "lighting",
+  "variants": [
+    "padrao"
+  ],
+  "description": "Reflexos de faixas quentes/frias sobre materiais físicos e luz com sombra de contato para inserts e espaços de 1912.",
+  "category": "direcao de arte historica",
+  "aliases": [
+    "Iluminação marítima e interior com reflexos"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:cinematic-lighting"
+  },
+  "baselineIds": []
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "32baf514cd3fcb581988c067ba13f6b1688ee49d5225629c78bf8813be9bc948",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "animation-radiacao-e-transferencia",
+      "meshes": 23,
+      "triangles": 13272,
+      "dimensions": [
+        4.134994387626648,
+        4.34999999165535,
+        3.795
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "animation-radiacao-e-transferencia: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.552Z"
+}

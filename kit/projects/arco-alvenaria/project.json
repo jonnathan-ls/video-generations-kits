@@ -1,0 +1,2280 @@
+{
+  "schemaVersion": 1,
+  "id": "arco-alvenaria",
+  "title": "Como um arco de alvenaria sustenta um vão — narrativa E3",
+  "format": "vertical-short",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 41.576,
+  "frameCount": 1248,
+  "assetPlan": {
+    "reviewed": true,
+    "unresolved": []
+  },
+  "voice": {
+    "id": "pm_santa",
+    "approved": true,
+    "source": "audio/narrative-auditions/E3/preview.wav",
+    "speechDuration": 38.386,
+    "takeApproved": true
+  },
+  "audio": {
+    "voice": "audio/narrative-auditions/E3/preview.wav",
+    "events": [
+      {
+        "time": 1.35,
+        "duration": 0.24,
+        "volume": 0.82,
+        "anchor": "encaixa",
+        "cause": "Toque de alvenaria no assentamento da última cunha.",
+        "assetId": "som_alvenaria_batida",
+        "revision": "74952614a470b4e4"
+      },
+      {
+        "time": 7.16,
+        "duration": 0.34,
+        "volume": 0.82,
+        "anchor": "quando eles cedem",
+        "cause": "Whoosh acompanha a entrada das setas de empuxo e reação.",
+        "assetId": "som_movimento",
+        "revision": "43edcd17293bc83e"
+      },
+      {
+        "time": 7.68,
+        "duration": 0.26,
+        "volume": 0.8,
+        "anchor": "cedem",
+        "cause": "Impacto curto quando os pilares cedem ao empurrão.",
+        "assetId": "som_impacto",
+        "revision": "ad51952281919fa6"
+      },
+      {
+        "time": 8.78,
+        "duration": 0.24,
+        "volume": 0.78,
+        "anchor": "se abrem",
+        "cause": "Contato seco pontua a abertura localizada das juntas, sem sugerir quebra.",
+        "assetId": "som_alvenaria_batida",
+        "revision": "74952614a470b4e4"
+      },
+      {
+        "time": 15.46,
+        "duration": 0.24,
+        "volume": 0.8,
+        "anchor": "se comprimem",
+        "cause": "Toque curto de alvenaria quando as cunhas se assentam sob compressão.",
+        "assetId": "som_alvenaria_batida",
+        "revision": "74952614a470b4e4"
+      },
+      {
+        "time": 26.16,
+        "duration": 0.42,
+        "volume": 0.82,
+        "anchor": "cimbre de madeira",
+        "cause": "Rangido leve acompanha o cimbre subindo e tocando o intradorso.",
+        "assetId": "som_madeira_creak",
+        "revision": "7c367c89d7f61d4d"
+      },
+      {
+        "time": 30.78,
+        "duration": 0.3,
+        "volume": 0.8,
+        "anchor": "só então",
+        "cause": "Esforço de madeira marca o começo da descida, depois de o anel ficar estável.",
+        "assetId": "som_madeira_creak",
+        "revision": "7c367c89d7f61d4d"
+      },
+      {
+        "time": 31.64,
+        "duration": 0.34,
+        "volume": 0.84,
+        "anchor": "retirado",
+        "cause": "Whoosh sincronizado ao afastamento visível do cimbre.",
+        "assetId": "som_movimento",
+        "revision": "43edcd17293bc83e"
+      }
+    ],
+    "music": {
+      "off": true,
+      "reason": "Prévia seca para revisar voz, montagem e efeitos sem trilha competindo com o mecanismo."
+    },
+    "mix": {
+      "voice": 1
+    },
+    "alignment": {
+      "source": "audio/narrative-auditions/E3/alignment-whisper/alignment.json",
+      "method": "Whisper por palavra; pausas revistos para a tomada atual e grafia preservada conforme o roteiro",
+      "wordCount": 125,
+      "mismatchCount": 5
+    }
+  },
+  "captionStyle": {
+    "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif",
+    "fontSize": 52,
+    "fontWeight": 700,
+    "y": 1218,
+    "maxWidth": 930,
+    "background": "#141b1f",
+    "backgroundOpacity": 0.86,
+    "color": "#ffffff"
+  },
+  "captions": [
+    {
+      "id": "cap-001",
+      "text": "A última cunha encaixa,",
+      "start": 0,
+      "duration": 1.54,
+      "wordCount": 4,
+      "sourceWords": [
+        "A",
+        "última",
+        "cunha",
+        "encaixa"
+      ],
+      "firstWordIndex": 0,
+      "lastWordIndex": 3
+    },
+    {
+      "id": "cap-002",
+      "text": "mas o que impede",
+      "start": 1.88,
+      "duration": 1.04,
+      "wordCount": 4,
+      "sourceWords": [
+        "Mas",
+        "o",
+        "que",
+        "impede"
+      ],
+      "firstWordIndex": 4,
+      "lastWordIndex": 7
+    },
+    {
+      "id": "cap-003",
+      "text": "o arco de cair?",
+      "start": 2.92,
+      "duration": 1.04,
+      "wordCount": 4,
+      "sourceWords": [
+        "o",
+        "arco",
+        "de",
+        "cair"
+      ],
+      "firstWordIndex": 8,
+      "lastWordIndex": 11
+    },
+    {
+      "id": "cap-004",
+      "text": "O arco empurra os pilares",
+      "start": 4.68,
+      "duration": 1.4,
+      "wordCount": 5,
+      "sourceWords": [
+        "O",
+        "arco",
+        "empurra",
+        "os",
+        "pilares"
+      ],
+      "firstWordIndex": 12,
+      "lastWordIndex": 16
+    },
+    {
+      "id": "cap-005",
+      "text": "para os lados.",
+      "start": 6.08,
+      "duration": 0.74,
+      "wordCount": 3,
+      "sourceWords": [
+        "para",
+        "os",
+        "lados"
+      ],
+      "firstWordIndex": 17,
+      "lastWordIndex": 19
+    },
+    {
+      "id": "cap-006",
+      "text": "Quando eles cedem,",
+      "start": 7.16,
+      "duration": 0.92,
+      "wordCount": 3,
+      "sourceWords": [
+        "Quando",
+        "eles",
+        "cedem"
+      ],
+      "firstWordIndex": 20,
+      "lastWordIndex": 22
+    },
+    {
+      "id": "cap-007",
+      "text": "as juntas se abrem,",
+      "start": 8.22,
+      "duration": 0.9,
+      "wordCount": 4,
+      "sourceWords": [
+        "as",
+        "juntas",
+        "se",
+        "abrem"
+      ],
+      "firstWordIndex": 23,
+      "lastWordIndex": 26
+    },
+    {
+      "id": "cap-008",
+      "text": "e o anel perde contato.",
+      "start": 9.12,
+      "duration": 1.66,
+      "wordCount": 5,
+      "sourceWords": [
+        "e",
+        "o",
+        "anel",
+        "perde",
+        "contato"
+      ],
+      "firstWordIndex": 27,
+      "lastWordIndex": 31
+    },
+    {
+      "id": "cap-009",
+      "text": "Então, como um arco pronto",
+      "start": 11.24,
+      "duration": 1.42,
+      "wordCount": 5,
+      "sourceWords": [
+        "Então",
+        "como",
+        "um",
+        "arco",
+        "pronto"
+      ],
+      "firstWordIndex": 32,
+      "lastWordIndex": 36
+    },
+    {
+      "id": "cap-010",
+      "text": "se mantém de pé?",
+      "start": 12.66,
+      "duration": 1.1,
+      "wordCount": 4,
+      "sourceWords": [
+        "se",
+        "mantém",
+        "de",
+        "pé"
+      ],
+      "firstWordIndex": 37,
+      "lastWordIndex": 40
+    },
+    {
+      "id": "cap-011",
+      "text": "As cunhas se comprimem",
+      "start": 14.42,
+      "duration": 1.24,
+      "wordCount": 4,
+      "sourceWords": [
+        "As",
+        "cunhas",
+        "se",
+        "comprimem"
+      ],
+      "firstWordIndex": 41,
+      "lastWordIndex": 44
+    },
+    {
+      "id": "cap-012",
+      "text": "umas contra as outras.",
+      "start": 15.66,
+      "duration": 1.02,
+      "wordCount": 4,
+      "sourceWords": [
+        "umas",
+        "contra",
+        "as",
+        "outras"
+      ],
+      "firstWordIndex": 45,
+      "lastWordIndex": 48
+    },
+    {
+      "id": "cap-013",
+      "text": "A curva leva a carga",
+      "start": 17.18,
+      "duration": 1.04,
+      "wordCount": 5,
+      "sourceWords": [
+        "A",
+        "curva",
+        "leva",
+        "a",
+        "carga"
+      ],
+      "firstWordIndex": 49,
+      "lastWordIndex": 53
+    },
+    {
+      "id": "cap-014",
+      "text": "até os dois pilares,",
+      "start": 18.22,
+      "duration": 1.12,
+      "wordCount": 4,
+      "sourceWords": [
+        "até",
+        "os",
+        "dois",
+        "pilares"
+      ],
+      "firstWordIndex": 54,
+      "lastWordIndex": 57
+    },
+    {
+      "id": "cap-015",
+      "text": "e a argamassa mantém",
+      "start": 19.34,
+      "duration": 1.44,
+      "wordCount": 4,
+      "sourceWords": [
+        "e",
+        "a",
+        "argamassa",
+        "mantém"
+      ],
+      "firstWordIndex": 58,
+      "lastWordIndex": 61
+    },
+    {
+      "id": "cap-016",
+      "text": "as peças em contato.",
+      "start": 20.78,
+      "duration": 1.46,
+      "wordCount": 4,
+      "sourceWords": [
+        "as",
+        "peças",
+        "em",
+        "contato"
+      ],
+      "firstWordIndex": 62,
+      "lastWordIndex": 65
+    },
+    {
+      "id": "cap-017",
+      "text": "Mas, durante a montagem,",
+      "start": 22.62,
+      "duration": 1.24,
+      "wordCount": 4,
+      "sourceWords": [
+        "Mas",
+        "durante",
+        "a",
+        "montagem"
+      ],
+      "firstWordIndex": 66,
+      "lastWordIndex": 69
+    },
+    {
+      "id": "cap-018",
+      "text": "quem sustenta as cunhas?",
+      "start": 23.86,
+      "duration": 1.4,
+      "wordCount": 4,
+      "sourceWords": [
+        "quem",
+        "sustenta",
+        "as",
+        "cunhas"
+      ],
+      "firstWordIndex": 70,
+      "lastWordIndex": 73
+    },
+    {
+      "id": "cap-019",
+      "text": "O cimbre de madeira",
+      "start": 25.9,
+      "duration": 1.1,
+      "wordCount": 4,
+      "sourceWords": [
+        "O",
+        "cimbre",
+        "de",
+        "madeira"
+      ],
+      "firstWordIndex": 74,
+      "lastWordIndex": 77
+    },
+    {
+      "id": "cap-020",
+      "text": "sustenta as cunhas",
+      "start": 27,
+      "duration": 1.06,
+      "wordCount": 3,
+      "sourceWords": [
+        "sustenta",
+        "as",
+        "cunhas"
+      ],
+      "firstWordIndex": 78,
+      "lastWordIndex": 80
+    },
+    {
+      "id": "cap-021",
+      "text": "até o anel se fechar",
+      "start": 28.3,
+      "duration": 1.1,
+      "wordCount": 5,
+      "sourceWords": [
+        "até",
+        "o",
+        "anel",
+        "se",
+        "fechar"
+      ],
+      "firstWordIndex": 81,
+      "lastWordIndex": 85
+    },
+    {
+      "id": "cap-022",
+      "text": "e ficar estável.",
+      "start": 29.4,
+      "duration": 1,
+      "wordCount": 3,
+      "sourceWords": [
+        "e",
+        "ficar",
+        "estável"
+      ],
+      "firstWordIndex": 86,
+      "lastWordIndex": 88
+    },
+    {
+      "id": "cap-023",
+      "text": "Só então ele é retirado.",
+      "start": 30.7,
+      "duration": 1.56,
+      "wordCount": 5,
+      "sourceWords": [
+        "Só",
+        "então",
+        "ele",
+        "é",
+        "retirado"
+      ],
+      "firstWordIndex": 89,
+      "lastWordIndex": 93
+    },
+    {
+      "id": "cap-024",
+      "text": "A peça do topo fecha o anel,",
+      "start": 32.76,
+      "duration": 1.52,
+      "wordCount": 7,
+      "sourceWords": [
+        "A",
+        "peça",
+        "do",
+        "topo",
+        "fecha",
+        "o",
+        "anel"
+      ],
+      "firstWordIndex": 94,
+      "lastWordIndex": 100
+    },
+    {
+      "id": "cap-025",
+      "text": "mas não sustenta o arco sozinha.",
+      "start": 34.38,
+      "duration": 1.72,
+      "wordCount": 6,
+      "sourceWords": [
+        "mas",
+        "não",
+        "sustenta",
+        "o",
+        "arco",
+        "sozinha"
+      ],
+      "firstWordIndex": 101,
+      "lastWordIndex": 106
+    },
+    {
+      "id": "cap-026",
+      "text": "Os pilares resistem a esse empurrão,",
+      "start": 36.52,
+      "duration": 1.88,
+      "wordCount": 6,
+      "sourceWords": [
+        "Os",
+        "pilares",
+        "resistem",
+        "a",
+        "esse",
+        "empurrão"
+      ],
+      "firstWordIndex": 107,
+      "lastWordIndex": 112
+    },
+    {
+      "id": "cap-027",
+      "text": "e a carga desce até o chão",
+      "start": 38.4,
+      "duration": 1.66,
+      "wordCount": 7,
+      "sourceWords": [
+        "e",
+        "a",
+        "carga",
+        "desce",
+        "até",
+        "o",
+        "chão"
+      ],
+      "firstWordIndex": 113,
+      "lastWordIndex": 119
+    },
+    {
+      "id": "cap-028",
+      "text": "assim, o vão fica livre.",
+      "start": 40.08,
+      "duration": 1.3,
+      "wordCount": 5,
+      "sourceWords": [
+        "assim",
+        "o",
+        "vão",
+        "fica",
+        "livre"
+      ],
+      "firstWordIndex": 120,
+      "lastWordIndex": 124
+    }
+  ],
+  "scenes": [
+    {
+      "id": "keystone-snap",
+      "label": "A última cunha encaixa",
+      "start": 0,
+      "duration": 1.54,
+      "explanation": "A cunha final completa a coroa.",
+      "action": "A peça desce de frente e assenta no encaixe em menos de um segundo; o contato recebe um toque curto.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "encaixe_coroamento",
+          "revision": "9ecdede324da9dab",
+          "target": "arch",
+          "params": {
+            "arch": "arch"
+          },
+          "timeOffset": 0
+        }
+      ],
+      "camera": {
+        "from": [
+          0,
+          4.45,
+          8.2
+        ],
+        "to": [
+          0.12,
+          4.1,
+          8.8
+        ],
+        "targetFrom": [
+          0,
+          4.06,
+          -0.57
+        ],
+        "targetTo": [
+          0,
+          4.03,
+          -0.57
+        ],
+        "moveDuration": 1.54
+      }
+    },
+    {
+      "id": "hook-pullback",
+      "label": "Mas o que impede o arco de cair?",
+      "start": 1.54,
+      "duration": 3.58,
+      "explanation": "A pergunta abre o quadro enquanto a voz começa com “Mas”.",
+      "action": "A câmera recua da coroa até revelar o arco inteiro, os pilares alinhados e o cenário; continua se movendo até o próximo corte.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          0.12,
+          4.1,
+          8.8
+        ],
+        "to": [
+          0,
+          3.6,
+          20.5
+        ],
+        "targetFrom": [
+          0,
+          4.03,
+          -0.57
+        ],
+        "targetTo": [
+          0,
+          2.1,
+          -0.57
+        ],
+        "moveDuration": 3.58
+      }
+    },
+    {
+      "id": "support-moves-once",
+      "label": "O arco empurra os pilares",
+      "start": 5.12,
+      "duration": 2.04,
+      "explanation": "O arco empurra os pilares para os lados.",
+      "action": "O apoio direito cede uma única vez enquanto a fala nomeia o empurrão; a mudança começa em “empurra” e termina antes de “quando eles cedem”.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "instabilidade_apoio_arco",
+          "revision": "ddd5a59292dadc25",
+          "target": "arch",
+          "params": {
+            "arch": "arch",
+            "supports": "supports"
+          },
+          "timeOffset": 0
+        }
+      ],
+      "camera": {
+        "from": [
+          1.4,
+          3.05,
+          15.6
+        ],
+        "to": [
+          2.45,
+          2.75,
+          13
+        ],
+        "targetFrom": [
+          1.2,
+          2.05,
+          -0.57
+        ],
+        "targetTo": [
+          2.45,
+          1.95,
+          -0.57
+        ],
+        "moveDuration": 2.04
+      }
+    },
+    {
+      "id": "thrust-arrows",
+      "label": "Quando eles cedem",
+      "start": 7.16,
+      "duration": 1.06,
+      "explanation": "As setas tornam o empuxo e a reação visíveis quando os pilares cedem.",
+      "action": "Setas vermelhas apontam para fora nos arranques e setas verdes azuladas respondem nos pilares; mantêm contorno escuro e escala legível.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "instabilidade_apoio_arco",
+          "revision": "ddd5a59292dadc25",
+          "target": "arch",
+          "params": {
+            "arch": "arch",
+            "supports": "supports"
+          },
+          "timeOffset": 1.3
+        },
+        {
+          "id": "empuxo_lateral_arco",
+          "revision": "f2ce5abf6d2c3c73",
+          "target": "arch",
+          "params": {
+            "arch": "arch"
+          },
+          "timeOffset": 0
+        }
+      ],
+      "camera": {
+        "from": [
+          0,
+          4.1,
+          24.5
+        ],
+        "to": [
+          0.25,
+          4.05,
+          23
+        ],
+        "targetFrom": [
+          0,
+          2.05,
+          -0.57
+        ],
+        "targetTo": [
+          0.2,
+          2.05,
+          -0.57
+        ],
+        "moveDuration": 1.06
+      }
+    },
+    {
+      "id": "joint-open-close",
+      "label": "As juntas se abrem",
+      "start": 8.22,
+      "duration": 0.9,
+      "explanation": "As juntas se abrem perto do arranque.",
+      "action": "Close frontal acompanha a abertura localizada; o apoio permanece no estado deslocado herdado da cena anterior.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "instabilidade_apoio_arco",
+          "revision": "ddd5a59292dadc25",
+          "target": "arch",
+          "params": {
+            "arch": "arch",
+            "supports": "supports"
+          },
+          "timeOffset": 3.52
+        }
+      ],
+      "camera": {
+        "from": [
+          3,
+          3.05,
+          11
+        ],
+        "to": [
+          2.85,
+          3.3,
+          9.4
+        ],
+        "targetFrom": [
+          2.7,
+          2.05,
+          -0.57
+        ],
+        "targetTo": [
+          2.85,
+          2.28,
+          -0.57
+        ],
+        "moveDuration": 0.9
+      }
+    },
+    {
+      "id": "ring-loss-context",
+      "label": "O anel perde contato",
+      "start": 9.12,
+      "duration": 1.66,
+      "explanation": "A perda de contato fica visível no anel.",
+      "action": "A câmera recua do detalhe até o arco e os dois pilares, sem reiniciar o deslocamento nem provocar um colapso.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "instabilidade_apoio_arco",
+          "revision": "ddd5a59292dadc25",
+          "target": "arch",
+          "params": {
+            "arch": "arch",
+            "supports": "supports"
+          },
+          "timeOffset": 4.76
+        }
+      ],
+      "camera": {
+        "from": [
+          2.85,
+          3.3,
+          9.4
+        ],
+        "to": [
+          0.4,
+          3.1,
+          18.5
+        ],
+        "targetFrom": [
+          2.85,
+          2.28,
+          -0.57
+        ],
+        "targetTo": [
+          0.4,
+          2,
+          -0.57
+        ],
+        "moveDuration": 1.66
+      }
+    },
+    {
+      "id": "stable-arch-question",
+      "label": "Então, como o arco se mantém?",
+      "start": 10.78,
+      "duration": 3.64,
+      "explanation": "A pergunta “Então, como um arco pronto se mantém de pé?” abre a resposta.",
+      "action": "Corte para o mesmo ambiente e para o arco íntegro; a câmera cruza para uma vista frontal ampla dos apoios.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          0.4,
+          3.1,
+          18.5
+        ],
+        "to": [
+          -0.2,
+          2.9,
+          20.5
+        ],
+        "targetFrom": [
+          0.4,
+          2,
+          -0.57
+        ],
+        "targetTo": [
+          0,
+          2.1,
+          -0.57
+        ],
+        "moveDuration": 3.64
+      }
+    },
+    {
+      "id": "wedge-compression",
+      "label": "As cunhas se comprimem",
+      "start": 14.42,
+      "duration": 2.76,
+      "explanation": "As cunhas se comprimem umas contra as outras.",
+      "action": "Setas douradas entram em sequência curta a partir da coroa enquanto a câmera acompanha a curva pela face frontal.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "trajeto_compressivo_arco",
+          "revision": "8e4b0b82ea1a022c",
+          "target": "arch",
+          "params": {
+            "arch": "arch"
+          },
+          "timeOffset": 0
+        }
+      ],
+      "camera": {
+        "from": [
+          -0.2,
+          2.9,
+          20.5
+        ],
+        "to": [
+          -1.2,
+          4,
+          12.8
+        ],
+        "targetFrom": [
+          0,
+          2.1,
+          -0.57
+        ],
+        "targetTo": [
+          -0.45,
+          3.2,
+          -0.57
+        ],
+        "moveDuration": 2.76
+      }
+    },
+    {
+      "id": "load-to-abutments",
+      "label": "A curva leva a carga",
+      "start": 17.18,
+      "duration": 2.58,
+      "explanation": "A curva leva a carga até os dois pilares.",
+      "action": "As setas percorrem o arco e chegam aos pilares; a câmera desce junto com o caminho da carga.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "trajeto_compressivo_arco",
+          "revision": "8e4b0b82ea1a022c",
+          "target": "arch",
+          "params": {
+            "arch": "arch"
+          },
+          "timeOffset": 2.74
+        }
+      ],
+      "camera": {
+        "from": [
+          -1.2,
+          4,
+          12.8
+        ],
+        "to": [
+          2.5,
+          2.25,
+          13.5
+        ],
+        "targetFrom": [
+          -0.45,
+          3.2,
+          -0.57
+        ],
+        "targetTo": [
+          2.25,
+          1.85,
+          -0.57
+        ],
+        "moveDuration": 2.58
+      }
+    },
+    {
+      "id": "mortar-close",
+      "label": "A argamassa mantém o contato",
+      "start": 19.76,
+      "duration": 2.86,
+      "explanation": "A argamassa mantém as peças em contato e conecta a explicação à montagem.",
+      "action": "Close móvel mostra juntas preenchidas entre as cunhas e abre o enquadramento antes da pergunta seguinte.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          1.25,
+          4,
+          8.9
+        ],
+        "to": [
+          -0.45,
+          4,
+          9.1
+        ],
+        "targetFrom": [
+          0.15,
+          4.18,
+          -0.57
+        ],
+        "targetTo": [
+          -0.2,
+          4.18,
+          -0.57
+        ],
+        "moveDuration": 2.86
+      }
+    },
+    {
+      "id": "centering-question-context",
+      "label": "Quem sustenta as cunhas?",
+      "start": 22.62,
+      "duration": 3.28,
+      "explanation": "A pergunta sobre a montagem prepara a entrada do cimbre.",
+      "action": "A câmera abre o espaço sob o arco enquanto a fala pergunta quem sustenta as cunhas.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          -0.45,
+          4,
+          9.1
+        ],
+        "to": [
+          0,
+          3.1,
+          18.6
+        ],
+        "targetFrom": [
+          -0.2,
+          4.18,
+          -0.57
+        ],
+        "targetTo": [
+          0,
+          1.7,
+          -0.57
+        ],
+        "moveDuration": 3.28
+      }
+    },
+    {
+      "id": "centering-assembly",
+      "label": "O cimbre entra",
+      "start": 25.9,
+      "duration": 2.4,
+      "explanation": "O cimbre de madeira aparece e sustenta as cunhas.",
+      "action": "Sapatas e escoras assentam primeiro; as costelas curvas se encaixam em sequência até tocar o intradorso.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "cimbra_arco",
+          "revision": "b8b04bda3274951d",
+          "variant": "padrao",
+          "instanceId": "centering",
+          "position": [
+            0,
+            0,
+            -0.57
+          ]
+        },
+        {
+          "id": "entrada_cimbra_arco",
+          "revision": "a80440f66d761db9",
+          "target": "centering",
+          "params": {
+            "centering": "centering",
+            "duration": 1.72
+          },
+          "timeOffset": 0
+        }
+      ],
+      "camera": {
+        "from": [
+          0,
+          3.1,
+          18.6
+        ],
+        "to": [
+          -2.2,
+          2.25,
+          14.8
+        ],
+        "targetFrom": [
+          0,
+          1.7,
+          -0.57
+        ],
+        "targetTo": [
+          -1.25,
+          2,
+          -0.57
+        ],
+        "moveDuration": 2.4
+      }
+    },
+    {
+      "id": "centering-contact",
+      "label": "O anel se fecha",
+      "start": 28.3,
+      "duration": 1.48,
+      "explanation": "O anel se fecha e fica estável.",
+      "action": "A câmera acompanha o ponto de contato e depois mostra arco, pilares e cimbre no mesmo enquadramento.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "cimbra_arco",
+          "revision": "b8b04bda3274951d",
+          "variant": "padrao",
+          "instanceId": "centering",
+          "position": [
+            0,
+            0,
+            -0.57
+          ]
+        },
+        {
+          "id": "entrada_cimbra_arco",
+          "revision": "a80440f66d761db9",
+          "target": "centering",
+          "params": {
+            "centering": "centering",
+            "duration": 1.72
+          },
+          "timeOffset": 1.76
+        }
+      ],
+      "camera": {
+        "from": [
+          -2.2,
+          2.25,
+          14.8
+        ],
+        "to": [
+          1.8,
+          2.75,
+          12.8
+        ],
+        "targetFrom": [
+          -1.25,
+          2,
+          -0.57
+        ],
+        "targetTo": [
+          1.35,
+          2.5,
+          -0.57
+        ],
+        "moveDuration": 1.48
+      }
+    },
+    {
+      "id": "stability-load",
+      "label": "Fica estável",
+      "start": 29.78,
+      "duration": 0.92,
+      "explanation": "Só então o cimbre é retirado.",
+      "action": "A madeira desce e desliza para a esquerda depois da palavra “estável”; o vão reaparece sem movimento do arco.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "cimbra_arco",
+          "revision": "b8b04bda3274951d",
+          "variant": "padrao",
+          "instanceId": "centering",
+          "position": [
+            0,
+            0,
+            -0.57
+          ]
+        },
+        {
+          "id": "entrada_cimbra_arco",
+          "revision": "a80440f66d761db9",
+          "target": "centering",
+          "params": {
+            "centering": "centering",
+            "duration": 1.72
+          },
+          "timeOffset": 3.64
+        },
+        {
+          "id": "trajeto_compressivo_arco",
+          "revision": "8e4b0b82ea1a022c",
+          "target": "arch",
+          "params": {
+            "arch": "arch"
+          },
+          "timeOffset": 0
+        }
+      ],
+      "camera": {
+        "from": [
+          1.8,
+          2.75,
+          12.8
+        ],
+        "to": [
+          0,
+          3.2,
+          18.2
+        ],
+        "targetFrom": [
+          1.35,
+          2.5,
+          -0.57
+        ],
+        "targetTo": [
+          0,
+          2.15,
+          -0.57
+        ],
+        "moveDuration": 0.92
+      }
+    },
+    {
+      "id": "centering-withdrawal",
+      "label": "Só então o cimbre sai",
+      "start": 30.7,
+      "duration": 2.06,
+      "explanation": "A peça do topo fecha o anel.",
+      "action": "Um arco de câmera curto atravessa a coroa e mostra a peça de fecho ligada às cunhas vizinhas.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "cimbra_arco",
+          "revision": "b8b04bda3274951d",
+          "variant": "padrao",
+          "instanceId": "centering",
+          "position": [
+            0,
+            0,
+            -0.57
+          ]
+        },
+        {
+          "id": "entrada_cimbra_arco",
+          "revision": "a80440f66d761db9",
+          "target": "centering",
+          "params": {
+            "centering": "centering",
+            "duration": 1.72
+          },
+          "timeOffset": 6.06
+        },
+        {
+          "id": "retirada_cimbra",
+          "revision": "72f9303be455b137",
+          "target": "arch",
+          "params": {
+            "arch": "arch",
+            "centering": "centering",
+            "withdrawX": -5.8,
+            "withdrawDuration": 0.82
+          },
+          "timeOffset": 0
+        }
+      ],
+      "camera": {
+        "from": [
+          0,
+          3.2,
+          18.2
+        ],
+        "to": [
+          -0.8,
+          3,
+          20
+        ],
+        "targetFrom": [
+          0,
+          2.15,
+          -0.57
+        ],
+        "targetTo": [
+          0,
+          2,
+          -0.57
+        ],
+        "moveDuration": 2.06
+      }
+    },
+    {
+      "id": "top-wedge-orbit",
+      "label": "A peça do topo fecha o anel",
+      "start": 32.76,
+      "duration": 1.62,
+      "explanation": "A peça do topo não sustenta o arco sozinha.",
+      "action": "A câmera recua da coroa e inclui o arco completo, com os pilares no mesmo plano frontal.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          2.2,
+          4.25,
+          10.3
+        ],
+        "to": [
+          -1.1,
+          4,
+          11.8
+        ],
+        "targetFrom": [
+          1,
+          3.95,
+          -0.57
+        ],
+        "targetTo": [
+          -0.2,
+          3.9,
+          -0.57
+        ],
+        "moveDuration": 1.62
+      }
+    },
+    {
+      "id": "top-not-alone",
+      "label": "Ela não sustenta sozinha",
+      "start": 34.38,
+      "duration": 2.14,
+      "explanation": "Os pilares resistem ao empurrão lateral.",
+      "action": "Setas de reação entram uma por pilar, sem repetir o par de setas da explicação anterior.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          -1.1,
+          4,
+          11.8
+        ],
+        "to": [
+          0,
+          2.85,
+          18.2
+        ],
+        "targetFrom": [
+          -0.2,
+          3.9,
+          -0.57
+        ],
+        "targetTo": [
+          0,
+          2,
+          -0.57
+        ],
+        "moveDuration": 2.14
+      }
+    },
+    {
+      "id": "abutments-react",
+      "label": "Os pilares resistem",
+      "start": 36.52,
+      "duration": 1.88,
+      "explanation": "A carga desce dos pilares até o chão.",
+      "action": "A câmera acompanha o trajeto até o contato da sapata com o piso, preservando a base inteira no quadro.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "empuxo_lateral_arco",
+          "revision": "f2ce5abf6d2c3c73",
+          "target": "arch",
+          "params": {
+            "arch": "arch",
+            "mode": "reaction-only"
+          },
+          "timeOffset": 0
+        }
+      ],
+      "camera": {
+        "from": [
+          0,
+          2.85,
+          18.2
+        ],
+        "to": [
+          0.35,
+          2.75,
+          19.5
+        ],
+        "targetFrom": [
+          0,
+          2,
+          -0.57
+        ],
+        "targetTo": [
+          0.15,
+          1.9,
+          -0.57
+        ],
+        "moveDuration": 1.88
+      }
+    },
+    {
+      "id": "load-reaches-ground",
+      "label": "A carga desce ao chão",
+      "start": 38.4,
+      "duration": 1.68,
+      "explanation": "O vão fica livre depois que a carga encontra apoio.",
+      "action": "A câmera retorna ao contexto exterior e continua abrindo até o fim da fala.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "trajeto_compressivo_arco",
+          "revision": "8e4b0b82ea1a022c",
+          "target": "arch",
+          "params": {
+            "arch": "arch"
+          },
+          "timeOffset": 0
+        }
+      ],
+      "camera": {
+        "from": [
+          0.35,
+          2.75,
+          19.5
+        ],
+        "to": [
+          2.3,
+          0.62,
+          10.8
+        ],
+        "targetFrom": [
+          0.15,
+          1.9,
+          -0.57
+        ],
+        "targetTo": [
+          2.3,
+          0.32,
+          -0.57
+        ],
+        "moveDuration": 1.68
+      }
+    },
+    {
+      "id": "free-span-payoff",
+      "label": "O vão fica livre",
+      "start": 40.08,
+      "duration": 1.493,
+      "explanation": "Retorno ao contexto externo paga a pergunta inicial com o arco apoiado e sem a cimbra.",
+      "action": "A câmera recua e sobe um pouco, mantendo arco, encontros, piso, casa e jardim no quadro; o movimento continua até o fim da fala.",
+      "assets": [
+        {
+          "id": "chao",
+          "revision": "a842549d9351fbc2",
+          "variant": "concreto"
+        },
+        {
+          "id": "contexto_arco_jardim",
+          "revision": "5bf15975d7a3adb1",
+          "instanceId": "context"
+        },
+        {
+          "id": "arco_alvenaria",
+          "revision": "eda066931e8374ac",
+          "variant": "padrao",
+          "instanceId": "arch",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "argamassa_juntas_arco",
+          "revision": "cf0393396a47e47c",
+          "variant": "padrao",
+          "instanceId": "mortar",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        },
+        {
+          "id": "apoios_arco",
+          "revision": "1de2f3747723c4f2",
+          "variant": "padrao",
+          "instanceId": "supports",
+          "position": [
+            0,
+            0,
+            -0.67
+          ]
+        }
+      ],
+      "camera": {
+        "from": [
+          0,
+          3.1,
+          20.5
+        ],
+        "to": [
+          0,
+          3.7,
+          24.5
+        ],
+        "targetFrom": [
+          0,
+          1.95,
+          -0.57
+        ],
+        "targetTo": [
+          0,
+          2.1,
+          -0.57
+        ],
+        "moveDuration": 1.493
+      }
+    }
+  ],
+  "narration": "A última cunha encaixa,\n\nmas o que impede o arco de cair?\n\nO arco empurra os pilares para os lados. Quando eles cedem, as juntas se abrem, e o anel perde contato.\n\nEntão, como um arco pronto se mantém de pé?\n\nAs cunhas se comprimem umas contra as outras. A curva leva a carga até os dois pilares, e a argamassa mantém as peças em contato.\n\nMas, durante a montagem, quem sustenta as cunhas?\n\nO cimbre de madeira sustenta as cunhas até o anel se fechar e ficar estável. Só então ele é retirado.\n\nA peça do topo fecha o anel, mas não sustenta o arco sozinha. Os pilares resistem a esse empurrão, e a carga desce até o chão — assim, o vão fica livre.\n"
+}

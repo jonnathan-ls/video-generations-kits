@@ -1,0 +1,25 @@
+{
+  "videoId": "kLzkFrT_4iI",
+  "title": "HISTÓRIA DA ROCKSTAR: DE UMA FÁBRICA FALIDA AO MAIOR LANÇAMENTO DA HISTÓRIA",
+  "channel": "Ei Nerd",
+  "url": "https://www.youtube.com/watch?v=kLzkFrT_4iI",
+  "uploadDate": "2026-07-11",
+  "durationSeconds": 1378,
+  "collectedAt": "2026-11-07",
+  "userPointedTimestampSeconds": 1218,
+  "transcripts": {
+    "youtubeOriginalPortuguese": "research/transcripts/kLzkFrT_4iI.pt-BR-orig.vtt",
+    "whisperSmallCpuCheck": "research/transcripts/kLzkFrT_4iI.whisper-small.pt-BR.md",
+    "translatedPortugueseTrack": "HTTP 429; not required for analysis"
+  },
+  "visualEvidence": {
+    "framesDirectory": "research/frames/kLzkFrT_4iI",
+    "downloadedSourceRetained": false,
+    "useAsProductionAssets": false
+  },
+  "notes": [
+    "Source used only to study high-level narrative and editing structure.",
+    "Facts, rumors, figures, and biographies are checked separately before use.",
+    "No host lines, channel promotion, music, gameplay, screenshots, or source visuals are planned for reuse."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "retirada_cimbra",
+  "label": "Descida e retirada do cimbre",
+  "kind": "animation",
+  "category": "animacoes",
+  "module": "arco-retirada-cimbra.js",
+  "description": "As costelas e travessas do cimbre descem de modo controlado, as escoras encurtam e a estrutura temporária se afasta pela frente; arco e apoios permanecem imóveis.",
+  "aliases": [
+    "retirada do cimbre",
+    "descida do cimbre",
+    "escoramento temporário desce"
+  ],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:lower-centering",
+    "projectId": "arco-alvenaria"
+  },
+  "variants": [],
+  "baselineIds": []
+}

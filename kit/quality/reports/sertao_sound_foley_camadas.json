@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "6510bbe46cb1699a6ec7165de5ff5c6086242b1cd227393248066d5c88bde62a",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "sound-foley-camadas",
+      "meshes": 5,
+      "triangles": 60,
+      "dimensions": [
+        0.655,
+        0.48,
+        0.055
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.701Z"
+}

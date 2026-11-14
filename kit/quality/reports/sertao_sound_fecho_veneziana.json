@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "ff0ea85abb082548d7c33388a455caa0318563ce3a39fcb5401a1de982e7e6a5",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "sound-fecho-veneziana",
+      "meshes": 5,
+      "triangles": 60,
+      "dimensions": [
+        0.655,
+        0.48,
+        0.055
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.807Z"
+}

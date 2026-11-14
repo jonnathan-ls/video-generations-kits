@@ -1,0 +1,11 @@
+import * as THREE from 'three';
+const cache=new Map();
+function texture(kind){if(cache.has(kind))return cache.get(kind);const N=512,data=new Uint8Array(N*N*4);for(let y=0;y<N;y++)for(let x=0;x<N;x++){const u=x/N,v=y/N,noise=Math.sin(x*127.1+y*311.7)*43758.5453,grain=noise-Math.floor(noise);let rgb;
+ if(kind==='wood'){const bend=Math.sin(v*12)*.018+Math.sin(v*35)*.006;const line=Math.sin((u+bend)*390+Math.sin(u*51+v*9)*2);const fine=Math.sin((u+bend)*1500+v*4);const ring=(line*.5+.5)**10;const n=.94+.025*fine+.035*grain-.08*ring;rgb=[111*n,57*n,29*n];}
+ else if(kind==='fabric'){const weave=((x%4<2)?1:0)*.06+((y%4<2)?1:0)*.06;rgb=[55+grain*8+weave*50,78+grain*8+weave*60,67+grain*8+weave*55];}
+ else {const vein=Math.sin(u*20+v*12+Math.sin(u*8-v*6)*3);const n=.85+.08*grain-.12*Math.exp(-vein*vein*120);rgb=[224*n,217*n,195*n];}
+ const i=(y*N+x)*4;data[i]=rgb[0];data[i+1]=rgb[1];data[i+2]=rgb[2];data[i+3]=255;}
+ const t=new THREE.DataTexture(data,N,N,THREE.RGBAFormat);t.colorSpace=THREE.SRGBColorSpace;t.wrapS=t.wrapT=THREE.RepeatWrapping;t.magFilter=THREE.LinearFilter;t.minFilter=THREE.LinearMipmapLinearFilter;t.generateMipmaps=true;t.anisotropy=8;t.needsUpdate=true;cache.set(kind,t);return t;}
+export function surface(kind='wood'){if(kind==='brass')return new THREE.MeshStandardMaterial({color:'#bc9650',metalness:.92,roughness:.26});if(kind==='iron')return new THREE.MeshStandardMaterial({color:'#263336',metalness:.75,roughness:.36});if(kind==='glass')return new THREE.MeshPhysicalMaterial({color:'#b7d9df',metalness:.08,roughness:.13,transparent:true,opacity:.30,clearcoat:1});if(kind==='porcelain')return new THREE.MeshPhysicalMaterial({color:'#eee5ce',roughness:.2,clearcoat:.7});const map=texture(kind);return new THREE.MeshPhysicalMaterial({map,bumpMap:map,bumpScale:kind==='wood'?.0012:kind==='fabric'?.006:.003,roughness:kind==='wood'?.36:kind==='fabric'?.87:.25,metalness:0,clearcoat:kind==='wood'?.3:0,clearcoatRoughness:.3});}
+export function createMaterial(params={}){return surface(params.surface||'wood');}
+export function create(){const r=new THREE.Group();for(const [i,k]of ['wood','brass','fabric','stone'].entries()){const m=new THREE.Mesh(new THREE.BoxGeometry(.8,1.2,.12),surface(k));m.position.set((i-1.5)*.95,.6,0);r.add(m);}return r;}

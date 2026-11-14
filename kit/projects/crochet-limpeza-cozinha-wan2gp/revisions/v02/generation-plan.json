@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "projectId": "crochet-limpeza-cozinha-wan2gp",
+  "status": "prepared-before-generation-pending-creator-review",
+  "durationSeconds": 29.375,
+  "source": {
+    "url": "https://www.instagram.com/reel/Dck3Gz1SHr0/",
+    "localPath": "research/references/crochet-mini-kitchen/source.mp4",
+    "sha256": "b63e41ad90791c4ee3b86c32e4eb266076acd3743bad1456fb5cce3489732b55",
+    "samplingFps": 10,
+    "sampledFrames": 294,
+    "passedToModel": false,
+    "license": "not-verified; research-only"
+  },
+  "approach": {
+    "guide": "one deterministic local 3D kitchen and 12 beat-linked guide segments, built only after the plan and resource list are validated",
+    "wan2gpMode": "GUV",
+    "modelType": "t2v_nexus_1.3B",
+    "denoisingStrength": 0.1,
+    "denoisingStrengthEvidence": "starting value from a separate guide test recorded in kit/docs/wan2gp.md; not verified for crochet",
+    "checkpoint": {
+      "file": "wan2.1_t2v_1.3b.nexus.B-SMOOTHED.build.1.safetensors",
+      "sha256": "f970b3bc30aac8a687aedb51e9675f0f0eff0d24cf4921317dde900ebec66236"
+    },
+    "upstream": {
+      "version": "19.21",
+      "commit": "f0b54e02aa32b539e7be5c65cf4ada67db69da26"
+    },
+    "profile": "5",
+    "attention": "sdpa",
+    "resolution": "432x768",
+    "fps": 16,
+    "steps": 6,
+    "seedPolicy": {
+      "base": 20261109,
+      "step": 97,
+      "perBeat": "base + step * beatIndex, zero-based; fixed before any test"
+    }
+  },
+  "proofGate": {
+    "firstOnly": "01-pia-louca",
+    "modelOutputFrames": 61,
+    "modelOutputDurationSeconds": 3.8125,
+    "editorialDurationSeconds": 3.65,
+    "tailPolicy": "guide ends on a settled clean plate; trim the 0.1625 s model overrun only after motion QA confirms the contact is complete",
+    "expandOnlyIf": [
+      "all solid surfaces in the sampled frames read as crochet at phone size",
+      "the stitch scale stays stable from preparation through contact and result",
+      "the sponge stays in contact and the visible action includes soap, scrub, rinse and rack placement",
+      "the guide layout, palette and light remain stable",
+      "no P0/P1 finding remains in the hook review"
+    ]
+  },
+  "runBoundary": {
+    "generationStarted": false,
+    "gpuUsedByRevision02": false,
+    "doctorOrCudaCalled": false,
+    "guideRendered": false,
+    "videoRendered": false,
+    "finalAssemblyRendered": false,
+    "nextGate": "creator validates revision 02 and the resource plan; then GPU availability and explicit authorization are checked before any guide or Wan2GP render"
+  },
+  "replicability": {
+    "sourceHashPinned": true,
+    "modelHashPinned": true,
+    "upstreamCommitPinned": true,
+    "guideHash": null,
+    "nativeSettingsHash": null,
+    "reasonIncomplete": "guide and native GUV settings are deliberately not materialized before creator validation and the render boundary"
+  }
+}

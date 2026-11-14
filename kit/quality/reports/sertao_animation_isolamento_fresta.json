@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "ddd4a6022ed352c9a2432289e9e7f86295b9890660d4f7689d222411c5dca618",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "animation-isolamento-fresta",
+      "meshes": 50,
+      "triangles": 600,
+      "dimensions": [
+        5.215,
+        0.21399999999999997,
+        3.72
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.735Z"
+}

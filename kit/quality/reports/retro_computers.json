@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "f90b1cad03d428fe2507d63046b4b1105a6bb969f2bd6fa24ebe8ac03de531bf",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "shared-apple",
+      "meshes": 23,
+      "triangles": 5832,
+      "dimensions": [
+        12,
+        1.5299999886751177,
+        10
+      ]
+    },
+    {
+      "variant": "assembled-kit",
+      "meshes": 31,
+      "triangles": 10536,
+      "dimensions": [
+        12,
+        1.5299999886751177,
+        10
+      ]
+    },
+    {
+      "variant": "microcomputer",
+      "meshes": 23,
+      "triangles": 5832,
+      "dimensions": [
+        12,
+        1.5299999886751177,
+        10
+      ]
+    },
+    {
+      "variant": "16-bit",
+      "meshes": 23,
+      "triangles": 5832,
+      "dimensions": [
+        12,
+        1.5299999886751177,
+        10
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "shared-apple: recurso abaixo do chão; justificar contato no contrato.",
+    "assembled-kit: recurso abaixo do chão; justificar contato no contrato.",
+    "microcomputer: recurso abaixo do chão; justificar contato no contrato.",
+    "16-bit: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-09T11:57:16.966Z"
+}

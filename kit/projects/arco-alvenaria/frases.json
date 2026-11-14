@@ -1,0 +1,164 @@
+{
+  "0": {
+    "n": 1,
+    "texto": "Olha o lado direito:",
+    "inicio": 0,
+    "fim": 1.08
+  },
+  "1": {
+    "n": 2,
+    "texto": "o apoio se afasta",
+    "inicio": 1.22,
+    "fim": 2.26
+  },
+  "2": {
+    "n": 3,
+    "texto": "e as juntas abrem.",
+    "inicio": 2.26,
+    "fim": 3.26
+  },
+  "3": {
+    "n": 4,
+    "texto": "O que falhou primeiro?",
+    "inicio": 3.58,
+    "fim": 4.76
+  },
+  "4": {
+    "n": 5,
+    "texto": "O arco empurra os encontros",
+    "inicio": 5.32,
+    "fim": 6.6
+  },
+  "5": {
+    "n": 6,
+    "texto": "para fora; sem reação lateral,",
+    "inicio": 6.6,
+    "fim": 8.76
+  },
+  "6": {
+    "n": 7,
+    "texto": "as peças perdem contato e",
+    "inicio": 9.08,
+    "fim": 10.66
+  },
+  "7": {
+    "n": 8,
+    "texto": "o anel pode ceder.",
+    "inicio": 10.66,
+    "fim": 11.8
+  },
+  "8": {
+    "n": 9,
+    "texto": "Como isso não acontece",
+    "inicio": 12.3,
+    "fim": 13.6
+  },
+  "9": {
+    "n": 10,
+    "texto": "quando está pronto?",
+    "inicio": 13.6,
+    "fim": 14.62
+  },
+  "10": {
+    "n": 11,
+    "texto": "As cunhas se comprimem umas",
+    "inicio": 15.2,
+    "fim": 16.6
+  },
+  "11": {
+    "n": 12,
+    "texto": "contra as outras, e a curva",
+    "inicio": 16.6,
+    "fim": 18.2
+  },
+  "12": {
+    "n": 13,
+    "texto": "leva a carga aos dois apoios.",
+    "inicio": 18.2,
+    "fim": 19.96
+  },
+  "13": {
+    "n": 14,
+    "texto": "Juntas de argamassa ajustadas",
+    "inicio": 20.62,
+    "fim": 22
+  },
+  "14": {
+    "n": 15,
+    "texto": "mantêm o contato entre as peças.",
+    "inicio": 22,
+    "fim": 24.06
+  },
+  "15": {
+    "n": 16,
+    "texto": "Mas quem sustenta o arco",
+    "inicio": 24.44,
+    "fim": 26.1
+  },
+  "16": {
+    "n": 17,
+    "texto": "durante a montagem?",
+    "inicio": 26.1,
+    "fim": 27.16
+  },
+  "17": {
+    "n": 18,
+    "texto": "A cimbra segura a alvenaria",
+    "inicio": 27.16,
+    "fim": 29.18
+  },
+  "18": {
+    "n": 19,
+    "texto": "até que o conjunto possa",
+    "inicio": 29.18,
+    "fim": 30.54
+  },
+  "19": {
+    "n": 20,
+    "texto": "trabalhar sozinho. E o tijolo",
+    "inicio": 30.54,
+    "fim": 32.54
+  },
+  "20": {
+    "n": 21,
+    "texto": "do topo?",
+    "inicio": 32.54,
+    "fim": 33.54
+  },
+  "21": {
+    "n": 22,
+    "texto": "Ele fecha o anel, mas",
+    "inicio": 33.72,
+    "fim": 34.76
+  },
+  "22": {
+    "n": 23,
+    "texto": "não trabalha isolado.",
+    "inicio": 34.76,
+    "fim": 35.98
+  },
+  "23": {
+    "n": 24,
+    "texto": "Os encontros resistem ao empuxo,",
+    "inicio": 36.32,
+    "fim": 38.26
+  },
+  "24": {
+    "n": 25,
+    "texto": "a carga chega ao chão—",
+    "inicio": 38.44,
+    "fim": 39.68
+  },
+  "25": {
+    "n": 26,
+    "texto": "e a madeira pode sair",
+    "inicio": 39.68,
+    "fim": 40.94
+  },
+  "26": {
+    "n": 27,
+    "texto": "sem fechar o vão.",
+    "inicio": 40.94,
+    "fim": 41.84
+  }
+}

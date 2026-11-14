@@ -1,0 +1,4 @@
+import * as THREE from 'three';import {mat,mesh,beam,recipe,box} from './maritime-shapes.js';
+export function create(){const root=recipe('observation-bridge',[box('floor',[5,.18,4],[0,-.1,0],'#806b50'),box('port-cabin-wall',[.2,2.7,4],[-2.6,1.35,-.6],'#7d8c91'),box('port-window-frame',[.08,1.2,1.4],[-2.47,1.9,-.7],'#24363c')]);const metal=mat('#8c9ca1');for(const x of [-2.4,-1.2,0,1.2,2.4])beam(root,[x,0,1.8],[x,1.1,1.8],.025,metal);for(const y of [.45,.8,1.1])beam(root,[-2.4,y,1.8],[2.4,y,1.8],.025,metal);
+ for(let i=0;i<22;i++)beam(root,[-2.4,.005,-1.8+i*.17],[2.4,.005,-1.8+i*.17],.004,mat('#3d382e'));
+ mesh(root,new THREE.BoxGeometry(.08,2.8,.08),metal,[2.45,1.3,1.8]);const glow=mesh(root,new THREE.BoxGeometry(.03,1.05,1.25),new THREE.MeshStandardMaterial({color:'#b47f48',emissive:'#bd8b4d',emissiveIntensity:.65,roughness:.9}),[-2.42,1.9,-.7]);const lamp=new THREE.PointLight('#ffce8f',17,9,2);lamp.position.set(-1.8,2.2,1.4);root.add(lamp);return root;}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "narrationHash": null,
+  "narrative": false,
+  "unresolved": [
+    "A nitidez das laçadas e a continuidade do cenário só podem ser julgadas nos clips renderizados.",
+    "Os efeitos e a trilha ainda são especificações; fontes e mixagem aguardam produção e revisão auditiva."
+  ],
+  "decisions": [
+    {"id":"miniature-kitchen","action":"create","kind":"scene","reason":"Cozinha de boneca em L com layout constante, superfícies de crochê, paleta própria e janela à esquerda."},
+    {"id":"crochet-material-system","action":"create","kind":"material","reason":"Laçadas e carreiras de fio de algodão precisam manter relevo e escala legíveis nas superfícies."},
+    {"id":"hand-operator","action":"create","kind":"character","reason":"Mãos em escala humana com punhos azul-marinho dão referência de escala e executam as ações."},
+    {"id":"dish-cleaning-props","action":"create","kind":"object","reason":"Louça, esponja, torneira e escorredor sustentam a limpeza da pia."},
+    {"id":"stove-cleaning-props","action":"create","kind":"object","reason":"Cooktop, panela e pano sustentam as passadas de limpeza do fogão."},
+    {"id":"crumb-cleaning-props","action":"create","kind":"object","reason":"Migalhas, vassourinha, pá e cesto compõem a ação de varrer."},
+    {"id":"fridge-pantry-props","action":"create","kind":"object","reason":"Geladeira, prateleiras, potes e alimentos de crochê sustentam limpeza e organização."},
+    {"id":"cleaning-motion-12","action":"create","kind":"animation","reason":"Doze ações curtas têm contato, reação e resultado próprios, ligados à montagem."},
+    {"id":"water-foam-crumbs","action":"create","kind":"effect","reason":"Água, poucas bolhas e migalhas aparecem somente em contato e sem cobrir a trama."},
+    {"id":"vertical-shot-language","action":"create","kind":"camera","reason":"Enquadramentos macro verticais acompanham as ações; um plano geral revela o conjunto ao final."},
+    {"id":"warm-window-light","action":"create","kind":"lighting","reason":"Luz morna e difusa da janela mantém a textura legível e a direção constante."},
+    {"id":"soft-kitchen-sfx","action":"create","kind":"sound","reason":"Foley original acompanha água, pano, varrida e pousos sem reutilizar o áudio do Reel."},
+    {"id":"original-bed","action":"create","kind":"sound","reason":"Trilha instrumental original, leve e discreta, sem voz ou amostras do Reel."},
+    {"id":"direct-cuts","action":"create","kind":"transition","reason":"Cortes secos acompanham a troca de tarefa e do alvo de atenção."},
+    {"id":"safe-vertical-frame","action":"create","kind":"overlay","reason":"Sem texto ou logos; ações e textura permanecem dentro da área segura vertical."}
+  ]
+}

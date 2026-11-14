@@ -1,0 +1,1728 @@
+{
+  "schemaVersion": 1,
+  "narrationHash": "ed46bfccbef4656c",
+  "reviewed": false,
+  "scope": "Longa integral; recursos revisados visualmente em cena, lista interna conforme pedido.",
+  "lexicalEvidence": "lexical.json",
+  "decisions": [
+    {
+      "id": "contexto-000",
+      "phrase": "Na madrugada em que o Titanic afundou, um capitão viu uma luz verde no meio do oceano e acreditou que ainda havia tempo.",
+      "start": 0,
+      "end": 120,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-001",
+      "phrase": "O navio dele se chamava Carpathia. Corria para atender a um pedido de socorro. Ao redor, havia gelo.",
+      "start": 122,
+      "end": 222,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "gelo_maritimo",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-002",
+      "phrase": "Mais de duas mil pessoas estavam no Titanic. Os botes não tinham lugar para todas. Mesmo assim, alguns partiram com lugares vazios.",
+      "start": 224,
+      "end": 355,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-003",
+      "phrase": "Por que a ajuda não chegou antes? E de onde vinha aquela luz?",
+      "start": 357,
+      "end": 418,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-004",
+      "phrase": "Esta é a história da noite do Titanic, do choque com o iceberg à chegada do resgate.",
+      "start": 420,
+      "end": 504,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "gelo_maritimo",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-005",
+      "phrase": "Capítulo um. Antes de haver pressa.",
+      "start": 506,
+      "end": 541,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-006",
+      "phrase": "Abril de mil novecentos e doze. O Titanic parte da Inglaterra em sua primeira viagem para Nova York.",
+      "start": 543,
+      "end": 643,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-007",
+      "phrase": "A bordo estão pessoas para quem aquela travessia significa coisas muito diferentes. Há passageiros acostumados a cruzar o Atlântico, famílias em viagem e emigrantes que vão começar outra vida.",
+      "start": 645,
+      "end": 837,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-008",
+      "phrase": "O destino é o mesmo. A maneira de viajar não é.",
+      "start": 839,
+      "end": 886,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-009",
+      "phrase": "O navio é dividido em classes, com acomodações, espaços e caminhos diferentes. Para alguns, a travessia inclui salões e serviço de luxo. Para outros, o que importa é chegar à América com a família e a bagagem.",
+      "start": 888,
+      "end": 1097,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-010",
+      "phrase": "Também há centenas de pessoas trabalhando para que todos possam viajar. Cozinheiros, camareiros, marinheiros, telegrafistas, homens nas máquinas e nas caldeiras. A viagem que um passageiro vê depende de um trabalho que, em grande parte, ele não vê.",
+      "start": 1099,
+      "end": 1347,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-011",
+      "phrase": "É importante guardar essa diferença. Quando o perigo aparece, ninguém recebe ao mesmo tempo a mesma informação, nem está à mesma distância dos botes.",
+      "start": 1349,
+      "end": 1498,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-012",
+      "phrase": "O Titanic é grande, moderno e foi construído para resistir a avarias. ",
+      "start": 1500,
+      "end": 1570,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Reconstrução visual do exterior do Titanic; a resistência é tratada como contexto narrativo, sem sugerir invulnerabilidade."
+    },
+    {
+      "id": "contexto-013",
+      "phrase": "Essas proteções existem. Não são uma invenção posterior para tornar o desastre mais irônico.",
+      "start": 1690,
+      "end": 1782,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-014",
+      "phrase": "O problema será descobrir o que acontece quando elas não conseguem, juntas, proteger todo mundo.",
+      "start": 1784,
+      "end": 1880,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-015",
+      "phrase": "Durante a viagem, a vida a bordo segue. Refeições, turnos, mensagens, descanso. O navio inteiro não está pensando numa evacuação. Está atravessando o oceano.",
+      "start": 1882,
+      "end": 2039,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-016",
+      "phrase": "No domingo, catorze de abril, chegam avisos de gelo.",
+      "start": 2041,
+      "end": 2093,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "gelo_maritimo",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-017",
+      "phrase": "São relatos de outras embarcações que passaram pela região. Alguns chegam ao comandante. Outros seguem caminhos diferentes entre a estação de rádio e os responsáveis pela navegação.",
+      "start": 2095,
+      "end": 2276,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-018",
+      "phrase": "Hoje, esses papéis parecem uma sequência de advertências sobre uma tragédia que já conhecemos. Para quem os recebeu, eram informações sobre uma rota ainda em andamento.",
+      "start": 2278,
+      "end": 2446,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-019",
+      "phrase": "Isso não tira a responsabilidade de avaliar o risco. Mostra onde a história precisa ser acompanhada: entre receber uma informação e mudar uma decisão por causa dela.",
+      "start": 2448,
+      "end": 2613,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-020",
+      "phrase": "Ao anoitecer, o Titanic continua avançando. O mar está calmo. Há gelo adiante.",
+      "start": 2615,
+      "end": 2693,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "gelo_maritimo",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-021",
+      "phrase": "Capítulo dois. O choque que não pareceu o fim.",
+      "start": 2695,
+      "end": 2741,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-022",
+      "phrase": "Por volta das onze e quarenta da noite, os vigias avistam um iceberg à frente. O aviso chega à ponte. Há uma tentativa de desviar.",
+      "start": 2743,
+      "end": 2873,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "gelo_maritimo",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-023",
+      "phrase": "O Titanic atinge o gelo.",
+      "start": 2875,
+      "end": 2899,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "gelo_maritimo",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-024",
+      "phrase": "O acontecimento que vai dividir a história do navio dura muito menos do que o tempo necessário para compreender suas consequências.",
+      "start": 2901,
+      "end": 3032,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-025",
+      "phrase": "Para parte das pessoas a bordo, o primeiro sinal é uma vibração, um ruído ou a interrupção da marcha. Os relatos não descrevem uma experiência igual para todos.",
+      "start": 3034,
+      "end": 3194,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-026",
+      "phrase": "Nas partes mais baixas do navio, porém, começa a aparecer uma evidência que não depende de interpretação: a água está entrando.",
+      "start": 3196,
+      "end": 3323,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-027",
+      "phrase": "Homens inspecionam os danos. O comandante precisa saber o tamanho do problema. Entre os que avaliam a situação está Thomas Andrews, um dos responsáveis pelo projeto do Titanic, que fazia a viagem a bordo.",
+      "start": 3325,
+      "end": 3529,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-028",
+      "phrase": "Não se trata de esperar que a água pare depois de um único espaço inundado. A avaria alcançou vários setores da parte da frente.",
+      "start": 3531,
+      "end": 3659,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-029",
+      "phrase": "À medida que essa região recebe água, a proa afunda mais. A inclinação permite que a inundação avance para lugares que antes estavam protegidos.",
+      "start": 3661,
+      "end": 3805,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-030",
+      "phrase": "O navio foi preparado para resistir a certas combinações de danos. Aquela ultrapassa seus limites.",
+      "start": 3807,
+      "end": 3905,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-031",
+      "phrase": "As bombas trabalham, mas não conseguem compensar a entrada do mar. A questão passa a ser quanto tempo o casco ainda vai sustentar as pessoas a bordo.",
+      "start": 3907,
+      "end": 4056,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-032",
+      "phrase": "Essa mudança de pergunta é decisiva.",
+      "start": 4058,
+      "end": 4094,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-033",
+      "phrase": "Enquanto os responsáveis pela segurança percebem que o navio vai se perder, muitos passageiros ainda veem luzes acesas, corredores conhecidos e gente trabalhando. A superfície da viagem continua reconhecível.",
+      "start": 4096,
+      "end": 4304,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-034",
+      "phrase": "A água sobe embaixo. Em cima, ainda é preciso convencer pessoas a abandonar o lugar que parece mais seguro.",
+      "start": 4306,
+      "end": 4413,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-035",
+      "phrase": "Capítulo três. Um lugar num barco.",
+      "start": 4415,
+      "end": 4449,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-036",
+      "phrase": "O Titanic leva vinte embarcações de salvamento. A capacidade nominal somada é de mil cento e setenta e oito pessoas.",
+      "start": 4451,
+      "end": 4567,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-037",
+      "phrase": "Há cerca de duas mil e duzentas a bordo.",
+      "start": 4569,
+      "end": 4609,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-038",
+      "phrase": "Mesmo que todos os lugares fossem ocupados, faltariam vagas para muita gente.",
+      "start": 4611,
+      "end": 4688,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-039",
+      "phrase": "Essa falta não começou com o choque. Ela já estava no navio quando ele saiu do porto.",
+      "start": 4690,
+      "end": 4775,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-040",
+      "phrase": "As exigências da época não acompanhavam adequadamente o crescimento daqueles grandes transatlânticos. Depois da tragédia, a relação entre quantidade de pessoas e lugares disponíveis seria uma das questões centrais.",
+      "start": 4777,
+      "end": 4991,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-041",
+      "phrase": "Mas, naquela madrugada, não havia como discutir uma regra e instalar novos botes. Era preciso usar os que existiam.",
+      "start": 4993,
+      "end": 5108,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-042",
+      "phrase": "Cada embarcação precisava ser descoberta, preparada, levada para fora do costado e descida até a água. Pessoas precisavam chegar, entender a ordem e embarcar. Tripulantes precisavam saber onde trabalhar e quem iria conduzi-la.",
+      "start": 5110,
+      "end": 5336,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-043",
+      "phrase": "O inquérito registraria que não tinha havido treinamento adequado para aquela evacuação. Algumas tarefas começam devagar. Nem todos sabem com clareza o posto que devem ocupar.",
+      "start": 5338,
+      "end": 5513,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-044",
+      "phrase": "Também existe uma dificuldade menos visível.",
+      "start": 5515,
+      "end": 5559,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-045",
+      "phrase": "De um lado, um navio imenso, iluminado, ainda relativamente estável. Do outro, uma embarcação pequena, suspensa acima de um oceano escuro.",
+      "start": 5561,
+      "end": 5699,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-046",
+      "phrase": "Sair não parece automaticamente a escolha mais segura.",
+      "start": 5701,
+      "end": 5755,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-047",
+      "phrase": "Os oficiais recebem a orientação de dar prioridade a mulheres e crianças, mas a maneira de colocá-la em prática não é idêntica em todos os pontos do convés. Há hesitação, diferenças de julgamento e separações entre familiares.",
+      "start": 5757,
+      "end": 5983,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-048",
+      "phrase": "Alguns botes descem sem atingir sua lotação.",
+      "start": 5985,
+      "end": 6029,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-049",
+      "phrase": "Depois, esses lugares vazios vão se tornar uma das imagens mais difíceis de aceitar. Mas uma explicação única não dá conta de todas as partidas.",
+      "start": 6031,
+      "end": 6175,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-050",
+      "phrase": "Em momentos diferentes, pesam a dificuldade de reunir passageiros, a relutância de alguns em sair, o receio durante o lançamento e a intenção de completar o embarque de outra maneira.",
+      "start": 6177,
+      "end": 6360,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-051",
+      "phrase": "No papel, um lugar vazio é uma oportunidade evidente. Naquela noite, cada partida acontece com informação incompleta e sob condições que mudam.",
+      "start": 6362,
+      "end": 6505,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-052",
+      "phrase": "Enquanto um bote se afasta, as pessoas que ficaram precisam aguardar outro. A embarcação que já está na água leva consigo lugares que não estarão disponíveis no lançamento seguinte.",
+      "start": 6507,
+      "end": 6688,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-053",
+      "phrase": "E o Titanic continua baixando pela frente.",
+      "start": 6690,
+      "end": 6732,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-054",
+      "phrase": "Capítulo quatro. Alguém ouviu.",
+      "start": 6734,
+      "end": 6764,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-055",
+      "phrase": "Na estação de rádio, Jack Phillips e Harold Bride trabalham nos pedidos de socorro. O comandante manda chamar os navios ao alcance.",
+      "start": 6766,
+      "end": 6897,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-056",
+      "phrase": "O Titanic usa os sinais de emergência daquele tempo, entre eles CQD e SOS.",
+      "start": 6899,
+      "end": 6973,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-057",
+      "phrase": "A mensagem comunica o que aconteceu e informa onde os homens acreditam que o navio está. Outros operadores começam a responder.",
+      "start": 6975,
+      "end": 7102,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-058",
+      "phrase": "Isso faz uma diferença enorme. O Titanic não está completamente isolado do mundo. Pessoas além do horizonte sabem que ele precisa de ajuda.",
+      "start": 7104,
+      "end": 7243,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-059",
+      "phrase": "Só que saber não é chegar.",
+      "start": 7245,
+      "end": 7271,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-060",
+      "phrase": "Algumas embarcações estão longe demais. Outras precisam calcular uma rota, avaliar o gelo ou descobrir de onde veio o chamado.",
+      "start": 7273,
+      "end": 7399,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-061",
+      "phrase": "Uma das respostas vem do Carpathia, que seguia de Nova York para o Mediterrâneo. Seu operador, Harold Cottam, recebe o pedido e leva a informação ao capitão.",
+      "start": 7401,
+      "end": 7558,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-062",
+      "phrase": "Rostron está em sua cabine. Segundo o depoimento que daria depois, assim que é informado, manda mudar de rumo.",
+      "start": 7560,
+      "end": 7670,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-063",
+      "phrase": "O lugar indicado pelo Titanic fica a dezenas de milhas. Ainda há horas de navegação entre os dois.",
+      "start": 7672,
+      "end": 7770,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-064",
+      "phrase": "Rostron manda fazer a maior velocidade possível. Chama reforço para o trabalho nas caldeiras e aumenta a vigilância.",
+      "start": 7772,
+      "end": 7888,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-065",
+      "phrase": "Os homens do Carpathia estão indo em direção ao mesmo perigo que atingiu o Titanic. Atravessar depressa demais sem enxergar o gelo poderia criar um segundo naufrágio.",
+      "start": 7890,
+      "end": 8056,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "gelo_maritimo",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-066",
+      "phrase": "Por isso, a corrida combina esforço nas máquinas e atenção redobrada à frente. O capitão tem que ganhar tempo sem perder o próprio navio.",
+      "start": 8058,
+      "end": 8195,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-067",
+      "phrase": "Também começa a preparar a chegada de pessoas que ainda não consegue ver.",
+      "start": 8197,
+      "end": 8270,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-068",
+      "phrase": "Médicos recebem instruções. São separados cobertores e bebidas quentes. A tripulação prepara acessos e meios de trazer para bordo alguém que não consiga subir sozinho.",
+      "start": 8272,
+      "end": 8439,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-069",
+      "phrase": "Não é apenas uma viagem até um ponto no mapa. O Carpathia precisa chegar em condições de recolher feridos, crianças e gente exausta.",
+      "start": 8441,
+      "end": 8573,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "navio_carpathia",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-070",
+      "phrase": "Tudo isso acontece enquanto, no Titanic, o tempo disponível diminui.",
+      "start": 8575,
+      "end": 8643,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-071",
+      "phrase": "Capítulo cinco. As luzes no horizonte.",
+      "start": 8645,
+      "end": 8683,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-072",
+      "phrase": "O rádio não é a única maneira de pedir ajuda. Foguetes são lançados do Titanic. Um oficial também tenta comunicar-se por sinais luminosos com uma embarcação avistada ao longe.",
+      "start": 8685,
+      "end": 8860,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-073",
+      "phrase": "Para quem está num navio afundando, uma luz no horizonte pode significar uma possibilidade de sair dali. Mas enxergar uma luz não diz quem a está vendo do outro lado, nem se o perigo foi compreendido.",
+      "start": 8862,
+      "end": 9062,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-074",
+      "phrase": "Naquela região está o Californian. Ele havia parado por causa do gelo. Seu único operador de rádio tinha encerrado o trabalho e ido descansar.",
+      "start": 9064,
+      "end": 9206,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-075",
+      "phrase": "O chamado que outros navios ouviram não foi recebido por ele durante o período decisivo.",
+      "start": 9208,
+      "end": 9296,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-076",
+      "phrase": "Homens de serviço veem foguetes, mas o Californian não parte em direção aos sinais naquela madrugada.",
+      "start": 9298,
+      "end": 9399,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-077",
+      "phrase": "O que poderiam ter feito? Essa pergunta não terminou quando o sol nasceu.",
+      "start": 9401,
+      "end": 9474,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-078",
+      "phrase": "O inquérito britânico de mil novecentos e doze concluiu que o Californian poderia ter alcançado o Titanic se tivesse tentado responder aos primeiros sinais.",
+      "start": 9476,
+      "end": 9632,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-079",
+      "phrase": "Décadas depois, a descoberta dos destroços e uma revisão das posições levariam a outra avaliação. Em mil novecentos e noventa e dois, a investigação britânica especializada voltou ao caso.",
+      "start": 9634,
+      "end": 9822,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-080",
+      "phrase": "A revisão manteve a crítica à falta de uma resposta adequada aos foguetes. Mas discutiu a distância entre os navios e considerou que uma tentativa de socorro poderia ter chegado somente depois do naufrágio.",
+      "start": 9824,
+      "end": 10030,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-081",
+      "phrase": "Não é possível transformar essa controvérsia na certeza de que um único comandante tinha o poder de salvar todo mundo.",
+      "start": 10032,
+      "end": 10150,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-082",
+      "phrase": "Também não é preciso resolver todos os detalhes para reconhecer o fato central: sinais de perigo foram vistos e não produziram naquela noite uma operação de ajuda.",
+      "start": 10152,
+      "end": 10315,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-083",
+      "phrase": "Enquanto o Carpathia se aproxima de longe, uma possibilidade mais próxima permanece sem se transformar em resgate.",
+      "start": 10317,
+      "end": 10431,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "navio_carpathia",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-084",
+      "phrase": "Nos botes, ninguém pode enxergar essa discussão. As pessoas têm diante de si o navio de onde acabaram de sair.",
+      "start": 10433,
+      "end": 10543,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-085",
+      "phrase": "Capítulo seis. Não houve uma única noite para todos.",
+      "start": 10545,
+      "end": 10597,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-086",
+      "phrase": "A evacuação acontece em lugares diferentes ao mesmo tempo. A condição de quem está perto de um bote pronto não é a de quem ainda precisa encontrar o caminho até o convés.",
+      "start": 10599,
+      "end": 10769,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-087",
+      "phrase": "Mulheres e crianças recebem prioridade, mas isso não significa que todas consigam um lugar. A localização da cabine, a hora em que alguém percebe o risco, a informação recebida e a possibilidade de se orientar fazem diferença.",
+      "start": 10771,
+      "end": 10997,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-088",
+      "phrase": "Na terceira classe, a proporção de sobreviventes será muito menor que nas outras.",
+      "start": 10999,
+      "end": 11080,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-089",
+      "phrase": "Para uma família longe do convés, perceber o perigo ainda não resolve como chegar até ele. Quem recebe uma orientação mais cedo pode encontrar um bote pronto. Quem chega depois encontra outro estágio da evacuação.",
+      "start": 11082,
+      "end": 11295,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-090",
+      "phrase": "O próprio inquérito de mil novecentos e doze discutiu as dificuldades de fazer passageiros chegarem aos lugares de embarque. As diferenças de sobrevivência mostram que as pessoas não enfrentaram o perigo nas mesmas condições.",
+      "start": 11297,
+      "end": 11522,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-091",
+      "phrase": "Também há quem continue trabalhando enquanto outros embarcam. Manter energia, operar bombas, preparar botes e transmitir mensagens são tarefas que ainda sustentam a evacuação.",
+      "start": 11524,
+      "end": 11699,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-092",
+      "phrase": "Muitas dessas pessoas não sobreviveram para contar o que aconteceu nos seus postos. Seus nomes aparecem entre os mortos, enquanto os sobreviventes descrevem um navio que ainda oferecia luz e condições para a saída.",
+      "start": 11701,
+      "end": 11915,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-093",
+      "phrase": "No convés, a transformação se torna visível. A inclinação aumenta. Fica mais difícil continuar tratando a saída como uma precaução.",
+      "start": 11917,
+      "end": 12048,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-094",
+      "phrase": "O que no começo exigia convencer passageiros a entrar num bote passa a exigir administrar uma procura urgente por lugares que já não existem em quantidade suficiente.",
+      "start": 12050,
+      "end": 12216,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-095",
+      "phrase": "Sair depressa demais pode ser perigoso. Esperar mais também é.",
+      "start": 12218,
+      "end": 12280,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-096",
+      "phrase": "Não há uma decisão que devolva àquela multidão as horas anteriores ao choque.",
+      "start": 12282,
+      "end": 12359,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-097",
+      "phrase": "Capítulo sete. Quando o navio desaparece.",
+      "start": 12361,
+      "end": 12402,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-098",
+      "phrase": "O Titanic permaneceu na superfície por cerca de duas horas e quarenta minutos depois da colisão.",
+      "start": 12404,
+      "end": 12500,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-099",
+      "phrase": "Por volta das duas e vinte da manhã de quinze de abril, desaparece no Atlântico.",
+      "start": 12502,
+      "end": 12582,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-100",
+      "phrase": "Durante muito tempo, relatos diferentes alimentariam discussões sobre seus instantes finais. A memória de uma pessoa num bote, à noite, não é uma câmera colocada acima do oceano.",
+      "start": 12584,
+      "end": 12762,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-101",
+      "phrase": "Não precisamos determinar o movimento de cada pedaço do casco para compreender o que muda naquele momento.",
+      "start": 12764,
+      "end": 12870,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-102",
+      "phrase": "O lugar que mantinha milhares de pessoas fora da água deixa de existir.",
+      "start": 12872,
+      "end": 12943,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-103",
+      "phrase": "Quem ainda está a bordo vai para o mar ou tenta encontrar algum apoio. Quem está nos botes passa a encarar outro problema: como ajudar pessoas na água sem perder a embarcação que já carrega sobreviventes.",
+      "start": 12945,
+      "end": 13149,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-104",
+      "phrase": "Há medo de que uma aproximação desordenada faça o bote virar. Há pessoas tentando voltar e outras que hesitam. Não é uma decisão vivida da mesma forma por todas as tripulações.",
+      "start": 13151,
+      "end": 13327,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-105",
+      "phrase": "O quinto oficial Harold Lowe reúne embarcações e organiza uma tentativa de procurar sobreviventes na água.",
+      "start": 13329,
+      "end": 13435,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-106",
+      "phrase": "Quando essa busca pode ser feita, já se passou tempo. Algumas pessoas são recolhidas. Muitas outras não chegam a receber ajuda.",
+      "start": 13437,
+      "end": 13564,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-107",
+      "phrase": "O mar está frio demais para permitir uma espera longa.",
+      "start": 13566,
+      "end": 13620,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-108",
+      "phrase": "O naufrágio aconteceu em poucas horas. Para quem está na água, a margem de tempo é muito menor. Para quem conseguiu permanecer num bote, a noite ainda não acabou.",
+      "start": 13622,
+      "end": 13784,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-109",
+      "phrase": "Há homens equilibrados sobre uma embarcação virada. Eles saíram do Titanic, mas ainda precisam passar para um bote que possa levá-los até o resgate.",
+      "start": 13786,
+      "end": 13934,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-110",
+      "phrase": "Lillian Bentham, passageira da segunda classe, está no bote doze. Anos depois, contaria que ajudou a puxar para dentro homens que tinham sobrevivido sobre aquela embarcação virada. Um deles era o jovem Cecil Fitzpatrick.",
+      "start": 13936,
+      "end": 14156,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-111",
+      "phrase": "Lillian o envolveu com seu casaco. Mais tarde, Cecil lhe deu um apito que tinha usado na esperança de chamar ajuda. O objeto acabou preservado num museu.",
+      "start": 14158,
+      "end": 14311,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-112",
+      "phrase": "Antes de se tornar uma lembrança daquela noite, tinha sido uma maneira de tentar ser encontrado.",
+      "start": 14313,
+      "end": 14409,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-113",
+      "phrase": "É nesse intervalo que uma pequena luz verde aparece diante do Carpathia.",
+      "start": 14411,
+      "end": 14483,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "navio_carpathia",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-114",
+      "phrase": "Capítulo oito. O sinal que mudou de significado.",
+      "start": 14485,
+      "end": 14533,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-115",
+      "phrase": "Rostron contou depois que interpretou aquele sinal como uma indicação de que o Titanic ainda estava na superfície.",
+      "start": 14535,
+      "end": 14649,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-116",
+      "phrase": "Ele tinha recebido notícias de que a água avançava pelo navio. Continuava se aproximando, desviando de icebergs.",
+      "start": 14651,
+      "end": 14763,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "gelo_maritimo",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-117",
+      "phrase": "O sinal verde oferecia algo que uma mensagem de rádio não podia oferecer: um ponto visível na escuridão.",
+      "start": 14765,
+      "end": 14869,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-118",
+      "phrase": "Mas a luz não vinha da ponte do Titanic. Era um sinal lançado do bote número dois, onde estava o quarto oficial Joseph Boxhall.",
+      "start": 14871,
+      "end": 14998,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-119",
+      "phrase": "Para o homem que se aproximava, ela parecia anunciar um navio ainda esperando por ajuda. Para quem a produzia, era uma tentativa de fazer um bote ser encontrado.",
+      "start": 15000,
+      "end": 15161,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-120",
+      "phrase": "A mesma luz ligava pessoas que ainda não sabiam a situação umas das outras.",
+      "start": 15163,
+      "end": 15238,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-121",
+      "phrase": "Rostron responde com sinais e segue. Perto das quatro da manhã, chega à região indicada.",
+      "start": 15240,
+      "end": 15328,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-122",
+      "phrase": "O Titanic não está ali para recebê-lo.",
+      "start": 15330,
+      "end": 15368,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-123",
+      "phrase": "O primeiro bote é alcançado por volta das quatro e dez. Depois, com a luz do dia, outras embarcações aparecem espalhadas pelo mar.",
+      "start": 15370,
+      "end": 15500,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-124",
+      "phrase": "O resgate passa a acontecer pessoa por pessoa. Para Cecil, Lillian e tantos outros, ainda existe uma última passagem: sair da pequena embarcação e alcançar o navio que pode levá-los embora.",
+      "start": 15502,
+      "end": 15691,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-125",
+      "phrase": "É preciso aproximar os botes, ajudar quem consegue subir e içar quem não tem forças. As instruções dadas durante a travessia agora se tornam trabalho nas bordas do navio, nas enfermarias e nos espaços preparados para receber gente.",
+      "start": 15693,
+      "end": 15924,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-126",
+      "phrase": "O Carpathia recolhe cerca de setecentos sobreviventes ao longo da manhã.",
+      "start": 15926,
+      "end": 15998,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "navio_carpathia",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-127",
+      "phrase": "Esse número significa centenas de vidas salvas. Também torna visível o tamanho da ausência.",
+      "start": 16000,
+      "end": 16091,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-128",
+      "phrase": "Havia cerca de duas mil e duzentas pessoas no Titanic.",
+      "start": 16093,
+      "end": 16147,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-129",
+      "phrase": "Para alguém que procura um familiar entre os resgatados, saber que outros foram salvos não responde à pergunta sobre quem falta.",
+      "start": 16149,
+      "end": 16277,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-130",
+      "phrase": "O navio que saiu de Nova York em direção à Europa muda novamente de destino. Leva os sobreviventes de volta a Nova York.",
+      "start": 16279,
+      "end": 16399,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-131",
+      "phrase": "Capítulo nove. O que voltou do Titanic.",
+      "start": 16401,
+      "end": 16440,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-132",
+      "phrase": "As notícias atravessam o oceano antes das pessoas. Informações incompletas produzem relatos errados, inclusive de que o Titanic estaria sendo rebocado.",
+      "start": 16442,
+      "end": 16593,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-133",
+      "phrase": "Enquanto parentes procuram confirmação em terra, o Carpathia transporta quem pode contar o que realmente aconteceu.",
+      "start": 16595,
+      "end": 16710,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "navio_carpathia",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-134",
+      "phrase": "Os relatos não coincidem em tudo. Horários, distâncias, ordens e movimentos serão discutidos diante de investigadores.",
+      "start": 16712,
+      "end": 16830,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-135",
+      "phrase": "Isso não torna a história impossível de conhecer. Exige cruzar testemunhos, distinguir lembrança de medição e reconhecer o que continua incerto.",
+      "start": 16832,
+      "end": 16976,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-136",
+      "phrase": "Há perguntas que admitem respostas firmes. Não havia lugares nos botes para todos. Alguns partiram incompletos. O Carpathia respondeu ao socorro. O Californian não prestou a ajuda que os sinais exigiam naquela madrugada.",
+      "start": 16978,
+      "end": 17198,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-137",
+      "phrase": "Há outras que não podem ser resolvidas com a mesma precisão: quantas pessoas uma conduta diferente teria salvado, ou a sequência exata dos últimos minutos de quem morreu.",
+      "start": 17200,
+      "end": 17370,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-138",
+      "phrase": "Depois do desastre, os inquéritos recomendaram lugares de salvamento para todos, mais treinamento e uma organização melhor para emergências.",
+      "start": 17372,
+      "end": 17512,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-139",
+      "phrase": "As comunicações também passaram por mudanças. Ter um aparelho de rádio não bastava se não houvesse quem escutasse e uma maneira de transformar o chamado em ação.",
+      "start": 17514,
+      "end": 17675,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-140",
+      "phrase": "O Titanic não perdeu tantas vidas por uma única decisão tomada depois do choque. A madrugada reuniu uma avaria grave, preparação insuficiente, falta de lugares, informação desigual e ajuda separada por distância e tempo.",
+      "start": 17677,
+      "end": 17897,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-141",
+      "phrase": "Os homens do Carpathia fizeram o que podiam com o tempo que tinham. Chegaram depois que o navio afundou, mas a tempo de salvar quem ainda esperava nos botes.",
+      "start": 17899,
+      "end": 18056,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-142",
+      "phrase": "E aquela luz verde?",
+      "start": 18058,
+      "end": 18077,
+      "action": "reuse",
+      "kind": "character",
+      "assetId": "pessoas_maritimas_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-143",
+      "phrase": "Ela não provava que o Titanic ainda podia ser salvo. Mostrava que alguém continuava ali.",
+      "start": 18079,
+      "end": 18167,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-144",
+      "phrase": "No começo da viagem, o nome Titanic identificava um navio novo, cheio de pessoas a caminho de outra vida, de outra cidade ou de casa.",
+      "start": 18169,
+      "end": 18302,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-145",
+      "phrase": "Naquela manhã, eram seus botes que apareciam ao redor de outro navio.",
+      "start": 18304,
+      "end": 18373,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "bote_salvamento_1912",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-146",
+      "phrase": "O resgate que não conseguiu alcançar o Titanic encontrou parte das pessoas que ele levava.",
+      "start": 18375,
+      "end": 18465,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "contexto-147",
+      "phrase": "Esta foi a noite do Titanic, do choque com o iceberg até a chegada de quem respondeu ao pedido de ajuda.",
+      "start": 18467,
+      "end": 18571,
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "gelo_maritimo",
+      "reason": "Composição causal do acontecimento com personagem/objeto/contexto; ligações gramaticais não exigem malha. Relações temporais, informações incompletas e comparação são tratadas na edição e nos overlays. A encenação é ilustrativa; não inventa depoimentos ou diálogos."
+    },
+    {
+      "id": "mar-cinematico",
+      "phrase": "oceano",
+      "start": 79,
+      "end": 85,
+      "action": "create",
+      "kind": "scene",
+      "label": "Mar com ondulação e reflexos",
+      "specification": "Superfície animada no shader, normal e reflexos dependentes de distância; sem interseção do piso.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "luz-cinematica",
+      "phrase": "luzes",
+      "start": 4202,
+      "end": 4207,
+      "action": "create",
+      "kind": "lighting",
+      "label": "Iluminação cinematográfica de época",
+      "specification": "Reflexos de janelas e luminárias, sombras de contato, chave quente e preenchimento frio, legibilidade noturna.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "conves-detalhado",
+      "phrase": "convés",
+      "start": 5906,
+      "end": 5912,
+      "action": "create",
+      "kind": "scene",
+      "label": "Convés com equipamentos e resgate",
+      "specification": "Railing, tábuas, luminárias, bancos, cabos e turcos de bote em escala humana; variações de rotina/evacuação/resgate.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "espacos-epoca",
+      "phrase": "cabine",
+      "start": 7580,
+      "end": 7586,
+      "action": "create",
+      "kind": "scene",
+      "label": "Cabine, escada, enfermaria e inquérito",
+      "specification": "Ambientes separados por variante, com janelas, móveis e superfícies contínuas; ilustração histórica sem planta exata.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "objetos-socorro",
+      "phrase": "cobertores",
+      "start": 8314,
+      "end": 8324,
+      "action": "create",
+      "kind": "object",
+      "label": "Objetos de socorro e comunicação",
+      "specification": "Variantes manta, colete, apito, lanterna, roda, sino, fone, jornal e corda; contato legível com mãos e superfícies.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "gestos-dramaticos",
+      "phrase": "ajudar",
+      "start": 13073,
+      "end": 13079,
+      "action": "create",
+      "kind": "animation",
+      "label": "Atuação e gestos narrativos",
+      "specification": "Olhar, apontar, chamar, carregar, remar e puxar com antecipação, peso e acomodação; nenhuma fala fictícia.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "movimentos-maritimos",
+      "phrase": "afunda",
+      "start": 3706,
+      "end": 3712,
+      "action": "create",
+      "kind": "animation",
+      "label": "Movimento de navio e botes",
+      "specification": "Afundamento/trim ilustrativo, deslocamento, descida de bote e oscilação leve; parâmetros de duração e origem.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "agua-fx",
+      "phrase": "água",
+      "start": 1623,
+      "end": 1627,
+      "action": "create",
+      "kind": "effect",
+      "label": "Água, névoa e sinais de socorro",
+      "specification": "Inundação ilustrativa controlada por nível, spray localizado, fachos de sinal com origem e dissipação.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "legendas-motion",
+      "phrase": "história",
+      "start": 429,
+      "end": 437,
+      "action": "create",
+      "kind": "overlay",
+      "label": "Legendas e palavras de impacto",
+      "specification": "Texto integral revisado; palavras alinhadas ao áudio; grupos curtos em maiúsculas, peso 900, contorno e sombra, 80% title safe.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "capitulos-motion",
+      "phrase": "Capítulo",
+      "start": 506,
+      "end": 514,
+      "action": "create",
+      "kind": "transition",
+      "label": "Títulos e pausas entre capítulos",
+      "specification": "9 divisões com 4.2–4.6s de pausa, título cinético, tempo para leitura e passagem sonora. Sem texto sobre rosto.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "som-narrativo",
+      "phrase": "socorro",
+      "start": 192,
+      "end": 199,
+      "action": "create",
+      "kind": "sound",
+      "label": "Foley e desenho sonoro do longa",
+      "specification": "Contato, ambiente, urgência, rádio, água, cordas e acentos editoriais variados; mix com voz prioritária, sem diálogos inventados.",
+      "reason": "Lacuna do longa integral e das melhorias explícitas do criador; reutilizar helpers e recursos adequados, sem repetir a mesma encenação.",
+      "baselineIds": []
+    },
+    {
+      "id": "arquivo-filmico-titanic-belfast",
+      "phrase": "O Titanic parte da Inglaterra em sua primeira viagem para Nova York.",
+      "start": 575,
+      "end": 643,
+      "action": "create",
+      "kind": "overlay",
+      "label": "Trecho de filme histórico do Titanic em Belfast",
+      "specification": "Janela motion-graphics com 4,5 s de filmagem autenticada do Titanic em Belfast, 2 de abril de 1912, convertida a uma sequência local determinística de 12 quadros/s. Entra em escala de leitura dentro do cenário 3D, com cartela “Belfast · 2 abril 1912” e crédito British Pathé/Wikimedia Commons. Não apresentar como a saída de Southampton da viagem inaugural, não usar o áudio do upload e não cobrir legenda nem ação.",
+      "reason": "A narrativa pede um registro visual real do próprio navio. A filmagem de Belfast é anterior à viagem inaugural e será identificada como tal; o palco 3D da partida para Southampton/Nova York permanece visível ao redor do insert."
+    },
+    {
+      "id": "arquivo-cabine-b60",
+      "phrase": "acomodações",
+      "start": 923,
+      "end": 934,
+      "action": "create",
+      "kind": "overlay",
+      "label": "Fotografia documental da cabine B-60",
+      "specification": "Insert animado proporcional e creditado; usar como evidência visual no beat de acomodações, mantendo o cenário 3D ao redor.",
+      "reason": "A pose 3D sobre o beliche era artificial; a cabine histórica oferece referência visual real para esse beat.",
+      "baselineIds": []
+    },
+    {
+      "id": "arquivo-familia-kink",
+      "phrase": "famílias em viagem",
+      "start": 778,
+      "end": 796,
+      "action": "create",
+      "kind": "overlay",
+      "label": "Fotografia documental da família Kink",
+      "specification": "Insert animado proporcional de retrato pós-naufrágio, identificado como família sobrevivente da terceira classe; fonte e crédito históricos explícitos.",
+      "reason": "A antiga foto de Southampton não ilustrava a fala. O retrato é um registro real de passageiros e sobreviventes, claramente identificado como posterior ao naufrágio; a alternativa Spedden foi descartada por variação de prazo autoral entre jurisdições.",
+      "baselineIds": []
+    },
+    {
+      "id": "ponte-asa-aberta-contexto-conves",
+      "phrase": "Para quem os recebeu, eram informações sobre uma rota ainda em andamento.",
+      "start": 2373,
+      "end": 2446,
+      "action": "update",
+      "kind": "scene",
+      "label": "Ponte marítima com convés e guarda-corpo contínuos",
+      "specification": "Evoluir a referência local existente da ponte para uma variante de asa aberta: ampliar o convés de tábuas, fechar as bordas com balaustrada contínua e retirar a parede isolada quando o enquadramento é exterior. Preservar uma versão de cabine com parede e janela para o corte de transferência de mensagem. A carta, o personagem e a borda do navio devem compartilhar o mesmo espaço; céu, lua e reflexo do mar permanecem fora da amurada. Incluir luz prática discreta junto ao ponto de entrega, para iluminar mãos e papel sem clarear o mar inteiro. Nas tomadas exteriores, manter o mar abaixo do piso do convés mesmo no topo das ondas; orientar a lua/reflexo conforme a câmera de cada plano.",
+      "reason": "A revisão visual mostrou o painel lateral isolado contra oceano e pessoas cortadas no quadro, que parecem placas sem continuidade. Reutilizar o asset de ponte existente e padrões Three.js; a variação serve à encenação aberta sem repetir a sala de rádio.",
+      "baselineIds": [
+        "ponte_observacao_maritima"
+      ]
+    },
+    {
+      "id": "shot-028-batida-porta-visivel",
+      "phrase": "Quando o perigo aparece,",
+      "start": 1386,
+      "end": 1409,
+      "action": "update",
+      "kind": "animation",
+      "assetId": "acoes_bordo_1912",
+      "reason": "Corrigir o alvo da mão para tocar a face interna da porta sem atravessar a folha; manter a batida, a reação e o corredor no mesmo eixo visual."
+    },
+    {
+      "id": "shot-028-foley-batidas",
+      "phrase": "Quando o perigo aparece,",
+      "start": 1386,
+      "end": 1409,
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_alvenaria_batida",
+      "reason": "Três contatos curtos entram nos mesmos instantes das batidas visíveis; a revisão auditiva do material permanece pendente."
+    },
+    {
+      "id": "titanic-conves-bote-armazenado-legivel",
+      "phrase": "com a família e a bagagem",
+      "start": 1071,
+      "end": 1096,
+      "action": "update",
+      "kind": "object",
+      "assetId": "transatlantico_titanic",
+      "reason": "Nesta tomada próxima, a forma simplificada do bote suspenso lê como um bloco e a mala some sob o insert. Criar uma variação local que reutiliza o bote aberto detalhado do kit (casco, bancadas e borda), e colocar a mala com o segundo viajante, visível fora do cartão de arquivo. Referência de implementação consultada: kit/assets/period-lifeboat.js; sem declarar aprovação estética não registrada."
+    },
+    {
+      "id": "contexto-012b",
+      "phrase": "Tem divisões internas que podem limitar a entrada de água.",
+      "start": 1570,
+      "end": 1628,
+      "action": "create",
+      "kind": "scene",
+      "label": "Passagem estanque ilustrativa de 1912",
+      "specification": "Passagem interna completa; porta estanque e nível de água controlado dentro do compartimento, sem seção solta sobre o mar; reconstrução ilustrativa.",
+      "baselineIds": [
+        "corredor_bordo_1912",
+        "anteparas_bordo_1912"
+      ],
+      "reason": "A frase descreve uma proteção estrutural; mostrar o interior contínuo em perspectiva, com porta fechada e água contida do lado correspondente. Não apresentar sequência histórica de inundação como fato."
+    },
+    {
+      "id": "contexto-012c",
+      "phrase": "Tem rádio para falar com estações em terra e outros navios.",
+      "start": 1629,
+      "end": 1688,
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "radio_bordo_1912",
+      "reason": "Mostrar a estação completa, operador, equipamento e janela de contexto marítimo; sustentar as comunicações sem objetos soltos."
+    }
+  ],
+  "unresolved": [
+    "QA audiovisual integral e decisões humanas de recursos"
+  ]
+}

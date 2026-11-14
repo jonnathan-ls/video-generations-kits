@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "fa3980c638f396bd5b299ca903c4e8c6864c469347416a210c0030751b12b486",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "poeira",
+      "meshes": 0,
+      "triangles": 0,
+      "dimensions": [
+        6.233266592025757,
+        1.259999930858612,
+        6.225212574005127
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-14T20:55:29.687Z"
+}

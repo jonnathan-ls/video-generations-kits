@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "b6b7ff12ffc1726125e2e8f296b440395effe10a39dc5085594cd1433ef08198",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "overlay-label-isolamento",
+      "meshes": 4,
+      "triangles": 1740,
+      "dimensions": [
+        0.8840000033378601,
+        1.4815249320439743,
+        0.8840000033378601
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.875Z"
+}

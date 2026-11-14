@@ -1,0 +1,149 @@
+{
+  "narrationHash": "051c01bdcd812ce9",
+  "decisions": [
+    {
+      "id": "context-0",
+      "phrase": "Na",
+      "start": 0,
+      "end": 2,
+      "action": "ignore",
+      "reason": "Palavra de ligação ou referência já representada na especificação do mecanismo; não exige recurso independente."
+    },
+    {
+      "id": "resource-1",
+      "phrase": "via",
+      "start": 3,
+      "end": 6,
+      "action": "create",
+      "kind": "scene",
+      "label": "Via em contexto",
+      "specification": "Trecho de via com terreno, apoio e referência de escala; manter continuidade espacial.",
+      "reason": "Capacidade reutilizável ausente no catálogo atual.",
+      "baselineIds": []
+    },
+    {
+      "id": "context-2",
+      "phrase": "o",
+      "start": 8,
+      "end": 9,
+      "action": "ignore",
+      "reason": "Palavra de ligação ou referência já representada na especificação do mecanismo; não exige recurso independente."
+    },
+    {
+      "id": "resource-2",
+      "phrase": "trilho",
+      "start": 10,
+      "end": 16,
+      "action": "create",
+      "kind": "object",
+      "label": "Segmento de trilho",
+      "specification": "Perfil de trilho com alma e mesas distintas, material metálico legível e unidade em metros.",
+      "reason": "Capacidade reutilizável ausente no catálogo atual.",
+      "baselineIds": [
+        "parede_hidraulica"
+      ]
+    },
+    {
+      "id": "resource-3",
+      "phrase": "aquece",
+      "start": 17,
+      "end": 23,
+      "action": "create",
+      "kind": "material",
+      "label": "Material de aquecimento",
+      "specification": "Variação controlada de aparência para indicar aquecimento; não deformar a peça nem sugerir temperatura sem evidência.",
+      "reason": "Capacidade reutilizável ausente no catálogo atual.",
+      "baselineIds": []
+    },
+    {
+      "id": "context-5",
+      "phrase": "A",
+      "start": 25,
+      "end": 26,
+      "action": "ignore",
+      "reason": "Palavra de ligação ou referência já representada na especificação do mecanismo; não exige recurso independente."
+    },
+    {
+      "id": "resource-4",
+      "phrase": "junta",
+      "start": 27,
+      "end": 32,
+      "action": "create",
+      "kind": "object",
+      "label": "Junta de dilatação",
+      "specification": "Conjunto ilustrativo de dois segmentos, folga, talas e fixações; encaixes visíveis nas vistas de detalhe.",
+      "reason": "Capacidade reutilizável ausente no catálogo atual.",
+      "baselineIds": [
+        "parede_hidraulica"
+      ]
+    },
+    {
+      "id": "resource-5",
+      "phrase": "abre",
+      "start": 33,
+      "end": 37,
+      "action": "create",
+      "kind": "animation",
+      "label": "Abertura longitudinal",
+      "specification": "Mover segmentos apenas ao longo do eixo da junta, com distância limitada e sem escala elástica.",
+      "reason": "Capacidade reutilizável ausente no catálogo atual.",
+      "baselineIds": []
+    },
+    {
+      "id": "context-8",
+      "phrase": "A",
+      "start": 39,
+      "end": 40,
+      "action": "ignore",
+      "reason": "Palavra de ligação ou referência já representada na especificação do mecanismo; não exige recurso independente."
+    },
+    {
+      "id": "resource-6",
+      "phrase": "câmera aproxima",
+      "start": 41,
+      "end": 56,
+      "action": "create",
+      "kind": "camera",
+      "label": "Aproximação do mecanismo",
+      "specification": "Deslocamento curto até a folga, sem órbita decorativa, preservando a orientação do conjunto.",
+      "reason": "Capacidade reutilizável ausente no catálogo atual.",
+      "baselineIds": []
+    },
+    {
+      "id": "context-11",
+      "phrase": "Um",
+      "start": 58,
+      "end": 60,
+      "action": "ignore",
+      "reason": "Palavra de ligação ou referência já representada na especificação do mecanismo; não exige recurso independente."
+    },
+    {
+      "id": "resource-7",
+      "phrase": "contorno destaca",
+      "start": 61,
+      "end": 77,
+      "action": "create",
+      "kind": "effect",
+      "label": "Realce de contato",
+      "specification": "Contorno pontual no local de interesse; conservar o material original e a legibilidade do mecanismo.",
+      "reason": "Capacidade reutilizável ausente no catálogo atual.",
+      "baselineIds": []
+    },
+    {
+      "id": "context-14",
+      "phrase": "o",
+      "start": 78,
+      "end": 79,
+      "action": "ignore",
+      "reason": "Palavra de ligação ou referência já representada na especificação do mecanismo; não exige recurso independente."
+    },
+    {
+      "id": "context-15",
+      "phrase": "contato",
+      "start": 80,
+      "end": 87,
+      "action": "ignore",
+      "reason": "Palavra de ligação ou referência já representada na especificação do mecanismo; não exige recurso independente."
+    }
+  ]
+}

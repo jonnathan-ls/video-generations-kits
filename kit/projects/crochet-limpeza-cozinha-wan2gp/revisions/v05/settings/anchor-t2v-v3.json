@@ -1,0 +1,15 @@
+{
+  "model_type": "t2v_nexus_1.3B",
+  "prompt": "Vertical 9:16 tight overhead macro video with only three visible elements: a shallow flexible bowl-shaped textile made entirely from thick ivory crochet yarn, a deep-indigo crochet mat covering every part of the background from edge to edge, and one small mustard-yellow rectangular crochet scrub pad. The yarn bowl has no hard core, no solid rim and no separate smooth lining; thick interlocking loops cover its full inside and outside. One natural hand with a plain navy cuff holds the scrub pad against the inner left side of the bowl. Make one short slow horizontal left-to-right scrub while maintaining contact, then hold. Fill the crop with the crochet bowl and mat so no room or surrounding surface can appear. Clearly readable cotton fibers, large raised loops, same scale and pattern throughout; fixed overhead camera, warm diffuse light.",
+  "negative_prompt": "ceramic, porcelain, glass, metal, plastic, plastic basin, hard plate, solid rim, smooth lining, wood, wood grain, stone, countertop, table, floor, wall, window, room, furniture, plain fabric, printed pattern, smooth background, background outside the crochet mat, glossy surface, missing stitches, smooth patches, changing stitch size, texture crawl, flicker, morphing bowl, morphing scrub pad, extra objects, extra hands, extra fingers, fused fingers, floating pad, loss of contact, vertical dipping, repeated scrubbing, rinsing, water stream, camera movement, zoom, cut, exposure change, text, logo, watermark, subtitles",
+  "resolution": "432x768",
+  "video_length": 41,
+  "force_fps": "16",
+  "num_inference_steps": 8,
+  "guidance_scale": 1,
+  "flow_shift": 5,
+  "seed": 731829,
+  "repeat_generation": 1,
+  "image_mode": 0,
+  "output_filename": "v05-00-ancora-croche-ia-local-v3"
+}

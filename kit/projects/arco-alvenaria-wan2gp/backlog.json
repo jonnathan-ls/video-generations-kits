@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "wan2gp-runtime",
+      "kind": "tool",
+      "stage": "validated-local-cuda",
+      "specification": "Integrar código oficial pinado, ambiente isolado, diagnóstico CUDA, imagem e vídeo via fila headless; sem envio de conteúdo a API externa."
+    },
+    {
+      "id": "wan2gp-comparison",
+      "kind": "composition",
+      "stage": "experimental-artifact-generated-qa-rejected",
+      "specification": "Montar os clipes novos com narração original em 41.576s; comparar com render original; marcar como experimento não aprovado até QA real."
+    },
+    {
+      "id": "wan2gp:01-coroamento",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. Close view of the crown of a red terracotta wedge brick arch. The final trapezoid keystone descends vertically into the exact central gap, seats between the neighboring bricks, and stops. Then the camera smoothly pulls back to reveal the complete freestanding arch and its two thick masonry piers standing on concrete ground. The completed arch remains motionless.",
+      "start": 0,
+      "end": 5.12,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/01-coroamento.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    },
+    {
+      "id": "wan2gp:02-falha-apoio",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. Front view of a red terracotta masonry arch resting on two stone piers. The right pier slides slightly outward to the right, once. Narrow gaps visibly open between the adjacent wedge bricks near the right springing point; the upper ring sags locally after contact is lost. Show loss of contact caused by the moving support, without an explosion or pulverized masonry. Camera holds the entire arch in frame.",
+      "start": 5.12,
+      "end": 10.78,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/02-falha-apoio.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    },
+    {
+      "id": "wan2gp:03-pergunta",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. A complete red terracotta wedge brick arch remains standing firmly on two thick masonry piers. Slow controlled camera approach. The open passage below the arch is clearly visible. All wedge bricks are touching their neighbors. No brick moves.",
+      "start": 10.78,
+      "end": 14.42,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/03-pergunta.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    },
+    {
+      "id": "wan2gp:04-compressao",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. Close three-quarter view of the upper red terracotta masonry arch. The tapered bricks touch each other tightly along their radial faces. Slowly track from the keystone down the continuous curve toward the left pier, revealing the unbroken series of contacts. The masonry stays geometrically stable and rigid.",
+      "start": 14.42,
+      "end": 19.76,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/04-compressao.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    },
+    {
+      "id": "wan2gp:05-argamassa",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. Macro camera slide over a red terracotta masonry arch, showing thin continuous pale mortar joints between trapezoidal bricks. Mortar fills the radial contact faces with no gaps. Clear physical contact, subtle rough ceramic surface, no floating bricks.",
+      "start": 19.76,
+      "end": 22.62,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/05-argamassa.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    },
+    {
+      "id": "wan2gp:06-montagem",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. Front three-quarter view of a partially built red terracotta brick arch. A curved wooden centering frame is in full contact directly below the unfinished ring. Both ends of the centering frame rest on visible timber legs touching the concrete ground. Camera reveals how the timber supports the unfinished arch. No finished freestanding arch yet.",
+      "start": 22.62,
+      "end": 25.9,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/06-montagem.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    },
+    {
+      "id": "wan2gp:07-cimbre",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. A curved timber centering frame holds red terracotta wedge bricks between two thick masonry piers. The final wedge descends into the center of the ring and seats against both neighbors, completing the closed arch. The curved timber frame remains touching the arch throughout. Keep the piers planted on the ground.",
+      "start": 25.9,
+      "end": 30.7,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/07-cimbre.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    },
+    {
+      "id": "wan2gp:08-retirada",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. A complete red terracotta wedge brick arch remains stationary on two thick masonry piers. The curved wooden centering frame lowers vertically a short distance away from the intrados, then slides forward out of the open passage. The closed masonry ring stays stable after the wood leaves.",
+      "start": 30.7,
+      "end": 32.76,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/08-retirada.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    },
+    {
+      "id": "wan2gp:09-sistema",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. Close view of the central red terracotta keystone, already seated in a complete masonry arch. The camera pulls back along the same axis to reveal that the keystone touches its neighboring wedges and that the full arch rests on two thick masonry piers. All masonry remains motionless. Emphasize the connected system.",
+      "start": 32.76,
+      "end": 36.52,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/09-sistema.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    },
+    {
+      "id": "wan2gp:10-vao-livre",
+      "kind": "animation",
+      "stage": "generated-awaiting-review",
+      "specification": "A precise 3D educational architectural animation of a masonry arch. Preserve the source geometry, camera framing, radial red wedge bricks, supports, garden, direction of forces and their original motion. Subtly enhance ceramic roughness, natural soft shadows and material definition. No added objects, no new shapes, no text. Track downward along the right pier of a complete red terracotta masonry arch to the wide concrete foundation that touches solid ground. Then smoothly pull back to show both planted piers and the empty passage beneath the stable arch. The arch remains rigid and the ground does not move. End on a clear unobstructed view through the arch.",
+      "start": 36.52,
+      "end": 41.576,
+      "review": "pending",
+      "assetId": null,
+      "file": "wan2gp-guided-output/10-vao-livre.mp4",
+      "generationMode": "GUV; denoising_strength=0.1"
+    }
+  ]
+}

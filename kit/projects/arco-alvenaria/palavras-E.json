@@ -1,0 +1,557 @@
+{
+  "0": {
+    "palavra": "A",
+    "inicio": 0,
+    "fim": 0.14
+  },
+  "1": {
+    "palavra": "última",
+    "inicio": 0.14,
+    "fim": 0.62
+  },
+  "2": {
+    "palavra": "cunha",
+    "inicio": 0.62,
+    "fim": 0.76
+  },
+  "3": {
+    "palavra": "encaixa.",
+    "inicio": 0.76,
+    "fim": 1.42
+  },
+  "4": {
+    "palavra": "O",
+    "inicio": 1.7,
+    "fim": 1.82
+  },
+  "5": {
+    "palavra": "que",
+    "inicio": 1.82,
+    "fim": 2.08
+  },
+  "6": {
+    "palavra": "impede",
+    "inicio": 2.08,
+    "fim": 2.34
+  },
+  "7": {
+    "palavra": "o",
+    "inicio": 2.34,
+    "fim": 2.76
+  },
+  "8": {
+    "palavra": "arco",
+    "inicio": 2.76,
+    "fim": 2.8
+  },
+  "9": {
+    "palavra": "de",
+    "inicio": 2.8,
+    "fim": 3.1
+  },
+  "10": {
+    "palavra": "cair?",
+    "inicio": 3.1,
+    "fim": 3.36
+  },
+  "11": {
+    "palavra": "Sem",
+    "inicio": 3.98,
+    "fim": 4.1
+  },
+  "12": {
+    "palavra": "reação",
+    "inicio": 4.1,
+    "fim": 4.48
+  },
+  "13": {
+    "palavra": "lateral,",
+    "inicio": 4.48,
+    "fim": 5.02
+  },
+  "14": {
+    "palavra": "o",
+    "inicio": 5.28,
+    "fim": 5.46
+  },
+  "15": {
+    "palavra": "empuxo",
+    "inicio": 5.46,
+    "fim": 5.8
+  },
+  "16": {
+    "palavra": "empurra",
+    "inicio": 5.8,
+    "fim": 6.16
+  },
+  "17": {
+    "palavra": "os",
+    "inicio": 6.16,
+    "fim": 6.5
+  },
+  "18": {
+    "palavra": "encontros",
+    "inicio": 6.5,
+    "fim": 6.82
+  },
+  "19": {
+    "palavra": "para",
+    "inicio": 6.82,
+    "fim": 7.16
+  },
+  "20": {
+    "palavra": "fora.",
+    "inicio": 7.16,
+    "fim": 7.5
+  },
+  "21": {
+    "palavra": "As",
+    "inicio": 8,
+    "fim": 8.03
+  },
+  "22": {
+    "palavra": "juntas",
+    "inicio": 8.03,
+    "fim": 8.32
+  },
+  "23": {
+    "palavra": "abrem",
+    "inicio": 8.32,
+    "fim": 8.74
+  },
+  "24": {
+    "palavra": "e",
+    "inicio": 8.74,
+    "fim": 8.92
+  },
+  "25": {
+    "palavra": "o",
+    "inicio": 8.92,
+    "fim": 9.08
+  },
+  "26": {
+    "palavra": "anel",
+    "inicio": 9.08,
+    "fim": 9.24
+  },
+  "27": {
+    "palavra": "perde",
+    "inicio": 9.24,
+    "fim": 9.6
+  },
+  "28": {
+    "palavra": "contato.",
+    "inicio": 9.6,
+    "fim": 10.2
+  },
+  "29": {
+    "palavra": "Então",
+    "inicio": 10.58,
+    "fim": 11
+  },
+  "30": {
+    "palavra": "como",
+    "inicio": 11,
+    "fim": 11.28
+  },
+  "31": {
+    "palavra": "um",
+    "inicio": 11.28,
+    "fim": 11.52
+  },
+  "32": {
+    "palavra": "arco",
+    "inicio": 11.52,
+    "fim": 11.74
+  },
+  "33": {
+    "palavra": "pronto",
+    "inicio": 11.74,
+    "fim": 12.14
+  },
+  "34": {
+    "palavra": "fica",
+    "inicio": 12.14,
+    "fim": 12.52
+  },
+  "35": {
+    "palavra": "de",
+    "inicio": 12.52,
+    "fim": 12.86
+  },
+  "36": {
+    "palavra": "pé?",
+    "inicio": 12.86,
+    "fim": 13.04
+  },
+  "37": {
+    "palavra": "As",
+    "inicio": 13.62,
+    "fim": 13.8
+  },
+  "38": {
+    "palavra": "cunhas",
+    "inicio": 13.8,
+    "fim": 14
+  },
+  "39": {
+    "palavra": "se",
+    "inicio": 14,
+    "fim": 14.3
+  },
+  "40": {
+    "palavra": "comprimem",
+    "inicio": 14.3,
+    "fim": 14.68
+  },
+  "41": {
+    "palavra": "umas",
+    "inicio": 14.68,
+    "fim": 15.04
+  },
+  "42": {
+    "palavra": "contra",
+    "inicio": 15.04,
+    "fim": 15.34
+  },
+  "43": {
+    "palavra": "as",
+    "inicio": 15.34,
+    "fim": 15.52
+  },
+  "44": {
+    "palavra": "outras.",
+    "inicio": 15.52,
+    "fim": 15.94
+  },
+  "45": {
+    "palavra": "A",
+    "inicio": 16.36,
+    "fim": 16.4
+  },
+  "46": {
+    "palavra": "curva",
+    "inicio": 16.4,
+    "fim": 16.62
+  },
+  "47": {
+    "palavra": "leva",
+    "inicio": 16.62,
+    "fim": 16.88
+  },
+  "48": {
+    "palavra": "a",
+    "inicio": 16.88,
+    "fim": 17.1
+  },
+  "49": {
+    "palavra": "carga",
+    "inicio": 17.1,
+    "fim": 17.3
+  },
+  "50": {
+    "palavra": "aos",
+    "inicio": 17.3,
+    "fim": 17.5
+  },
+  "51": {
+    "palavra": "dois",
+    "inicio": 17.5,
+    "fim": 17.8
+  },
+  "52": {
+    "palavra": "apoios;",
+    "inicio": 17.8,
+    "fim": 18.2
+  },
+  "53": {
+    "palavra": "a",
+    "inicio": 18.62,
+    "fim": 18.68
+  },
+  "54": {
+    "palavra": "argamassa",
+    "inicio": 18.68,
+    "fim": 19.08
+  },
+  "55": {
+    "palavra": "mantém",
+    "inicio": 19.08,
+    "fim": 19.54
+  },
+  "56": {
+    "palavra": "as",
+    "inicio": 19.54,
+    "fim": 19.88
+  },
+  "57": {
+    "palavra": "peças",
+    "inicio": 19.88,
+    "fim": 20.1
+  },
+  "58": {
+    "palavra": "em",
+    "inicio": 20.1,
+    "fim": 20.42
+  },
+  "59": {
+    "palavra": "contato.",
+    "inicio": 20.42,
+    "fim": 20.96
+  },
+  "60": {
+    "palavra": "Mas,",
+    "inicio": 21.28,
+    "fim": 21.56
+  },
+  "61": {
+    "palavra": "durante",
+    "inicio": 21.56,
+    "fim": 21.88
+  },
+  "62": {
+    "palavra": "a",
+    "inicio": 21.88,
+    "fim": 22.02
+  },
+  "63": {
+    "palavra": "montagem,",
+    "inicio": 22.02,
+    "fim": 22.5
+  },
+  "64": {
+    "palavra": "quem",
+    "inicio": 22.7,
+    "fim": 22.84
+  },
+  "65": {
+    "palavra": "sustenta",
+    "inicio": 22.84,
+    "fim": 23.26
+  },
+  "66": {
+    "palavra": "tudo?",
+    "inicio": 23.26,
+    "fim": 23.74
+  },
+  "67": {
+    "palavra": "A",
+    "inicio": 24.46,
+    "fim": 24.49
+  },
+  "68": {
+    "palavra": "cimbra",
+    "inicio": 24.49,
+    "fim": 24.68
+  },
+  "69": {
+    "palavra": "apoia",
+    "inicio": 24.68,
+    "fim": 25.04
+  },
+  "70": {
+    "palavra": "a",
+    "inicio": 25.04,
+    "fim": 25.38
+  },
+  "71": {
+    "palavra": "alvenaria",
+    "inicio": 25.38,
+    "fim": 25.66
+  },
+  "72": {
+    "palavra": "até",
+    "inicio": 25.66,
+    "fim": 26
+  },
+  "73": {
+    "palavra": "o",
+    "inicio": 26,
+    "fim": 26.14
+  },
+  "74": {
+    "palavra": "anel",
+    "inicio": 26.14,
+    "fim": 26.34
+  },
+  "75": {
+    "palavra": "fechar",
+    "inicio": 26.34,
+    "fim": 26.8
+  },
+  "76": {
+    "palavra": "e",
+    "inicio": 26.8,
+    "fim": 27
+  },
+  "77": {
+    "palavra": "se",
+    "inicio": 27,
+    "fim": 27.18
+  },
+  "78": {
+    "palavra": "estabilizar.",
+    "inicio": 27.18,
+    "fim": 27.68
+  },
+  "79": {
+    "palavra": "Só",
+    "inicio": 27.68,
+    "fim": 28.24
+  },
+  "80": {
+    "palavra": "então",
+    "inicio": 28.24,
+    "fim": 28.7
+  },
+  "81": {
+    "palavra": "a",
+    "inicio": 28.7,
+    "fim": 28.76
+  },
+  "82": {
+    "palavra": "madeira",
+    "inicio": 28.76,
+    "fim": 29.16
+  },
+  "83": {
+    "palavra": "pode",
+    "inicio": 29.16,
+    "fim": 29.42
+  },
+  "84": {
+    "palavra": "sair.",
+    "inicio": 29.42,
+    "fim": 29.9
+  },
+  "85": {
+    "palavra": "A",
+    "inicio": 30.3,
+    "fim": 30.44
+  },
+  "86": {
+    "palavra": "peça",
+    "inicio": 30.44,
+    "fim": 30.66
+  },
+  "87": {
+    "palavra": "do",
+    "inicio": 30.66,
+    "fim": 30.82
+  },
+  "88": {
+    "palavra": "topo",
+    "inicio": 30.82,
+    "fim": 31.2
+  },
+  "89": {
+    "palavra": "fecha",
+    "inicio": 31.2,
+    "fim": 31.44
+  },
+  "90": {
+    "palavra": "o",
+    "inicio": 31.44,
+    "fim": 31.54
+  },
+  "91": {
+    "palavra": "anel,",
+    "inicio": 31.54,
+    "fim": 31.84
+  },
+  "92": {
+    "palavra": "mas",
+    "inicio": 31.96,
+    "fim": 32.06
+  },
+  "93": {
+    "palavra": "não",
+    "inicio": 32.06,
+    "fim": 32.22
+  },
+  "94": {
+    "palavra": "trabalha",
+    "inicio": 32.22,
+    "fim": 32.7
+  },
+  "95": {
+    "palavra": "sozinha.",
+    "inicio": 32.7,
+    "fim": 33.3
+  },
+  "96": {
+    "palavra": "Os",
+    "inicio": 33.7,
+    "fim": 33.8
+  },
+  "97": {
+    "palavra": "encontros",
+    "inicio": 33.8,
+    "fim": 34.36
+  },
+  "98": {
+    "palavra": "resistem",
+    "inicio": 34.36,
+    "fim": 34.94
+  },
+  "99": {
+    "palavra": "ao",
+    "inicio": 34.94,
+    "fim": 35.06
+  },
+  "100": {
+    "palavra": "empuxo,",
+    "inicio": 35.06,
+    "fim": 35.62
+  },
+  "101": {
+    "palavra": "a",
+    "inicio": 35.8,
+    "fim": 35.84
+  },
+  "102": {
+    "palavra": "carga",
+    "inicio": 35.84,
+    "fim": 36.06
+  },
+  "103": {
+    "palavra": "chega",
+    "inicio": 36.06,
+    "fim": 36.36
+  },
+  "104": {
+    "palavra": "ao",
+    "inicio": 36.36,
+    "fim": 36.6
+  },
+  "105": {
+    "palavra": "chão",
+    "inicio": 36.6,
+    "fim": 36.9
+  },
+  "106": {
+    "palavra": "e",
+    "inicio": 36.9,
+    "fim": 37
+  },
+  "107": {
+    "palavra": "o",
+    "inicio": 37,
+    "fim": 37.08
+  },
+  "108": {
+    "palavra": "vão",
+    "inicio": 37.08,
+    "fim": 37.24
+  },
+  "109": {
+    "palavra": "fica",
+    "inicio": 37.24,
+    "fim": 37.54
+  },
+  "110": {
+    "palavra": "livre.",
+    "inicio": 37.54,
+    "fim": 37.92
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "projectId": "brasil-30s",
+  "duration": 30,
+  "fps": 30,
+  "resolution": "1920x1080",
+  "sceneCount": 16,
+  "averageSceneSeconds": 1.875,
+  "maxSceneSeconds": 3.3,
+  "minAssetsPerScene": 6,
+  "scenes": [
+    {
+      "id": "s01",
+      "start": 0,
+      "duration": 2.3,
+      "world": "mesa-do-cartografo",
+      "speech": "O Brasil não nasceu pronto: foi empilhado.",
+      "event": "A lâmpada acende sobre uma pilha de mapas; uma nova folha cai e um carimbo confirma: foi empilhado.",
+      "assets": [
+        "mesa de madeira",
+        "lâmpada",
+        "pilha de 7 folhas",
+        "mapa na folha superior",
+        "carimbo",
+        "poeira",
+        "título",
+        "textura de papel"
+      ],
+      "camera": "Push-in lento da lâmpada para a pilha.",
+      "assetCount": 8,
+      "visualPlan": {
+        "beatId": "s01",
+        "attentionTarget": "mesa de madeira",
+        "visibleEvent": "A lâmpada acende sobre uma pilha de mapas; uma nova folha cai e um carimbo confirma: foi empilhado.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Push-in lento da lâmpada para a pilha.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s02",
+      "start": 2.3,
+      "duration": 3.02,
+      "world": "mapa-1500",
+      "speech": "Em 1500, milhões de indígenas já viviam aqui.",
+      "event": "O mapa do Brasil acende com territórios, rios e aldeias; a data 1500 entra e uma nota fixa a escala humana.",
+      "assets": [
+        "mapa do Brasil",
+        "territórios indígenas",
+        "rios",
+        "aldeias",
+        "bússola",
+        "data 1500",
+        "nota 2–5 milhões",
+        "pino",
+        "papel",
+        "poeira"
+      ],
+      "camera": "Travelling lateral sobre o mapa, com leve rotação da folha.",
+      "assetCount": 10,
+      "visualPlan": {
+        "beatId": "s02",
+        "attentionTarget": "mapa do Brasil",
+        "visibleEvent": "O mapa do Brasil acende com territórios, rios e aldeias; a data 1500 entra e uma nota fixa a escala humana.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Travelling lateral sobre o mapa, com leve rotação da folha.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s03",
+      "start": 5.32,
+      "duration": 1.43,
+      "world": "engenho",
+      "speech": "Depois vieram o açúcar,",
+      "event": "O canavial, a moenda e o pão de açúcar tomam a folha; a fumaça sobe e o carimbo AÇÚCAR marca o período.",
+      "assets": [
+        "canavial",
+        "moenda",
+        "roda d’água",
+        "casa de engenho",
+        "pão de açúcar",
+        "fumaça",
+        "sol",
+        "mapa inset",
+        "carimbo",
+        "papel"
+      ],
+      "camera": "Pan da esquerda para a direita, do canavial à moenda.",
+      "assetCount": 10,
+      "visualPlan": {
+        "beatId": "s03",
+        "attentionTarget": "canavial",
+        "visibleEvent": "O canavial, a moenda e o pão de açúcar tomam a folha; a fumaça sobe e o carimbo AÇÚCAR marca o período.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Pan da esquerda para a direita, do canavial à moenda.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s04",
+      "start": 6.75,
+      "duration": 0.8,
+      "world": "atlantico",
+      "speech": "a escravidão",
+      "event": "Um navio negreiro cruza o Atlântico; rotas e um livro de carga registram 4,8 milhões de africanos desembarcados.",
+      "assets": [
+        "navio",
+        "rotas atlânticas",
+        "livro de carga",
+        "marcas de contagem",
+        "correntes",
+        "lua",
+        "mar",
+        "selo"
+      ],
+      "camera": "Travelling lateral curto, seguindo o navio.",
+      "assetCount": 8,
+      "visualPlan": {
+        "beatId": "s04",
+        "attentionTarget": "navio",
+        "visibleEvent": "Um navio negreiro cruza o Atlântico; rotas e um livro de carga registram 4,8 milhões de africanos desembarcados.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Travelling lateral curto, seguindo o navio.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s05",
+      "start": 7.55,
+      "duration": 1.55,
+      "world": "minas",
+      "speech": "e o ouro — e o país se esticou.",
+      "event": "Veios de ouro cortam a montanha; o mapa escuro recebe rotas que puxam o interior para o litoral.",
+      "assets": [
+        "montanha",
+        "veios de ouro",
+        "igreja barroca",
+        "mapa",
+        "rotas",
+        "pepitas",
+        "poeira",
+        "carimbo"
+      ],
+      "camera": "Push-in na montanha e revelação do mapa à direita.",
+      "assetCount": 8,
+      "visualPlan": {
+        "beatId": "s05",
+        "attentionTarget": "montanha",
+        "visibleEvent": "Veios de ouro cortam a montanha; o mapa escuro recebe rotas que puxam o interior para o litoral.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Push-in na montanha e revelação do mapa à direita.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s06",
+      "start": 9.1,
+      "duration": 2.75,
+      "world": "ipiranga",
+      "speech": "Em 1822, a independência veio,",
+      "event": "A pintura Independência ou Morte ocupa a tela; a data 1822 e o carimbo independência entram sobre a cena.",
+      "assets": [
+        "pintura de Pedro Américo",
+        "data 1822",
+        "carimbo independência",
+        "gradiente de luz",
+        "poeira",
+        "crédito"
+      ],
+      "camera": "Push-in lento na pintura.",
+      "assetCount": 6,
+      "visualPlan": {
+        "beatId": "s06",
+        "attentionTarget": "pintura de Pedro Américo",
+        "visibleEvent": "A pintura Independência ou Morte ocupa a tela; a data 1822 e o carimbo independência entram sobre a cena.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Push-in lento na pintura.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s07",
+      "start": 11.85,
+      "duration": 1.55,
+      "world": "arquivo-1824",
+      "speech": "mas a escravidão continuou.",
+      "event": "A Constituição de 1824 é atravessada por uma corrente; o carimbo escravidão continua confirma a permanência.",
+      "assets": [
+        "documento de 1824",
+        "corrente",
+        "selo",
+        "mapa",
+        "carimbo",
+        "tinta",
+        "papel"
+      ],
+      "camera": "Push-in no documento e na corrente.",
+      "assetCount": 7,
+      "visualPlan": {
+        "beatId": "s07",
+        "attentionTarget": "documento de 1824",
+        "visibleEvent": "A Constituição de 1824 é atravessada por uma corrente; o carimbo escravidão continua confirma a permanência.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Push-in no documento e na corrente.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s08",
+      "start": 13.4,
+      "duration": 3.3,
+      "world": "arquivo-1888",
+      "speech": "Em 1888, a abolição veio sem terra.",
+      "event": "A Lei Áurea é o documento central; a corrente se rompe, lotes vazios aparecem e o carimbo sem terra fecha a conta.",
+      "assets": [
+        "Lei Áurea",
+        "caneta",
+        "corrente rompida",
+        "grade de lotes",
+        "carimbo sem terra",
+        "data 1888",
+        "papel",
+        "fita"
+      ],
+      "camera": "Descida da câmera do documento aos lotes.",
+      "assetCount": 8,
+      "visualPlan": {
+        "beatId": "s08",
+        "attentionTarget": "Lei Áurea",
+        "visibleEvent": "A Lei Áurea é o documento central; a corrente se rompe, lotes vazios aparecem e o carimbo sem terra fecha a conta.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Descida da câmera do documento aos lotes.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s09",
+      "start": 16.7,
+      "duration": 1.85,
+      "world": "republica",
+      "speech": "A República nasceu excludente.",
+      "event": "A proclamação de 1889 entra em quadro; a urna e as sacas de café mostram quem participa e quem fica de fora.",
+      "assets": [
+        "pintura de Benedito Calixto",
+        "urna",
+        "cédula",
+        "sacas de café",
+        "carimbo república excludente",
+        "data 1889",
+        "moldura"
+      ],
+      "camera": "Travelling lateral com parallax entre pintura e objetos.",
+      "assetCount": 7,
+      "visualPlan": {
+        "beatId": "s09",
+        "attentionTarget": "pintura de Benedito Calixto",
+        "visibleEvent": "A proclamação de 1889 entra em quadro; a urna e as sacas de café mostram quem participa e quem fica de fora.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Travelling lateral com parallax entre pintura e objetos.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s10",
+      "start": 18.55,
+      "duration": 0.8,
+      "world": "fabrica",
+      "speech": "Indústria, Vargas",
+      "event": "A fábrica e o retrato de Vargas entram juntos; o rádio emite ondas e o carimbo Vargas sela o bloco.",
+      "assets": [
+        "fábrica",
+        "chaminés",
+        "fumaça",
+        "retrato de Vargas",
+        "rádio",
+        "ondas",
+        "carimbo"
+      ],
+      "camera": "Whip pan curto da fábrica ao retrato.",
+      "assetCount": 7,
+      "visualPlan": {
+        "beatId": "s10",
+        "attentionTarget": "fábrica",
+        "visibleEvent": "A fábrica e o retrato de Vargas entram juntos; o rádio emite ondas e o carimbo Vargas sela o bloco.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Whip pan curto da fábrica ao retrato.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s11",
+      "start": 19.35,
+      "duration": 1.45,
+      "world": "brasilia",
+      "speech": "e Brasília",
+      "event": "A foto do Congresso Nacional sob chuva é recortada em blueprints; a grua e o carimbo Brasília datam a construção.",
+      "assets": [
+        "foto do Congresso",
+        "blueprint",
+        "grua",
+        "terra vermelha",
+        "data 1960",
+        "carimbo Brasília",
+        "chuva"
+      ],
+      "camera": "Push-in vertical da capital ao céu.",
+      "assetCount": 7,
+      "visualPlan": {
+        "beatId": "s11",
+        "attentionTarget": "foto do Congresso",
+        "visibleEvent": "A foto do Congresso Nacional sob chuva é recortada em blueprints; a grua e o carimbo Brasília datam a construção.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Push-in vertical da capital ao céu.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s12",
+      "start": 20.8,
+      "duration": 1.3,
+      "world": "ditadura",
+      "speech": "A ditadura tentou calar;",
+      "event": "Um jornal é coberto por tarjas pretas; a máquina de escrever e o selo AI-5 mostram a censura.",
+      "assets": [
+        "jornal",
+        "tarjas",
+        "máquina de escrever",
+        "lâmpada",
+        "selo AI-5",
+        "redações",
+        "papel"
+      ],
+      "camera": "Push-in no jornal e na tarja.",
+      "assetCount": 7,
+      "visualPlan": {
+        "beatId": "s12",
+        "attentionTarget": "jornal",
+        "visibleEvent": "Um jornal é coberto por tarjas pretas; a máquina de escrever e o selo AI-5 mostram a censura.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Push-in no jornal e na tarja.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s13",
+      "start": 22.1,
+      "duration": 1.35,
+      "world": "constituinte",
+      "speech": "a Constituição respondeu.",
+      "event": "O livro da Constituição de 1988 se abre e a luz atravessa as páginas; a multidão ocupa a base do quadro.",
+      "assets": [
+        "livro",
+        "páginas",
+        "luz",
+        "multidão",
+        "data 1988",
+        "poeira"
+      ],
+      "camera": "Push-in na luz entre as páginas.",
+      "assetCount": 6,
+      "visualPlan": {
+        "beatId": "s13",
+        "attentionTarget": "livro",
+        "visibleEvent": "O livro da Constituição de 1988 se abre e a luz atravessa as páginas; a multidão ocupa a base do quadro.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Push-in na luz entre as páginas.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s14",
+      "start": 23.45,
+      "duration": 2.2,
+      "world": "mapa-hoje",
+      "speech": "Hoje somos diversos e ainda desiguais.",
+      "event": "O mapa contemporâneo acende cidades e estados; duas estatísticas de diversidade e renda entram ancoradas no mapa.",
+      "assets": [
+        "mapa do Brasil",
+        "estados",
+        "cidades",
+        "pontos de dados",
+        "estatística 55,5%",
+        "estatística 61,4%",
+        "carimbo diverso e desigual",
+        "linhas de chamada"
+      ],
+      "camera": "Pull-back do mapa para o painel de dados.",
+      "assetCount": 8,
+      "visualPlan": {
+        "beatId": "s14",
+        "attentionTarget": "mapa do Brasil",
+        "visibleEvent": "O mapa contemporâneo acende cidades e estados; duas estatísticas de diversidade e renda entram ancoradas no mapa.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Pull-back do mapa para o painel de dados.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s15",
+      "start": 25.65,
+      "duration": 1.95,
+      "world": "mesa-das-camadas",
+      "speech": "Não é uma linha reta: são camadas.",
+      "event": "A pilha de mapas sobe em degraus, cada camada com seu ano; o mapa de 2026 repousa no topo.",
+      "assets": [
+        "pilha de 11 camadas",
+        "mapa no topo",
+        "etiquetas de ano",
+        "sombra",
+        "título São camadas",
+        "carimbo",
+        "poeira",
+        "luz"
+      ],
+      "camera": "Pull-back vertical revelando a pilha inteira.",
+      "assetCount": 8,
+      "visualPlan": {
+        "beatId": "s15",
+        "attentionTarget": "pilha de 11 camadas",
+        "visibleEvent": "A pilha de mapas sobe em degraus, cada camada com seu ano; o mapa de 2026 repousa no topo.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Pull-back vertical revelando a pilha inteira.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    },
+    {
+      "id": "s16",
+      "start": 27.6,
+      "duration": 2.4,
+      "world": "fecho",
+      "speech": "Se inscreve e curte pra abrir mais mapas.",
+      "event": "A pilha permanece; o selo CAMADAS DO BRASIL e o convite de inscrição fecham o vídeo.",
+      "assets": [
+        "pilha de mapas",
+        "título O próximo mapa",
+        "selo CAMADAS",
+        "ícone play",
+        "ícone like",
+        "ícone sino",
+        "luz",
+        "poeira"
+      ],
+      "camera": "Câmera quase parada; a pilha respira sob a luz.",
+      "assetCount": 8,
+      "visualPlan": {
+        "beatId": "s16",
+        "attentionTarget": "pilha de mapas",
+        "visibleEvent": "A pilha permanece; o selo CAMADAS DO BRASIL e o convite de inscrição fecham o vídeo.",
+        "stateBefore": "campo visual anterior",
+        "stateAfter": "novo estado do mapa/documento",
+        "cameraReveal": "Câmera quase parada; a pilha respira sob a luz.",
+        "soundIntent": "whoosh, impacto de papel ou metal sincronizado ao corte"
+      }
+    }
+  ]
+}

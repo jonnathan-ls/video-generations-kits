@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "narrationHash": "ad4c02021e0c4903",
+  "reviewed": true,
+  "unresolved": [],
+  "decisions": [
+    {
+      "id": "e3-keystone-fit",
+      "action": "reuse",
+      "kind": "animation",
+      "reason": "A cunha final entra de frente e completa a coroa no primeiro beat.",
+      "start": 0,
+      "end": 22,
+      "phrase": "A última cunha encaixa",
+      "assetId": "encaixe_coroamento"
+    },
+    {
+      "id": "e3-paragraph-1",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "Cobertura semântica do parágrafo 1: o mecanismo principal permanece o arco segmentado; cada ação e relação da frase também recebe decisões específicas no plano.",
+      "start": 0,
+      "end": 23,
+      "phrase": "A última cunha encaixa,",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-sound-keystone",
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_alvenaria_batida",
+      "reason": "Toque seco no assentamento da cunha final.",
+      "start": 15,
+      "end": 22,
+      "phrase": "encaixa"
+    },
+    {
+      "id": "e3-paragraph-2",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "Cobertura semântica do parágrafo 2: o mecanismo principal permanece o arco segmentado; cada ação e relação da frase também recebe decisões específicas no plano.",
+      "start": 25,
+      "end": 57,
+      "phrase": "mas o que impede o arco de cair?",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-opening-question",
+      "action": "reuse",
+      "kind": "scene",
+      "reason": "A câmera abre no mesmo ambiente durante a pausa e mantém a pergunta ligada ao mecanismo visível.",
+      "start": 25,
+      "end": 57,
+      "phrase": "mas o que impede o arco de cair?",
+      "assetId": "contexto_arco_jardim"
+    },
+    {
+      "id": "e3-paragraph-3",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "Cobertura semântica do parágrafo 3: o mecanismo principal permanece o arco segmentado; cada ação e relação da frase também recebe decisões específicas no plano.",
+      "start": 59,
+      "end": 162,
+      "phrase": "O arco empurra os pilares para os lados. Quando eles cedem, as juntas se abrem, e o anel perde contato.",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-lateral-thrust",
+      "action": "reuse",
+      "kind": "effect",
+      "reason": "Setas distinguem o empurrão horizontal do arco e a resposta dos dois pilares.",
+      "start": 66,
+      "end": 98,
+      "phrase": "empurra os pilares para os lados",
+      "assetId": "empuxo_lateral_arco"
+    },
+    {
+      "id": "e3-support-settle",
+      "action": "reuse",
+      "kind": "animation",
+      "reason": "Deslocamento localizado dos pilares sincronizado ao verbo “cedem”; a abertura das juntas continua na sequência.",
+      "start": 100,
+      "end": 117,
+      "phrase": "Quando eles cedem",
+      "assetId": "instabilidade_apoio_arco"
+    },
+    {
+      "id": "e3-sound-arrows",
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_movimento",
+      "reason": "Whoosh curto acompanha a entrada das setas de empuxo e reação.",
+      "start": 107,
+      "end": 117,
+      "phrase": "eles cedem"
+    },
+    {
+      "id": "e3-sound-supports",
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_impacto",
+      "reason": "Impacto curto marca o cedimento localizado dos pilares.",
+      "start": 112,
+      "end": 117,
+      "phrase": "cedem"
+    },
+    {
+      "id": "e3-joints-open",
+      "action": "reuse",
+      "kind": "animation",
+      "reason": "O close revela as juntas abrindo sem novo deslocamento dos pilares.",
+      "start": 119,
+      "end": 137,
+      "phrase": "as juntas se abrem",
+      "assetId": "instabilidade_apoio_arco"
+    },
+    {
+      "id": "e3-sound-joints",
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_alvenaria_batida",
+      "reason": "Contato pontua a abertura das juntas sem sugerir quebra.",
+      "start": 129,
+      "end": 137,
+      "phrase": "se abrem"
+    },
+    {
+      "id": "e3-ring-loses-contact",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "O arco permanece inteiro no quadro enquanto a perda de contato é mostrada como risco localizado.",
+      "start": 141,
+      "end": 161,
+      "phrase": "o anel perde contato",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-paragraph-4",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "Cobertura semântica do parágrafo 4: o mecanismo principal permanece o arco segmentado; cada ação e relação da frase também recebe decisões específicas no plano.",
+      "start": 164,
+      "end": 207,
+      "phrase": "Então, como um arco pronto se mantém de pé?",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-compression",
+      "action": "reuse",
+      "kind": "effect",
+      "reason": "Setas percorrem a curva em sequência curta para mostrar a transmissão entre as cunhas.",
+      "start": 209,
+      "end": 253,
+      "phrase": "As cunhas se comprimem umas contra as outras",
+      "assetId": "trajeto_compressivo_arco"
+    },
+    {
+      "id": "e3-paragraph-5",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "Cobertura semântica do parágrafo 5: o mecanismo principal permanece o arco segmentado; cada ação e relação da frase também recebe decisões específicas no plano.",
+      "start": 209,
+      "end": 338,
+      "phrase": "As cunhas se comprimem umas contra as outras. A curva leva a carga até os dois pilares, e a argamassa mantém as peças em contato.",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-sound-compression",
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_alvenaria_batida",
+      "reason": "Toque curto acompanha o contato entre as cunhas.",
+      "start": 219,
+      "end": 231,
+      "phrase": "se comprimem"
+    },
+    {
+      "id": "e3-two-pillars",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "Pilares e sapatas alinhados com as extremidades do arco e com a face frontal da parede.",
+      "start": 280,
+      "end": 295,
+      "phrase": "os dois pilares",
+      "assetId": "apoios_arco"
+    },
+    {
+      "id": "e3-supports-fit",
+      "action": "reuse",
+      "kind": "object",
+      "assetId": "apoios_arco",
+      "reason": "Os dois pilares e as sapatas ficam centrados sob as extremidades do arco; sapatas e pilares têm as mesmas extremidades laterais e profundidade, alinhadas à face frontal da parede.",
+      "start": 283,
+      "end": 295,
+      "phrase": "dois pilares"
+    },
+    {
+      "id": "e3-mortar",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "O close móvel mostra a argamassa preenchendo e mantendo o contato entre as cunhas.",
+      "start": 299,
+      "end": 337,
+      "phrase": "a argamassa mantém as peças em contato",
+      "assetId": "argamassa_juntas_arco"
+    },
+    {
+      "id": "e3-paragraph-6",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "Cobertura semântica do parágrafo 6: o mecanismo principal permanece o arco segmentado; cada ação e relação da frase também recebe decisões específicas no plano.",
+      "start": 340,
+      "end": 389,
+      "phrase": "Mas, durante a montagem, quem sustenta as cunhas?",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-centering-question",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "A pergunta prepara a revelação da estrutura temporária sob o arco.",
+      "start": 365,
+      "end": 389,
+      "phrase": "quem sustenta as cunhas?",
+      "assetId": "cimbra_arco"
+    },
+    {
+      "id": "e3-centering-entry",
+      "action": "reuse",
+      "kind": "animation",
+      "reason": "Sapatas, escoras e costelas aparecem em sequência e terminam em contato com o intradorso.",
+      "start": 391,
+      "end": 429,
+      "phrase": "O cimbre de madeira sustenta as cunhas",
+      "assetId": "entrada_cimbra_arco"
+    },
+    {
+      "id": "e3-paragraph-7",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "Cobertura semântica do parágrafo 7: o mecanismo principal permanece o arco segmentado; cada ação e relação da frase também recebe decisões específicas no plano.",
+      "start": 391,
+      "end": 492,
+      "phrase": "O cimbre de madeira sustenta as cunhas até o anel se fechar e ficar estável. Só então ele é retirado.",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-sound-centering",
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_madeira_creak",
+      "reason": "Rangido discreto acompanha a montagem e o contato do cimbre.",
+      "start": 393,
+      "end": 410,
+      "phrase": "cimbre de madeira"
+    },
+    {
+      "id": "e3-centering-stability",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "O arco completo é mostrado apoiado enquanto o cimbre continua sob a estrutura.",
+      "start": 434,
+      "end": 466,
+      "phrase": "o anel se fechar e ficar estável",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-centering-withdrawal",
+      "action": "reuse",
+      "kind": "animation",
+      "reason": "A retirada começa depois da estabilidade ser dita e ilustrada.",
+      "start": 468,
+      "end": 491,
+      "phrase": "Só então ele é retirado",
+      "assetId": "retirada_cimbra"
+    },
+    {
+      "id": "e3-sound-removal",
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_madeira_creak",
+      "reason": "Esforço de madeira acompanha o começo da descida após a fala de estabilidade.",
+      "start": 468,
+      "end": 491,
+      "phrase": "Só então ele é retirado"
+    },
+    {
+      "id": "e3-sound-whoosh-removal",
+      "action": "reuse",
+      "kind": "sound",
+      "assetId": "som_movimento",
+      "reason": "Whoosh acompanha o afastamento visível do cimbre.",
+      "start": 483,
+      "end": 491,
+      "phrase": "retirado"
+    },
+    {
+      "id": "e3-paragraph-8",
+      "action": "reuse",
+      "kind": "object",
+      "reason": "Cobertura semântica do parágrafo 8: o mecanismo principal permanece o arco segmentado; cada ação e relação da frase também recebe decisões específicas no plano.",
+      "start": 494,
+      "end": 646,
+      "phrase": "A peça do topo fecha o anel, mas não sustenta o arco sozinha. Os pilares resistem a esse empurrão, e a carga desce até o chão — assim, o vão fica livre.",
+      "assetId": "arco_alvenaria"
+    },
+    {
+      "id": "e3-final-reaction",
+      "action": "reuse",
+      "kind": "effect",
+      "reason": "A conclusão mostra apenas as reações dos dois pilares, com uma entrada por vez.",
+      "start": 556,
+      "end": 591,
+      "phrase": "Os pilares resistem a esse empurrão",
+      "assetId": "empuxo_lateral_arco"
+    },
+    {
+      "id": "e3-load-ground",
+      "action": "reuse",
+      "kind": "effect",
+      "reason": "O trajeto dourado termina no piso junto às sapatas.",
+      "start": 595,
+      "end": 619,
+      "phrase": "a carga desce até o chão",
+      "assetId": "trajeto_compressivo_arco"
+    },
+    {
+      "id": "e3-ground-contact",
+      "action": "reuse",
+      "kind": "scene",
+      "assetId": "chao",
+      "reason": "O piso de concreto é o destino visível da carga; as duas sapatas permanecem apoiadas nele.",
+      "start": 613,
+      "end": 619,
+      "phrase": "o chão",
+      "variant": "concreto"
+    },
+    {
+      "id": "e3-garden-payoff",
+      "action": "reuse",
+      "kind": "scene",
+      "reason": "O retorno abre para o mesmo exterior: céu, jardim e prédios agora assentados no terreno; uma rua cruza a frente do piso de concreto e um sedã passa uma única vez, em faixa distante do arco.",
+      "start": 629,
+      "end": 645,
+      "phrase": "o vão fica livre",
+      "assetId": "contexto_arco_jardim"
+    }
+  ],
+  "lexicalReview": {
+    "status": "triagem semântica revisada para a versão E3",
+    "source": "lexical.json",
+    "words": 125,
+    "contiguousGroups1to3": 312,
+    "notes": "Todas as janelas contíguas de uma a três palavras foram cobertas pela leitura causal dos oito parágrafos. Conectivos, perguntas, ações, objetos, forças, materiais e relações foram considerados; nenhuma lacuna textual foi omitida."
+  },
+  "gramReview": {
+    "status": "consultado",
+    "groups1to3": 312,
+    "unresolved": []
+  },
+  "sentenceReview": {
+    "status": "consultado",
+    "paragraphs": 8,
+    "notes": "Gancho da última cunha → empurrão e cedimento dos pilares → abertura das juntas → compressão e argamassa → cimbre durante a montagem → retirada após estabilidade → distribuição final da carga."
+  },
+  "catalogReview": {
+    "status": "consulta atualizada",
+    "reused": [
+      "apoios_arco",
+      "arco_alvenaria",
+      "argamassa_juntas_arco",
+      "chao",
+      "cimbra_arco",
+      "contexto_arco_jardim",
+      "empuxo_lateral_arco",
+      "encaixe_coroamento",
+      "entrada_cimbra_arco",
+      "instabilidade_apoio_arco",
+      "retirada_cimbra",
+      "som_alvenaria_batida",
+      "som_impacto",
+      "som_madeira_creak",
+      "som_movimento",
+      "trajeto_compressivo_arco"
+    ],
+    "newRequirements": [],
+    "enhancementRequirements": [
+      "arco-alvenaria:e3-abutment-alignment",
+      "arco-alvenaria:e3-garden-life"
+    ]
+  },
+  "reviewNote": "Lista de recursos e prévia da versão E3, incluindo o cenário com rua e passagem do sedã e as legendas ampliadas, aprovadas pelo criador no chat em 2026-11-06."
+}

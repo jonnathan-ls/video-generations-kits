@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "projectId": "brasil-camadas",
+  "artifactType": "technical-preview",
+  "scope": "Prévia anterior de uma cena única (36,9 s). Reprovada por falta de cobertura cena a cena; mantida apenas como diagnóstico.",
+  "status": "rejected",
+  "provisional": true,
+  "url": "http://127.0.0.1:4173/",
+  "page": "kit/projects/brasil-camadas/preview/hyperframes/index.html",
+  "project": "kit/projects/brasil-camadas/preview/project.json",
+  "durationSeconds": 36.9,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "scene": {
+    "id": "abertura-atlas",
+    "label": "Abertura — Um país de camadas",
+    "beatId": "b01-abertura-atlas",
+    "voice": "pm_santa, velocidade 0,9 — tomada de teste, não aprovada",
+    "asset": "brasil_atlas_abertura / padrao",
+    "assetRevision": "29f888e7a9e18413",
+    "liveUrlServedFrom": "kit/projects/brasil-camadas/preview/hyperframes"
+  },
+  "checks": [
+    {
+      "domain": "hyperframes-check",
+      "status": "pass",
+      "evidence": "kit/projects/brasil-camadas/preview/hyperframes/check.json",
+      "note": "ok=true era só o check técnico do HyperFrames; ele não mede cobertura narrativa. A prévia tinha 1 cena para 36,9 s e 6 unidades de fala, sem cortes/inserções/efeitos. O check técnico não substitui o QA cena a cena."
+    },
+    {
+      "domain": "render-no-browser",
+      "status": "pass",
+      "evidence": "snapshots e review-snapshots",
+      "note": "A cena montou e renderizou no navegador em software WebGL; a página tem controles e o painel de plano visual. O snapshot --review gerou 5 beats e a folha de celular."
+    },
+    {
+      "domain": "motion",
+      "status": "pass-with-findings",
+      "evidence": "kit/projects/brasil-camadas/preview/hyperframes/motion-sheet.jpg",
+      "note": "Quadros a cada 1 s de 7 a 18 s mostram a luva, o deslizamento da camada de papel e a abertura das camadas de baixo. A câmera tem deslocamento lento; a ação principal é a camada que sai."
+    },
+    {
+      "domain": "seek-out-of-order",
+      "status": "pass",
+      "evidence": "kit/projects/brasil-camadas/preview/hyperframes/seek-test/contact-sheet.jpg",
+      "note": "Capturas em 30, 5, 20, 0 e 35 s, nessa ordem, sem estado residual: 5 s mostra a pilha fechada, 30 s a camada deslocada, 35 s o cartão final."
+    },
+    {
+      "domain": "phone-width",
+      "status": "pass-with-findings",
+      "evidence": "kit/projects/brasil-camadas/preview/hyperframes/review-snapshots/review-phone.jpg",
+      "note": "A legenda a 54 px é legível no desktop e marginal na largura de 390 px; a composição 16:9 mantém o mapa reconhecível. Ajustar tamanho/posição da legenda no próximo passe."
+    },
+    {
+      "domain": "audio",
+      "status": "not-verified",
+      "evidence": "kit/projects/brasil-camadas/preview/voice-open.wav e voice/takes.json",
+      "note": "A voz pm_santa a 0,9 é uma tomada de teste. Não houve escuta crítica humana nem aprovação de voz/mixagem; o criador deve ouvir no player."
+    },
+    {
+      "domain": "captions",
+      "status": "provisional",
+      "evidence": "kit/projects/brasil-camadas/preview/project.json",
+      "note": "Legendas em modo phrase e timing estimado por duração proporcional; não são alinhamento acústico por palavra. O alinhamento final fica para a voz aprovada."
+    },
+    {
+      "domain": "gpu-capture",
+      "status": "not-verified",
+      "evidence": "check.json",
+      "note": "A captura foi em software/SwiftShader; a máquina não expõe a GPU NVIDIA. Não houve render MP4 final."
+    },
+    {
+      "domain": "qualityPolicy",
+      "status": "fail",
+      "evidence": "kit/projects/brasil-camadas/preview/project.json; kit/tools/production.mjs",
+      "note": "O projeto declara qualityPolicy.minAssetsPerScene=5, maxSceneSeconds=8 e nenhum máximo de assets. A cena única tem 1 asset e 36,9 s; o validador retorna as duas falhas: mínimo de 5 recursos e duração acima de 8 s."
+    }
+  ],
+  "findings": [
+    {
+      "id": "P1-01",
+      "severity": "P1",
+      "domain": "direction/coverage",
+      "observation": "A abertura inteira foi uma única cena de 36,9 s, com um asset composto e um único movimento de câmera/camada. Não há cortes por frase, inserções, efeitos ou transições; o `beats.json` previa 3 tomadas só para o beat 1 e o Titanic usa ~47 cenas em 180 s.",
+      "consequence": "O vídeo não entrega a qualidade de produção narrativa visual pedida: o gancho passa sem acontecimentos visuais distintos por frase, sem ritmo de edição e sem evidência cena a cena.",
+      "correction": "Refazer a abertura como 12–14 cenas, uma por frase/acontecimento, com assets, câmeras, efeitos, transições e sons próprios, conforme `preview-opening-plan.md`.",
+      "acceptance": "Todas as cenas do plano implementadas, cada uma ligada à fala exata, inspecionadas em movimento, sem P0/P1; o `preview-qa.json` só então muda para ready-for-creator-review."
+    },
+    {
+      "id": "P1-02",
+      "severity": "P1",
+      "domain": "density",
+      "observation": "A cena única usava 1 asset visual composto. A política nova exige no mínimo 5 assets visuais por cena, sem máximo.",
+      "consequence": "A imagem não tem densidade de produção: falta variedade de objetos, overlays, efeitos, transições e estados para sustentar a fala.",
+      "correction": "Cada uma das 14 cenas do plano declara e implementa 5+ assets visuais, sem teto; a contagem entra no preview-qa.json.",
+      "acceptance": "Todas as cenas com 5+ assets visuais, composição distinta e QA de densidade aprovado."
+    },
+    {
+      "id": "P2-01",
+      "severity": "P2",
+      "domain": "art",
+      "observation": "As camadas de baixo são mapas esquemáticos com silhuetas e linhas, não mapas históricos distintos.",
+      "consequence": "A metáfora das camadas aparece, mas a informação histórica de cada camada ainda é genérica.",
+      "correction": "Substituir por três camadas com recortes/linhas históricas específicas, derivadas do plano de assets e dos mapas aprovados.",
+      "acceptance": "Cada camada tem conteúdo histórico reconhecível e distinto, legível em desktop e celular."
+    },
+    {
+      "id": "P2-02",
+      "severity": "P2",
+      "domain": "character",
+      "observation": "A luva é um placeholder de baixo detalhe, sem rosto, corpo ou escala humana completa.",
+      "consequence": "O movimento da camada fica motivado, mas a cartógrafa ainda não tem presença narrativa.",
+      "correction": "Construir a cartógrafa (ou uma solução de mão/braço mais acabada) para o plano final, com luz e silhueta coerentes.",
+      "acceptance": "A ação de puxar a camada é legível como gesto humano, sem parecer luva flutuante."
+    },
+    {
+      "id": "P2-03",
+      "severity": "P2",
+      "domain": "composition",
+      "observation": "A borda direita da camada superior sai do quadro no fim do deslizamento.",
+      "consequence": "A saída é intencional, mas o corte pode parecer acidental.",
+      "correction": "Enquadrar a saída com uma leve correção de câmera ou reduzir o deslocamento final.",
+      "acceptance": "A camada sai do quadro de forma motivada e legível, sem corte ambíguo."
+    },
+    {
+      "id": "P2-04",
+      "severity": "P2",
+      "domain": "captions",
+      "observation": "A legenda a 54 px é marginal em largura de 390 px.",
+      "consequence": "Em celular, a leitura exige esforço.",
+      "correction": "Testar 58–64 px ou uma faixa de legenda mais alta; medir no player de destino.",
+      "acceptance": "A legenda é legível em 390 px sem cobrir a ação principal."
+    },
+    {
+      "id": "P2-05",
+      "severity": "P2",
+      "domain": "audio",
+      "observation": "A voz e os efeitos são uma prova; não houve escuta humana.",
+      "consequence": "Naturalidade, pronúncia e mixagem não estão aprovadas.",
+      "correction": "Escolher a voz definitiva, alinhar por palavra e revisar a mixagem.",
+      "acceptance": "Escuta crítica humana aprovada; legendas alinhadas ao áudio."
+    },
+    {
+      "id": "P2-06",
+      "severity": "P2",
+      "domain": "motion-check",
+      "observation": "O check reporta dead_stretch em janelas de 3–6 s.",
+      "consequence": "O medidor vê apenas DOM; a câmera e a camada mudam no canvas, mas a leitura de movimento precisa ser confirmada em playback.",
+      "correction": "Revisar o playback; se a câmera estiver estática demais, acrescentar um segundo gesto (luz, poeira, camada) motivado pela fala.",
+      "acceptance": "Playback contínuo sem sensação de pausa não intencional."
+    }
+  ],
+  "notVerified": [
+    "Escuta crítica da voz, foley e mixagem",
+    "Alinhamento acústico por palavra das legendas",
+    "Render MP4 final em GPU",
+    "Aprovação humana dos assets",
+    "CTA do fecho (não está no trecho de abertura)"
+  ],
+  "references": [
+    "kit/quality/decisions.md#brasil--prévia-de-abertura-2026-11-14",
+    "node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js",
+    "node_modules/three/src/lights/SpotLight.js",
+    "node_modules/three/src/materials/MeshPhysicalMaterial.js",
+    "kit/assets/atlas-relief.js",
+    "kit/assets/maritime-lighting.js",
+    "research/geodata/ne_110m_countries.geojson"
+  ],
+  "nextAction": "Substituir a prévia de uma cena pelo plano de 14 cenas, com 5+ assets visuais por cena e sem teto; construir e inspecionar cena a cena antes de apresentar. A prévia antiga não é entrega.",
+  "supersededBy": "preview-opening-plan.md",
+  "qualityPolicy": {
+    "minAssetsPerScene": 5,
+    "maxAssetsPerScene": null,
+    "maxSceneSeconds": 8,
+    "note": "Mínimo de 5 assets visuais por cena; não há teto. Duração máxima de 8 s por cena no projeto novo; exceção exige justificativa."
+  }
+}

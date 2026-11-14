@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "9f11b31cf979f56742d668e0c39cd39cf96e0817643ee0edd41f8ec0d2d8ec60",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "bandeja",
+      "meshes": 3,
+      "triangles": 60,
+      "dimensions": [
+        0.6499999761581421,
+        0.04749999985098841,
+        0.4000000059604645
+      ]
+    },
+    {
+      "variant": "xicara",
+      "meshes": 2,
+      "triangles": 384,
+      "dimensions": [
+        0.22200000301003456,
+        0.12699999868869782,
+        0.15000000596046448
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T03:51:32.961Z"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "452d0416b7bd266dab79dc2ba3d1de5d0a2fbfdb04187c75b0192ebf344c0778",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "overlay-label-inercia",
+      "meshes": 4,
+      "triangles": 1740,
+      "dimensions": [
+        0.8840000033378601,
+        1.4815249320439743,
+        0.8840000033378601
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.884Z"
+}

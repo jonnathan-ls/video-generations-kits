@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "14a510259e1ed3c696bc744eb6b7dc640ae7ac3e3204aecaf23a0f397e8cc818",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "route-chart",
+      "meshes": 42,
+      "triangles": 11782,
+      "dimensions": [
+        2.700000047683716,
+        1.0730000127851964,
+        1.899999976158142
+      ]
+    },
+    {
+      "variant": "telegraph",
+      "meshes": 25,
+      "triangles": 6808,
+      "dimensions": [
+        2.700000047683716,
+        2.180000012293458,
+        1.899999976158142
+      ]
+    },
+    {
+      "variant": "chronometer",
+      "meshes": 11,
+      "triangles": 3008,
+      "dimensions": [
+        2.700000047683716,
+        1.2480000120699406,
+        1.899999976158142
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T18:58:32.677Z"
+}

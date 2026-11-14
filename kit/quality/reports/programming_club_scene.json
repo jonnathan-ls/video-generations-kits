@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "26964ff425dc974b0593decf2640a7d0406f3d55fb2b20b2489ab14ac5964e8b",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "club-demo",
+      "meshes": 99,
+      "triangles": 27856,
+      "dimensions": [
+        12,
+        2.0858552759885787,
+        10
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "club-demo: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-09T11:57:15.036Z"
+}

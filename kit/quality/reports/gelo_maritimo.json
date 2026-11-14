@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "8c2f8574c5b06858e46fa075851d7288da138a5faff4555aaed50d4426646e77",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "field",
+      "meshes": 4,
+      "triangles": 448,
+      "dimensions": [
+        219.22390456389613,
+        6.679999828338623,
+        180.5016765357472
+      ]
+    },
+    {
+      "variant": "iceberg",
+      "meshes": 1,
+      "triangles": 112,
+      "dimensions": [
+        53.212035059928894,
+        33.399999141693115,
+        39.758933544158936
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "field: recurso abaixo do chão; justificar contato no contrato.",
+    "iceberg: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-07T03:51:32.100Z"
+}

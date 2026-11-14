@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "c542c01012abad9d3f4ac5fca0b8c0f348ec27a595ee525f25a594bac6c86d53",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "single-path",
+      "meshes": 12,
+      "triangles": 6752,
+      "dimensions": [
+        12,
+        1.1949999779462817,
+        10
+      ]
+    },
+    {
+      "variant": "diverted-path",
+      "meshes": 12,
+      "triangles": 6752,
+      "dimensions": [
+        12,
+        1.1949999779462817,
+        10
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "single-path: recurso abaixo do chão; justificar contato no contrato.",
+    "diverted-path: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-09T11:57:10.705Z"
+}

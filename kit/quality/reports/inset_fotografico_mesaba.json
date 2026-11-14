@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "8227bfbb7d73981df229f27a7caca8e81eb714882ee534a1f2bab4959136cefd",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "mesaba-telegram-1912",
+      "meshes": 5,
+      "triangles": 596,
+      "dimensions": [
+        4.5,
+        7.079999923706055,
+        0.10200000000000001
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "mesaba-telegram-1912: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T06:35:17.540Z"
+}

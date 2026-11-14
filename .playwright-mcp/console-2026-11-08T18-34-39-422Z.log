@@ -1,0 +1,5 @@
+[     471ms] TypeError: THREE.RoundedBoxGeometry is not a constructor
+    at person (http://127.0.0.1:4173/kit/assets/period-person-rig.js:129:32)
+    at createSertaoPerson (http://127.0.0.1:4173/kit/assets/sertao-character-bedroom.js:7:17)
+    at create (http://127.0.0.1:4173/kit/assets/sertao-character-bedroom.js:104:17)
+    at http://127.0.0.1:4173/preview/casa-sertao-calor/main.js:46:15

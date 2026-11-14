@@ -1,0 +1,1252 @@
+{
+  "schemaVersion": 1,
+  "narrationHash": "55d72632e88cc87e",
+  "reviewed": false,
+  "scope": "Abertura somente, texto extraído da versão A2 do longa; atlas integra tratamento aprovado para desenvolvimento, não marca final.",
+  "lexicalEvidence": "lexical.json",
+  "decisions": [
+    {
+      "id": "mar-noturno",
+      "phrase": "oceano",
+      "start": 79,
+      "end": 85,
+      "action": "create",
+      "kind": "scene",
+      "label": "Atlântico noturno",
+      "specification": "Ambiente marítimo de 1912, horizonte legível, céu escuro e superfície de água com escala consistente. Âncora comum para Carpathia, sinal e botes; não implica mar revolto ou tempestade.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "transatlantico-titanic",
+      "phrase": "Titanic",
+      "start": 22,
+      "end": 29,
+      "action": "create",
+      "kind": "object",
+      "label": "Titanic — exterior reconhecível",
+      "specification": "Reconstrução ilustrativa do exterior de 1912, quatro chaminés e proporções verificadas antes da modelagem. Convés utilizável no embarque; não substituir por navio genérico ou apresentar como modelo arqueológico exato.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "navio-carpathia",
+      "phrase": "Carpathia",
+      "start": 146,
+      "end": 155,
+      "action": "create",
+      "kind": "object",
+      "label": "Carpathia — navio de resgate",
+      "specification": "Exterior ilustrativo verificável, distinguível do Titanic, com ponte e ponto de observação. Sem copiar detalhes do Titanic; localizar observador e gelo na mesma direção de viagem.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "observador-1912",
+      "phrase": "capitão",
+      "start": 42,
+      "end": 49,
+      "action": "create",
+      "kind": "character",
+      "label": "Capitão e passageiros de 1912",
+      "specification": "Variações separadas: capitão de uniforme marítimo e passageiros adultos de 1912. Aproveitar adaptador de personagens existente quando compatível, mas revisar figurino e silhueta. Não atribuir identidade ou destino inventado aos passageiros figurantes.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "sinal-verde",
+      "phrase": "luz verde",
+      "start": 58,
+      "end": 67,
+      "action": "create",
+      "kind": "effect",
+      "label": "Sinalizador verde distante",
+      "specification": "Sinal de socorro luminoso visível no escuro e breve dissipação; sem pisca de navegação. Aparece na direção observada pelo Carpathia. Não revelar o bote emissor na abertura. Entrada, espera de leitura e saída limitadas; não cobrir legenda ou lavar a imagem.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "gelo-maritimo",
+      "phrase": "gelo",
+      "start": 217,
+      "end": 221,
+      "action": "create",
+      "kind": "object",
+      "label": "Gelo marítimo",
+      "specification": "Blocos e silhueta de iceberg em variantes: rota do resgate e referência ao choque. Posição segura ao longo da trajetória; dimensões ilustrativas, sem afirmar forma exata do iceberg histórico.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "bote-1912",
+      "phrase": "botes",
+      "start": 272,
+      "end": 277,
+      "action": "create",
+      "kind": "object",
+      "label": "Bote de salvamento de 1912",
+      "specification": "Casco aberto, bancos legíveis e lugares desocupados visíveis sem números inventados. Variante com passageiros sentados; superfície da água toca o casco. Revisar formato histórico e escala em relação aos passageiros.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "ocupacao-bote",
+      "phrase": "lugares vazios",
+      "start": 340,
+      "end": 354,
+      "action": "create",
+      "kind": "animation",
+      "label": "Bote afasta-se com lugares vazios",
+      "specification": "Movimento curto e determinístico do bote em relação ao costado. Passageiros assentados nos bancos, sem atravessar casco; recuperar visão do Titanic e de quem fica. Lugares vazios legíveis, sem sugerir que todos os botes saíram assim.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "trajeto-resgate",
+      "phrase": "Corria para atender",
+      "start": 157,
+      "end": 176,
+      "action": "create",
+      "kind": "animation",
+      "label": "Aproximação do navio entre gelo",
+      "specification": "Avanço determinado por trajetória e tempo absoluto, deslocamento da água subordinado ao casco. Mostrar obstáculo e destino espacial; sem insinuar distância ou velocidade exata não verificada.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "ponte-observacao",
+      "phrase": "viu",
+      "start": 50,
+      "end": 53,
+      "action": "create",
+      "kind": "camera",
+      "label": "Olhar até o sinal no horizonte",
+      "specification": "Partir da ponte do Carpathia e revelar luz no horizonte. Manter eixo e escala, parar para leitura do sinal; evitar órbita contínua e reação facial inventada como evidência histórica.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "luz-noite",
+      "phrase": "madrugada",
+      "start": 3,
+      "end": 12,
+      "action": "create",
+      "kind": "lighting",
+      "label": "Noite marítima legível",
+      "specification": "Separar horizonte, casco, pessoas e gelo com iluminação estilizada discreta. O sinal mantém contraste sem dominar toda a tela; não fingir que iluminação de cinema é registro documental.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "atlas-historico",
+      "phrase": "história",
+      "start": 429,
+      "end": 437,
+      "action": "create",
+      "kind": "object",
+      "label": "Atlas histórico em relevo",
+      "specification": "Identidade original: atlas aberto, superfície cartográfica do Atlântico e relevo simplificado. Um percurso contínuo conduz ao lugar e ano do episódio; sem ampulheta, galeria dourada ou sequência de épocas da referência.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "atlas-para-mar",
+      "phrase": "noite do Titanic",
+      "start": 441,
+      "end": 457,
+      "action": "create",
+      "kind": "transition",
+      "label": "Do atlas para o Atlântico",
+      "specification": "Percurso original de cinco a seis segundos como estimativa: atlas ganha relevo, aproximação encontra Atlântico Norte em 1912, superfície transforma-se em mar. Uma direção principal, sem espera por marca; pausa para leitura do lugar.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "identificacao-historica",
+      "phrase": "Abril de mil novecentos e doze",
+      "start": 506,
+      "end": 536,
+      "action": "create",
+      "kind": "overlay",
+      "label": "Identificações e título do episódio",
+      "specification": "Texto curto e original: Atlântico Norte / 1912, Carpathia, Titanic e título. Uma identificação por vez, posição que preserve sinal e ocupação do bote. Legendas da fala serão alinhadas depois da escolha da voz; não animar cada palavra por padrão.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "partida-1912",
+      "phrase": "parte da Inglaterra",
+      "start": 548,
+      "end": 567,
+      "action": "create",
+      "kind": "scene",
+      "label": "Partida do Titanic em 1912",
+      "specification": "Contexto portuário ilustrativo para entrada cronológica, dia distinto da noite do resgate. Manter navio reconhecível, cais e água em contato, pessoas em escala. Evitar detalhes documentais específicos sem fonte.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "ambiente-mar",
+      "phrase": "no meio do oceano",
+      "start": 68,
+      "end": 85,
+      "action": "create",
+      "kind": "sound",
+      "label": "Ambiência marítima discreta",
+      "specification": "Som original ou local licenciado, mar calmo e ruído distante do navio, sem sons copiados da referência. Estabelecer lugar sem abafar a narração. Não pontuar cada corte com whoosh.",
+      "reason": "Recurso necessário ao recorte histórico; não há equivalente semântico adequado no catálogo consultado.",
+      "baselineIds": []
+    },
+    {
+      "id": "cortes-continuos",
+      "phrase": "Esta é a história",
+      "start": 420,
+      "end": 437,
+      "action": "reuse",
+      "kind": "transition",
+      "assetId": "corte_direto",
+      "reason": "Reutilizar corte direto para alternar espaços com identificação clara e recuperar o ambiente após detalhes; aprovação da revisão deve ser conferida separadamente."
+    },
+    {
+      "id": "token-000",
+      "phrase": "Na",
+      "start": 0,
+      "end": 2,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-001",
+      "phrase": "madrugada",
+      "start": 3,
+      "end": 12,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-002",
+      "phrase": "em",
+      "start": 13,
+      "end": 15,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-003",
+      "phrase": "que",
+      "start": 16,
+      "end": 19,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-004",
+      "phrase": "o",
+      "start": 20,
+      "end": 21,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-005",
+      "phrase": "Titanic",
+      "start": 22,
+      "end": 29,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (navios): transatlantico-titanic, navio-carpathia; resolver o referente pelo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "navios"
+    },
+    {
+      "id": "token-006",
+      "phrase": "afundou",
+      "start": 30,
+      "end": 37,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (cronologia): transatlantico-titanic, gelo-maritimo e partida-1912; naufrágio e choque são antecipados na fala, não exigem revelar o afundamento no piloto. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "cronologia"
+    },
+    {
+      "id": "token-007",
+      "phrase": "um",
+      "start": 39,
+      "end": 41,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-008",
+      "phrase": "capitão",
+      "start": 42,
+      "end": 49,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (percepcao): observador-1912, ponte-observacao, sinal-verde; crença relatada pela fala, não demonstrada como pensamento filmado. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "percepcao"
+    },
+    {
+      "id": "token-009",
+      "phrase": "viu",
+      "start": 50,
+      "end": 53,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (percepcao): observador-1912, ponte-observacao, sinal-verde; crença relatada pela fala, não demonstrada como pensamento filmado. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "percepcao"
+    },
+    {
+      "id": "token-010",
+      "phrase": "uma",
+      "start": 54,
+      "end": 57,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-011",
+      "phrase": "luz",
+      "start": 58,
+      "end": 61,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (percepcao): observador-1912, ponte-observacao, sinal-verde; crença relatada pela fala, não demonstrada como pensamento filmado. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "percepcao"
+    },
+    {
+      "id": "token-012",
+      "phrase": "verde",
+      "start": 62,
+      "end": 67,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (percepcao): observador-1912, ponte-observacao, sinal-verde; crença relatada pela fala, não demonstrada como pensamento filmado. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "percepcao"
+    },
+    {
+      "id": "token-013",
+      "phrase": "no",
+      "start": 68,
+      "end": 70,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-014",
+      "phrase": "meio",
+      "start": 71,
+      "end": 75,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ambiente): mar-noturno e gelo-maritimo; preservar relação de proximidade e orientação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ambiente"
+    },
+    {
+      "id": "token-015",
+      "phrase": "do",
+      "start": 76,
+      "end": 78,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-016",
+      "phrase": "oceano",
+      "start": 79,
+      "end": 85,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ambiente): mar-noturno e gelo-maritimo; preservar relação de proximidade e orientação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ambiente"
+    },
+    {
+      "id": "token-017",
+      "phrase": "e",
+      "start": 86,
+      "end": 87,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-018",
+      "phrase": "acreditou",
+      "start": 88,
+      "end": 97,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (percepcao): observador-1912, ponte-observacao, sinal-verde; crença relatada pela fala, não demonstrada como pensamento filmado. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "percepcao"
+    },
+    {
+      "id": "token-019",
+      "phrase": "que",
+      "start": 98,
+      "end": 101,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-020",
+      "phrase": "ainda",
+      "start": 102,
+      "end": 107,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-021",
+      "phrase": "havia",
+      "start": 108,
+      "end": 113,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (referentes): Referência ao navio de resgate e à presença de gelo/capacidade; preservar ligação com recursos do mesmo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "referentes"
+    },
+    {
+      "id": "token-022",
+      "phrase": "tempo",
+      "start": 114,
+      "end": 119,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-023",
+      "phrase": "O",
+      "start": 122,
+      "end": 123,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-024",
+      "phrase": "navio",
+      "start": 124,
+      "end": 129,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (navios): transatlantico-titanic, navio-carpathia; resolver o referente pelo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "navios"
+    },
+    {
+      "id": "token-025",
+      "phrase": "dele",
+      "start": 130,
+      "end": 134,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (referentes): Referência ao navio de resgate e à presença de gelo/capacidade; preservar ligação com recursos do mesmo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "referentes"
+    },
+    {
+      "id": "token-026",
+      "phrase": "se",
+      "start": 135,
+      "end": 137,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (referentes): Referência ao navio de resgate e à presença de gelo/capacidade; preservar ligação com recursos do mesmo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "referentes"
+    },
+    {
+      "id": "token-027",
+      "phrase": "chamava",
+      "start": 138,
+      "end": 145,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (referentes): Referência ao navio de resgate e à presença de gelo/capacidade; preservar ligação com recursos do mesmo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "referentes"
+    },
+    {
+      "id": "token-028",
+      "phrase": "Carpathia",
+      "start": 146,
+      "end": 155,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (navios): transatlantico-titanic, navio-carpathia; resolver o referente pelo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "navios"
+    },
+    {
+      "id": "token-029",
+      "phrase": "Corria",
+      "start": 157,
+      "end": 163,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (socorro): trajeto-resgate; pedido e chegada são relações causais, sem interface de rádio inventada neste recorte. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "socorro"
+    },
+    {
+      "id": "token-030",
+      "phrase": "para",
+      "start": 164,
+      "end": 168,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-031",
+      "phrase": "atender",
+      "start": 169,
+      "end": 176,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (socorro): trajeto-resgate; pedido e chegada são relações causais, sem interface de rádio inventada neste recorte. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "socorro"
+    },
+    {
+      "id": "token-032",
+      "phrase": "a",
+      "start": 177,
+      "end": 178,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-033",
+      "phrase": "um",
+      "start": 179,
+      "end": 181,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-034",
+      "phrase": "pedido",
+      "start": 182,
+      "end": 188,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (socorro): trajeto-resgate; pedido e chegada são relações causais, sem interface de rádio inventada neste recorte. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "socorro"
+    },
+    {
+      "id": "token-035",
+      "phrase": "de",
+      "start": 189,
+      "end": 191,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-036",
+      "phrase": "socorro",
+      "start": 192,
+      "end": 199,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (socorro): trajeto-resgate; pedido e chegada são relações causais, sem interface de rádio inventada neste recorte. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "socorro"
+    },
+    {
+      "id": "token-037",
+      "phrase": "Ao",
+      "start": 201,
+      "end": 203,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-038",
+      "phrase": "redor",
+      "start": 204,
+      "end": 209,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ambiente): mar-noturno e gelo-maritimo; preservar relação de proximidade e orientação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ambiente"
+    },
+    {
+      "id": "token-039",
+      "phrase": "havia",
+      "start": 211,
+      "end": 216,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (referentes): Referência ao navio de resgate e à presença de gelo/capacidade; preservar ligação com recursos do mesmo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "referentes"
+    },
+    {
+      "id": "token-040",
+      "phrase": "gelo",
+      "start": 217,
+      "end": 221,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ambiente): mar-noturno e gelo-maritimo; preservar relação de proximidade e orientação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ambiente"
+    },
+    {
+      "id": "token-041",
+      "phrase": "Mais",
+      "start": 224,
+      "end": 228,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-042",
+      "phrase": "de",
+      "start": 229,
+      "end": 231,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-043",
+      "phrase": "duas",
+      "start": 232,
+      "end": 236,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-044",
+      "phrase": "mil",
+      "start": 237,
+      "end": 240,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-045",
+      "phrase": "pessoas",
+      "start": 241,
+      "end": 248,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-046",
+      "phrase": "estavam",
+      "start": 249,
+      "end": 256,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-047",
+      "phrase": "no",
+      "start": 257,
+      "end": 259,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-048",
+      "phrase": "Titanic",
+      "start": 260,
+      "end": 267,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (navios): transatlantico-titanic, navio-carpathia; resolver o referente pelo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "navios"
+    },
+    {
+      "id": "token-049",
+      "phrase": "Os",
+      "start": 269,
+      "end": 271,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-050",
+      "phrase": "botes",
+      "start": 272,
+      "end": 277,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-051",
+      "phrase": "não",
+      "start": 278,
+      "end": 281,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-052",
+      "phrase": "tinham",
+      "start": 282,
+      "end": 288,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-053",
+      "phrase": "lugar",
+      "start": 289,
+      "end": 294,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-054",
+      "phrase": "para",
+      "start": 295,
+      "end": 299,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-055",
+      "phrase": "todas",
+      "start": 300,
+      "end": 305,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-056",
+      "phrase": "Mesmo",
+      "start": 307,
+      "end": 312,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-057",
+      "phrase": "assim",
+      "start": 313,
+      "end": 318,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-058",
+      "phrase": "alguns",
+      "start": 320,
+      "end": 326,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-059",
+      "phrase": "partiram",
+      "start": 327,
+      "end": 335,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-060",
+      "phrase": "com",
+      "start": 336,
+      "end": 339,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-061",
+      "phrase": "lugares",
+      "start": 340,
+      "end": 347,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-062",
+      "phrase": "vazios",
+      "start": 348,
+      "end": 354,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-063",
+      "phrase": "Por",
+      "start": 357,
+      "end": 360,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-064",
+      "phrase": "que",
+      "start": 361,
+      "end": 364,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-065",
+      "phrase": "a",
+      "start": 365,
+      "end": 366,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-066",
+      "phrase": "ajuda",
+      "start": 367,
+      "end": 372,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (socorro): trajeto-resgate; pedido e chegada são relações causais, sem interface de rádio inventada neste recorte. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "socorro"
+    },
+    {
+      "id": "token-067",
+      "phrase": "não",
+      "start": 373,
+      "end": 376,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (evacuacao): bote-1912, ocupacao-bote e observador-1912; preservar negação, quantidade aproximada e contraste entre capacidade e ocupação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "evacuacao"
+    },
+    {
+      "id": "token-068",
+      "phrase": "chegou",
+      "start": 377,
+      "end": 383,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (socorro): trajeto-resgate; pedido e chegada são relações causais, sem interface de rádio inventada neste recorte. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "socorro"
+    },
+    {
+      "id": "token-069",
+      "phrase": "antes",
+      "start": 384,
+      "end": 389,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-070",
+      "phrase": "E",
+      "start": 391,
+      "end": 392,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-071",
+      "phrase": "de",
+      "start": 393,
+      "end": 395,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-072",
+      "phrase": "onde",
+      "start": 396,
+      "end": 400,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (perguntas): sinal-verde, atlas-historico; perguntas mantêm origem oculta e promessa estabelece o percurso do filme. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "perguntas"
+    },
+    {
+      "id": "token-073",
+      "phrase": "vinha",
+      "start": 401,
+      "end": 406,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (perguntas): sinal-verde, atlas-historico; perguntas mantêm origem oculta e promessa estabelece o percurso do filme. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "perguntas"
+    },
+    {
+      "id": "token-074",
+      "phrase": "aquela",
+      "start": 407,
+      "end": 413,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (percepcao): observador-1912, ponte-observacao, sinal-verde; crença relatada pela fala, não demonstrada como pensamento filmado. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "percepcao"
+    },
+    {
+      "id": "token-075",
+      "phrase": "luz",
+      "start": 414,
+      "end": 417,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (percepcao): observador-1912, ponte-observacao, sinal-verde; crença relatada pela fala, não demonstrada como pensamento filmado. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "percepcao"
+    },
+    {
+      "id": "token-076",
+      "phrase": "Esta",
+      "start": 420,
+      "end": 424,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (perguntas): sinal-verde, atlas-historico; perguntas mantêm origem oculta e promessa estabelece o percurso do filme. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "perguntas"
+    },
+    {
+      "id": "token-077",
+      "phrase": "é",
+      "start": 425,
+      "end": 426,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-078",
+      "phrase": "a",
+      "start": 427,
+      "end": 428,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-079",
+      "phrase": "história",
+      "start": 429,
+      "end": 437,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (perguntas): sinal-verde, atlas-historico; perguntas mantêm origem oculta e promessa estabelece o percurso do filme. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "perguntas"
+    },
+    {
+      "id": "token-080",
+      "phrase": "da",
+      "start": 438,
+      "end": 440,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-081",
+      "phrase": "noite",
+      "start": 441,
+      "end": 446,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-082",
+      "phrase": "do",
+      "start": 447,
+      "end": 449,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-083",
+      "phrase": "Titanic",
+      "start": 450,
+      "end": 457,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (navios): transatlantico-titanic, navio-carpathia; resolver o referente pelo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "navios"
+    },
+    {
+      "id": "token-084",
+      "phrase": "do",
+      "start": 459,
+      "end": 461,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-085",
+      "phrase": "choque",
+      "start": 462,
+      "end": 468,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (cronologia): transatlantico-titanic, gelo-maritimo e partida-1912; naufrágio e choque são antecipados na fala, não exigem revelar o afundamento no piloto. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "cronologia"
+    },
+    {
+      "id": "token-086",
+      "phrase": "com",
+      "start": 469,
+      "end": 472,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-087",
+      "phrase": "o",
+      "start": 473,
+      "end": 474,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-088",
+      "phrase": "iceberg",
+      "start": 475,
+      "end": 482,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ambiente): mar-noturno e gelo-maritimo; preservar relação de proximidade e orientação. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ambiente"
+    },
+    {
+      "id": "token-089",
+      "phrase": "à",
+      "start": 483,
+      "end": 484,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-090",
+      "phrase": "chegada",
+      "start": 485,
+      "end": 492,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (socorro): trajeto-resgate; pedido e chegada são relações causais, sem interface de rádio inventada neste recorte. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "socorro"
+    },
+    {
+      "id": "token-091",
+      "phrase": "do",
+      "start": 493,
+      "end": 495,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-092",
+      "phrase": "resgate",
+      "start": 496,
+      "end": 503,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (socorro): trajeto-resgate; pedido e chegada são relações causais, sem interface de rádio inventada neste recorte. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "socorro"
+    },
+    {
+      "id": "token-093",
+      "phrase": "Abril",
+      "start": 506,
+      "end": 511,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-094",
+      "phrase": "de",
+      "start": 512,
+      "end": 514,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-095",
+      "phrase": "mil",
+      "start": 515,
+      "end": 518,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-096",
+      "phrase": "novecentos",
+      "start": 519,
+      "end": 529,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-097",
+      "phrase": "e",
+      "start": 530,
+      "end": 531,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-098",
+      "phrase": "doze",
+      "start": 532,
+      "end": 536,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-099",
+      "phrase": "O",
+      "start": 538,
+      "end": 539,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-100",
+      "phrase": "Titanic",
+      "start": 540,
+      "end": 547,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (navios): transatlantico-titanic, navio-carpathia; resolver o referente pelo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "navios"
+    },
+    {
+      "id": "token-101",
+      "phrase": "parte",
+      "start": 548,
+      "end": 553,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (cronologia): transatlantico-titanic, gelo-maritimo e partida-1912; naufrágio e choque são antecipados na fala, não exigem revelar o afundamento no piloto. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "cronologia"
+    },
+    {
+      "id": "token-102",
+      "phrase": "da",
+      "start": 554,
+      "end": 556,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-103",
+      "phrase": "Inglaterra",
+      "start": 557,
+      "end": 567,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (cronologia): transatlantico-titanic, gelo-maritimo e partida-1912; naufrágio e choque são antecipados na fala, não exigem revelar o afundamento no piloto. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "cronologia"
+    },
+    {
+      "id": "token-104",
+      "phrase": "em",
+      "start": 568,
+      "end": 570,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-105",
+      "phrase": "sua",
+      "start": 571,
+      "end": 574,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (referentes): Referência ao navio de resgate e à presença de gelo/capacidade; preservar ligação com recursos do mesmo parágrafo. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "referentes"
+    },
+    {
+      "id": "token-106",
+      "phrase": "primeira",
+      "start": 575,
+      "end": 583,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (temporal): luz-noite, identificacao-historica; estabelecer época e ordem, sem relógios artificiais. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "temporal"
+    },
+    {
+      "id": "token-107",
+      "phrase": "viagem",
+      "start": 584,
+      "end": 590,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (cronologia): transatlantico-titanic, gelo-maritimo e partida-1912; naufrágio e choque são antecipados na fala, não exigem revelar o afundamento no piloto. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "cronologia"
+    },
+    {
+      "id": "token-108",
+      "phrase": "para",
+      "start": 591,
+      "end": 595,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (ligacao): Conexão gramatical entre entidades e ações já especificadas; sem recurso independente. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "ligacao"
+    },
+    {
+      "id": "token-109",
+      "phrase": "Nova",
+      "start": 596,
+      "end": 600,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (cronologia): transatlantico-titanic, gelo-maritimo e partida-1912; naufrágio e choque são antecipados na fala, não exigem revelar o afundamento no piloto. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "cronologia"
+    },
+    {
+      "id": "token-110",
+      "phrase": "York",
+      "start": 601,
+      "end": 605,
+      "action": "ignore",
+      "reason": "Triagem de ocorrência (cronologia): transatlantico-titanic, gelo-maritimo e partida-1912; naufrágio e choque são antecipados na fala, não exigem revelar o afundamento no piloto. Não criar recurso isolado para esta palavra.",
+      "semanticClass": "cronologia"
+    },
+    {
+      "id": "ponte-maritima",
+      "phrase": "capitão",
+      "start": 42,
+      "end": 49,
+      "action": "create",
+      "kind": "scene",
+      "label": "Ponte de observação marítima",
+      "specification": "Trecho de ponte com piso, parapeito e referência de navio; ponto de vista humano de 1912, mar ao fundo; não atribuir reconstrução exata ao espaço.",
+      "reason": "Correção do bloqueador hook-002 identificado pelo QA profissional.",
+      "baselineIds": []
+    },
+    {
+      "id": "reacao-observador",
+      "phrase": "viu",
+      "start": 50,
+      "end": 53,
+      "action": "create",
+      "kind": "animation",
+      "label": "Orientação do observador ao sinal",
+      "specification": "Giro pequeno e preparação de postura em direção ao sinal; atuação ilustrativa, sem diálogo ou gesto atribuído como testemunho histórico.",
+      "reason": "Correção do bloqueador hook-002 identificado pelo QA profissional.",
+      "baselineIds": []
+    },
+    {
+      "id": "porto-era1912",
+      "phrase": "Inglaterra",
+      "start": 557,
+      "end": 567,
+      "action": "create",
+      "kind": "scene",
+      "label": "Cais portuário de 1912",
+      "specification": "Contexto ilustrativo de partida: cais de alvenaria, armazéns com cobertura inclinada, guindastes portuários e cabeços de amarração, escala compatível com transatlântico. Sem afirmar planta exata de Southampton. Navio se afasta com água entre costado e cais.",
+      "reason": "QA: imagem isolada no oceano não comunica partida da Inglaterra. Catálogo não contém porto histórico adequado.",
+      "baselineIds": []
+    }
+  ],
+  "unresolved": [
+    "Validação humana da lista",
+    "Aprovação individual das implementações atuais",
+    "Escolha auditiva da voz",
+    "Verificação das formas históricas antes da construção dos navios"
+  ]
+}

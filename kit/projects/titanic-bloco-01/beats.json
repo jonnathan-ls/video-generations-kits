@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "targetDuration": 180,
+  "timingStatus": "Parágrafos medidos; limites 7,9,10,15 revisados contra palavras Whisper small local. ASR não substitui escuta.",
+  "beats": [
+    {
+      "id": "beat-01",
+      "paragraph": 1,
+      "text": "Na madrugada em que o Titanic afundou, um capitão viu uma luz verde no meio do oceano e acreditou que ainda havia tempo.",
+      "visualQuestion": "Quem vê o sinal, e o que espera encontrar?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b01-01-observador",
+          "dominantAction": "Capitão procura no horizonte e interrompe a busca ao notar algo.",
+          "camera": "Plano médio com parapeito; aproximar apenas até o olhar ser legível.",
+          "sound": "Mar calmo, ar discreto e leve apoio na madeira; sem apito para preencher o silêncio.",
+          "attention": "observador",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b01-02-sinal",
+          "dominantAction": "Emissão verde surge, queima e se dissipa; origem oculta.",
+          "camera": "Contracampo do observador; foco no sinal, sem nova órbita.",
+          "sound": "Perspectiva distante: não inventar explosão audível; acento editorial contido na descoberta.",
+          "attention": "sinal",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b01-03-expectativa",
+          "dominantAction": "Observador se inclina e relaxa a preocupação, mantendo atenção.",
+          "camera": "Retorno mais próximo; rosto e mão no parapeito conduzem a reação.",
+          "sound": "Mudança de presença do ambiente e tecido/contato; voz permanece em primeiro plano.",
+          "attention": "expectativa",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 0.0,
+      "speechEnd": 7.760958
+    },
+    {
+      "id": "beat-02",
+      "paragraph": 2,
+      "text": "O navio dele se chamava Carpathia. Corria para atender a um pedido de socorro. Ao redor, havia gelo.",
+      "visualQuestion": "O que a embarcação faz para chegar?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b02-01-pedido-radio",
+          "dominantAction": "Operador recebe e registra uma mensagem.",
+          "camera": "Insert de chave/fone e papel; novo ambiente antecipado pelo som.",
+          "sound": "Telegrafia e lápis, sem chamar código aleatório de CQD.",
+          "attention": "pedido-radio",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b02-02-resgate",
+          "dominantAction": "Carpathia avança com deslocamento claro.",
+          "camera": "Aberto curto estabelece embarcação diferente; travelling acompanha proa.",
+          "sound": "Máquinas abafadas no casco e água com perspectiva externa.",
+          "attention": "resgate",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b02-03-gelo-rota",
+          "dominantAction": "Gelo próximo cruza a linha de visão da proa, revelando a dificuldade.",
+          "camera": "Baixar ao nível da água para comparar proa e gelo.",
+          "sound": "Mudança de perspectiva e leve acento de tensão; gelo distante não recebe impacto inventado.",
+          "attention": "gelo-rota",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 8.410958,
+      "speechEnd": 15.089125
+    },
+    {
+      "id": "beat-03",
+      "paragraph": 3,
+      "text": "Mais de duas mil pessoas estavam no Titanic. Os botes não tinham lugar para todas. Mesmo assim, alguns partiram com lugares vazios.",
+      "visualQuestion": "Por que um lugar vazio importa?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b03-01-escala-humana",
+          "dominantAction": "Luzes e passageiros no Titanic estabelecem gente a bordo.",
+          "camera": "Plano de convés com navio reconhecível; não sustentar fala inteira em exterior genérico.",
+          "sound": "Ambiente de convés e presença humana indistinta.",
+          "attention": "escala-humana",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b03-02-bancos",
+          "dominantAction": "Pessoas sentadas e bancos vazios coexistem no bote.",
+          "camera": "Aproximação dos bancos revela falta de ocupação, não só forma do bote.",
+          "sound": "Rangido de madeira e água no casco, sincronizados ao balanço.",
+          "attention": "bancos",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b03-03-separacao",
+          "dominantAction": "Bote se afasta enquanto pessoas permanecem junto ao guarda-corpo.",
+          "camera": "Recuo motivado mostra distância e quem ficou.",
+          "sound": "Som do bote perde presença com o afastamento; ponte de ambiente.",
+          "attention": "separacao",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 15.739125,
+      "speechEnd": 24.861125
+    },
+    {
+      "id": "beat-04",
+      "paragraph": 4,
+      "text": "Por que a ajuda não chegou antes? E de onde vinha aquela luz?",
+      "visualQuestion": "A ajuda está longe; o que aquela luz realmente significa?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b04-01-distancia",
+          "dominantAction": "Uma linha de horizonte separa o resgate de quem espera.",
+          "camera": "Novo enquadramento relaciona posição e distância; sem mapa com milhas inventadas.",
+          "sound": "Sustentação grave discreta com mar, não efeito repetido de passagem.",
+          "attention": "distancia",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b04-02-pista-retorno",
+          "dominantAction": "Retomar o sinal por outro ponto de observação apenas para recolocar a pergunta.",
+          "camera": "Insert breve da pista; retorno motivado registrado, sem reapresentar todo o plano inicial.",
+          "sound": "Retirar acento no fim da pergunta, abrindo espaço para a promessa.",
+          "attention": "pista-retorno",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 25.511125,
+      "speechEnd": 29.548208
+    },
+    {
+      "id": "beat-05",
+      "paragraph": 5,
+      "text": "Esta é a história da noite do Titanic, do choque com o iceberg à chegada do resgate.",
+      "visualQuestion": "Qual história será reconstruída?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b05-01-promessa",
+          "dominantAction": "Percorrer o costado e revelar a escala de uma embarcação ainda inteira.",
+          "camera": "Revelação do casco para o convés; não repetir Titanic+iceberg do plano anterior.",
+          "sound": "Água e corpo sonoro do navio ligam a promessa ao título.",
+          "attention": "promessa",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 30.198208,
+      "speechEnd": 35.837958
+    },
+    {
+      "id": "beat-06",
+      "paragraph": 6,
+      "text": "Abril de mil novecentos e doze. O Titanic parte da Inglaterra em sua primeira viagem para Nova York.",
+      "visualQuestion": "Como essa viagem começou?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b06-01-cais",
+          "dominantAction": "Cais ativo, bagagem e pessoas mostram partida.",
+          "camera": "Começar junto à escala humana; navio ao fundo mantém localização.",
+          "sound": "Porto, passos, bagagem apoiada, sinal de partida em perspectiva.",
+          "attention": "cais",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b06-02-afastamento",
+          "dominantAction": "Água se abre entre costado e cais.",
+          "camera": "Ampliar escala para revelar o afastamento; não repetir o aberto de resgate.",
+          "sound": "Som de cais se distancia, água e máquinas assumem a perspectiva.",
+          "attention": "afastamento",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 39.837958,
+      "speechEnd": 46.815
+    },
+    {
+      "id": "beat-07",
+      "paragraph": 7,
+      "text": "A bordo estão pessoas para quem aquela travessia significa coisas muito diferentes. Há passageiros acostumados a cruzar o Atlântico, famílias em viagem e emigrantes que vão começar outra vida.",
+      "visualQuestion": "O que cada passageiro está levando para essa viagem?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b07-01-bagagem",
+          "dominantAction": "Mala e bilhete passam da mão para uma superfície; família se reúne ao lado.",
+          "camera": "Close de contato e recuo até o grupo, sem pessoa real inventada.",
+          "sound": "Couro/fecho, madeira e passos.",
+          "attention": "bagagem",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b07-02-travessia",
+          "dominantAction": "Um passageiro observa o mar; outro acomoda bagagem junto à família.",
+          "camera": "Mudança de sujeito revela experiências diferentes no mesmo navio.",
+          "sound": "Ambiente de convés liga os gestos; sem diálogo inventado.",
+          "attention": "travessia",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b07-03-nova-vida",
+          "dominantAction": "Passageiro acomoda-se no beliche; a mala já está apoiada, em outro enquadramento.",
+          "camera": "Plano do passageiro e espaço de dormir; retorna ao objeto com estado alterado.",
+          "sound": "Couro/fecho, madeira e passos.",
+          "attention": "bagagem",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 47.165,
+      "speechEnd": 60.492167
+    },
+    {
+      "id": "beat-08",
+      "paragraph": 8,
+      "text": "O destino é o mesmo. A maneira de viajar não é.",
+      "visualQuestion": "Mesmo navio, mesma experiência?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b08-01-mesmo-navio",
+          "dominantAction": "Um único navio em marcha reúne as experiências diferentes que acabamos de ver.",
+          "camera": "Retorno exterior alto e oblíquo, distinto do plano de escala posterior.",
+          "sound": "Água e casco em movimento; ponte sonora do mar.",
+          "attention": "passagem-classes",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 60.842167,
+      "speechEnd": 64.245833
+    },
+    {
+      "id": "beat-09",
+      "paragraph": 9,
+      "text": "O navio é dividido em classes, com acomodações, espaços e caminhos diferentes. Para alguns, a travessia inclui salões e serviço de luxo. Para outros, o que importa é chegar à América com a família e a bagagem.",
+      "visualQuestion": "O que muda quando o passageiro atravessa essa porta?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b09-01-corredor",
+          "dominantAction": "Um percurso pela escada recupera a relação dos espaços com o convés.",
+          "camera": "Recuo contextual mostra caminho, sem planta exata alegada.",
+          "sound": "Passos mudam com piso e distância; nenhuma batida em porta sem ação.",
+          "attention": "trajetos",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b09-02-salao",
+          "dominantAction": "Serviço coloca uma xícara diante de passageiro em salão.",
+          "camera": "Plano do contato e revelação limitada do ambiente.",
+          "sound": "Louça/talher e murmúrio baixo, com perspectiva de interior.",
+          "attention": "salao",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b09-03-alojamento",
+          "dominantAction": "Outra pessoa acomoda a mala ao lado do beliche.",
+          "camera": "Corte por gesto de apoiar estabelece contraste sem inferiorizar figurantes.",
+          "sound": "Mala em madeira e pano; ambiente mais fechado.",
+          "attention": "alojamento",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 64.595833,
+      "speechEnd": 78.345042
+    },
+    {
+      "id": "beat-10",
+      "paragraph": 10,
+      "text": "Também há centenas de pessoas trabalhando para que todos possam viajar. Cozinheiros, camareiros, marinheiros, telegrafistas, homens nas máquinas e nas caldeiras. A viagem que um passageiro vê depende de um trabalho que, em grande parte, ele não vê.",
+      "visualQuestion": "Quem mantém essas experiências funcionando?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b10-01-cozinha",
+          "dominantAction": "Preparar e passar uma bandeja para o serviço.",
+          "camera": "Acompanhar uma transferência real entre mãos e apoio.",
+          "sound": "Utensílios, louça e bancada no contato.",
+          "attention": "cozinha",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b10-02-servico",
+          "dominantAction": "Bandeja chega à mesa, pagando a ação anterior.",
+          "camera": "Corte por ação continua o deslocamento e mantém eixo.",
+          "sound": "Contato suave, sem repetir o acento usado na mala.",
+          "attention": "servico",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b10-03-radio",
+          "dominantAction": "Operador escreve e organiza papel enquanto a viagem continua.",
+          "camera": "Insert de trabalho prepara a importância posterior do rádio.",
+          "sound": "Chave, lápis e papel, distintos do ambiente de máquinas.",
+          "attention": "radio-trabalho",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b10-04-maquinas",
+          "dominantAction": "Homens trabalham junto a mecanismo em ciclo e vapor localizado.",
+          "camera": "Descer de escala para o interior; mostrar conexão e apoio antes do detalhe móvel.",
+          "sound": "Máquinas e vapor sustentados com ducking; um comando tem contato audível.",
+          "attention": "maquinas",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 78.695042,
+      "speechEnd": 94.7385
+    },
+    {
+      "id": "beat-11",
+      "paragraph": 11,
+      "text": "Quando o perigo aparece, ninguém recebe ao mesmo tempo a mesma informação, nem está à mesma distância dos botes.",
+      "visualQuestion": "Quem vai saber primeiro, e quem está mais perto dos botes?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b11-01-caminho-conves",
+          "dominantAction": "Pessoa percorre um trecho curto e alcança a área dos botes.",
+          "camera": "Acompanhar percurso com início e destino, sem mostrar evacuação fora de hora.",
+          "sound": "Passos, porta e mudança para ambiente aberto.",
+          "attention": "caminho-conves",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b11-02-caminho-interno",
+          "dominantAction": "Outro percurso inclui corredor e escada.",
+          "camera": "Contexto antes do detalhe dos passos; diferença espacial, sem personagens condenados.",
+          "sound": "Passos e interior antecipam o convés ao fim.",
+          "attention": "caminho-interno",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 95.0885,
+      "speechEnd": 102.526125
+    },
+    {
+      "id": "beat-12",
+      "paragraph": 12,
+      "text": "O Titanic é grande, moderno e foi construído para resistir a avarias. Tem divisões internas que podem limitar a entrada de água. Tem rádio para falar com estações em terra e outros navios.",
+      "visualQuestion": "O que fazia aquele navio parecer preparado?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b12-01-dimensao",
+          "dominantAction": "Figura humana junto ao costado estabelece escala.",
+          "camera": "Abrir do sujeito ao volume do navio; motivo distinto da partida.",
+          "sound": "Presença grave do casco e água, sem hit de trailer gratuito.",
+          "attention": "dimensao",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b12-02-protecao",
+          "dominantAction": "Revelar brevemente uma seção com divisões internas.",
+          "camera": "Corte localizado mostra barreiras e volta ao navio; não permanecer numa aula de engenharia.",
+          "sound": "Transição breve para interior, sem som de explosão para revelar geometria.",
+          "attention": "protecao",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b12-03-comunicacao",
+          "dominantAction": "Chave e fone ligam o navio ao mundo exterior.",
+          "camera": "Close novo revela uso do equipamento já semeado.",
+          "sound": "Telegrafia muda de presença e conduz à mensagem.",
+          "attention": "comunicacao",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 102.876125,
+      "speechEnd": 115.970208
+    },
+    {
+      "id": "beat-13",
+      "paragraph": 13,
+      "text": "O rádio leva notícias para fora do navio. Mas uma mensagem recebida não muda, sozinha, o que acontece na ponte.",
+      "visualQuestion": "Uma mensagem recebida já muda a navegação?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b13-01-papel-registro",
+          "dominantAction": "Operador termina uma anotação e a deixa disponível.",
+          "camera": "Mão e papel no foco; manter fundo de rádio reconhecível.",
+          "sound": "Lápis para, papel desliza.",
+          "attention": "papel-registro",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b13-02-papel-destino",
+          "dominantAction": "A mensagem sai do posto em direção à ponte.",
+          "camera": "Acompanhar o objeto para mostrar percurso; ilustração, sem encenar telegrama específico como prova.",
+          "sound": "Papel, passos e ponte sonora para a ponte de comando.",
+          "attention": "papel-destino",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 116.320208,
+      "speechEnd": 124.110708
+    },
+    {
+      "id": "beat-14",
+      "paragraph": 14,
+      "text": "Quando alguém percebe o perigo, quanto tempo leva até os outros saberem?",
+      "visualQuestion": "Quanto tempo separa percepção e conhecimento compartilhado?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b14-01-informacao-ponte",
+          "dominantAction": "Papel entra no espaço de navegação; olhar se desloca do papel ao mar.",
+          "camera": "Deixar a pergunta nascer da distância percorrida e da reação.",
+          "sound": "A tecla cessa; o mar passa ao primeiro plano sonoro durante a pausa.",
+          "attention": "informacao-ponte",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 124.460708,
+      "speechEnd": 129.067917
+    },
+    {
+      "id": "beat-15",
+      "paragraph": 15,
+      "text": "Durante a viagem, a vida a bordo segue. Refeições, turnos, mensagens, descanso. O navio inteiro não está pensando numa evacuação. Está atravessando o oceano.",
+      "visualQuestion": "O que o restante do navio está fazendo enquanto isso?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b15-01-refeicao-rotina",
+          "dominantAction": "Louça recolhida e mesa organizada; estado posterior ao serviço anterior.",
+          "camera": "Mesmo recurso, novo acontecimento; não repetir a colocação da xícara.",
+          "sound": "Louça recolhida com ritmo próprio.",
+          "attention": "refeicao-rotina",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b15-02-mensagens-rotina",
+          "dominantAction": "Operação do rádio e mensagem em serviço enquanto a rotina continua.",
+          "camera": "Insert de papéis e operação em andamento.",
+          "sound": "Máquina contínua conecta os dois estados.",
+          "attention": "turno",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b15-03-descanso",
+          "dominantAction": "Luminária e gesto de acomodar pertences indicam repouso.",
+          "camera": "Plano contido com ação pequena e conclusão legível.",
+          "sound": "Tecido, madeira e ambiente baixo; contraste sonoro deliberado com máquinas.",
+          "attention": "descanso",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 129.417917,
+      "speechEnd": 139.974667
+    },
+    {
+      "id": "beat-16",
+      "paragraph": 16,
+      "text": "No domingo, catorze de abril, chegam avisos de gelo.",
+      "visualQuestion": "Que nova informação quebra a rotina?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b16-01-aviso-gelo",
+          "dominantAction": "Mensagem de gelo é recebida e uma palavra-chave vira foco.",
+          "camera": "Aproximar o papel depois da recepção; data é identificação, não tela inteira de texto.",
+          "sound": "Novo padrão de chave e papel; acento distinto na revelação do aviso.",
+          "attention": "aviso-gelo",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 140.324667,
+      "speechEnd": 143.913708
+    },
+    {
+      "id": "beat-17",
+      "paragraph": 17,
+      "text": "São relatos de outras embarcações que passaram pela região. Alguns chegam ao comandante. Outros seguem caminhos diferentes entre a estação de rádio e os responsáveis pela navegação.",
+      "visualQuestion": "Todos esses avisos chegam ao mesmo lugar?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b17-01-origem-relato",
+          "dominantAction": "Outro navio encontra gelo e transmite.",
+          "camera": "Contexto breve da origem, sem afirmar embarcação específica não pesquisada.",
+          "sound": "Mar externo para chave de rádio por ponte sonora.",
+          "attention": "origem-relato",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b17-02-comandante",
+          "dominantAction": "Um aviso chega à ponte e é examinado.",
+          "camera": "Mostrar chegada evita sugerir que nenhum aviso foi recebido.",
+          "sound": "Papel apoiado e ambiente da ponte.",
+          "attention": "comandante",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b17-03-caminhos-aviso",
+          "dominantAction": "Outro registro permanece no fluxo de trabalho do rádio.",
+          "camera": "Mostrar diferença de destino sem inventar destruição ou ocultação deliberada.",
+          "sound": "Telegrafia e papéis em camadas, sem duplicar o acento de perigo.",
+          "attention": "caminhos-aviso",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 144.263708,
+      "speechEnd": 156.43225
+    },
+    {
+      "id": "beat-18",
+      "paragraph": 18,
+      "text": "Hoje, esses papéis parecem uma sequência de advertências sobre uma tragédia que já conhecemos. Para quem os recebeu, eram informações sobre uma rota ainda em andamento.",
+      "visualQuestion": "Por que o significado desses papéis muda para quem conhece o desfecho?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b18-01-registros",
+          "dominantAction": "Avisos separados aparecem na ordem em que são apresentados.",
+          "camera": "Composição limitada de papéis evidencia relação, não chuva de documentos.",
+          "sound": "Papel em contatos individuais; a sustentação sonora muda com o acúmulo.",
+          "attention": "registros",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b18-02-rota-em-curso",
+          "dominantAction": "Recuperar o avanço da proa enquanto a informação é avaliada.",
+          "camera": "Retorno de navegação com novo contexto; não repetir o plano aberto inicial.",
+          "sound": "Água e máquina não param; contraponto ao registro em papel.",
+          "attention": "rota-em-curso",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 156.78225,
+      "speechEnd": 168.166167
+    },
+    {
+      "id": "beat-19",
+      "paragraph": 19,
+      "text": "Entre receber o aviso e tomar uma decisão, o navio continua avançando.",
+      "visualQuestion": "O que acontece entre receber e decidir?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b19-01-decisao",
+          "dominantAction": "Mão deixa o aviso na mesa; olhar e enquadramento transferem atenção ao rumo.",
+          "camera": "Uma passagem do papel à janela, sem insinuar ordem histórica não comprovada.",
+          "sound": "Contato do papel encerra telegrafia; o som externo continua.",
+          "attention": "decisao",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 168.516167,
+      "speechEnd": 173.333792
+    },
+    {
+      "id": "beat-20",
+      "paragraph": 20,
+      "text": "Ao anoitecer, o Titanic continua avançando. O mar está calmo. Há gelo adiante.",
+      "visualQuestion": "O que há além do alcance de quem está a bordo?",
+      "causalRole": "A ação muda a informação disponível e prepara a pergunta do beat seguinte.",
+      "shots": [
+        {
+          "id": "b20-01-anoitecer",
+          "dominantAction": "Luz do convés passa ao estado noturno, com gente ainda em rotina.",
+          "camera": "Transição temporal única; não usar fade para esconder falta de cena.",
+          "sound": "Interior se recolhe; mar calmo mantém perspectiva.",
+          "attention": "anoitecer",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b20-02-proa-noite",
+          "dominantAction": "Proa avança na superfície calma.",
+          "camera": "Nível baixo mantém água, casco e direção legíveis.",
+          "sound": "Água discreta e máquinas distantes; tensão por redução de camadas.",
+          "attention": "proa-noite",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        },
+        {
+          "id": "b20-03-gelo-adiante",
+          "dominantAction": "Gelo emerge na direção da viagem, ainda separado do navio.",
+          "camera": "Revelação final prepara próximo bloco, sem antecipar choque.",
+          "sound": "Acento de fechamento e continuidade para bloco 02, sem repetir título ou abertura.",
+          "attention": "gelo-adiante",
+          "readingHold": "Após a ação principal e antes da transferência de foco; duração fixada com fala e render.",
+          "secondaryMotion": "Somente movimento contextual pertinente, sem disputar com o alvo.",
+          "contactAcceptance": "Verificar preparação, contato/apoio, reação e estado final no render."
+        }
+      ],
+      "speechStart": 173.683792,
+      "speechEnd": 178.902542
+    }
+  ],
+  "returns": [
+    {
+      "element": "sinal verde",
+      "reason": "Pista reapresentada ao formular sua origem; desfecho reservado ao longa."
+    },
+    {
+      "element": "navio exterior",
+      "reason": "Partida, escala, avanço e aproximação do perigo são estados/funções diferentes; não reciclar enquadramento."
+    },
+    {
+      "element": "rádio e papel",
+      "reason": "Semear capacidade, mostrar recepção, percurso e destinos distintos; cada retorno muda a informação."
+    },
+    {
+      "element": "serviço e interiores",
+      "reason": "Servir, recolher, mudar turno e descansar são acontecimentos distintos em recursos reutilizados."
+    }
+  ],
+  "titlePause": {
+    "start": 35.838,
+    "end": 39.838
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "apoios_arco",
+  "module": "apoios-arco.js",
+  "kind": "object",
+  "label": "Pilares de apoio do arco",
+  "category": "alvenaria",
+  "description": "Par de pilares esquemáticos centrados sob os arranques do arco. Cada sapata tem as mesmas extremidades laterais e profundidade do pilar acima, com contato contínuo e alinhamento frontal com o arco e a parede. Não representa dimensionamento estrutural.",
+  "aliases": [
+    "apoios laterais",
+    "pilares de apoio",
+    "encontros de arco",
+    "apoios de arco",
+    "bases do arco"
+  ],
+  "variants": [
+    "padrao"
+  ],
+  "baselineIds": [],
+  "introducedBy": {
+    "requirementId": "arco-alvenaria:abutments",
+    "projectId": "arco-alvenaria"
+  }
+}

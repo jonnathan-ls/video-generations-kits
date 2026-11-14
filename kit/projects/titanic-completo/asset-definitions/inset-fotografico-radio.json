@@ -1,0 +1,36 @@
+{
+  "id": "inset_fotografico_radio_titanic",
+  "label": "Fotografia histórica da sala de rádio Marconi do Titanic",
+  "kind": "overlay",
+  "category": "motion_graphics",
+  "description": "Fotografia contemporânea da estação Marconi a bordo do Titanic, inserida como quadro de arquivo dentro da reconstrução 3D e com identificação legível.",
+  "module": "archive-photo-motion-inset.js",
+  "aliases": [
+    "foto da sala de rádio Marconi do Titanic",
+    "Harold Bride na sala Marconi",
+    "motion graphic histórico de radiotelegrafia"
+  ],
+  "variants": [
+    "titanic-marconi-wireless-room-1912"
+  ],
+  "introducedBy": {
+    "projectId": "titanic-completo",
+    "requirementId": "titanic-completo:archive-inset-marconi-room"
+  },
+  "sourceMetadata": {
+    "title": "Titanic Marconi Wireless Radio Room.jpg",
+    "creator": "Autor original não identificado; domínio dedicado ao público pelo detentor dos direitos",
+    "date": "11 April 1912",
+    "repository": "Wikimedia Commons",
+    "catalogUrl": "https://commons.wikimedia.org/wiki/File:Titanic_Marconi_Wireless_Radio_Room.jpg",
+    "rightsAdvisory": "A página do Wikimedia Commons informa dedicação CC0 1.0 ao domínio público; descreve a imagem como a sala Marconi a bordo do Titanic, com Harold Bride sentado à mesa.",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "attribution": "Wikimedia Commons · CC0 1.0",
+    "originalFile": "kit/assets/media/titanic-marconi-wireless-room-1912.jpg",
+    "displayFile": "kit/assets/media/titanic-marconi-wireless-room-1912.jpg",
+    "retrievedAt": "2026-11-08"
+  },
+  "files": [
+    "kit/assets/media/titanic-marconi-wireless-room-1912.jpg"
+  ]
+}

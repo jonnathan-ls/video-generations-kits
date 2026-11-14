@@ -1,0 +1,243 @@
+{
+  "status": "visual-proposal-pending-human-review",
+  "beats": [
+    {
+      "id": "atlas",
+      "start": 0,
+      "duration": 6,
+      "target": "Entrar no Atlântico de 1912",
+      "action": "A câmera atravessa o atlas e encontra o Atlântico. Cartografia esquemática, não posição documental do naufrágio.",
+      "camera": {
+        "from": [
+          11,
+          16,
+          15
+        ],
+        "to": [
+          1,
+          9,
+          5
+        ],
+        "target": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "readingPause": "Chegar ao enquadramento e deixar o alvo legível; sem órbita contínua.",
+      "competingMotion": "Mar discreto; uma ação dominante; identificações curtas fora do alvo.",
+      "timingSource": "Tomadas escolhidas de pm_santa; alinhamento por parágrafo, sem alegar precisão por palavra."
+    },
+    {
+      "id": "sinal",
+      "start": 6,
+      "duration": 8.411,
+      "target": "Um sinal no escuro",
+      "action": "Do navio de resgate, ver um sinalizador verde no horizonte sem revelar quem o lançou.",
+      "camera": {
+        "from": [
+          -32,
+          23,
+          -49
+        ],
+        "to": [
+          -26,
+          22,
+          -43
+        ],
+        "target": [
+          24,
+          17,
+          165
+        ]
+      },
+      "readingPause": "Chegar ao enquadramento e deixar o alvo legível; sem órbita contínua.",
+      "competingMotion": "Mar discreto; uma ação dominante; identificações curtas fora do alvo.",
+      "timingSource": "Tomadas escolhidas de pm_santa; alinhamento por parágrafo, sem alegar precisão por palavra."
+    },
+    {
+      "id": "carpathia",
+      "start": 14.411,
+      "duration": 7.328,
+      "target": "Carpathia: correr para o socorro",
+      "action": "O Carpathia avança numa rota com gelo. A mudança de posição é ilustrativa; sem velocidade histórica afirmada.",
+      "camera": {
+        "from": [
+          175,
+          57,
+          235
+        ],
+        "to": [
+          164,
+          49,
+          220
+        ],
+        "target": [
+          0,
+          10,
+          0
+        ]
+      },
+      "readingPause": "Chegar ao enquadramento e deixar o alvo legível; sem órbita contínua.",
+      "competingMotion": "Mar discreto; uma ação dominante; identificações curtas fora do alvo.",
+      "timingSource": "Tomadas escolhidas de pm_santa; alinhamento por parágrafo, sem alegar precisão por palavra."
+    },
+    {
+      "id": "titanic",
+      "start": 21.739,
+      "duration": 3.861,
+      "target": "Titanic: mais de duas mil pessoas",
+      "action": "Identificar claramente o Titanic e recuperar escala antes de aproximar do bote.",
+      "camera": {
+        "from": [
+          280,
+          86,
+          280
+        ],
+        "to": [
+          265,
+          77,
+          265
+        ],
+        "target": [
+          0,
+          13,
+          0
+        ]
+      },
+      "readingPause": "Chegar ao enquadramento e deixar o alvo legível; sem órbita contínua.",
+      "competingMotion": "Mar discreto; uma ação dominante; identificações curtas fora do alvo.",
+      "timingSource": "Tomadas escolhidas de pm_santa; alinhamento por parágrafo, sem alegar precisão por palavra."
+    },
+    {
+      "id": "bote",
+      "start": 25.6,
+      "duration": 5.911,
+      "target": "O bote parte com lugares vazios",
+      "action": "Bote ocupado parcialmente afasta-se do costado, com bancos desocupados legíveis e relação espacial com quem ficou.",
+      "camera": {
+        "from": [
+          19,
+          10,
+          22
+        ],
+        "to": [
+          21,
+          10,
+          24
+        ],
+        "target": [
+          1,
+          1.5,
+          1
+        ]
+      },
+      "readingPause": "Chegar ao enquadramento e deixar o alvo legível; sem órbita contínua.",
+      "competingMotion": "Mar discreto; uma ação dominante; identificações curtas fora do alvo.",
+      "timingSource": "Tomadas escolhidas de pm_santa; alinhamento por parágrafo, sem alegar precisão por palavra."
+    },
+    {
+      "id": "perguntas",
+      "start": 31.511,
+      "duration": 4.687,
+      "target": "Por que a ajuda não chegou antes?",
+      "action": "Retomar distância, navio de resgate e sinal. Não mostrar o bote emissor nem inventar mapa de distâncias.",
+      "camera": {
+        "from": [
+          160,
+          27,
+          150
+        ],
+        "to": [
+          147,
+          24,
+          137
+        ],
+        "target": [
+          0,
+          12,
+          -150
+        ]
+      },
+      "readingPause": "Chegar ao enquadramento e deixar o alvo legível; sem órbita contínua.",
+      "competingMotion": "Mar discreto; uma ação dominante; identificações curtas fora do alvo.",
+      "timingSource": "Tomadas escolhidas de pm_santa; alinhamento por parágrafo, sem alegar precisão por palavra."
+    },
+    {
+      "id": "promessa",
+      "start": 36.198,
+      "duration": 5.64,
+      "target": "A noite do Titanic",
+      "action": "O Titanic e o gelo estabelecem a promessa do filme; não antecipar o naufrágio como espetáculo.",
+      "camera": {
+        "from": [
+          230,
+          65,
+          320
+        ],
+        "to": [
+          213,
+          58,
+          300
+        ],
+        "target": [
+          0,
+          11,
+          0
+        ]
+      },
+      "readingPause": "Chegar ao enquadramento e deixar o alvo legível; sem órbita contínua.",
+      "competingMotion": "Mar discreto; uma ação dominante; identificações curtas fora do alvo.",
+      "timingSource": "Tomadas escolhidas de pm_santa; alinhamento por parágrafo, sem alegar precisão por palavra."
+    },
+    {
+      "id": "titulo",
+      "start": 41.838,
+      "duration": 4.0,
+      "target": "Titanic — a noite do naufrágio e do resgate",
+      "action": "Pausa para o título; concluir o trailer e preparar o retorno cronológico.",
+      "camera": {
+        "from": [
+          0,
+          20,
+          150
+        ],
+        "target": [
+          0,
+          8,
+          -300
+        ]
+      },
+      "readingPause": "Chegar ao enquadramento e deixar o alvo legível; sem órbita contínua.",
+      "competingMotion": "Mar discreto; uma ação dominante; identificações curtas fora do alvo.",
+      "timingSource": "Tomadas escolhidas de pm_santa; alinhamento por parágrafo, sem alegar precisão por palavra."
+    },
+    {
+      "id": "partida",
+      "start": 45.838,
+      "duration": 6.977,
+      "target": "Abril de 1912: a primeira viagem",
+      "action": "Entrada cronológica diurna: Titanic parte da Inglaterra rumo a Nova York. Cais ainda não incluído nesta primeira proposta de enquadramento.",
+      "camera": {
+        "from": [
+          270,
+          100,
+          300
+        ],
+        "to": [
+          255,
+          90,
+          285
+        ],
+        "target": [
+          0,
+          13,
+          0
+        ]
+      },
+      "readingPause": "Chegar ao enquadramento e deixar o alvo legível; sem órbita contínua.",
+      "competingMotion": "Mar discreto; uma ação dominante; identificações curtas fora do alvo.",
+      "timingSource": "Tomadas escolhidas de pm_santa; alinhamento por parágrafo, sem alegar precisão por palavra."
+    }
+  ]
+}

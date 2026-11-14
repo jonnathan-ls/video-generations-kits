@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "022a3ce17d2d33ee5f27bb09a912e493c339dda1d1c531ca2d78e158031e8690",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "material-la-rocha",
+      "meshes": 50,
+      "triangles": 600,
+      "dimensions": [
+        5.215,
+        0.21399999999999997,
+        3.72
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.724Z"
+}

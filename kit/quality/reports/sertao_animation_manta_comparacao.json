@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "bc3c00737cffdb86dfe4cd99bbb7ed4c47b88e4b7737d15c7152c7082b7031f7",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "animation-manta-comparacao",
+      "meshes": 18,
+      "triangles": 216,
+      "dimensions": [
+        5.559623765988528,
+        1.2409207394662438,
+        3.72
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-08T21:18:05.693Z"
+}

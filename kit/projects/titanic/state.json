@@ -1,0 +1,153 @@
+{
+  "id": "titanic",
+  "title": "Titanic — a noite do naufrágio e do resgate",
+  "updatedAt": "2026-11-06",
+  "stage": "block-production",
+  "themeDecision": {
+    "channel": "chat",
+    "evidence": "prossiga com titanic",
+    "scope": "Desenvolvimento narrativo; não aprova roteiro, voz ou recursos."
+  },
+  "variants": [
+    {
+      "option": "A",
+      "file": "narration-A.txt",
+      "words": 3094,
+      "estimatedMinutesAt140Wpm": 22.1,
+      "estimatedMinutesAt110Wpm": 28.1,
+      "status": "draft-pending-human-choice"
+    },
+    {
+      "option": "B",
+      "file": "narration-B.txt",
+      "words": 2365,
+      "estimatedMinutesAt140Wpm": 16.9,
+      "estimatedMinutesAt110Wpm": 21.5,
+      "status": "draft-pending-human-choice"
+    },
+    {
+      "option": "C",
+      "file": "narration-C.txt",
+      "words": 2117,
+      "estimatedMinutesAt140Wpm": 15.1,
+      "estimatedMinutesAt110Wpm": 19.2,
+      "status": "draft-pending-human-choice"
+    }
+  ],
+  "selectedNarrative": "A2",
+  "approvals": {},
+  "voice": {
+    "status": "chosen-by-creator",
+    "voice": "pm_santa",
+    "speed": 0.85,
+    "channel": "chat",
+    "evidence": "Pm santa",
+    "pilotVoiceFile": "kit/projects/titanic-pilot/voice.json"
+  },
+  "nextDecision": "Concluir inspeções obrigatórias pendentes; manter gate fechado até haver evidência real.",
+  "implementationStarted": true,
+  "audioGenerated": true,
+  "videoRendered": true,
+  "selectedNarrativeForDevelopment": "A",
+  "activeDraft": "narration-A2.txt",
+  "developmentDecision": {
+    "evidence": "Beleza, vamos prosseguir aí então com essa ideia.",
+    "scope": "Continuidade do desenvolvimento de Titanic e adaptação da abertura; não equivale a aprovação do novo texto, voz ou recursos."
+  },
+  "narrativeDecision": {
+    "channel": "chat",
+    "evidence": "Prossiga.",
+    "scope": "Continuidade com a revisão A2 e preparação do primeiro recorte; não aprova voz, lista ou recursos individuais."
+  },
+  "pilotProject": "titanic-pilot",
+  "audioScope": "Apenas amostras do piloto, não narração do longa.",
+  "reviewWorkflow": {
+    "mode": "visual-in-scene",
+    "channel": "chat",
+    "evidence": "Não preciso mais validar lista , ao menos em texto, quero validar direto os assets visual de como ficará e se possível direto em cena vídeo",
+    "listIsInternal": true,
+    "assetApprovalInferred": false
+  },
+  "preview": {
+    "duration": 52.815,
+    "url": "http://127.0.0.1:4174/preview/titanic-pilot/index.html",
+    "watermarked": true,
+    "voice": "pm_santa",
+    "status": "awaiting-visual-review",
+    "renderInProgress": false,
+    "renderFile": "kit/projects/titanic-pilot/render/titanic-pilot-review.mp4",
+    "decodedDuration": 52.833333,
+    "audioPresent": true,
+    "humanApproved": false,
+    "editorUrl": "http://localhost:3018/#project/hyperframes",
+    "playbackVerification": {
+      "surface": "in-app-browser",
+      "visibleImage": true,
+      "playingStatus": "Reproduzindo com áudio",
+      "source": "local-rendered-mp4",
+      "rootCauseOfOriginalWhiteScreen": "not-confirmed"
+    }
+  },
+  "renderScope": "Prévia técnica do piloto, não entrega final ou longa completo",
+  "mobileSharing": {
+    "authorizationChannel": "chat",
+    "authorizationEvidence": "Sim",
+    "scope": "Apenas prévia leve e player no HyperFrames",
+    "provider": "HyperFrames",
+    "projectId": "35a58602-399f-45e0-84ba-6ef38e9af6a4",
+    "publicRequested": true,
+    "filesUploaded": 3,
+    "status": "uploaded-awaiting-account-claim",
+    "url": "https://hyperframes.dev/p/35a58602-399f-45e0-84ba-6ef38e9af6a4",
+    "playbackVerified": false,
+    "blocker": "HyperFrames exige login para claim; abertura no navegador recusada pelo controle de autorização de origem."
+  },
+  "professionalQa": {
+    "skill": "skills/revisao-profissional/SKILL.md",
+    "status": "rejected",
+    "report": "kit/projects/titanic-pilot/qa/report.json",
+    "humanApprovalGranted": false,
+    "internalCorrectionInProgress": true,
+    "lastCompletedIteration": "R4",
+    "internalArtifact": "kit/projects/titanic-pilot/qa/iterations/02/hook-r4.mp4",
+    "blockingFindings": [
+      "hook-003",
+      "art-002",
+      "animation-002",
+      "body-001"
+    ],
+    "notVerified": [
+      "escuta do mix",
+      "inspeção audiovisual contínua",
+      "restante da nova montagem"
+    ],
+    "currentIteration": "R6",
+    "resumeEvidence": "Nao entendi a nova versao so pararia quando a skill aprovar"
+  },
+  "currentIteration": "R10",
+  "internalCorrectionInProgress": false,
+  "verification": {
+    "testsPassed": 17,
+    "audioListening": "not-verified",
+    "visualReview": "R8 corrections under review",
+    "hyperframesErrors": 0,
+    "browserInspection": "R10 playback reached ended=true",
+    "audioTechnicalChecks": "-14.14 LUFS; -1.69 dBTP; active voice margin >=18.86 dB",
+    "continuousAudiovisualInspection": "not-verified"
+  },
+  "qaStatus": "not-verified",
+  "qaBlockingReason": "Entrada auditiva e percepção audiovisual contínua indisponíveis; auditoria humana real solicitada, sem inferir resposta ou aprovação.",
+  "diagnosticReview": {
+    "url": "http://127.0.0.1:4174/preview/titanic-pilot/qa-internal.html",
+    "artifact": "kit/projects/titanic-pilot/qa/iterations/03/pilot-r10.mp4",
+    "deliveryApproved": false,
+    "renderInProgress": false
+  },
+  "activeBlock": "titanic-bloco-01",
+  "blockDurationTarget": 180,
+  "creativeDirectionFeedback": {
+    "date": "2026-11-07",
+    "evidence": "Assisti melhorou muitooooo justamente esssa abordagem que preciso",
+    "meaning": "Abordagem visual validada; desenvolver edição, encenação e som. Não concede aprovação de recursos ou QA auditivo."
+  }
+}

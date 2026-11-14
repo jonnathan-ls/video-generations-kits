@@ -1,0 +1,24 @@
+{
+  "title": "The Idea",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 13,
+  "style": "line",
+  "cast": {
+    "hero": "wick"
+  },
+  "cues": {
+    "p1": 0.5,
+    "p2": 5.3
+  },
+  "music": {
+    "preset": "warm",
+    "key": "D"
+  },
+  "mix": {
+    "voice": 1.45,
+    "sfx": 0.62,
+    "music": 0.26
+  }
+}

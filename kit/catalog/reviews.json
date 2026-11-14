@@ -1,0 +1,256 @@
+{
+  "parede_hidraulica::fria": {
+    "status": "approved",
+    "note": "",
+    "revision": "8c235c7629c3c7d0",
+    "reviewedAt": "2026-11-05T03:02:17.859Z",
+    "reviewer": "usuario-local",
+    "migratedFromRevision": "316a4d16d19f0db8",
+    "migrationReason": "Mesma geometria, variações e versão Three.js; migração técnica de versão global para revisão por recurso."
+  },
+  "casa_simples::verde": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:31:55.210Z",
+    "reviewer": "usuario-local"
+  },
+  "casa_colonial::rosa": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:32:00.649Z",
+    "reviewer": "usuario-local"
+  },
+  "sobrado::cinza": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:32:39.930Z",
+    "reviewer": "usuario-local"
+  },
+  "casa_moderna::escura": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:32:46.328Z",
+    "reviewer": "usuario-local"
+  },
+  "predio_apartamentos::azul": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:32:51.424Z",
+    "reviewer": "usuario-local"
+  },
+  "ponte_viga::longa": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:33:02.583Z",
+    "reviewer": "usuario-local"
+  },
+  "arvore_frutifera::laranja": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:33:10.886Z",
+    "reviewer": "usuario-local"
+  },
+  "arvore_pinheiro::clara": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:33:16.036Z",
+    "reviewer": "usuario-local"
+  },
+  "espargidor::jorrando": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:33:23.158Z",
+    "reviewer": "usuario-local"
+  },
+  "anim_nod::": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T04:33:29.388Z",
+    "reviewer": "usuario-local"
+  },
+  "junta_dilatacao::padrao": {
+    "status": "approved",
+    "note": "",
+    "revision": "f742b7264f5fc44e",
+    "reviewedAt": "2026-11-05T04:33:38.992Z",
+    "reviewer": "usuario-local"
+  },
+  "chao::terra": {
+    "status": "approved",
+    "note": "",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T05:16:48.327Z",
+    "reviewer": "usuario-local"
+  },
+  "arco_alvenaria::padrao": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "eda066931e8374ac",
+    "reviewedAt": "2026-11-06T02:24:39.942Z",
+    "reviewer": "usuario-local"
+  },
+  "cimbra_arco::padrao": {
+    "status": "approved",
+    "note": "Aprovação explícita do criador informada pelo chat em 2026-11-05.",
+    "revision": "b8b04bda3274951d",
+    "reviewedAt": "2026-11-05T05:57:52.606Z",
+    "reviewer": "usuario-local"
+  },
+  "apoios_arco::padrao": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "1de2f3747723c4f2",
+    "reviewedAt": "2026-11-06T02:24:39.942Z",
+    "reviewer": "usuario-local"
+  },
+  "encaixe_coroamento::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "9ecdede324da9dab",
+    "reviewedAt": "2026-11-06T02:24:39.942Z",
+    "reviewer": "usuario-local"
+  },
+  "retirada_precoce_cimbra::": {
+    "status": "approved",
+    "note": "Aprovação explícita do criador informada pelo chat em 2026-11-05.",
+    "revision": "6a572c44cf01ff89",
+    "reviewedAt": "2026-11-05T05:57:52.608Z",
+    "reviewer": "usuario-local"
+  },
+  "retirada_cimbra::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "72f9303be455b137",
+    "reviewedAt": "2026-11-06T02:24:39.947Z",
+    "reviewer": "usuario-local"
+  },
+  "instabilidade_apoio_arco::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "ddd5a59292dadc25",
+    "reviewedAt": "2026-11-06T02:24:39.943Z",
+    "reviewer": "usuario-local"
+  },
+  "trajeto_compressivo_arco::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "8e4b0b82ea1a022c",
+    "reviewedAt": "2026-11-06T02:24:39.946Z",
+    "reviewer": "usuario-local"
+  },
+  "empuxo_lateral_arco::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "f2ce5abf6d2c3c73",
+    "reviewedAt": "2026-11-06T02:24:39.944Z",
+    "reviewer": "usuario-local"
+  },
+  "chao::concreto": {
+    "status": "approved",
+    "note": "Aprovação explícita do criador no chat: todos os elementos, incluindo o piso concreto, foram aprovados em 2026-11-05.",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-05T11:13:50.112Z",
+    "reviewer": "usuario-local"
+  },
+  "contexto_obra_arco::": {
+    "status": "approved",
+    "note": "Aprovação explícita do criador pelo chat em 2026-11-05; revisão visual e lista do projeto aprovadas.",
+    "revision": "484bde003507c81e",
+    "reviewedAt": "2026-11-05T11:28:12.477Z",
+    "reviewer": "usuario-local"
+  },
+  "cimbra_arco::": {
+    "status": "approved",
+    "note": "Aprovação explícita do criador pelo chat em 2026-11-05: todos os elementos do projeto foram aprovados.",
+    "revision": "b8b04bda3274951d",
+    "reviewedAt": "2026-11-05T11:31:15.596Z",
+    "reviewer": "usuario-local"
+  },
+  "arco_alvenaria::": {
+    "status": "approved",
+    "note": "Aprovação explícita do criador pelo chat em 2026-11-05: todos os elementos do projeto foram aprovados.",
+    "revision": "3e8b60293f543560",
+    "reviewedAt": "2026-11-05T11:31:15.597Z",
+    "reviewer": "usuario-local"
+  },
+  "apoios_arco::": {
+    "status": "approved",
+    "note": "Aprovação explícita do criador pelo chat em 2026-11-05: todos os elementos do projeto foram aprovados.",
+    "revision": "7df8b7e46b70e4bb",
+    "reviewedAt": "2026-11-05T11:31:15.598Z",
+    "reviewer": "usuario-local"
+  },
+  "chao::areia": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-06T02:24:39.941Z",
+    "reviewer": "usuario-local"
+  },
+  "chao::asfalto": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "a842549d9351fbc2",
+    "reviewedAt": "2026-11-06T02:24:39.941Z",
+    "reviewer": "usuario-local"
+  },
+  "argamassa_juntas_arco::padrao": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "cf0393396a47e47c",
+    "reviewedAt": "2026-11-06T02:24:39.942Z",
+    "reviewer": "usuario-local"
+  },
+  "entrada_cimbra_arco::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "a80440f66d761db9",
+    "reviewedAt": "2026-11-06T02:24:39.946Z",
+    "reviewer": "usuario-local"
+  },
+  "som_alvenaria_batida::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "74952614a470b4e4",
+    "reviewedAt": "2026-11-06T02:24:39.948Z",
+    "reviewer": "usuario-local"
+  },
+  "som_movimento::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "43edcd17293bc83e",
+    "reviewedAt": "2026-11-06T02:24:39.948Z",
+    "reviewer": "usuario-local"
+  },
+  "som_impacto::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "ad51952281919fa6",
+    "reviewedAt": "2026-11-06T02:24:39.949Z",
+    "reviewer": "usuario-local"
+  },
+  "som_madeira_creak::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-05: “De resto tudo perfeito, podemos prosseguir no fluxo”, aplicável aos elementos da prévia anterior que não foram alterados neste ajuste. O cenário contexto_arco_jardim foi excluído porque recebeu novas mudanças e será apresentado novamente.",
+    "revision": "7c367c89d7f61d4d",
+    "reviewedAt": "2026-11-06T02:24:39.949Z",
+    "reviewer": "usuario-local"
+  },
+  "contexto_arco_jardim::": {
+    "status": "approved",
+    "note": "Aprovado pelo criador no chat em 2026-11-06 ao autorizar o vídeo final: “Pode gerar o final”. A aprovação cobre a revisão atual do cenário com prédios apoiados no terreno, rua, passagem distante do sedã e a composição ampliada das legendas.",
+    "revision": "5bf15975d7a3adb1",
+    "reviewedAt": "2026-11-06T03:00:57.932Z",
+    "reviewer": "usuario-local"
+  }
+}

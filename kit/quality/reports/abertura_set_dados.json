@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceDigest": "783260bd2671f6038e11090cfc54e1060670a8066887c362d3b3435a746352a0",
+  "profileVersion": 1,
+  "ok": true,
+  "checks": [
+    {
+      "variant": "dados",
+      "meshes": 13,
+      "triangles": 268,
+      "dimensions": [
+        16,
+        9,
+        16
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "dados: recurso abaixo do chão; justificar contato no contrato.",
+    "Sem referência humana aprovada para este tipo; revisão visual explícita é necessária."
+  ],
+  "baselines": [],
+  "needsHumanReview": true,
+  "checkedAt": "2026-11-14T21:14:03.788Z"
+}

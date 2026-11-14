@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "projectId": "casa-sertao-calor",
+  "scope": "threejs-scene-preview; not-final-video-qa",
+  "artifact": {
+    "previewUrl": "http://127.0.0.1:4173/preview/casa-sertao-calor/index.html",
+    "sceneData": "kit/projects/casa-sertao-calor/beats.json",
+    "implementation": [
+      "kit/assets/sertao-heat-house.js",
+      "kit/assets/sertao-character-bedroom.js",
+      "kit/projects/casa-sertao-calor/preview/main.js",
+      "kit/projects/casa-sertao-calor/preview/style.css"
+    ],
+    "evidenceFiles": [
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/capture-index.json",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/contact-01-03.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/contact-04-06.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/contact-07-09.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/contact-10-12.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/contact-13.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/payoff-1-55.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/payoff-2-04.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/payoff-2-27.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/payoff-3-10.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/mobile-390x844.jpg",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/seek-a-2-27.png",
+      "research/frames/casa-sertao-calor-rework-20261108/refinement/final-pass/seek-b-2-27.png"
+    ]
+  },
+  "reviewedAt": "2026-11-08",
+  "reviewer": "agent preflight; creator scene and asset approval pending",
+  "status": "ready-for-creator-review",
+  "sourceFingerprint": {
+    "narrationSha256": "fb14657b981d0be1a94c4ad94fcededa29b5f6bee6f7ba222636ae8bfb408591",
+    "beatsSha256": "31ca916ef230cbc8e0ad1b42d8d80db0d65f783a83e55f9b3fb94782d50dc226"
+  },
+  "checks": [
+    {
+      "id": "narrative-beat-map",
+      "status": "pass",
+      "coverage": "Narrative fingerprint unchanged; 13/13 scenes retain their ordered beats and exact narration links. The payoff has five differentiated cuts inside its existing beat."
+    },
+    {
+      "id": "threejs-local-reference",
+      "status": "pass",
+      "coverage": "Relevant installed examples and adaptations are recorded in kit/quality/decisions.md."
+    },
+    {
+      "id": "browser-scene-review",
+      "status": "pass",
+      "coverage": "All 13 scenes and 47 shot windows were inspected in the browser: three temporal samples per shot (141 fresh captures) and contact sheets for every scene group. No browser page errors; selection, scrubbing, and pending review controls remain available."
+    },
+    {
+      "id": "complete-motion-checkpoints",
+      "status": "pass",
+      "coverage": "Preparation, action midpoint, and result/end were sampled across every shot. The payoff also has 11 event checkpoints covering fan turn, breeze arrival, blink/reaction, two-shot, and pullout. A seek-order test revisited 2.27 s after 1.55 and 3.10 s; the two 2.27 s captures matched exactly (0 changed pixels)."
+    },
+    {
+      "id": "mobile-responsive-layout",
+      "status": "pass",
+      "coverage": "At 390 × 844 CSS px, the stage measured 362 × 643.55 px (9:16) and document width stayed 390 px with no horizontal overflow; mobile capture saved."
+    },
+    {
+      "id": "asset-technical-inspection",
+      "status": "pass",
+      "coverage": "Recomputed the canonical technical inspection for all 38 Casa do Sertão resources after the implementation changes: 38/38 current, 38/38 with no technical errors. Human review remains required; no asset approval was created."
+    },
+    {
+      "id": "sound-and-voice",
+      "status": "not-verified",
+      "coverage": "Preview cues remain mapped to action times and local FX are available. Critical listening of FX and mix against an approved voice was not performed; voice is not selected and this preview is not final-video audio QA."
+    },
+    {
+      "id": "automated-suite",
+      "status": "pass",
+      "coverage": "npm test: 58 passed, 0 failed. node --check passed for preview/main.js, serta--heat-house.js, and serta--character-bedroom.js."
+    }
+  ],
+  "scenes": [
+    "cs-01-noite-teto",
+    "cs-02-sol-telha-laje",
+    "cs-03-ventilador-pessoa-laje",
+    "cs-04-telha-clara-atico",
+    "cs-05-cumeeira-sem-beiral",
+    "cs-06-caminho-ventilacao",
+    "cs-07-radiacao-ainda-passa",
+    "cs-08-manta-radiante",
+    "cs-09-la-rocha-fresta",
+    "cs-10-inercia-laje",
+    "cs-11-ventilacao-cruzada-condicional",
+    "cs-12-veneziana-sombra",
+    "cs-13-payoff-cama"
+  ],
+  "referencesConsulted": [
+    {
+      "path": "node_modules/three/examples/jsm/environments/RoomEnvironment.js",
+      "principle": "Generate a local PMREM reflection environment once and dispose the demo scene; do not reuse the demo boxes as art."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/objects/Sky.js",
+      "principle": "Atmospheric sky shader was inspected, then replaced by controlled CanvasTexture gradients when its bright horizon washed out the title."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/animation/AnimationClipCreator.js",
+      "principle": "Use keyframed temporal states; adapt scene motions to absolute deterministic sampling for seeking and out-of-order review."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "principle": "Manual inspection only; no auto-rotation is used for the scene camera."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js",
+      "principle": "Soft edges are restricted to soft furnishings; masonry, roof and cut surfaces remain planar."
+    },
+    {
+      "path": "kit/assets/casa_simples::verde@a842549d9351fbc2",
+      "principle": "Consulted for grounded silhouette and roof scale only; it does not approve this scene or its thermal layers."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/EffectComposer.js",
+      "principle": "Run local render and postprocessing steps in an explicit order; keep OutputPass last for renderer color and tone mapping."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/RenderPass.js",
+      "principle": "Render the scene beauty pass before ambient occlusion, highlights, edge smoothing and output conversion."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/GTAOPass.js",
+      "principle": "Use ambient occlusion to strengthen contact between roof, insulation, room and furniture; this adaptation renders AO at 70% stage resolution."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js",
+      "principle": "Threshold highlights and keep bloom low to preserve material color and readable dark areas."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/SMAAPass.js",
+      "principle": "Reduce edge aliasing in linear-sRGB before OutputPass; SMAA area/search textures are embedded locally as data URIs."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/ShaderPass.js and node_modules/three/examples/jsm/shaders/VignetteShader.js",
+      "principle": "Apply the existing, low-contrast vignette as a shader pass to guide focus without heavily darkening the edges."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/postprocessing/OutputPass.js",
+      "principle": "Apply ACES tone mapping and SRGB output conversion once at the end of the composer."
+    },
+    {
+      "path": "https://github.com/MengTo/Skills/blob/main/agent-skills/3d/3d-high-resolution-textures/SKILL.md",
+      "principle": "Use hero-scale texture detail, mipmaps and anisotropic filtering within a GPU budget; upscaling alone does not invent surface detail."
+    },
+    {
+      "path": "https://github.com/MengTo/Skills/blob/main/agent-skills/3d/3d-high-poly-models/SKILL.md",
+      "principle": "Separate silhouette, surface and micro detail; add geometry where the model and camera need it, then profile triangle cost."
+    },
+    {
+      "path": "https://github.com/MengTo/Skills/blob/main/agent-skills/3d/3d-retina-resolution/SKILL.md",
+      "principle": "Keep renderer pixel ratio and postprocessing dimensions synchronized and budget high-density output deliberately."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/generators/city/SidewalkGenerator.js",
+      "principle": "A simple profile can use Shape-to-ExtrudeGeometry; adapted as a shallow fan blade with restrained bevel. The city example does not supply a fan design or presentation."
+    },
+    {
+      "path": "node_modules/three/examples/jsm/generators/city/SkyscraperGenerator.js",
+      "principle": "Extruding a silhouette provides controlled solid thickness; adapted to a thin, satin-neutral blade body. The architectural proportions/materials were not reused."
+    }
+  ],
+  "findings": [
+    {
+      "id": "casa-sertao-visual-detail-gap",
+      "domain": "art-direction",
+      "severity": "P2",
+      "status": "open",
+      "observation": "The reference Reel has richer roof and character modeling, deeper material detail, and more pronounced selective light. The current preview remains a simplified, stylized cutaway.",
+      "correction": "Added local procedural surface maps, contact occlusion, controlled bloom, SMAA, neutral extruded fan blades, an oblique fan insert, cheek-contact airflow, and a timed body/face reaction with deterministic seek.",
+      "limitation": "The reused rig still reads as a simplified stylized character and remains below the Reel in face, clothing, and acting detail. No suitable approved/licensed context-specific higher-detail model is available in the local kit; creator aesthetic review is pending."
+    }
+  ],
+  "approvalState": {
+    "narrative": "approved by creator; fingerprint unchanged",
+    "scenes": "pending creator review, all 13",
+    "assets": "pending individual creator reviews, all 38",
+    "assetPlan": "pending separate creator validation",
+    "voice": "not selected",
+    "finalRender": "not requested or produced"
+  },
+  "releaseRule": "ready-for-creator-review applies to this inspected visual preview only. It does not approve scenes, assets, the asset plan, audio, voice, aesthetic direction, or a final video render. Critical FX/voice listening and creator decisions remain pending."
+}
