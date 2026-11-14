@@ -11,6 +11,8 @@ Referencie assets por ID, variante e revisão no project.json. Cada cena deriva 
 
 Componha a partir dos beats aprovados: mantenha um alvo visual principal por momento, sincronize a entrada/saída dos efeitos à explicação e reserve pausas curtas para ler cada revelação. Faça cortes quando muda a pergunta, a evidência ou o estado, sem impor cadência fixa. Cada cena declara no mínimo **5 recursos** (objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som, material, animação), **sem teto máximo**; mais recursos são bem-vindos quando servem ao acontecimento. Uma cena não pode cobrir um parágrafo/gancho com várias frases; conte cenas × unidades de fala. Confira que câmera, legendas e efeitos não cubram nem disputem o mecanismo no quadro vertical. Se um alvo, composição ou evento retornar, declare `returnVisit` ligado à cena anterior, sua função narrativa e a diferença visível; zoom, cor e ângulo sozinhos não liberam o retorno. `npm run validar` é o bloqueio de estrutura antes da exportação.
 
+Em motion 2D, não espere a peça inteira: renderize um draft de 10–30 s assim que a primeira cena existir, inspecione frames reais e só então expanda. O arquivo final é o MP4; não crie uma prévia separada para uma peça 2D.
+
 Rode `npm run validar -- projeto.json`, corrija falhas e exporte com `node kit/tools/export-hyperframes.mjs projeto.json`. O modo --preview serve para revisar recursos pendentes e deve manter sua marca visual. Nunca remover o bloqueio de produção para economizar tempo.
 
 ## Produção e correção incremental
@@ -30,6 +32,8 @@ Aplique a skill HyperFrames disponível no ambiente para check, snapshots e prev
 Abra quadros do começo, contato, corte e resultado de cada unidade explicativa. Mostre a timeline editável antes do render final. Renderize mediante pedido do arquivo ou aprovação da prévia. Valide vídeo decodificado e áudio final, não só o HTML.
 
 ## Pré-requisito de aceleração para render longo
+
+Composições **DOM/SVG 2D sem WebGL** não exigem prova de GPU. Para elas, o draft pode ser capturado por screenshot/beginframe em software; registre o modo no QA e não bloqueie a entrega por “software gpu”. A prova GPU-first abaixo vale para cenas Three.js/WebGL.
 
 O fluxo local é GPU-first. Antes de uma captura integral, faça uma prova representativa de 10–30 s com `hyperframes render --browser-gpu --gpu --no-low-memory-mode` e confirme BeginFrame. Em notebooks NVIDIA Optimus/PRIME, passe ao processo de prova e ao render integral `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`; o OpenGL do desktop pode estar na iGPU enquanto o render precisa da RTX. A prova só vale quando o log diz `browserGpuMode probe → hardware` e nomeia NVIDIA/RTX como renderer WebGL, não há erro ao criar contexto WebGL, um quadro extraído mostra a cena real e a codificação NVENC foi confirmada quando solicitada. A linha-resumo `hardware gpu`, `--browser-gpu` forçado ou `nvidia-smi` isoladamente não provam que a composição está acelerada. Use os mesmos argumentos e variáveis no render integral. `--gpu` seleciona codificação de hardware quando disponível; `--browser-gpu` acelera a composição no Chrome. `--low-memory-mode` força screenshot e desativa BeginFrame; só usar quando a memória exigir, após explicar o impacto no prazo.
 

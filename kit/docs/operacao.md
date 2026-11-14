@@ -2,6 +2,7 @@
 
 Todos os comandos desta página são executados pelo agente no terminal da máquina. Nunca pedir que o usuário os execute. A documentação de uso humano está no README, sem tarefas técnicas.
 
+- **Rota motion 2D:** ler `kit/docs/motion-2d.md`. Para HyperFrames, usar `node kit/tools/hf.mjs <comando>` (fixa a versão validada e evita o `npx` com cache somente leitura). Esta rota não abre catálogo 3D, não exige aprovação por asset e não pede prova de GPU.
 - Aplicação: `npm run studio`. A LLM verifica a resposta e abre o endereço local. Se a porta estiver ocupada pelo próprio servidor, reutilizar ou reiniciar somente o processo conhecido.
 - Iniciar projeto: `node kit/tools/start-project.mjs <id> <título>`.
 - Consultar catálogo: `npm run procurar -- <termo>`; ler `kit/catalog/RESUMO.md` antes de módulos.

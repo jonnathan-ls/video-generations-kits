@@ -18,13 +18,15 @@ Em projetos Three.js, antes do primeiro link de storyboard visual ou prévia de 
 
 ## Cadência
 
-Depois da aprovação da narrativa e do plano de cenas, execute até o próximo bloco/prévia/vídeo sem pedir confirmação a cada etapa. Corrija falhas de QA internamente e volte com o resultado consolidado. Só pare por decisão criativa ausente, autorização, bloqueio técnico real ou risco factual. Relate em poucas linhas o que foi aplicado e o resultado; o criador foca a validação final.
+Depois da aprovação da narrativa e do plano de cenas, execute até o próximo bloco/prévia/vídeo sem pedir confirmação a cada etapa. Em pedido fechado (“gere um vídeo de X”), não ofereça três narrativas nem transforme o fluxo em catálogo/aprovação: escolha a rota mais leve, produza e entregue o MP4. Corrija falhas de QA internamente e volte com o resultado consolidado. Só pare por decisão criativa ausente, autorização, bloqueio técnico real ou risco factual. Relate em poucas linhas o que foi aplicado e o resultado; o criador foca a validação final.
+
+**Pausas:** 0,25–0,45 s entre frases, 0,8–1,2 s entre parágrafos/capítulos. Longa: TTS 0,95–1,05×, silêncio entre blocos. Curta: 1,0–1,1×. Narração corrida sem pausa é P1.
 
 ## Cobertura de cenas e prévia
 
 A prévia de um trecho não é teste de conceito de uma cena. A unidade de cobertura é a fala: cada frase ou oração com acontecimento próprio recebe uma cena distinta. Um parágrafo/beat com várias frases não pode virar uma cena única; a referência é de 2 a 5 s por cena. Cada cena declara no mínimo **5 recursos**, sem limite máximo; mais recursos são bem-vindos quando servem ao acontecimento e à leitura.
 
-O QA conta cenas × unidades de fala, inspeciona todas em movimento, cortes, mobile e seek e reprova cena única para gancho multi-frase, ausência de cortes/inserções/efeitos ou menos de 5 recursos. Check técnico do HyperFrames não substitui cobertura editorial. “Provisório” ou “conceitual” não dispensa o gate. Só depois desse passe o `preview-qa.json` pode ir para `ready-for-creator-review`.
+O QA conta cenas × unidades de fala, inspeciona todas em movimento, cortes, mobile e seek e reprova cena única para gancho multi-frase, ausência de cortes/inserções/efeitos ou menos de 5 recursos. Em motion 2D, o gate é o draft renderizado e os frames; não há catálogo de assets a aprovar. Check técnico do HyperFrames não substitui cobertura editorial. “Provisório” ou “conceitual” não dispensa o gate. Só depois desse passe o `qa/report.json` (2D) ou `preview-qa.json` (3D) pode ir para revisão.
 
 Em projetos Wan2GP local, não criar storyboard visual de código nem aplicar gate de cena Three.js. A primeira composição visual é o clipe-prova real gerado pela IA, submetido ao QA profissional descrito abaixo e em `kit/docs/wan2gp-ai.md`.
 
@@ -35,6 +37,12 @@ Crie ou retome a pasta do projeto e seu state.json. Leia somente os arquivos nec
 Se o projeto usar `wan2gp-ai-video`/`wan2gp-local-ai-video`, siga `kit/docs/wan2gp-ai.md` além deste contrato. Preserve as etapas de referência, direção, estilo, som e QA profissional, mas substitua a construção de cenas e o catálogo Three.js por prompts e parâmetros Wan2GP por plano. Não pedir validação de lista de assets 3D. Use a fila nativa local, fixe modelo/pesos/configuração/seed e comece por um clipe-prova de uma ação principal. A primeira validação visual acontece no clipe renderizado. Não iniciar lotes completos antes de a prova passar no QA; não gerar imagens por código. Montagem por código fica limitada a cortes, sincronização de som e codificação.
 
 Para vídeo IA local, não criar nem executar testes unitários: eles não validam textura temporal, ação, continuidade, enquadramento ou som do artefato. A verificação obrigatória é a revisão profissional do clipe real, com inspeção a 10 fps, reprodução em movimento e escuta do mix. Um dry-run de fila comprova apenas formato/configuração, nunca qualidade estética.
+
+## Rota motion graphics 2D
+
+Quando o pedido for um vídeo fechado de mapas, documentos, tipografia, dados, arquivo ou colagem animada, use `kit/docs/motion-2d.md` em vez da rota 3D. Não abra catálogo de assets, não rode plano lexical/backlog, não exija aprovação por recurso e não peça prova de GPU para HTML/CSS/SVG sem WebGL. Voz primeiro, 5+ recursos por cena narrativa, draft renderizado cedo, MP4 + `.srt` + capa + `qa/report.json`.
+
+Para 10–20 min, use 10 capítulos de 70–110 s, 6–8 cenas por capítulo e blocos de render; não tente um arquivo monolítico com uma cena por frase de 2.000 palavras.
 
 Acione direção para narrativa, assets para mapa e backlog, qualidade para construção e inspeção, áudio para voz e contatos e render para composição. Mostre ao usuário o resultado concreto da etapa, com a próxima validação necessária. O usuário pode validar e aprovar pela aplicação ou por uma resposta explícita no chat. Ao registrar uma decisão recebida no chat, use a API/ReviewStore e anote o canal e a revisão; não infira aprovação de silêncio, elogio genérico ou existência do asset. Cada recurso e variação tem decisão própria. A validação da lista do projeto é separada das aprovações dos assets e precisa ser renovada quando o plano ou a narração mudar.
 

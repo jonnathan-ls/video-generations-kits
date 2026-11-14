@@ -20,6 +20,7 @@ Entenda tema, público e perfil visual. Se a duração for flexível, deixe o ta
 
 ## Escolha do modo narrativo
 
+- Se o pedido já é um vídeo fechado, com duração e formato definidos, produza a proposta única e execute; não abra três alternativas. O caminho curto está em `kit/docs/motion-2d.md` quando a peça for mapa/documento/tipografia.
 - Primeiro identifique se o pedido contém uma referência e qual relação o criador quer com ela. Expressões como “fiel”, “modelar a estrutura” ou “parecido na narrativa” significam adaptação estrutural fiel. Preserve, na mesma ordem, a pergunta/gancho, a progressão causal, a ordem das soluções e limitações, as revelações e a função do fechamento. Mapeie os beats da fonte para os da proposta e registre qualquer divergência necessária.
 - Nessa adaptação, produza uma proposta completa para revisão, não três histórias com motores ou ordens diferentes. “Original” significa redação e realização próprias; por si só, não autoriza alterar a estrutura que o criador pediu para preservar. Preserve também o papel do tom observado (humor, tensão, surpresa ou acolhimento) e crie novos recursos para cumpri-lo; não reutilize a piada, analogia ou frase de efeito específica da fonte. Se a precisão factual exigir remover ou corrigir uma alegação, mantenha a função e a posição do beat e anote a correção.
 - Mude o que evita cópia: texto e metáforas, personagens e detalhes de encenação, cenário, desenho visual, câmera, grafismo, música, efeitos sonoros e materiais concretos. Não replique falas, planos, piadas específicas, identidade visual ou áudio. Use fontes técnicas para validar mecanismos; popularidade não transforma a referência em fonte factual.
@@ -35,12 +36,18 @@ Entenda tema, público e perfil visual. Se a duração for flexível, deixe o ta
 - Para cada narrativa apresentada, inclua o texto integral, a estrutura e a contagem de palavras. Em adaptação fiel, inclua também o mapa de correspondência entre beats de origem e proposta, incluindo o tom/função do humor, e sinalize as alterações factuais ou criativas. Se estimar duração, marque-a como provisória até a escolha e leitura da voz.
 - Preserve cada proposta em arquivo próprio. Em modo de alternativas, aguarde o criador escolher ou combinar; em modo de adaptação fiel, aguarde sua validação explícita da proposta única. Depois, copie a versão validada para `kit/projects/<id>/narration.txt`; mudanças posteriores invalidam a cobertura lexical e o plano vinculados à narração.
 
+## Pausas de fala
+
+Antes de fechar o texto, leia em voz alta e marque onde a fala respira. Deixe 0,25–0,45 s entre frases e 0,8–1,2 s entre parágrafos/capítulos. Em peça longa, o TTS fica em 0,95–1,05×; em peça curta, 1,0–1,1×. Não use 1,15× para caber 15 min: corte texto ou aumente a duração. Uma narração corrida, sem pausa, reprova mesmo que as palavras estejam corretas.
+
+Para capítulos, escreva uma linha de cartela curta e narre o título; reserve 1,2–2,0 s de respiro entre capítulos. O tempo da pausa entra no alinhamento e na legenda.
+
 ## Barreira obrigatória antes de mostrar a narrativa
 
 Esta checagem é prévia à validação do criador. Não mostre um roteiro ou opções narrativas antes de corrigir qualquer falha abaixo:
 
 1. **Fidelidade estrutural:** comparar lado a lado a ordem dos beats de referência e da proposta; verificar pergunta/gancho, cadeia causal, sequência de falhas, soluções e limitações, revelações, payoff e função do humor ou de outro tom. Toda divergência precisa estar justificada e registrada.
-2. **Fala natural:** ler a proposta inteira como fala brasileira, incluindo perguntas e transições. Corrigir concordância, regência, preposições, artigos e referentes; garantir orações completas e conectivos ligados ao que introduzem. O registro pode ser coloquial e brincalhão, sem virar uma lista de frases curtas ou uma explicação formal distante. Evitar rótulos de personagem como “a moradora” se o interlocutor direto (“você”) é mais natural.
+2. **Fala natural e pausada:** ler a proposta inteira como fala brasileira, incluindo perguntas e transições. Corrigir concordância, regência, preposições, artigos e referentes; garantir orações completas e conectivos ligados ao que introduzem. O registro pode ser coloquial e brincalhão, sem virar uma lista de frases curtas ou uma explicação formal distante. Evitar rótulos de personagem como “a moradora” se o interlocutor direto (“você”) é mais natural. Marcar as pausas de frase e de parágrafo.
 3. **Ensino de conceitos:** para cada termo técnico, conferir a ordem: mostrar o fenômeno ou a limitação; apresentar a peça/ação; mostrar o efeito e o caminho; então nomear e explicar brevemente (“Isso se chama X”, “Isso é X”). Fazer um quadro termo → evidência antes da revisão do texto. O nome do objeto não substitui o nome do conceito, e o nome do conceito não substitui a demonstração.
 4. **Conferência final:** reler o texto integral depois das correções, atualizar contagem de palavras e mapa de beats e só então exibir. Distinguir afirmações verificadas, ressalvas, analogias e escolhas criativas.
 5. **CTA e ausência de AI slop:** confirmar que a narração inclui, em algum momento, um CTA curto e natural de inscrição no canal e curtida, sem interromper o payoff nem soar como anúncio genérico. Reprovar conversa de IA / AI slop: metacomentário de assistente, disclaimers de modelo, “como uma IA”, “enquanto modelo de linguagem”, fórmulas genéricas de texto gerado, enchimento, listas de tópicos e tom de post/chat. Corrigir antes de mostrar.

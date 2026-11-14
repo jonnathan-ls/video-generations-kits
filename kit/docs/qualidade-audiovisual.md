@@ -10,8 +10,11 @@ Fixar no plano por clipe o modelo/pesos, parâmetros nativos, seed, prompts, dur
 
 Neste ramo não são necessários testes unitários: não os criar, executar ou exigir para avaliar o vídeo. A inspeção audiovisual do artefato gerado permanece obrigatória e não pode ser substituída por automação.
 
+Em motion 2D (HTML/CSS/SVG sem WebGL), a prova de GPU não se aplica: o draft pode ser capturado por screenshot/beginframe em software. O gate é o draft renderizado e os frames inspecionados. Ver `kit/docs/motion-2d.md`.
+
 ## Fala, áudio e legenda
 
+- **Pausas:** 0,25–0,45 s entre frases e 0,8–1,2 s entre parágrafos/capítulos. Peça longa: 0,95–1,05×; curta: 1,0–1,1×. Narração corrida sem pausa é P1. O tempo de pausa entra no alinhamento, nas cenas e na legenda.
 - Revise a narração integral em voz alta como português brasileiro: frases completas, referentes claros, ortografia, concordância, regência, artigos, pronomes, preposições, conjunções e pontuação que conduza a respiração. Ligue orações quando a causalidade ou a ideia continuar; não deixe conectivos soltos por uma pausa de síntese. Faça a revisão antes de gravar e novamente sobre a transcrição alinhada; corrija também grafia de nomes, datas e termos antes de gerar legendas.
 - Inclua um CTA curto e natural convidando à inscrição no canal e à curtida. Ele pode ficar no fecho ou num respiro da narrativa, mas não interrompe o payoff, não soa como anúncio genérico e não é a única função do final.
 - Reprove AI slop / conversa de IA: metacomentário de assistente, disclaimers de modelo, “como uma IA”, “enquanto modelo de linguagem”, fórmulas genéricas (“no mundo de hoje”, “é importante ressaltar”, “em suma”, “vamos mergulhar”, “não é apenas X, é Y”), enchimento, listas de tópicos e tom de post/chat. A narração deve soar como uma pessoa contando uma história.

@@ -13,27 +13,40 @@ Aplicar estas instruções sempre que o usuário pedir roteiro, narrativa, adapt
 - Todo vídeo narrado do canal inclui, em algum momento, um CTA curto e natural convidando à inscrição no canal e à curtida. O CTA pode ficar no fecho ou num respiro da narrativa; não pode interromper o payoff, não pode soar como anúncio genérico e não pode ser a única função do final.
 - É proibido AI slop / conversa de IA: metacomentário de assistente, disclaimers de modelo, “como uma IA”, “enquanto modelo de linguagem”, fórmulas genéricas de texto gerado (“no mundo de hoje”, “é importante ressaltar”, “em suma”, “vamos mergulhar”, “não é apenas X, é Y”), enchimento, listas de tópicos, repetição de conectivos e tom de post/chat. A narração deve soar como uma pessoa contando uma história.
 - O CTA e a ausência de AI slop são checados no gate da narrativa, antes da validação humana.
+- **Pausas fazem parte da fala.** Deixe 0,25–0,45 s entre frases e 0,8–1,2 s entre parágrafos/capítulos. Em peça longa, use TTS a 0,95–1,05× e insira silêncio entre blocos; não emende 15 minutos sem respiro. Em peça curta, 1,0–1,1×; se precisar de 1,15× para caber, corte texto. Narração corrida sem pausa é P1.
 
 ## Cobertura de cenas, densidade e prévia
 
 - A unidade de cobertura é a fala: cada frase ou oração com acontecimento próprio recebe uma cena distinta. Um parágrafo ou beat com várias frases não pode virar uma cena única.
 - Referência de edição: 2 a 5 segundos por cena. Projeto novo declara `qualityPolicy.maxSceneSeconds: 8`; um plano mais longo só passa com justificativa explícita e QA de cobertura; duração longa não substitui cenas.
+- **Exceção motion 2D longo:** em peças de 10–20 min, 6–12 s por cena com pelo menos dois sub-beats; acima de 12 s só com justificativa e QA. No curta 2D, continua 2–5 s.
 - Cada cena declara no mínimo **5 recursos** (objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som etc.). **Não existe limite máximo**: mais recursos são bem-vindos quando cada um serve ao acontecimento, à leitura ou à causalidade, não como decoração.
 - Prévia de trecho não é teste de conceito de uma cena. A prévia usa a mesma granularidade, os mesmos recursos e o mesmo QA da versão final. “Provisório” descreve o estado do asset, não dispensa cobertura.
 - O QA conta cenas × unidades de fala e inspeciona todas em movimento, cortes, mobile e seek. Check técnico do HyperFrames não substitui cobertura editorial.
-- Falhas que reprovam: cena única para gancho multi-frase; asset composto engolindo a direção; pular plano lexical/recursos; marcar `ready-for-creator-review` por check técnico; aceitar “provisório” como dispensa; não comparar com o benchmark Titanic; ausência de cortes, inserções, efeitos ou transições.
+- Falhas que reprovam: cena única para gancho multi-frase; asset composto engolindo a direção; pular plano lexical/recursos na rota 3D; marcar `ready-for-creator-review` por check técnico; aceitar “provisório” como dispensa; ausência de cortes, inserções, efeitos ou transições. Na rota 2D, o benchmark é a peça curta aprovada e o contact sheet; não se exige plano lexical nem comparação com o Titanic.
 - Se o criador pedir “primeiros segundos”, isso define o recorte, não a granularidade: o trecho continua sendo uma sequência de cenas.
-- **Variedade de mundo:** cada cena declara seu `world`/set. No máximo 2 cenas consecutivas no mesmo mundo; trocar câmera, luz, zoom ou cartão não cria mundo novo. A abertura de 14 cenas tem pelo menos 4 mundos distintos. Reuso do mesmo set só passa com ação física e composição realmente distintas.
+- **Variedade de mundo:** cada cena declara seu `world`/set. No máximo 2 cenas consecutivas no mesmo mundo; trocar câmera, luz, zoom ou cartão não cria mundo novo. A abertura de 14 cenas tem pelo menos 4 mundos distintos. Reuso do mesmo set só passa com ação física e composição realmente distintas. Em longa 2D, um capítulo pode manter o mundo por várias cenas; varie composição, evento e escala dentro dele.
 - **Flicker e sobreposição:** superfícies coplanares, transparências empilhadas, cartões sobrepostos e assets no mesmo plano reprovam. Separar geometria, usar opacos ou `polygonOffset`, e reinspecionar em movimento. Um asset que pisca é P1.
 
 ## Cadência de execução
 
+- **Pedido fechado não vira processo aberto.** Se o criador pedir “gere um vídeo de X”, com duração/formato definidos, execute até o MP4; não ofereça três narrativas, não abra catálogo 3D, não peça aprovação por cena. Use a rota mais leve que entrega a ideia (`kit/docs/motion-2d.md` para mapa/documento/tipografia).
 - Depois que narrativa, plano de cenas e recursos estão aprovados, execute até o próximo artefato de entrega (bloco, prévia ou vídeo). Não peça confirmação a cada cena, bloco ou correção interna.
 - Interrompa apenas por decisão criativa ainda ausente, autorização que falte, bloqueio técnico real ou risco factual. Se um bloco falhar no QA, corrija e repita dentro do fluxo; não devolva a escolha ao criador.
 - Relate o que foi aplicado e o resultado em poucas linhas. O foco do criador é a validação do vídeo final, não a aprovação de cada microetapa.
 - Se o criador pedir um recorte (“primeiros segundos”), entregue o recorte com a mesma qualidade e siga para o restante quando o fluxo permitir; não transforme o recorte em uma sequência de pausas.
 
 O contrato compartilhado `kit/docs/qualidade-audiovisual.md` é obrigatório junto das skills da etapa: fala brasileira integralmente conectada e revisada em ortografia, concordância, regência e pontuação; legenda alinhada ao áudio e `.srt` para YouTube; capítulos narrados; uma cena visualmente distinta por beat/unidade de fala, com várias cenas por beat quando a fala tiver várias frases; cobertura de datas, cronologia, termos, siglas e palavras de impacto; motion graphics centralizados e legíveis; consulta ampla e registrada aos exemplos Three.js; luz e movimento motivados por fontes plausíveis e pelo contexto histórico/astronômico (incluindo fase lunar e horizonte); revisão em loop; nenhum texto técnico ou interface nos pixels do MP4.
+
+## Rota de produção: motion graphics 2D
+
+Quando a peça for um vídeo fechado de mapas, documentos, tipografia, dados, arquivo ou colagem animada, leia `kit/docs/motion-2d.md` e siga essa rota. A imagem vem de HTML/CSS/SVG/Canvas 2D no HyperFrames, não de geometria 3D.
+
+- Não abra catálogo 3D, não exija aprovação por asset, não rode plano lexical/backlog e não peça prova de GPU para composição DOM/SVG sem WebGL.
+- Voz primeiro: gere a narração com pausas, meça e alinhe as palavras. A timeline nasce da fala, não de uma grade fixa.
+- Cada cena narrativa declara 5+ recursos; inserts de 1–2 s podem ter 3+ com justificativa. Não há teto.
+- Renderize um draft de 10–30 s assim que a primeira cena existir e inspecione frames reais. O MP4 é a prévia; não crie uma prévia separada para uma peça 2D.
+- Entregue MP4 + `.srt` + capa + créditos + `qa/report.json`. O `preview-qa.json` e as aprovações por recurso são da rota 3D.
 
 ## Rota de produção: vídeo com IA local
 
@@ -68,7 +81,7 @@ Leia somente os contratos da etapa atual. Não carregar a biblioteca inteira nem
 
 ## Gate obrigatório para esboços e prévias visuais
 
-“Esboço”, “procedural”, “conceitual” e “sem render final” descrevem o escopo; não dispensam qualidade nem revisão antes de mostrar uma composição como pronta para avaliação. Em projetos Three.js, o gate se aplica desde o primeiro storyboard visual ou URL de prévia. Em projetos Wan2GP local, não criar storyboard visual de código: o clipe-prova real gerado pela IA é a primeira composição sujeita à revisão estética e passa pelo QA profissional.
+“Esboço”, “procedural”, “conceitual” e “sem render final” descrevem o escopo; não dispensam qualidade nem revisão antes de mostrar uma composição como pronta para avaliação. Em projetos Three.js, o gate se aplica desde o primeiro storyboard visual ou URL de prévia. Em projetos Wan2GP local, não criar storyboard visual de código: o clipe-prova real gerado pela IA é a primeira composição sujeita à revisão estética e passa pelo QA profissional. Em motion 2D, o gate é o draft renderizado e os frames inspecionados; não há catálogo de assets a aprovar.
 
 - Vincular cada cena ao beat e à fala exata que ela serve. O `visualPlan` deve explicar alvo de atenção, pergunta visual, evento, estado antes/depois, revelação de câmera e intenção sonora. Âncoras de capítulo, durações herdadas de uma referência ou uma descrição de cena não substituem a cobertura dos beats.
 - Em produções com cenas Three.js, pesquisar no kit instalado e comparar todos os exemplos diretamente pertinentes a cada mecanismo usado — câmera, luz, materiais, água/atmosfera, geometria, partículas, pós-processamento e movimento. Consultar também o asset local mais próximo. Registrar em `kit/quality/decisions.md` os caminhos exatos, princípios observados, limites e adaptações à engine; não parar na primeira referência quando a cena combina mecanismos. Se não houver exemplo equivalente, consultar a implementação local mais próxima e registrar a limitação; sem essa consulta e anotação, a prévia não passa no gate. Essa consulta não se aplica à rota de geração visual por IA local.
@@ -81,10 +94,10 @@ Leia somente os contratos da etapa atual. Não carregar a biblioteca inteira nem
 
 ## Invariantes
 
-- Consultar cada palavra e grupo contíguo de uma a três palavras. Depois fazer triagem semântica de todas as palavras e relações.
+- Consultar cada palavra e grupo contíguo de uma a três palavras. Depois fazer triagem semântica de todas as palavras e relações. **Na rota motion 2D, a shot list com 5+ recursos substitui o plano lexical**; palavras funcionais não geram catálogo.
 - Aceitar pedido a partir de sugestão de ideia, link, áudio ou narração. Para links, investigar a referência e criar narrativa original; quando o criador pedir adaptação fiel, preservar a ordem dos beats, a progressão causal, a função das revelações e o papel do tom (como humor ou suspense), mudando redação, piadas, encenação, personagens, ambiente, design visual e som. Não copiar piadas específicas nem confundir originalidade com reordenar a narrativa. Para áudio, transcrever e conferir o entendimento antes da modelagem. O usuário interage pelo chat.
 - Uma lacuna pode ser objeto, personagem, cenário, animação, efeito, transição, som, material, câmera, iluminação ou elemento gráfico. Não reduzir a análise a substantivos.
-- Registrar o backlog antes de implementar. Reutilizar recursos existentes e variações adequadas.
+- Registrar o backlog antes de implementar na rota 3D. Na rota motion 2D, registrar a shot list e o design system; não há catálogo/aprovação de assets.
 - Construir novos recursos pela engine e pelos contratos do tipo. As receitas não substituem a interpretação da LLM nem produzem um vídeo a partir de um parágrafo.
 - Usar referências humanas aprovadas como padrão de qualidade. A qualidade técnica automatizada complementa a inspeção visual, sem conceder aprovação estética.
 - Não aprovar recursos em nome do usuário, clicar em seus botões, editar reviews.json para fabricar uma aprovação ou apagar suas decisões. A migração técnica documentada preserva decisões existentes, sem criar decisões novas.

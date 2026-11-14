@@ -23,13 +23,17 @@ Transfira a estrutura, a sincronização entre fala e imagem e a função do tom
 
 ### Cobertura de cenas e densidade
 
-A unidade de cobertura é a fala, não o parágrafo. Cada frase ou oração com acontecimento próprio recebe uma cena distinta; um parágrafo/beat com várias frases não pode virar uma cena única. A referência de edição é de 2 a 5 s por cena; planos mais longos exigem justificativa e QA. Cada cena declara no mínimo **5 recursos** (objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som, material, animação), **sem limite máximo**; mais recursos são bem-vindos quando cada um serve ao acontecimento, à leitura ou à causalidade, não como decoração. Prévia de trecho usa a mesma granularidade da versão final; “provisório” ou “conceitual” não dispensa cobertura. Conte cenas × unidades de fala e inspecione todas em movimento, cortes, mobile e seek antes de chamar de pronta.
+A unidade de cobertura é a fala, não o parágrafo. Cada frase ou oração com acontecimento próprio recebe uma cena distinta; um parágrafo/beat com várias frases não pode virar uma cena única. A referência de edição é de 2 a 5 s por cena; planos mais longos exigem justificativa e QA. Em motion 2D longo, 6–12 s por cena com dois sub-beats; acima de 12 s, justificar. Cada cena declara no mínimo **5 recursos** (objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som, material, animação), **sem limite máximo**; mais recursos são bem-vindos quando cada um serve ao acontecimento, à leitura ou à causalidade, não como decoração. Prévia de trecho usa a mesma granularidade da versão final; “provisório” ou “conceitual” não dispensa cobertura. Conte cenas × unidades de fala e inspecione todas em movimento, cortes, mobile e seek antes de chamar de pronta.
 
 ### Revisão do português falado
 
 Faça a revisão integral em português brasileiro falado **antes de mostrar a primeira proposta**; repetir a leitura depois da validação, antes da voz, serve para conferir alterações finais, não para substituir a barreira inicial. Preserve fatos e progressão causal; corrija concordância, regência, preposições, artigos, pronomes, conectivos e pontuação. O registro informal continua usando frases completas: ligue causas, condições, contrastes e consequências com palavras como “quando”, “por isso”, “mas”, “embora”, “então” e “para”. Confirme que cada pergunta está gramaticalmente completa e que a resposta se liga com naturalidade ao que veio antes; não quebre a frase em fragmentos apenas para criar pausa.
 
 Leia o texto em voz alta. Ajuste frases que soem ambíguas, formais demais, difíceis de pronunciar ou com respiração ruim. Pontuação e quebras de parágrafo indicam a prosódia desejada, mas não devem separar um conectivo de sua oração nem criar uma pausa longa dentro de uma expressão. Antes de fechar a versão, confira nomes técnicos e afirmações contra as fontes do brief. Mantenha a narração aprovada e o texto enviado ao TTS idênticos; se uma escuta exigir mudança, atualize o texto e refaça alinhamento e legendas.
+
+#### Pausas
+
+Uma fala longa não é uma fala corrida. Deixe 0,25–0,45 s entre frases e 0,8–1,2 s entre parágrafos/capítulos; no TTS longo, 0,95–1,05×. Em 30 s, corte texto em vez de acelerar para 1,15×. Marque as pausas no texto e confira no alinhamento. Narração sem pausa é P1.
 
 #### CTA e AI slop
 

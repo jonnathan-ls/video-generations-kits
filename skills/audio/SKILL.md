@@ -10,11 +10,19 @@ Você é a LLM operadora do kit. Execute as ferramentas e edite os arquivos; nã
 
 Verifique a configuração de voz existente. Se não houver escolha aprovada, gere amostras por parágrafo e deixe o criador escolher. Não inferir uma voz em português a partir dos presets ingleses do stick-film. Fixe a voz antes da timeline.
 
+## Pausas e longa duração
+
+- Gere a narração por parágrafo ou grupo de frases, com 0,8–1,2 s de silêncio entre parágrafos e 1,2–2,0 s entre capítulos. Não emende todas as frases em um único take corrido.
+- Em peça longa (10–20 min), use 0,95–1,05×. Em peça curta, 1,0–1,1×. 1,15× só se o texto já foi cortado e a peça tem 30 s.
+- Preserve a pontuação que conduz a respiração; não separe um conectivo da oração seguinte. Se a pausa do sintetizador soar errada, ajuste o texto e regenere antes de alinhar.
+- Monte as tomadas com silêncio no ponto de corte e recalcule os offsets de todas as cenas, títulos, FX e legendas depois. Texto novo sobre voz antiga reprova.
+- Cheque a duração real por capítulo e a duração total. Narração corrida sem pausa é P1; ASR não aprova naturalidade nem dicção.
+
 Cada beat recebe uma palavra/instante de contato e a ação que justifica o som. Aplique impactos no contato e reserve whooshes para deslocamentos relevantes. Mantenha a voz inteligível e sons consistentes por material. O áudio é um recurso reutilizável e os tipos novos devem aparecer no catálogo e passar por revisão humana.
 
 Para legendas progressivas, alinhe o texto exato de cada take ao áudio com `kit/tools/force-align-voice.py`, depois `kit/tools/align-caption-words.mjs`. Preserve onsets, probabilidades, hashes das tomadas e avisos de coarticulação/baixa confiança. Palavra com intervalo acústico zero pode entrar no mesmo onset da seguinte em `progressive-word`; não inventar uma duração e tratá-la como medida. A distribuição proporcional é fallback identificado. A montagem mantém narração/FX separados dos pacotes visuais para uma correção sonora não disparar nova captura 3D.
 
-Antes de fixar a voz, escute a naturalidade do português: pronúncia, dicção, respiração, conectivos e pausas. Dê às perguntas uma entonação legível e faça a resposta entrar como continuação da ideia; não deixe o sintetizador separar um conectivo da oração seguinte. Se pontuação e segmentação induzirem pausa estranha, ajuste o roteiro e gere novamente antes de alinhar palavras ou legendas. Siga `kit/docs/audio.md`.
+Antes de fixar a voz, escute a naturalidade do português: pronúncia, dicção, respiração, conectivos e pausas. Em peça longa, escute pelo menos um bloco de cada capítulo; números de loudness não provam pausa nem naturalidade. Dê às perguntas uma entonação legível e faça a resposta entrar como continuação da ideia; não deixe o sintetizador separar um conectivo da oração seguinte. Se pontuação e segmentação induzirem pausa estranha, ajuste o roteiro e gere novamente antes de alinhar palavras ou legendas. Siga `kit/docs/audio.md`.
 
 Use `kit/tools/sound-preview.py` para prévias, `kit/tools/audio-bridge.py` para adaptar o projeto e os scripts originais para mix/encode. Cheque stems, margem de voz e loudness. Peça a avaliação auditiva do criador para aprovar a voz e os sons; números não avaliam naturalidade. Não atribuir medições de mixagem total a um stem de FX.
 

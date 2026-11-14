@@ -2,13 +2,37 @@
 
 Este documento orienta o agente. O usuário solicita e valida pelo chat; não executa comandos nem edita arquivos técnicos.
 
+## Rotas
+
+| Rota | Quando | Contrato |
+|---|---|---|
+| **motion-2d** | mapa, documento, tipografia, dados, arquivo, colagem animada; curta ou longa | `kit/docs/motion-2d.md` |
+| **three-js** | espaço, física, materiais, personagem ou câmera em mundo 3D | `skills/qualidade/SKILL.md` + `skills/render/SKILL.md` |
+| **wan2gp** | imagem/vídeo realista gerado por IA local | `kit/docs/wan2gp-ai.md` |
+
+Escolher a rota é a primeira decisão de produção. A rota 2D não abre catálogo de assets, não pede aprovação por recurso, não roda plano lexical e não exige prova de GPU. A rota 3D mantém esses gates. A rota Wan2GP mantém o clipe-prova real.
+
+## Caminho curto para pedido fechado
+
+Quando o criador já pediu um vídeo com duração/formato — “gere um vídeo de 30 s”, “quero uma prova de 15 min” —, o caminho é:
+
+1. contrato de saída em uma linha;
+2. narrativa + gate de fala;
+3. voz com pausas e alinhamento;
+4. shot list (cena, 5+ recursos, câmera, transição, som);
+5. primeiro corte renderizado;
+6. QA em frames;
+7. som + legenda + master.
+
+Não ofereça três narrativas, não abra catálogo 3D, não peça confirmação por cena. O próximo artefato é o MP4.
+
 ## Etapas
 
 Pedido e entendimento → fatos e referências → narrativa → gate de beats, fala e conceitos → validação humana → mapa lexical e interpretação → backlog → planejamento visual beat a beat → consulta a referências locais e baselines → construção de estudo/composição → QA obrigatório da prévia → revisão humana → voz e tempos → composição final → QA profissional do artefato → entrega.
 
-Aplicar em todas as etapas `kit/docs/qualidade-audiovisual.md`: fala brasileira conectada; legenda sincronizada pelo alinhamento e `.srt` para YouTube; títulos de capítulo narrados; cena exclusiva por beat e cobertura visual de datas, cronologia, termos, siglas e impactos; motion graphics centralizados, equilibrados e legíveis; consulta ampla aos exemplos Three.js instalados; ciclo de revisão até zerar P0/P1. Nunca capturar controles, plano visual, marca de prévia ou texto técnico nos pixels do MP4.
+Aplicar em todas as etapas `kit/docs/qualidade-audiovisual.md`: fala brasileira conectada; **pausas de 0,25–0,45 s entre frases e 0,8–1,2 s entre parágrafos/capítulos**; legenda sincronizada pelo alinhamento e `.srt` para YouTube; títulos de capítulo narrados; cena exclusiva por beat e cobertura visual de datas, cronologia, termos, siglas e impactos; motion graphics centralizados, equilibrados e legíveis; consulta ampla aos exemplos Three.js instalados quando houver 3D; ciclo de revisão até zerar P0/P1. Nunca capturar controles, plano visual, marca de prévia ou texto técnico nos pixels do MP4.
 
-O método visual depende do pipeline declarado em `state.json`. Para `wan2gp-ai-video`, substituir a construção Three.js por `kit/docs/wan2gp-ai.md`: manter análise, beats, direção, estilo, prompts, som e revisão profissional; gerar imagem e movimento nos modelos locais Wan2GP; usar código só para editar cortes, sincronizar áudio e codificar a entrega. Nesse ramo, lista/aprovação de assets 3D é não aplicável e não há testes unitários: validação é a inspeção do clipe renderizado, em movimento e com som.
+O método visual depende da rota. Para `motion-2d`, seguir `kit/docs/motion-2d.md`: HTML/CSS/SVG no HyperFrames, voz primeiro, 5+ recursos por cena narrativa, draft renderizado cedo. Para `wan2gp-ai-video`, substituir a construção Three.js por `kit/docs/wan2gp-ai.md`: manter análise, beats, direção, estilo, prompts, som e revisão profissional; gerar imagem e movimento nos modelos locais Wan2GP; usar código só para editar cortes, sincronizar áudio e codificar a entrega. Nesse ramo, lista/aprovação de assets 3D é não aplicável e não há testes unitários: validação é a inspeção do clipe renderizado, em movimento e com som.
 
 Entrada pelo chat: (1) a LLM sugere ideias e o criador escolhe; (2) um link é estudado para gerar uma narrativa original, com fontes verificadas; se o criador pedir fidelidade estrutural, a adaptação preserva a ordem dos beats e a cadeia causal, mudando sua expressão; (3) áudio ou narração enviados pelo criador são transcritos, quando necessário, e confirmados antes do plano. Para tema sem referência, ou quando o criador pedir alternativas, a direção pode comparar três estruturas. As etapas comuns começam somente depois de entender o pedido. O tema inicial pode ser construção, mas os contratos não dependem desse nicho.
 
@@ -18,21 +42,23 @@ Antes de mostrar narrativa, a LLM confere o mapa com a referência, lê o texto 
 
 ### Gate da prévia visual, inclusive esboço
 
-Qualquer storyboard ou URL de composição é um resultado para o usuário e precisa passar por QA antes de ser chamado de pronto para revisão. O rótulo “conceitual”, “temporário” ou “sem render” não reduz esse padrão. Antes de codificar uma cena Three.js, a LLM consulta exemplos locais instalados e baselines pertinentes, registra caminho, princípio e adaptação em `kit/quality/decisions.md`, e descreve cada beat em `beats.json`/`visualPlan`. Em seguida abre a prévia no navegador, percorre cada cena e motion, verifica quadro normal/celular e corrige P0/P1. Registra evidências, cobertura e findings em `kit/projects/<id>/preview-qa.json`.
+Qualquer storyboard ou URL de composição é um resultado para o usuário e precisa passar por QA antes de ser chamado de pronto para revisão. O rótulo “conceitual”, “temporário” ou “sem render” não reduz esse padrão. Em Three.js, antes de codificar uma cena, a LLM consulta exemplos locais e baselines, registra caminho, princípio e adaptação em `kit/quality/decisions.md` e descreve cada beat em `beats.json`/`visualPlan`. Em motion 2D, o gate é o draft MP4 renderizado e os frames inspecionados; não há catálogo de assets a aprovar. Em ambos, percorre cada cena e motion, verifica quadro normal/celular e corrige P0/P1. Registra evidências, cobertura e findings em `qa/report.json` (2D) ou `preview-qa.json` (3D).
 
 Sem inspeção completa, o resultado é `not-verified`; com defeito P0/P1, é `rejected`. Só um preflight completo sem bloqueadores pode ser marcado `ready-for-creator-review`, o que ainda não aprova plano, recursos ou direção estética. Um estudo reprovado só é mostrado como diagnóstico se o criador pedir diagnóstico. O parecer do vídeo final segue o contrato separado de QA profissional e requer o arquivo renderizado.
 
 ### Cadência e autonomia
 
-Depois que narrativa, plano de cenas e recursos estão aprovados, a LLM executa até o próximo artefato de entrega (bloco, prévia ou vídeo) sem pedir confirmação a cada cena ou correção. Só interrompe por decisão criativa ausente, autorização, bloqueio técnico real ou risco factual. Falha de QA é corrigida internamente e reinspecionada; não vira pergunta. Relate o aplicado e o resultado em poucas linhas; o criador valida o vídeo final, não cada microetapa.
+Depois que narrativa, plano de cenas e recursos estão aprovados, a LLM executa até o próximo artefato de entrega (bloco, prévia ou vídeo) sem pedir confirmação a cada cena ou correção. Em pedido fechado, o próximo artefato é o MP4; não transforme o pedido em três alternativas, catálogo 3D ou uma sequência de aprovações. Só interrompe por decisão criativa ausente, autorização, bloqueio técnico real ou risco factual. Falha de QA é corrigida internamente e reinspecionada; não vira pergunta. Relate o aplicado e o resultado em poucas linhas; o criador valida o vídeo final, não cada microetapa.
+
+**Timebox:** 15–30 s em 2–4 h; 60–90 s em 1 dia; 10–15 min em 2–4 dias e em blocos. Se o próximo passo não produz fala, imagem ou som, ele é planejamento; corte.
 
 ### Cobertura de cenas e densidade de recursos
 
-A unidade de cobertura é a fala, não o parágrafo. Cada frase ou oração com acontecimento próprio recebe uma cena distinta; um beat/parágrafo com várias frases não pode virar uma cena única. A referência de edição é de 2 a 5 segundos por cena; um plano mais longo só passa com justificativa explícita e QA de cobertura.
+A unidade de cobertura é a fala, não o parágrafo. Cada frase ou oração com acontecimento próprio recebe uma cena distinta; um beat/parágrafo com várias frases não pode virar uma cena única. A referência de edição é de 2 a 5 segundos por cena; um plano mais longo só passa com justificativa explícita e QA de cobertura. Em motion 2D longo, 6–12 s por cena com dois sub-beats; acima de 12 s, justificar.
 
 Cada cena declara no mínimo **5 recursos** — objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som, material, animação. **Não existe limite máximo**: quanto mais recursos úteis, melhor, desde que cada um sirva ao acontecimento, à leitura, à causalidade ou ao contato, e não seja decoração. O `project.json` de projeto novo declara `qualityPolicy.minAssetsPerScene: 5`; não há `maxAssetsPerScene`.
 
-Cada cena declara também seu `world`/set. No máximo 2 cenas consecutivas no mesmo mundo; trocar câmera/ângulo não cria mundo novo. A abertura de 14 cenas usa pelo menos 4 mundos distintos. Superfícies coplanares, transparências empilhadas e cartões sobrepostos precisam ser separados ou tornar-se opacos; asset que pisca é P1. O `project.json` declara `qualityPolicy.maxConsecutiveSameWorld: 2` e `minDistinctWorlds: 4`.
+Cada cena declara também seu `world`/set. No máximo 2 cenas consecutivas no mesmo mundo; trocar câmera/ângulo não cria mundo novo. A abertura de 14 cenas usa pelo menos 4 mundos distintos. Em longa 2D, um capítulo pode manter o mundo e variar composição/evento. Superfícies coplanares, transparências empilhadas e cartões sobrepostos precisam ser separados ou tornar-se opacos; asset que pisca é P1. O `project.json` declara `qualityPolicy.maxConsecutiveSameWorld: 2` e `minDistinctWorlds: 4`.
 
 Prévia de trecho não é teste de conceito de uma cena. A prévia usa a mesma granularidade, os mesmos recursos e o mesmo QA da versão final. “Provisório” descreve o estado do asset; não dispensa cobertura, cortes, inserções, efeitos ou transições. Se o criador pedir “primeiros segundos”, isso define o recorte, não a quantidade de cenas.
 
@@ -89,4 +115,4 @@ Composição e render interno → `skills/revisao-profissional/SKILL.md` → cor
 
 ## Pedido de longa e produção granular
 
-Uma divisão em blocos é estratégia interna, não cancelamento do longa solicitado. O progresso separa storyboard executável, construção, inspeção em movimento e vídeo capturado. O ciclo observar → corrigir → reinspecionar aplica-se a todas as cenas, às junções e à montagem completa; a entrega não para ao melhorar uma amostra. Alterações de voz exigem realinhamento e revisão dos tempos dependentes. O player acompanha o relógio da voz e permite mutá-la para gravação própria, escolher modos de legenda e registrar correções de câmera/luz por cena e instante, sem transformar solicitações em aprovações. Three.js é a prévia interativa e a direção de cena; HyperFrames é a composição temporal/captura do mesmo estado dirigido. Nenhuma dessas ferramentas substitui inspeção audiovisual do artefato final.
+Uma divisão em blocos é estratégia interna, não cancelamento do longa solicitado. O progresso separa storyboard executável, construção, inspeção em movimento e vídeo capturado. O ciclo observar → corrigir → reinspecionar aplica-se a todas as cenas, às junções e à montagem completa; a entrega não para ao melhorar uma amostra. Em motion 2D longo, usar 10 capítulos de 70–110 s, 6–8 cenas por capítulo, 8–15 s por cena e blocos de render de 2–3 capítulos; vozes e legendas são geradas por capítulo e montadas no master. Alterações de voz exigem realinhamento e revisão dos tempos dependentes. O player acompanha o relógio da voz e permite mutá-la para gravação própria, escolher modos de legenda e registrar correções de câmera/luz por cena e instante, sem transformar solicitações em aprovações. Three.js é a prévia interativa e a direção de cena; HyperFrames é a composição temporal/captura do mesmo estado dirigido. Nenhuma dessas ferramentas substitui inspeção audiovisual do artefato final.
