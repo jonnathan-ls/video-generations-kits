@@ -82,7 +82,7 @@ node kit/tools/hf.mjs snapshot <projeto>/hyperframes --at 3,9,15 -o <projeto>/qa
 node kit/tools/hf.mjs render <projeto>/hyperframes --quality delivery --fps 30 --workers 2 --output <projeto>/render/video-silent.mp4
 ```
 
-Para composição DOM/SVG 2D **sem WebGL**, não há prova de GPU a exigir. O render pode usar screenshot/beginframe em software; registre o modo no QA. A regra de GPU-first continua valendo para Three.js.
+Para composição DOM/SVG 2D **sem WebGL**, a GPU não é necessária para a lógica da cena, mas **é obrigatória para render longo**: antes de capturar mais de 60 s, rode a prova com `--browser-gpu --gpu --no-low-memory-mode` e PRIME quando houver Optimus. O sandbox de arquivos pode esconder `/dev/nvidia*`; o processo de render precisa de acesso ao dispositivo. Se o probe cair em software, pare e reporte; não inicie o master em CPU. Prova curta de QA (até 30 s) pode usar CPU com autorização explícita. Registre `hardware gpu` ou `software gpu` no QA.
 
 ## QA mínimo
 

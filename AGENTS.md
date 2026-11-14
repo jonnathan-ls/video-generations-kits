@@ -46,6 +46,7 @@ Quando a peça for um vídeo fechado de mapas, documentos, tipografia, dados, ar
 - Voz primeiro: gere a narração com pausas, meça e alinhe as palavras. A timeline nasce da fala, não de uma grade fixa.
 - Cada cena narrativa declara 5+ recursos; inserts de 1–2 s podem ter 3+ com justificativa. Não há teto.
 - Renderize um draft de 10–30 s assim que a primeira cena existir e inspecione frames reais. O MP4 é a prévia; não crie uma prévia separada para uma peça 2D.
+- **GPU em render longo:** antes de capturar mais de 60 s, faça a prova com `--browser-gpu --gpu --no-low-memory-mode` e as variáveis PRIME quando houver Optimus. O sandbox de arquivos pode esconder `/dev/nvidia*`; execute o processo de render com acesso ao dispositivo e confirme `hardware gpu`/renderer NVIDIA. Se o probe cair em software, pare e reporte; não inicie o master em CPU por conta própria. Prova curta de QA (até 30 s) pode usar CPU com autorização explícita.
 - Entregue MP4 + `.srt` + capa + créditos + `qa/report.json`. O `preview-qa.json` e as aprovações por recurso são da rota 3D.
 
 ## Rota de produção: vídeo com IA local
