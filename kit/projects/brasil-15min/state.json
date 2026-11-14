@@ -1,0 +1,45 @@
+{
+  "id": "brasil-15min",
+  "title": "As camadas do Brasil — 15 min",
+  "mode": "production",
+  "stage": "rendering",
+  "label": "Prova longa de 15 min, 9 capítulos, 58 cenas, voz pausada, trilha e 236 legendas.",
+  "decisions": {
+    "topic": "formação histórica do Brasil, de antes de 1500 ao presente",
+    "format": "1920×1080, 16:9, 30 fps, 900 s",
+    "language": "português brasileiro",
+    "narrative": "adaptação da narrativa de 10 beats do projeto brasil-camadas, com pausas de fala",
+    "visualConcept": "atlas de camadas: mapas, documentos, pinturas, dados e tipografia",
+    "pipeline": "HyperFrames 2D (HTML/CSS/SVG/GSAP), sem 3D e sem GPU",
+    "voice": "Kokoro pm_santa, 0.90×, 58 tomadas por cena/grupo, pausas de 1,2–2,2 s",
+    "music": "trilha original sintetizada em 9 seções",
+    "captions": "236 cues embutidos + .srt"
+  },
+  "approvals": {
+    "narrative": false,
+    "preview": false,
+    "finalVideo": false,
+    "deliveryRequested": true
+  },
+  "metrics": {
+    "durationSeconds": 900,
+    "scenes": 58,
+    "chapters": 9,
+    "captions": 236,
+    "voiceSeconds": 736.37,
+    "audioIntegratedLufs": -14.4,
+    "audioTruePeakDbfs": -1.5
+  },
+  "artifacts": {
+    "video": "render/brasil-15min.mp4",
+    "poster": "render/brasil-15min-poster.jpg",
+    "srt": "render/brasil-15min.srt",
+    "composition": "hyperframes/index.html",
+    "audio": "audio/mix-15min.wav",
+    "timing": "timing.json",
+    "chapters": "chapters.json",
+    "segments": "segments.json",
+    "qa": "qa/report.json"
+  },
+  "nextAction": "Concluir o render, inspecionar contact sheets e montar o master com áudio."
+}

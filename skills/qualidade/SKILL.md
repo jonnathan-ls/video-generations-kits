@@ -3,6 +3,8 @@ name: qualidade
 description: Construir e melhorar recursos reutilizáveis com a engine do kit, usando baselines aprovados e inspeção visual profissional. Aplica-se a geometria, comportamento, materiais, efeitos, câmeras, áudio e outros recursos de produção.
 ---
 
+Em **motion 2D**, leia `kit/docs/motion-2d.md` e não use a consulta Three.js, o catálogo de assets nem as aprovações por recurso. O gate é o draft MP4 renderizado, os frames e o `qa/report.json`; a cobertura de cenas, a fala, o som e a legenda continuam obrigatórios.
+
 Leia `kit/docs/qualidade.md` e só o contrato do tipo a construir. Você, LLM, executa as ferramentas e modifica os arquivos; o usuário avalia o resultado.
 Use também `kit/docs/qualidade-audiovisual.md` para composição, completude, motion, luz, legibilidade, referências e loop de revisão.
 

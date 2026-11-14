@@ -1,0 +1,442 @@
+{
+  "chapters": [
+    {
+      "id": "ch01",
+      "number": 1,
+      "title": "O país que já existia",
+      "kicker": "Antes de 1500",
+      "date": "antes de 1500",
+      "bg": "night",
+      "blockTitle": 3,
+      "blockText": 4,
+      "scenes": [
+        {
+          "template": "map",
+          "title": "Um mundo cheio de gente",
+          "kicker": "O território",
+          "map": "indigenous",
+          "stat": "milhões de pessoas"
+        },
+        {
+          "template": "map",
+          "title": "Centenas de povos",
+          "kicker": "Línguas e rotas",
+          "map": "indigenous",
+          "stat": "centenas de línguas"
+        },
+        {
+          "template": "data",
+          "title": "Não era um vazio",
+          "kicker": "População",
+          "stat": "2–5 milhões",
+          "sub": "pessoas antes de 1500",
+          "source": "estimativas historiográficas"
+        },
+        {
+          "template": "map",
+          "title": "Marajó",
+          "kicker": "Sociedades complexas",
+          "map": "amazon",
+          "stat": "sociedades de grande escala"
+        },
+        {
+          "template": "stack",
+          "title": "A diversidade já estava aqui",
+          "kicker": "Camada 1500",
+          "stat": "o país antes do país"
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "number": 2,
+      "title": "A costa entra no mapa",
+      "kicker": "1500—1530",
+      "date": "1500—1530",
+      "bg": "night",
+      "blockTitle": 5,
+      "blockText": 6,
+      "scenes": [
+        {
+          "template": "archive",
+          "title": "1500: a costa",
+          "kicker": "A chegada",
+          "image": "cabral.jpg",
+          "stamp": "Cabral"
+        },
+        {
+          "template": "map",
+          "title": "Tordesilhas",
+          "kicker": "O mapa dividido",
+          "map": "meridian",
+          "stat": "1494"
+        },
+        {
+          "template": "document",
+          "title": "Pau-brasil",
+          "kicker": "O primeiro produto",
+          "stamp": "pau-brasil",
+          "note": "madeira, corante, extração"
+        },
+        {
+          "template": "map",
+          "title": "Capitanias",
+          "kicker": "Faixas de terra",
+          "map": "capitanias",
+          "stat": "15 faixas hereditárias"
+        },
+        {
+          "template": "map",
+          "title": "Explorar, ocupar, controlar",
+          "kicker": "O projeto colonial",
+          "map": "routes",
+          "stat": "ocupação e defesa"
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "number": 3,
+      "title": "A máquina do açúcar",
+      "kicker": "Século XVI",
+      "date": "séc. XVI—XIX",
+      "bg": "desk",
+      "blockTitle": 7,
+      "blockText": 8,
+      "scenes": [
+        {
+          "template": "sugar",
+          "title": "O engenho",
+          "kicker": "Açúcar",
+          "stat": "terra, água, trabalho"
+        },
+        {
+          "template": "data",
+          "title": "4,8 milhões",
+          "kicker": "Tráfico atlântico",
+          "stat": "4,8 milhões",
+          "sub": "de africanos desembarcados no Brasil",
+          "source": "Slave Voyages"
+        },
+        {
+          "template": "map",
+          "title": "A travessia",
+          "kicker": "Atlântico",
+          "map": "atlantic",
+          "stat": "1501—1866"
+        },
+        {
+          "template": "document",
+          "title": "Pacto colonial",
+          "kicker": "A economia",
+          "stamp": "pacto colonial",
+          "note": "a colônia abastece a metrópole"
+        },
+        {
+          "template": "map",
+          "title": "Quilombos",
+          "kicker": "Resistência",
+          "map": "quilombos",
+          "stat": "Palmares · 1695"
+        }
+      ]
+    },
+    {
+      "id": "ch04",
+      "number": 4,
+      "title": "O mapa se estica",
+      "kicker": "Século XVIII",
+      "date": "séc. XVII—XVIII",
+      "bg": "night",
+      "blockTitle": 9,
+      "blockText": 10,
+      "scenes": [
+        {
+          "template": "map",
+          "title": "Bandeiras",
+          "kicker": "O interior",
+          "map": "bandeiras",
+          "stat": "São Paulo → sertão"
+        },
+        {
+          "template": "map",
+          "title": "Gado e missões",
+          "kicker": "Ocupação",
+          "map": "interior",
+          "stat": "gado · missões · vilas"
+        },
+        {
+          "template": "gold",
+          "title": "Ouro",
+          "kicker": "Minas Gerais",
+          "stat": "séc. XVIII"
+        },
+        {
+          "template": "timeline",
+          "title": "1763",
+          "kicker": "A capital se muda",
+          "items": [
+            "1700",
+            "1750",
+            "1763",
+            "1777",
+            "1789"
+          ]
+        },
+        {
+          "template": "document",
+          "title": "Uti possidetis",
+          "kicker": "A terra de quem ocupa",
+          "stamp": "uti possidetis",
+          "note": "tratados de Madri e Santo Ildefonso"
+        }
+      ]
+    },
+    {
+      "id": "ch05",
+      "number": 5,
+      "title": "A coroa muda de endereço",
+      "kicker": "1808—1840",
+      "date": "1808—1840",
+      "bg": "linen",
+      "blockTitle": 11,
+      "blockText": 12,
+      "scenes": [
+        {
+          "template": "map",
+          "title": "A corte no Rio",
+          "kicker": "1808",
+          "map": "rio",
+          "stat": "a colônia vira sede"
+        },
+        {
+          "template": "data",
+          "title": "1815",
+          "kicker": "Reino Unido",
+          "stat": "1815",
+          "sub": "Portugal, Brasil e Algarves",
+          "source": "elevação do Brasil"
+        },
+        {
+          "template": "archive",
+          "title": "1822",
+          "kicker": "Independência",
+          "image": "independencia.jpg",
+          "stamp": "independência"
+        },
+        {
+          "template": "document",
+          "title": "1824",
+          "kicker": "A Constituição do Império",
+          "stamp": "voto censitário",
+          "note": "uma pequena parte da população vota"
+        },
+        {
+          "template": "map",
+          "title": "Revoltas",
+          "kicker": "Regência",
+          "map": "revolts",
+          "stat": "Cabanagem · Farroupilha · Malês"
+        }
+      ]
+    },
+    {
+      "id": "ch06",
+      "number": 6,
+      "title": "A liberdade sem terra",
+      "kicker": "1850—1889",
+      "date": "1850—1889",
+      "bg": "desk",
+      "blockTitle": 13,
+      "blockText": 14,
+      "scenes": [
+        {
+          "template": "timeline",
+          "title": "Abolição gradual",
+          "kicker": "Leis",
+          "items": [
+            "1850",
+            "1871",
+            "1885",
+            "1888"
+          ]
+        },
+        {
+          "template": "document",
+          "title": "1888",
+          "kicker": "Lei Áurea",
+          "image": "lei-aurea.jpg",
+          "stamp": "abolição"
+        },
+        {
+          "template": "document",
+          "title": "Sem terra",
+          "kicker": "O que não veio",
+          "stamp": "sem terra",
+          "note": "sem indenização, sem terra, sem integração"
+        },
+        {
+          "template": "archive",
+          "title": "1889",
+          "kicker": "República",
+          "image": "republica.jpg",
+          "stamp": "república"
+        },
+        {
+          "template": "map",
+          "title": "Coronelismo",
+          "kicker": "O poder local",
+          "map": "coronelismo",
+          "stat": "oligarquias"
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "number": 7,
+      "title": "O país acelera",
+      "kicker": "1930—1985",
+      "date": "1930—1985",
+      "bg": "night",
+      "blockTitle": 15,
+      "blockText": 16,
+      "scenes": [
+        {
+          "template": "archive",
+          "title": "1930",
+          "kicker": "Vargas",
+          "image": "vargas.jpg",
+          "stamp": "Vargas"
+        },
+        {
+          "template": "archive",
+          "title": "1960",
+          "kicker": "Brasília",
+          "image": "brasilia-1959.jpg",
+          "stamp": "Brasília"
+        },
+        {
+          "template": "document",
+          "title": "AI-5",
+          "kicker": "1968",
+          "stamp": "silêncio",
+          "note": "censura, tortura, desaparecimentos"
+        },
+        {
+          "template": "montage",
+          "title": "Diretas",
+          "kicker": "1984",
+          "images": [
+            "diretas.jpg"
+          ],
+          "stat": "milhões nas ruas"
+        },
+        {
+          "template": "data",
+          "title": "1985",
+          "kicker": "Transição",
+          "stat": "1985",
+          "sub": "Tancredo Neves eleito indiretamente",
+          "source": "Nova República"
+        }
+      ]
+    },
+    {
+      "id": "ch08",
+      "number": 8,
+      "title": "A Constituição vira camada",
+      "kicker": "1988",
+      "date": "1988",
+      "bg": "night",
+      "blockTitle": 17,
+      "blockText": 18,
+      "scenes": [
+        {
+          "template": "document",
+          "title": "1988",
+          "kicker": "Constituição Cidadã",
+          "stamp": "1988",
+          "note": "saúde, educação, assistência, previdência"
+        },
+        {
+          "template": "data",
+          "title": "Direitos",
+          "kicker": "O novo campo",
+          "stat": "direitos",
+          "sub": "saúde, educação, voto, assistência",
+          "source": "Constituição de 1988"
+        },
+        {
+          "template": "map",
+          "title": "Indígenas e quilombolas",
+          "kicker": "Reconhecimento",
+          "map": "indigenous",
+          "stat": "direitos territoriais"
+        },
+        {
+          "template": "stack",
+          "title": "Redemocratização",
+          "kicker": "Nova camada",
+          "stat": "1988"
+        },
+        {
+          "template": "data",
+          "title": "SUS",
+          "kicker": "Saúde como direito",
+          "stat": "SUS",
+          "sub": "Sistema Único de Saúde",
+          "source": "Constituição de 1988"
+        }
+      ]
+    },
+    {
+      "id": "ch09",
+      "number": 9,
+      "title": "A camada que falta",
+      "kicker": "2022—hoje",
+      "date": "2022—hoje",
+      "bg": "night",
+      "blockTitle": 19,
+      "blockText": 20,
+      "scenes": [
+        {
+          "template": "map",
+          "title": "2022",
+          "kicker": "O mapa de hoje",
+          "map": "today",
+          "stat": "203 milhões"
+        },
+        {
+          "template": "data",
+          "title": "203 milhões",
+          "kicker": "Censo 2022",
+          "stat": "203 milhões",
+          "sub": "habitantes",
+          "source": "IBGE"
+        },
+        {
+          "template": "data",
+          "title": "55,5%",
+          "kicker": "Diversidade",
+          "stat": "55,5%",
+          "sub": "pretos e pardos",
+          "source": "Censo 2022"
+        },
+        {
+          "template": "data",
+          "title": "391 etnias",
+          "kicker": "Povos indígenas",
+          "stat": "391",
+          "sub": "etnias · 295 línguas",
+          "source": "Censo 2022"
+        },
+        {
+          "template": "stack",
+          "title": "Camadas",
+          "kicker": "O país inacabado",
+          "stat": "próxima camada"
+        }
+      ]
+    }
+  ]
+}

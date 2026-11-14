@@ -3,6 +3,8 @@ name: revisao-profissional
 description: Revisar e corrigir vídeos de animação antes de apresentar prévias ou entregar arquivos, com barreiras de direção, gancho, movimento, arte, FX, voz, som e reprodução. Reprova por evidências e mantém ciclo de correção sem substituir a decisão criativa do usuário.
 ---
 
+Em **motion 2D**, o parecer usa o MP4 final e o `qa/report.json`: inspecione frames, cortes, legendas, pausas e áudio; não exija assets 3D, `preview-qa.json` nem aprovação por recurso. O restante dos critérios de direção, cobertura e reprodução continua.
+
 Leia `references/criterios.md` e, para narrativa com edição densa ou produção por blocos, `references/edicao-narrativa.md`. Leia o brief, as referências efetivamente inspecionadas e as decisões do projeto. O usuário pode escolher revisão dos recursos diretamente em cena; não exigir lista textual que ele dispensou.
 Aplicar também `kit/docs/qualidade-audiovisual.md`; bloquear plano repetido, cobertura visual incompleta, fala desconectada, legenda fora de sincronia, capítulo sem narração ou motion gráfico sem leitura suficiente.
 
