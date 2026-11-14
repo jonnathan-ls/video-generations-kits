@@ -110,3 +110,11 @@ Para composição DOM/SVG 2D **sem WebGL**, não há prova de GPU a exigir. O re
 - Voz corrida sem pausas; texto novo sobre voz antiga.
 - Render por software em 3D sem decisão explícita; ou provar GPU para um HTML 2D.
 - Entregar HTML/prévia e chamar de vídeo; a entrega é o MP4 + SRT + capa.
+
+## Caso real — novembro de 2026
+
+**30 s:** 16 cenas, 1,875 s em média, 85 palavras, voz a 1,15×, 5 imagens de arquivo, 20 efeitos, 11 cues de legenda. O que fez diferença: voz primeiro, uma metáfora visual (atlas), 5+ recursos por cena, arquivo real e render de 2 min por 30 s.
+
+**15 min:** 9 capítulos, 58 cenas, 15,5 s em média, 736 s de voz + pausas até 900 s, voz a 0,90×, 236 cues, 58 cues de SFX, 7 imagens de arquivo. O que funcionou: templates por capítulo, mapas/dados/documentos, pausas de 1,2–2,2 s entre grupos, render único de 900 s. O que ficou pendente: cenas de 19–24 s pedem sub-beats ou divisão; a foto de Diretas é pequena; a legenda foi proporcional ao grupo, não alinhada por palavra; o primeiro frame tem 0,4 s de silêncio visual.
+
+**Lição:** a rota 2D escala quando o conteúdo é template + dados + arquivo. O gargalo não é o render; é a decisão de quantas cenas cada grupo de fala merece. Em 15 min, 58 cenas é o mínimo para não virar slideshow; 75–90 cenas é o alvo confortável.
