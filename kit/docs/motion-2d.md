@@ -50,21 +50,22 @@ Uma narração corrida, sem pausa, é P1. O vídeo pode ter 16 cenas por segundo
 - A unidade é a fala, não o parágrafo. Um parágrafo com quatro frases não é uma cena.
 - **Cena narrativa:** 5+ recursos (objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som, material, animação). Sem teto.
 - **Insert / cartela / transição:** 3+ recursos com justificativa; um insert de 0,8 s não precisa de 5 elementos se o acontecimento é um flash.
-- **Duração:** 2–5 s por cena no curta; 6–12 s no longa, com movimento interno e pelo menos dois sub-beats. Acima de 12 s só com justificativa e QA.
+- **Duração:** 3–5 s por cena, sempre. Se a fala durar mais, divida em 2–4 cenas. Não existe “cena longa” no longa; 15 min = 180–300 cenas. Plano acima de 5 s reprova.
+- **Sem template:** cada cena tem composição, enquadramento, fundo, movimento e função próprios. Reutilizar o mesmo layout com texto/cor/zoom diferente reprova. Assets podem repetir; a cena, não.
 - **Mundos:** varie o set. Não use o mesmo arranjo com zoom/cor diferente como se fosse cena nova. No longa, cada capítulo tem um mundo predominante e 2–3 variações.
 - **Texto na tela:** data, sigla e termo de impacto recebem tratamento próprio. Não cubra o mecanismo com cartão genérico.
 
 ## Longa duração
 
-Para 10–20 min, não tente uma cena por frase do texto inteiro em um único arquivo monolítico. Use capítulos e blocos:
+Para 10–20 min, produza em **blocos de 90 s** e não renderize o master antes de o bloco passar:
 
-- **10 capítulos** de 70–110 s.
-- **6–8 cenas por capítulo** (60–80 cenas no total), 8–15 s cada.
-- **Blocos de render** de 2–3 capítulos; o master é montado depois.
-- **Voz** gerada por parágrafo/capítulo, com pausas; alinhamento e `.srt` no master.
-- **Template por capítulo:** mapa, documento, pintura, dados, retrato, linha do tempo, cartela, montagem. Repita o template com conteúdo e composição diferentes; não repita o mesmo evento.
-- **Transições:** no máximo 3–5 tipos, com causa visível. Corte seco é permitido; dip e flash são pontuação, não enfeite.
-- **QA:** inspecione um frame por cena, cortes, capítulos e o master. Um contact sheet de 1 fps ajuda a achar repetição e flicker.
+- **Bloco de 90 s:** 18–30 cenas de 3–5 s.
+- **15 min:** 10 blocos, 180–300 cenas. Cada cena é dirigida; não existe “template de capítulo”.
+- **Voz:** por frase/grupo curto, com pausas; a cena acompanha a fala.
+- **Cada cena:** composição, enquadramento, fundo, movimento, entrada/saída e som próprios. Assets podem repetir; layout e evento não.
+- **Transições:** 3–5 tipos com causa visível; corte seco dentro do bloco, dip/flash só na junção.
+- **QA do bloco:** contact sheet de 1 fps, frames de cada cena, cortes, áudio e legenda. Só depois de passar o bloco se escala para o próximo.
+- **Proibido:** 58 cenas de 15–24 s, mapas estáticos, um push + um fade por cena, sequência de cartões iguais. Isso é slideshow, não motion graphics.
 
 ## Assets e licenças
 

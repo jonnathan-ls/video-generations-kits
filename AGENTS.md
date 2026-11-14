@@ -18,8 +18,9 @@ Aplicar estas instruções sempre que o usuário pedir roteiro, narrativa, adapt
 ## Cobertura de cenas, densidade e prévia
 
 - A unidade de cobertura é a fala: cada frase ou oração com acontecimento próprio recebe uma cena distinta. Um parágrafo ou beat com várias frases não pode virar uma cena única.
-- Referência de edição: 2 a 5 segundos por cena. Projeto novo declara `qualityPolicy.maxSceneSeconds: 8`; um plano mais longo só passa com justificativa explícita e QA de cobertura; duração longa não substitui cenas.
-- **Exceção motion 2D longo:** em peças de 10–20 min, 6–12 s por cena com pelo menos dois sub-beats; acima de 12 s só com justificativa e QA. No curta 2D, continua 2–5 s.
+- **Cena curta e em movimento:** 3 a 5 segundos por cena, sem exceção para peça longa. Se a fala durar mais, divida em 2–4 cenas. Nenhuma cena pode ficar estática: câmera, objeto, mapa, overlay, corte interno, transição ou som precisa mudar dentro da janela. Plano acima de 5 s reprova.
+- **Sem template:** cada cena tem composição, enquadramento, fundo, movimento e função próprios. Reutilizar o mesmo layout com texto, cor ou zoom diferente reprova. Assets podem ser reutilizados; a cena, não.
+- **Bloco de 90 s:** vídeo longo 2D é produzido em blocos de 90 s, com 18–30 cenas por bloco e QA antes de escalar. Nunca renderizar 15 min antes de um bloco passar no gate.
 - Cada cena declara no mínimo **5 recursos** (objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som etc.). **Não existe limite máximo**: mais recursos são bem-vindos quando cada um serve ao acontecimento, à leitura ou à causalidade, não como decoração.
 - Prévia de trecho não é teste de conceito de uma cena. A prévia usa a mesma granularidade, os mesmos recursos e o mesmo QA da versão final. “Provisório” descreve o estado do asset, não dispensa cobertura.
 - O QA conta cenas × unidades de fala e inspeciona todas em movimento, cortes, mobile e seek. Check técnico do HyperFrames não substitui cobertura editorial.
