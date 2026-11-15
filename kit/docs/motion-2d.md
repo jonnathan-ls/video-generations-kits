@@ -50,7 +50,7 @@ Uma narração corrida, sem pausa, é P1. O vídeo pode ter 16 cenas por segundo
 - A unidade é a fala, não o parágrafo. Um parágrafo com quatro frases não é uma cena.
 - **Cena narrativa:** 5+ recursos (objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som, material, animação). Sem teto.
 - **Insert / cartela / transição:** 3+ recursos com justificativa; um insert de 0,8 s não precisa de 5 elementos se o acontecimento é um flash.
-- **Duração:** 3–5 s por cena, sempre. Se a fala durar mais, divida em 2–4 cenas. Não existe “cena longa” no longa; 15 min = 180–300 cenas. Plano acima de 5 s reprova.
+- **Duração:** 1–2,5 s por cena em montagem de alta densidade; 3 s é o teto absoluto para uma pausa de leitura. Se a fala durar mais, divida em 2–4 cenas. 15 min = 300–600 cenas. O alvo é o ritmo do curta de 30 s (16 cenas, média 1,9 s), não um documentário de planos longos.
 - **Sem template:** cada cena tem composição, enquadramento, fundo, movimento e função próprios. Reutilizar o mesmo layout com texto/cor/zoom diferente reprova. Assets podem repetir; a cena, não.
 - **Mundos:** varie o set. Não use o mesmo arranjo com zoom/cor diferente como se fosse cena nova. No longa, cada capítulo tem um mundo predominante e 2–3 variações.
 - **Texto na tela:** data, sigla e termo de impacto recebem tratamento próprio. Não cubra o mecanismo com cartão genérico.
@@ -59,13 +59,13 @@ Uma narração corrida, sem pausa, é P1. O vídeo pode ter 16 cenas por segundo
 
 Para 10–20 min, produza em **blocos de 90 s** e não renderize o master antes de o bloco passar:
 
-- **Bloco de 90 s:** 18–30 cenas de 3–5 s.
-- **15 min:** 10 blocos, 180–300 cenas. Cada cena é dirigida; não existe “template de capítulo”.
+- **Bloco de 90 s:** 35–60 cenas de 1–2,5 s.
+- **15 min:** 10 blocos, 300–600 cenas. Cada cena é dirigida; não existe “template de capítulo”.
 - **Voz:** por frase/grupo curto, com pausas; a cena acompanha a fala.
 - **Cada cena:** composição, enquadramento, fundo, movimento, entrada/saída e som próprios. Assets podem repetir; layout e evento não.
 - **Transições:** 3–5 tipos com causa visível; corte seco dentro do bloco, dip/flash só na junção.
 - **QA do bloco:** contact sheet de 1 fps, frames de cada cena, cortes, áudio e legenda. Só depois de passar o bloco se escala para o próximo.
-- **Proibido:** 58 cenas de 15–24 s, mapas estáticos, um push + um fade por cena, sequência de cartões iguais. Isso é slideshow, não motion graphics.
+- **Proibido:** 58 cenas de 15–24 s, mapas estáticos, um push + um fade por cena, sequência de cartões iguais. Isso é slideshow, não motion graphics. Também reprova um bloco de 90 s com 20–24 cenas de 4 s; o alvo é 35–60 cortes, com zooms, referências, efeitos e SFX.
 
 ## Assets e licenças
 

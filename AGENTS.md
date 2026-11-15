@@ -18,9 +18,11 @@ Aplicar estas instruções sempre que o usuário pedir roteiro, narrativa, adapt
 ## Cobertura de cenas, densidade e prévia
 
 - A unidade de cobertura é a fala: cada frase ou oração com acontecimento próprio recebe uma cena distinta. Um parágrafo ou beat com várias frases não pode virar uma cena única.
-- **Cena curta e em movimento:** 3 a 5 segundos por cena, sem exceção para peça longa. Se a fala durar mais, divida em 2–4 cenas. Nenhuma cena pode ficar estática: câmera, objeto, mapa, overlay, corte interno, transição ou som precisa mudar dentro da janela. Plano acima de 5 s reprova.
+- **Cena curta e em movimento:** 1 a 2,5 segundos por cena em montagem de alta densidade; 3 s é o teto absoluto e só para uma pausa de leitura. Se a fala durar mais, divida em 2–4 cenas. Nenhuma cena pode ficar estática: câmera, objeto, mapa, overlay, corte interno, transição ou som precisa mudar dentro da janela.
+- **Referência de ritmo:** o curta de 30 s tinha 16 cenas e média de 1,9 s; o alvo é essa sensação de corte rápido, com o cérebro tentando alcançar a imagem. Um bloco de 90 s tem 35–60 cenas; 15 min tem 300–600.
 - **Sem template:** cada cena tem composição, enquadramento, fundo, movimento e função próprios. Reutilizar o mesmo layout com texto, cor ou zoom diferente reprova. Assets podem ser reutilizados; a cena, não.
-- **Bloco de 90 s:** vídeo longo 2D é produzido em blocos de 90 s, com 18–30 cenas por bloco e QA antes de escalar. Nunca renderizar 15 min antes de um bloco passar no gate.
+- **Imagem de referência, zoom, efeito e animação:** cada bloco inclui arquivo/pintura/foto quando houver referente, zooms e movimentos de câmera, overlays, transições e FX. Não é slideshow com um push.
+- **Bloco de 90 s:** produzir e validar 35–60 cenas antes de escalar. Nunca renderizar 15 min antes de um bloco passar no gate.
 - Cada cena declara no mínimo **5 recursos** (objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som etc.). **Não existe limite máximo**: mais recursos são bem-vindos quando cada um serve ao acontecimento, à leitura ou à causalidade, não como decoração.
 - Prévia de trecho não é teste de conceito de uma cena. A prévia usa a mesma granularidade, os mesmos recursos e o mesmo QA da versão final. “Provisório” descreve o estado do asset, não dispensa cobertura.
 - O QA conta cenas × unidades de fala e inspeciona todas em movimento, cortes, mobile e seek. Check técnico do HyperFrames não substitui cobertura editorial.

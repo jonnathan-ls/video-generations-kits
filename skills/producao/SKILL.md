@@ -42,7 +42,7 @@ Para vídeo IA local, não criar nem executar testes unitários: eles não valid
 
 Quando o pedido for um vídeo fechado de mapas, documentos, tipografia, dados, arquivo ou colagem animada, use `kit/docs/motion-2d.md` em vez da rota 3D. Não abra catálogo de assets, não rode plano lexical/backlog, não exija aprovação por recurso e não peça prova de GPU para HTML/CSS/SVG sem WebGL. Voz primeiro, 5+ recursos por cena narrativa, draft renderizado cedo, MP4 + `.srt` + capa + `qa/report.json`.
 
-Para 10–20 min, use blocos de 90 s, 18–30 cenas por bloco, 3–5 s por cena; não tente um arquivo monolítico nem uma cena por grupo de 40–55 palavras. Cada cena tem composição/movimento próprios; template repetido reprova.
+Para 10–20 min, use blocos de 90 s, 35–60 cenas por bloco, 1–2,5 s por cena; não tente um arquivo monolítico nem uma cena por grupo de 40–55 palavras. Cada cena tem composição/movimento próprios; template repetido reprova.
 
 Acione direção para narrativa, assets para mapa e backlog, qualidade para construção e inspeção, áudio para voz e contatos e render para composição. Mostre ao usuário o resultado concreto da etapa, com a próxima validação necessária. O usuário pode validar e aprovar pela aplicação ou por uma resposta explícita no chat. Ao registrar uma decisão recebida no chat, use a API/ReviewStore e anote o canal e a revisão; não infira aprovação de silêncio, elogio genérico ou existência do asset. Cada recurso e variação tem decisão própria. A validação da lista do projeto é separada das aprovações dos assets e precisa ser renovada quando o plano ou a narração mudar.
 

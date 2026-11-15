@@ -54,7 +54,7 @@ Depois que narrativa, plano de cenas e recursos estão aprovados, a LLM executa 
 
 ### Cobertura de cenas e densidade de recursos
 
-A unidade de cobertura é a fala, não o parágrafo. Cada frase ou oração com acontecimento próprio recebe uma cena distinta; um beat/parágrafo com várias frases não pode virar uma cena única. **3 a 5 segundos por cena, sempre; acima de 5 s reprova.** Peça longa é feita em blocos de 90 s, com 18–30 cenas por bloco. Cada cena tem composição/movimento próprios; reutilizar layout com texto/cor/zoom diferente reprova.
+A unidade de cobertura é a fala, não o parágrafo. Cada frase ou oração com acontecimento próprio recebe uma cena distinta; um beat/parágrafo com várias frases não pode virar uma cena única. **1 a 2,5 segundos por cena em alta densidade; 3 s é o teto.** Peça longa é feita em blocos de 90 s, com 35–60 cenas por bloco. Cada cena tem composição/movimento próprios; reutilizar layout com texto/cor/zoom diferente reprova.
 
 Cada cena declara no mínimo **5 recursos** — objeto/cenário, personagem/ação, câmera, luz, overlay/efeito, transição, som, material, animação. **Não existe limite máximo**: quanto mais recursos úteis, melhor, desde que cada um sirva ao acontecimento, à leitura, à causalidade ou ao contato, e não seja decoração. O `project.json` de projeto novo declara `qualityPolicy.minAssetsPerScene: 5`; não há `maxAssetsPerScene`.
 
